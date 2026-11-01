@@ -63,12 +63,12 @@ export default function SearchBox({ value, onChange }) {
         <div
           id="search-suggestions"
           role="listbox"
-          className="absolute inset-x-0 top-full z-40 mt-2 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl dark:border-slate-700 dark:bg-slate-900"
+          className="absolute inset-x-0 top-full z-40 mt-2 flex max-h-[min(28rem,60dvh)] flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl dark:border-slate-700 dark:bg-slate-900"
         >
           {results.length ? (
             <>
-              <p className="px-4 pt-3 pb-1 text-xs font-semibold text-slate-400 uppercase">{t.suggestionsTitle}</p>
-              <ul>
+              <p className="shrink-0 px-4 pt-3 pb-1 text-xs font-semibold text-slate-400 uppercase">{t.suggestionsTitle}</p>
+              <ul className="min-h-0 flex-1 overflow-y-auto overscroll-contain">
                 {results.map((r, i) => {
                   const cat = CATEGORIES.find(c => c.id === r.food.cat);
                   return (
@@ -77,24 +77,24 @@ export default function SearchBox({ value, onChange }) {
                         type="button"
                         onMouseEnter={() => setActive(i)}
                         onClick={() => go(r.food)}
-                        className={`flex w-full items-center gap-3 px-4 py-2.5 text-left transition ${
+                        className={`flex w-full items-center gap-3 px-3 py-2.5 sm:px-4 text-left transition ${
                           i === active ? "bg-brand-50 dark:bg-slate-800" : ""
                         }`}
                       >
-                        <FoodImage food={r.food} className="h-11 w-11 shrink-0 rounded-lg" />
+                        <FoodImage food={r.food} className="h-10 w-10 shrink-0 rounded-lg sm:h-11 sm:w-11" />
                         <span className="min-w-0 flex-1">
                           <span className="block truncate font-semibold">{name(r.food)}</span>
                           <span className="block truncate text-xs text-slate-500 dark:text-slate-400">
                             {r.snippet ? r.snippet[lang] : cat[lang]}
                           </span>
                         </span>
-                        <span className="shrink-0 text-xs text-slate-400">{fmt(r.food.n.calories)} {t.kcal}</span>
+                        <span className="shrink-0 text-xs whitespace-nowrap text-slate-400">{fmt(r.food.n.calories)} {t.kcal}</span>
                       </button>
                     </li>
                   );
                 })}
               </ul>
-              <p className="flex items-center gap-1.5 border-t border-slate-100 px-4 py-2 text-xs text-slate-400 dark:border-slate-800"><CornerDownLeft className="h-3.5 w-3.5" aria-hidden="true" /> {t.pressEnter}</p>
+              <p className="hidden shrink-0 items-center gap-1.5 border-t border-slate-100 px-4 py-2 text-xs sm:flex text-slate-400 dark:border-slate-800"><CornerDownLeft className="h-3.5 w-3.5" aria-hidden="true" /> {t.pressEnter}</p>
             </>
           ) : (
             <p className="px-4 py-4 text-sm text-slate-500">{t.noResults}</p>
