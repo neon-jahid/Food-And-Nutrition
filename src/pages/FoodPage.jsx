@@ -69,7 +69,7 @@ export default function FoodPage({ compare, onToggleCompare }) {
       <div className="mx-auto max-w-6xl px-4 py-24 text-center">
         <p className="flex justify-center"><Utensils className="h-12 w-12 text-slate-400" aria-hidden="true" /></p>
         <p className="mt-4 text-lg">{t.notFound}</p>
-        <Link to="/" className="mt-6 inline-flex items-center gap-1.5 font-semibold text-brand-600 hover:underline"><ArrowLeft className="h-4 w-4" aria-hidden="true" /> {t.backHome}</Link>
+        <Link to="/foods" className="mt-6 inline-flex items-center gap-1.5 font-semibold text-brand-600 hover:underline"><ArrowLeft className="h-4 w-4" aria-hidden="true" /> {t.backHome}</Link>
       </div>
     );
   }
@@ -103,11 +103,11 @@ export default function FoodPage({ compare, onToggleCompare }) {
       <nav className="flex flex-wrap items-center gap-1.5 py-5 text-sm text-slate-500 dark:text-slate-400" aria-label="Breadcrumb">
         <Link to="/" className="hover:text-brand-600">{t.home}</Link>
         <span>/</span>
-        <Link to={`/?cat=${cat.id}`} className="hover:text-brand-600">{cat[lang]}</Link>
+        <Link to={`/foods?cat=${cat.id}`} className="hover:text-brand-600">{cat[lang]}</Link>
         <span>/</span>
         {group && (
           <>
-            <Link to={`/?cat=${cat.id}&sub=${group.id}`} className="hover:text-brand-600">{group[lang]}</Link>
+            <Link to={`/foods?cat=${cat.id}&sub=${group.id}`} className="hover:text-brand-600">{group[lang]}</Link>
             <span>/</span>
           </>
         )}
@@ -150,7 +150,7 @@ export default function FoodPage({ compare, onToggleCompare }) {
         </figure>
 
         <div>
-          <Link to={`/?cat=${cat.id}`} className="inline-flex items-center gap-1.5 rounded-full bg-brand-50 px-3 py-1 text-sm font-medium text-brand-700 hover:bg-brand-100 dark:bg-brand-700/25 dark:text-brand-100">
+          <Link to={`/foods?cat=${cat.id}`} className="inline-flex items-center gap-1.5 rounded-full bg-brand-50 px-3 py-1 text-sm font-medium text-brand-700 hover:bg-brand-100 dark:bg-brand-700/25 dark:text-brand-100">
             <CategoryIcon id={cat.id} tone={false} /> {cat[lang]}
           </Link>
           <h1 className="mt-3 text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl dark:text-white">{name(food)}</h1>
@@ -301,7 +301,7 @@ export default function FoodPage({ compare, onToggleCompare }) {
       )}
 
       <div className="mt-12 text-center">
-        <Link to={`/?cat=${cat.id}`} className="inline-flex items-center gap-1.5 font-semibold text-brand-600 hover:underline dark:text-brand-100"><ArrowLeft className="h-4 w-4" aria-hidden="true" /> {t.backHome}</Link>
+        <Link to={`/foods?cat=${cat.id}`} className="inline-flex items-center gap-1.5 font-semibold text-brand-600 hover:underline dark:text-brand-100"><ArrowLeft className="h-4 w-4" aria-hidden="true" /> {t.backHome}</Link>
       </div>
     </article>
   );

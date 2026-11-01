@@ -7,6 +7,7 @@ import Header from "./components/Header.jsx";
 import CompareModal from "./components/CompareModal.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import FoodPage from "./pages/FoodPage.jsx";
+import FoodsPage from "./pages/FoodsPage.jsx";
 import ToolsPage from "./pages/ToolsPage.jsx";
 import GuidePage from "./pages/GuidePage.jsx";
 
@@ -48,6 +49,7 @@ export default function App() {
       <main className="flex-1">
         <Routes>
           <Route path="/" element={<HomePage {...pageProps} />} />
+          <Route path="/foods" element={<FoodsPage {...pageProps} />} />
           <Route path="/food/:id" element={<FoodPage {...pageProps} />} />
           <Route path="/tools" element={<ToolsPage />} />
           <Route path="/guide" element={<GuidePage />} />

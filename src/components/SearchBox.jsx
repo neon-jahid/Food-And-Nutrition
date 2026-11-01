@@ -7,7 +7,7 @@ import FoodImage from "./FoodImage.jsx";
 import { CornerDownLeft, Lightbulb, Search } from "lucide-react";
 
 /** Search input with a live suggestion dropdown (keyboard: ↑ ↓ Enter Esc). */
-export default function SearchBox({ value, onChange }) {
+export default function SearchBox({ value, onChange, onSubmit }) {
   const { t, lang, fmt, name } = useLang();
   const navigate = useNavigate();
   const [open, setOpen] = useState(false);
@@ -29,6 +29,13 @@ export default function SearchBox({ value, onChange }) {
   const go = food => { setOpen(false); navigate(`/food/${food.id}`); };
 
   const onKeyDown = e => {
+    // Enter without a highlighted suggestion → hand the query to the caller (e.g. open the full results page)
+    if (e.key === "Enter" && onSubmit && !(open && active >= 0 && results.length)) {
+      e.preventDefault();
+      setOpen(false);
+      onSubmit(value);
+      return;
+    }
     if (!open || !results.length) return;
     if (e.key === "ArrowDown") { e.preventDefault(); setActive(i => (i + 1) % results.length); }
     else if (e.key === "ArrowUp") { e.preventDefault(); setActive(i => (i <= 0 ? results.length - 1 : i - 1)); }

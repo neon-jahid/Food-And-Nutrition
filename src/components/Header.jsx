@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { BookOpen, Calculator, House, Languages, Moon, Scale, Sun } from "lucide-react";
+import { Apple, BookOpen, Calculator, House, Languages, Moon, Scale, Sun } from "lucide-react";
 import { useLang } from "../context/LangContext.jsx";
 import { storage } from "../utils.js";
 
@@ -36,6 +36,7 @@ export default function Header({ compareCount, onOpenCompare }) {
         <nav aria-label="Main" className="flex items-center gap-1">
           {[
             ["/", House, lang === "bn" ? "হোম" : "Home"],
+            ["/foods", Apple, lang === "bn" ? "সব খাবার" : "Foods"],
             ["/tools", Calculator, lang === "bn" ? "টুলস" : "Tools"],
             ["/guide", BookOpen, lang === "bn" ? "গাইড" : "Guide"],
           ].map(([to, Icon, label]) => (
