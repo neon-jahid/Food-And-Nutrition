@@ -17,7 +17,7 @@ import NotFound from "./components/NotFound.jsx";
 const MAX_COMPARE = 3;
 
 // Runs before first paint: applies the saved theme so there is no light/dark flash.
-const THEME_SCRIPT = `try{var t=JSON.parse(localStorage.getItem("nutribase.theme"));if(t==="dark"||((!t||t==="system")&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.classList.add("dark");var a=JSON.parse(localStorage.getItem("nutribase.accent"));if(a&&a!=="fresh")document.documentElement.dataset.accent=a}catch(e){}`;
+const THEME_SCRIPT = `try{var t=JSON.parse(localStorage.getItem("nutribase.theme"));if(t==="dark"||(t==="system"&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.classList.add("dark");var a=JSON.parse(localStorage.getItem("nutribase.accent"));if(a&&a!=="fresh")document.documentElement.dataset.accent=a}catch(e){}`;
 
 export function Layout({ children }) {
   const lang = useUrlLang();

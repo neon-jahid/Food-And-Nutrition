@@ -6,6 +6,7 @@ import {
 } from "lucide-react";
 import { useLang } from "../context/LangContext.jsx";
 import SiteImage from "../components/SiteImage.jsx";
+import Slider from "../components/Slider.jsx";
 import {
   BENEFITS, BREWS, CAFFEINE_DRINKS, CAFFEINE_LIMITS, CAUTIONS, COFFEE_MENU, COFFEE_MYTHS, COFFEE_SOURCES, CUP_FACTS, DAVIDOFF, DAVIDOFF_STEPS,
   HOW_TO, JOURNEY, ROASTS, SPECIES, TIMELINE,
@@ -32,7 +33,6 @@ const T = {
     speciesTitle: "Two coffees rule the world",
     journeyTitle: "From flower to cup",
     journeySub: "Every cup passes through these six steps.",
-    swipe: "Swipe",
     nutritionTitle: "What's in one cup?",
     nutritionSub: "Plain brewed black coffee, 240 ml. Values from USDA FoodData Central.",
     foodLink: "Full nutrition facts for coffee",
@@ -95,7 +95,6 @@ const T = {
     speciesTitle: "বিশ্ব চলে দুই জাতের কফিতে",
     journeyTitle: "ফুল থেকে কাপ",
     journeySub: "প্রতিটি কাপ এই ছয়টি ধাপ পেরিয়ে আসে।",
-    swipe: "সোয়াইপ করুন",
     nutritionTitle: "এক কাপে কী আছে?",
     nutritionSub: "চিনি-দুধ ছাড়া ব্রিউড ব্ল্যাক কফি, ২৪০ মি.লি.। মান USDA FoodData Central থেকে।",
     foodLink: "কফির পূর্ণ পুষ্টিতথ্য",
@@ -386,9 +385,10 @@ function Journey({ s }) {
   return (
     <section id="journey" className="scroll-mt-32 bg-roast-950 py-16 text-roast-50 sm:py-20">
       <div className="px-4"><SectionTitle kicker="04" title={s.journeyTitle} sub={s.journeySub} dark /></div>
-      <ol className="mx-auto flex max-w-6xl snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-4 [scrollbar-width:thin] lg:grid lg:grid-cols-6 lg:overflow-visible">
+      <div className="mx-auto max-w-6xl px-4">
+      <Slider until="lg" label={s.journeyTitle} slide="[--slide:72%] sm:[--slide:42%]" gridClass="lg:grid lg:grid-cols-6 lg:gap-4">
         {JOURNEY.map((j, i) => (
-          <li key={j.image} data-reveal className="group w-[72%] shrink-0 snap-start sm:w-[42%] lg:w-auto">
+          <div key={j.image} data-reveal className="group">
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl">
               <SiteImage id={j.image} alt={j.title[lang]} sizes="(min-width: 1024px) 190px, 70vw" className="h-full w-full transition duration-700 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-roast-950/90 via-roast-950/10 to-transparent" aria-hidden="true" />
@@ -396,10 +396,10 @@ function Journey({ s }) {
               <h3 className="absolute bottom-3 left-4 font-serif text-xl font-black">{j.title[lang]}</h3>
             </div>
             <p className="mt-3 text-sm leading-relaxed text-roast-200/80">{j.text[lang]}</p>
-          </li>
+          </div>
         ))}
-      </ol>
-      <p className="mt-2 px-4 text-center text-xs text-roast-300/60 lg:hidden">← {s.swipe} →</p>
+      </Slider>
+      </div>
     </section>
   );
 }

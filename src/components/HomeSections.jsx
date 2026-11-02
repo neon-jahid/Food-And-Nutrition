@@ -11,6 +11,7 @@ import { GOALS } from "../searchMeta.js";
 import { GOAL_ICONS } from "../icons.jsx";
 import { storage } from "../utils.js";
 import FoodImage from "./FoodImage.jsx";
+import Slider from "./Slider.jsx";
 
 const T = {
   en: {
@@ -60,13 +61,16 @@ export function SectionHeader({ icon: Icon, title, sub, action }) {
   );
 }
 
+// food tiles in a slider: ~2.4 per phone screen, fixed width on bigger screens
+const TILE = "[--slide:9rem] sm:[--slide:10rem]";
+
 /** Small photo tile linking to a food page. */
 function FoodTile({ food, extra }) {
   const { name } = useLang();
   return (
     <Link
       to={`/foods/${food.id}`}
-      className="group w-36 shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-white transition hover:-translate-y-0.5 hover:border-brand-500 hover:shadow-md sm:w-40 dark:border-slate-800 dark:bg-slate-900"
+      className="group overflow-hidden rounded-2xl border border-slate-200 bg-white transition hover:-translate-y-0.5 hover:border-brand-500 hover:shadow-md sm:w-40 dark:border-slate-800 dark:bg-slate-900"
     >
       <FoodImage food={food} fit="contain" className="aspect-square w-full" imgClassName="transition duration-500 group-hover:scale-105" />
       <div className="p-2.5">
@@ -128,12 +132,12 @@ export function SeasonalNow() {
   return (
     <section className="mt-10 sm:mt-12">
       <SectionHeader icon={CalendarDays} title={s.seasonTitle} sub={fill(s.seasonSub, { month: SEASON_NAMES[lang][month] })} />
-      <div className="-mx-4 flex gap-3 overflow-x-auto px-4 pb-2">
+      <Slider label={s.seasonTitle} slide={TILE}>
         {foods.map(f => {
           const cat = CATEGORIES.find(c => c.id === f.cat);
           return <FoodTile key={f.id} food={f} extra={cat[lang]} />;
         })}
-      </div>
+      </Slider>
     </section>
   );
 }
@@ -148,7 +152,7 @@ export function TopLists() {
   return (
     <section className="mt-10 sm:mt-12">
       <SectionHeader icon={Trophy} title={s.topTitle} sub={s.topSub} />
-      <div className="rail grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <Slider until="sm" label={s.topTitle} gridClass="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {lists.map(([key, Icon]) => {
           const top = [...pool].sort((a, b) => b.n[key] - a.n[key]).slice(0, 5);
           return (
@@ -171,7 +175,7 @@ export function TopLists() {
             </div>
           );
         })}
-      </div>
+      </Slider>
     </section>
   );
 }
@@ -206,9 +210,9 @@ export function RecentlyViewed() {
   return (
     <section className="mt-10 sm:mt-12">
       <SectionHeader icon={Clock} title={s.recentTitle} />
-      <div className="-mx-4 flex gap-3 overflow-x-auto px-4 pb-2">
+      <Slider label={s.recentTitle} slide={TILE}>
         {foods.map(f => <FoodTile key={f.id} food={f} />)}
-      </div>
+      </Slider>
     </section>
   );
 }
@@ -224,7 +228,7 @@ export function ToolsCta() {
   return (
     <section className="mt-10 sm:mt-12">
       <SectionHeader icon={Calculator} title={s.toolsTitle} sub={s.toolsSub} />
-      <div className="rail rail-sm grid gap-4 sm:grid-cols-3">
+      <Slider until="sm" label={s.toolsTitle} slide="[--slide:64%]" gridClass="grid gap-4 sm:grid-cols-3">
         {items.map(([to, Icon, [title, desc]]) => (
           <Link
             key={to}
@@ -239,7 +243,7 @@ export function ToolsCta() {
             </span>
           </Link>
         ))}
-      </div>
+      </Slider>
     </section>
   );
 }

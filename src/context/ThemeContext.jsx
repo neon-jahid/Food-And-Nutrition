@@ -26,15 +26,16 @@ export function ThemeProvider({ children }) {
   // Prerender-safe: start from defaults, read the saved choice after mount.
   // The inline script in root.jsx has already applied the right classes before paint,
   // so nothing touches the DOM until the saved values are loaded (no flash).
-  const [mode, setModeState] = useState("system");
+  // light unless the visitor picks dark (or "system") in the theme menu
+  const [mode, setModeState] = useState("light");
   const [accent, setAccentState] = useState("fresh");
   const [systemDark, setSystemDark] = useState(false);
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    const m = storage.get("theme", "system");
+    const m = storage.get("theme", "light");
     const a = storage.get("accent", "fresh");
-    setModeState(MODES.includes(m) ? m : "system");
+    setModeState(MODES.includes(m) ? m : "light");
     setAccentState(ACCENTS.some(x => x.id === a) ? a : "fresh");
     const mq = media();
     setSystemDark(!!mq?.matches);

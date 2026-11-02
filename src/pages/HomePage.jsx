@@ -8,6 +8,7 @@ import SearchBox from "../components/SearchBox.jsx";
 import Hero from "../components/Hero.jsx";
 import MealGuide from "../components/MealGuide.jsx";
 import CoffeeSpotlight from "../components/CoffeeSpotlight.jsx";
+import Slider from "../components/Slider.jsx";
 import { ArrowRight, GraduationCap, LayoutGrid, Newspaper, UtensilsCrossed } from "lucide-react";
 import { POSTS } from "../data/blog.js";
 import { LearnGrid } from "./LearnPage.jsx";
@@ -74,7 +75,10 @@ export default function HomePage({ compare, onToggleCompare }) {
           />
           <CategoryChips active="all" onChange={cat => browse({ cat })} />
 
-          <div className="rail grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <Slider
+            label={lang === "bn" ? "সব খাবার" : "All foods"}
+            slide="[--slide:78%] sm:[--slide:calc(50%-0.5rem)] lg:[--slide:calc(33.333%-0.667rem)] xl:[--slide:calc(25%-0.75rem)]"
+          >
             {preview.map(food => (
               <FoodCard
                 key={food.id}
@@ -83,7 +87,7 @@ export default function HomePage({ compare, onToggleCompare }) {
                 onToggleCompare={() => onToggleCompare(food.id)}
               />
             ))}
-          </div>
+          </Slider>
 
           <div className="mt-5 text-center sm:mt-8">
             <Link
@@ -122,9 +126,9 @@ export default function HomePage({ compare, onToggleCompare }) {
               </Link>
             }
           />
-          <div className="rail grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <Slider until="sm" label={lang === "bn" ? "ব্লগ থেকে" : "From the blog"} gridClass="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {latestPosts.map(p => <PostCard key={p.slug} post={p} />)}
-          </div>
+          </Slider>
         </section>
 
         <ToolsCta />

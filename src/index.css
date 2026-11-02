@@ -170,31 +170,64 @@ html[lang="bn"] :where(h1, h2) {
   background-size: 200% 100%;
 }
 
-/* ---- mobile rail ----
-   On phones a long grid of cards becomes one swipeable row, so the page stays short.
-   From 640px up the element keeps whatever grid classes it has. Unlayered, so it wins
-   over Tailwind's `grid` utilities below 640px. */
+/* ---- sliders (see components/Slider.jsx) ----
+   .slider is a swipeable row at every width; .slider-mobile only below 640px — above that
+   the element keeps its grid classes. Unlayered, so it wins over Tailwind's `grid` utilities. */
+.slider {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-block: 0.25rem 1rem; /* room for card hover lift and shadows */
+}
+.slider::-webkit-scrollbar { display: none; }
+.slider > * {
+  flex: 0 0 var(--slide, 78%);
+  min-width: 0;
+  scroll-snap-align: start;
+}
+.slider [data-reveal] { animation: none; } /* scroll-reveal follows vertical scroll — not useful in a row */
+
 @media (max-width: 639.98px) {
-  .rail {
+  .slider,
+  .slider-mobile {
     display: flex;
     gap: 0.75rem;
     overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
     scroll-padding-inline: 1rem;
-    margin-inline: -1rem;
-    padding: 0.25rem 1rem 0.75rem;
     scrollbar-width: none;
+    margin-inline: -1rem; /* bleed to the screen edge so the next slide peeks in */
+    padding: 0.25rem 1rem 0.75rem;
   }
-  .rail::-webkit-scrollbar { display: none; }
-  .rail > * {
-    flex: 0 0 78%;
-    max-width: 19rem;
+  .slider-mobile::-webkit-scrollbar { display: none; }
+  .slider-mobile > * {
+    flex: 0 0 var(--slide, 78%);
+    min-width: 0;
     scroll-snap-align: start;
   }
-  .rail-sm > * { flex-basis: 62%; max-width: 15rem; }
-  /* scroll-reveal is tied to vertical scrolling — not meaningful inside a sideways row */
-  .rail [data-reveal] { animation: none; }
+  .slider-mobile [data-reveal] { animation: none; }
+}
+@media (max-width: 1023.98px) {
+  .slider-tablet {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding-block: 0.25rem 1rem;
+  }
+  .slider-tablet::-webkit-scrollbar { display: none; }
+  .slider-tablet > * {
+    flex: 0 0 var(--slide, 78%);
+    min-width: 0;
+    scroll-snap-align: start;
+  }
+  .slider-tablet [data-reveal] { animation: none; }
 }
 
 /* hide number input arrows */

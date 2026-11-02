@@ -10,7 +10,8 @@ import { POSTS } from "./data/blog.js";
 import { PLANTS } from "./data/plants.js";
 
 export const LANGS = ["en", "bn"];
-export const DEFAULT_LANG = "en";
+// first-time visitors land on Bangla; a language they pick is remembered (see routes/entry.jsx)
+export const DEFAULT_LANG = "bn";
 
 /** Category id → URL slug (/foods/<slug>). */
 export const CATEGORY_SLUGS = {

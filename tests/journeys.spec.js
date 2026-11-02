@@ -88,9 +88,15 @@ test("unknown pages return 404 with a helpful page", async ({ page }) => {
   }
 });
 
-test("root picks a language", async ({ page }) => {
+test("first visit lands on Bangla in light mode", async ({ browser }) => {
+  // an English, dark-mode device with nothing saved still starts in Bangla, light
+  const ctx = await browser.newContext({ colorScheme: "dark", locale: "en-US" });
+  const page = await ctx.newPage();
   await page.goto("/");
-  await expect(page).toHaveURL(/\/(en|bn)$/);
+  await expect(page).toHaveURL(/\/bn$/);
+  await expect(page.locator("html")).toHaveAttribute("lang", "bn");
+  await expect(page.locator("html")).not.toHaveClass(/dark/);
+  await ctx.close();
 });
 
 test("sitemap and robots are published", async ({ request }) => {

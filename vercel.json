@@ -200,82 +200,82 @@
     },
     {
       "source": "/food/:id",
-      "destination": "/en/foods/:id",
+      "destination": "/bn/foods/:id",
       "permanent": true
     },
     {
       "source": "/foods",
-      "destination": "/en/foods",
+      "destination": "/bn/foods",
       "permanent": true
     },
     {
       "source": "/tools",
-      "destination": "/en/tools",
+      "destination": "/bn/tools",
       "permanent": true
     },
     {
       "source": "/guide",
-      "destination": "/en/food-guide",
+      "destination": "/bn/food-guide",
       "permanent": true
     },
     {
       "source": "/learn",
-      "destination": "/en/learn",
+      "destination": "/bn/learn",
       "permanent": true
     },
     {
       "source": "/plants",
-      "destination": "/en/plants",
+      "destination": "/bn/plants",
       "permanent": true
     },
     {
       "source": "/storage",
-      "destination": "/en/food-guide/food-storage",
+      "destination": "/bn/food-guide/food-storage",
       "permanent": true
     },
     {
       "source": "/meals",
-      "destination": "/en/food-guide/meal-times",
+      "destination": "/bn/food-guide/meal-times",
       "permanent": true
     },
     {
       "source": "/vitamins",
-      "destination": "/en/nutrition/vitamins",
+      "destination": "/bn/nutrition/vitamins",
       "permanent": true
     },
     {
       "source": "/minerals",
-      "destination": "/en/nutrition/minerals",
+      "destination": "/bn/nutrition/minerals",
       "permanent": true
     },
     {
       "source": "/deficiency",
-      "destination": "/en/nutrition/deficiency",
+      "destination": "/bn/nutrition/deficiency",
       "permanent": true
     },
     {
       "source": "/myths",
-      "destination": "/en/food-myths",
+      "destination": "/bn/food-myths",
       "permanent": true
     },
     {
       "source": "/mens-health",
-      "destination": "/en/mens-health",
+      "destination": "/bn/mens-health",
       "permanent": true
     },
     {
       "source": "/womens-health",
-      "destination": "/en/womens-health",
+      "destination": "/bn/womens-health",
       "permanent": true
     },
     {
       "source": "/blog",
-      "destination": "/en/blog",
+      "destination": "/bn/blog",
       "permanent": true
     },
     {
       "source": "/blog/:slug",
-      "destination": "/en/blog/:slug",
+      "destination": "/bn/blog/:slug",
       "permanent": true
     },
     {

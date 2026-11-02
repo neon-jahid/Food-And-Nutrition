@@ -1,3 +1,4 @@
+import Slider from "../components/Slider.jsx";
 import { Link } from "../router.jsx";
 import { ArrowRight, GraduationCap } from "lucide-react";
 import { LEARN_GROUPS } from "../nav.js";
@@ -12,6 +13,18 @@ const T = {
   bn: { title: "জানুন", sub: "সংখ্যার বাইরেও যা জানা দরকার — পুষ্টি উপাদান, অভাবজনিত রোগ, ভেষজ, খাদ্য নিরাপত্তা আর প্রচলিত বিশ্বাসের সত্যতা।", open: "গাইড খুলুন", blog: "ব্লগ থেকে", all: "সব লেখা" },
 };
 
+/** Home page (compact): one slider of all guides. Learn page: a grid per group. */
+function Wrap({ compact, label, children }) {
+  if (compact) {
+    return (
+      <Slider label={label} slide="[--slide:64%] sm:[--slide:calc(40%-0.6rem)] lg:[--slide:calc(25%-0.75rem)] xl:[--slide:calc(20%-0.8rem)]">
+        {children}
+      </Slider>
+    );
+  }
+  return <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">{children}</div>;
+}
+
 /** Card grid of all learn guides — also used on the home page. */
 export function LearnGrid({ compact = false }) {
   const { lang } = useLang();
@@ -22,7 +35,7 @@ export function LearnGrid({ compact = false }) {
       {groups.map(g => (
         <section key={g.id}>
           {!compact && <h2 className="mb-4 text-xl font-extrabold text-slate-900 dark:text-white">{g[lang]}</h2>}
-          <div className={`grid gap-4 sm:grid-cols-2 ${compact ? "rail rail-sm lg:grid-cols-5" : "lg:grid-cols-4"}`}>
+          <Wrap compact={compact} label={g[lang] || s.title}>
             {g.items.map(item => {
               const Icon = item.icon;
               const c = tone(item.tone);
@@ -41,7 +54,7 @@ export function LearnGrid({ compact = false }) {
                 </Link>
               );
             })}
-          </div>
+          </Wrap>
         </section>
       ))}
     </div>
