@@ -17,7 +17,7 @@ const T = {
 function Wrap({ compact, label, children }) {
   if (compact) {
     return (
-      <Slider label={label} slide="[--slide:64%] sm:[--slide:calc(40%-0.6rem)] lg:[--slide:calc(25%-0.75rem)] xl:[--slide:calc(20%-0.8rem)]">
+      <Slider label={label} slide="[--slide:calc((100%_-_0.75rem)/2)] sm:[--slide:calc((100%_-_2rem)/3)] lg:[--slide:calc((100%_-_3rem)/4)] xl:[--slide:calc((100%_-_4rem)/5)]">
         {children}
       </Slider>
     );
@@ -41,13 +41,13 @@ export function LearnGrid({ compact = false }) {
               const c = tone(item.tone);
               const [title, desc] = item[lang];
               return (
-                <Link key={item.to} to={item.to} className="card group relative flex flex-col gap-3 overflow-hidden p-5 transition hover:-translate-y-1 hover:shadow-xl">
+                <Link key={item.to} to={item.to} className="card group relative flex flex-col gap-2.5 overflow-hidden p-4 transition sm:gap-3 sm:p-5 hover:-translate-y-1 hover:shadow-xl">
                   <span className={`absolute inset-x-0 top-0 h-1 bg-gradient-to-r ${c.bar} opacity-0 transition group-hover:opacity-100`} />
-                  <span className={`grid h-12 w-12 place-items-center rounded-2xl ${c.soft}`}>
-                    <Icon className="h-6 w-6" aria-hidden="true" />
+                  <span className={`grid h-10 w-10 place-items-center rounded-xl sm:h-12 sm:w-12 sm:rounded-2xl ${c.soft}`}>
+                    <Icon className="h-5 w-5 sm:h-6 sm:w-6" aria-hidden="true" />
                   </span>
-                  <span className="text-lg font-bold text-slate-900 dark:text-white">{title}</span>
-                  <span className="text-sm text-slate-600 dark:text-slate-400">{desc}</span>
+                  <span className="leading-snug font-bold text-slate-900 sm:text-lg dark:text-white">{title}</span>
+                  <span className="text-[13px] text-slate-600 sm:text-sm dark:text-slate-400">{desc}</span>
                   <span className="mt-auto inline-flex items-center gap-1 pt-1 text-sm font-semibold text-brand-700 dark:text-brand-300">
                     {s.open} <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" aria-hidden="true" />
                   </span>

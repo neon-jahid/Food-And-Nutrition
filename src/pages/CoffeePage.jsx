@@ -386,7 +386,7 @@ function Journey({ s }) {
     <section id="journey" className="scroll-mt-32 bg-roast-950 py-16 text-roast-50 sm:py-20">
       <div className="px-4"><SectionTitle kicker="04" title={s.journeyTitle} sub={s.journeySub} dark /></div>
       <div className="mx-auto max-w-6xl px-4">
-      <Slider until="lg" label={s.journeyTitle} slide="[--slide:72%] sm:[--slide:42%]" gridClass="lg:grid lg:grid-cols-6 lg:gap-4">
+      <Slider until="lg" dark label={s.journeyTitle} slide="[--slide:calc((100%_-_0.75rem)/2)] sm:[--slide:calc((100%_-_2rem)/3)]" gridClass="lg:grid lg:grid-cols-6 lg:gap-4">
         {JOURNEY.map((j, i) => (
           <div key={j.image} data-reveal className="group">
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl">

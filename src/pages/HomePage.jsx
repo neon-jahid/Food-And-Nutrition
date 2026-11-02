@@ -77,7 +77,7 @@ export default function HomePage({ compare, onToggleCompare }) {
 
           <Slider
             label={lang === "bn" ? "সব খাবার" : "All foods"}
-            slide="[--slide:78%] sm:[--slide:calc(50%-0.5rem)] lg:[--slide:calc(33.333%-0.667rem)] xl:[--slide:calc(25%-0.75rem)]"
+            slide="sm:[--slide:calc((100%_-_1rem)/2)] lg:[--slide:calc((100%_-_2rem)/3)] xl:[--slide:calc((100%_-_3rem)/4)]"
           >
             {preview.map(food => (
               <FoodCard

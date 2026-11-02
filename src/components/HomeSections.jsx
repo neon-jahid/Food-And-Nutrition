@@ -61,8 +61,8 @@ export function SectionHeader({ icon: Icon, title, sub, action }) {
   );
 }
 
-// food tiles in a slider: ~2.4 per phone screen, fixed width on bigger screens
-const TILE = "[--slide:9rem] sm:[--slide:10rem]";
+// food tiles in a slider: 3 per row on phones, up to 7 on desktop (whole tiles only)
+const TILE = "[--slide:calc((100%_-_1.5rem)/3)] sm:[--slide:calc((100%_-_3rem)/4)] md:[--slide:calc((100%_-_4rem)/5)] lg:[--slide:calc((100%_-_6rem)/7)]";
 
 /** Small photo tile linking to a food page. */
 function FoodTile({ food, extra }) {
@@ -228,7 +228,7 @@ export function ToolsCta() {
   return (
     <section className="mt-10 sm:mt-12">
       <SectionHeader icon={Calculator} title={s.toolsTitle} sub={s.toolsSub} />
-      <Slider until="sm" label={s.toolsTitle} slide="[--slide:64%]" gridClass="grid gap-4 sm:grid-cols-3">
+      <Slider until="sm" label={s.toolsTitle} gridClass="grid gap-4 sm:grid-cols-3">
         {items.map(([to, Icon, [title, desc]]) => (
           <Link
             key={to}
