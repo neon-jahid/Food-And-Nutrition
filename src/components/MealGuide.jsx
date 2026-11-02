@@ -15,11 +15,11 @@ const T = {
   bn: { now: "এখন", plates: "ভালো খাবারের উদাহরণ", good: "রাখুন", avoid: "কমান", tip: "টিপস", kcal: "ক্যালরি", more: "পুরো খাবার গাইড" },
 };
 
-function PlateCard({ plate }) {
+function PlateCard({ plate, hide }) {
   const { lang, num } = useLang();
   const foods = plate.foods.map(foodById).filter(Boolean);
   return (
-    <li className="group flex items-center gap-3 rounded-2xl border border-slate-200/80 bg-white/70 p-3 transition hover:border-brand-300 hover:shadow-md dark:border-slate-700/80 dark:bg-slate-800/40">
+    <li className={`group items-center gap-3 rounded-2xl border border-slate-200/80 bg-white/70 p-3 transition hover:border-brand-300 hover:shadow-md dark:border-slate-700/80 dark:bg-slate-800/40 ${hide ? "hidden sm:flex" : "flex"}`}>
       <div className="flex shrink-0 -space-x-3">
         {foods.slice(0, 3).map(f => (
           <Link key={f.id} to={`/foods/${f.id}`} title={f[lang]} className="block rounded-full ring-2 ring-white transition hover:z-10 hover:scale-110 dark:ring-slate-900">
@@ -67,30 +67,29 @@ export default function MealGuide({ compact = false, initial }) {
               aria-selected={on}
               aria-controls="meal-panel"
               onClick={() => setActive(m.id)}
-              className={`relative flex items-center gap-2.5 rounded-2xl px-3 py-2.5 text-left transition ${
+              className={`flex min-w-0 items-center gap-2 rounded-2xl px-2.5 py-2 text-left transition sm:gap-2.5 sm:px-3 sm:py-2.5 ${
                 on ? "bg-white shadow-sm dark:bg-slate-900" : "hover:bg-white/60 dark:hover:bg-slate-900/50"
               }`}
             >
-              <span className={`grid h-9 w-9 shrink-0 place-items-center rounded-xl ${on ? tone(m.tone).solid : tone(m.tone).soft}`}>
-                <TabIcon className="h-[18px] w-[18px]" aria-hidden="true" />
+              <span className={`relative grid h-8 w-8 shrink-0 place-items-center rounded-xl sm:h-9 sm:w-9 ${on ? tone(m.tone).solid : tone(m.tone).soft}`}>
+                <TabIcon className="h-4 w-4 sm:h-[18px] sm:w-[18px]" aria-hidden="true" />
+                {m.id === nowId && <span className="absolute -top-1 -right-1 h-2.5 w-2.5 animate-pulse rounded-full bg-brand-500 ring-2 ring-white dark:ring-slate-900" aria-hidden="true" />}
               </span>
               <span className="min-w-0">
-                <span className={`block truncate text-sm font-bold ${on ? "text-slate-900 dark:text-white" : "text-slate-600 dark:text-slate-300"}`}>{m.name[lang]}</span>
-                <span className="block truncate text-[11px] text-slate-500 dark:text-slate-400">{m.time[lang]}</span>
-              </span>
-              {m.id === nowId && (
-                <span className="absolute top-1.5 right-1.5 inline-flex items-center gap-1 rounded-full bg-brand-500 px-1.5 py-0.5 text-[10px] font-bold text-white">
-                  <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-white" /> {s.now}
+                <span className={`block truncate text-[13px] font-bold sm:text-sm ${on ? "text-slate-900 dark:text-white" : "text-slate-600 dark:text-slate-300"}`}>{m.name[lang]}</span>
+                <span className="block truncate text-[11px] text-slate-500 dark:text-slate-400">
+                  {m.id === nowId && <span className="font-bold text-brand-600 dark:text-brand-300">{s.now} · </span>}
+                  {m.time[lang]}
                 </span>
-              )}
+              </span>
             </button>
           );
         })}
       </div>
 
-      <div id="meal-panel" role="tabpanel" aria-labelledby={`meal-tab-${meal.id}`} key={meal.id} className="animate-pop p-5 sm:p-6">
+      <div id="meal-panel" role="tabpanel" aria-labelledby={`meal-tab-${meal.id}`} key={meal.id} className="animate-pop p-4 sm:p-6">
         <div className="flex flex-wrap items-start gap-4">
-          <span className={`grid h-14 w-14 shrink-0 place-items-center rounded-2xl ${c.soft}`}>
+          <span className={`h-14 w-14 shrink-0 place-items-center rounded-2xl ${c.soft} ${compact ? "hidden sm:grid" : "grid"}`}>
             <Icon className="h-7 w-7" aria-hidden="true" />
           </span>
           <div className="min-w-0 flex-1">
@@ -99,13 +98,13 @@ export default function MealGuide({ compact = false, initial }) {
               <span className="inline-flex items-center gap-1"><Clock className="h-3.5 w-3.5" aria-hidden="true" />{meal.time[lang]}</span>
               <span>{meal.share[lang]}</span>
             </p>
-            <p className="mt-2 max-w-3xl text-sm leading-relaxed text-slate-600 dark:text-slate-300">{meal.why[lang]}</p>
+            <p className={`mt-2 max-w-3xl text-sm leading-relaxed text-slate-600 dark:text-slate-300 ${compact ? "hidden sm:block" : ""}`}>{meal.why[lang]}</p>
           </div>
         </div>
 
-        <h4 className="mt-5 mb-3 text-xs font-semibold tracking-wide text-slate-400 uppercase">{s.plates}</h4>
+        <h4 className="mt-4 mb-3 text-xs sm:mt-5 font-semibold tracking-wide text-slate-400 uppercase">{s.plates}</h4>
         <ul className="grid gap-3 sm:grid-cols-2">
-          {meal.plates.map(p => <PlateCard key={p.name.en} plate={p} />)}
+          {meal.plates.map((p, i) => <PlateCard key={p.name.en} plate={p} hide={compact && i > 1} />)}
         </ul>
 
         {!compact && (
@@ -125,8 +124,8 @@ export default function MealGuide({ compact = false, initial }) {
           </div>
         )}
 
-        <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-          <p className="flex gap-2 text-sm text-slate-700 dark:text-slate-300">
+        <div className="mt-4 flex flex-col gap-3 sm:mt-5 sm:flex-row sm:items-center sm:justify-between">
+          <p className={`gap-2 text-sm text-slate-700 dark:text-slate-300 ${compact ? "hidden sm:flex" : "flex"}`}>
             <Lightbulb className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" aria-hidden="true" />
             <span><span className="font-bold text-slate-900 dark:text-white">{s.tip}: </span>{meal.tip[lang]}</span>
           </p>

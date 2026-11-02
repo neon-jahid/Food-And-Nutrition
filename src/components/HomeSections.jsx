@@ -45,14 +45,14 @@ const T = {
 
 export function SectionHeader({ icon: Icon, title, sub, action }) {
   return (
-    <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
-      <div className="flex items-center gap-3">
-        <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-brand-50 text-brand-600 dark:bg-brand-700/25 dark:text-brand-100">
+    <div className="mb-4 flex flex-wrap items-end justify-between gap-x-3 gap-y-2 sm:mb-5">
+      <div className="flex min-w-0 items-center gap-3">
+        <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl sm:h-10 sm:w-10 bg-brand-50 text-brand-600 dark:bg-brand-700/25 dark:text-brand-100">
           <Icon className="h-5 w-5" aria-hidden="true" />
         </span>
         <div>
-          <h2 className="text-xl font-extrabold text-slate-900 sm:text-2xl dark:text-white">{title}</h2>
-          {sub && <p className="text-sm text-slate-500 dark:text-slate-400">{sub}</p>}
+          <h2 className="text-lg font-extrabold text-slate-900 sm:text-2xl dark:text-white">{title}</h2>
+          {sub && <p className="line-clamp-2 text-[13px] text-slate-500 sm:text-sm dark:text-slate-400">{sub}</p>}
         </div>
       </div>
       {action}
@@ -86,9 +86,9 @@ export function HealthGoals({ onPick }) {
     [search],
   );
   return (
-    <section className="mt-12">
+    <section className="mt-10 sm:mt-12">
       <SectionHeader icon={Stethoscope} title={s.goalsTitle} sub={s.goalsSub} />
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+      <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-3 lg:grid-cols-4 xl:grid-cols-6">
         {Object.keys(GOALS).map(id => {
           const Icon = GOAL_ICONS[id];
           return (
@@ -96,17 +96,19 @@ export function HealthGoals({ onPick }) {
               key={id}
               type="button"
               onClick={() => onPick(id)}
-              className="group flex flex-col items-start gap-2 rounded-2xl border border-slate-200 bg-white p-4 text-left transition hover:-translate-y-0.5 hover:border-brand-500 hover:shadow-md dark:border-slate-800 dark:bg-slate-900"
+              className="group flex items-center gap-2.5 rounded-2xl border border-slate-200 bg-white p-2.5 text-left sm:flex-col sm:items-start sm:gap-2 sm:p-4 transition hover:-translate-y-0.5 hover:border-brand-500 hover:shadow-md dark:border-slate-800 dark:bg-slate-900"
             >
-              <span className="grid h-10 w-10 place-items-center rounded-xl bg-brand-50 text-brand-600 transition group-hover:bg-brand-500 group-hover:text-white dark:bg-brand-700/25 dark:text-brand-100">
+              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-brand-50 text-brand-600 transition group-hover:bg-brand-500 sm:h-10 sm:w-10 group-hover:text-white dark:bg-brand-700/25 dark:text-brand-100">
                 <Icon className="h-5 w-5" aria-hidden="true" />
               </span>
-              <span className="font-semibold leading-snug">{t.goals[id]}</span>
-              {counts ? (
-                <span className="text-xs text-slate-500 dark:text-slate-400">{num(counts[id])}{lang === "bn" ? s.foods : ` ${s.foods}`}</span>
-              ) : (
-                <span className="img-skeleton h-4 w-16 rounded" aria-hidden="true" />
-              )}
+              <span className="min-w-0">
+                <span className="line-clamp-2 block text-[13px] leading-snug font-semibold sm:text-base">{t.goals[id]}</span>
+                {counts ? (
+                  <span className="block text-[11px] text-slate-500 sm:mt-1 sm:text-xs dark:text-slate-400">{num(counts[id])}{lang === "bn" ? s.foods : ` ${s.foods}`}</span>
+                ) : (
+                  <span className="img-skeleton mt-1 block h-3.5 w-14 rounded" aria-hidden="true" />
+                )}
+              </span>
             </button>
           );
         })}
@@ -124,7 +126,7 @@ export function SeasonalNow() {
   const foods = FOODS.filter(f => inSeason(f.id, month));
   if (!foods.length) return null;
   return (
-    <section className="mt-12">
+    <section className="mt-10 sm:mt-12">
       <SectionHeader icon={CalendarDays} title={s.seasonTitle} sub={fill(s.seasonSub, { month: SEASON_NAMES[lang][month] })} />
       <div className="-mx-4 flex gap-3 overflow-x-auto px-4 pb-2">
         {foods.map(f => {
@@ -144,9 +146,9 @@ export function TopLists() {
     ["protein", Dumbbell], ["iron", Shield], ["calcium", Trophy], ["fiber", Wheat],
   ];
   return (
-    <section className="mt-12">
+    <section className="mt-10 sm:mt-12">
       <SectionHeader icon={Trophy} title={s.topTitle} sub={s.topSub} />
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="rail grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {lists.map(([key, Icon]) => {
           const top = [...pool].sort((a, b) => b.n[key] - a.n[key]).slice(0, 5);
           return (
@@ -182,13 +184,13 @@ export function TipOfDay() {
   const day = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
   const tip = TIPS[day % TIPS.length];
   return (
-    <section className="mt-12 flex gap-4 rounded-3xl bg-gradient-to-br from-amber-50 to-brand-50 p-5 ring-1 ring-amber-100 sm:p-6 dark:from-amber-500/10 dark:to-brand-700/10 dark:ring-slate-800">
-      <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-amber-400 text-white shadow-sm">
-        <Lightbulb className="h-6 w-6" aria-hidden="true" />
+    <section className="mt-10 flex gap-3 rounded-2xl bg-gradient-to-br from-amber-50 to-brand-50 p-4 ring-1 sm:mt-12 sm:gap-4 sm:rounded-3xl ring-amber-100 sm:p-6 dark:from-amber-500/10 dark:to-brand-700/10 dark:ring-slate-800">
+      <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-amber-400 text-white shadow-sm sm:h-12 sm:w-12 sm:rounded-2xl">
+        <Lightbulb className="h-5 w-5 sm:h-6 sm:w-6" aria-hidden="true" />
       </span>
       <div>
         <h2 className="font-extrabold text-amber-900 dark:text-amber-200">{s.tipTitle}</h2>
-        <p className="mt-1 leading-relaxed text-slate-700 dark:text-slate-300">{tip[lang]}</p>
+        <p className="mt-1 text-sm leading-relaxed text-slate-700 sm:text-base dark:text-slate-300">{tip[lang]}</p>
       </div>
     </section>
   );
@@ -202,7 +204,7 @@ export function RecentlyViewed() {
   const foods = storage.get("recent", []).map(id => FOODS.find(f => f.id === id)).filter(Boolean);
   if (!foods.length) return null;
   return (
-    <section className="mt-12">
+    <section className="mt-10 sm:mt-12">
       <SectionHeader icon={Clock} title={s.recentTitle} />
       <div className="-mx-4 flex gap-3 overflow-x-auto px-4 pb-2">
         {foods.map(f => <FoodTile key={f.id} food={f} />)}
@@ -220,17 +222,17 @@ export function ToolsCta() {
     ["/food-guide", BookOpen, s.guide],
   ];
   return (
-    <section className="mt-12">
+    <section className="mt-10 sm:mt-12">
       <SectionHeader icon={Calculator} title={s.toolsTitle} sub={s.toolsSub} />
-      <div className="grid gap-4 md:grid-cols-3">
+      <div className="rail rail-sm grid gap-4 sm:grid-cols-3">
         {items.map(([to, Icon, [title, desc]]) => (
           <Link
             key={to}
             to={to}
-            className="group flex flex-col gap-3 rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 p-5 text-white shadow-md transition hover:-translate-y-0.5 hover:shadow-xl"
+            className="group flex flex-col gap-2 rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 p-4 text-white sm:gap-3 sm:p-5 shadow-md transition hover:-translate-y-0.5 hover:shadow-xl"
           >
-            <Icon className="h-7 w-7" aria-hidden="true" />
-            <span className="text-lg font-bold">{title}</span>
+            <Icon className="h-6 w-6 sm:h-7 sm:w-7" aria-hidden="true" />
+            <span className="font-bold sm:text-lg">{title}</span>
             <span className="text-sm text-white/85">{desc}</span>
             <span className="mt-auto inline-flex items-center gap-1 text-sm font-semibold">
               {s.open} <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" aria-hidden="true" />

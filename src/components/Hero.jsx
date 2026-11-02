@@ -157,24 +157,24 @@ export default function Hero({ query, setQuery, onSearch }) {
                 />
             </div>
 
-            <div className='mx-auto grid max-w-6xl items-center gap-12 px-4 pt-10 pb-14 sm:pt-14 lg:grid-cols-[1.05fr_0.95fr] lg:pt-16 lg:pb-20'>
+            <div className='mx-auto grid max-w-6xl items-center gap-12 px-4 pt-7 pb-8 sm:pt-14 sm:pb-14 lg:grid-cols-[1.05fr_0.95fr] lg:pt-16 lg:pb-20'>
                 {/* left: message + search */}
-                <div className='relative z-10 text-center lg:text-left'>
-                    <p className='inline-flex animate-fade-up items-center gap-2 rounded-full border border-brand-200/70 bg-white/70 px-3 py-1.5 text-xs font-semibold text-brand-700 shadow-sm backdrop-blur dark:border-brand-500/30 dark:bg-slate-900/60 dark:text-brand-300'>
+                <div className='relative z-10 min-w-0 text-center lg:text-left'>
+                    <p className='hidden animate-fade-up items-center gap-2 rounded-full sm:inline-flex border border-brand-200/70 bg-white/70 px-3 py-1.5 text-xs font-semibold text-brand-700 shadow-sm backdrop-blur dark:border-brand-500/30 dark:bg-slate-900/60 dark:text-brand-300'>
                         <Sparkles
                             className='h-3.5 w-3.5'
                             aria-hidden='true'
                         />{' '}
                         {s.badge}
                     </p>
-                    <h1 className='mt-5 animate-fade-up text-[2.35rem] leading-[1.08] font-black tracking-tight text-slate-900 [animation-delay:80ms] sm:text-6xl dark:text-white'>
+                    <h1 className='animate-fade-up text-[2rem] leading-[1.12] sm:mt-5 font-black tracking-tight text-slate-900 [animation-delay:80ms] sm:text-6xl dark:text-white'>
                         {s.line1}
                         <br />
                         <span className='text-gradient'>{s.line2}</span>
                     </h1>
-                    <p className='mx-auto mt-5 max-w-xl animate-fade-up text-base text-slate-600 [animation-delay:160ms] sm:text-lg lg:mx-0 dark:text-slate-400'>{s.lead}</p>
+                    <p className='mx-auto mt-3 max-w-xl animate-fade-up text-[15px] sm:mt-5 sm:text-base text-slate-600 [animation-delay:160ms] sm:text-lg lg:mx-0 dark:text-slate-400'>{s.lead}</p>
 
-                    <div className='relative z-20 mx-auto mt-8 max-w-xl animate-fade-up [animation-delay:240ms] lg:mx-0'>
+                    <div className='relative z-20 mx-auto mt-5 max-w-xl sm:mt-8 animate-fade-up [animation-delay:240ms] lg:mx-0'>
                         <SearchBox
                             value={query}
                             onChange={setQuery}
@@ -182,14 +182,14 @@ export default function Hero({ query, setQuery, onSearch }) {
                         />
                     </div>
 
-                    <div className='mt-4 flex animate-fade-up flex-wrap items-center justify-center gap-2 [animation-delay:320ms] lg:justify-start'>
-                        <span className='text-sm text-slate-500 dark:text-slate-400'>{s.popular}</span>
+                    <div className='-mx-4 mt-3 flex animate-fade-up items-center gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] [animation-delay:320ms] sm:mx-0 sm:mt-4 sm:flex-wrap sm:justify-center sm:overflow-visible sm:px-0 lg:justify-start'>
+                        <span className='shrink-0 text-sm text-slate-500 dark:text-slate-400'>{s.popular}</span>
                         {s.chips.map(([label, q]) => (
                             <button
                                 key={q}
                                 type='button'
                                 onClick={() => navigate(`/foods?q=${encodeURIComponent(q)}`)}
-                                className='inline-flex items-center gap-1 rounded-full border border-slate-200 bg-white/70 px-3 py-1 text-sm font-medium text-slate-700 backdrop-blur transition hover:border-brand-400 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900/60 dark:text-slate-300 dark:hover:text-brand-300'>
+                                className='inline-flex shrink-0 items-center gap-1 rounded-full border border-slate-200 bg-white/70 px-3 py-1 text-sm font-medium text-slate-700 backdrop-blur transition hover:border-brand-400 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900/60 dark:text-slate-300 dark:hover:text-brand-300'>
                                 <Search
                                     className='h-3 w-3 opacity-60'
                                     aria-hidden='true'
@@ -199,20 +199,20 @@ export default function Hero({ query, setQuery, onSearch }) {
                         ))}
                     </div>
 
-                    <dl className='mx-auto mt-10 grid max-w-xl animate-fade-up grid-cols-4 divide-x [animation-delay:400ms] divide-slate-200 rounded-3xl border border-slate-200/80 bg-white/60 py-4 backdrop-blur lg:mx-0 dark:divide-slate-800 dark:border-slate-800 dark:bg-slate-900/50'>
+                    <dl className='mx-auto mt-6 grid max-w-xl animate-fade-up grid-cols-4 divide-x [animation-delay:400ms] divide-slate-200 rounded-2xl border border-slate-200/80 bg-white/60 py-3 sm:mt-10 sm:rounded-3xl sm:py-4 backdrop-blur lg:mx-0 dark:divide-slate-800 dark:border-slate-800 dark:bg-slate-900/50'>
                         {s.stats.map(([k, label]) => (
                             <div
                                 key={k}
                                 className='px-2 text-center'>
                                 <dt className='sr-only'>{label}</dt>
-                                <dd className='text-2xl font-black text-slate-900 sm:text-3xl dark:text-white'>{num(COUNTS[k])}</dd>
+                                <dd className='text-xl font-black text-slate-900 sm:text-3xl dark:text-white'>{num(COUNTS[k])}</dd>
                                 <dd className='mt-0.5 text-[11px] leading-tight font-medium text-slate-500 sm:text-xs dark:text-slate-400'>{label}</dd>
                             </div>
                         ))}
                     </dl>
 
                     {/* phones & tablets: compact photo strip (the collage on the right is desktop-only) */}
-                    <div className='mx-auto mt-8 grid max-w-xl animate-fade-up grid-cols-3 gap-2.5 [animation-delay:480ms] sm:gap-3 lg:hidden'>
+                    <div className='mx-auto mt-8 hidden max-w-xl animate-fade-up grid-cols-3 gap-3 [animation-delay:480ms] sm:grid lg:hidden'>
                         {[
                             ['hero-market', 'market'],
                             ['hero-floating', 'floating'],

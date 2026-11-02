@@ -27,31 +27,31 @@ export default function CoffeeSpotlight() {
   const { lang, num } = useLang();
   const s = T[lang];
   return (
-    <section data-reveal className="mt-12">
+    <section data-reveal className="mt-10 sm:mt-12">
       <Link
         to="/coffee"
-        className="group relative isolate grid overflow-hidden rounded-[2rem] bg-roast-950 text-roast-50 shadow-xl shadow-roast-900/20 md:grid-cols-[1.2fr_1fr]"
+        className="group relative isolate grid overflow-hidden rounded-3xl bg-roast-950 sm:rounded-[2rem] text-roast-50 shadow-xl shadow-roast-900/20 md:grid-cols-[1.2fr_1fr]"
       >
-        <div className="relative z-10 p-6 sm:p-10">
+        <div className="relative z-10 order-2 p-5 sm:p-10 md:order-none">
           <p className="inline-flex items-center gap-2 rounded-full border border-roast-400/30 bg-roast-900/70 px-3 py-1 text-xs font-bold tracking-wider text-roast-200 uppercase">
             <Coffee className="h-3.5 w-3.5" aria-hidden="true" /> {s.kicker}
           </p>
-          <h2 className="mt-4 font-serif text-3xl leading-tight font-black sm:text-4xl">{s.title}</h2>
-          <p className="mt-3 max-w-lg text-roast-100/75">{s.text}</p>
-          <dl className="mt-6 flex flex-wrap gap-x-8 gap-y-3">
+          <h2 className="mt-3 font-serif text-2xl leading-tight font-black sm:mt-4 sm:text-4xl">{s.title}</h2>
+          <p className="mt-2 line-clamp-2 max-w-lg text-sm text-roast-100/75 sm:mt-3 sm:line-clamp-none sm:text-base">{s.text}</p>
+          <dl className="mt-4 flex flex-wrap gap-x-6 gap-y-3 sm:mt-6 sm:gap-x-8">
             {s.stats.map(([v, label]) => (
               <div key={label}>
                 <dt className="sr-only">{label}</dt>
-                <dd className="font-serif text-3xl font-black text-roast-200">{num(+v)}</dd>
+                <dd className="font-serif text-2xl font-black text-roast-200 sm:text-3xl">{num(+v)}</dd>
                 <dd className="text-xs text-roast-200/60">{label}</dd>
               </div>
             ))}
           </dl>
-          <span className="mt-7 inline-flex items-center gap-2 rounded-full bg-roast-300 px-5 py-2.5 font-bold text-roast-950 transition group-hover:gap-3 group-hover:bg-roast-200">
+          <span className="mt-5 inline-flex items-center gap-2 rounded-full bg-roast-300 px-4 py-2 text-sm font-bold sm:mt-7 sm:px-5 sm:py-2.5 sm:text-base text-roast-950 transition group-hover:gap-3 group-hover:bg-roast-200">
             {s.cta} <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </span>
         </div>
-        <div className="relative min-h-56 md:min-h-full">
+        <div className="relative order-1 min-h-36 sm:min-h-56 md:order-none md:min-h-full">
           <SiteImage id="coffee-cup" alt={s.alt} sizes="(min-width: 768px) 460px, 100vw" className="absolute inset-0 h-full w-full transition duration-700 group-hover:scale-105" />
           <div className="absolute inset-0 bg-gradient-to-t from-roast-950 via-transparent to-transparent md:bg-gradient-to-r" aria-hidden="true" />
           {/* rising steam */}

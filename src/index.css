@@ -170,6 +170,33 @@ html[lang="bn"] :where(h1, h2) {
   background-size: 200% 100%;
 }
 
+/* ---- mobile rail ----
+   On phones a long grid of cards becomes one swipeable row, so the page stays short.
+   From 640px up the element keeps whatever grid classes it has. Unlayered, so it wins
+   over Tailwind's `grid` utilities below 640px. */
+@media (max-width: 639.98px) {
+  .rail {
+    display: flex;
+    gap: 0.75rem;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 1rem;
+    margin-inline: -1rem;
+    padding: 0.25rem 1rem 0.75rem;
+    scrollbar-width: none;
+  }
+  .rail::-webkit-scrollbar { display: none; }
+  .rail > * {
+    flex: 0 0 78%;
+    max-width: 19rem;
+    scroll-snap-align: start;
+  }
+  .rail-sm > * { flex-basis: 62%; max-width: 15rem; }
+  /* scroll-reveal is tied to vertical scrolling — not meaningful inside a sideways row */
+  .rail [data-reveal] { animation: none; }
+}
+
 /* hide number input arrows */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }

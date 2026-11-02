@@ -76,39 +76,63 @@ function Footer() {
     { title: lang === "bn" ? "এক্সপ্লোর" : "Explore", items: PRIMARY_NAV.map(n => [n.to, n[lang]]) },
     ...LEARN_GROUPS.map(g => ({ title: g[lang], items: g.items.map(i => [i.to, i[lang][0]]) })),
   ];
+  const link = "text-slate-500 transition hover:text-brand-700 dark:text-slate-400 dark:hover:text-brand-300";
   return (
-    <footer className="mt-8 border-t border-slate-200/80 bg-white/70 backdrop-blur dark:border-slate-800 dark:bg-slate-950/60">
-      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:grid-cols-2 lg:grid-cols-[1.4fr_repeat(4,1fr)]">
-        <div>
-          <p className="text-gradient text-xl font-extrabold">{SITE.name[lang]}</p>
-          <p className="mt-1 text-sm font-medium text-slate-700 dark:text-slate-300">{SITE.tagline[lang]}</p>
-          <p className="mt-3 text-sm leading-relaxed text-slate-500 dark:text-slate-400">{t.footer}</p>
-        </div>
-        {groups.map(g => (
-          <nav key={g.title} aria-label={g.title}>
-            <p className="mb-3 text-xs font-semibold tracking-wide text-slate-400 uppercase">{g.title}</p>
-            <ul className="space-y-2 text-sm">
-              {g.items.map(([to, label]) => (
-                <li key={to}>
-                  <Link to={to} className="text-slate-600 transition hover:text-brand-700 dark:text-slate-300 dark:hover:text-brand-300">{label}</Link>
-                </li>
+    <footer className="mt-12 border-t border-slate-200/80 dark:border-slate-800">
+      <div className="mx-auto max-w-6xl px-4 pt-8 pb-6 sm:pt-12">
+        <div className="flex flex-col gap-8 lg:flex-row lg:justify-between">
+          {/* brand */}
+          <div className="max-w-sm">
+            <Link to="/" className="inline-flex items-center gap-2.5">
+              <span className="relative grid h-9 w-9 shrink-0 overflow-hidden rounded-xl bg-gradient-to-br from-brand-500 to-accent-500">
+                <svg viewBox="0 0 64 64" className="absolute inset-0 h-full w-full" aria-hidden="true">
+                  <path d="M18 34h28a14 14 0 0 1-28 0Z" fill="#fff" />
+                  <path d="M32 31c0-8 4-14 12-16-1 8-5 13-12 16Z" fill="#fff" fillOpacity=".75" />
+                  <path d="M30 31c-6-2-9-7-9-13 6 1 9 6 9 13Z" fill="#fff" fillOpacity=".9" />
+                </svg>
+              </span>
+              <span className="font-extrabold text-slate-900 dark:text-white">{SITE.name[lang]}</span>
+            </Link>
+            <p className="mt-3 text-xs leading-relaxed text-slate-500 dark:text-slate-400">{t.footer}</p>
+          </div>
+
+          {/* phones: one short row of main links */}
+          <nav aria-label={groups[0].title} className="sm:hidden">
+            <ul className="flex flex-wrap gap-x-5 gap-y-2 text-sm font-medium">
+              {[...groups[0].items, ["/learn", lang === "bn" ? "জানুন" : "Learn"]].map(([to, label]) => (
+                <li key={to}><Link to={to} className="text-slate-700 hover:text-brand-700 dark:text-slate-300 dark:hover:text-brand-300">{label}</Link></li>
               ))}
             </ul>
           </nav>
-        ))}
+
+          {/* tablets & desktop: compact link columns */}
+          <div className="hidden gap-x-10 gap-y-6 sm:grid sm:grid-cols-2 md:grid-cols-4">
+            {groups.map(g => (
+              <nav key={g.title} aria-label={g.title}>
+                <p className="mb-2.5 text-xs font-semibold text-slate-900 dark:text-white">{g.title}</p>
+                <ul className="space-y-1.5 text-sm">
+                  {g.items.map(([to, label]) => (
+                    <li key={to}><Link to={to} className={link}>{label}</Link></li>
+                  ))}
+                </ul>
+              </nav>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-8 flex flex-col gap-3 border-t border-slate-200/80 pt-5 text-xs sm:flex-row sm:items-center sm:justify-between dark:border-slate-800">
+          <nav aria-label={lang === "bn" ? "আইনি ও তথ্য" : "Legal & information"} className="sm:order-2">
+            <ul className="flex flex-wrap gap-x-4 gap-y-1.5">
+              {FOOTER_LEGAL.map(([to, en, bn]) => (
+                <li key={to}><Link to={to} className={link}>{lang === "bn" ? bn : en}</Link></li>
+              ))}
+            </ul>
+          </nav>
+          <p className="text-slate-400 dark:text-slate-500">
+            © <span suppressHydrationWarning>{new Date().getFullYear()}</span> {SITE.name[lang]} · {t.photo}: Wikimedia Commons
+          </p>
+        </div>
       </div>
-      <nav aria-label={lang === "bn" ? "আইনি ও তথ্য" : "Legal & information"} className="border-t border-slate-200/80 dark:border-slate-800">
-        <ul className="mx-auto flex max-w-6xl flex-wrap justify-center gap-x-5 gap-y-2 px-4 py-4 text-xs">
-          {FOOTER_LEGAL.map(([to, en, bn]) => (
-            <li key={to}>
-              <Link to={to} className="text-slate-500 hover:text-brand-700 dark:text-slate-400 dark:hover:text-brand-300">{lang === "bn" ? bn : en}</Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
-      <p className="border-t border-slate-200/80 px-4 py-5 text-center text-xs text-slate-500 dark:border-slate-800 dark:text-slate-400">
-        {t.photo}: Wikimedia Commons (CC BY / CC BY-SA / Public domain) · © <span suppressHydrationWarning>{new Date().getFullYear()}</span> {SITE.name[lang]}
-      </p>
     </footer>
   );
 }

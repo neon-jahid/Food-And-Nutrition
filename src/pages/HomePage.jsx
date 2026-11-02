@@ -39,8 +39,8 @@ export default function HomePage({ compare, onToggleCompare }) {
     <>
       <Hero query={query} setQuery={setQuery} onSearch={q => q.trim() && browse({ q: q.trim() })} />
 
-      <div className="mx-auto w-full max-w-6xl px-4 pb-16">
-        <section className="mt-12">
+      <div className="mx-auto w-full max-w-6xl px-4 pb-10 sm:pb-16">
+        <section className="mt-6 sm:mt-12">
           <SectionHeader
             icon={UtensilsCrossed}
             title={lang === "bn" ? "কখন কী খাবেন" : "What to eat, and when"}
@@ -61,7 +61,7 @@ export default function HomePage({ compare, onToggleCompare }) {
         <RecentlyViewed />
         <TipOfDay />
 
-        <section className="mt-12">
+        <section className="mt-10 sm:mt-12">
           <SectionHeader
             icon={LayoutGrid}
             title={lang === "bn" ? "সব খাবার" : "All foods"}
@@ -74,7 +74,7 @@ export default function HomePage({ compare, onToggleCompare }) {
           />
           <CategoryChips active="all" onChange={cat => browse({ cat })} />
 
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="rail grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {preview.map(food => (
               <FoodCard
                 key={food.id}
@@ -85,10 +85,10 @@ export default function HomePage({ compare, onToggleCompare }) {
             ))}
           </div>
 
-          <div className="mt-8 text-center">
+          <div className="mt-5 text-center sm:mt-8">
             <Link
               to="/foods"
-              className="inline-flex items-center gap-2 rounded-full bg-brand-500 px-6 py-3 font-semibold text-white shadow-md shadow-brand-500/20 transition hover:bg-brand-600"
+              className="inline-flex items-center gap-2 rounded-full bg-brand-500 px-5 py-2.5 text-sm sm:px-6 sm:py-3 sm:text-base font-semibold text-white shadow-md shadow-brand-500/20 transition hover:bg-brand-600"
             >
               {viewAll} <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
@@ -97,7 +97,7 @@ export default function HomePage({ compare, onToggleCompare }) {
 
         <TopLists />
 
-        <section data-reveal className="mt-12">
+        <section data-reveal className="mt-10 sm:mt-12">
           <SectionHeader
             icon={GraduationCap}
             title={lang === "bn" ? "পুষ্টি সম্পর্কে জানুন" : "Learn about nutrition"}
@@ -111,7 +111,7 @@ export default function HomePage({ compare, onToggleCompare }) {
           <LearnGrid compact />
         </section>
 
-        <section data-reveal className="mt-12">
+        <section data-reveal className="mt-10 sm:mt-12">
           <SectionHeader
             icon={Newspaper}
             title={lang === "bn" ? "ব্লগ থেকে" : "From the blog"}
@@ -122,7 +122,7 @@ export default function HomePage({ compare, onToggleCompare }) {
               </Link>
             }
           />
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="rail grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {latestPosts.map(p => <PostCard key={p.slug} post={p} />)}
           </div>
         </section>
