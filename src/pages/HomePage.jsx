@@ -5,14 +5,14 @@ import { useLang } from "../context/LangContext.jsx";
 import CategoryChips from "../components/CategoryChips.jsx";
 import FoodCard from "../components/FoodCard.jsx";
 import SearchBox from "../components/SearchBox.jsx";
-import FoodImage from "../components/FoodImage.jsx";
-import { ArrowRight, GraduationCap, LayoutGrid, Newspaper } from "lucide-react";
+import Hero from "../components/Hero.jsx";
+import MealGuide from "../components/MealGuide.jsx";
+import { ArrowRight, GraduationCap, LayoutGrid, Newspaper, UtensilsCrossed } from "lucide-react";
 import { POSTS } from "../data/blog.js";
 import { LearnGrid } from "./LearnPage.jsx";
 import { PostCard } from "./BlogPage.jsx";
 import { HealthGoals, RecentlyViewed, SectionHeader, SeasonalNow, TipOfDay, TopLists, ToolsCta } from "../components/HomeSections.jsx";
 
-const HERO_FOODS = ["hilsa", "mango", "spinach", "egg"];
 const PREVIEW_COUNT = 8;
 const latestPosts = [...POSTS].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
 
@@ -36,41 +36,23 @@ export default function HomePage({ compare, onToggleCompare }) {
 
   return (
     <>
-      <section className="relative bg-gradient-to-br from-brand-50 via-white to-amber-50 dark:from-slate-900 dark:via-slate-950 dark:to-slate-900">
-        {/* decorative HD photo strip — clipped in its own layer so the search dropdown isn't cut off */}
-        <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
-        <div className="absolute inset-y-0 right-0 hidden w-[36%] grid-cols-2 grid-rows-2 gap-3 py-8 pr-6 xl:grid" aria-hidden="true">
-          {HERO_FOODS.map((id, i) => {
-            const f = FOODS.find(x => x.id === id);
-            return (
-              <FoodImage
-                key={id}
-                food={f}
-                hd
-                eager
-                sizes="240px"
-                className={`h-full min-h-0 w-full rounded-2xl shadow-lg ring-4 ring-white/70 dark:ring-slate-900/70 ${i % 2 ? "translate-y-4" : "-translate-y-1"}`}
-              />
-            );
-          })}
-        </div>
-        </div>
-
-        <div className="relative z-10 mx-auto max-w-6xl px-4 py-12 sm:py-16 xl:pr-[40%]">
-          <div className="text-center xl:text-left">
-            <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-5xl dark:text-white">{t.heroTitle}</h1>
-            <p className="mx-auto mt-3 max-w-2xl text-slate-600 xl:mx-0 dark:text-slate-400">
-              {fill(t.heroText, { count: FOODS.length, cats: CATEGORIES.length })}
-            </p>
-          </div>
-          <div className="mt-7">
-            {/* suggestions open a food directly; Enter opens the full results on /foods */}
-            <SearchBox value={query} onChange={setQuery} onSubmit={q => q.trim() && browse({ q: q.trim() })} />
-          </div>
-        </div>
-      </section>
+      <Hero query={query} setQuery={setQuery} onSearch={q => q.trim() && browse({ q: q.trim() })} />
 
       <div className="mx-auto w-full max-w-6xl px-4 pb-16">
+        <section className="mt-12">
+          <SectionHeader
+            icon={UtensilsCrossed}
+            title={lang === "bn" ? "কখন কী খাবেন" : "What to eat, and when"}
+            sub={lang === "bn" ? "সকালের নাস্তা থেকে রাতের খাবার — দিনের প্রতিটি সময়ের জন্য ভালো থালা" : "From breakfast to dinner — a good plate for every time of day"}
+            action={
+              <Link to="/meals" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:underline dark:text-brand-100">
+                {lang === "bn" ? "পুরো গাইড" : "Full guide"} <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </Link>
+            }
+          />
+          <MealGuide compact />
+        </section>
+
         <HealthGoals onPick={id => browse({ goals: id })} />
         <SeasonalNow />
         <RecentlyViewed />

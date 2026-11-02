@@ -110,7 +110,7 @@ export default function SearchBox({ value, onChange, onSubmit }) {
       )}
       </div>
       {!value && (
-        <p className="mt-3 flex items-start justify-center gap-1.5 text-center text-xs text-slate-500 xl:justify-start xl:text-left dark:text-slate-400">
+        <p className="mt-3 flex items-start justify-center gap-1.5 text-center text-xs text-slate-500 lg:justify-start lg:text-left dark:text-slate-400">
           <Lightbulb className="h-3.5 w-3.5 shrink-0 text-amber-500" aria-hidden="true" /> {t.searchTips}
         </p>
       )}

@@ -19,6 +19,7 @@ const DeficiencyPage = lazy(() => import("./pages/DeficiencyPage.jsx"));
 const MythsPage = lazy(() => import("./pages/MythsPage.jsx"));
 import BlogPage from "./pages/BlogPage.jsx";
 const GenderHealthPage = lazy(() => import("./pages/GenderHealthPage.jsx"));
+const MealsPage = lazy(() => import("./pages/MealsPage.jsx"));
 const BlogPostPage = lazy(() => import("./pages/BlogPostPage.jsx"));
 
 const MAX_COMPARE = 3;
@@ -118,6 +119,7 @@ export default function App() {
           <Route path="/deficiency" element={<DeficiencyPage />} />
           <Route path="/mens-health" element={<GenderHealthPage key="men" who="men" />} />
           <Route path="/womens-health" element={<GenderHealthPage key="women" who="women" />} />
+          <Route path="/meals" element={<MealsPage />} />
           <Route path="/myths" element={<MythsPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />

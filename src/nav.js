@@ -1,5 +1,5 @@
 import {
-  Apple, BookOpen, Calculator, CircleHelp, FlaskConical, Gem, House, Leaf, Mars, Newspaper, Refrigerator, Stethoscope, Venus,
+  Apple, BookOpen, Calculator, CircleHelp, FlaskConical, Gem, House, Leaf, Mars, Newspaper, Refrigerator, Stethoscope, UtensilsCrossed, Venus,
 } from "lucide-react";
 
 /** Top-level links shown directly in the header bar. */
@@ -38,6 +38,8 @@ export const LEARN_GROUPS = [
     id: "wellness",
     en: "Healthy living", bn: "সুস্থ জীবন",
     items: [
+      { to: "/meals", icon: UtensilsCrossed, tone: "orange", en: ["What to eat, when", "Breakfast, lunch, snack and dinner ideas"],
+        bn: ["কখন কী খাবেন", "সকাল, দুপুর, বিকেল ও রাতের খাবার"] },
       { to: "/plants", icon: Leaf, tone: "emerald", en: ["Medicinal plants", "Tulsi, neem, thankuni and other herbs"],
         bn: ["ঔষধি গাছ", "তুলসী, নিম, থানকুনি ও অন্যান্য ভেষজ"] },
       { to: "/storage", icon: Refrigerator, tone: "teal", en: ["Food storage guide", "Keep food fresh and safe for longer"],
