@@ -1,0 +1,53 @@
+import {
+  Apple, BookOpen, Calculator, CircleHelp, FlaskConical, Gem, House, Leaf, Mars, Newspaper, Refrigerator, Stethoscope, Venus,
+} from "lucide-react";
+
+/** Top-level links shown directly in the header bar. */
+export const PRIMARY_NAV = [
+  { to: "/", icon: House, en: "Home", bn: "হোম" },
+  { to: "/foods", icon: Apple, en: "Foods", bn: "খাবার" },
+  { to: "/tools", icon: Calculator, en: "Tools", bn: "টুলস" },
+  { to: "/blog", icon: Newspaper, en: "Blog", bn: "ব্লগ" },
+];
+
+/** Grouped links under "Learn" (mega menu on desktop, drawer on mobile, hub page at /learn). */
+export const LEARN_GROUPS = [
+  {
+    id: "foryou",
+    en: "Men & women", bn: "নারী ও পুরুষ",
+    items: [
+      { to: "/mens-health", icon: Mars, tone: "sky", en: ["Men's health", "Heart, strength, vitality and fertility"],
+        bn: ["পুরুষের স্বাস্থ্য", "হৃদযন্ত্র, শক্তি, সক্ষমতা ও প্রজনন"] },
+      { to: "/womens-health", icon: Venus, tone: "fuchsia", en: ["Women's health", "Periods, pregnancy, PCOS and menopause"],
+        bn: ["নারীর স্বাস্থ্য", "মাসিক, গর্ভাবস্থা, পিসিওএস ও মেনোপজ"] },
+    ],
+  },
+  {
+    id: "nutrients",
+    en: "Nutrients", bn: "পুষ্টি উপাদান",
+    items: [
+      { to: "/vitamins", icon: FlaskConical, tone: "amber", en: ["Vitamin guide", "What each vitamin does and where to get it"],
+        bn: ["ভিটামিন গাইড", "কোন ভিটামিনের কী কাজ, কোথায় পাবেন"] },
+      { to: "/minerals", icon: Gem, tone: "sky", en: ["Mineral guide", "Iron, calcium, zinc, iodine and more"],
+        bn: ["খনিজ গাইড", "আয়রন, ক্যালসিয়াম, জিংক, আয়োডিন ও আরও"] },
+      { to: "/deficiency", icon: Stethoscope, tone: "rose", en: ["Deficiency guide", "Signs, causes and foods that help"],
+        bn: ["অভাবজনিত রোগ", "লক্ষণ, কারণ ও উপকারী খাবার"] },
+    ],
+  },
+  {
+    id: "wellness",
+    en: "Healthy living", bn: "সুস্থ জীবন",
+    items: [
+      { to: "/plants", icon: Leaf, tone: "emerald", en: ["Medicinal plants", "Tulsi, neem, thankuni and other herbs"],
+        bn: ["ঔষধি গাছ", "তুলসী, নিম, থানকুনি ও অন্যান্য ভেষজ"] },
+      { to: "/storage", icon: Refrigerator, tone: "teal", en: ["Food storage guide", "Keep food fresh and safe for longer"],
+        bn: ["খাবার সংরক্ষণ", "খাবার দীর্ঘদিন তাজা ও নিরাপদ রাখুন"] },
+      { to: "/myths", icon: CircleHelp, tone: "violet", en: ["Myths vs facts", "Common food beliefs, checked"],
+        bn: ["ভুল ধারণা বনাম সত্য", "প্রচলিত খাদ্য-বিশ্বাস যাচাই"] },
+      { to: "/guide", icon: BookOpen, tone: "lime", en: ["Healthy eating guide", "Balanced plate and daily habits"],
+        bn: ["স্বাস্থ্যকর খাবারের গাইড", "সুষম প্লেট ও দৈনিক অভ্যাস"] },
+    ],
+  },
+];
+
+export const LEARN_PATHS = LEARN_GROUPS.flatMap(g => g.items.map(i => i.to)).concat("/learn");

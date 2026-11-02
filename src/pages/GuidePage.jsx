@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-import { Candy, CircleCheck, CircleSlash, CircleX, CookingPot, Droplets, Footprints, Milk, PieChart, Sparkles } from "lucide-react";
+import { ArrowRight, Candy, CircleCheck, CircleSlash, CircleX, CookingPot, Droplets, Footprints, Milk, PieChart, Sparkles } from "lucide-react";
 
 const HABIT_ICONS = { Candy, CircleSlash, CookingPot, Droplets, Footprints, Milk };
 import { FOODS } from "../data/foods.js";
-import { HABITS, MYTHS, PLATE } from "../data/extras.js";
+import { HABITS, PLATE } from "../data/extras.js";
+import { MYTHS } from "../data/myths.js";
 import { useLang } from "../context/LangContext.jsx";
 import FoodImage from "../components/FoodImage.jsx";
 import { SectionHeader } from "../components/HomeSections.jsx";
@@ -100,7 +101,7 @@ export default function GuidePage() {
       <section className="mt-8">
         <SectionHeader icon={CircleCheck} title={s.mythTitle} sub={s.mythSub} />
         <div className="grid gap-4 md:grid-cols-2">
-          {MYTHS.map((m, i) => (
+          {MYTHS.slice(0, 4).map((m, i) => (
             <article key={i} className="overflow-hidden rounded-2xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900">
               <p className="flex gap-2 bg-red-50 px-4 py-3 font-semibold text-red-800 dark:bg-red-500/10 dark:text-red-300">
                 <CircleX className="mt-0.5 h-5 w-5 shrink-0" aria-hidden="true" />
@@ -113,6 +114,9 @@ export default function GuidePage() {
             </article>
           ))}
         </div>
+        <Link to="/myths" className="mt-5 inline-flex items-center gap-1 font-semibold text-brand-700 hover:underline dark:text-brand-300">
+          {lang === "bn" ? `সবগুলো ${num(MYTHS.length)}টি ভুল ধারণা দেখুন` : `See all ${MYTHS.length} myths`} <ArrowRight className="h-4 w-4" aria-hidden="true" />
+        </Link>
       </section>
 
       <p className="mt-8 rounded-2xl bg-slate-100 p-4 text-sm text-slate-600 dark:bg-slate-900 dark:text-slate-400">{s.note}</p>

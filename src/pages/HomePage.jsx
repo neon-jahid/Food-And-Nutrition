@@ -6,11 +6,15 @@ import CategoryChips from "../components/CategoryChips.jsx";
 import FoodCard from "../components/FoodCard.jsx";
 import SearchBox from "../components/SearchBox.jsx";
 import FoodImage from "../components/FoodImage.jsx";
-import { ArrowRight, LayoutGrid } from "lucide-react";
+import { ArrowRight, GraduationCap, LayoutGrid, Newspaper } from "lucide-react";
+import { POSTS } from "../data/blog.js";
+import { LearnGrid } from "./LearnPage.jsx";
+import { PostCard } from "./BlogPage.jsx";
 import { HealthGoals, RecentlyViewed, SectionHeader, SeasonalNow, TipOfDay, TopLists, ToolsCta } from "../components/HomeSections.jsx";
 
 const HERO_FOODS = ["hilsa", "mango", "spinach", "egg"];
 const PREVIEW_COUNT = 8;
+const latestPosts = [...POSTS].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
 
 export default function HomePage({ compare, onToggleCompare }) {
   const { t, lang, fill, name, num } = useLang();
@@ -107,6 +111,37 @@ export default function HomePage({ compare, onToggleCompare }) {
         </section>
 
         <TopLists />
+
+        <section className="mt-12">
+          <SectionHeader
+            icon={GraduationCap}
+            title={lang === "bn" ? "পুষ্টি সম্পর্কে জানুন" : "Learn about nutrition"}
+            sub={lang === "bn" ? "ভিটামিন, খনিজ, ঔষধি গাছ, খাবার সংরক্ষণ ও আরও অনেক কিছু" : "Vitamins, minerals, medicinal plants, food storage and more"}
+            action={
+              <Link to="/learn" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:underline dark:text-brand-100">
+                {lang === "bn" ? "সব গাইড" : "All guides"} <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </Link>
+            }
+          />
+          <LearnGrid compact />
+        </section>
+
+        <section className="mt-12">
+          <SectionHeader
+            icon={Newspaper}
+            title={lang === "bn" ? "ব্লগ থেকে" : "From the blog"}
+            sub={lang === "bn" ? "দেশি খাবারে সুস্থ থাকার সহজ লেখা" : "Practical reads on eating well, the desi way"}
+            action={
+              <Link to="/blog" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:underline dark:text-brand-100">
+                {lang === "bn" ? "সব লেখা" : "All articles"} <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </Link>
+            }
+          />
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {latestPosts.map(p => <PostCard key={p.slug} post={p} />)}
+          </div>
+        </section>
+
         <ToolsCta />
       </div>
     </>

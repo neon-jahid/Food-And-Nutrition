@@ -1,0 +1,74 @@
+import { Link } from "react-router-dom";
+import { ArrowRight, GraduationCap } from "lucide-react";
+import { LEARN_GROUPS } from "../nav.js";
+import { POSTS } from "../data/blog.js";
+import { useLang } from "../context/LangContext.jsx";
+import { tone } from "../tones.js";
+import { PageHero } from "../components/PageKit.jsx";
+import { PostCard } from "./BlogPage.jsx";
+
+const T = {
+  en: { title: "Learn", sub: "Everything beyond the numbers — nutrients, deficiencies, herbs, food safety and the truth behind common beliefs.", open: "Open guide", blog: "From the blog", all: "All articles" },
+  bn: { title: "জানুন", sub: "সংখ্যার বাইরেও যা জানা দরকার — পুষ্টি উপাদান, অভাবজনিত রোগ, ভেষজ, খাদ্য নিরাপত্তা আর প্রচলিত বিশ্বাসের সত্যতা।", open: "গাইড খুলুন", blog: "ব্লগ থেকে", all: "সব লেখা" },
+};
+
+/** Card grid of all learn guides — also used on the home page. */
+export function LearnGrid({ compact = false }) {
+  const { lang } = useLang();
+  const s = T[lang];
+  const groups = compact ? [{ id: "all", items: LEARN_GROUPS.flatMap(g => g.items) }] : LEARN_GROUPS;
+  return (
+    <div className="space-y-8">
+      {groups.map(g => (
+        <section key={g.id}>
+          {!compact && <h2 className="mb-4 text-xl font-extrabold text-slate-900 dark:text-white">{g[lang]}</h2>}
+          <div className={`grid gap-4 sm:grid-cols-2 ${compact ? "lg:grid-cols-3" : "lg:grid-cols-4"}`}>
+            {g.items.map(item => {
+              const Icon = item.icon;
+              const c = tone(item.tone);
+              const [title, desc] = item[lang];
+              return (
+                <Link key={item.to} to={item.to} className="card group relative flex flex-col gap-3 overflow-hidden p-5 transition hover:-translate-y-1 hover:shadow-xl">
+                  <span className={`absolute inset-x-0 top-0 h-1 bg-gradient-to-r ${c.bar} opacity-0 transition group-hover:opacity-100`} />
+                  <span className={`grid h-12 w-12 place-items-center rounded-2xl ${c.soft}`}>
+                    <Icon className="h-6 w-6" aria-hidden="true" />
+                  </span>
+                  <span className="text-lg font-bold text-slate-900 dark:text-white">{title}</span>
+                  <span className="text-sm text-slate-600 dark:text-slate-400">{desc}</span>
+                  <span className="mt-auto inline-flex items-center gap-1 pt-1 text-sm font-semibold text-brand-700 dark:text-brand-300">
+                    {s.open} <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" aria-hidden="true" />
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+      ))}
+    </div>
+  );
+}
+
+export default function LearnPage() {
+  const { lang } = useLang();
+  const s = T[lang];
+  const latest = [...POSTS].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
+  return (
+    <>
+      <PageHero icon={GraduationCap} title={s.title} sub={s.sub} />
+      <div className="mx-auto max-w-6xl px-4 py-10">
+        <LearnGrid />
+        <section className="mt-14">
+          <div className="mb-5 flex items-end justify-between gap-3">
+            <h2 className="text-xl font-extrabold text-slate-900 dark:text-white">{s.blog}</h2>
+            <Link to="/blog" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">
+              {s.all} <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+          </div>
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {latest.map(p => <PostCard key={p.slug} post={p} />)}
+          </div>
+        </section>
+      </div>
+    </>
+  );
+}

@@ -67,34 +67,6 @@ export const TIPS = [
     bn: "শাক অল্প তেলে হালকা রান্না করুন — একটু চর্বির সাথে শাকের ভিটামিন এ ভালো শোষিত হয়, আর বেশি রান্নায় ভিটামিন সি নষ্ট হয়।" },
 ];
 
-/** Myths & facts for the guide page. */
-export const MYTHS = [
-  { myth: { en: "Eating rice at night makes you fat.", bn: "রাতে ভাত খেলে মোটা হয়।" },
-    fact: { en: "Weight depends on total calories over the day, not the clock. A moderate portion of rice at dinner is fine; large portions at any time add up.",
-            bn: "ওজন নির্ভর করে সারা দিনের মোট ক্যালরির ওপর, সময়ের ওপর নয়। রাতে পরিমিত ভাত খাওয়া সমস্যা নয়; যেকোনো সময়ে বেশি খেলেই ওজন বাড়ে।" } },
-  { myth: { en: "Eggs raise cholesterol, so avoid them.", bn: "ডিম কোলেস্টেরল বাড়ায়, তাই এড়িয়ে চলুন।" },
-    fact: { en: "For most healthy people, about one egg a day fits a healthy diet. People with diabetes or heart disease should follow their doctor's advice.",
-            bn: "বেশিরভাগ সুস্থ মানুষের জন্য দিনে একটি ডিম স্বাস্থ্যকর খাদ্যতালিকায় মানানসই। ডায়াবেটিস বা হৃদরোগ থাকলে চিকিৎসকের পরামর্শ মানুন।" } },
-  { myth: { en: "Brown sugar, jaggery and honey are healthy sugars.", bn: "লাল চিনি, গুড় আর মধু স্বাস্থ্যকর চিনি।" },
-    fact: { en: "They contain tiny amounts of minerals but are still mostly sugar. Limit them just like white sugar, especially with diabetes.",
-            bn: "এগুলোতে সামান্য খনিজ থাকলেও মূলত চিনিই। সাদা চিনির মতোই এগুলো কম খান, বিশেষ করে ডায়াবেটিস থাকলে।" } },
-  { myth: { en: "People with diabetes must never eat fruit.", bn: "ডায়াবেটিস হলে ফল একেবারেই খাওয়া যাবে না।" },
-    fact: { en: "Whole fruits with fibre (guava, apple, pear, berries) in sensible portions are fine for most people with diabetes. Avoid juices and very large portions of very sweet fruit.",
-            bn: "আঁশযুক্ত গোটা ফল (পেয়ারা, আপেল, নাশপাতি, জাম) পরিমিত পরিমাণে বেশিরভাগ ডায়াবেটিস রোগীর জন্য ঠিক আছে। জুস ও খুব মিষ্টি ফল বেশি পরিমাণে এড়িয়ে চলুন।" } },
-  { myth: { en: "Skipping meals is a good way to lose weight.", bn: "খাবার বাদ দেওয়া ওজন কমানোর ভালো উপায়।" },
-    fact: { en: "Skipping meals often leads to overeating later. Regular, balanced meals with vegetables and protein work better.",
-            bn: "খাবার বাদ দিলে পরে প্রায়ই বেশি খাওয়া হয়ে যায়। নিয়মিত সুষম খাবার — সবজি ও আমিষসহ — বেশি কার্যকর।" } },
-  { myth: { en: "Ghee is always unhealthy.", bn: "ঘি সবসময় ক্ষতিকর।" },
-    fact: { en: "Ghee is mostly saturated fat, so keep it small — a teaspoon now and then is fine. The problem is large daily amounts.",
-            bn: "ঘি মূলত স্যাচুরেটেড চর্বি, তাই অল্প খান — মাঝেমধ্যে এক চা-চামচ ঠিক আছে। সমস্যা হলো প্রতিদিন বেশি পরিমাণে খাওয়া।" } },
-  { myth: { en: "Only meat gives enough protein.", bn: "শুধু মাংসেই যথেষ্ট আমিষ পাওয়া যায়।" },
-    fact: { en: "Fish, eggs, milk, dal, chickpeas, soybean and nuts are all good protein sources — and usually cheaper.",
-            bn: "মাছ, ডিম, দুধ, ডাল, ছোলা, সয়াবিন ও বাদাম — সবই ভালো আমিষের উৎস, আর সাধারণত সস্তাও।" } },
-  { myth: { en: "Drinking water with meals harms digestion.", bn: "খাবারের সাথে পানি খেলে হজমের ক্ষতি হয়।" },
-    fact: { en: "There's no good evidence for this. Sipping water with meals is fine and helps you stay hydrated.",
-            bn: "এর পক্ষে ভালো কোনো প্রমাণ নেই। খাবারের সাথে অল্প অল্প পানি খাওয়া ঠিক আছে এবং শরীর সতেজ রাখে।" } },
-];
-
 /** Healthy plate proportions (simplified from food-based dietary guidelines). */
 export const PLATE = [
   { key: "veg", pct: 35, color: "#16a34a", foods: ["spinach", "lau", "carrot"],
