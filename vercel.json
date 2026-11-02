@@ -1,0 +1,372 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build/client",
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/food/:id",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/foods/:id",
+      "permanent": true
+    },
+    {
+      "source": "/foods",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/foods",
+      "permanent": true
+    },
+    {
+      "source": "/tools",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/tools",
+      "permanent": true
+    },
+    {
+      "source": "/guide",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/food-guide",
+      "permanent": true
+    },
+    {
+      "source": "/learn",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/learn",
+      "permanent": true
+    },
+    {
+      "source": "/plants",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/plants",
+      "permanent": true
+    },
+    {
+      "source": "/storage",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/food-guide/food-storage",
+      "permanent": true
+    },
+    {
+      "source": "/meals",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/food-guide/meal-times",
+      "permanent": true
+    },
+    {
+      "source": "/vitamins",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/nutrition/vitamins",
+      "permanent": true
+    },
+    {
+      "source": "/minerals",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/nutrition/minerals",
+      "permanent": true
+    },
+    {
+      "source": "/deficiency",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/nutrition/deficiency",
+      "permanent": true
+    },
+    {
+      "source": "/myths",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/food-myths",
+      "permanent": true
+    },
+    {
+      "source": "/mens-health",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/mens-health",
+      "permanent": true
+    },
+    {
+      "source": "/womens-health",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/womens-health",
+      "permanent": true
+    },
+    {
+      "source": "/blog",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:slug",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/food/:id",
+      "destination": "/en/foods/:id",
+      "permanent": true
+    },
+    {
+      "source": "/foods",
+      "destination": "/en/foods",
+      "permanent": true
+    },
+    {
+      "source": "/tools",
+      "destination": "/en/tools",
+      "permanent": true
+    },
+    {
+      "source": "/guide",
+      "destination": "/en/food-guide",
+      "permanent": true
+    },
+    {
+      "source": "/learn",
+      "destination": "/en/learn",
+      "permanent": true
+    },
+    {
+      "source": "/plants",
+      "destination": "/en/plants",
+      "permanent": true
+    },
+    {
+      "source": "/storage",
+      "destination": "/en/food-guide/food-storage",
+      "permanent": true
+    },
+    {
+      "source": "/meals",
+      "destination": "/en/food-guide/meal-times",
+      "permanent": true
+    },
+    {
+      "source": "/vitamins",
+      "destination": "/en/nutrition/vitamins",
+      "permanent": true
+    },
+    {
+      "source": "/minerals",
+      "destination": "/en/nutrition/minerals",
+      "permanent": true
+    },
+    {
+      "source": "/deficiency",
+      "destination": "/en/nutrition/deficiency",
+      "permanent": true
+    },
+    {
+      "source": "/myths",
+      "destination": "/en/food-myths",
+      "permanent": true
+    },
+    {
+      "source": "/mens-health",
+      "destination": "/en/mens-health",
+      "permanent": true
+    },
+    {
+      "source": "/womens-health",
+      "destination": "/en/womens-health",
+      "permanent": true
+    },
+    {
+      "source": "/blog",
+      "destination": "/en/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:slug",
+      "destination": "/en/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/en/guide",
+      "destination": "/en/food-guide",
+      "permanent": true
+    },
+    {
+      "source": "/en/storage",
+      "destination": "/en/food-guide/food-storage",
+      "permanent": true
+    },
+    {
+      "source": "/en/meals",
+      "destination": "/en/food-guide/meal-times",
+      "permanent": true
+    },
+    {
+      "source": "/en/vitamins",
+      "destination": "/en/nutrition/vitamins",
+      "permanent": true
+    },
+    {
+      "source": "/en/minerals",
+      "destination": "/en/nutrition/minerals",
+      "permanent": true
+    },
+    {
+      "source": "/en/deficiency",
+      "destination": "/en/nutrition/deficiency",
+      "permanent": true
+    },
+    {
+      "source": "/en/myths",
+      "destination": "/en/food-myths",
+      "permanent": true
+    },
+    {
+      "source": "/bn/guide",
+      "destination": "/bn/food-guide",
+      "permanent": true
+    },
+    {
+      "source": "/bn/storage",
+      "destination": "/bn/food-guide/food-storage",
+      "permanent": true
+    },
+    {
+      "source": "/bn/meals",
+      "destination": "/bn/food-guide/meal-times",
+      "permanent": true
+    },
+    {
+      "source": "/bn/vitamins",
+      "destination": "/bn/nutrition/vitamins",
+      "permanent": true
+    },
+    {
+      "source": "/bn/minerals",
+      "destination": "/bn/nutrition/minerals",
+      "permanent": true
+    },
+    {
+      "source": "/bn/deficiency",
+      "destination": "/bn/nutrition/deficiency",
+      "permanent": true
+    },
+    {
+      "source": "/bn/myths",
+      "destination": "/bn/food-myths",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    }
+  ]
+}

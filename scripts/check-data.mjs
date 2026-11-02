@@ -98,6 +98,13 @@ for (const [, to] of LEGACY_REDIRECTS) {
   if (!to.includes(":") && !known.has(sample)) fail(`legacy redirect target ${to} is not a public path`);
 }
 
+// 4. committed vercel.json must match the redirects generated from src/paths.js
+const { vercelJson } = await import(pathToFileURL(resolve("scripts/vercel-config.mjs")).href);
+const { readFileSync } = await import("node:fs");
+if (!existsSync("vercel.json") || readFileSync("vercel.json", "utf8").replace(/\r\n/g, "\n") !== vercelJson()) {
+  fail("vercel.json is out of date — run: node scripts/vercel-config.mjs");
+}
+
 if (errors.length) {
   console.error(`✗ ${errors.length} data problem(s):\n  - ` + errors.slice(0, 50).join("\n  - "));
   process.exit(1);
