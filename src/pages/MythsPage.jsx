@@ -25,7 +25,7 @@ function MythCard({ m, shown, onToggle }) {
   const partly = m.verdict === "partly";
   const cat = MYTH_CATS.find(c => c.id === m.cat);
   return (
-    <article className="card flex flex-col overflow-hidden">
+    <article data-reveal className="card flex flex-col overflow-hidden">
       <div className="flex-1 p-5">
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <span className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-bold ${

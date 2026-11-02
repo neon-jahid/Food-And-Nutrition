@@ -1680,5 +1680,275 @@
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Roasted_squab_in_sweet_soy_sauce_(8415657719).jpg",
   "hd": "/images/foods/hd/pigeon.webp"
+ },
+ "muskmelon": {
+  "src": "/images/foods/muskmelon.webp",
+  "file": "Cucumis melo var. reticulatus (photo by Scott Bauer).jpg",
+  "author": "USDA photo by Scott Bauer. Image Number K7355-11.",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Cucumis_melo_var._reticulatus_(photo_by_Scott_Bauer).jpg",
+  "hd": "/images/foods/hd/muskmelon.webp"
+ },
+ "passionfruit": {
+  "src": "/images/foods/passionfruit.webp",
+  "file": "Passionfruit and cross section.jpg",
+  "author": "fir0002 flagstaffotos [at] gmail.com Canon 20D + Sigma 150mm f/2.8",
+  "license": "GFDL 1.2",
+  "page": "https://commons.wikimedia.org/wiki/File:Passionfruit_and_cross_section.jpg",
+  "hd": "/images/foods/hd/passionfruit.webp"
+ },
+ "mulberry": {
+  "src": "/images/foods/mulberry.webp",
+  "file": "Mulberry fruit (1).jpg",
+  "author": "Fumikas Sagisavas",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mulberry_fruit_(1).jpg",
+  "hd": "/images/foods/hd/mulberry.webp"
+ },
+ "fig": {
+  "src": "/images/foods/fig.webp",
+  "file": "Fig (Ficus carica) fruit halved.jpg",
+  "author": "Ivar Leidus",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Fig_(Ficus_carica)_fruit_halved.jpg",
+  "hd": "/images/foods/hd/fig.webp"
+ },
+ "greenbanana": {
+  "src": "/images/foods/greenbanana.webp",
+  "file": "2019 Plantain (48608152563).jpg",
+  "author": "Michael Gaylard from Horsham, UK",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:2019_Plantain_(48608152563).jpg",
+  "hd": "/images/foods/hd/greenbanana.webp"
+ },
+ "turnip": {
+  "src": "/images/foods/turnip.webp",
+  "file": "Brassica rapa subsp. rapa or simply turnips.jpg",
+  "author": "E4024",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Brassica_rapa_subsp._rapa_or_simply_turnips.jpg",
+  "hd": "/images/foods/hd/turnip.webp"
+ },
+ "yam": {
+  "src": "/images/foods/yam.webp",
+  "file": "Kambar wh.jpg",
+  "author": "Remi Tournebize",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Kambar_wh.jpg",
+  "hd": "/images/foods/hd/yam.webp"
+ },
+ "springonion": {
+  "src": "/images/foods/springonion.webp",
+  "file": "Fresh scallions from Gorzynski Ornery Farm, Union Square Greenmarket, May 17 2025, Manhattan, New York.jpg",
+  "author": "Deans Charbal",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Fresh_scallions_from_Gorzynski_Ornery_Farm,_Union_Square_Greenmarket,_May_17_2025,_Manhattan,_New_York.jpg",
+  "hd": "/images/foods/hd/springonion.webp"
+ },
+ "lettuce": {
+  "src": "/images/foods/lettuce.webp",
+  "file": "Green Oak Leaf lettuce J1.jpg",
+  "author": "Jamain",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Green_Oak_Leaf_lettuce_J1.jpg",
+  "hd": "/images/foods/hd/lettuce.webp"
+ },
+ "frenchbean": {
+  "src": "/images/foods/frenchbean.webp",
+  "file": "Green beans 169clue.jpg",
+  "author": "16:9clue",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Green_beans_169clue.jpg",
+  "hd": "/images/foods/hd/frenchbean.webp"
+ },
+ "squash": {
+  "src": "/images/foods/squash.webp",
+  "file": "Sechium edule dsc07767.jpg",
+  "author": "David.Monniaux",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sechium_edule_dsc07767.jpg",
+  "hd": "/images/foods/hd/squash.webp"
+ },
+ "pomelo": {
+  "src": "/images/foods/pomelo.webp",
+  "file": "Citrus maxima 'Honey'- cut.JPG",
+  "author": "Salix",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Citrus_maxima_%27Honey%27-_cut.JPG",
+  "hd": "/images/foods/hd/pomelo.webp"
+ },
+ "jamrul": {
+  "src": "/images/foods/jamrul.webp",
+  "file": "Syzygium fruit.jpg",
+  "author": "Basile Morin",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Syzygium_fruit.jpg",
+  "hd": "/images/foods/hd/jamrul.webp"
+ },
+ "longan": {
+  "src": "/images/foods/longan.webp",
+  "file": "Longan fruit flesh & skin.jpg",
+  "author": "Zenyrgarden",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Longan_fruit_flesh_%26_skin.jpg",
+  "hd": "/images/foods/hd/longan.webp"
+ },
+ "woodapple": {
+  "src": "/images/foods/woodapple.webp",
+  "file": "Wood-apple dec2007.jpg",
+  "author": "Seisfeldt at English Wikipedia",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Wood-apple_dec2007.jpg",
+  "hd": "/images/foods/hd/woodapple.webp"
+ },
+ "patshak": {
+  "src": "/images/foods/patshak.webp",
+  "file": "Starr-130221-1611-Corchorus olitorius-leaves-Waihee-Maui (25112637261).jpg",
+  "author": "Forest and Kim Starr",
+  "license": "CC BY 3.0 us",
+  "page": "https://commons.wikimedia.org/wiki/File:Starr-130221-1611-Corchorus_olitorius-leaves-Waihee-Maui_(25112637261).jpg",
+  "hd": "/images/foods/hd/patshak.webp"
+ },
+ "dhundul": {
+  "src": "/images/foods/dhundul.webp",
+  "file": "Luffa aegyptiaca Blanco2.334-cropped.jpg",
+  "author": "Francisco Manuel Blanco (O.S.A.)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Luffa_aegyptiaca_Blanco2.334-cropped.jpg"
+ },
+ "mocha": {
+  "src": "/images/foods/mocha.webp",
+  "file": "Thanin market banana flowers and leaves.jpg",
+  "author": "Takeaway",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Thanin_market_banana_flowers_and_leaves.jpg",
+  "hd": "/images/foods/hd/mocha.webp"
+ },
+ "semai": {
+  "src": "/images/foods/semai.webp",
+  "file": "Jorda Semai.jpg",
+  "author": "MD Abu Siyam",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Jorda_Semai.jpg",
+  "hd": "/images/foods/hd/semai.webp"
+ },
+ "instantnoodles": {
+  "src": "/images/foods/instantnoodles.webp",
+  "file": "Instant noodle balls.jpg",
+  "author": "Fumikas Sagisavas",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Instant_noodle_balls.jpg",
+  "hd": "/images/foods/hd/instantnoodles.webp"
+ },
+ "khesari": {
+  "src": "/images/foods/khesari.webp",
+  "file": "Lathyrus sativus seeds.JPG",
+  "author": "Quaaludes",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lathyrus_sativus_seeds.JPG"
+ },
+ "pigeonpea": {
+  "src": "/images/foods/pigeonpea.webp",
+  "file": "Cajanus cajan 92A21808-64E9-4DC6-A246-39C3F605DF9A.jpg",
+  "author": "Btcpg",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Cajanus_cajan_92A21808-64E9-4DC6-A246-39C3F605DF9A.jpg",
+  "hd": "/images/foods/hd/pigeonpea.webp"
+ },
+ "chapila": {
+  "src": "/images/foods/chapila.webp",
+  "file": "Clupea chapra Achilles 161.jpg",
+  "author": "C. Achilles",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Clupea_chapra_Achilles_161.jpg",
+  "hd": "/images/foods/hd/chapila.webp"
+ },
+ "foli": {
+  "src": "/images/foods/foli.webp",
+  "file": "Notopterus notopterus 186193326.jpg",
+  "author": "Ong Jyh Seng",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Notopterus_notopterus_186193326.jpg",
+  "hd": "/images/foods/hd/foli.webp"
+ },
+ "goatmilk": {
+  "src": "/images/foods/goatmilk.webp",
+  "file": "Goat milk in Perekrestok shop Perm 2023.jpg",
+  "author": "Svetlov Artem",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Goat_milk_in_Perekrestok_shop_Perm_2023.jpg",
+  "hd": "/images/foods/hd/goatmilk.webp"
+ },
+ "icecream": {
+  "src": "/images/foods/icecream.webp",
+  "file": "Vanilla bean ice cream (3086700978).jpg",
+  "author": "a.pasquier from bellingham, washington",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Vanilla_bean_ice_cream_(3086700978).jpg",
+  "hd": "/images/foods/hd/icecream.webp"
+ },
+ "makhana": {
+  "src": "/images/foods/makhana.webp",
+  "file": "Phool Makhana.JPG",
+  "author": "Miansari66",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Phool_Makhana.JPG",
+  "hd": "/images/foods/hd/makhana.webp"
+ },
+ "sugarcanejuice": {
+  "src": "/images/foods/sugarcanejuice.webp",
+  "file": "Glass of sugarcane juice.jpg",
+  "author": "Fgnievinski",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Glass_of_sugarcane_juice.jpg",
+  "hd": "/images/foods/hd/sugarcanejuice.webp"
+ },
+ "soymilk": {
+  "src": "/images/foods/soymilk.webp",
+  "file": "Soymilk can and glass 2.jpg",
+  "author": "Stu Spivack, GeeJo",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Soymilk_can_and_glass_2.jpg",
+  "hd": "/images/foods/hd/soymilk.webp"
+ },
+ "pantabhat": {
+  "src": "/images/foods/pantabhat.webp",
+  "file": "Bengali-Style Fermented Rice,Kolkata - West Bengal - DSC 0041.jpg",
+  "author": "TAPAS KUMAR HALDER",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bengali-Style_Fermented_Rice,Kolkata_-_West_Bengal_-_DSC_0041.jpg",
+  "hd": "/images/foods/hd/pantabhat.webp"
+ },
+ "aloobhorta": {
+  "src": "/images/foods/aloobhorta.webp",
+  "file": "আলু ভর্তা - alu vorrta.jpg",
+  "author": "Masum-al-hasan",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:%E0%A6%86%E0%A6%B2%E0%A7%81_%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE_-_alu_vorrta.jpg",
+  "hd": "/images/foods/hd/aloobhorta.webp"
+ },
+ "sandesh": {
+  "src": "/images/foods/sandesh.webp",
+  "file": "Sandesh (confectionery), popular dessert from West Bengal, India, photographed by Yogabrata Chakraborty, on April 11, 2023.jpg",
+  "author": "Billjones94",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sandesh_(confectionery),_popular_dessert_from_West_Bengal,_India,_photographed_by_Yogabrata_Chakraborty,_on_April_11,_2023.jpg",
+  "hd": "/images/foods/hd/sandesh.webp"
+ },
+ "chickencurry": {
+  "src": "/images/foods/chickencurry.webp",
+  "file": "Bengali chicken curry 2.jpg",
+  "author": "Ferdous",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bengali_chicken_curry_2.jpg",
+  "hd": "/images/foods/hd/chickencurry.webp"
+ },
+ "fishcurry": {
+  "src": "/images/foods/fishcurry.webp",
+  "file": "Bengali fish curry.jpg",
+  "author": "Rohitkhan5",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bengali_fish_curry.jpg",
+  "hd": "/images/foods/hd/fishcurry.webp"
  }
 }

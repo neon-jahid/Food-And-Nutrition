@@ -33,14 +33,19 @@ function Logo() {
   );
 }
 
-function NavItem({ to, icon: Icon, label }) {
+/** Coffee gets its own espresso-coloured pill so the guide stands out in the menus. */
+const COFFEE_PILL = "bg-gradient-to-r from-roast-800 to-roast-600 text-roast-50 shadow-sm shadow-roast-900/20 hover:brightness-110";
+
+function NavItem({ to, icon: Icon, label, special }) {
   return (
     <NavLink
       to={to}
       end={to === "/"}
       className={({ isActive }) =>
         `relative inline-flex h-10 items-center gap-1.5 rounded-xl px-3 text-sm font-semibold transition ${
-          isActive
+          special
+            ? `${COFFEE_PILL} ${isActive ? "ring-2 ring-roast-300" : ""}`
+            : isActive
             ? "bg-brand-50 text-brand-700 dark:bg-brand-500/15 dark:text-brand-300"
             : "text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
         }`
@@ -169,7 +174,7 @@ function MobileDrawer({ open, onClose }) {
 
         <nav aria-label={s.menu} className="flex-1 space-y-5 overflow-y-auto px-3 py-4">
           <div className="grid grid-cols-2 gap-2">
-            {PRIMARY_NAV.map(({ to, icon: Icon, ...l }) => (
+            {PRIMARY_NAV.map(({ to, icon: Icon, special, ...l }) => (
               <NavLink
                 key={to}
                 to={to}
@@ -177,7 +182,9 @@ function MobileDrawer({ open, onClose }) {
                 onClick={onClose}
                 className={({ isActive }) =>
                   `flex items-center gap-2 rounded-2xl border px-3 py-3 text-sm font-semibold transition ${
-                    isActive
+                    special
+                      ? `col-span-2 justify-center border-transparent ${COFFEE_PILL}`
+                      : isActive
                       ? "border-brand-200 bg-brand-50 text-brand-700 dark:border-brand-500/30 dark:bg-brand-500/10 dark:text-brand-300"
                       : "border-slate-200 text-slate-700 hover:bg-slate-50 dark:border-slate-800 dark:text-slate-200 dark:hover:bg-slate-800"
                   }`
@@ -291,6 +298,7 @@ export default function Header({ compareCount, onOpenCompare }) {
             <LearnMenu />
             <NavItem {...PRIMARY_NAV[2]} label={PRIMARY_NAV[2][lang]} />
             <NavItem {...PRIMARY_NAV[3]} label={PRIMARY_NAV[3][lang]} />
+            <NavItem {...PRIMARY_NAV[4]} label={PRIMARY_NAV[4][lang]} />
           </nav>
 
           <div className="ml-auto flex shrink-0 items-center gap-1 lg:ml-0">

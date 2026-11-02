@@ -2,6 +2,9 @@ import { CATEGORIES, FOODS, SUBGROUPS } from "./data/foods.js";
 import POINTS from "./data/points/index.js";
 import DETAILS from "./data/details/index.js";
 import { healthTags } from "./utils.js";
+import { GOALS } from "./searchMeta.js";
+
+export { GOALS, RANGE_KEYS, parseRanges, stringifyRanges } from "./searchMeta.js";
 
 /* ------------------------------------------------------------------ */
 /* Index                                                                */
@@ -27,7 +30,16 @@ const ALIASES = {
   almond: "kathbadam", peanut: "chinabadam badam", cashew: "kaju", walnut: "akhrot", sesame: "til", coconut: "narkel narikel",
   turmeric: "holud", ginger: "ada", garlic: "roshun rosun", greenchili: "kacha morich morich", coriander: "dhonepata dhone",
   mint: "pudina", cumin: "jira jeera", cinnamon: "daruchini", fenugreek: "methi", greentea: "cha tea", coffee: "kofi",
-  coconutwater: "daber pani dab", mishtidoi: "misti doi", roshogolla: "rasgulla rosogolla", singara: "samosa",
+  coconutwater: "daber pani dab",
+  muskmelon: "khormuj bangi cantaloupe melon", passionfruit: "passion fruit", mulberry: "tut tut fol", fig: "anjir dumur",
+  greenbanana: "kacha kola kachkola plantain", turnip: "shalgom salgom", yam: "mete alu meta alu", springonion: "peyaj pata piyaj pata scallion",
+  lettuce: "letus salad pata", frenchbean: "forashi shim green beans", squash: "iskus skoyash chayote", mishtidoi: "misti doi",
+  pomelo: "jambura batabi lebu grapefruit", jamrul: "jamrul rose apple", longan: "ashfol ashphal", woodapple: "kodbel kotbel kothbel kathbel",
+  patshak: "pat shak paat jute", dhundul: "dhundol luffa", mocha: "kolar mocha banana blossom", semai: "shemai vermicelli",
+  instantnoodles: "noodles maggi ramen", khesari: "khesari dal", pigeonpea: "arhar dal orhor toor dal", chapila: "chapila", foli: "foli fholi",
+  goatmilk: "chagoler dudh", icecream: "ice cream kulfi", makhana: "makhana fox nut lotus seed", sugarcanejuice: "akher rosh akh",
+  soymilk: "soya milk", pantabhat: "panta vat pantabhat", aloobhorta: "alu vorta alu bhorta", sandesh: "shondesh sondesh",
+  chickencurry: "murgir jhol murgir torkari chicken", fishcurry: "macher jhol mach torkari", roshogolla: "rasgulla rosogolla", singara: "samosa",
 };
 
 const groupOf = {};
@@ -66,20 +78,7 @@ const INDEX = FOODS.map(f => {
 /* Health goals: nutrient rule OR keyword found in positive text       */
 /* ------------------------------------------------------------------ */
 
-export const GOALS = {
-  diabetes:  { icon: "🩸", kw: ["diabet", "blood sugar", "ডায়াবেটিস", "রক্তে চিনি", "রক্তে শর্করা"], rule: n => n.fiber >= 3 && n.sugar < 10 },
-  anemia:    { icon: "🫀", kw: ["anemi", "anaemi", "রক্তস্বল্পতা"], rule: n => n.iron >= 2.5 },
-  bones:     { icon: "🦴", kw: ["bone", "teeth", "হাড়", "দাঁত"], rule: n => n.calcium >= 150 },
-  weight:    { icon: "⚖️", kw: ["weight", "ওজন"], rule: n => n.calories <= 60 && n.calories >= 5 },
-  muscle:    { icon: "💪", kw: ["muscle", "পেশি"], rule: n => n.protein >= 15 },
-  immunity:  { icon: "🛡️", kw: ["immun", "রোগ প্রতিরোধ"], rule: n => n.vitC >= 25 },
-  heart:     { icon: "❤️", kw: ["heart", "blood pressure", "cholesterol", "হৃদ", "রক্তচাপ", "কোলেস্টেরল"], rule: n => n.potassium >= 400 && n.sugar < 15 },
-  digestion: { icon: "🌀", kw: ["constipation", "digest", "gut", "কোষ্ঠকাঠিন্য", "হজম"], rule: n => n.fiber >= 4 },
-  hairSkin:  { icon: "💇", kw: ["hair", "skin", "চুল", "ত্বক"] },
-  eyes:      { icon: "👁️", kw: ["eye", "vision", "night blind", "চোখ", "দৃষ্টি", "রাতকানা"] },
-  brain:     { icon: "🧠", kw: ["brain", "memory", "মস্তিষ্ক", "স্মৃতি"] },
-  pregnancy: { icon: "🤰", kw: ["pregnan", "গর্ভ"] },
-};
+
 
 function matchesGoal(entry, goalId) {
   const g = GOALS[goalId];
@@ -179,26 +178,4 @@ export function suggest(query, limit = 6) {
   return searchFoods({ query })
     .sort((a, b) => b.score - a.score)
     .slice(0, limit);
-}
-
-/* ------------------------------------------------------------------ */
-/* URL <-> filter state                                                 */
-/* ------------------------------------------------------------------ */
-
-export const RANGE_KEYS = ["calories", "protein", "carbs", "fat", "fiber", "sugar", "vitC", "calcium", "iron", "potassium"];
-
-export function parseRanges(str) {
-  const out = {};
-  (str || "").split(",").filter(Boolean).forEach(part => {
-    const [k, min = "", max = ""] = part.split(":");
-    if (RANGE_KEYS.includes(k) && (min !== "" || max !== "")) out[k] = [min, max];
-  });
-  return out;
-}
-
-export function stringifyRanges(ranges) {
-  return Object.entries(ranges)
-    .filter(([, [min, max]]) => min !== "" || max !== "")
-    .map(([k, [min, max]]) => `${k}:${min}:${max}`)
-    .join(",");
 }

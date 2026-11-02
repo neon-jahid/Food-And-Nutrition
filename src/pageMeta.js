@@ -1,22 +1,28 @@
 /* Titles + descriptions for static pages (search results, link previews). Keyed by unprefixed path. */
 import { breadcrumbLd, seo, websiteLd } from "./seo.js";
 import { LANGS, DEFAULT_LANG } from "./paths.js";
+import { FOODS } from "./data/foods.js";
+
+// food count is computed so the text stays right when foods are added
+const N = FOODS.length;
+const NB = String(N).replace(/\d/g, d => "০১২৩৪৫৬৭৮৯"[d]);
+
 
 export const PAGE_META = {
   "/": {
-    en: ["", "Explore calories, protein, vitamins and minerals of 214 everyday and Bangladeshi foods, compare foods and make smarter eating choices — in English and Bangla."],
-    bn: ["", "প্রতিদিনের ও দেশি ২১৪টি খাবারের ক্যালরি, আমিষ, ভিটামিন ও খনিজের তথ্য জানুন, খাবার তুলনা করুন এবং বুঝে-শুনে খাবার বেছে নিন — বাংলা ও ইংরেজিতে।"],
+    en: ["", `Explore calories, protein, vitamins and minerals of ${N} everyday and Bangladeshi foods, compare foods and make smarter eating choices — in English and Bangla.`],
+    bn: ["", `প্রতিদিনের ও দেশি ${NB}টি খাবারের ক্যালরি, আমিষ, ভিটামিন ও খনিজের তথ্য জানুন, খাবার তুলনা করুন এবং বুঝে-শুনে খাবার বেছে নিন — বাংলা ও ইংরেজিতে।`],
   },
   "/foods": {
-    en: ["All foods — nutrition facts per 100 g", "Search and filter 214 foods by category, nutrient or health goal. Calories, protein, carbs, fat, fibre, vitamin C, calcium, iron and potassium per 100 g."],
-    bn: ["সব খাবার — প্রতি ১০০ গ্রামে পুষ্টিগুণ", "ক্যাটাগরি, পুষ্টি উপাদান বা স্বাস্থ্য লক্ষ্য অনুযায়ী ২১৪টি খাবার খুঁজুন। প্রতি ১০০ গ্রামে ক্যালরি, আমিষ, শর্করা, চর্বি, আঁশ, ভিটামিন সি, ক্যালসিয়াম, আয়রন ও পটাশিয়াম।"],
+    en: ["All foods — nutrition facts per 100 g", `Search and filter ${N} foods by category, nutrient or health goal. Calories, protein, carbs, fat, fibre, vitamin C, calcium, iron and potassium per 100 g.`],
+    bn: ["সব খাবার — প্রতি ১০০ গ্রামে পুষ্টিগুণ", `ক্যাটাগরি, পুষ্টি উপাদান বা স্বাস্থ্য লক্ষ্য অনুযায়ী ${NB}টি খাবার খুঁজুন। প্রতি ১০০ গ্রামে ক্যালরি, আমিষ, শর্করা, চর্বি, আঁশ, ভিটামিন সি, ক্যালসিয়াম, আয়রন ও পটাশিয়াম।`],
   },
   "/tools": {
     en: ["Nutrition tools — plate calculator, BMI & calorie needs", "Free nutrition calculators: add up the nutrients on your plate and estimate BMI and daily calorie needs (Asian BMI cut-offs, Mifflin-St Jeor)."],
     bn: ["পুষ্টি টুলস — প্লেট ক্যালকুলেটর, BMI ও ক্যালরির চাহিদা", "বিনামূল্যে পুষ্টি ক্যালকুলেটর: থালার মোট পুষ্টি হিসাব করুন এবং BMI ও দৈনিক ক্যালরির চাহিদা জানুন।"],
   },
   "/learn": {
-    en: ["Learn nutrition — guides for everyday health", "Guides on vitamins, minerals, deficiencies, medicinal plants, food storage, meal times, men's and women's health, and food myths."],
+    en: ["Learn nutrition — guides for everyday health", "Guides on vitamins, minerals, deficiencies, medicinal plants, food storage, meal times, men's and women's health, anti-ageing foods and food myths."],
     bn: ["পুষ্টি সম্পর্কে জানুন — প্রতিদিনের স্বাস্থ্য গাইড", "ভিটামিন, খনিজ, অভাবজনিত রোগ, ঔষধি গাছ, খাবার সংরক্ষণ, খাবারের সময়, নারী ও পুরুষের স্বাস্থ্য এবং খাবার নিয়ে ভুল ধারণার গাইড।"],
   },
   "/plants": {
@@ -59,6 +65,18 @@ export const PAGE_META = {
     en: ["Women's health and nutrition — periods, pregnancy, PCOS", "What to eat during periods, pregnancy and breastfeeding, for anaemia, PCOS, menopause and bone health."],
     bn: ["নারীর স্বাস্থ্য ও পুষ্টি — মাসিক, গর্ভাবস্থা, পিসিওএস", "মাসিক, গর্ভাবস্থা ও স্তন্যদানের সময়, রক্তস্বল্পতা, পিসিওএস, মেনোপজ ও হাড়ের যত্নে কী খাবেন।"],
   },
+  "/pregnancy": {
+    en: ["Pregnancy food guide — what to eat and avoid", "What to eat in each trimester: daily needs, folate, iron, calcium and iodine foods, a sample day, help for nausea and constipation, foods to avoid, myths and danger signs."],
+    bn: ["গর্ভাবস্থার খাবার গাইড — কী খাবেন, কী এড়াবেন", "প্রতি তিন মাসে কী খাবেন: দৈনিক চাহিদা, ফোলেট, আয়রন, ক্যালসিয়াম ও আয়োডিনের খাবার, একদিনের নমুনা, বমি ভাব ও কোষ্ঠকাঠিন্যে করণীয়, যা এড়াবেন, ভুল ধারণা ও বিপদ চিহ্ন।"],
+  },
+  "/coffee": {
+    en: ["Coffee guide — Black Coffee, origin, benefits and how to drink it", "The story of coffee from Ethiopia to Bangladesh, what's in a cup of black coffee, a caffeine calculator, benefits, cautions and how to drink coffee the healthy way."],
+    bn: ["কফি গাইড — ব্ল্যাক কফি, উৎপত্তি, উপকারিতা ও খাওয়ার নিয়ম", "ইথিওপিয়া থেকে বাংলাদেশ — কফির গল্প, এক কাপ ব্ল্যাক কফিতে কী আছে, ক্যাফেইন ক্যালকুলেটর, উপকারিতা, সতর্কতা ও স্বাস্থ্যকরভাবে কফি খাওয়ার নিয়ম।"],
+  },
+  "/anti-aging": {
+    en: ["Anti-ageing foods — eat for younger skin, brain and body", "Which foods help you age well: vitamin C fruits, carotenoid vegetables, oily fish, nuts, green tea and turmeric for skin, brain, heart, bones and eyes — plus what speeds up ageing."],
+    bn: ["অ্যান্টি-এজিং খাবার — তারুণ্যদীপ্ত ত্বক, মস্তিষ্ক ও শরীরের জন্য", "কোন খাবার সুস্থভাবে বয়স বাড়তে সাহায্য করে: ত্বক, মস্তিষ্ক, হৃদয়, হাড় ও চোখের জন্য ভিটামিন সি-যুক্ত ফল, রঙিন সবজি, তৈলাক্ত মাছ, বাদাম, গ্রিন টি ও হলুদ — আর কী কারণে দ্রুত বুড়িয়ে যান।"],
+  },
   "/blog": {
     en: ["Nutrition blog", "Practical, evidence-based articles on eating well with everyday Bangladeshi food."],
     bn: ["পুষ্টি ব্লগ", "প্রতিদিনের দেশি খাবারে সুস্থভাবে খাওয়া নিয়ে সহজ ও প্রমাণভিত্তিক লেখা।"],
@@ -73,7 +91,7 @@ export const PAGE_META = {
 const PARENT = {
   "/plants": "/learn", "/food-guide/food-storage": "/food-guide", "/food-guide/meal-times": "/food-guide",
   "/nutrition/vitamins": "/learn", "/nutrition/minerals": "/learn", "/nutrition/deficiency": "/learn",
-  "/food-myths": "/learn", "/mens-health": "/learn", "/womens-health": "/learn", "/food-guide": "/learn",
+  "/food-myths": "/learn", "/mens-health": "/learn", "/womens-health": "/learn", "/pregnancy": "/womens-health", "/food-guide": "/learn", "/coffee": "/learn", "/anti-aging": "/learn",
 };
 
 const shortTitle = (lang, path) => (PAGE_META[path]?.[lang]?.[0] || "").split(" — ")[0];

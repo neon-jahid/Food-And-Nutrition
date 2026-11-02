@@ -50,7 +50,7 @@ export default function FoodsPage({ compare, onToggleCompare, fixedCategory }) {
   useEffect(() => { if (hasAdvanced) setAdvOpen(true); }, [hasAdvanced]);
 
   // any change to filters/sort starts the list again from the first page
-  const filterKey = params.toString();
+  const filterKey = `${category}|${params.toString()}`;
   const [shown, setShown] = useState(() => ({ key: "", n: PAGE_SIZE }));
   const visible = !hydrated ? PAGE_SIZE : shown.key === filterKey ? shown.n : readShown(filterKey);
   useEffect(() => saveShown(filterKey, visible), [filterKey, visible]);
@@ -68,7 +68,7 @@ export default function FoodsPage({ compare, onToggleCompare, fixedCategory }) {
       return;
     }
     Object.entries(patch).forEach(([k, v]) => (v && v !== "all" ? next.set(k, v) : next.delete(k)));
-    setParams(next, { replace: true });
+    setParams(next, { replace: true, preventScrollReset: true });
   };
 
   const activeCount = goals.length + Object.keys(ranges).length + (hideUnhealthy ? 1 : 0);

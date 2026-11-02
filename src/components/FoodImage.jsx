@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import credits from "../data/imageCredits.json";
+import { imageHd, imageSrc } from "../data/imagePaths.js";
 
 /**
  * Real photo of a food (all photos are stored locally in /public/images/foods).
@@ -17,8 +17,8 @@ export default function FoodImage({
   const [loaded, setLoaded] = useState(false);
   const [failed, setFailed] = useState(false);
   const ref = useRef(null);
-  const c = credits[food.id];
-  const src = c?.src;
+  const src = imageSrc(food.id);
+  const hdSrc = imageHd(food.id);
 
   // a cached image can finish loading before React attaches onLoad
   useEffect(() => {
@@ -30,8 +30,8 @@ export default function FoodImage({
   const imgProps = {
     ref,
     src,
-    srcSet: hd && c?.hd ? `${src} 720w, ${c.hd} 1600w` : undefined,
-    sizes: hd && c?.hd ? sizes : undefined,
+    srcSet: hd && hdSrc ? `${src} 720w, ${hdSrc} 1600w` : undefined,
+    sizes: hd && hdSrc ? sizes : undefined,
     alt: food.en,
     loading: eager ? "eager" : "lazy",
     fetchPriority: eager ? "high" : undefined,
@@ -61,8 +61,4 @@ export default function FoodImage({
   }
 
   return <img {...imgProps} className={`object-cover ${loaded ? "" : "img-skeleton"} ${className} ${imgClassName}`} />;
-}
-
-export function imageCredit(id) {
-  return credits[id];
 }

@@ -1,6 +1,6 @@
 import { useLang } from "../context/LangContext.jsx";
 import { NUTRIENT_UNITS } from "../data/foods.js";
-import { GOALS, RANGE_KEYS } from "../search.js";
+import { GOALS, RANGE_KEYS } from "../searchMeta.js";
 import { ChevronDown, SlidersHorizontal, X } from "lucide-react";
 import { GOAL_ICONS } from "../icons.jsx";
 

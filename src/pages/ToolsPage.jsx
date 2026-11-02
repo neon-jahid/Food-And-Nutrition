@@ -1,12 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
-import { usePersistentState } from "../hooks.js";
+import { usePersistentState, useSearch } from "../hooks.js";
 
 const BMI_DEFAULTS = { sex: "male", age: 30, weight: 65, height: 165, act: 1 };
 import { useLocation } from "../router.jsx";
 import { Activity, Calculator, Plus, Ruler, Search, Trash2 } from "lucide-react";
 import { DAILY_VALUES, FOODS } from "../data/foods.js";
 import { useLang } from "../context/LangContext.jsx";
-import { suggest } from "../search.js";
 import { NUTRIENT_KEYS } from "../utils.js";
 import { MacroBar, MacroLegend } from "../components/MacroBar.jsx";
 import FoodImage from "../components/FoodImage.jsx";
@@ -51,7 +50,8 @@ function PlateCalculator() {
   const [items, setItems] = usePersistentState("plate", [], v => (Array.isArray(v) ? v.filter(x => FOODS.some(f => f.id === x?.id)) : []));
   const [q, setQ] = useState("");
 
-  const results = useMemo(() => suggest(q, 6), [q]);
+  const search = useSearch(q.trim() !== "");
+  const results = useMemo(() => (search ? search.suggest(q, 6) : []), [search, q]);
   const add = id => {
     setItems(list => (list.some(x => x.id === id) ? list : [...list, { id, g: 100 }]));
     setQ("");

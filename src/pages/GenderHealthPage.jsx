@@ -10,6 +10,7 @@ import { tone } from "../tones.js";
 import { Disclaimer, FoodChips, PageHero, foodById } from "../components/PageKit.jsx";
 import { SectionHeader } from "../components/HomeSections.jsx";
 import FoodImage from "../components/FoodImage.jsx";
+import PlantImage from "../components/PlantImage.jsx";
 
 const ICONS = { Heart, Dumbbell, Flame, Baby, Droplet, Moon, Bone, Brain, Sparkles, ShieldCheck, Activity, Flower2, Scale, Sun, Smile: Sparkles };
 
@@ -27,7 +28,7 @@ const T = {
       myths: "Period food myths", myth: "Myth", fact: "Fact", focus: "Focus",
     },
     plantsTitle: "Medicinal plants traditionally used", plantsSub: "Herbs people use for these concerns — read the cautions before trying any", allPlants: "See all medicinal plants",
-    switch: "Also see",
+    switch: "Also see", more: "Read the full guide",
   },
   bn: {
     learn: "জানুন",
@@ -42,7 +43,7 @@ const T = {
       myths: "মাসিক নিয়ে খাবারের ভুল ধারণা", myth: "ভুল ধারণা", fact: "সত্য", focus: "লক্ষ্য",
     },
     plantsTitle: "প্রচলিত ঔষধি গাছ", plantsSub: "এসব সমস্যায় মানুষ যেসব ভেষজ ব্যবহার করেন — ব্যবহারের আগে সতর্কতা পড়ুন", allPlants: "সব ঔষধি গাছ দেখুন",
-    switch: "আরও দেখুন",
+    switch: "আরও দেখুন", more: "পূর্ণ গাইড পড়ুন",
   },
 };
 
@@ -71,6 +72,11 @@ function TopicCard({ t: topic, s }) {
           <div className="min-w-0">
             <h3 className="text-xl font-extrabold text-slate-900 dark:text-white">{topic.title[lang]}</h3>
             <p className="mt-1 text-slate-600 dark:text-slate-400">{topic.summary[lang]}</p>
+            {topic.more && (
+              <Link to={topic.more} className={`mt-3 inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-sm font-semibold transition hover:brightness-95 ${c.soft}`}>
+                {s.more} <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </Link>
+            )}
           </div>
         </div>
 
@@ -200,10 +206,9 @@ function RelatedPlants({ tag, s }) {
       />
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {plants.map(p => {
-          const c = tone(p.tone);
           return (
-            <Link key={p.id} to={`/plants?tag=${tag}#${p.id}`} className="card group flex items-start gap-3 p-4 transition hover:-translate-y-0.5 hover:shadow-lg">
-              <span className={`grid h-10 w-10 shrink-0 place-items-center rounded-xl ${c.soft}`}><Leaf className="h-5 w-5" aria-hidden="true" /></span>
+            <Link key={p.id} to={`/plants/${p.id}`} className="card group flex items-start gap-3 p-4 transition hover:-translate-y-0.5 hover:shadow-lg">
+              <PlantImage plant={p} alt={p.name[lang]} className="h-12 w-12 shrink-0 rounded-xl" />
               <span className="min-w-0">
                 <span className="block font-bold text-slate-900 group-hover:text-brand-700 dark:text-white dark:group-hover:text-brand-300">{p.name[lang]}</span>
                 <span className="line-clamp-2 text-xs text-slate-500 dark:text-slate-400">{p.summary[lang]}</span>

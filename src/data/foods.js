@@ -76,7 +76,17 @@ export const FOOD_ROWS = [
   ["pear","fruits","Pear","নাশপাতি","🍐",57,0.4,15.2,0.1,3.1,9.8,4.3,9,0.18,116],
   ["avocado","fruits","Avocado","অ্যাভোকাডো","🥑",160,2,8.5,14.7,6.7,0.7,10,12,0.55,485],
   ["dragonfruit","fruits","Dragon Fruit","ড্রাগন ফল","🐉",60,1.2,13,0.4,3,8,2.5,18,0.74,116],
+  // added 2026-11 — values: USDA FoodData Central SR Legacy (FDC IDs in comments)
+  ["muskmelon","fruits","Muskmelon (Cantaloupe)","খরমুজ","🍈",34,0.84,8.2,0.19,0.9,7.9,36.7,9,0.21,267], // 169092
+  ["passionfruit","fruits","Passion Fruit","প্যাশন ফল","🟣",97,2.2,23.4,0.7,10.4,11.2,30,12,1.6,348], // 169108
+  ["mulberry","fruits","Mulberry","তুঁত ফল","🫐",43,1.44,9.8,0.39,1.7,8.1,36.4,39,1.85,194], // 169913
+  ["fig","fruits","Fig (fresh)","আঞ্জির (তাজা ডুমুর)","🟤",74,0.75,19.2,0.3,2.9,16.3,2,35,0.37,232], // 173021
 
+  // 2026-11 batch 2 (approximate values: USDA FoodData Central / Indian & Bangladesh food composition tables)
+  ["pomelo","fruits","Pomelo (Jambura)","জাম্বুরা","🍈",38,0.8,9.6,0,1,8,61,4,0.11,216],
+  ["jamrul","fruits","Wax Apple (Jamrul)","জামরুল","🍐",25,0.6,5.7,0.3,1,4.5,22.3,29,0.07,123],
+  ["longan","fruits","Longan (Ashphal)","আঁশফল","🟤",60,1.3,15.1,0.1,1.1,13,84,1,0.13,266],
+  ["woodapple","fruits","Wood Apple (Kodbel)","কদবেল","🟤",134,7.1,18.1,3.7,5,7,3,130,0.6,400],
   // ---------- Vegetables ----------
   ["spinach","vegetables","Spinach","পালং শাক","🥬",23,2.9,3.6,0.4,2.2,0.4,28.1,99,2.71,558],
   ["redamaranth","vegetables","Red Amaranth","লাল শাক","🥬",23,2.5,4,0.3,2,0.5,43.3,215,2.32,611],
@@ -114,6 +124,18 @@ export const FOOD_ROWS = [
   ["capsicum","vegetables","Capsicum (Green Bell Pepper)","ক্যাপসিকাম","🫑",20,0.9,4.6,0.2,1.7,2.4,80.4,10,0.34,175],
   ["mushroom","vegetables","Mushroom","মাশরুম","🍄",22,3.1,3.3,0.3,1,2,2.1,3,0.5,318],
 
+  // added 2026-11 — values: USDA FoodData Central SR Legacy (FDC IDs in comments)
+  ["greenbanana","vegetables","Green Banana (raw plantain)","কাঁচা কলা","🍌",152,1.25,36.7,0.07,2.2,2.3,20.2,2,0.75,431], // 168215
+  ["turnip","vegetables","Turnip","শালগম","⚪",28,0.9,6.4,0.1,1.8,3.8,21,30,0.3,191], // 170465
+  ["yam","vegetables","Yam (Mete Alu)","মেটে আলু","🍠",118,1.53,27.9,0.17,4.1,0.5,17.1,17,0.54,816], // 170071
+  ["springonion","vegetables","Spring Onion","পেঁয়াজ পাতা","🧅",32,1.83,7.3,0.19,2.6,2.3,18.8,72,1.48,276], // 170005
+  ["lettuce","vegetables","Lettuce","লেটুস পাতা","🥬",15,1.36,2.9,0.15,1.3,0.8,9.2,36,0.86,194], // 169249
+  ["frenchbean","vegetables","French Beans","ফরাসি শিম","🫛",31,1.83,7,0.22,2.7,3.3,12.2,37,1.03,211], // 169961
+  ["squash","vegetables","Squash (Chayote)","স্কোয়াশ (ইসকুস)","🥒",19,0.82,4.5,0.13,1.7,1.7,7.7,17,0.34,125], // 170402
+
+  ["patshak","vegetables","Jute Leaves (Pat Shak)","পাট শাক","🥬",34,4.7,5.8,0.3,2,0.5,37,208,4.8,559],
+  ["dhundul","vegetables","Sponge Gourd (Dhundul)","ধুন্দুল","🥒",20,1.2,4.4,0.2,1.1,1.8,12,20,0.36,139],
+  ["mocha","vegetables","Banana Flower (Mocha)","কলার মোচা","🌸",35,1.6,7,0.6,5,0.5,13,56,1.1,553],
   // ---------- Grains & Cereals ----------
   ["whiterice","grains","White Rice (cooked)","সাদা ভাত","🍚",130,2.7,28.2,0.3,0.4,0.1,0,10,0.2,35],
   ["brownrice","grains","Brown Rice (cooked)","লাল চালের ভাত","🍚",123,2.7,25.6,1,1.6,0.2,0,3,0.56,86],
@@ -132,6 +154,8 @@ export const FOOD_ROWS = [
   ["popcorn","grains","Popcorn (air-popped)","পপকর্ন","🍿",387,12.9,77.8,4.5,14.5,0.9,0,7,3.19,329],
   ["millet","grains","Millet (Kaon, cooked)","কাউন","🌾",119,3.5,23.7,1,1.3,0.1,0,3,0.63,62],
 
+  ["semai","grains","Vermicelli (Semai, dry)","সেমাই","🍜",360,12,74,1.5,3,2.5,0,20,1.2,180],
+  ["instantnoodles","grains","Instant Noodles (dry, with seasoning)","ইনস্ট্যান্ট নুডলস","🍜",440,9,64,17,2.4,2,0,21,4.3,120],
   // ---------- Pulses & Legumes ----------
   ["lentil","pulses","Red Lentil / Masoor (cooked)","মসুর ডাল","🫘",116,9,20.1,0.4,7.9,1.8,1.5,19,3.33,369],
   ["mung","pulses","Mung Dal (cooked)","মুগ ডাল","🫘",105,7,19.2,0.4,7.6,2,1,27,1.4,266],
@@ -147,6 +171,8 @@ export const FOOD_ROWS = [
   ["soychunks","pulses","Soya Chunks (dry)","সয়াবিন চাঙ্ক","🟤",330,51.5,33.9,1.2,17.5,0.5,0,241,9.24,2490],
   ["blackbean","pulses","Black Beans (cooked)","কালো শিমের বিচি","🫘",132,8.9,23.7,0.5,8.7,0.3,0,27,2.1,355],
 
+  ["khesari","pulses","Grass Pea (Khesari Dal, dry)","খেসারি ডাল","🫘",345,28,57,0.6,15,3,0,90,6.3,900],
+  ["pigeonpea","pulses","Pigeon Pea (Arhar Dal, dry)","অড়হর ডাল","🫘",343,21.7,62.8,1.5,15,2,0,130,5.2,1392],
   // ---------- Fish & Seafood ----------
   ["hilsa","fish","Hilsa (Ilish)","ইলিশ মাছ","🐟",273,21.8,0,19.4,0,0,0,220,2.1,300],
   ["rohu","fish","Rohu (Rui)","রুই মাছ","🐟",97,17.4,0,3,0,0,0,70,1,290],
@@ -189,6 +215,8 @@ export const FOOD_ROWS = [
   ["crab","fish","Crab","কাঁকড়া","🦀",87,18.1,0,1.1,0,0,3,89,0.74,329],
   ["shutki","fish","Shutki (Dried Fish)","শুঁটকি মাছ","🐟",290,63,0,3.5,0,0,0,900,5,600],
 
+  ["chapila","fish","Chapila (Indian River Shad)","চাপিলা মাছ","🐠",100,17,0,3.5,0,0,0,600,2.5,280],
+  ["foli","fish","Foli (Bronze Featherback)","ফলি মাছ","🐟",97,18,0,2.5,0,0,0,40,1,290],
   // ---------- Meat & Poultry ----------
   ["chicken","meat","Chicken Breast (cooked)","মুরগির মাংস (বুক)","🍗",165,31,0,3.6,0,0,0,15,1.04,256],
   ["beef","meat","Beef (lean, cooked)","গরুর মাংস","🥩",217,26.1,0,11.8,0,0,0,18,2.6,318],
@@ -217,6 +245,8 @@ export const FOOD_ROWS = [
   ["condensedmilk","dairy","Condensed Milk (sweetened)","কনডেন্সড মিল্ক","🥫",321,7.9,54.4,8.7,0,54.4,2.6,284,0.19,371],
   ["mozzarella","dairy","Mozzarella Cheese","মোজারেলা চিজ","🧀",300,22.2,2.2,22.4,0,1,0,505,0.44,76],
 
+  ["goatmilk","dairy","Goat Milk","ছাগলের দুধ","🥛",69,3.6,4.5,4.1,0,4.5,1.3,134,0.05,204],
+  ["icecream","dairy","Ice Cream (vanilla)","আইসক্রিম","🍨",207,3.5,23.6,11,0.7,21.2,0.6,128,0.09,199],
   // ---------- Nuts & Seeds ----------
   ["almond","nuts","Almonds","কাঠবাদাম","🌰",579,21.2,21.6,49.9,12.5,4.4,0,269,3.71,733],
   ["peanut","nuts","Peanuts","চিনাবাদাম","🥜",567,25.8,16.1,49.2,8.5,4.7,0,92,4.58,705],
@@ -236,6 +266,7 @@ export const FOOD_ROWS = [
   ["brazilnut","nuts","Brazil Nuts","ব্রাজিল নাট","🌰",659,14.3,11.7,67.1,7.5,2.3,0.7,160,2.43,659],
   ["pecan","nuts","Pecans","পিক্যান বাদাম","🌰",691,9.2,13.9,72,9.6,4,1.1,70,2.53,410],
 
+  ["makhana","nuts","Fox Nut (Makhana, dry)","মাখনা","⚪",347,9.7,76.9,0.1,7.6,0.5,0,20,1.4,500],
   // ---------- Spices & Herbs ----------
   ["turmeric","spices","Turmeric Powder","হলুদ গুঁড়া","🟡",312,9.7,67.1,3.3,22.7,3.2,0.7,168,55,2080],
   ["ginger","spices","Ginger","আদা","🫚",80,1.8,17.8,0.8,2,1.7,5,16,0.6,415],
@@ -270,6 +301,8 @@ export const FOOD_ROWS = [
   ["lassi","beverages","Sweet Lassi","লাচ্ছি","🥛",89,2.9,14,2.5,0,13.5,0.5,100,0.05,140],
   ["mangojuice","beverages","Mango Juice / Nectar","আমের জুস","🧃",51,0.1,13.1,0.1,0.3,12.5,15.2,17,0.36,24],
 
+  ["sugarcanejuice","beverages","Sugarcane Juice","আখের রস","🧃",60,0.2,15,0.1,0,14,3,10,0.3,50],
+  ["soymilk","beverages","Soy Milk","সয়া দুধ","🥛",54,3.3,6.3,1.8,0.6,3.9,0,25,0.6,118],
   // ---------- Bangladeshi Dishes & Sweets ----------
   ["khichuri","dishes","Khichuri","খিচুড়ি","🍲",155,5.1,22,5,2.5,0.8,1,25,1.1,150],
   ["biryani","dishes","Chicken Biryani","চিকেন বিরিয়ানি","🍛",190,8.5,23,7,1,1,1,20,1,140],
@@ -287,6 +320,11 @@ export const FOOD_ROWS = [
   ["payesh","dishes","Payesh (Rice Pudding)","পায়েস","🍮",150,3.8,24,4.5,0.2,15,0.5,110,0.2,150],
   ["luchi","dishes","Luchi","লুচি","🫓",330,6.5,42,15,1.5,0.5,0,15,1,90],
   ["morogpolao","dishes","Morog Polao","মোরগ পোলাও","🍛",200,9,24,7.5,0.8,1,1,20,1,150],
+  ["pantabhat","dishes","Panta Bhat (soaked rice)","পান্তা ভাত","🍚",85,1.8,19,0.2,0.3,0.1,0,10,0.6,50],
+  ["aloobhorta","dishes","Aloo Bhorta (mashed potato)","আলু ভর্তা","🥔",120,2,17,5,2,1,10,12,0.5,380],
+  ["sandesh","dishes","Sandesh","সন্দেশ","🍬",300,10,40,11,0,35,0,170,0.4,120],
+  ["chickencurry","dishes","Chicken Curry (Murgir Jhol)","মুরগির ঝোল","🍛",150,14,4,9,0.8,1.5,3,25,1.2,250],
+  ["fishcurry","dishes","Fish Curry (Machher Jhol)","মাছের ঝোল","🍲",110,13,4,5,0.8,1.5,4,40,0.9,300],
 ];
 
 export const FOODS = FOOD_ROWS.map(r => ({
@@ -321,26 +359,26 @@ export const SUBGROUPS = {
   fruits: [
     { id: "local", emoji: "🌳", en: "Local fruits", bn: "দেশি ফল",
       ids: ["mango", "jackfruit", "litchi", "banana", "papaya", "guava", "pineapple", "watermelon",
-            "boroi", "kamranga", "jam", "bel", "amra", "amloki", "tetul", "sofeda", "ata", "lemon"] },
+            "boroi", "kamranga", "jam", "bel", "amra", "amloki", "tetul", "sofeda", "ata", "lemon", "muskmelon", "mulberry", "pomelo", "jamrul", "longan", "woodapple"] },
     { id: "imported", emoji: "✈️", en: "Imported fruits", bn: "বিদেশি ফল",
-      ids: ["apple", "orange", "grapes", "pomegranate", "strawberry", "kiwi", "pear", "avocado", "dragonfruit"] },
+      ids: ["apple", "orange", "grapes", "pomegranate", "strawberry", "kiwi", "pear", "avocado", "dragonfruit", "passionfruit", "fig"] },
     { id: "dried", emoji: "🌴", en: "Dried fruits", bn: "শুকনো ফল", ids: ["dates", "raisins"] },
   ],
   vegetables: [
     { id: "leafy", emoji: "🥬", en: "Leafy greens (shak)", bn: "শাক",
-      ids: ["spinach", "redamaranth", "kochushak", "kolmishak", "puishak", "mustardgreens", "moringa", "cabbage"] },
+      ids: ["spinach", "redamaranth", "kochushak", "kolmishak", "puishak", "mustardgreens", "moringa", "cabbage", "lettuce", "springonion", "patshak"] },
     { id: "gourds", emoji: "🥒", en: "Gourds", bn: "লাউ-কুমড়া জাতীয়",
-      ids: ["lau", "chalkumra", "pumpkin", "potol", "jhinga", "chichinga", "kakrol", "bittergourd", "cucumber"] },
+      ids: ["lau", "chalkumra", "pumpkin", "potol", "jhinga", "chichinga", "kakrol", "bittergourd", "cucumber", "squash", "dhundul"] },
     { id: "roots", emoji: "🥔", en: "Roots & tubers", bn: "মূল ও কন্দ",
-      ids: ["potato", "sweetpotato", "carrot", "radish", "beetroot", "kochumukhi", "olkopi", "onion"] },
+      ids: ["potato", "sweetpotato", "carrot", "radish", "beetroot", "kochumukhi", "olkopi", "onion", "turnip", "yam"] },
     { id: "pods", emoji: "🫛", en: "Beans & pods", bn: "শিম ও ডাঁটা জাতীয়",
-      ids: ["shim", "borboti", "drumstick", "okra"] },
+      ids: ["shim", "borboti", "frenchbean", "drumstick", "okra"] },
     { id: "others", emoji: "🍅", en: "Other vegetables", bn: "অন্যান্য সবজি",
-      ids: ["tomato", "eggplant", "cauliflower", "broccoli", "capsicum", "mushroom"] },
+      ids: ["tomato", "eggplant", "cauliflower", "broccoli", "capsicum", "mushroom", "greenbanana", "mocha"] },
   ],
   nuts: [
     { id: "nuts", emoji: "🥜", en: "Nuts", bn: "বাদাম",
-      ids: ["almond", "peanut", "cashew", "walnut", "pistachio", "hazelnut", "brazilnut", "pecan", "coconut"] },
+      ids: ["almond", "peanut", "cashew", "walnut", "pistachio", "hazelnut", "brazilnut", "pecan", "coconut", "makhana"] },
     { id: "seeds", emoji: "🌻", en: "Seeds", bn: "বীজ",
       ids: ["chia", "flax", "sesame", "pumpkinseed", "sunflower", "poppy", "mustardseed", "hemp"] },
   ],
@@ -350,9 +388,9 @@ export const SUBGROUPS = {
     { id: "live", emoji: "💪", en: "Live fish & catfish", bn: "জিওল মাছ ও ক্যাটফিশ",
       ids: ["koi", "shing", "magur", "pangas", "boal", "aire", "pabda", "tengra"] },
     { id: "river", emoji: "🏞️", en: "River & pond fish", bn: "নদী ও পুকুরের মাছ",
-      ids: ["hilsa", "shol", "taki", "chitol", "baim", "bata", "tilapia"] },
+      ids: ["hilsa", "shol", "taki", "chitol", "foli", "baim", "bata", "tilapia"] },
     { id: "small", emoji: "🐠", en: "Small fish", bn: "ছোট মাছ",
-      ids: ["mola", "puti", "kachki"] },
+      ids: ["mola", "puti", "kachki", "chapila"] },
     { id: "sea", emoji: "🌊", en: "Sea fish", bn: "সামুদ্রিক মাছ",
       ids: ["rupchanda", "loitta", "koral", "salmon", "tuna", "sardine", "mackerel"] },
     { id: "shell", emoji: "🦐", en: "Prawn, crab & dried fish", bn: "চিংড়ি, কাঁকড়া ও শুঁটকি",

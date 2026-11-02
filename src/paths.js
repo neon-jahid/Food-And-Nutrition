@@ -7,6 +7,7 @@
  */
 import { CATEGORIES, FOODS } from "./data/foods.js";
 import { POSTS } from "./data/blog.js";
+import { PLANTS } from "./data/plants.js";
 
 export const LANGS = ["en", "bn"];
 export const DEFAULT_LANG = "en";
@@ -46,6 +47,9 @@ export const STATIC_PATHS = [
   "/food-myths",
   "/mens-health",
   "/womens-health",
+  "/pregnancy",
+  "/coffee",
+  "/anti-aging",
   "/blog",
   "/about",
   "/contact",
@@ -62,6 +66,7 @@ export function allPublicPaths() {
     ...STATIC_PATHS,
     ...CATEGORIES.map(c => `/foods/${CATEGORY_SLUGS[c.id]}`),
     ...FOODS.map(f => `/foods/${foodSlug(f)}`),
+    ...PLANTS.map(p => `/plants/${p.id}`),
     ...POSTS.map(p => `/blog/${p.slug}`),
   ];
 }

@@ -7,6 +7,7 @@ import FoodCard from "../components/FoodCard.jsx";
 import SearchBox from "../components/SearchBox.jsx";
 import Hero from "../components/Hero.jsx";
 import MealGuide from "../components/MealGuide.jsx";
+import CoffeeSpotlight from "../components/CoffeeSpotlight.jsx";
 import { ArrowRight, GraduationCap, LayoutGrid, Newspaper, UtensilsCrossed } from "lucide-react";
 import { POSTS } from "../data/blog.js";
 import { LearnGrid } from "./LearnPage.jsx";
@@ -53,6 +54,8 @@ export default function HomePage({ compare, onToggleCompare }) {
           <MealGuide compact />
         </section>
 
+        <CoffeeSpotlight />
+
         <HealthGoals onPick={id => browse({ goals: id })} />
         <SeasonalNow />
         <RecentlyViewed />
@@ -94,7 +97,7 @@ export default function HomePage({ compare, onToggleCompare }) {
 
         <TopLists />
 
-        <section className="mt-12">
+        <section data-reveal className="mt-12">
           <SectionHeader
             icon={GraduationCap}
             title={lang === "bn" ? "পুষ্টি সম্পর্কে জানুন" : "Learn about nutrition"}
@@ -108,7 +111,7 @@ export default function HomePage({ compare, onToggleCompare }) {
           <LearnGrid compact />
         </section>
 
-        <section className="mt-12">
+        <section data-reveal className="mt-12">
           <SectionHeader
             icon={Newspaper}
             title={lang === "bn" ? "ব্লগ থেকে" : "From the blog"}

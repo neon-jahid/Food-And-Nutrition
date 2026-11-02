@@ -17,7 +17,6 @@ export function LangProvider({ children }) {
   useEffect(() => {
     storage.set("lang", lang);
     document.documentElement.lang = lang;
-    document.documentElement.classList.toggle("lang-bn", lang === "bn");
   }, [lang]);
 
   /** Same page in the other language (keeps query string and hash). */

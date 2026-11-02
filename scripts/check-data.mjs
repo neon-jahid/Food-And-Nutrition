@@ -31,6 +31,32 @@ for (const f of FOODS) {
   for (const [k, v] of Object.entries(f.n)) if (typeof v !== "number" || v < 0 || Number.isNaN(v)) fail(`food ${f.id}: bad ${k}=${v}`);
 }
 
+// 1b. lightweight image paths (FoodImage) must agree with the credits file
+const { imageSrc, imageHd } = await load("imagePaths.js");
+for (const f of FOODS) {
+  const c = credits[f.id];
+  if (!c) continue;
+  if (imageSrc(f.id) !== c.src) fail(`food ${f.id}: imagePaths src ${imageSrc(f.id)} ≠ credits ${c.src}`);
+  if ((imageHd(f.id) || undefined) !== c.hd) fail(`food ${f.id}: imagePaths hd ${imageHd(f.id)} ≠ credits ${c.hd} (update NO_HD in imagePaths.js)`);
+  if (c.hd && !existsSync(resolve("public" + c.hd))) fail(`food ${f.id}: HD image file missing ${c.hd}`);
+}
+const siteImages = (await import(pathToFileURL(resolve(root, "siteImages.json")).href, { with: { type: "json" } })).default;
+for (const [id, im] of Object.entries(siteImages)) {
+  for (const k of ["src", "sm"]) if (!existsSync(resolve("public" + im[k]))) fail(`site image ${id}: file missing ${im[k]}`);
+  if (!im.author || !im.license || !im.page) fail(`site image ${id}: incomplete credit`);
+}
+
+// 1c. every medicinal plant has a photo (its food photo via foodId, or its own plant photo)
+const { PLANTS } = await load("plants.js");
+const plantImages = (await import(pathToFileURL(resolve(root, "plantImages.json")).href, { with: { type: "json" } })).default;
+for (const p of PLANTS) {
+  if (p.foodId) continue;
+  const im = plantImages[p.id];
+  if (!im) fail(`plant ${p.id}: no photo (add it to plantImages.json or set foodId)`);
+  else if (!existsSync(resolve("public" + im.src))) fail(`plant ${p.id}: image file missing ${im.src}`);
+  else if (!im.author || !im.license || !im.page) fail(`plant ${p.id}: incomplete photo credit`);
+}
+
 // 2. walk every content module
 const FOOD_REF_KEYS = new Set(["foodId", "cover"]);
 const FOOD_LIST_KEYS = new Set(["foods", "sources", "eat"]);
@@ -52,7 +78,7 @@ function walk(node, where) {
   }
 }
 
-const SKIP = new Set(["foods.js", "imageCredits.json", "index.js"]);
+const SKIP = new Set(["foods.js", "imageCredits.json", "siteImages.json", "plantImages.json", "index.js"]);
 const files = [
   ...readdirSync(root).filter(f => f.endsWith(".js")),
   ...["details", "points"].flatMap(d => readdirSync(resolve(root, d)).filter(f => f.endsWith(".js")).map(f => `${d}/${f}`)),

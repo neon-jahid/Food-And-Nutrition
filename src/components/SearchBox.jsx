@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "../router.jsx";
 import { CATEGORIES } from "../data/foods.js";
 import { useLang } from "../context/LangContext.jsx";
-import { suggest } from "../search.js";
+import { useSearch } from "../hooks.js";
 import FoodImage from "./FoodImage.jsx";
 import { CornerDownLeft, Lightbulb, Search } from "lucide-react";
 
@@ -12,9 +12,12 @@ export default function SearchBox({ value, onChange, onSubmit }) {
   const navigate = useNavigate();
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
+  const [wantIndex, setWantIndex] = useState(false);
   const wrapRef = useRef(null);
 
-  const results = useMemo(() => suggest(value), [value]);
+  // the search index is loaded lazily (on idle, or as soon as the user interacts)
+  const search = useSearch(wantIndex || value.trim() !== "");
+  const results = useMemo(() => (search ? search.suggest(value) : []), [search, value]);
 
   useEffect(() => {
     const close = e => { if (!wrapRef.current?.contains(e.target)) setOpen(false); };
@@ -60,7 +63,8 @@ export default function SearchBox({ value, onChange, onSubmit }) {
         aria-autocomplete="list"
         value={value}
         onChange={e => { onChange(e.target.value); setOpen(true); }}
-        onFocus={() => setOpen(true)}
+        onFocus={() => { setOpen(true); setWantIndex(true); }}
+        onPointerEnter={() => setWantIndex(true)}
         onKeyDown={onKeyDown}
         placeholder={t.searchPlaceholder}
         className="w-full rounded-full border border-slate-200 bg-white py-3.5 pr-5 pl-12 text-base shadow-lg shadow-brand-500/5 outline-none transition focus:border-brand-500 focus:ring-4 focus:ring-brand-500/15 dark:border-slate-700 dark:bg-slate-900"
@@ -103,6 +107,11 @@ export default function SearchBox({ value, onChange, onSubmit }) {
               </ul>
               <p className="hidden shrink-0 items-center gap-1.5 border-t border-slate-100 px-4 py-2 text-xs sm:flex text-slate-400 dark:border-slate-800"><CornerDownLeft className="h-3.5 w-3.5" aria-hidden="true" /> {t.pressEnter}</p>
             </>
+          ) : !search ? (
+            <p className="flex items-center gap-2 px-4 py-4 text-sm text-slate-500" role="status">
+              <span className="h-4 w-4 animate-spin rounded-full border-2 border-slate-300 border-t-brand-500" aria-hidden="true" />
+              {lang === "bn" ? "খুঁজছি…" : "Searching…"}
+            </p>
           ) : (
             <p className="px-4 py-4 text-sm text-slate-500">{t.noResults}</p>
           )}

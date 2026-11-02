@@ -8,11 +8,13 @@ export default [
 
   route(":lang", "routes/lang.jsx", [
     index("routes/home.jsx"),
-    route("foods", "routes/foods.jsx"),
-    route("foods/:slug", "routes/food.jsx"),
+    // one route for /foods, /foods/<category> and /foods/<food>: switching category filters keeps
+    // the list mounted (no remount → no scroll jump, no flash)
+    route("foods/:slug?", "routes/food.jsx"),
     route("tools", "routes/tools.jsx"),
     route("learn", "routes/learn.jsx"),
     route("plants", "routes/plants.jsx"),
+    route("plants/:slug", "routes/plant.jsx"),
     route("food-guide", "routes/food-guide.jsx"),
     route("food-guide/food-storage", "routes/food-storage.jsx"),
     route("food-guide/meal-times", "routes/meal-times.jsx"),
@@ -22,6 +24,9 @@ export default [
     route("food-myths", "routes/food-myths.jsx"),
     route("mens-health", "routes/mens-health.jsx"),
     route("womens-health", "routes/womens-health.jsx"),
+    route("pregnancy", "routes/pregnancy.jsx"),
+    route("coffee", "routes/coffee.jsx"),
+    route("anti-aging", "routes/anti-aging.jsx"),
     route("blog", "routes/blog.jsx"),
     route("blog/:slug", "routes/blog-post.jsx"),
     route("references", "routes/references.jsx"),

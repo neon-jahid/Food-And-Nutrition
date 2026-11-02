@@ -4,6 +4,12 @@
  * en and bn bodies share the same structure (same block types, same order, same list lengths).
  * Keep every statement true of the site as it is today.
  */
+import { FOODS } from "./foods.js";
+
+// food count is computed so the text stays right when foods are added
+const N = FOODS.length;
+const NB = String(N).replace(/\d/g, d => "০১২৩৪৫৬৭৮৯"[d]);
+
 
 export const LEGAL = {
   // ───────────────────────────────────────────────────────────
@@ -20,7 +26,7 @@ export const LEGAL = {
         { p: "Food & Nutrition is a free, bilingual (English and Bangla) website that helps you understand what is in the food you eat every day. We focus on Bangladeshi and everyday foods — rice, dal, fish, shak, fruits, spices — so the information fits real meals, not imported diet plans." },
         { h: "What you will find here" },
         { ul: [
-          "214 foods with nutrition values per 100 g: calories, protein, carbs, fat, fibre, sugar, vitamin C, calcium, iron and potassium.",
+          `${N} foods with nutrition values per 100 g: calories, protein, carbs, fat, fibre, sugar, vitamin C, calcium, iron and potassium.`,
           "Health guides on vitamins, minerals, deficiencies, medicinal plants, food storage, myths vs facts, men's and women's health, and a meal-time guide.",
           "A blog with practical articles on everyday eating.",
           "Tools: a BMI and calorie calculator, a plate calculator and a food comparison tool.",
@@ -36,7 +42,7 @@ export const LEGAL = {
         { p: "খাবার ও পুষ্টি একটি বিনামূল্যের, দ্বিভাষিক (ইংরেজি ও বাংলা) ওয়েবসাইট। রোজ যা খাচ্ছেন তাতে কী আছে, সেটা সহজে বুঝতে এটি সাহায্য করে। আমরা বাংলাদেশি ও রোজকার খাবারে জোর দিই — ভাত, ডাল, মাছ, শাক, ফল, মসলা — যাতে তথ্যগুলো আমাদের আসল খাবারের সঙ্গে মেলে, বিদেশি ডায়েট চার্টের সঙ্গে নয়।" },
         { h: "এখানে যা পাবেন" },
         { ul: [
-          "২১৪টি খাবারের প্রতি ১০০ গ্রামের পুষ্টিমান: ক্যালরি, প্রোটিন, শর্করা, চর্বি, আঁশ, চিনি, ভিটামিন সি, ক্যালসিয়াম, আয়রন ও পটাশিয়াম।",
+          `${NB}টি খাবারের প্রতি ১০০ গ্রামের পুষ্টিমান: ক্যালরি, প্রোটিন, শর্করা, চর্বি, আঁশ, চিনি, ভিটামিন সি, ক্যালসিয়াম, আয়রন ও পটাশিয়াম।`,
           "স্বাস্থ্য গাইড: ভিটামিন, খনিজ, পুষ্টির ঘাটতি, ঔষধি গাছ, খাবার সংরক্ষণ, ভুল ধারণা বনাম সত্য, পুরুষ ও নারীর স্বাস্থ্য, আর কখন কী খাবেন তার গাইড।",
           "রোজকার খাওয়াদাওয়া নিয়ে কাজের লেখা সহ একটি ব্লগ।",
           "টুল: বিএমআই ও ক্যালরি ক্যালকুলেটর, প্লেট ক্যালকুলেটর আর খাবার তুলনা।",

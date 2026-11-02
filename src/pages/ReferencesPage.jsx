@@ -2,6 +2,9 @@ import { useMemo, useState } from "react";
 import { BookMarked, Camera, Database, ExternalLink } from "lucide-react";
 import { FOODS } from "../data/foods.js";
 import credits from "../data/imageCredits.json";
+import siteImages from "../data/siteImages.json";
+import plantImages from "../data/plantImages.json";
+import { PLANTS } from "../data/plants.js";
 import { useLang } from "../context/LangContext.jsx";
 import { Link } from "../router.jsx";
 import { PageHero, SearchInput, matches } from "../components/PageKit.jsx";
@@ -58,13 +61,13 @@ const T = {
   en: {
     title: "Sources & references", sub: "Where our nutrition data, health guidance and food photos come from.",
     dataTitle: "Nutrition data & guidance", dataSub: "Values are approximate until each food shows its own source and verification date",
-    photoTitle: "Food photo credits", photoSub: "All photos are from Wikimedia Commons; reuse must follow each licence",
+    photoTitle: "Photo credits", heroPhoto: "Home page", coffeePhoto: "Coffee guide", plantPhoto: "Medicinal plant", photoSub: "All photos are from Wikimedia Commons; reuse must follow each licence",
     search: "Search food, author or licence…", food: "Food", author: "Author", license: "Licence", source: "Source",
   },
   bn: {
     title: "উৎস ও তথ্যসূত্র", sub: "আমাদের পুষ্টি তথ্য, স্বাস্থ্য নির্দেশনা ও খাবারের ছবি কোথা থেকে নেওয়া।",
     dataTitle: "পুষ্টি তথ্য ও নির্দেশনা", dataSub: "প্রতিটি খাবারে নিজস্ব উৎস ও যাচাইয়ের তারিখ না দেখানো পর্যন্ত মানগুলো আনুমানিক",
-    photoTitle: "খাবারের ছবির কৃতিত্ব", photoSub: "সব ছবি উইকিমিডিয়া কমন্স থেকে নেওয়া; পুনর্ব্যবহারে প্রতিটি ছবির লাইসেন্স মানতে হবে",
+    photoTitle: "ছবির কৃতিত্ব", heroPhoto: "হোম পেজ", coffeePhoto: "কফি গাইড", plantPhoto: "ঔষধি গাছ", photoSub: "সব ছবি উইকিমিডিয়া কমন্স থেকে নেওয়া; পুনর্ব্যবহারে প্রতিটি ছবির লাইসেন্স মানতে হবে",
     search: "খাবার, আলোকচিত্রী বা লাইসেন্স খুঁজুন…", food: "খাবার", author: "আলোকচিত্রী", license: "লাইসেন্স", source: "উৎস",
   },
 };
@@ -74,8 +77,19 @@ export default function ReferencesPage() {
   const s = T[lang];
   const [q, setQ] = useState("");
   const rows = useMemo(
-    () => FOODS.map(f => ({ f, c: credits[f.id] })).filter(({ f, c }) => c && matches(q, f.en, f.bn, c.author, c.license, c.file)),
-    [q]
+    () => [
+      ...FOODS.map(f => ({ key: f.id, label: name(f), to: `/foods/${f.id}`, c: credits[f.id], hay: [f.en, f.bn] })),
+      ...PLANTS.filter(p => !p.foodId).map(p => ({ key: `plant-${p.id}`, label: `${s.plantPhoto}: ${p.name[lang]}`, to: `/plants/${p.id}`, c: plantImages[p.id], hay: [p.name.en, p.name.bn, p.sci] })),
+      // decorative photos (home hero, coffee guide)
+      ...Object.entries(siteImages).map(([id, c]) => ({
+        key: id,
+        label: `${id.startsWith("coffee") ? s.coffeePhoto : s.heroPhoto}: ${c.file.replace(/\.[a-z]+$/i, "").replace(/[_-]/g, " ")}`,
+        to: id.startsWith("coffee") ? "/coffee" : "/",
+        c,
+        hay: [id],
+      })),
+    ].filter(({ c, hay, label }) => c && matches(q, ...hay, label, c.author, c.license, c.file)),
+    [q, name, s, lang]
   );
 
   return (
@@ -110,9 +124,9 @@ export default function ReferencesPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
-                {rows.map(({ f, c }) => (
-                  <tr key={f.id}>
-                    <td className="px-4 py-2.5 font-medium"><Link to={`/foods/${f.id}`} className="hover:text-brand-700 dark:hover:text-brand-300">{name(f)}</Link></td>
+                {rows.map(({ key, label, to, c }) => (
+                  <tr key={key}>
+                    <td className="max-w-[18rem] truncate px-4 py-2.5 font-medium" title={label}><Link to={to} className="hover:text-brand-700 dark:hover:text-brand-300">{label}</Link></td>
                     <td className="max-w-[16rem] truncate px-4 py-2.5 text-slate-600 dark:text-slate-400" title={c.author}>{c.author}</td>
                     <td className="px-4 py-2.5 whitespace-nowrap text-slate-600 dark:text-slate-400">{c.license}</td>
                     <td className="px-4 py-2.5">

@@ -1,4 +1,4 @@
-/* /:lang/foods/:slug — a category page (/foods/fruits) or a single food (/foods/mango). */
+/* /:lang/foods/:slug? — all foods (/foods), a category page (/foods/fruits) or a single food (/foods/mango). */
 import FoodsPage from "../pages/FoodsPage.jsx";
 import FoodPage from "../pages/FoodPage.jsx";
 import NotFound from "../components/NotFound.jsx";
@@ -8,6 +8,7 @@ import { CATEGORY_BY_SLUG, CATEGORY_SLUGS, DEFAULT_LANG, LANGS } from "../paths.
 import { toLocaleDigits } from "../i18n.js";
 import { roundValue } from "../utils.js";
 import { breadcrumbLd, seo } from "../seo.js";
+import { pageSeo } from "../pageMeta.js";
 import { useOutletContext, useParams } from "../router.jsx";
 
 const resolve = slug => {
@@ -18,6 +19,7 @@ const resolve = slug => {
 };
 
 export const meta = ({ params }) => {
+  if (!params.slug) return pageSeo(params.lang, "/foods");
   const lang = LANGS.includes(params.lang) ? params.lang : DEFAULT_LANG;
   const bn = lang === "bn";
   const { category, food } = resolve(params.slug);
@@ -59,8 +61,10 @@ export const meta = ({ params }) => {
 export default function Route() {
   const { slug } = useParams();
   const ctx = useOutletContext();
+  if (!slug) return <FoodsPage {...ctx} />;
   const { category, food } = resolve(slug);
-  if (category) return <FoodsPage key={category.id} {...ctx} fixedCategory={category.id} />;
+  // no `key` here: changing category must update the same list, not remount it
+  if (category) return <FoodsPage {...ctx} fixedCategory={category.id} />;
   if (food) return <FoodPage {...ctx} />;
   return <NotFound kind="404" />;
 }

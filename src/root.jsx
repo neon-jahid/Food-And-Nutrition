@@ -22,7 +22,7 @@ const THEME_SCRIPT = `try{var t=JSON.parse(localStorage.getItem("nutribase.theme
 export function Layout({ children }) {
   const lang = useUrlLang();
   return (
-    <html lang={lang} className={lang === "bn" ? "lang-bn" : undefined} suppressHydrationWarning>
+    <html lang={lang} suppressHydrationWarning>
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

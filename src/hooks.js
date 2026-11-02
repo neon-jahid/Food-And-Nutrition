@@ -57,3 +57,47 @@ export function usePersistentState(key, fallback, sanitize = v => v) {
   }, [key, value, loaded]);
   return [value, setValue, loaded];
 }
+
+/* ------------------------------------------------------------------ */
+/* Lazy food-search index                                               */
+/* ------------------------------------------------------------------ */
+
+let searchModule = null;
+let searchPromise = null;
+const searchListeners = new Set();
+
+/** Start downloading the search index (≈150 kB gz). Safe to call many times. */
+export function loadSearch() {
+  if (!searchPromise) {
+    searchPromise = import("./search.js").then(m => {
+      searchModule = m;
+      searchListeners.forEach(fn => fn());
+      return m;
+    });
+  }
+  return searchPromise;
+}
+
+/**
+ * The search module (suggest, searchFoods…) or null while it loads.
+ * It is fetched when the browser is idle after the page has loaded,
+ * or straight away when `eager` is true (e.g. the user focused a search box).
+ * Always null during prerender and the first client render, so hydration matches.
+ */
+export function useSearch(eager = false) {
+  const hydrated = useHydrated();
+  const mod = useSyncExternalStore(
+    fn => { searchListeners.add(fn); return () => searchListeners.delete(fn); },
+    () => searchModule,
+    () => null,
+  );
+  useEffect(() => {
+    if (searchModule) return;
+    if (eager) { loadSearch(); return; }
+    const idle = window.requestIdleCallback || (cb => setTimeout(cb, 1500));
+    const cancel = window.cancelIdleCallback || clearTimeout;
+    const id = idle(() => loadSearch(), { timeout: 4000 });
+    return () => cancel(id);
+  }, [eager]);
+  return hydrated ? mod : null;
+}

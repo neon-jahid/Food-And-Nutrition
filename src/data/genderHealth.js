@@ -318,6 +318,7 @@ export const GENDER_HEALTH = {
       },
       {
         id: "pregnancy",
+        more: "/pregnancy",
         icon: "Baby",
         tone: "violet",
         title: { en: "Pregnancy", bn: "গর্ভাবস্থা" },

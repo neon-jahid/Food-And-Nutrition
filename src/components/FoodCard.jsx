@@ -17,7 +17,7 @@ export default function FoodCard({ food, match, eager = false, inCompare, onTogg
   ];
 
   return (
-    <article className="group relative flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:border-brand-500 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900">
+    <article data-reveal className="group relative flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:border-brand-500 hover:shadow-lg dark:border-slate-800 dark:bg-slate-900">
       <div className="relative aspect-[4/3] overflow-hidden bg-slate-100 dark:bg-slate-800">
         <FoodImage
           food={food}

@@ -6,24 +6,19 @@
  *
  * The site URL comes from VITE_SITE_URL (environment or .env file).
  */
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { writeFileSync } from "node:fs";
 import { DEFAULT_LANG, LANGS, LEGACY_REDIRECTS, allPublicPaths, withLang } from "../src/paths.js";
+import { siteConfig } from "./env.mjs";
 
-function env(key) {
-  if (process.env[key]) return process.env[key];
-  for (const file of [".env.production", ".env"]) {
-    if (!existsSync(file)) continue;
-    const m = readFileSync(file, "utf8").match(new RegExp(`^${key}=(.*)$`, "m"));
-    if (m) return m[1].trim().replace(/^["']|["']$/g, "");
-  }
-  return "";
+let config;
+try {
+  config = siteConfig("production");
+} catch (e) {
+  console.error(`\n✗ .env error: ${e.message}\n`);
+  process.exit(1);
 }
-
-const configured = env("VITE_SITE_URL");
-const SITE_URL = (configured || "https://food-and-nutrition.example").replace(/\/$/, "");
-if (!configured) {
-  console.warn("\n⚠  VITE_SITE_URL is not set — sitemap, canonical and Open Graph URLs use a placeholder domain.\n   Set it in .env before deploying (see docs/DEVELOPMENT_PROGRESS.md).\n");
-}
+for (const w of config.warnings) console.warn(`\n⚠  ${w}`);
+const SITE_URL = config.siteUrl || "https://food-and-nutrition.example";
 
 const today = new Date().toISOString().slice(0, 10);
 const esc = s => s.replace(/&/g, "&amp;");

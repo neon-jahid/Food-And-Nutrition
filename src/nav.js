@@ -1,5 +1,5 @@
 import {
-  Apple, BookOpen, Calculator, CircleHelp, FlaskConical, Gem, House, Leaf, Mars, Newspaper, Refrigerator, Stethoscope, UtensilsCrossed, Venus,
+  Apple, Baby, BookOpen, Calculator, Coffee, CircleHelp, FlaskConical, Gem, Hourglass, House, Leaf, Mars, Newspaper, Refrigerator, Stethoscope, UtensilsCrossed, Venus,
 } from "lucide-react";
 
 /** Top-level links shown directly in the header bar. */
@@ -8,6 +8,7 @@ export const PRIMARY_NAV = [
   { to: "/foods", icon: Apple, en: "Foods", bn: "খাবার" },
   { to: "/tools", icon: Calculator, en: "Tools", bn: "টুলস" },
   { to: "/blog", icon: Newspaper, en: "Blog", bn: "ব্লগ" },
+  { to: "/coffee", icon: Coffee, en: "Coffee", bn: "কফি", special: true },
 ];
 
 /** Grouped links under "Learn" (mega menu on desktop, drawer on mobile, hub page at /learn). */
@@ -20,6 +21,8 @@ export const LEARN_GROUPS = [
         bn: ["পুরুষের স্বাস্থ্য", "হৃদযন্ত্র, শক্তি, সক্ষমতা ও প্রজনন"] },
       { to: "/womens-health", icon: Venus, tone: "fuchsia", en: ["Women's health", "Periods, pregnancy, PCOS and menopause"],
         bn: ["নারীর স্বাস্থ্য", "মাসিক, গর্ভাবস্থা, পিসিওএস ও মেনোপজ"] },
+      { to: "/pregnancy", icon: Baby, tone: "violet", en: ["Pregnancy food", "What to eat, avoid and why — trimester by trimester"],
+        bn: ["গর্ভাবস্থার খাবার", "কী খাবেন, কী এড়াবেন ও কেন — তিন মাস ভিত্তিক"] },
     ],
   },
   {
@@ -38,6 +41,10 @@ export const LEARN_GROUPS = [
     id: "wellness",
     en: "Healthy living", bn: "সুস্থ জীবন",
     items: [
+      { to: "/coffee", icon: Coffee, tone: "amber", en: ["Coffee guide", "Black Coffee: origin, benefits and how to drink it"],
+        bn: ["কফি গাইড", "ব্ল্যাক কফি: উৎপত্তি, উপকারিতা ও খাওয়ার নিয়ম"] },
+      { to: "/anti-aging", icon: Hourglass, tone: "rose", en: ["Anti-ageing foods", "Foods that keep skin, brain and body young"],
+        bn: ["অ্যান্টি-এজিং খাবার", "ত্বক, মস্তিষ্ক ও শরীর তারুণ্যদীপ্ত রাখার খাবার"] },
       { to: "/food-guide/meal-times", icon: UtensilsCrossed, tone: "orange", en: ["What to eat, when", "Breakfast, lunch, snack and dinner ideas"],
         bn: ["কখন কী খাবেন", "সকাল, দুপুর, বিকেল ও রাতের খাবার"] },
       { to: "/plants", icon: Leaf, tone: "emerald", en: ["Medicinal plants", "Tulsi, neem, thankuni and other herbs"],

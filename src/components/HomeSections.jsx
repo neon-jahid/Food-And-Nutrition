@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { useHydrated } from "../hooks.js";
+import { useHydrated, useSearch } from "../hooks.js";
 import { Link } from "../router.jsx";
 import {
   ArrowRight, BookOpen, Calculator, CalendarDays, Clock, Dumbbell, Lightbulb, Shield, Sprout, Stethoscope, Trophy, Wheat,
@@ -7,7 +7,7 @@ import {
 import { CATEGORIES, FOODS } from "../data/foods.js";
 import { SEASON_NAMES, TIPS, inSeason } from "../data/extras.js";
 import { useLang } from "../context/LangContext.jsx";
-import { GOALS, searchFoods } from "../search.js";
+import { GOALS } from "../searchMeta.js";
 import { GOAL_ICONS } from "../icons.jsx";
 import { storage } from "../utils.js";
 import FoodImage from "./FoodImage.jsx";
@@ -80,7 +80,11 @@ function FoodTile({ food, extra }) {
 export function HealthGoals({ onPick }) {
   const { t, lang, num } = useLang();
   const s = T[lang];
-  const counts = useMemo(() => Object.fromEntries(Object.keys(GOALS).map(g => [g, searchFoods({ goals: [g] }).length])), []);
+  const search = useSearch();
+  const counts = useMemo(
+    () => search && Object.fromEntries(Object.keys(GOALS).map(g => [g, search.searchFoods({ goals: [g] }).length])),
+    [search],
+  );
   return (
     <section className="mt-12">
       <SectionHeader icon={Stethoscope} title={s.goalsTitle} sub={s.goalsSub} />
@@ -98,7 +102,11 @@ export function HealthGoals({ onPick }) {
                 <Icon className="h-5 w-5" aria-hidden="true" />
               </span>
               <span className="font-semibold leading-snug">{t.goals[id]}</span>
-              <span className="text-xs text-slate-500 dark:text-slate-400">{num(counts[id])}{lang === "bn" ? s.foods : ` ${s.foods}`}</span>
+              {counts ? (
+                <span className="text-xs text-slate-500 dark:text-slate-400">{num(counts[id])}{lang === "bn" ? s.foods : ` ${s.foods}`}</span>
+              ) : (
+                <span className="img-skeleton h-4 w-16 rounded" aria-hidden="true" />
+              )}
             </button>
           );
         })}

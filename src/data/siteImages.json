@@ -1,0 +1,132 @@
+{
+ "hero-market": {
+  "src": "/images/site/hero-market.webp",
+  "sm": "/images/site/hero-market-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "DFC 2197 A colorful assortment of fresh fruits and vegetables - apples mango dragon fruit kiwis limes bananas and more - arranged on a wooden crate.jpg",
+  "author": "PattayaPatrol",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:DFC_2197_A_colorful_assortment_of_fresh_fruits_and_vegetables_-_apples_mango_dragon_fruit_kiwis_limes_bananas_and_more_-_arranged_on_a_wooden_crate.jpg"
+ },
+ "hero-floating": {
+  "src": "/images/site/hero-floating.webp",
+  "sm": "/images/site/hero-floating-sm.webp",
+  "w": 640,
+  "h": 479,
+  "file": "Traditional floating fruits market 01.jpg",
+  "author": "Azimronnie",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Traditional_floating_fruits_market_01.jpg"
+ },
+ "hero-salad": {
+  "src": "/images/site/hero-salad.webp",
+  "sm": "/images/site/hero-salad-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Healthy salad bowl (42231145040).jpg",
+  "author": "Ella Olsson from Stockholm, Sweden",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Healthy_salad_bowl_(42231145040).jpg"
+ },
+ "coffee-beans": {
+  "src": "/images/site/coffee-beans.webp",
+  "sm": "/images/site/coffee-beans-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Roasted coffee beans on the surface. 01.jpg",
+  "author": "A S M Jobaer",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Roasted_coffee_beans_on_the_surface._01.jpg"
+ },
+ "coffee-cup": {
+  "src": "/images/site/coffee-cup.webp",
+  "sm": "/images/site/coffee-cup-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "A small cup of coffee.JPG",
+  "author": "Julius Schorzman",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:A_small_cup_of_coffee.JPG"
+ },
+ "coffee-pourover": {
+  "src": "/images/site/coffee-pourover.webp",
+  "sm": "/images/site/coffee-pourover-sm.webp",
+  "w": 640,
+  "h": 426,
+  "file": "Manual drip (pour-over) coffee.jpg",
+  "author": "Kim Sanso",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Manual_drip_(pour-over)_coffee.jpg"
+ },
+ "coffee-espresso": {
+  "src": "/images/site/coffee-espresso.webp",
+  "sm": "/images/site/coffee-espresso-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Espresso shot close-up.jpg",
+  "author": "Deerpeter",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Espresso_shot_close-up.jpg"
+ },
+ "coffee-ground": {
+  "src": "/images/site/coffee-ground.webp",
+  "sm": "/images/site/coffee-ground-sm.webp",
+  "w": 640,
+  "h": 640,
+  "file": "Coarsely grounded coffee beans in white bowl with intact roasted bean.png",
+  "author": "Alorin",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Coarsely_grounded_coffee_beans_in_white_bowl_with_intact_roasted_bean.png"
+ },
+ "coffee-flower": {
+  "src": "/images/site/coffee-flower.webp",
+  "sm": "/images/site/coffee-flower-sm.webp",
+  "w": 640,
+  "h": 428,
+  "file": "Coffea arabica flowers.JPG",
+  "author": "B.navez",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Coffea_arabica_flowers.JPG"
+ },
+ "coffee-plantation": {
+  "src": "/images/site/coffee-plantation.webp",
+  "sm": "/images/site/coffee-plantation-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Coffee plantations on the Camino de Costa Rica.jpg",
+  "author": "Pigment-Ink",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Coffee_plantations_on_the_Camino_de_Costa_Rica.jpg"
+ },
+ "coffee-cherries": {
+  "src": "/images/site/coffee-cherries.webp",
+  "sm": "/images/site/coffee-cherries-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Coffee Berries in Yercaud, Tamil Nadu, India.jpg",
+  "author": "Matthew T Rader",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Coffee_Berries_in_Yercaud,_Tamil_Nadu,_India.jpg"
+ },
+ "coffee-frenchpress": {
+  "src": "/images/site/coffee-frenchpress.webp",
+  "sm": "/images/site/coffee-frenchpress-sm.webp",
+  "w": 640,
+  "h": 490,
+  "file": "French Press coffee making 05.jpg",
+  "author": "Infrogmation",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:French_Press_coffee_making_05.jpg"
+ },
+ "coffee-moka": {
+  "src": "/images/site/coffee-moka.webp",
+  "sm": "/images/site/coffee-moka-sm.webp",
+  "w": 635,
+  "h": 640,
+  "file": "Moka KILT. 01.jpg",
+  "author": "Coyau",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Moka_KILT._01.jpg"
+ }
+}

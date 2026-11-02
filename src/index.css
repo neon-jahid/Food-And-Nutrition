@@ -23,6 +23,19 @@
   --color-accent-500: #14b8a6;
   --color-accent-600: #0d9488;
 
+  /* coffee page palette (fixed — does not follow the accent picker) */
+  --color-roast-50: #fbf6ef;
+  --color-roast-100: #f4e8d6;
+  --color-roast-200: #e8d0ad;
+  --color-roast-300: #d9b07d;
+  --color-roast-400: #cb8f50;
+  --color-roast-500: #b97536;
+  --color-roast-600: #9a5c2a;
+  --color-roast-700: #7a4524;
+  --color-roast-800: #563220;
+  --color-roast-900: #2e1c12;
+  --color-roast-950: #17100b;
+
   --color-protein: #6366f1;
   --color-carbs: #f59e0b;
   --color-fat: #ef4444;
@@ -31,6 +44,28 @@
   @keyframes pop {
     from { opacity: 0; transform: translateY(8px) scale(0.98); }
     to { opacity: 1; transform: none; }
+  }
+  --animate-fade-up: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: none; }
+  }
+  --animate-float: float 7s ease-in-out infinite;
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  --animate-steam: steam 3.6s ease-in-out infinite;
+  @keyframes steam {
+    0% { opacity: 0; transform: translateY(10px) scaleX(1); }
+    25% { opacity: 0.75; }
+    100% { opacity: 0; transform: translateY(-46px) scaleX(1.5); }
+  }
+  --animate-spin-slow: spin 40s linear infinite;
+  --animate-ripple: ripple 4s ease-in-out infinite;
+  @keyframes ripple {
+    0%, 100% { transform: scale(1); opacity: 0.35; }
+    50% { transform: scale(1.06); opacity: 0.6; }
   }
   --animate-shimmer: shimmer 1.4s linear infinite;
   @keyframes shimmer {
@@ -67,13 +102,21 @@ html[data-accent="rose"] {
 
 body {
   @apply bg-slate-50 text-slate-800 antialiased dark:bg-slate-950 dark:text-slate-100;
-  /* soft modern backdrop tinted by the current accent */
+  overflow-x: clip; /* nothing decorative may cause sideways scrolling on phones */
+}
+/* soft modern backdrop tinted by the current accent.
+   A fixed layer instead of background-attachment: fixed, which repaints on every scroll on phones. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
   background-image:
     radial-gradient(60rem 30rem at 100% -10%, color-mix(in oklab, var(--color-brand-500) 9%, transparent), transparent 70%),
     radial-gradient(50rem 30rem at -10% 10%, color-mix(in oklab, var(--color-accent-500) 7%, transparent), transparent 70%);
-  background-attachment: fixed;
 }
-html.dark body {
+html.dark body::before {
   background-image:
     radial-gradient(60rem 30rem at 100% -10%, color-mix(in oklab, var(--color-brand-500) 14%, transparent), transparent 70%),
     radial-gradient(50rem 30rem at -10% 10%, color-mix(in oklab, var(--color-accent-500) 10%, transparent), transparent 70%);
@@ -100,15 +143,19 @@ html.theme-anim, html.theme-anim * {
 }
 
 /* ---- Bangla typography ---- */
-html.lang-bn body {
+html[lang="bn"] body {
   font-family: var(--font-bangla);
   line-height: 1.65;
 }
 /* negative letter-spacing breaks Bengali conjuncts (যুক্তাক্ষর) */
-html.lang-bn :where(h1, h2, h3, h4, [class*="tracking-"]) {
+html[lang="bn"] :where(h1, h2, h3, h4, [class*="tracking-"]) {
   letter-spacing: 0;
 }
-html.lang-bn :where(h1, h2) {
+/* serif display type (coffee page) has no Bengali glyphs — keep Bangla in Noto Sans Bengali */
+html[lang="bn"] .font-serif {
+  font-family: var(--font-bangla);
+}
+html[lang="bn"] :where(h1, h2) {
   line-height: 1.3;
 }
 
@@ -127,3 +174,34 @@ html.lang-bn :where(h1, h2) {
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
 input[type="number"] { -moz-appearance: textfield; }
+
+/* ---- motion ---- */
+
+/* Scroll reveal: elements with data-reveal fade up as they scroll into view.
+   Pure CSS (scroll-driven animations), so there is no JavaScript, no flash of hidden
+   content, and content already on screen at load is shown immediately. Browsers
+   without support simply show everything. */
+@supports (animation-timeline: view()) {
+  [data-reveal] {
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 55%;
+  }
+  @keyframes reveal {
+    from { opacity: 0; transform: translateY(28px) scale(0.98); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+/* stagger helper for lists: style={{ "--i": index }} */
+.stagger > * { animation-delay: calc(var(--i, 0) * 70ms); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  [data-reveal] { animation: none !important; }
+}

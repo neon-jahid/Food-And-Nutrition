@@ -4,7 +4,8 @@ import { Link, useParams } from "../router.jsx";
 import { CATEGORIES, FOODS, SUBGROUPS } from "../data/foods.js";
 import DETAILS from "../data/details/index.js";
 import { useLang } from "../context/LangContext.jsx";
-import FoodImage, { imageCredit } from "../components/FoodImage.jsx";
+import FoodImage from "../components/FoodImage.jsx";
+import credits from "../data/imageCredits.json";
 import NutritionFacts from "../components/NutritionFacts.jsx";
 import Tags from "../components/Tags.jsx";
 import BenefitPoints from "../components/BenefitPoints.jsx";
@@ -77,7 +78,7 @@ export default function FoodPage({ compare, onToggleCompare }) {
   const cat = CATEGORIES.find(c => c.id === food.cat);
   const d = DETAILS[food.id];
   const group = (SUBGROUPS[food.cat] || []).find(g => g.ids.includes(food.id));
-  const credit = imageCredit(food.id);
+  const credit = credits[food.id];
   const inCompare = compare.includes(food.id);
   const siblings = FOODS.filter(f => f.cat === food.cat);
   const idx = siblings.indexOf(food);
