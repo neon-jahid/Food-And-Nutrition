@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Links, Meta, Outlet, Scripts, ScrollRestoration, isRouteErrorResponse, useLocation } from "react-router";
+import { Analytics } from "@vercel/analytics/react";
 import "@fontsource-variable/inter";
 import "@fontsource-variable/noto-sans-bengali";
 import "./index.css";
@@ -36,6 +37,7 @@ export function Layout({ children }) {
         {children}
         <ScrollRestoration />
         <Scripts />
+        <Analytics />
       </body>
     </html>
   );
