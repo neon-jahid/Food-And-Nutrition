@@ -1,5 +1,6 @@
 import { useMemo } from "react";
-import { Link } from "react-router-dom";
+import { useHydrated } from "../hooks.js";
+import { Link } from "../router.jsx";
 import {
   ArrowRight, BookOpen, Calculator, CalendarDays, Clock, Dumbbell, Lightbulb, Shield, Sprout, Stethoscope, Trophy, Wheat,
 } from "lucide-react";
@@ -64,7 +65,7 @@ function FoodTile({ food, extra }) {
   const { name } = useLang();
   return (
     <Link
-      to={`/food/${food.id}`}
+      to={`/foods/${food.id}`}
       className="group w-36 shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-white transition hover:-translate-y-0.5 hover:border-brand-500 hover:shadow-md sm:w-40 dark:border-slate-800 dark:bg-slate-900"
     >
       <FoodImage food={food} fit="contain" className="aspect-square w-full" imgClassName="transition duration-500 group-hover:scale-105" />
@@ -109,6 +110,8 @@ export function HealthGoals({ onPick }) {
 export function SeasonalNow() {
   const { lang, fill } = useLang();
   const s = T[lang];
+  const hydrated = useHydrated();
+  if (!hydrated) return null; // depends on today's month
   const month = new Date().getMonth() + 1;
   const foods = FOODS.filter(f => inSeason(f.id, month));
   if (!foods.length) return null;
@@ -146,7 +149,7 @@ export function TopLists() {
               <ol className="space-y-2">
                 {top.map((f, i) => (
                   <li key={f.id}>
-                    <Link to={`/food/${f.id}`} className="flex items-center gap-3 rounded-xl p-1 transition hover:bg-slate-50 dark:hover:bg-slate-800">
+                    <Link to={`/foods/${f.id}`} className="flex items-center gap-3 rounded-xl p-1 transition hover:bg-slate-50 dark:hover:bg-slate-800">
                       <span className="w-4 text-center text-xs font-bold text-slate-400">{i + 1}</span>
                       <FoodImage food={f} className="h-10 w-10 shrink-0 rounded-lg" />
                       <span className="min-w-0 flex-1 truncate text-sm font-medium">{name(f)}</span>
@@ -166,6 +169,8 @@ export function TopLists() {
 export function TipOfDay() {
   const { lang } = useLang();
   const s = T[lang];
+  const hydrated = useHydrated();
+  if (!hydrated) return null; // depends on today's date
   const day = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
   const tip = TIPS[day % TIPS.length];
   return (
@@ -184,6 +189,8 @@ export function TipOfDay() {
 export function RecentlyViewed() {
   const { lang } = useLang();
   const s = T[lang];
+  const hydrated = useHydrated();
+  if (!hydrated) return null; // read from this browser's storage
   const foods = storage.get("recent", []).map(id => FOODS.find(f => f.id === id)).filter(Boolean);
   if (!foods.length) return null;
   return (
@@ -202,7 +209,7 @@ export function ToolsCta() {
   const items = [
     ["/tools#plate", Calculator, s.plate],
     ["/tools#bmi", Sprout, s.bmi],
-    ["/guide", BookOpen, s.guide],
+    ["/food-guide", BookOpen, s.guide],
   ];
   return (
     <section className="mt-12">

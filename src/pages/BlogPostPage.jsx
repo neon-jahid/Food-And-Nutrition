@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams } from "../router.jsx";
 import { ArrowLeft, Lightbulb, Utensils } from "lucide-react";
 import { POSTS } from "../data/blog.js";
 import { useLang } from "../context/LangContext.jsx";

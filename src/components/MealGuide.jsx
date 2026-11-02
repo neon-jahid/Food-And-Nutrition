@@ -1,5 +1,6 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { useHydrated } from "../hooks.js";
+import { Link } from "../router.jsx";
 import { ArrowRight, Ban, CircleCheck, Clock, Coffee, Flame, Lightbulb, MoonStar, Sun, Sunrise } from "lucide-react";
 import { MEALS, currentMeal } from "../data/meals.js";
 import { useLang } from "../context/LangContext.jsx";
@@ -21,7 +22,7 @@ function PlateCard({ plate }) {
     <li className="group flex items-center gap-3 rounded-2xl border border-slate-200/80 bg-white/70 p-3 transition hover:border-brand-300 hover:shadow-md dark:border-slate-700/80 dark:bg-slate-800/40">
       <div className="flex shrink-0 -space-x-3">
         {foods.slice(0, 3).map(f => (
-          <Link key={f.id} to={`/food/${f.id}`} title={f[lang]} className="block rounded-full ring-2 ring-white transition hover:z-10 hover:scale-110 dark:ring-slate-900">
+          <Link key={f.id} to={`/foods/${f.id}`} title={f[lang]} className="block rounded-full ring-2 ring-white transition hover:z-10 hover:scale-110 dark:ring-slate-900">
             <FoodImage food={f} className="h-11 w-11 rounded-full" />
           </Link>
         ))}
@@ -40,8 +41,12 @@ function PlateCard({ plate }) {
 export default function MealGuide({ compact = false, initial }) {
   const { lang } = useLang();
   const s = T[lang];
-  const nowId = currentMeal().id;
-  const [active, setActive] = useState(() => (MEALS.some(m => m.id === initial) ? initial : nowId));
+  const hydrated = useHydrated();
+  const nowId = hydrated ? currentMeal().id : null;
+  const valid = MEALS.some(m => m.id === initial);
+  const [active, setActive] = useState(valid ? initial : MEALS[0].id);
+  // once we know the visitor's clock, open the meal for "now" (unless a specific one was requested)
+  useEffect(() => { if (hydrated && !valid) setActive(currentMeal().id); }, [hydrated, valid]);
   const meal = MEALS.find(m => m.id === active);
   const c = tone(meal.tone);
   const Icon = MEAL_ICONS[meal.id];
@@ -126,7 +131,7 @@ export default function MealGuide({ compact = false, initial }) {
             <span><span className="font-bold text-slate-900 dark:text-white">{s.tip}: </span>{meal.tip[lang]}</span>
           </p>
           {compact && (
-            <Link to={`/meals#${meal.id}`} className="inline-flex shrink-0 items-center gap-1 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">
+            <Link to={`/food-guide/meal-times#${meal.id}`} className="inline-flex shrink-0 items-center gap-1 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">
               {s.more} <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
           )}

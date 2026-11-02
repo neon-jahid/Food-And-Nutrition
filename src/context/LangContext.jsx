@@ -1,26 +1,30 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo } from "react";
+import { useLocation, useNavigate } from "react-router";
 import { I18N, toLocaleDigits } from "../i18n.js";
 import { NUTRIENT_UNITS } from "../data/foods.js";
+import { stripLang, withLang } from "../paths.js";
 import { roundValue, storage } from "../utils.js";
+import { useUrlLang } from "../router.jsx";
 
 const LangContext = createContext(null);
 
+/** Language comes from the URL prefix (/en, /bn); the choice is remembered for the bare "/" entry page. */
 export function LangProvider({ children }) {
-  // ?lang=bn / ?lang=en in the URL wins, otherwise the saved choice
-  const [lang, setLang] = useState(() => {
-    const fromUrl = new URLSearchParams(window.location.search).get("lang");
-    if (fromUrl === "bn" || fromUrl === "en") return fromUrl;
-    return storage.get("lang", "en") === "bn" ? "bn" : "en";
-  });
+  const lang = useUrlLang();
+  const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     storage.set("lang", lang);
     document.documentElement.lang = lang;
     document.documentElement.classList.toggle("lang-bn", lang === "bn");
-    document.title = `${I18N[lang].siteTitle} — ${lang === "bn" ? "খাবার ও পুষ্টি" : "Food & Nutrition"}`;
   }, [lang]);
 
-  const toggleLang = useCallback(() => setLang(l => (l === "en" ? "bn" : "en")), []);
+  /** Same page in the other language (keeps query string and hash). */
+  const toggleLang = useCallback(() => {
+    const other = lang === "en" ? "bn" : "en";
+    navigate(withLang(other, stripLang(location.pathname)) + location.search + location.hash, { preventScrollReset: true });
+  }, [lang, location, navigate]);
 
   const value = useMemo(() => {
     const t = I18N[lang];

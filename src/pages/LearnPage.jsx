@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "../router.jsx";
 import { ArrowRight, GraduationCap } from "lucide-react";
 import { LEARN_GROUPS } from "../nav.js";
 import { POSTS } from "../data/blog.js";

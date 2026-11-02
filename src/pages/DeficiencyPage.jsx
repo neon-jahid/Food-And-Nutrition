@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "../router.jsx";
 import { ArrowRight, ChevronDown, ShieldCheck, Stethoscope, UserRound, Utensils } from "lucide-react";
 import { DEFICIENCIES } from "../data/deficiency.js";
 import { MINERALS, VITAMINS } from "../data/micronutrients.js";
@@ -20,7 +20,7 @@ const T = {
   },
 };
 
-const NUTRIENTS = [...VITAMINS.map(v => ({ ...v, page: "/vitamins" })), ...MINERALS.map(m => ({ ...m, page: "/minerals" }))];
+const NUTRIENTS = [...VITAMINS.map(v => ({ ...v, page: "/nutrition/vitamins" })), ...MINERALS.map(m => ({ ...m, page: "/nutrition/minerals" }))];
 
 function List({ items, dot }) {
   return (
@@ -91,7 +91,7 @@ export default function DeficiencyPage() {
   const { lang } = useLang();
   const s = T[lang];
   const { hash } = useLocation();
-  const [open, setOpen] = useState(() => new Set([hash.slice(1) || DEFICIENCIES[0]?.id]));
+  const [open, setOpen] = useState(() => new Set([DEFICIENCIES[0]?.id]));
 
   // following a link like /deficiency#anemia opens that item
   useEffect(() => {

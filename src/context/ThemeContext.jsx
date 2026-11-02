@@ -12,7 +12,7 @@ export const ACCENTS = [
 export const MODES = ["light", "dark", "system"];
 
 const ThemeContext = createContext(null);
-const media = () => window.matchMedia?.("(prefers-color-scheme: dark)");
+const media = () => (typeof window === "undefined" ? null : window.matchMedia?.("(prefers-color-scheme: dark)"));
 
 /** Briefly enable colour transitions so switching feels smooth (not on first paint). */
 function animateSwitch() {
@@ -23,18 +23,22 @@ function animateSwitch() {
 }
 
 export function ThemeProvider({ children }) {
-  const [mode, setModeState] = useState(() => {
-    const m = storage.get("theme", "system");
-    return MODES.includes(m) ? m : "system";
-  });
-  const [accent, setAccentState] = useState(() => {
-    const a = storage.get("accent", "fresh");
-    return ACCENTS.some(x => x.id === a) ? a : "fresh";
-  });
-  const [systemDark, setSystemDark] = useState(() => !!media()?.matches);
+  // Prerender-safe: start from defaults, read the saved choice after mount.
+  // The inline script in root.jsx has already applied the right classes before paint,
+  // so nothing touches the DOM until the saved values are loaded (no flash).
+  const [mode, setModeState] = useState("system");
+  const [accent, setAccentState] = useState("fresh");
+  const [systemDark, setSystemDark] = useState(false);
+  const [ready, setReady] = useState(false);
 
   useEffect(() => {
+    const m = storage.get("theme", "system");
+    const a = storage.get("accent", "fresh");
+    setModeState(MODES.includes(m) ? m : "system");
+    setAccentState(ACCENTS.some(x => x.id === a) ? a : "fresh");
     const mq = media();
+    setSystemDark(!!mq?.matches);
+    setReady(true);
     if (!mq) return;
     const on = e => setSystemDark(e.matches);
     mq.addEventListener("change", on);
@@ -44,20 +48,22 @@ export function ThemeProvider({ children }) {
   const dark = mode === "dark" || (mode === "system" && systemDark);
 
   useEffect(() => {
+    if (!ready) return;
     document.documentElement.classList.toggle("dark", dark);
     document.querySelector('meta[name="theme-color"]')?.setAttribute("content", dark ? "#020617" : "#ffffff");
-  }, [dark]);
+  }, [dark, ready]);
 
   useEffect(() => {
+    if (!ready) return;
     const root = document.documentElement;
     if (accent === "fresh") delete root.dataset.accent;
     else root.dataset.accent = accent;
-  }, [accent]);
+  }, [accent, ready]);
 
   const setMode = useCallback(m => { animateSwitch(); storage.set("theme", m); setModeState(m); }, []);
   const setAccent = useCallback(a => { animateSwitch(); storage.set("accent", a); setAccentState(a); }, []);
 
-  const value = useMemo(() => ({ mode, dark, accent, setMode, setAccent }), [mode, dark, accent, setMode, setAccent]);
+  const value = useMemo(() => ({ mode, dark, accent, setMode, setAccent, ready }), [mode, dark, accent, setMode, setAccent, ready]);
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
 }
 

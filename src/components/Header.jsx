@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, usePathname } from "../router.jsx";
 import { ArrowRight, ChevronDown, GraduationCap, Languages, Menu, Scale, X } from "lucide-react";
 import { useLang } from "../context/LangContext.jsx";
 import { LEARN_GROUPS, LEARN_PATHS, PRIMARY_NAV } from "../nav.js";
@@ -27,7 +27,7 @@ function Logo() {
       </span>
       <span className="hidden min-w-0 sm:block">
         <strong className="block text-lg leading-tight font-extrabold text-slate-900 dark:text-white">{t.siteTitle}</strong>
-        <small className="block max-w-[13rem] truncate text-[11px] text-slate-500 dark:text-slate-400">{t.tagline}</small>
+        <small className="block max-w-[15.5rem] truncate text-[11px] text-slate-500 dark:text-slate-400">{t.tagline}</small>
       </span>
     </Link>
   );
@@ -54,7 +54,7 @@ function NavItem({ to, icon: Icon, label }) {
 
 function LearnLink({ item, onClick, compact = false }) {
   const { lang } = useLang();
-  const { pathname } = useLocation();
+  const pathname = usePathname();
   const active = isActivePath(pathname, item.to);
   const [title, desc] = item[lang];
   const Icon = item.icon;
@@ -81,7 +81,7 @@ function LearnLink({ item, onClick, compact = false }) {
 /** Desktop "Learn" mega menu. */
 function LearnMenu() {
   const { lang } = useLang();
-  const { pathname } = useLocation();
+  const pathname = usePathname();
   const s = T[lang];
   const [open, setOpen] = useState(false);
   const ref = useRef(null);
@@ -218,7 +218,7 @@ function MobileDrawer({ open, onClose }) {
 /** Fixed bottom tab bar on phones — thumb-friendly navigation. */
 export function BottomTabs() {
   const { lang } = useLang();
-  const { pathname } = useLocation();
+  const pathname = usePathname();
   const tabs = [
     PRIMARY_NAV[0],
     PRIMARY_NAV[1],
@@ -259,7 +259,7 @@ export function BottomTabs() {
 export default function Header({ compareCount, onOpenCompare }) {
   const { t, lang, toggleLang, num } = useLang();
   const s = T[lang];
-  const { pathname } = useLocation();
+  const pathname = usePathname();
   const [drawer, setDrawer] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const closeDrawer = useCallback(() => setDrawer(false), []);

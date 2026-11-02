@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "../router.jsx";
 import { ArrowRight, Candy, CircleCheck, CircleSlash, CircleX, CookingPot, Droplets, Footprints, Milk, PieChart, Sparkles } from "lucide-react";
 
 const HABIT_ICONS = { Candy, CircleSlash, CookingPot, Droplets, Footprints, Milk };
@@ -69,7 +69,7 @@ export default function GuidePage() {
                   {p.foods.map(id => {
                     const f = FOODS.find(x => x.id === id);
                     return (
-                      <Link key={id} to={`/food/${id}`} title={name(f)} className="block">
+                      <Link key={id} to={`/foods/${id}`} title={name(f)} className="block">
                         <FoodImage food={f} className="h-12 w-12 rounded-lg ring-2 ring-white transition hover:scale-110 dark:ring-slate-900" />
                       </Link>
                     );
@@ -114,7 +114,7 @@ export default function GuidePage() {
             </article>
           ))}
         </div>
-        <Link to="/myths" className="mt-5 inline-flex items-center gap-1 font-semibold text-brand-700 hover:underline dark:text-brand-300">
+        <Link to="/food-myths" className="mt-5 inline-flex items-center gap-1 font-semibold text-brand-700 hover:underline dark:text-brand-300">
           {lang === "bn" ? `সবগুলো ${num(MYTHS.length)}টি ভুল ধারণা দেখুন` : `See all ${MYTHS.length} myths`} <ArrowRight className="h-4 w-4" aria-hidden="true" />
         </Link>
       </section>

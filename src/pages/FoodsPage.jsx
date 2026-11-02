@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "../router.jsx";
+import { useHydrated } from "../hooks.js";
+import { CATEGORY_SLUGS } from "../paths.js";
 import { CATEGORIES, FOODS, SUBGROUPS } from "../data/foods.js";
 import { useLang } from "../context/LangContext.jsx";
 import { GOALS, parseRanges, searchFoods, stringifyRanges } from "../search.js";
@@ -25,11 +27,17 @@ const saveShown = (key, n) => {
   try { sessionStorage.setItem(`shown:${key}`, String(n)); } catch { /* storage unavailable */ }
 };
 
-export default function FoodsPage({ compare, onToggleCompare }) {
+const NO_PARAMS = new URLSearchParams();
+
+export default function FoodsPage({ compare, onToggleCompare, fixedCategory }) {
   const { t, lang, fill, name, num } = useLang();
-  // every filter lives in the URL, so "back" from a food page restores it and links are shareable
-  const [params, setParams] = useSearchParams();
-  const category = CATEGORIES.some(c => c.id === params.get("cat")) ? params.get("cat") : "all";
+  const navigate = useNavigate();
+  const hydrated = useHydrated();
+  // every filter lives in the URL, so "back" from a food page restores it and links are shareable.
+  // The prerendered HTML has no query string, so params are only read once hydrated.
+  const [urlParams, setParams] = useSearchParams();
+  const params = hydrated ? urlParams : NO_PARAMS;
+  const category = fixedCategory || (CATEGORIES.some(c => c.id === params.get("cat")) ? params.get("cat") : "all");
   const query = params.get("q") || "";
   const sort = params.get("sort") || (query ? "relevance" : "name");
   const groups = SUBGROUPS[category] || [];
@@ -37,16 +45,28 @@ export default function FoodsPage({ compare, onToggleCompare }) {
   const goals = (params.get("goals") || "").split(",").filter(g => GOALS[g]);
   const ranges = parseRanges(params.get("range"));
   const hideUnhealthy = params.get("healthy") === "1";
-  const [advOpen, setAdvOpen] = useState(() => goals.length > 0 || Object.keys(ranges).length > 0 || hideUnhealthy);
+  const [advOpen, setAdvOpen] = useState(false);
+  const hasAdvanced = goals.length > 0 || Object.keys(ranges).length > 0 || hideUnhealthy;
+  useEffect(() => { if (hasAdvanced) setAdvOpen(true); }, [hasAdvanced]);
 
   // any change to filters/sort starts the list again from the first page
   const filterKey = params.toString();
-  const [shown, setShown] = useState(() => ({ key: filterKey, n: readShown(filterKey) }));
-  const visible = shown.key === filterKey ? shown.n : readShown(filterKey);
+  const [shown, setShown] = useState(() => ({ key: "", n: PAGE_SIZE }));
+  const visible = !hydrated ? PAGE_SIZE : shown.key === filterKey ? shown.n : readShown(filterKey);
   useEffect(() => saveShown(filterKey, visible), [filterKey, visible]);
 
   const update = patch => {
     const next = new URLSearchParams(params);
+    // a category change moves to that category's own URL (/foods/fruits), keeping other filters
+    if ("cat" in patch) {
+      next.delete("cat");
+      next.delete("sub");
+      Object.entries(patch).forEach(([k, v]) => k !== "cat" && (v && v !== "all" ? next.set(k, v) : next.delete(k)));
+      const qs = next.toString();
+      const path = patch.cat && patch.cat !== "all" ? `/foods/${CATEGORY_SLUGS[patch.cat]}` : "/foods";
+      navigate(qs ? `${path}?${qs}` : path, { preventScrollReset: true });
+      return;
+    }
     Object.entries(patch).forEach(([k, v]) => (v && v !== "all" ? next.set(k, v) : next.delete(k)));
     setParams(next, { replace: true });
   };

@@ -1,4 +1,5 @@
-import { useLocation } from "react-router-dom";
+import { useLocation } from "../router.jsx";
+import { useHydrated } from "../hooks.js";
 import { Clock, Droplets, Hourglass, Scale, UtensilsCrossed } from "lucide-react";
 import { MEALS } from "../data/meals.js";
 import { useLang } from "../context/LangContext.jsx";
@@ -37,7 +38,8 @@ const T = {
 export default function MealsPage() {
   const { lang, num } = useLang();
   const s = T[lang];
-  const { hash } = useLocation();
+  const { hash: urlHash } = useLocation();
+  const hash = useHydrated() ? urlHash : "";
   const total = MEALS.reduce((sum, m) => sum + m.plates[0].kcal, 0);
 
   return (

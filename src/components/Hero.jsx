@@ -1,6 +1,6 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "../router.jsx";
 import { ArrowRight, Leaf, Search, Sparkles } from "lucide-react";
-import { CATEGORIES, FOODS } from "../data/foods.js";
+import { FOODS } from "../data/foods.js";
 import { PLANTS } from "../data/plants.js";
 import { POSTS } from "../data/blog.js";
 import { currentMeal } from "../data/meals.js";
@@ -8,6 +8,7 @@ import { LEARN_GROUPS } from "../nav.js";
 import { useLang } from "../context/LangContext.jsx";
 import { tone } from "../tones.js";
 import FoodImage from "./FoodImage.jsx";
+import { useHydrated } from "../hooks.js";
 import SearchBox from "./SearchBox.jsx";
 import { MEAL_ICONS } from "./MealGuide.jsx";
 import { foodById } from "./PageKit.jsx";
@@ -15,7 +16,8 @@ import { foodById } from "./PageKit.jsx";
 const T = {
   en: {
     badge: "Free · English & বাংলা · Made for Bangladesh",
-    line1: "Eat smarter,", line2: "live healthier.",
+    line1: "Discover What's Inside", line2: "Your Food",
+    lead: "Explore nutrition facts, compare foods and make smarter eating choices.",
     popular: "Popular:",
     chips: [["Mango", "mango"], ["Iron", "iron"], ["Diabetes", "diabetes"], ["Hilsa", "hilsa"], ["Hair fall", "hair fall"]],
     stats: [["foods", "Foods"], ["plants", "Medicinal plants"], ["guides", "Health guides"], ["posts", "Articles"]],
@@ -24,7 +26,8 @@ const T = {
   },
   bn: {
     badge: "বিনামূল্যে · বাংলা ও English · বাংলাদেশের জন্য তৈরি",
-    line1: "বুঝে খান,", line2: "সুস্থ থাকুন।",
+    line1: "জানুন আপনার খাবারের", line2: "ভেতরে কী আছে",
+    lead: "পুষ্টিগুণ জানুন, খাবার তুলনা করুন এবং বুঝে-শুনে খাবার বেছে নিন।",
     popular: "জনপ্রিয়:",
     chips: [["আম", "আম"], ["আয়রন", "আয়রন"], ["ডায়াবেটিস", "ডায়াবেটিস"], ["ইলিশ", "ইলিশ"], ["চুল পড়া", "চুল পড়া"]],
     stats: [["foods", "খাবার"], ["plants", "ঔষধি গাছ"], ["guides", "স্বাস্থ্য গাইড"], ["posts", "লেখা"]],
@@ -50,7 +53,7 @@ function NutriCard({ food, s }) {
   ];
   return (
     <Link
-      to={`/food/${food.id}`}
+      to={`/foods/${food.id}`}
       className="absolute bottom-6 -left-6 z-20 w-60 rounded-3xl border border-white/60 bg-white/80 p-4 shadow-2xl shadow-slate-900/10 backdrop-blur-xl transition hover:-translate-y-1 dark:border-slate-700/60 dark:bg-slate-900/80"
     >
       <div className="flex items-center gap-3">
@@ -81,9 +84,10 @@ function NutriCard({ food, s }) {
 }
 
 export default function Hero({ query, setQuery, onSearch }) {
-  const { lang, t, fill, num } = useLang();
+  const { lang, num } = useLang();
   const navigate = useNavigate();
   const s = T[lang];
+  const hydrated = useHydrated();
   const meal = currentMeal();
   const MealIcon = MEAL_ICONS[meal.id];
   const [big, small, round] = ["hilsa", "guava", "spinach"].map(foodById);
@@ -92,9 +96,8 @@ export default function Hero({ query, setQuery, onSearch }) {
     <section className="relative isolate">
       {/* decorative background — clipped in its own layer so the search dropdown is never cut off */}
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden" aria-hidden="true">
-        <div className="absolute -top-40 -left-32 h-[28rem] w-[28rem] rounded-full bg-brand-400/25 blur-3xl dark:bg-brand-500/20" />
-        <div className="absolute top-10 right-[-10rem] h-[32rem] w-[32rem] rounded-full bg-accent-400/20 blur-3xl dark:bg-accent-500/15" />
-        <div className="absolute bottom-[-12rem] left-1/3 h-80 w-80 rounded-full bg-amber-300/20 blur-3xl dark:bg-amber-500/10" />
+        <div className="absolute -top-40 -left-32 h-[28rem] w-[28rem] rounded-full bg-brand-400/15 blur-3xl dark:bg-brand-500/15" />
+        <div className="absolute top-10 right-[-10rem] h-[32rem] w-[32rem] rounded-full bg-accent-400/10 blur-3xl dark:bg-accent-500/10" />
         <div
           className="absolute inset-0 opacity-[0.35] dark:opacity-[0.15]"
           style={{
@@ -115,10 +118,10 @@ export default function Hero({ query, setQuery, onSearch }) {
           <h1 className="mt-5 text-4xl leading-[1.05] font-black tracking-tight text-slate-900 sm:text-6xl dark:text-white">
             {s.line1}
             <br />
-            <span className="text-gradient">{s.line2}</span>
+            <span className="text-brand-600 dark:text-brand-400">{s.line2}</span>
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-lg text-slate-600 lg:mx-0 dark:text-slate-400">
-            {fill(t.heroText, { count: FOODS.length, cats: CATEGORIES.length })}
+            {s.lead}
           </p>
 
           <div className="mx-auto mt-8 max-w-xl lg:mx-0">
@@ -164,9 +167,9 @@ export default function Hero({ query, setQuery, onSearch }) {
 
           <NutriCard food={big} s={s} />
 
-          {/* time-aware meal chip */}
-          <Link
-            to={`/meals#${meal.id}`}
+          {/* time-aware meal chip (needs the visitor's clock, so client-only) */}
+          {hydrated && <Link
+            to={`/food-guide/meal-times#${meal.id}`}
             className="absolute -top-4 left-2 z-20 flex items-center gap-3 rounded-2xl border border-white/60 bg-white/85 py-2.5 pr-4 pl-2.5 shadow-xl backdrop-blur-xl transition hover:-translate-y-0.5 dark:border-slate-700/60 dark:bg-slate-900/85"
           >
             <span className={`grid h-10 w-10 place-items-center rounded-xl ${tone(meal.tone).solid}`}>
@@ -178,7 +181,7 @@ export default function Hero({ query, setQuery, onSearch }) {
                 {meal.name[lang]} · {s.mealCta} <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
               </span>
             </span>
-          </Link>
+          </Link>}
 
           <Link
             to="/plants"

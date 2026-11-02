@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "../router.jsx";
+import { useHydrated } from "../hooks.js";
 import { ArrowUpRight, ChevronDown, HandHeart, Leaf, ShieldAlert, Sprout } from "lucide-react";
 import { PLANTS, PLANT_TAGS } from "../data/plants.js";
 import { useLang } from "../context/LangContext.jsx";
@@ -86,7 +87,7 @@ function PlantCard({ p }) {
               </ul>
             </div>
             {food && (
-              <Link to={`/food/${food.id}`} className="inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">
+              <Link to={`/foods/${food.id}`} className="inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">
                 {s.nutrition} <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
               </Link>
             )}
@@ -111,7 +112,8 @@ export default function PlantsPage() {
   const { lang, fill } = useLang();
   const s = T[lang];
   const [q, setQ] = useState("");
-  const [params, setParams] = useSearchParams();
+  const [urlParams, setParams] = useSearchParams();
+  const params = useHydrated() ? urlParams : new URLSearchParams();
   const tag = PLANT_TAGS.some(t => t.id === params.get("tag")) ? params.get("tag") : "all";
   const setTag = id => setParams(id === "all" ? {} : { tag: id }, { replace: true });
   const list = useMemo(

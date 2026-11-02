@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "../router.jsx";
 import { ArrowRight, CircleAlert, FlaskConical, Gem, Lightbulb, Target, TriangleAlert } from "lucide-react";
 import { MINERALS, VITAMINS } from "../data/micronutrients.js";
 import { DEFICIENCIES } from "../data/deficiency.js";
@@ -14,12 +14,12 @@ const T = {
     vitamins: {
       title: "Vitamin guide", sub: "The essential vitamins your body needs in small amounts — what each one does, how much you need and the best desi foods for it.",
       search: "Search vitamin, food or role (e.g. B12, eyes, egg)…", kinds: { fat: "Fat-soluble", water: "Water-soluble" },
-      other: { to: "/minerals", label: "Mineral guide" },
+      other: { to: "/nutrition/minerals", label: "Mineral guide" },
     },
     minerals: {
       title: "Mineral guide", sub: "Minerals build bones, carry oxygen and keep nerves and muscles working. Here's how to get enough from everyday food.",
       search: "Search mineral, food or role (e.g. iron, bones, dal)…", kinds: { macro: "Major minerals", trace: "Trace minerals" },
-      other: { to: "/vitamins", label: "Vitamin guide" },
+      other: { to: "/nutrition/vitamins", label: "Vitamin guide" },
     },
   },
   bn: {
@@ -28,12 +28,12 @@ const T = {
     vitamins: {
       title: "ভিটামিন গাইড", sub: "শরীরের অল্প পরিমাণে দরকারি প্রধান ভিটামিনগুলো — কোনটির কী কাজ, কতটুকু দরকার এবং কোন দেশি খাবারে বেশি পাওয়া যায়।",
       search: "ভিটামিন, খাবার বা কাজ খুঁজুন (যেমন: বি১২, চোখ, ডিম)…", kinds: { fat: "চর্বিতে দ্রবণীয়", water: "পানিতে দ্রবণীয়" },
-      other: { to: "/minerals", label: "খনিজ গাইড" },
+      other: { to: "/nutrition/minerals", label: "খনিজ গাইড" },
     },
     minerals: {
       title: "খনিজ গাইড", sub: "খনিজ হাড় গড়ে, অক্সিজেন বহন করে এবং স্নায়ু ও পেশি সচল রাখে। প্রতিদিনের খাবার থেকে কীভাবে যথেষ্ট পাবেন, জেনে নিন।",
       search: "খনিজ, খাবার বা কাজ খুঁজুন (যেমন: আয়রন, হাড়, ডাল)…", kinds: { macro: "প্রধান খনিজ", trace: "অণু খনিজ" },
-      other: { to: "/vitamins", label: "ভিটামিন গাইড" },
+      other: { to: "/nutrition/vitamins", label: "ভিটামিন গাইড" },
     },
   },
 };
@@ -89,7 +89,7 @@ function NutrientCard({ n, s }) {
         </p>
 
         {def && (
-          <Link to={`/deficiency#${def.id}`} className="inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">
+          <Link to={`/nutrition/deficiency#${def.id}`} className="inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-300">
             {s.deficiency} <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </Link>
         )}

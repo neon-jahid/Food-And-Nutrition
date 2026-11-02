@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "../router.jsx";
 import { ChevronRight, Info, Search, X } from "lucide-react";
 import { FOODS } from "../data/foods.js";
 import { useLang } from "../context/LangContext.jsx";
@@ -104,7 +104,7 @@ export function FoodChips({ ids, size = "md" }) {
       {foods.map(f => (
         <li key={f.id}>
           <Link
-            to={`/food/${f.id}`}
+            to={`/foods/${f.id}`}
             className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white py-0.5 pr-3 pl-0.5 text-xs font-medium text-slate-700 transition hover:border-brand-400 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-800/60 dark:text-slate-200 dark:hover:text-brand-300"
           >
             <FoodImage food={f} className={`${img} rounded-full`} />

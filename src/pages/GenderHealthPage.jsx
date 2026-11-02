@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "../router.jsx";
 import {
   Activity, ArrowRight, Baby, Ban, Bone, Brain, CalendarHeart, CircleCheck, CircleX, Droplet, Dumbbell, Flame, Flower2,
   Heart, HeartHandshake, Leaf, Lightbulb, Mars, Moon, Scale, ShieldCheck, Sparkles, Stethoscope, Sun, Utensils, Venus,
@@ -134,7 +134,7 @@ function PeriodGuide({ s }) {
                 <p className="mt-2 text-sm"><span className="font-semibold text-slate-900 dark:text-white">{p.focus}: </span><span className="text-slate-700 dark:text-slate-300">{ph.focus[lang]}</span></p>
                 <div className="mt-3 flex -space-x-2">
                   {ph.eat.map(foodById).filter(Boolean).map(f => (
-                    <Link key={f.id} to={`/food/${f.id}`} title={f[lang]} className="block rounded-full ring-2 ring-white transition hover:z-10 hover:scale-110 dark:ring-slate-900">
+                    <Link key={f.id} to={`/foods/${f.id}`} title={f[lang]} className="block rounded-full ring-2 ring-white transition hover:z-10 hover:scale-110 dark:ring-slate-900">
                       <FoodImage food={f} className="h-9 w-9 rounded-full" />
                     </Link>
                   ))}

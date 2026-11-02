@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "../router.jsx";
 import { Archive, CircleAlert, Clock, Lightbulb, Refrigerator, Snowflake, Sun, Thermometer } from "lucide-react";
 import { FRIDGE_ZONES, SPOILAGE_SIGNS, STORAGE_GROUPS, STORAGE_TIPS } from "../data/storage.js";
 import { useLang } from "../context/LangContext.jsx";
@@ -64,7 +64,7 @@ function ItemCard({ item }) {
   );
   return (
     <li className="card flex flex-col gap-3 p-4">
-      {food ? <Link to={`/food/${food.id}`} className="rounded-xl hover:opacity-90">{head}</Link> : head}
+      {food ? <Link to={`/foods/${food.id}`} className="rounded-xl hover:opacity-90">{head}</Link> : head}
       <WhereBadge where={item.where} />
       <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-300">{item.tip[lang]}</p>
     </li>

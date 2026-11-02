@@ -1,10 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { usePersistentState } from "../hooks.js";
+
+const BMI_DEFAULTS = { sex: "male", age: 30, weight: 65, height: 165, act: 1 };
+import { useLocation } from "../router.jsx";
 import { Activity, Calculator, Plus, Ruler, Search, Trash2 } from "lucide-react";
 import { DAILY_VALUES, FOODS } from "../data/foods.js";
 import { useLang } from "../context/LangContext.jsx";
 import { suggest } from "../search.js";
-import { NUTRIENT_KEYS, storage } from "../utils.js";
+import { NUTRIENT_KEYS } from "../utils.js";
 import { MacroBar, MacroLegend } from "../components/MacroBar.jsx";
 import FoodImage from "../components/FoodImage.jsx";
 import { SectionHeader } from "../components/HomeSections.jsx";
@@ -45,11 +48,8 @@ const field = "w-full rounded-xl border border-slate-200 bg-white px-3 py-2 outl
 function PlateCalculator() {
   const { t, lang, num, fmt, unit, name } = useLang();
   const s = T[lang];
-  const [items, setItems] = useState(() => storage.get("plate", []).filter(x => FOODS.some(f => f.id === x.id)));
+  const [items, setItems] = usePersistentState("plate", [], v => (Array.isArray(v) ? v.filter(x => FOODS.some(f => f.id === x?.id)) : []));
   const [q, setQ] = useState("");
-  useEffect(() => {
-    storage.set("plate", items);
-  }, [items]);
 
   const results = useMemo(() => suggest(q, 6), [q]);
   const add = id => {
@@ -159,10 +159,7 @@ const ACTIVITY = [1.2, 1.375, 1.55, 1.725, 1.9];
 function BmiCalculator() {
   const { lang, num, fmt } = useLang();
   const s = T[lang];
-  const [form, setForm] = useState(() => storage.get("bmi", { sex: "male", age: 30, weight: 65, height: 165, act: 1 }));
-  useEffect(() => {
-    storage.set("bmi", form);
-  }, [form]);
+  const [form, setForm] = usePersistentState("bmi", BMI_DEFAULTS, v => ({ ...BMI_DEFAULTS, ...(v && typeof v === "object" ? v : {}) }));
   const set = (k, v) => setForm(f => ({ ...f, [k]: v }));
 
   const w = Number(form.weight), h = Number(form.height), a = Number(form.age);

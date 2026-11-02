@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "../router.jsx";
 import { CATEGORIES, FOODS } from "../data/foods.js";
 import { useLang } from "../context/LangContext.jsx";
 import CategoryChips from "../components/CategoryChips.jsx";
@@ -45,7 +45,7 @@ export default function HomePage({ compare, onToggleCompare }) {
             title={lang === "bn" ? "কখন কী খাবেন" : "What to eat, and when"}
             sub={lang === "bn" ? "সকালের নাস্তা থেকে রাতের খাবার — দিনের প্রতিটি সময়ের জন্য ভালো থালা" : "From breakfast to dinner — a good plate for every time of day"}
             action={
-              <Link to="/meals" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:underline dark:text-brand-100">
+              <Link to="/food-guide/meal-times" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:underline dark:text-brand-100">
                 {lang === "bn" ? "পুরো গাইড" : "Full guide"} <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </Link>
             }

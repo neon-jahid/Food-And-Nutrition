@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams } from "../router.jsx";
 import { CATEGORIES, FOODS, SUBGROUPS } from "../data/foods.js";
 import DETAILS from "../data/details/index.js";
 import { useLang } from "../context/LangContext.jsx";
@@ -52,7 +52,7 @@ function Section({ icon: Icon, title, sub, children }) {
 }
 
 export default function FoodPage({ compare, onToggleCompare }) {
-  const { id } = useParams();
+  const { slug: id } = useParams();
   const { t, lang, num, fmt, unit, name, altName, fill } = useLang();
   const food = FOODS.find(f => f.id === id);
   const [zoom, setZoom] = useState(false);
@@ -271,7 +271,7 @@ export default function FoodPage({ compare, onToggleCompare }) {
           {[[prev, t.prev, "text-left"], [next, t.next, "text-right"]].map(([f, label, align]) => (
             <Link
               key={label}
-              to={`/food/${f.id}`}
+              to={`/foods/${f.id}`}
               className={`flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-3 transition hover:border-brand-500 dark:border-slate-800 dark:bg-slate-900 ${align === "text-right" ? "flex-row-reverse" : ""}`}
             >
               <FoodImage food={f} className="h-14 w-14 shrink-0 rounded-xl" />
@@ -288,7 +288,7 @@ export default function FoodPage({ compare, onToggleCompare }) {
         <Section title={fill(t.relatedTitle, { cat: cat[lang] })}>
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
             {related.map(f => (
-              <Link key={f.id} to={`/food/${f.id}`} className="group overflow-hidden rounded-2xl border border-slate-200 bg-white transition hover:border-brand-500 hover:shadow-md dark:border-slate-800 dark:bg-slate-900">
+              <Link key={f.id} to={`/foods/${f.id}`} className="group overflow-hidden rounded-2xl border border-slate-200 bg-white transition hover:border-brand-500 hover:shadow-md dark:border-slate-800 dark:bg-slate-900">
                 <FoodImage food={f} fit="contain" className="aspect-[4/3] w-full" imgClassName="transition duration-500 group-hover:scale-105" />
                 <div className="p-3">
                   <h3 className="truncate font-bold">{name(f)}</h3>

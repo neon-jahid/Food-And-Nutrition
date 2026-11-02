@@ -1,8 +1,9 @@
 import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "../router.jsx";
 import { ArrowRight, CalendarDays, Clock, Newspaper } from "lucide-react";
 import { BLOG_CATS, POSTS } from "../data/blog.js";
 import { useLang } from "../context/LangContext.jsx";
+import { toLocaleDigits } from "../i18n.js";
 import FoodImage from "../components/FoodImage.jsx";
 import { FilterChips, PageHero, foodById } from "../components/PageKit.jsx";
 
@@ -17,8 +18,15 @@ export const BLOG_T = {
   },
 };
 
+const MONTHS = {
+  en: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+  bn: ["জানুয়ারি", "ফেব্রুয়ারি", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই", "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"],
+};
+
+/** "2026-10-28" → "28 Oct 2026" / "২৮ অক্টোবর ২০২৬" (no Intl, so prerender and browser agree). */
 export function formatDate(iso, lang) {
-  return new Date(iso + "T00:00:00").toLocaleDateString(lang === "bn" ? "bn-BD" : "en-GB", { day: "numeric", month: "short", year: "numeric" });
+  const [y, m, d] = iso.split("-").map(Number);
+  return toLocaleDigits(`${d} ${MONTHS[lang][m - 1]} ${y}`, lang);
 }
 
 export function PostMeta({ post, className = "" }) {

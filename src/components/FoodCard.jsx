@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "../router.jsx";
 import { CATEGORIES } from "../data/foods.js";
 import { useLang } from "../context/LangContext.jsx";
 import { MacroBar } from "./MacroBar.jsx";
@@ -49,7 +49,7 @@ export default function FoodCard({ food, match, eager = false, inCompare, onTogg
         <div>
           <h3 className="line-clamp-2 text-lg leading-snug font-bold text-slate-900 dark:text-white">
             {/* stretched link makes the whole card clickable */}
-            <Link to={`/food/${food.id}`} className="outline-none after:absolute after:inset-0 focus-visible:underline">
+            <Link to={`/foods/${food.id}`} className="outline-none after:absolute after:inset-0 focus-visible:underline">
               {name(food)}
             </Link>
           </h3>

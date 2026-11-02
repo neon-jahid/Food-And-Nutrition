@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "../router.jsx";
 import { CATEGORIES } from "../data/foods.js";
 import { useLang } from "../context/LangContext.jsx";
 import { suggest } from "../search.js";
@@ -26,7 +26,7 @@ export default function SearchBox({ value, onChange, onSubmit }) {
     setActive(-1);
   }, [value]);
 
-  const go = food => { setOpen(false); navigate(`/food/${food.id}`); };
+  const go = food => { setOpen(false); navigate(`/foods/${food.id}`); };
 
   const onKeyDown = e => {
     // Enter without a highlighted suggestion → hand the query to the caller (e.g. open the full results page)
