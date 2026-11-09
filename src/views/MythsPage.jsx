@@ -36,14 +36,14 @@ function MythCard({ m, shown, onToggle }) {
             {partly ? <Scale className="h-3.5 w-3.5" aria-hidden="true" /> : <CircleX className="h-3.5 w-3.5" aria-hidden="true" />}
             {partly ? s.partly : s.myth}
           </span>
-          {cat && <span className="text-xs font-medium text-slate-400">{cat[lang]}</span>}
+          {cat && <span className="text-xs font-medium text-slate-500 dark:text-slate-400">{cat[lang]}</span>}
         </div>
         <p className="text-lg leading-snug font-bold text-slate-900 dark:text-white">“{m.myth[lang]}”</p>
       </div>
       {shown ? (
         <div className="animate-pop border-t border-brand-100 bg-brand-50/70 p-5 dark:border-brand-500/20 dark:bg-brand-500/10">
           <p className="flex gap-2 text-sm leading-relaxed text-slate-700 dark:text-slate-200">
-            <CircleCheck className="mt-0.5 h-5 w-5 shrink-0 text-brand-600 dark:text-brand-300" aria-hidden="true" />
+            <CircleCheck className="mt-0.5 h-5 w-5 shrink-0 text-brand-700 dark:text-brand-300" aria-hidden="true" />
             <span><span className="font-bold text-brand-700 dark:text-brand-300">{s.fact}: </span>{m.fact[lang]}</span>
           </p>
           <button type="button" onClick={onToggle} className="mt-3 text-xs font-semibold text-slate-500 hover:text-slate-800 dark:hover:text-white">{s.hide}</button>

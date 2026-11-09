@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useDialogFocus } from "../hooks.js";
+import { useEffect, useState, useRef } from "react";
 import { createPortal } from "react-dom";
 import { Link, useParams } from "../router.jsx";
 import { CATEGORIES, FOODS, SUBGROUPS } from "../data/foods.js";
@@ -17,6 +18,9 @@ import { storage } from "../utils.js";
 
 /** Full-screen HD photo viewer (click / Esc to close). */
 function Lightbox({ src, alt, credit, onClose }) {
+  const { t } = useLang();
+  const dialogRef = useRef(null);
+  useDialogFocus(dialogRef);
   useEffect(() => {
     const onKey = e => { if (e.key === "Escape") onClose(); };
     document.addEventListener("keydown", onKey);
@@ -28,10 +32,10 @@ function Lightbox({ src, alt, credit, onClose }) {
     };
   }, [onClose]);
   return createPortal(
-    <div className="fixed inset-0 z-50 flex animate-pop flex-col items-center justify-center bg-black/90 p-4" onClick={onClose} role="dialog" aria-modal="true">
+    <div ref={dialogRef} className="fixed inset-0 z-50 flex animate-pop flex-col items-center justify-center bg-black/90 p-4" onClick={onClose} role="dialog" aria-modal="true" aria-label={alt}>
       <img src={src} alt={alt} className="max-h-[85vh] max-w-full rounded-xl object-contain shadow-2xl" />
       {credit && <p className="mt-3 text-center text-xs text-white/70">{credit}</p>}
-      <button type="button" aria-label="Close" className="absolute top-4 right-4 grid h-10 w-10 place-items-center rounded-full bg-white/15 text-white hover:bg-white/25"><X className="h-5 w-5" /></button>
+      <button type="button" aria-label={t.close} className="absolute top-4 right-4 grid h-10 w-10 place-items-center rounded-full bg-white/15 text-white hover:bg-white/25"><X className="h-5 w-5" aria-hidden="true" /></button>
     </div>,
     document.body
   );
@@ -42,7 +46,7 @@ function Section({ icon: Icon, title, sub, children }) {
     <section className="mt-12">
       <h2 className="flex items-center gap-3 text-2xl font-extrabold text-slate-900 sm:text-3xl dark:text-white">
         {Icon && (
-          <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-brand-50 text-brand-600 dark:bg-brand-700/25 dark:text-brand-100">
+          <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-brand-50 text-brand-700 dark:bg-brand-700/25 dark:text-brand-100">
             <Icon className="h-5 w-5" aria-hidden="true" />
           </span>
         )}
@@ -70,9 +74,9 @@ export default function FoodPage({ compare, onToggleCompare }) {
   if (!food) {
     return (
       <div className="mx-auto max-w-6xl px-4 py-24 text-center">
-        <p className="flex justify-center"><Utensils className="h-12 w-12 text-slate-400" aria-hidden="true" /></p>
+        <p className="flex justify-center"><Utensils className="h-12 w-12 text-slate-500 dark:text-slate-400" aria-hidden="true" /></p>
         <p className="mt-4 text-lg">{t.notFound}</p>
-        <Link to="/foods" className="mt-6 inline-flex items-center gap-1.5 font-semibold text-brand-600 hover:underline"><ArrowLeft className="h-4 w-4" aria-hidden="true" /> {t.backHome}</Link>
+        <Link to="/foods" className="mt-6 inline-flex items-center gap-1.5 font-semibold text-brand-700 dark:text-brand-400 hover:underline"><ArrowLeft className="h-4 w-4" aria-hidden="true" /> {t.backHome}</Link>
       </div>
     );
   }
@@ -96,14 +100,14 @@ export default function FoodPage({ compare, onToggleCompare }) {
       {zoom && credit && (
         <Lightbox
           src={credit.hd || credit.src}
-          alt={food.en}
+          alt={name(food)}
           credit={`${t.photo}: ${credit.author} · ${credit.license} · ${t.via}`}
           onClose={() => setZoom(false)}
         />
       )}
 
       {/* Breadcrumb */}
-      <nav className="flex flex-wrap items-center gap-1.5 py-5 text-sm text-slate-500 dark:text-slate-400" aria-label="Breadcrumb">
+      <nav className="flex flex-wrap items-center gap-1.5 py-5 text-sm text-slate-500 dark:text-slate-400" aria-label={lang === "bn" ? "পথনির্দেশ" : "Breadcrumb"}>
         <Link to="/" className="hover:text-brand-600">{t.home}</Link>
         <span>/</span>
         <Link to={`/foods?cat=${cat.id}`} className="hover:text-brand-600">{cat[lang]}</Link>
@@ -119,7 +123,7 @@ export default function FoodPage({ compare, onToggleCompare }) {
 
       {/* Hero */}
       <header className="grid items-center gap-8 lg:grid-cols-2">
-        <figure>
+        <figure className="min-w-0">
           <button
             type="button"
             onClick={() => credit && setZoom(true)}
@@ -145,7 +149,7 @@ export default function FoodPage({ compare, onToggleCompare }) {
             )}
           </button>
           {credit && (
-            <figcaption className="mt-2 truncate text-xs text-slate-400">
+            <figcaption className="mt-2 truncate text-xs text-slate-500 dark:text-slate-400">
               {t.photo}: <a href={credit.page} target="_blank" rel="noreferrer" className="hover:underline">{credit.author}</a>
               {" · "}{credit.license} · {t.via}
             </figcaption>
@@ -168,7 +172,7 @@ export default function FoodPage({ compare, onToggleCompare }) {
           )}
 
           <div className="mt-5 flex items-baseline gap-2">
-            <strong className="text-4xl font-extrabold text-brand-600 dark:text-brand-100">{fmt(food.n.calories)}</strong>
+            <strong className="text-4xl font-extrabold text-brand-700 dark:text-brand-100">{fmt(food.n.calories)}</strong>
             <span className="text-slate-500">{t.kcal} · {t.per100g}</span>
           </div>
 
@@ -237,7 +241,7 @@ export default function FoodPage({ compare, onToggleCompare }) {
 
           <div className="mt-12 grid gap-6 md:grid-cols-2">
             <div className="rounded-3xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
-              <h2 className="flex items-center gap-2 text-xl font-extrabold"><Utensils className="h-5 w-5 text-brand-600" aria-hidden="true" /> {t.howToEatTitle}</h2>
+              <h2 className="flex items-center gap-2 text-xl font-extrabold"><Utensils className="h-5 w-5 text-brand-700 dark:text-brand-400" aria-hidden="true" /> {t.howToEatTitle}</h2>
               <ul className="mt-4 space-y-3">
                 {d.howToEat.map((x, i) => (
                   <li key={i} className="flex gap-3 text-slate-700 dark:text-slate-300">
@@ -304,7 +308,7 @@ export default function FoodPage({ compare, onToggleCompare }) {
       )}
 
       <div className="mt-12 text-center">
-        <Link to={`/foods?cat=${cat.id}`} className="inline-flex items-center gap-1.5 font-semibold text-brand-600 hover:underline dark:text-brand-100"><ArrowLeft className="h-4 w-4" aria-hidden="true" /> {t.backHome}</Link>
+        <Link to={`/foods?cat=${cat.id}`} className="inline-flex items-center gap-1.5 font-semibold text-brand-700 hover:underline dark:text-brand-100"><ArrowLeft className="h-4 w-4" aria-hidden="true" /> {t.backHome}</Link>
       </div>
     </article>
   );

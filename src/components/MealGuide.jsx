@@ -78,7 +78,7 @@ export default function MealGuide({ compact = false, initial }) {
               <span className="min-w-0">
                 <span className={`block truncate text-[13px] font-bold sm:text-sm ${on ? "text-slate-900 dark:text-white" : "text-slate-600 dark:text-slate-300"}`}>{m.name[lang]}</span>
                 <span className="block truncate text-[11px] text-slate-500 dark:text-slate-400">
-                  {m.id === nowId && <span className="font-bold text-brand-600 dark:text-brand-300">{s.now} · </span>}
+                  {m.id === nowId && <span className="font-bold text-brand-700 dark:text-brand-300">{s.now} · </span>}
                   {m.time[lang]}
                 </span>
               </span>
@@ -102,7 +102,7 @@ export default function MealGuide({ compact = false, initial }) {
           </div>
         </div>
 
-        <h4 className="mt-4 mb-3 text-xs sm:mt-5 font-semibold tracking-wide text-slate-400 uppercase">{s.plates}</h4>
+        <h4 className="mt-4 mb-3 text-xs sm:mt-5 font-semibold tracking-wide text-slate-500 dark:text-slate-400 uppercase">{s.plates}</h4>
         <ul className="grid gap-3 sm:grid-cols-2">
           {meal.plates.map((p, i) => <PlateCard key={p.name.en} plate={p} hide={compact && i > 1} />)}
         </ul>

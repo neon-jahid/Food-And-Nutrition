@@ -23,10 +23,10 @@ export default function NotFound({ kind = "404" }) {
   const [title, body] = s[kind] || s["404"];
   return (
     <section className="mx-auto max-w-2xl px-4 py-20 text-center">
-      <span className="mx-auto grid h-16 w-16 place-items-center rounded-2xl bg-brand-50 text-brand-600 dark:bg-brand-500/15 dark:text-brand-300">
+      <span className="mx-auto grid h-16 w-16 place-items-center rounded-2xl bg-brand-50 text-brand-700 dark:bg-brand-500/15 dark:text-brand-300">
         <CircleAlert className="h-8 w-8" aria-hidden="true" />
       </span>
-      {kind === "404" && <p className="mt-6 text-sm font-bold tracking-widest text-brand-600 dark:text-brand-300">404</p>}
+      {kind === "404" && <p className="mt-6 text-sm font-bold tracking-widest text-brand-700 dark:text-brand-300">404</p>}
       <h1 className="mt-2 text-3xl font-extrabold text-slate-900 dark:text-white">{title}</h1>
       <p className="mt-3 text-slate-600 dark:text-slate-400">{body}</p>
       <div className="mt-8 flex flex-wrap justify-center gap-3">

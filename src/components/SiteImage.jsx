@@ -22,4 +22,3 @@ export default function SiteImage({ id, alt, className = "", sizes = "100vw", ea
   );
 }
 
-export const SITE_IMAGES = images;

@@ -56,7 +56,7 @@ function NutrientCard({ n, s }) {
 
       <div className="space-y-4 px-5 pb-5">
         <div>
-          <h3 className="mb-1.5 text-xs font-semibold tracking-wide text-slate-400 uppercase">{s.role}</h3>
+          <h3 className="mb-1.5 text-xs font-semibold tracking-wide text-slate-500 dark:text-slate-400 uppercase">{s.role}</h3>
           <ul className="space-y-1 text-sm text-slate-700 dark:text-slate-300">
             {n.role[lang].map(r => (
               <li key={r} className="flex gap-2"><span className={`mt-2 h-1.5 w-1.5 shrink-0 rounded-full ${c.solid}`} />{r}</li>
@@ -70,7 +70,7 @@ function NutrientCard({ n, s }) {
         </p>
 
         <div>
-          <h3 className="mb-2 text-xs font-semibold tracking-wide text-slate-400 uppercase">{s.sources}</h3>
+          <h3 className="mb-2 text-xs font-semibold tracking-wide text-slate-500 dark:text-slate-400 uppercase">{s.sources}</h3>
           <FoodChips ids={n.sources} size="sm" />
         </div>
 
@@ -80,7 +80,7 @@ function NutrientCard({ n, s }) {
             <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">{n.lacking[lang]}</p>
           </div>
           <div className="rounded-xl bg-slate-50 p-3 dark:bg-slate-800/50">
-            <p className="flex items-center gap-1.5 text-xs font-bold text-amber-600 dark:text-amber-400"><TriangleAlert className="h-3.5 w-3.5" aria-hidden="true" />{s.excess}</p>
+            <p className="flex items-center gap-1.5 text-xs font-bold text-amber-700 dark:text-amber-400"><TriangleAlert className="h-3.5 w-3.5" aria-hidden="true" />{s.excess}</p>
             <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">{n.excess[lang]}</p>
           </div>
         </div>
@@ -149,7 +149,7 @@ export default function NutrientsPage({ kind }) {
           )}
         </div>
         <Link to={s.other.to} className="card mt-10 flex items-center justify-between gap-3 p-5 font-bold text-slate-900 transition hover:border-brand-400 dark:text-white">
-          {s.other.label} <ArrowRight className="h-5 w-5 text-brand-600" aria-hidden="true" />
+          {s.other.label} <ArrowRight className="h-5 w-5 text-brand-700 dark:text-brand-400" aria-hidden="true" />
         </Link>
         <Disclaimer />
       </div>

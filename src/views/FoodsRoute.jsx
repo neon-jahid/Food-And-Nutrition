@@ -29,6 +29,6 @@ export default function FoodsRoute() {
   if (!slug) return <FoodsPage {...ctx} />;
   const { category, food } = resolveFoodSlug(slug);
   if (category) return <FoodsPage {...ctx} fixedCategory={category.id} />;
-  if (food) return <FoodPage {...ctx} />;
+  if (food) return <FoodPage key={food.id} {...ctx} />;
   return <NotFound kind="404" />;
 }

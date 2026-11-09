@@ -48,7 +48,7 @@ export function SectionHeader({ icon: Icon, title, sub, action }) {
   return (
     <div className="mb-4 flex flex-wrap items-end justify-between gap-x-3 gap-y-2 sm:mb-5">
       <div className="flex min-w-0 items-center gap-3">
-        <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl sm:h-10 sm:w-10 bg-brand-50 text-brand-600 dark:bg-brand-700/25 dark:text-brand-100">
+        <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl sm:h-10 sm:w-10 bg-brand-50 text-brand-700 dark:bg-brand-700/25 dark:text-brand-100">
           <Icon className="h-5 w-5" aria-hidden="true" />
         </span>
         <div>
@@ -102,7 +102,7 @@ export function HealthGoals({ onPick }) {
               onClick={() => onPick(id)}
               className="group flex items-center gap-2.5 rounded-2xl border border-slate-200 bg-white p-2.5 text-left sm:flex-col sm:items-start sm:gap-2 sm:p-4 transition hover:-translate-y-0.5 hover:border-brand-500 hover:shadow-md dark:border-slate-800 dark:bg-slate-900"
             >
-              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-brand-50 text-brand-600 transition group-hover:bg-brand-500 sm:h-10 sm:w-10 group-hover:text-white dark:bg-brand-700/25 dark:text-brand-100">
+              <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-brand-50 text-brand-700 transition group-hover:bg-brand-500 sm:h-10 sm:w-10 group-hover:text-white dark:bg-brand-700/25 dark:text-brand-100">
                 <Icon className="h-5 w-5" aria-hidden="true" />
               </span>
               <span className="min-w-0">
@@ -143,7 +143,7 @@ export function SeasonalNow() {
 }
 
 export function TopLists() {
-  const { lang, fmt, unit, name } = useLang();
+  const { lang, fmt, unit, name, num } = useLang();
   const s = T[lang];
   const pool = FOODS.filter(f => f.cat !== "spices" && f.cat !== "beverages");
   const lists = [
@@ -158,16 +158,16 @@ export function TopLists() {
           return (
             <div key={key} className="rounded-2xl border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900">
               <h3 className="mb-3 flex items-center gap-2 font-bold">
-                <Icon className="h-4 w-4 text-brand-600" aria-hidden="true" /> {s.top[key]}
+                <Icon className="h-4 w-4 text-brand-700 dark:text-brand-400" aria-hidden="true" /> {s.top[key]}
               </h3>
               <ol className="space-y-2">
                 {top.map((f, i) => (
                   <li key={f.id}>
                     <Link to={`/foods/${f.id}`} className="flex items-center gap-3 rounded-xl p-1 transition hover:bg-slate-50 dark:hover:bg-slate-800">
-                      <span className="w-4 text-center text-xs font-bold text-slate-400">{i + 1}</span>
+                      <span className="w-4 text-center text-xs font-bold text-slate-500 dark:text-slate-400">{num(i + 1)}</span>
                       <FoodImage food={f} className="h-10 w-10 shrink-0 rounded-lg" />
                       <span className="min-w-0 flex-1 truncate text-sm font-medium">{name(f)}</span>
-                      <span className="shrink-0 text-xs font-semibold text-brand-600 dark:text-brand-100">{fmt(f.n[key])} {unit(key)}</span>
+                      <span className="shrink-0 text-xs font-semibold text-brand-700 dark:text-brand-100">{fmt(f.n[key])} {unit(key)}</span>
                     </Link>
                   </li>
                 ))}

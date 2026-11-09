@@ -6,7 +6,6 @@ import { CATEGORIES, FOODS } from "../data/foods.js";
 import { useLang } from "../context/LangContext.jsx";
 import CategoryChips from "../components/CategoryChips.jsx";
 import FoodCard from "../components/FoodCard.jsx";
-import SearchBox from "../components/SearchBox.jsx";
 import Hero from "../components/Hero.jsx";
 import MealGuide from "../components/MealGuide.jsx";
 import CoffeeSpotlight from "../components/CoffeeSpotlight.jsx";
@@ -28,7 +27,7 @@ export default function HomePage() {
 
   // the full, filterable list lives on /foods — the homepage only previews it
   const browse = (patch = {}) => {
-    const qs = new URLSearchParams(Object.entries(patch).filter(([, v]) => v && v !== "all")).toString();
+    const qs = new URLSearchParams(Object.entries(patch).filter(([k, v]) => v && !(k === "cat" && v === "all"))).toString();
     navigate(qs ? `/foods?${qs}` : "/foods");
   };
 
@@ -50,7 +49,7 @@ export default function HomePage() {
             title={lang === "bn" ? "কখন কী খাবেন" : "What to eat, and when"}
             sub={lang === "bn" ? "সকালের নাস্তা থেকে রাতের খাবার — দিনের প্রতিটি সময়ের জন্য ভালো থালা" : "From breakfast to dinner — a good plate for every time of day"}
             action={
-              <Link to="/food-guide/meal-times" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:underline dark:text-brand-100">
+              <Link to="/food-guide/meal-times" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-100">
                 {lang === "bn" ? "পুরো গাইড" : "Full guide"} <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </Link>
             }
@@ -71,7 +70,7 @@ export default function HomePage() {
             title={lang === "bn" ? "সব খাবার" : "All foods"}
             sub={fill(t.heroText, { count: FOODS.length, cats: CATEGORIES.length })}
             action={
-              <Link to="/foods" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:underline dark:text-brand-100">
+              <Link to="/foods" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-100">
                 {lang === "bn" ? "সব দেখুন" : "View all"} <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </Link>
             }
@@ -110,7 +109,7 @@ export default function HomePage() {
             title={lang === "bn" ? "পুষ্টি সম্পর্কে জানুন" : "Learn about nutrition"}
             sub={lang === "bn" ? "ভিটামিন, খনিজ, ঔষধি গাছ, খাবার সংরক্ষণ ও আরও অনেক কিছু" : "Vitamins, minerals, medicinal plants, food storage and more"}
             action={
-              <Link to="/learn" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:underline dark:text-brand-100">
+              <Link to="/learn" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-100">
                 {lang === "bn" ? "সব গাইড" : "All guides"} <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </Link>
             }
@@ -124,7 +123,7 @@ export default function HomePage() {
             title={lang === "bn" ? "ব্লগ থেকে" : "From the blog"}
             sub={lang === "bn" ? "দেশি খাবারে সুস্থ থাকার সহজ লেখা" : "Practical reads on eating well, the desi way"}
             action={
-              <Link to="/blog" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 hover:underline dark:text-brand-100">
+              <Link to="/blog" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-100">
                 {lang === "bn" ? "সব লেখা" : "All articles"} <ArrowRight className="h-4 w-4" aria-hidden="true" />
               </Link>
             }

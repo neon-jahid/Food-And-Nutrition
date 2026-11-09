@@ -10,8 +10,9 @@ export { GOALS, RANGE_KEYS, parseRanges, stringifyRanges } from "./searchMeta.js
 /* Index                                                                */
 /* ------------------------------------------------------------------ */
 
-const norm = s => String(s).toLowerCase().normalize("NFC").replace(/[()\[\],.;:!?"'’—–-]/g, " ").replace(/\s+/g, " ").trim();
 const BN_TO_EN_DIGIT = s => s.replace(/[০-৯]/g, d => "০১২৩৪৫৬৭৮৯".indexOf(d));
+// digits are converted here so the query and the index always agree ("বি১২", "b12")
+const norm = s => BN_TO_EN_DIGIT(String(s).toLowerCase().normalize("NFC")).replace(/[()\[\],.;:!?"'’—–-]/g, " ").replace(/\s+/g, " ").trim();
 
 /** Extra Banglish / common names people type (names already in foods.js are searched anyway). */
 const ALIASES = {
@@ -67,6 +68,7 @@ const INDEX = FOODS.map(f => {
     names: norm(`${f.en} ${f.bn} ${f.id} ${ALIASES[f.id] || ""}`),
     nameEn: norm(f.en),
     nameBn: norm(f.bn),
+    alias: norm(ALIASES[f.id] || ""),
     cats: norm(`${cat.en} ${cat.bn} ${g ? `${g.en} ${g.bn}` : ""}`),
     texts: texts.map(x => ({ ...x, hay: norm(`${x.en} ${x.bn}`) })),
     warns: warns.map(x => ({ ...x, hay: norm(`${x.en} ${x.bn}`) })),
@@ -117,6 +119,13 @@ function nameMatch(entry, phrase, tokens) {
   return 0;
 }
 
+/** The query IS this food or category, not merely the start of a longer name ("আঁশ" vs "আঁশফল"). */
+function namesFood(entry, phrase) {
+  const whole = new RegExp(`(^|\\s)${escapeRe(phrase)}(\\s|$)`);
+  const first = new RegExp(`^${escapeRe(phrase)}(\\s|$)`);
+  return first.test(entry.nameEn) || first.test(entry.nameBn) || whole.test(entry.alias) || whole.test(entry.cats);
+}
+
 /** Match inside the benefit / health text: whole phrase first, else every word. */
 function textMatch(entry, phrase, tokens) {
   const m = matcher(phrase);
@@ -132,14 +141,14 @@ function textMatch(entry, phrase, tokens) {
  * @returns [{ food, score, snippet }]
  */
 export function searchFoods(f) {
-  const phrase = norm(BN_TO_EN_DIGIT(f.query || ""));
+  const phrase = norm(f.query || "");
   // single Latin letters ("d" in "vitamin d") are too short to match on their own
   const tokens = phrase ? phrase.split(" ").filter(w => w.length > 1 || !isLatin(w)) : [];
   const group = f.category && SUBGROUPS[f.category]?.find(g => g.id === f.sub);
   const out = [];
   // a query that names a food or category ("আম", "fish") shows only those;
   // otherwise it is treated as a nutrient / health search ("iron", "চুল পড়া")
-  const nameMode = !!phrase && INDEX.some(e => nameMatch(e, phrase, tokens) > 0);
+  const nameMode = !!phrase && INDEX.some(e => namesFood(e, phrase));
 
   for (const entry of INDEX) {
     const food = entry.food;
@@ -161,9 +170,12 @@ export function searchFoods(f) {
         score = nameMatch(entry, phrase, tokens);
         if (!score) continue;
       } else {
+        // a health word can also begin a food's name: show that food, ranked, among the rest
+        const named = nameMatch(entry, phrase, tokens);
         const r = textMatch(entry, phrase, tokens);
-        if (!r) continue;
-        ({ score, snippet } = r);
+        if (!named && !r) continue;
+        score = Math.max(named, r?.score || 0);
+        snippet = r?.snippet || null;
       }
     }
     if (!snippet && f.goals?.length) snippet = goalSnippet(entry, f.goals[0]) || null;

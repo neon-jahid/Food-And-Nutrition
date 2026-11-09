@@ -67,7 +67,7 @@ function DeficiencyItem({ d, open, onToggle }) {
               <List items={d.atRisk[lang]} dot="bg-amber-400" />
             </section>
             <section>
-              <h3 className="mb-2 flex items-center gap-1.5 font-bold text-slate-900 dark:text-white"><ShieldCheck className="h-4 w-4 text-brand-600" aria-hidden="true" />{s.prevent}</h3>
+              <h3 className="mb-2 flex items-center gap-1.5 font-bold text-slate-900 dark:text-white"><ShieldCheck className="h-4 w-4 text-brand-700 dark:text-brand-400" aria-hidden="true" />{s.prevent}</h3>
               <List items={d.prevent[lang]} dot="bg-brand-500" />
             </section>
             <section>

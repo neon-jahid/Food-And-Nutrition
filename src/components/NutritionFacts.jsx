@@ -48,13 +48,14 @@ export default function NutritionFacts({ food }) {
                 max="2000"
                 value={input}
                 onChange={e => onInput(e.target.value)}
+                onBlur={() => setInput(String(grams))}
                 className="w-20 rounded-lg border border-slate-200 bg-white px-2 py-1 text-sm outline-none focus:border-brand-500 dark:border-slate-700 dark:bg-slate-900"
               />
               <span className="text-sm text-slate-500">{t.grams}</span>
             </span>
           </div>
           <div className="mt-4 flex items-baseline gap-2">
-            <strong className="text-4xl font-extrabold text-brand-600 dark:text-brand-100">{fmt(food.n.calories * factor)}</strong>
+            <strong className="text-4xl font-extrabold text-brand-700 dark:text-brand-100">{fmt(food.n.calories * factor)}</strong>
             <span className="text-slate-500">{t.kcal} / {num(grams)} {t.grams}</span>
           </div>
           <h4 className="mt-5 mb-2 text-xs font-bold tracking-wider text-slate-500 uppercase dark:text-slate-400">{t.macroSplit}</h4>

@@ -4,8 +4,6 @@
  */
 
 const W = [11, 12, 1, 2];          // winter (sheet)
-const S = [4, 5, 6, 7];            // summer / early monsoon (grishmo–borsha)
-const R = [7, 8, 9, 10];           // monsoon / autumn (borsha–shorot)
 
 export const SEASON_MONTHS = {
   // winter vegetables & fruits

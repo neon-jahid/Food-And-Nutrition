@@ -28,6 +28,30 @@ export function useScrollLock(locked) {
   }, [locked]);
 }
 
+/** Keyboard behaviour of a modal: move focus in, keep Tab inside, give focus back on close. */
+export function useDialogFocus(ref, open = true) {
+  useEffect(() => {
+    if (!open || !ref.current) return;
+    const opener = document.activeElement;
+    const el = ref.current;
+    const focusable = () => [...el.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]), select, textarea, [tabindex]:not([tabindex="-1"])')];
+    (focusable()[0] || el).focus({ preventScroll: true });
+    const onKey = e => {
+      if (e.key !== "Tab") return;
+      const items = focusable();
+      if (!items.length) { e.preventDefault(); return; }
+      const first = items[0], last = items[items.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    };
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      opener?.focus?.({ preventScroll: true });
+    };
+  }, [ref, open]);
+}
+
 const noopSubscribe = () => () => {};
 
 /**
@@ -64,6 +88,7 @@ export function usePersistentState(key, fallback, sanitize = v => v) {
 
 let searchModule = null;
 let searchPromise = null;
+let searchRetries = 0;
 const searchListeners = new Set();
 
 /** Start downloading the search index (≈150 kB gz). Safe to call many times. */
@@ -73,6 +98,10 @@ export function loadSearch() {
       searchModule = m;
       searchListeners.forEach(fn => fn());
       return m;
+    }).catch(() => {
+      // a dropped connection must not leave search broken until the page is reloaded
+      searchPromise = null;
+      if (++searchRetries <= 3) setTimeout(loadSearch, 3000);
     });
   }
   return searchPromise;

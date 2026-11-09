@@ -49,7 +49,7 @@ export function BenefitPreview({ id, limit = 2 }) {
     <ul className="space-y-1.5 text-sm text-slate-600 dark:text-slate-400">
       {points.map((p, i) => (
         <li key={i} className="flex gap-2">
-          <Check className="mt-0.5 h-4 w-4 shrink-0 text-brand-600 dark:text-brand-100" strokeWidth={3} aria-hidden="true" />
+          <Check className="mt-0.5 h-4 w-4 shrink-0 text-brand-700 dark:text-brand-100" strokeWidth={3} aria-hidden="true" />
           <span className="line-clamp-2">{p[lang]}</span>
         </li>
       ))}

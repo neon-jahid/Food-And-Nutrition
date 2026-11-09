@@ -26,7 +26,7 @@ function Block({ b }) {
   if (b.tip)
     return (
       <aside className="my-6 flex gap-3 rounded-2xl border-l-4 border-brand-500 bg-brand-50/80 p-4 dark:bg-brand-500/10">
-        <Lightbulb className="mt-1 h-5 w-5 shrink-0 text-brand-600 dark:text-brand-300" aria-hidden="true" />
+        <Lightbulb className="mt-1 h-5 w-5 shrink-0 text-brand-700 dark:text-brand-300" aria-hidden="true" />
         <p className="font-medium text-slate-800 dark:text-slate-100">{b.tip}</p>
       </aside>
     );
@@ -79,7 +79,7 @@ export default function BlogPostPage() {
         {post.foods?.length > 0 && (
           <section className="card mt-10 p-5">
             <h2 className="mb-3 flex items-center gap-2 font-bold text-slate-900 dark:text-white">
-              <Utensils className="h-4 w-4 text-brand-600" aria-hidden="true" /> {s.foods}
+              <Utensils className="h-4 w-4 text-brand-700 dark:text-brand-400" aria-hidden="true" /> {s.foods}
             </h2>
             <FoodChips ids={post.foods} />
           </section>

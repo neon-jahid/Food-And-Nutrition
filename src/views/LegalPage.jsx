@@ -19,7 +19,7 @@ function Block({ b }) {
   if (b.tip)
     return (
       <aside className="my-6 flex gap-3 rounded-2xl border-l-4 border-amber-400 bg-amber-50/80 p-4 dark:bg-amber-500/10">
-        <Info className="mt-0.5 h-5 w-5 shrink-0 text-amber-600 dark:text-amber-300" aria-hidden="true" />
+        <Info className="mt-0.5 h-5 w-5 shrink-0 text-amber-700 dark:text-amber-300" aria-hidden="true" />
         <p className="font-medium text-slate-800 dark:text-slate-100">{b.tip}</p>
       </aside>
     );

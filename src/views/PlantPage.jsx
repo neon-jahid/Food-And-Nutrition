@@ -4,7 +4,6 @@ import { plantPhoto } from "../plantPhoto.js";
 import { Link } from "../router.jsx";
 import { ArrowLeft, ArrowRight, ArrowUpRight, ChevronRight, HandHeart, Leaf, ListChecks, ShieldAlert, Sprout, Tag } from "lucide-react";
 import { PLANTS, PLANT_TAGS } from "../data/plants.js";
-import plantImages from "../data/plantImages.json";
 import { useLang } from "../context/LangContext.jsx";
 import { tone } from "../tones.js";
 import PlantImage from "../components/PlantImage.jsx";
@@ -65,7 +64,7 @@ export default function PlantPage({ slug }) {
       <section className="relative overflow-hidden border-b border-slate-200/70 dark:border-slate-800">
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-brand-50/90 via-white/60 to-accent-500/5 dark:from-brand-500/10 dark:via-slate-950/40 dark:to-accent-500/5" aria-hidden="true" />
         <div className="relative mx-auto max-w-6xl px-4 py-8 sm:py-12">
-          <nav aria-label="Breadcrumb" className="mb-5 flex flex-wrap items-center gap-1 text-sm text-slate-500 dark:text-slate-400">
+          <nav aria-label={lang === "bn" ? "পথনির্দেশ" : "Breadcrumb"} className="mb-5 flex flex-wrap items-center gap-1 text-sm text-slate-500 dark:text-slate-400">
             <Link to="/learn" className="hover:text-brand-600 dark:hover:text-brand-300">{s.learn}</Link>
             <ChevronRight className="h-3.5 w-3.5" aria-hidden="true" />
             <Link to="/plants" className="hover:text-brand-600 dark:hover:text-brand-300">{s.plants}</Link>
@@ -99,7 +98,7 @@ export default function PlantPage({ slug }) {
               </p>
 
               <div className="mt-4 flex flex-wrap items-center gap-2">
-                <Tag className="h-4 w-4 text-slate-400" aria-hidden="true" />
+                <Tag className="h-4 w-4 text-slate-500 dark:text-slate-400" aria-hidden="true" />
                 {p.tags.map(t => TAG_BY_ID[t] && (
                   <Link key={t} to={`/plants?tag=${t}`} className="rounded-full border border-slate-200 bg-white/80 px-3 py-1 text-xs font-semibold text-slate-600 transition hover:border-brand-400 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900/70 dark:text-slate-300 dark:hover:text-brand-300">
                     {TAG_BY_ID[t][lang]}
@@ -122,12 +121,12 @@ export default function PlantPage({ slug }) {
           <section className="card overflow-hidden">
             <div className={`h-1.5 bg-gradient-to-r ${c.bar}`} />
             <div className="p-5 sm:p-6">
-              <h2 className="mb-4 flex items-center gap-2 text-xl font-extrabold text-slate-900 dark:text-white"><HandHeart className="h-5 w-5 text-brand-600 dark:text-brand-300" aria-hidden="true" />{s.uses}</h2>
+              <h2 className="mb-4 flex items-center gap-2 text-xl font-extrabold text-slate-900 dark:text-white"><HandHeart className="h-5 w-5 text-brand-700 dark:text-brand-300" aria-hidden="true" />{s.uses}</h2>
               <List items={p.uses[lang]} dot={`bg-gradient-to-br ${c.bar}`} />
             </div>
           </section>
           <section className="card p-5 sm:p-6">
-            <h2 className="mb-4 flex items-center gap-2 text-xl font-extrabold text-slate-900 dark:text-white"><ListChecks className="h-5 w-5 text-brand-600 dark:text-brand-300" aria-hidden="true" />{s.how}</h2>
+            <h2 className="mb-4 flex items-center gap-2 text-xl font-extrabold text-slate-900 dark:text-white"><ListChecks className="h-5 w-5 text-brand-700 dark:text-brand-300" aria-hidden="true" />{s.how}</h2>
             <List items={p.howToUse[lang]} dot="bg-brand-500" />
           </section>
         </div>
@@ -161,7 +160,7 @@ export default function PlantPage({ slug }) {
 
         <nav className="mt-10 grid gap-3 sm:grid-cols-2" aria-label={s.plants}>
           <Link to={`/plants/${prev.id}`} className="card flex items-center gap-3 p-4 transition hover:border-brand-400">
-            <ArrowLeft className="h-5 w-5 shrink-0 text-brand-600" aria-hidden="true" />
+            <ArrowLeft className="h-5 w-5 shrink-0 text-brand-700 dark:text-brand-400" aria-hidden="true" />
             <PlantImage plant={prev} alt="" className="h-12 w-12 shrink-0 rounded-xl" />
             <span className="min-w-0">
               <span className="block text-xs text-slate-500 dark:text-slate-400">{s.prev}</span>
@@ -174,7 +173,7 @@ export default function PlantPage({ slug }) {
               <span className="block truncate font-bold text-slate-900 dark:text-white">{next.name[lang]}</span>
             </span>
             <PlantImage plant={next} alt="" className="h-12 w-12 shrink-0 rounded-xl" />
-            <ArrowRight className="h-5 w-5 shrink-0 text-brand-600" aria-hidden="true" />
+            <ArrowRight className="h-5 w-5 shrink-0 text-brand-700 dark:text-brand-400" aria-hidden="true" />
           </Link>
         </nav>
 

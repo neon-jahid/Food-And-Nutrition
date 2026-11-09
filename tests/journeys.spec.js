@@ -23,6 +23,72 @@ test("Enter in search shows filtered results on /foods", async ({ page }) => {
   await expect(page.locator("main article").first()).toBeVisible();
 });
 
+test("Bangla digits find foods in search", async ({ page }) => {
+  await page.goto("/bn/foods?q=" + encodeURIComponent("বি১২"));
+  await hydrated(page);
+  await expect(page.locator("main article").first()).toBeVisible();
+});
+
+test("a health word that starts a food name still searches health text", async ({ page }) => {
+  await page.goto("/bn/foods?q=" + encodeURIComponent("আঁশ"));
+  await hydrated(page);
+  await expect.poll(() => page.locator("main article").count()).toBeGreaterThan(5);
+});
+
+test("the word 'all' can be typed in the food search", async ({ page }) => {
+  await page.goto("/en/foods");
+  await hydrated(page);
+  const box = page.getByRole("combobox").first();
+  await box.pressSequentially("all");
+  await expect(box).toHaveValue("all");
+  await expect(page).toHaveURL(/q=all/);
+});
+
+test("editing the middle of a search keeps the caret in place", async ({ page }) => {
+  await page.goto("/en/foods");
+  await hydrated(page);
+  const box = page.getByRole("combobox").first();
+  await box.fill("mngo");
+  await box.evaluate(el => el.setSelectionRange(1, 1));
+  await box.press("a");
+  await expect(box).toHaveValue("mango");
+  expect(await box.evaluate(el => el.selectionStart)).toBe(2);
+});
+
+test("hostile query strings don't crash the foods page", async ({ page }) => {
+  const w = watchErrors(page);
+  await page.goto("/en/foods?goals=constructor&sort=__proto__");
+  await hydrated(page);
+  await expect(page.locator("main article").first()).toBeVisible();
+  w.assertClean();
+});
+
+test("BMI calculator is for adults and hides unsafe weight-loss targets", async ({ page }) => {
+  await page.goto("/en/tools");
+  await hydrated(page);
+  const age = page.getByLabel("Age", { exact: false }).first();
+  await age.fill("12");
+  await expect(page.getByText("for adults (18 and over)")).toBeVisible();
+  await age.fill("70");
+  await page.getByRole("button", { name: "Female" }).click();
+  await page.getByLabel("Weight", { exact: false }).first().fill("45");
+  await page.getByLabel("Height", { exact: false }).first().fill("150");
+  await expect(page.getByText(/to lose/i)).toHaveCount(0);
+});
+
+test("compare dialog takes focus and gives it back", async ({ page }) => {
+  await page.goto("/en/foods/brownrice");
+  await hydrated(page);
+  await page.getByRole("button", { name: /add to compare/i }).first().click();
+  const opener = page.getByRole("button", { name: "Compare" });
+  await opener.click();
+  await expect(page.getByRole("dialog")).toBeVisible();
+  expect(await page.evaluate(() => !!document.activeElement.closest('[role="dialog"]'))).toBe(true);
+  await page.keyboard.press("Escape");
+  await expect(page.getByRole("dialog")).toHaveCount(0);
+  await expect(opener).toBeFocused();
+});
+
 test("language switch keeps the same page", async ({ page }) => {
   await page.goto("/en/nutrition/minerals");
   await hydrated(page);
@@ -64,10 +130,10 @@ test("theme choice survives a reload without flashing", async ({ page }) => {
 
 test.describe("old URLs redirect", () => {
   for (const [from, to] of [
-    ["/food/mango", "/en/foods/mango"],
-    ["/storage", "/en/food-guide/food-storage"],
+    ["/food/mango", "/bn/foods/mango"],
+    ["/storage", "/bn/food-guide/food-storage"],
     ["/myths?lang=bn", "/bn/food-myths"],
-    ["/blog/how-to-build-a-balanced-bangladeshi-plate", "/en/blog/how-to-build-a-balanced-bangladeshi-plate"],
+    ["/blog/how-to-build-a-balanced-bangladeshi-plate", "/bn/blog/how-to-build-a-balanced-bangladeshi-plate"],
   ]) {
     test(`${from} → ${to}`, async ({ page }) => {
       await page.goto(from);

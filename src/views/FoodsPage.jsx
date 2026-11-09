@@ -30,6 +30,8 @@ const saveShown = (key, n) => {
 };
 
 const NO_PARAMS = new URLSearchParams();
+// "all" means "no filter" for category controls only; it is an ordinary word in the search box
+const hasValue = (k, v) => v && !(v === "all" && (k === "cat" || k === "sub"));
 
 export default function FoodsPage({ compare, onToggleCompare, fixedCategory }) {
   const { t, lang, fill, name, num } = useLang();
@@ -44,7 +46,7 @@ export default function FoodsPage({ compare, onToggleCompare, fixedCategory }) {
   const sort = params.get("sort") || (query ? "relevance" : "name");
   const groups = SUBGROUPS[category] || [];
   const subId = groups.some(g => g.id === params.get("sub")) ? params.get("sub") : "all";
-  const goals = (params.get("goals") || "").split(",").filter(g => GOALS[g]);
+  const goals = (params.get("goals") || "").split(",").filter(g => Object.hasOwn(GOALS, g));
   const ranges = parseRanges(params.get("range"));
   const hideUnhealthy = params.get("healthy") === "1";
   const [advOpen, setAdvOpen] = useState(false);
@@ -63,13 +65,13 @@ export default function FoodsPage({ compare, onToggleCompare, fixedCategory }) {
     if ("cat" in patch) {
       next.delete("cat");
       next.delete("sub");
-      Object.entries(patch).forEach(([k, v]) => k !== "cat" && (v && v !== "all" ? next.set(k, v) : next.delete(k)));
+      Object.entries(patch).forEach(([k, v]) => k !== "cat" && (hasValue(k, v) ? next.set(k, v) : next.delete(k)));
       const qs = next.toString();
       const path = patch.cat && patch.cat !== "all" ? `/foods/${CATEGORY_SLUGS[patch.cat]}` : "/foods";
       navigate(qs ? `${path}?${qs}` : path, { preventScrollReset: true });
       return;
     }
-    Object.entries(patch).forEach(([k, v]) => (v && v !== "all" ? next.set(k, v) : next.delete(k)));
+    Object.entries(patch).forEach(([k, v]) => (hasValue(k, v) ? next.set(k, v) : next.delete(k)));
     setParams(next, { replace: true, preventScrollReset: true });
   };
 
@@ -89,7 +91,7 @@ export default function FoodsPage({ compare, onToggleCompare, fixedCategory }) {
       vitC: desc("vitC"),
       iron: desc("iron"),
     };
-    return list.sort(sorters[sort] || sorters.name);
+    return list.sort(Object.hasOwn(sorters, sort) ? sorters[sort] : sorters.name);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query, category, subId, params, sort, lang, name]);
 
@@ -226,10 +228,10 @@ export default function FoodsPage({ compare, onToggleCompare, fixedCategory }) {
           </>
         ) : (
           <div className="py-16 text-center text-slate-500">
-            <SearchX className="mx-auto mb-3 h-10 w-10 text-slate-400" aria-hidden="true" />
+            <SearchX className="mx-auto mb-3 h-10 w-10 text-slate-500 dark:text-slate-400" aria-hidden="true" />
             <p>{t.noResults}</p>
             {activeCount > 0 && (
-              <button type="button" onClick={() => update({ goals: "", range: "", healthy: "" })} className="mt-3 inline-flex items-center gap-1 font-semibold text-brand-600 hover:underline">
+              <button type="button" onClick={() => update({ goals: "", range: "", healthy: "" })} className="mt-3 inline-flex items-center gap-1 font-semibold text-brand-700 dark:text-brand-400 hover:underline">
                 <X className="h-4 w-4" aria-hidden="true" /> {t.resetFilters}
               </button>
             )}

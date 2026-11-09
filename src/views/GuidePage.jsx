@@ -64,7 +64,7 @@ export default function GuidePage() {
               <li key={p.key} className="rounded-2xl border border-slate-200 p-4 dark:border-slate-700">
                 <p className="flex items-center gap-2 font-bold">
                   <span className="h-3 w-3 rounded-full" style={{ background: p.color }} />
-                  {p[lang][0]} <span className="ml-auto text-sm text-slate-400">~{num(p.pct)}%</span>
+                  {p[lang][0]} <span className="ml-auto text-sm text-slate-500 dark:text-slate-400">~{num(p.pct)}%</span>
                 </p>
                 <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">{p[lang][1]}</p>
                 <div className="mt-3 flex gap-2">
@@ -90,7 +90,7 @@ export default function GuidePage() {
             const Icon = HABIT_ICONS[h.icon] || Sparkles;
             return (
               <li key={h.icon} className="flex items-center gap-3 rounded-2xl bg-slate-50 p-4 dark:bg-slate-800/60">
-                <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-white text-brand-600 shadow-sm dark:bg-slate-900 dark:text-brand-100">
+                <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-white text-brand-700 shadow-sm dark:bg-slate-900 dark:text-brand-100">
                   <Icon className="h-5 w-5" aria-hidden="true" />
                 </span>
                 <span className="font-medium">{h[lang]}</span>
@@ -107,11 +107,11 @@ export default function GuidePage() {
             <article key={i} className="overflow-hidden rounded-2xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900">
               <p className="flex gap-2 bg-red-50 px-4 py-3 font-semibold text-red-800 dark:bg-red-500/10 dark:text-red-300">
                 <CircleX className="mt-0.5 h-5 w-5 shrink-0" aria-hidden="true" />
-                <span><span className="text-xs tracking-wide uppercase opacity-70">{s.myth}: </span>{m.myth[lang]}</span>
+                <span><span className="text-xs tracking-wide uppercase opacity-80">{s.myth}: </span>{m.myth[lang]}</span>
               </p>
               <p className="flex gap-2 px-4 py-3 text-slate-700 dark:text-slate-300">
-                <CircleCheck className="mt-0.5 h-5 w-5 shrink-0 text-brand-600" aria-hidden="true" />
-                <span><span className="text-xs font-semibold tracking-wide text-brand-600 uppercase">{s.fact}: </span>{m.fact[lang]}</span>
+                <CircleCheck className="mt-0.5 h-5 w-5 shrink-0 text-brand-700 dark:text-brand-400" aria-hidden="true" />
+                <span><span className="text-xs font-semibold tracking-wide text-brand-700 dark:text-brand-400 uppercase">{s.fact}: </span>{m.fact[lang]}</span>
               </p>
             </article>
           ))}

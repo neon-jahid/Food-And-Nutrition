@@ -83,20 +83,20 @@ function TopicCard({ t: topic, s }) {
         </div>
 
         <div className="mt-4 flex flex-wrap items-center gap-1.5">
-          <span className="mr-1 text-xs font-semibold tracking-wide text-slate-400 uppercase">{s.nutrients}:</span>
+          <span className="mr-1 text-xs font-semibold tracking-wide text-slate-500 dark:text-slate-400 uppercase">{s.nutrients}:</span>
           {topic.nutrients[lang].map(n => (
             <span key={n} className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${c.soft}`}>{n}</span>
           ))}
         </div>
 
         <div className="mt-5">
-          <h4 className="mb-2 flex items-center gap-1.5 text-sm font-bold text-slate-900 dark:text-white"><Utensils className="h-4 w-4 text-brand-600 dark:text-brand-300" aria-hidden="true" />{s.best}</h4>
+          <h4 className="mb-2 flex items-center gap-1.5 text-sm font-bold text-slate-900 dark:text-white"><Utensils className="h-4 w-4 text-brand-700 dark:text-brand-300" aria-hidden="true" />{s.best}</h4>
           <FoodChips ids={topic.eat} />
         </div>
 
         <div className="mt-5 grid gap-5 md:grid-cols-3">
           <section>
-            <h4 className="mb-2 flex items-center gap-1.5 text-sm font-bold text-slate-900 dark:text-white"><CircleCheck className="h-4 w-4 text-brand-600 dark:text-brand-300" aria-hidden="true" />{s.why}</h4>
+            <h4 className="mb-2 flex items-center gap-1.5 text-sm font-bold text-slate-900 dark:text-white"><CircleCheck className="h-4 w-4 text-brand-700 dark:text-brand-300" aria-hidden="true" />{s.why}</h4>
             <Bullets items={topic.eatWhy[lang]} />
           </section>
           <section>
@@ -176,7 +176,7 @@ function PeriodGuide({ s }) {
               <CircleX className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" /><span><span className="opacity-70">{p.myth}: </span>{m.myth[lang]}</span>
             </p>
             <p className="flex gap-2 px-4 py-3 text-sm text-slate-700 dark:text-slate-300">
-              <CircleCheck className="mt-0.5 h-4 w-4 shrink-0 text-brand-600" aria-hidden="true" /><span><span className="font-semibold text-brand-700 dark:text-brand-300">{p.fact}: </span>{m.fact[lang]}</span>
+              <CircleCheck className="mt-0.5 h-4 w-4 shrink-0 text-brand-700 dark:text-brand-400" aria-hidden="true" /><span><span className="font-semibold text-brand-700 dark:text-brand-300">{p.fact}: </span>{m.fact[lang]}</span>
             </p>
           </article>
         ))}
@@ -288,7 +288,7 @@ export default function GenderHealthPage({ who }) {
               <span className="block font-bold text-slate-900 dark:text-white">{s.other}</span>
             </span>
           </span>
-          <ArrowRight className="h-5 w-5 text-brand-600" aria-hidden="true" />
+          <ArrowRight className="h-5 w-5 text-brand-700 dark:text-brand-400" aria-hidden="true" />
         </Link>
 
         <Disclaimer />

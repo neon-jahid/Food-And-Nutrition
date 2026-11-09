@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { imageHd, imageSrc } from "../data/imagePaths.js";
+import { useLang } from "../context/LangContext.jsx";
 
 /**
  * Real photo of a food (all photos are stored locally in /public/images/foods).
@@ -14,6 +15,7 @@ import { imageHd, imageSrc } from "../data/imagePaths.js";
 export default function FoodImage({
   food, className = "", imgClassName = "", fit = "cover", eager = false, hd = false, sizes = "100vw",
 }) {
+  const { lang } = useLang();
   const [loaded, setLoaded] = useState(false);
   const [failed, setFailed] = useState(false);
   const ref = useRef(null);
@@ -32,7 +34,7 @@ export default function FoodImage({
     src,
     srcSet: hd && hdSrc ? `${src} 720w, ${hdSrc} 1600w` : undefined,
     sizes: hd && hdSrc ? sizes : undefined,
-    alt: food.en,
+    alt: food[lang],
     loading: eager ? "eager" : "lazy",
     fetchPriority: eager ? "high" : undefined,
     decoding: "async",

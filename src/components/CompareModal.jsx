@@ -10,8 +10,8 @@ export default function CompareModal({ ids, max, onRemove, onClear, onClose }) {
   const foods = ids.map(id => FOODS.find(f => f.id === id)).filter(Boolean);
 
   return (
-    <Modal onClose={onClose} closeLabel={t.close} wide>
-      <h2 className="flex items-center gap-2 pr-10 text-2xl font-extrabold"><Scale className="h-6 w-6 text-brand-600" aria-hidden="true" /> {t.compareTitle}</h2>
+    <Modal onClose={onClose} closeLabel={t.close} label={t.compareTitle} wide>
+      <h2 className="flex items-center gap-2 pr-10 text-2xl font-extrabold"><Scale className="h-6 w-6 text-brand-700 dark:text-brand-400" aria-hidden="true" /> {t.compareTitle}</h2>
 
       {!foods.length ? (
         <p className="py-12 text-center text-slate-500">{t.compareEmpty}</p>
@@ -42,7 +42,7 @@ export default function CompareModal({ ids, max, onRemove, onClear, onClose }) {
                       {foods.map(f => {
                         const best = foods.length > 1 && maxVal > 0 && f.n[k] === maxVal;
                         return (
-                          <td key={f.id} className={`px-2 py-2 whitespace-nowrap ${best ? "font-bold text-brand-600 dark:text-brand-100" : ""}`}>
+                          <td key={f.id} className={`px-2 py-2 whitespace-nowrap ${best ? "font-bold text-brand-700 dark:text-brand-100" : ""}`}>
                             {fmt(f.n[k])} {unit(k)} {best && "▲"}
                           </td>
                         );

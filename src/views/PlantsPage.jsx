@@ -52,7 +52,7 @@ function PlantCard({ p }) {
         </p>
 
         <h3 className="mt-4 flex items-center gap-1.5 text-sm font-bold text-slate-900 dark:text-white">
-          <HandHeart className="h-4 w-4 text-brand-600 dark:text-brand-300" aria-hidden="true" /> {s.uses}
+          <HandHeart className="h-4 w-4 text-brand-700 dark:text-brand-300" aria-hidden="true" /> {s.uses}
         </h3>
         <ul className="mt-2 space-y-1.5 text-sm text-slate-600 dark:text-slate-300">
           {p.uses[lang].slice(0, 3).map(u => (

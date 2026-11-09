@@ -1,8 +1,11 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 import { X } from "lucide-react";
+import { useDialogFocus } from "../hooks.js";
 
-export default function Modal({ onClose, closeLabel, wide = false, children }) {
+export default function Modal({ onClose, closeLabel, label, wide = false, children }) {
+  const dialogRef = useRef(null);
+  useDialogFocus(dialogRef);
   useEffect(() => {
     const onKey = e => e.key === "Escape" && onClose();
     document.addEventListener("keydown", onKey);
@@ -20,8 +23,10 @@ export default function Modal({ onClose, closeLabel, wide = false, children }) {
       onMouseDown={e => e.target === e.currentTarget && onClose()}
     >
       <div
+        ref={dialogRef}
         role="dialog"
         aria-modal="true"
+        aria-label={label}
         className={`relative max-h-[92vh] w-full animate-pop overflow-y-auto rounded-t-3xl bg-white p-5 shadow-2xl sm:rounded-3xl sm:p-7 dark:bg-slate-900 ${
           wide ? "sm:max-w-3xl" : "sm:max-w-xl"
         }`}

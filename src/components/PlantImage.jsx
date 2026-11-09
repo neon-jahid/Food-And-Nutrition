@@ -33,4 +33,3 @@ export default function PlantImage({ plant, alt, className = "", eager = false }
   );
 }
 
-export const PLANT_IMAGES = plantImages;

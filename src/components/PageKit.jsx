@@ -9,13 +9,13 @@ export const foodById = id => FOOD_BY_ID[id];
 
 /** Gradient page header with breadcrumb, icon, title and optional stats / children. */
 export function PageHero({ icon: Icon, eyebrow, title, sub, children }) {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   return (
     <section className="relative overflow-hidden border-b border-slate-200/70 dark:border-slate-800">
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-brand-50/90 via-white/60 to-accent-500/5 dark:from-brand-500/10 dark:via-slate-950/40 dark:to-accent-500/5" aria-hidden="true" />
       <div className="pointer-events-none absolute -top-24 -right-20 h-72 w-72 rounded-full bg-brand-400/20 blur-3xl dark:bg-brand-500/15" aria-hidden="true" />
       <div className="relative mx-auto max-w-6xl px-4 py-10 sm:py-14">
-        <nav aria-label="Breadcrumb" className="mb-4 flex items-center gap-1 text-sm text-slate-500 dark:text-slate-400">
+        <nav aria-label={lang === "bn" ? "পথনির্দেশ" : "Breadcrumb"} className="mb-4 flex items-center gap-1 text-sm text-slate-500 dark:text-slate-400">
           <Link to="/" className="hover:text-brand-600 dark:hover:text-brand-300">{t.home}</Link>
           <ChevronRight className="h-3.5 w-3.5" aria-hidden="true" />
           {eyebrow && (
@@ -64,7 +64,7 @@ export function FilterChips({ options, value, onChange, label }) {
             }`}
           >
             {o.label}
-            {o.count != null && <span className={`text-xs ${on ? "opacity-70" : "text-slate-400"}`}>{num(o.count)}</span>}
+            {o.count != null && <span className={`text-xs ${on ? "opacity-70" : "text-slate-500 dark:text-slate-400"}`}>{num(o.count)}</span>}
           </button>
         );
       })}
@@ -73,10 +73,11 @@ export function FilterChips({ options, value, onChange, label }) {
 }
 
 export function SearchInput({ value, onChange, placeholder }) {
+  const { t } = useLang();
   return (
     <label className="relative block w-full max-w-md">
       <span className="sr-only">{placeholder}</span>
-      <Search className="pointer-events-none absolute top-1/2 left-4 h-4 w-4 -translate-y-1/2 text-slate-400" aria-hidden="true" />
+      <Search className="pointer-events-none absolute top-1/2 left-4 h-4 w-4 -translate-y-1/2 text-slate-500 dark:text-slate-400" aria-hidden="true" />
       <input
         type="search"
         value={value}
@@ -85,7 +86,7 @@ export function SearchInput({ value, onChange, placeholder }) {
         className="h-12 w-full rounded-2xl border border-slate-200 bg-white/90 pr-10 pl-11 text-sm shadow-sm outline-none transition placeholder:text-slate-400 focus:border-brand-500 focus:ring-4 focus:ring-brand-500/15 dark:border-slate-700 dark:bg-slate-900/80 [&::-webkit-search-cancel-button]:hidden"
       />
       {value && (
-        <button type="button" onClick={() => onChange("")} className="absolute top-1/2 right-2 grid h-8 w-8 -translate-y-1/2 place-items-center rounded-lg text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800" aria-label="Clear">
+        <button type="button" onClick={() => onChange("")} className="absolute top-1/2 right-2 grid h-8 w-8 -translate-y-1/2 place-items-center rounded-lg text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800" aria-label={t.clear}>
           <X className="h-4 w-4" aria-hidden="true" />
         </button>
       )}
@@ -156,7 +157,8 @@ export function EmptyState({ children }) {
 
 /** Case-insensitive match of a query against any of the given strings. */
 export const matches = (q, ...parts) => {
-  const s = q.trim().toLowerCase();
+  // NFC: Bangla letters such as য় can be typed in two different byte forms
+  const s = q.trim().toLowerCase().normalize("NFC");
   if (!s) return true;
-  return parts.flat().filter(Boolean).some(p => String(p).toLowerCase().includes(s));
+  return parts.flat().filter(Boolean).some(p => String(p).toLowerCase().normalize("NFC").includes(s));
 };

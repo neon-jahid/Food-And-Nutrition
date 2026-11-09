@@ -8,7 +8,6 @@
  */
 // next.config.mjs reads the VITE_* settings above and passes them on as NEXT_PUBLIC_*
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://food-and-nutrition.example").replace(/\/$/, "");
-export const SITE_URL_CONFIGURED = Boolean(process.env.NEXT_PUBLIC_SITE_URL);
 export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "";
 export const GOOGLE_SITE_VERIFICATION = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "";
 /** Google Tag Manager container; the Google Analytics setup itself lives in that container. */

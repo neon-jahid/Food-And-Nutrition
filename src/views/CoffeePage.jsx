@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "../router.jsx";
 import {
   Activity, ArrowRight, Bean, BookOpen, Brain, ChevronRight, CircleCheck, CircleX, Clock, Coffee, Droplets, Dumbbell, Filter,
@@ -242,7 +242,7 @@ function Hero({ s }) {
 
       <div className="mx-auto grid max-w-6xl items-center gap-8 px-4 pt-8 pb-14 sm:pt-12 lg:grid-cols-[1.15fr_0.85fr] lg:pb-20">
         <div>
-          <nav aria-label="Breadcrumb" className="mb-6 flex items-center gap-1 text-sm text-roast-200/70">
+          <nav aria-label={lang === "bn" ? "পথনির্দেশ" : "Breadcrumb"} className="mb-6 flex items-center gap-1 text-sm text-roast-200/70">
             <Link to="/" className="hover:text-roast-100">{t.home}</Link>
             <ChevronRight className="h-3.5 w-3.5" aria-hidden="true" />
             <span className="text-roast-100" aria-current="page">{s.crumb}</span>
@@ -367,7 +367,7 @@ function Origin({ s }) {
         {SPECIES.map((sp, i) => (
           <article key={sp.id} data-reveal className={`group relative overflow-hidden rounded-3xl border p-6 ${LIFT} ${i ? "border-roast-800 bg-roast-900 text-roast-50 hover:border-roast-500" : "border-roast-200 bg-white text-roast-900 hover:border-roast-400 dark:border-roast-800 dark:bg-roast-950 dark:text-roast-50"}`}>
             <BeanShape className={`pointer-events-none absolute -top-6 -right-4 h-32 w-24 rotate-12 transition duration-700 group-hover:rotate-45 group-hover:scale-110 ${i ? "text-roast-800" : "text-roast-100 dark:text-roast-900"}`} />
-            <p className="relative text-xs font-bold tracking-widest uppercase opacity-70">{sp.share[lang]}</p>
+            <p className="relative text-xs font-bold tracking-widest uppercase opacity-80">{sp.share[lang]}</p>
             <h4 className="relative mt-1 font-serif text-3xl font-black">{sp.name[lang]}</h4>
             <p className="relative text-sm italic opacity-70">{sp.latin}</p>
             <ul className="relative mt-4 space-y-2 text-sm">
@@ -406,9 +406,13 @@ function Journey({ s }) {
   );
 }
 
+// outside the component: switching language remounts the page
+let savedCounts = {};
+
 function Caffeine({ s }) {
   const { lang, num } = useLang();
-  const [counts, setCounts] = useState({});
+  const [counts, setCounts] = useState(() => savedCounts);
+  useEffect(() => { savedCounts = counts; }, [counts]);
   const total = useMemo(() => CAFFEINE_DRINKS.reduce((n, d) => n + d.mg * (counts[d.id] || 0), 0), [counts]);
   const change = (id, by) => setCounts(c => ({ ...c, [id]: Math.max(0, Math.min(12, (c[id] || 0) + by)) }));
   const max = 600;
@@ -664,8 +668,9 @@ function Sources({ s }) {
 
 /** Coffee by the numbers — a dark band between sections. */
 function Stats({ s }) {
+  const { lang } = useLang();
   return (
-    <section aria-label="Coffee in numbers" className="relative overflow-hidden bg-gradient-to-r from-roast-950 via-roast-900 to-roast-950 px-4 py-10 text-roast-50">
+    <section aria-label={lang === "bn" ? "সংখ্যায় কফি" : "Coffee in numbers"} className="relative overflow-hidden bg-gradient-to-r from-roast-950 via-roast-900 to-roast-950 px-4 py-10 text-roast-50">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,rgb(217_176_125/0.18),transparent_45%),radial-gradient(circle_at_80%_50%,rgb(185_117_54/0.18),transparent_45%)]" aria-hidden="true" />
       <dl className="relative mx-auto grid max-w-5xl grid-cols-2 gap-6 lg:grid-cols-4">
         {s.stats.map(([value, label]) => (
@@ -789,7 +794,7 @@ function CafeMenu({ s }) {
               {[[d.ml, lang === "bn" ? "মি.লি." : "ml"], [d.kcal, s.kcal], [d.caf, s.caf]].map(([v, l]) => (
                 <div key={l}>
                   <dd className={`font-serif font-black whitespace-nowrap text-roast-100 ${String(v).length > 5 ? "text-sm leading-7" : "text-lg"}`}>{lang === "bn" ? String(v).replace(/\d/g, x => "০১২৩৪৫৬৭৮৯"[x]) : v}</dd>
-                  <dt className="text-[10px] leading-tight text-roast-300/60">{l}</dt>
+                  <dt className="text-[10px] leading-tight text-roast-300/80">{l}</dt>
                 </div>
               ))}
             </dl>

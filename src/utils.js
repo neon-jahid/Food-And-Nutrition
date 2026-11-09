@@ -48,5 +48,3 @@ export function healthTags(n) {
   return tags;
 }
 
-/** Short nutrient label: "Protein" from "আমিষ (প্রোটিন)" style labels. */
-export const shortLabel = s => s.split(" (")[0];

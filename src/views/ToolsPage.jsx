@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-import { usePersistentState, useSearch } from "../hooks.js";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { useDismiss, usePersistentState, useSearch } from "../hooks.js";
 
 const BMI_DEFAULTS = { sex: "male", age: 30, weight: 65, height: 165, act: 1 };
-import { useLocation } from "../router.jsx";
+import { Link, useLocation } from "../router.jsx";
 import { Activity, Calculator, Plus, Ruler, Search, Trash2 } from "lucide-react";
 import { DAILY_VALUES, FOODS } from "../data/foods.js";
 import { useLang } from "../context/LangContext.jsx";
@@ -26,6 +26,7 @@ const T = {
     bmi: "BMI", calories: "Calories per day", maintain: "to maintain weight", lose: "to lose ~0.5 kg/week",
     protein: "Protein", water: "Water", perDay: "per day", healthyRange: "Healthy weight for your height",
     cats: ["Underweight", "Healthy", "Overweight", "Obese"],
+    adultsOnly: "These formulas are for adults (18 and over). Children need growth charts instead.", childGuide: "See the child nutrition guide",
     note: "Estimates only — needs differ with health conditions, pregnancy and age. Ask a doctor or nutritionist for a personal plan.",
   },
   bn: {
@@ -40,9 +41,13 @@ const T = {
     bmi: "BMI", calories: "দৈনিক ক্যালরি", maintain: "ওজন ঠিক রাখতে", lose: "সপ্তাহে ~০.৫ কেজি কমাতে",
     protein: "আমিষ", water: "পানি", perDay: "প্রতিদিন", healthyRange: "আপনার উচ্চতায় সুস্থ ওজন",
     cats: ["কম ওজন", "সুস্থ ওজন", "অতিরিক্ত ওজন", "স্থূলতা"],
+    adultsOnly: "এই হিসাবগুলো প্রাপ্তবয়স্কদের (১৮ বছর ও তার বেশি) জন্য। শিশুদের জন্য গ্রোথ চার্ট দেখতে হয়।", childGuide: "শিশুর পুষ্টি গাইড দেখুন",
     note: "এগুলো আনুমানিক হিসাব — রোগ, গর্ভাবস্থা ও বয়সভেদে চাহিদা আলাদা। ব্যক্তিগত পরিকল্পনার জন্য চিকিৎসক বা পুষ্টিবিদের পরামর্শ নিন।",
   },
 };
+
+// typed amounts aren't limited by the input's min and max attributes
+const clampG = g => Math.min(2000, Math.max(0, Number(g) || 0));
 
 const field = "w-full rounded-xl border border-slate-200 bg-white px-3 py-2 outline-none focus:border-brand-500 focus:ring-4 focus:ring-brand-500/15 dark:border-slate-700 dark:bg-slate-950";
 
@@ -51,6 +56,9 @@ function PlateCalculator() {
   const s = T[lang];
   const [items, setItems] = usePersistentState("plate", [], v => (Array.isArray(v) ? v.filter(x => FOODS.some(f => f.id === x?.id)) : []));
   const [q, setQ] = useState("");
+  const [listOpen, setListOpen] = useState(false);
+  const searchRef = useRef(null);
+  useDismiss(searchRef, listOpen, () => setListOpen(false));
 
   const search = useSearch(q.trim() !== "");
   const results = useMemo(() => (search ? search.suggest(q, 6) : []), [search, q]);
@@ -64,7 +72,7 @@ function PlateCalculator() {
     const out = Object.fromEntries(NUTRIENT_KEYS.map(k => [k, 0]));
     items.forEach(({ id, g }) => {
       const f = FOODS.find(x => x.id === id);
-      NUTRIENT_KEYS.forEach(k => (out[k] += (f.n[k] * (Number(g) || 0)) / 100));
+      NUTRIENT_KEYS.forEach(k => (out[k] += (f.n[k] * clampG(g)) / 100));
     });
     return out;
   }, [items]);
@@ -73,19 +81,19 @@ function PlateCalculator() {
     <section id="plate" className="scroll-mt-20 rounded-3xl border border-slate-200 bg-white p-5 sm:p-7 dark:border-slate-800 dark:bg-slate-900">
       <SectionHeader icon={Calculator} title={s.plateTitle} sub={s.plateSub} />
 
-      <div className="relative max-w-xl">
+      <div ref={searchRef} className="relative max-w-xl">
         <div className="relative">
-          <Search className="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-slate-400" aria-hidden="true" />
-          <input value={q} onChange={e => setQ(e.target.value)} placeholder={s.add} className={`${field} pl-9`} />
+          <Search className="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-slate-500 dark:text-slate-400" aria-hidden="true" />
+          <input value={q} aria-label={s.add} onChange={e => { setQ(e.target.value); setListOpen(true); }} onFocus={() => setListOpen(true)} onKeyDown={e => e.key === "Escape" && setListOpen(false)} placeholder={s.add} className={`${field} pl-9`} />
         </div>
-        {q && results.length > 0 && (
+        {q && listOpen && results.length > 0 && (
           <ul className="absolute inset-x-0 top-full z-20 mt-1 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-xl dark:border-slate-700 dark:bg-slate-900">
             {results.map(r => (
               <li key={r.food.id}>
                 <button type="button" onClick={() => add(r.food.id)} className="flex w-full items-center gap-3 px-3 py-2 text-left hover:bg-brand-50 dark:hover:bg-slate-800">
                   <FoodImage food={r.food} className="h-9 w-9 shrink-0 rounded-lg" />
                   <span className="flex-1 truncate">{name(r.food)}</span>
-                  <Plus className="h-4 w-4 text-brand-600" aria-hidden="true" />
+                  <Plus className="h-4 w-4 text-brand-700 dark:text-brand-400" aria-hidden="true" />
                 </button>
               </li>
             ))}
@@ -105,7 +113,7 @@ function PlateCalculator() {
                   <FoodImage food={f} className="h-12 w-12 shrink-0 rounded-xl" />
                   <div className="min-w-0 flex-1">
                     <p className="truncate font-semibold">{name(f)}</p>
-                    <p className="text-xs text-slate-500">{fmt((f.n.calories * (Number(g) || 0)) / 100)} {t.kcal}</p>
+                    <p className="text-xs text-slate-500">{fmt((f.n.calories * clampG(g)) / 100)} {t.kcal}</p>
                   </div>
                   <input
                     type="number" min="0" max="2000" value={g} aria-label={`${s.amount} ${name(f)}`}
@@ -113,7 +121,7 @@ function PlateCalculator() {
                     className="w-20 rounded-lg border border-slate-200 bg-white px-2 py-1 text-sm outline-none focus:border-brand-500 dark:border-slate-700 dark:bg-slate-950"
                   />
                   <span className="text-sm text-slate-500">{t.grams}</span>
-                  <button type="button" onClick={() => setItems(list => list.filter(x => x.id !== id))} aria-label="Remove" className="grid h-8 w-8 place-items-center rounded-lg text-slate-400 hover:bg-red-50 hover:text-red-500 dark:hover:bg-red-500/10">
+                  <button type="button" onClick={() => setItems(list => list.filter(x => x.id !== id))} aria-label={`${t.removeCompare} ${name(f)}`} className="grid h-8 w-8 place-items-center rounded-lg text-slate-500 dark:text-slate-400 hover:bg-red-50 hover:text-red-500 dark:hover:bg-red-500/10">
                     <Trash2 className="h-4 w-4" aria-hidden="true" />
                   </button>
                 </li>
@@ -127,7 +135,7 @@ function PlateCalculator() {
           <div className="lg:col-span-3">
             <div className="rounded-2xl bg-slate-50 p-5 dark:bg-slate-800/60">
               <p className="text-sm text-slate-500">{s.total}</p>
-              <p className="text-4xl font-extrabold text-brand-600 dark:text-brand-100">
+              <p className="text-4xl font-extrabold text-brand-700 dark:text-brand-100">
                 {fmt(totals.calories)} <span className="text-base font-medium text-slate-500">{t.kcal}</span>
               </p>
               <p className="text-xs text-slate-500">{num(Math.round((totals.calories / DAILY_VALUES.calories) * 100))}% {s.ofDaily}</p>
@@ -144,7 +152,7 @@ function PlateCalculator() {
                     <div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
                       <span className={`block h-full rounded-full ${k === "sugar" ? "bg-amber-500" : "bg-brand-500"}`} style={{ width: `${Math.min(pct, 100)}%` }} />
                     </div>
-                    <p className="mt-1 text-[11px] text-slate-400">{num(Math.round(pct))}%</p>
+                    <p className="mt-1 text-[11px] text-slate-500 dark:text-slate-400">{num(Math.round(pct))}%</p>
                   </div>
                 );
               })}
@@ -165,12 +173,13 @@ function BmiCalculator() {
   const set = (k, v) => setForm(f => ({ ...f, [k]: v }));
 
   const w = Number(form.weight), h = Number(form.height), a = Number(form.age);
-  const valid = w > 20 && w < 300 && h > 100 && h < 250 && a > 10 && a < 110;
+  const valid = w > 20 && w < 300 && h > 100 && h < 250 && a >= 18 && a < 110;
   const m = h / 100;
-  const bmi = valid ? w / (m * m) : 0;
+  // rounded first, so the category always agrees with the number on screen
+  const bmi = valid ? Math.round((w / (m * m)) * 10) / 10 : 0;
   // WHO cut-offs for Asian populations
   const catIdx = bmi < 18.5 ? 0 : bmi < 23 ? 1 : bmi < 27.5 ? 2 : 3;
-  const catColor = ["text-sky-600", "text-brand-600", "text-amber-600", "text-red-600"][catIdx];
+  const catColor = ["text-sky-600", "text-brand-700 dark:text-brand-400", "text-amber-600", "text-red-600"][catIdx];
   const bmr = 10 * w + 6.25 * h - 5 * a + (form.sex === "male" ? 5 : -161);
   const tdee = bmr * ACTIVITY[form.act];
 
@@ -179,7 +188,7 @@ function BmiCalculator() {
       <SectionHeader icon={Ruler} title={s.bmiTitle} sub={s.bmiSub} />
       <div className="grid gap-6 lg:grid-cols-2">
         <div className="grid grid-cols-2 gap-3">
-          <label className="col-span-2 text-sm font-semibold">
+          <div role="group" aria-label={s.sex} className="col-span-2 text-sm font-semibold">
             {s.sex}
             <div className="mt-1 grid grid-cols-2 gap-2">
               {["male", "female"].map(x => (
@@ -189,7 +198,7 @@ function BmiCalculator() {
                 </button>
               ))}
             </div>
-          </label>
+          </div>
           {[["age", s.age], ["weight", s.weight], ["height", s.height]].map(([k, label]) => (
             <label key={k} className={`text-sm font-semibold ${k === "age" ? "col-span-2 sm:col-span-1" : ""}`}>
               {label}
@@ -204,6 +213,11 @@ function BmiCalculator() {
           </label>
         </div>
 
+        {!valid && a > 0 && a < 18 && (
+          <p className="self-start rounded-2xl bg-slate-50 p-5 text-sm text-slate-600 dark:bg-slate-800/60 dark:text-slate-300">
+            {s.adultsOnly} <Link to="/child-nutrition" className="font-semibold text-brand-700 underline dark:text-brand-300">{s.childGuide}</Link>
+          </p>
+        )}
         {valid && (
           <div className="grid grid-cols-2 gap-3">
             <div className="col-span-2 rounded-2xl bg-slate-50 p-5 dark:bg-slate-800/60">
@@ -220,8 +234,13 @@ function BmiCalculator() {
               <p className="flex items-center gap-1.5 text-sm text-slate-500"><Activity className="h-4 w-4" aria-hidden="true" /> {s.calories}</p>
               <p className="text-2xl font-extrabold">{num(Math.round(tdee / 10) * 10)}</p>
               <p className="text-xs text-slate-500">{s.maintain}</p>
-              <p className="mt-2 text-lg font-bold text-brand-600 dark:text-brand-100">{num(Math.max(1200, Math.round((tdee - 500) / 10) * 10))}</p>
-              <p className="text-xs text-slate-500">{s.lose}</p>
+              {/* a weight-loss target makes no sense when it would be under 1,200 kcal or the person is underweight */}
+              {tdee - 500 >= 1200 && bmi >= 18.5 && (
+                <>
+                  <p className="mt-2 text-lg font-bold text-brand-700 dark:text-brand-100">{num(Math.round((tdee - 500) / 10) * 10)}</p>
+                  <p className="text-xs text-slate-500">{s.lose}</p>
+                </>
+              )}
             </div>
             <div className="space-y-3 rounded-2xl border border-slate-200 p-4 dark:border-slate-700">
               <div>

@@ -41,11 +41,6 @@ export function localize(to, lang) {
   return withLang(lang, path) + rest;
 }
 
-export function useLocalize() {
-  const lang = useUrlLang();
-  return useCallback(to => localize(to, lang), [lang]);
-}
-
 /* ------------------------------------------------------------------ */
 /* Query string and hash                                                */
 /* ------------------------------------------------------------------ */
@@ -96,6 +91,9 @@ export function useSearchParams() {
     const qs = new URLSearchParams(next).toString();
     const url = window.location.pathname + (qs ? `?${qs}` : "") + window.location.hash;
     window.history[replace ? "replaceState" : "pushState"](null, "", url);
+    // synchronously, inside the input event: a later update would make React restore the old
+    // value first, which moves the caret to the end and interrupts Bangla phonetic keyboards
+    urlListeners.forEach(fn => fn());
   }, []);
   return [params, setParams];
 }
@@ -145,8 +143,11 @@ export function useNavigate() {
   const lang = useUrlLang();
   return useCallback((to, opts = {}) => {
     if (typeof to === "number") { router.back(); return; }
-    if (opts.preventScrollReset) keepScrollOnce = true;
-    router[opts.replace ? "replace" : "push"](localize(to, lang), { scroll: !opts.preventScrollReset });
+    const href = localize(to, lang);
+    // only when the path really changes: the flag is consumed by a path change, and a leftover
+    // one would stop the next food page from opening at the top
+    if (opts.preventScrollReset && href.split(/[?#]/)[0] !== window.location.pathname) keepScrollOnce = true;
+    router[opts.replace ? "replace" : "push"](href, { scroll: !opts.preventScrollReset });
   }, [router, lang]);
 }
 

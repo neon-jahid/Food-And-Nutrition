@@ -54,7 +54,7 @@ function ItemCard({ item }) {
       {food ? (
         <FoodImage food={food} className="h-12 w-12 shrink-0 rounded-xl" />
       ) : (
-        <span className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-slate-100 text-slate-500 dark:bg-slate-800"><Archive className="h-5 w-5" aria-hidden="true" /></span>
+        <span className="grid h-12 w-12 shrink-0 place-items-center rounded-xl bg-slate-100 text-slate-600 dark:bg-slate-800"><Archive className="h-5 w-5" aria-hidden="true" /></span>
       )}
       <div className="min-w-0 flex-1">
         <p className="truncate font-bold text-slate-900 dark:text-white">{item.name[lang]}</p>
@@ -65,7 +65,7 @@ function ItemCard({ item }) {
     </div>
   );
   return (
-    <li className="card flex flex-col gap-3 p-4">
+    <li className="card flex min-w-0 flex-col gap-3 p-4">
       {food ? <Link to={`/foods/${food.id}`} className="rounded-xl hover:opacity-90">{head}</Link> : head}
       <WhereBadge where={item.where} />
       <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-300">{item.tip[lang]}</p>

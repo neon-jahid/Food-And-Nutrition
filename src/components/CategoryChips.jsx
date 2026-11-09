@@ -12,7 +12,7 @@ export default function CategoryChips({ active, onChange }) {
   ];
 
   return (
-    <nav aria-label="Categories" className="-mx-4 my-6 flex gap-2 overflow-x-auto px-4 pb-2 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
+    <nav aria-label={lang === "bn" ? "ক্যাটাগরি" : "Categories"} className="-mx-4 my-6 flex gap-2 overflow-x-auto px-4 pb-2 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
       {items.map(c => {
         const on = c.id === active;
         return (
@@ -29,7 +29,7 @@ export default function CategoryChips({ active, onChange }) {
           >
             <CategoryIcon id={c.id} tone={!on} />
             {c.label}
-            <span className={`rounded-full px-1.5 text-xs ${on ? "bg-white/25" : "bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-400"}`}>
+            <span className={`rounded-full px-1.5 text-xs ${on ? "bg-white/25" : "bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400"}`}>
               {num(c.count)}
             </span>
           </button>

@@ -101,7 +101,7 @@ function Footer() {
               ))}
             </ul>
           </nav>
-          <p className="text-slate-400 dark:text-slate-500">
+          <p className="text-slate-500 dark:text-slate-400">
             © <span suppressHydrationWarning>{new Date().getFullYear()}</span> {SITE.name[lang]} · {t.photo}: Wikimedia Commons
           </p>
         </div>

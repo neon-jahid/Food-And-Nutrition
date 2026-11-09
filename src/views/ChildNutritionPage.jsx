@@ -174,7 +174,7 @@ export default function ChildNutritionPage() {
           <ul className="card grid gap-x-8 gap-y-3 p-5 sm:p-6 md:grid-cols-2">
             {D.habits.map(h => (
               <li key={h.en} className="flex gap-3 text-sm text-slate-700 dark:text-slate-300">
-                <CircleCheck className="mt-0.5 h-5 w-5 shrink-0 text-brand-600" aria-hidden="true" />{h[lang]}
+                <CircleCheck className="mt-0.5 h-5 w-5 shrink-0 text-brand-700 dark:text-brand-400" aria-hidden="true" />{h[lang]}
               </li>
             ))}
           </ul>
@@ -247,15 +247,15 @@ export default function ChildNutritionPage() {
         </section>
 
         <section id="myths" className="mt-12 scroll-mt-24">
-          <h2 className="mb-4 flex items-center gap-2 text-xl font-extrabold text-slate-900 sm:text-2xl dark:text-white"><ShieldAlert className="h-6 w-6 text-brand-600" aria-hidden="true" />{s.mythsTitle}</h2>
+          <h2 className="mb-4 flex items-center gap-2 text-xl font-extrabold text-slate-900 sm:text-2xl dark:text-white"><ShieldAlert className="h-6 w-6 text-brand-700 dark:text-brand-400" aria-hidden="true" />{s.mythsTitle}</h2>
           <div className="grid gap-3 md:grid-cols-2">
             {D.myths.map(m => (
               <article key={m.myth.en} className="card overflow-hidden">
                 <p className="flex gap-2 bg-red-50 px-4 py-3 text-sm font-semibold text-red-800 dark:bg-red-500/10 dark:text-red-300">
-                  <CircleX className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" /><span><span className="opacity-70">{s.myth}: </span>{m.myth[lang]}</span>
+                  <CircleX className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" /><span><span className="opacity-80">{s.myth}: </span>{m.myth[lang]}</span>
                 </p>
                 <p className="flex gap-2 px-4 py-3 text-sm text-slate-700 dark:text-slate-300">
-                  <CircleCheck className="mt-0.5 h-4 w-4 shrink-0 text-brand-600" aria-hidden="true" /><span><span className="font-semibold text-brand-700 dark:text-brand-300">{s.fact}: </span>{m.fact[lang]}</span>
+                  <CircleCheck className="mt-0.5 h-4 w-4 shrink-0 text-brand-700 dark:text-brand-400" aria-hidden="true" /><span><span className="font-semibold text-brand-700 dark:text-brand-300">{s.fact}: </span>{m.fact[lang]}</span>
                 </p>
               </article>
             ))}
@@ -280,7 +280,7 @@ export default function ChildNutritionPage() {
               <span className="block text-xs text-slate-500 dark:text-slate-400">{s.nextDesc}</span>
             </span>
           </span>
-          <ArrowRight className="h-5 w-5 text-brand-600" aria-hidden="true" />
+          <ArrowRight className="h-5 w-5 text-brand-700 dark:text-brand-400" aria-hidden="true" />
         </Link>
 
         <Disclaimer>{t.disclaimer}</Disclaimer>

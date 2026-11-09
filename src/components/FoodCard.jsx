@@ -57,7 +57,7 @@ export default function FoodCard({ food, match, eager = false, inCompare, onTogg
         </div>
 
         <div className="flex items-baseline gap-1.5">
-          <strong className="text-2xl font-extrabold text-brand-600 dark:text-brand-100">{fmt(food.n.calories)}</strong>
+          <strong className="text-2xl font-extrabold text-brand-700 dark:text-brand-100">{fmt(food.n.calories)}</strong>
           <span className="text-xs text-slate-500 dark:text-slate-400">{t.kcal} · {t.per100g}</span>
         </div>
 
@@ -84,7 +84,7 @@ export default function FoodCard({ food, match, eager = false, inCompare, onTogg
           <BenefitPreview id={food.id} />
         )}
 
-        <span className="mt-auto inline-flex items-center gap-1 pt-1 text-sm font-semibold text-brand-600 group-hover:underline dark:text-brand-100">
+        <span className="mt-auto inline-flex items-center gap-1 pt-1 text-sm font-semibold text-brand-700 group-hover:underline dark:text-brand-100">
           {t.seeDetails} <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" aria-hidden="true" />
         </span>
       </div>

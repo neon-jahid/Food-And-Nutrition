@@ -2,11 +2,13 @@ import { macroEnergy } from "../utils.js";
 import { useLang } from "../context/LangContext.jsx";
 
 export function MacroBar({ n, className = "" }) {
+  const { lang, num } = useLang();
   const m = macroEnergy(n);
+  const pct = v => `${num(Math.round(v))}%`;
   return (
     <div
       role="img"
-      aria-label={`Protein ${Math.round(m.p)}%, Carbs ${Math.round(m.c)}%, Fat ${Math.round(m.f)}%`}
+      aria-label={lang === "bn" ? `প্রোটিন ${pct(m.p)}, শর্করা ${pct(m.c)}, চর্বি ${pct(m.f)}` : `Protein ${pct(m.p)}, Carbs ${pct(m.c)}, Fat ${pct(m.f)}`}
       className={`flex h-2 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800 ${className}`}
     >
       <span className="bg-protein" style={{ width: `${m.p}%` }} />

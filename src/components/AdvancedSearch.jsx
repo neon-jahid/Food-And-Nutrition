@@ -25,7 +25,7 @@ export default function AdvancedSearch({ open, onToggle, goals, onGoals, ranges,
         className="flex w-full items-center justify-between gap-3 px-4 py-3 text-left"
       >
         <span className="flex items-center gap-2">
-          <span className="grid h-9 w-9 place-items-center rounded-xl bg-brand-50 text-brand-600 dark:bg-brand-700/25 dark:text-brand-100"><SlidersHorizontal className="h-4 w-4" aria-hidden="true" /></span>
+          <span className="grid h-9 w-9 place-items-center rounded-xl bg-brand-50 text-brand-700 dark:bg-brand-700/25 dark:text-brand-100"><SlidersHorizontal className="h-4 w-4" aria-hidden="true" /></span>
           <span>
             <span className="block font-semibold">{t.advanced}</span>
             <span className="block text-xs text-slate-500 dark:text-slate-400">{t.advancedHint}</span>
@@ -77,7 +77,7 @@ export default function AdvancedSearch({ open, onToggle, goals, onGoals, ranges,
                 return (
                   <div key={k} className={`rounded-xl border p-2.5 ${on ? "border-brand-500 bg-brand-50/50 dark:bg-brand-700/10" : "border-slate-200 dark:border-slate-700"}`}>
                     <p className="mb-1.5 text-xs font-semibold">
-                      {t.short[k]} <span className="font-normal text-slate-400">({t.units[NUTRIENT_UNITS[k]]})</span>
+                      {t.short[k]} <span className="font-normal text-slate-500 dark:text-slate-400">({t.units[NUTRIENT_UNITS[k]]})</span>
                     </p>
                     <div className="flex items-center gap-1.5">
                       <input
@@ -85,7 +85,7 @@ export default function AdvancedSearch({ open, onToggle, goals, onGoals, ranges,
                         onChange={e => setRange(k, 0, e.target.value)}
                         className="w-full min-w-0 rounded-lg border border-slate-200 bg-white px-2 py-1 text-sm outline-none focus:border-brand-500 dark:border-slate-700 dark:bg-slate-950"
                       />
-                      <span className="text-slate-400">–</span>
+                      <span className="text-slate-500 dark:text-slate-400">–</span>
                       <input
                         type="number" min="0" inputMode="decimal" value={max} placeholder={t.max} aria-label={`${t.short[k]} ${t.max}`}
                         onChange={e => setRange(k, 1, e.target.value)}
