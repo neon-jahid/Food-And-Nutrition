@@ -1,5 +1,5 @@
 import {
-  Apple, Baby, BookOpen, Calculator, Coffee, CircleHelp, FlaskConical, Gem, Hourglass, House, Leaf, Mars, Newspaper, Refrigerator, Stethoscope, UtensilsCrossed, Venus,
+  Apple, Baby, BookOpen, Calculator, Coffee, CircleHelp, FlaskConical, Gem, Hourglass, House, Leaf, Mars, Newspaper, Refrigerator, Stethoscope, ToyBrick, UtensilsCrossed, Venus,
 } from "lucide-react";
 
 /** Top-level links shown directly in the header bar. */
@@ -15,7 +15,7 @@ export const PRIMARY_NAV = [
 export const LEARN_GROUPS = [
   {
     id: "foryou",
-    en: "Men & women", bn: "নারী ও পুরুষ",
+    en: "Men, women & children", bn: "নারী, পুরুষ ও শিশু",
     items: [
       { to: "/mens-health", icon: Mars, tone: "sky", en: ["Men's health", "Heart, strength, vitality and fertility"],
         bn: ["পুরুষের স্বাস্থ্য", "হৃদযন্ত্র, শক্তি, সক্ষমতা ও প্রজনন"] },
@@ -23,6 +23,8 @@ export const LEARN_GROUPS = [
         bn: ["নারীর স্বাস্থ্য", "মাসিক, গর্ভাবস্থা, পিসিওএস ও মেনোপজ"] },
       { to: "/pregnancy", icon: Baby, tone: "violet", en: ["Pregnancy food", "What to eat, avoid and why — trimester by trimester"],
         bn: ["গর্ভাবস্থার খাবার", "কী খাবেন, কী এড়াবেন ও কেন — তিন মাস ভিত্তিক"] },
+      { to: "/child-nutrition", icon: ToyBrick, tone: "sky", en: ["Child nutrition", "Feeding babies and young children, age by age"],
+        bn: ["শিশুর পুষ্টি", "ছোট শিশুকে কোন বয়সে কী খাওয়াবেন"] },
     ],
   },
   {

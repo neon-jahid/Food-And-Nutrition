@@ -49,6 +49,7 @@ export const STATIC_PATHS = [
   "/mens-health",
   "/womens-health",
   "/pregnancy",
+  "/child-nutrition",
   "/coffee",
   "/anti-aging",
   "/blog",

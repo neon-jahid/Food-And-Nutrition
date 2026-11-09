@@ -38,6 +38,18 @@ const SOURCES = [
     bn: "লবণ, চিনি, চর্বি, ফল ও সবজি নিয়ে সাধারণ নির্দেশনা — আমাদের স্বাস্থ্যকর খাবারের পরামর্শে ব্যবহৃত।",
   },
   {
+    name: "WHO Guideline for complementary feeding of infants and young children 6–23 months of age (2023)",
+    url: "https://www.who.int/publications/i/item/9789240081864",
+    en: "Basis for the feeding-by-age and food-group advice in our child nutrition guide.",
+    bn: "আমাদের শিশুর পুষ্টি গাইডে বয়স অনুযায়ী খাওয়ানো ও খাদ্যগোষ্ঠীর পরামর্শের ভিত্তি।",
+  },
+  {
+    name: "NIH Office of Dietary Supplements — Dietary Reference Intakes",
+    url: "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations.aspx",
+    en: "Daily nutrient needs by age used in our child nutrition guide.",
+    bn: "আমাদের শিশুর পুষ্টি গাইডে ব্যবহৃত বয়সভিত্তিক দৈনিক পুষ্টি চাহিদা।",
+  },
+  {
     name: "U.S. FDA Daily Values (2,000 kcal reference)",
     url: "https://www.fda.gov/food/nutrition-facts-label/daily-value-nutrition-and-supplement-facts-labels",
     en: "Reference amounts used to calculate “% Daily Value” on food pages.",

@@ -69,6 +69,10 @@ export const PAGE_META = {
     en: ["Pregnancy food guide — what to eat and avoid", "What to eat in each trimester: daily needs, folate, iron, calcium and iodine foods, a sample day, help for nausea and constipation, foods to avoid, myths and danger signs."],
     bn: ["গর্ভাবস্থার খাবার গাইড — কী খাবেন, কী এড়াবেন", "প্রতি তিন মাসে কী খাবেন: দৈনিক চাহিদা, ফোলেট, আয়রন, ক্যালসিয়াম ও আয়োডিনের খাবার, একদিনের নমুনা, বমি ভাব ও কোষ্ঠকাঠিন্যে করণীয়, যা এড়াবেন, ভুল ধারণা ও বিপদ চিহ্ন।"],
   },
+  "/child-nutrition": {
+    en: ["Child nutrition guide — feeding babies and young children", "What to feed children from birth to 5 years: breastfeeding, first foods, amounts by age, food groups, daily needs, a sample day, foods to avoid, myths and danger signs."],
+    bn: ["শিশুর পুষ্টি গাইড — ছোট শিশুকে কী খাওয়াবেন", "জন্ম থেকে ৫ বছর পর্যন্ত শিশুকে কী খাওয়াবেন: বুকের দুধ, প্রথম খাবার, বয়স অনুযায়ী পরিমাণ, খাদ্যগোষ্ঠী, দৈনিক চাহিদা, একদিনের নমুনা, যা এড়াবেন, ভুল ধারণা ও বিপদ চিহ্ন।"],
+  },
   "/coffee": {
     en: ["Coffee guide — Black Coffee, origin, benefits and how to drink it", "The story of coffee from Ethiopia to Bangladesh, what's in a cup of black coffee, a caffeine calculator, benefits, cautions and how to drink coffee the healthy way."],
     bn: ["কফি গাইড — ব্ল্যাক কফি, উৎপত্তি, উপকারিতা ও খাওয়ার নিয়ম", "ইথিওপিয়া থেকে বাংলাদেশ — কফির গল্প, এক কাপ ব্ল্যাক কফিতে কী আছে, ক্যাফেইন ক্যালকুলেটর, উপকারিতা, সতর্কতা ও স্বাস্থ্যকরভাবে কফি খাওয়ার নিয়ম।"],
@@ -91,7 +95,7 @@ export const PAGE_META = {
 const PARENT = {
   "/plants": "/learn", "/food-guide/food-storage": "/food-guide", "/food-guide/meal-times": "/food-guide",
   "/nutrition/vitamins": "/learn", "/nutrition/minerals": "/learn", "/nutrition/deficiency": "/learn",
-  "/food-myths": "/learn", "/mens-health": "/learn", "/womens-health": "/learn", "/pregnancy": "/womens-health", "/food-guide": "/learn", "/coffee": "/learn", "/anti-aging": "/learn",
+  "/food-myths": "/learn", "/mens-health": "/learn", "/womens-health": "/learn", "/pregnancy": "/womens-health", "/child-nutrition": "/learn", "/food-guide": "/learn", "/coffee": "/learn", "/anti-aging": "/learn",
 };
 
 const shortTitle = (lang, path) => (PAGE_META[path]?.[lang]?.[0] || "").split(" — ")[0];

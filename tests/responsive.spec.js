@@ -14,7 +14,7 @@ test("mobile drawer and bottom tabs navigate", async ({ page }) => {
   w.assertClean();
 });
 
-for (const path of ["/en", "/bn", "/bn/foods", "/en/foods/hilsa", "/bn/womens-health", "/en/anti-aging", "/bn/pregnancy", "/bn/plants/neem", "/en/plants", "/en/references"]) {
+for (const path of ["/en", "/bn", "/bn/foods", "/en/foods/hilsa", "/bn/womens-health", "/en/anti-aging", "/bn/pregnancy", "/bn/child-nutrition","/bn/plants/neem", "/en/plants", "/en/references"]) {
   test(`no horizontal overflow on ${path}`, async ({ page }) => {
     await page.goto(path);
     await hydrated(page);

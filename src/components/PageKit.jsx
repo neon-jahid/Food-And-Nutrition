@@ -116,6 +116,30 @@ export function FoodChips({ ids, size = "md" }) {
   );
 }
 
+/** Overlapping round food photos, each linking to its food page. */
+export function FoodFaces({ ids }) {
+  const { name } = useLang();
+  return (
+    <div className="flex -space-x-2">
+      {ids.map(foodById).filter(Boolean).map(f => (
+        <Link key={f.id} to={`/foods/${f.id}`} title={name(f)} className="block rounded-full ring-2 ring-white transition hover:z-10 hover:scale-110 dark:ring-slate-900">
+          <FoodImage food={f} className="h-9 w-9 rounded-full" />
+        </Link>
+      ))}
+    </div>
+  );
+}
+
+export function Bullets({ items, dot = "bg-brand-500" }) {
+  return (
+    <ul className="space-y-1.5 text-sm text-slate-700 dark:text-slate-300">
+      {items.map(x => (
+        <li key={x} className="flex gap-2"><span className={`mt-2 h-1.5 w-1.5 shrink-0 rounded-full ${dot}`} />{x}</li>
+      ))}
+    </ul>
+  );
+}
+
 export function Disclaimer({ children }) {
   const { t } = useLang();
   return (

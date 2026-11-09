@@ -25,6 +25,7 @@ export default [
     route("mens-health", "routes/mens-health.jsx"),
     route("womens-health", "routes/womens-health.jsx"),
     route("pregnancy", "routes/pregnancy.jsx"),
+    route("child-nutrition", "routes/child-nutrition.jsx"),
     route("coffee", "routes/coffee.jsx"),
     route("anti-aging", "routes/anti-aging.jsx"),
     route("blog", "routes/blog.jsx"),
