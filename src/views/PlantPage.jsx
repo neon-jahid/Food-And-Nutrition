@@ -158,7 +158,7 @@ export default function PlantPage({ slug }) {
           </section>
         )}
 
-        <nav className="mt-10 grid gap-3 sm:grid-cols-2" aria-label={s.plants}>
+        <nav className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-2" aria-label={s.plants}>
           <Link to={`/plants/${prev.id}`} className="card flex items-center gap-3 p-4 transition hover:border-brand-400">
             <ArrowLeft className="h-5 w-5 shrink-0 text-brand-700 dark:text-brand-400" aria-hidden="true" />
             <PlantImage plant={prev} alt="" className="h-12 w-12 shrink-0 rounded-xl" />
