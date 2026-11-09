@@ -9,7 +9,7 @@ import { ThemeProvider } from "./context/ThemeContext.jsx";
 import { Link, useUrlLang } from "./router.jsx";
 import { usePersistentState } from "./hooks.js";
 import { LEARN_GROUPS, PRIMARY_NAV } from "./nav.js";
-import { SITE } from "./site.js";
+import { GOOGLE_SITE_VERIFICATION, SITE } from "./site.js";
 import Header, { BottomTabs } from "./components/Header.jsx";
 import CompareModal from "./components/CompareModal.jsx";
 import NotFound from "./components/NotFound.jsx";
@@ -27,6 +27,7 @@ export function Layout({ children }) {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#ffffff" />
+        {GOOGLE_SITE_VERIFICATION && <meta name="google-site-verification" content={GOOGLE_SITE_VERIFICATION} />}
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
         <Meta />

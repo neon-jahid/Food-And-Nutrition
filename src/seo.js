@@ -18,8 +18,9 @@ const abs = p => (p.startsWith("http") ? p : SITE_URL + p);
  * @param {"website"|"article"} [o.type]
  * @param {object[]} [o.jsonLd]  extra structured-data objects
  * @param {boolean} [o.noindex]
+ * @param {string} [o.published] ISO date, for articles
  */
-export function seo({ lang, path, title, description, image, type = "website", jsonLd = [], noindex = false }) {
+export function seo({ lang, path, title, description, image, type = "website", jsonLd = [], noindex = false, published }) {
   const l = LANGS.includes(lang) ? lang : DEFAULT_LANG;
   const site = SITE.name[l];
   const fullTitle = title ? `${title} | ${site}` : `${site} — ${SITE.tagline[l]}`;
@@ -39,6 +40,10 @@ export function seo({ lang, path, title, description, image, type = "website", j
     { property: "og:description", content: desc },
     { property: "og:url", content: url },
     { property: "og:image", content: img },
+    { property: "og:image:alt", content: title || site },
+    // only the default share card has a known size; food and article photos vary
+    ...(image ? [] : [{ property: "og:image:width", content: "1200" }, { property: "og:image:height", content: "630" }]),
+    ...(published ? [{ property: "article:published_time", content: published }] : []),
     { property: "og:locale", content: l === "bn" ? "bn_BD" : "en_US" },
     { property: "og:locale:alternate", content: l === "bn" ? "en_US" : "bn_BD" },
     { name: "twitter:card", content: "summary_large_image" },
@@ -46,7 +51,8 @@ export function seo({ lang, path, title, description, image, type = "website", j
     { name: "twitter:description", content: desc },
     { name: "twitter:image", content: img },
   ];
-  if (noindex) tags.push({ name: "robots", content: "noindex" });
+  // large previews matter on a photo-led site: without this, search can show thumbnails only
+  tags.push({ name: "robots", content: noindex ? "noindex" : "max-image-preview:large" });
   for (const data of jsonLd) tags.push({ "script:ld+json": data });
   return tags;
 }
@@ -80,6 +86,40 @@ export function websiteLd(lang) {
       target: { "@type": "EntryPoint", urlTemplate: abs(withLang(lang, "/foods")) + "?q={search_term_string}" },
       "query-input": "required name=search_term_string",
     },
+  };
+}
+
+/** The site as an organisation — the `publisher` / `author` of its pages. */
+export function publisherLd(lang) {
+  return {
+    "@type": "Organization",
+    name: SITE.name[lang],
+    url: abs(withLang(lang, "/")),
+    logo: { "@type": "ImageObject", url: abs(SITE.logo) },
+  };
+}
+
+export function organizationLd(lang) {
+  return {
+    "@context": "https://schema.org",
+    ...publisherLd(lang),
+    alternateName: SITE.name[lang === "en" ? "bn" : "en"],
+    description: SITE.description[lang],
+  };
+}
+
+/** WebPage JSON-LD; pass type "MedicalWebPage" for health guidance. */
+export function webPageLd(lang, path, { type = "WebPage", name, description, image }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": type,
+    name,
+    description,
+    url: abs(withLang(lang, path)),
+    inLanguage: lang,
+    primaryImageOfPage: image ? abs(image) : undefined,
+    isPartOf: { "@type": "WebSite", name: SITE.name[lang], url: abs(withLang(lang, "/")) },
+    publisher: publisherLd(lang),
   };
 }
 

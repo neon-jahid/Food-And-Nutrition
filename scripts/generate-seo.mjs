@@ -1,13 +1,20 @@
 /*
  * Runs before `react-router build`. Writes into public/:
- *   sitemap.xml  — every page in both languages, with hreflang alternates
+ *   sitemap.xml  — every page in both languages, with hreflang alternates and page photos.
+ *                  <lastmod> is only written where the real date is known (blog posts): a build
+ *                  date on every URL is inaccurate, and search engines then ignore the field.
  *   robots.txt   — allows everything, points to the sitemap
  *   _redirects   — permanent (301) redirects for old URLs (Netlify / Cloudflare Pages format)
  *
  * The site URL comes from VITE_SITE_URL (environment or .env file).
  */
 import { writeFileSync } from "node:fs";
-import { DEFAULT_LANG, LANGS, LEGACY_REDIRECTS, allPublicPaths, withLang } from "../src/paths.js";
+import { DEFAULT_LANG, LANGS, LEGACY_REDIRECTS, allPublicPaths, foodSlug, withLang } from "../src/paths.js";
+import { FOODS } from "../src/data/foods.js";
+import { PLANTS } from "../src/data/plants.js";
+import { POSTS } from "../src/data/blog.js";
+import credits from "../src/data/imageCredits.json" with { type: "json" };
+import plantImages from "../src/data/plantImages.json" with { type: "json" };
 import { siteConfig } from "./env.mjs";
 
 let config;
@@ -20,9 +27,15 @@ try {
 for (const w of config.warnings) console.warn(`\n⚠  ${w}`);
 const SITE_URL = config.siteUrl || "https://food-and-nutrition.example";
 
-const today = new Date().toISOString().slice(0, 10);
 const esc = s => s.replace(/&/g, "&amp;");
 const url = (lang, path) => esc(SITE_URL + withLang(lang, path));
+
+const photo = im => im && (im.hd || im.src);
+const PAGE_INFO = new Map([
+  ...FOODS.map(f => [`/foods/${foodSlug(f)}`, { image: photo(credits[f.id]) }]),
+  ...PLANTS.map(p => [`/plants/${p.id}`, { image: photo(p.foodId ? credits[p.foodId] : plantImages[p.id]) }]),
+  ...POSTS.map(p => [`/blog/${p.slug}`, { lastmod: p.date, image: photo(credits[p.cover]) }]),
+]);
 
 const entries = allPublicPaths().flatMap(path =>
   LANGS.map(lang => {
@@ -30,13 +43,20 @@ const entries = allPublicPaths().flatMap(path =>
       ...LANGS.map(l => `    <xhtml:link rel="alternate" hreflang="${l}" href="${url(l, path)}"/>`),
       `    <xhtml:link rel="alternate" hreflang="x-default" href="${url(DEFAULT_LANG, path)}"/>`,
     ].join("\n");
-    return `  <url>\n    <loc>${url(lang, path)}</loc>\n    <lastmod>${today}</lastmod>\n${alts}\n  </url>`;
+    const { lastmod, image } = PAGE_INFO.get(path) || {};
+    const lines = [
+      `    <loc>${url(lang, path)}</loc>`,
+      lastmod && `    <lastmod>${lastmod}</lastmod>`,
+      alts,
+      image && `    <image:image>\n      <image:loc>${esc(SITE_URL + image)}</image:loc>\n    </image:image>`,
+    ].filter(Boolean);
+    return `  <url>\n${lines.join("\n")}\n  </url>`;
   })
 );
 
 writeFileSync(
   "public/sitemap.xml",
-  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${entries.join("\n")}\n</urlset>\n`
+  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${entries.join("\n")}\n</urlset>\n`
 );
 
 writeFileSync("public/robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`);

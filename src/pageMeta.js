@@ -1,5 +1,5 @@
 /* Titles + descriptions for static pages (search results, link previews). Keyed by unprefixed path. */
-import { breadcrumbLd, seo, websiteLd } from "./seo.js";
+import { breadcrumbLd, organizationLd, seo, webPageLd, websiteLd } from "./seo.js";
 import { LANGS, DEFAULT_LANG } from "./paths.js";
 import { FOODS } from "./data/foods.js";
 
@@ -22,8 +22,8 @@ export const PAGE_META = {
     bn: ["পুষ্টি টুলস — প্লেট ক্যালকুলেটর, BMI ও ক্যালরির চাহিদা", "বিনামূল্যে পুষ্টি ক্যালকুলেটর: থালার মোট পুষ্টি হিসাব করুন এবং BMI ও দৈনিক ক্যালরির চাহিদা জানুন।"],
   },
   "/learn": {
-    en: ["Learn nutrition — guides for everyday health", "Guides on vitamins, minerals, deficiencies, medicinal plants, food storage, meal times, men's and women's health, anti-ageing foods and food myths."],
-    bn: ["পুষ্টি সম্পর্কে জানুন — প্রতিদিনের স্বাস্থ্য গাইড", "ভিটামিন, খনিজ, অভাবজনিত রোগ, ঔষধি গাছ, খাবার সংরক্ষণ, খাবারের সময়, নারী ও পুরুষের স্বাস্থ্য এবং খাবার নিয়ে ভুল ধারণার গাইড।"],
+    en: ["Learn nutrition — guides for everyday health", "Guides on vitamins, minerals, deficiencies, medicinal plants, food storage, meal times, men's and women's health, pregnancy, child nutrition and food myths."],
+    bn: ["পুষ্টি সম্পর্কে জানুন — প্রতিদিনের স্বাস্থ্য গাইড", "ভিটামিন, খনিজ, অভাবজনিত রোগ, ঔষধি গাছ, খাবার সংরক্ষণ, খাবারের সময়, নারী ও পুরুষের স্বাস্থ্য, গর্ভাবস্থা, শিশুর পুষ্টি এবং খাবার নিয়ে ভুল ধারণার গাইড।"],
   },
   "/plants": {
     en: ["Medicinal plants of Bangladesh — uses and cautions", "Tulsi, neem, thankuni, kalojira, ashwagandha and more: traditional uses, how to use them and safety cautions."],
@@ -98,6 +98,12 @@ const PARENT = {
   "/food-myths": "/learn", "/mens-health": "/learn", "/womens-health": "/learn", "/pregnancy": "/womens-health", "/child-nutrition": "/learn", "/food-guide": "/learn", "/coffee": "/learn", "/anti-aging": "/learn",
 };
 
+/** Pages that give health guidance (typed MedicalWebPage in structured data). */
+const HEALTH_GUIDES = new Set([
+  "/nutrition/vitamins", "/nutrition/minerals", "/nutrition/deficiency",
+  "/mens-health", "/womens-health", "/pregnancy", "/child-nutrition",
+]);
+
 const shortTitle = (lang, path) => (PAGE_META[path]?.[lang]?.[0] || "").split(" — ")[0];
 
 /** `meta` for a static page. Extra fields (title, description, jsonLd…) override the table. */
@@ -110,6 +116,14 @@ export function pageSeo(langParam, path, extra = {}) {
     if (parent) trail.push([shortTitle(lang, parent), parent]);
     trail.push([extra.crumb || shortTitle(lang, path) || extra.title || title, path]);
   }
-  const jsonLd = [...(path === "/" ? [websiteLd(lang)] : [breadcrumbLd(lang, trail)]), ...(extra.jsonLd || [])];
+  const pageLd = path === "/"
+    ? [websiteLd(lang), organizationLd(lang)]
+    : [breadcrumbLd(lang, trail), webPageLd(lang, path, {
+        type: HEALTH_GUIDES.has(path) ? "MedicalWebPage" : "WebPage",
+        name: extra.title || title,
+        description: extra.description || description,
+        image: extra.image,
+      })];
+  const jsonLd = [...pageLd, ...(extra.jsonLd || [])];
   return seo({ lang, path, title, description, ...extra, jsonLd });
 }

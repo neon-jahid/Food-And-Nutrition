@@ -103,6 +103,19 @@ test("sitemap and robots are published", async ({ request }) => {
   const sm = await (await request.get("/sitemap.xml")).text();
   expect((sm.match(/<loc>/g) || []).length).toBeGreaterThan(500);
   expect(sm).toContain('hreflang="bn"');
+  expect(sm).toContain("/bn/child-nutrition</loc>");
+  expect(sm).toMatch(/<loc>[^<]*\/en\/foods\/mango<\/loc>[\s\S]*?<image:loc>[^<]*mango/);
   const robots = await (await request.get("/robots.txt")).text();
   expect(robots).toContain("Sitemap:");
+});
+
+test("pages carry structured data for their type", async ({ page }) => {
+  const types = async path => {
+    await page.goto(path);
+    const blocks = await page.locator('script[type="application/ld+json"]').allTextContents();
+    return blocks.map(b => JSON.parse(b)["@type"]);
+  };
+  expect(await types("/en")).toEqual(expect.arrayContaining(["WebSite", "Organization"]));
+  expect(await types("/bn/child-nutrition")).toEqual(expect.arrayContaining(["BreadcrumbList", "MedicalWebPage"]));
+  expect(await types("/en/foods/mango")).toEqual(expect.arrayContaining(["BreadcrumbList", "WebPage"]));
 });

@@ -2,8 +2,7 @@ import BlogPostPage from "../pages/BlogPostPage.jsx";
 import { POSTS } from "../data/blog.js";
 import credits from "../data/imageCredits.json";
 import { DEFAULT_LANG, LANGS, withLang } from "../paths.js";
-import { SITE } from "../site.js";
-import { absoluteUrl, breadcrumbLd, seo } from "../seo.js";
+import { absoluteUrl, breadcrumbLd, publisherLd, seo } from "../seo.js";
 
 export const meta = ({ params }) => {
   const lang = LANGS.includes(params.lang) ? params.lang : DEFAULT_LANG;
@@ -18,6 +17,7 @@ export const meta = ({ params }) => {
     title: post.title[lang],
     description: post.excerpt[lang],
     image,
+    published: post.date,
     jsonLd: [
       breadcrumbLd(lang, [[lang === "bn" ? "ব্লগ" : "Blog", "/blog"], [post.title[lang], path]]),
       {
@@ -29,7 +29,8 @@ export const meta = ({ params }) => {
         inLanguage: lang,
         image: image ? absoluteUrl(image) : undefined,
         mainEntityOfPage: absoluteUrl(withLang(lang, path)),
-        publisher: { "@type": "Organization", name: SITE.name[lang] },
+        author: publisherLd(lang),
+        publisher: publisherLd(lang),
       },
     ],
   });
