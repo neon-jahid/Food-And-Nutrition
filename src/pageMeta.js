@@ -81,6 +81,30 @@ export const PAGE_META = {
     en: ["Anti-ageing foods — eat for younger skin, brain and body", "Which foods help you age well: vitamin C fruits, carotenoid vegetables, oily fish, nuts, green tea and turmeric for skin, brain, heart, bones and eyes — plus what speeds up ageing."],
     bn: ["অ্যান্টি-এজিং খাবার — তারুণ্যদীপ্ত ত্বক, মস্তিষ্ক ও শরীরের জন্য", "কোন খাবার সুস্থভাবে বয়স বাড়তে সাহায্য করে: ত্বক, মস্তিষ্ক, হৃদয়, হাড় ও চোখের জন্য ভিটামিন সি-যুক্ত ফল, রঙিন সবজি, তৈলাক্ত মাছ, বাদাম, গ্রিন টি ও হলুদ — আর কী কারণে দ্রুত বুড়িয়ে যান।"],
   },
+  "/ingredients": {
+    en: ["What's Inside Your Food? — food additives and E-numbers explained", "Search food additives, preservatives, sweeteners and colours by name or E-number. See why they are used, what the evidence shows and how each is regulated."],
+    bn: ["আপনার খাবারের ভেতরে কী আছে? — ফুড অ্যাডিটিভ ও E নম্বরের ব্যাখ্যা", "নাম বা E নম্বর দিয়ে ফুড অ্যাডিটিভ, প্রিজারভেটিভ, মিষ্টিকারক ও রং খুঁজুন। কেন ব্যবহার হয়, প্রমাণ কী বলে এবং কীভাবে নিয়ন্ত্রিত হয় তা জানুন।"],
+  },
+  "/ingredients/explore": {
+    en: ["Food additive database — search by name, E-number or INS", "Search and filter food additives by name, E-number, INS number, chemical formula, category, origin, evidence label and food type."],
+    bn: ["ফুড অ্যাডিটিভ ডেটাবেস — নাম, E নম্বর বা INS দিয়ে খুঁজুন", "নাম, E নম্বর, INS নম্বর, রাসায়নিক সংকেত, ধরন, উৎস, প্রমাণের লেবেল ও খাবারের ধরন অনুযায়ী ফুড অ্যাডিটিভ খুঁজুন।"],
+  },
+  "/ingredients/decoder": {
+    en: ["Food Label Decoder — understand any ingredient list", "Paste an ingredient list from a food packet to identify additives and E-numbers, see each one's purpose, and spot allergens and unknown items."],
+    bn: ["ফুড লেবেল ডিকোডার — যেকোনো উপাদানের তালিকা বুঝুন", "প্যাকেটের উপাদানের তালিকা পেস্ট করে অ্যাডিটিভ ও E নম্বর চিনুন, প্রতিটির কাজ জানুন এবং অ্যালার্জেন ও অজানা উপাদান দেখুন।"],
+  },
+  "/ingredients/compare": {
+    en: ["Compare food additives side by side", "Compare ingredients by purpose, origin, uses, ADI, regulatory status and evidence, without declaring one universally better."],
+    bn: ["ফুড অ্যাডিটিভ পাশাপাশি তুলনা করুন", "কাজ, উৎস, ব্যবহার, ADI, নিয়ন্ত্রক অবস্থা ও প্রমাণ অনুযায়ী উপাদান তুলনা করুন, কোনো একটিকে সর্বজনীনভাবে ভালো না বলে।"],
+  },
+  "/ingredients/learn": {
+    en: ["Learn about food additives — E-numbers, ADI and labels", "Plain-language explainers on food additives, E-numbers, preservatives, sweeteners, MSG, food labels and how additives are tested."],
+    bn: ["ফুড অ্যাডিটিভ সম্পর্কে জানুন — E নম্বর, ADI ও লেবেল", "ফুড অ্যাডিটিভ, E নম্বর, প্রিজারভেটিভ, মিষ্টিকারক, এমএসজি, খাবারের লেবেল ও পরীক্ষার পদ্ধতি নিয়ে সহজ ভাষায় ব্যাখ্যা।"],
+  },
+  "/ingredients/evidence-labels": {
+    en: ["How to read our ingredient evidence labels", "What each evidence label means, how regulators use terms like GRAS and ADI, and why we don't give ingredients green or red scores."],
+    bn: ["উপাদানের প্রমাণের লেবেল কীভাবে পড়বেন", "প্রতিটি প্রমাণের লেবেলের অর্থ, নিয়ন্ত্রক সংস্থা GRAS ও ADI কীভাবে ব্যবহার করে, এবং কেন আমরা সবুজ বা লাল নম্বর দিই না।"],
+  },
   "/blog": {
     en: ["Nutrition blog", "Practical, evidence-based articles on eating well with everyday Bangladeshi food."],
     bn: ["পুষ্টি ব্লগ", "প্রতিদিনের দেশি খাবারে সুস্থভাবে খাওয়া নিয়ে সহজ ও প্রমাণভিত্তিক লেখা।"],
@@ -93,6 +117,7 @@ export const PAGE_META = {
 
 /** Parent page for breadcrumbs. */
 const PARENT = {
+  "/ingredients/explore": "/ingredients", "/ingredients/decoder": "/ingredients", "/ingredients/compare": "/ingredients", "/ingredients/learn": "/ingredients", "/ingredients/evidence-labels": "/ingredients",
   "/plants": "/learn", "/food-guide/food-storage": "/food-guide", "/food-guide/meal-times": "/food-guide",
   "/nutrition/vitamins": "/learn", "/nutrition/minerals": "/learn", "/nutrition/deficiency": "/learn",
   "/food-myths": "/learn", "/mens-health": "/learn", "/womens-health": "/learn", "/pregnancy": "/womens-health", "/child-nutrition": "/learn", "/food-guide": "/learn", "/coffee": "/learn", "/anti-aging": "/learn",

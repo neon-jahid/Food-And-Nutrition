@@ -1,0 +1,2645 @@
+[
+  {
+    "id": "silicon-dioxide",
+    "name": {
+      "en": "Silicon dioxide",
+      "bn": "সিলিকন ডাই-অক্সাইড"
+    },
+    "commonNames": [
+      "silica",
+      "synthetic amorphous silica",
+      "SAS"
+    ],
+    "labelNames": [
+      "silicon dioxide",
+      "silica",
+      "synthetic amorphous silica",
+      "e551",
+      "e 551",
+      "ins 551",
+      "সিলিকন ডাই-অক্সাইড",
+      "সিলিকা"
+    ],
+    "chemicalName": "Silicon dioxide, amorphous",
+    "eNumber": "E551",
+    "ins": "551",
+    "formula": "SiO2",
+    "category": "anti-caking-agents",
+    "origin": "synthetic",
+    "originNote": {
+      "en": "The food additive is mainly synthetic amorphous silica, a manufactured material. Being manufactured says nothing about safety either way.",
+      "bn": "খাদ্য সংযোজন হিসেবে ব্যবহৃত এই উপাদানটি মূলত কারখানায় তৈরি অনিয়তাকার সিলিকা। কারখানায় তৈরি হওয়া নিরাপত্তা সম্পর্কে ভালো বা মন্দ কিছুই বোঝায় না।"
+    },
+    "applications": [
+      "salt-seasonings",
+      "supplements"
+    ],
+    "summary": {
+      "en": "A fine powder that keeps dry foods flowing freely. EFSA found no safety concern in 2024, but data on its nano-sized particles remain limited.",
+      "bn": "শুকনো খাবারকে ঝরঝরে রাখে এমন মিহি গুঁড়া। ২০২৪ সালে ইএফএসএ নিরাপত্তাজনিত উদ্বেগ পায়নি, তবে এর ন্যানো আকারের কণা নিয়ে তথ্য এখনও সীমিত।"
+    },
+    "whatIs": {
+      "en": "Silicon dioxide (E551) is a very fine white powder. As a food additive it is mainly synthetic amorphous silica, made of tiny particles that are stuck together in larger clusters.",
+      "bn": "সিলিকন ডাই-অক্সাইড (E551) খুব মিহি সাদা গুঁড়া। খাদ্য সংযোজন হিসেবে এটি মূলত কৃত্রিম অনিয়তাকার সিলিকা, যার ক্ষুদ্র কণাগুলো একসঙ্গে জুড়ে বড় গুচ্ছ তৈরি করে।"
+    },
+    "whyUsed": {
+      "en": "It stops powdered foods such as salt, spice mixes and supplement powders from clumping.",
+      "bn": "লবণ, মসলার মিশ্রণ ও সাপ্লিমেন্টের গুঁড়া যাতে দলা না বাঁধে, সে জন্য এটি ব্যবহার করা হয়।"
+    },
+    "howItWorks": {
+      "en": "The particles coat powder grains and absorb moisture, so the grains cannot stick to each other.",
+      "bn": "কণাগুলো গুঁড়ার দানার গায়ে আস্তরণ তৈরি করে এবং আর্দ্রতা শুষে নেয়, ফলে দানাগুলো একে অপরের সঙ্গে লেগে যায় না।"
+    },
+    "properties": [
+      {
+        "en": "free-flow agent for powders",
+        "bn": "গুঁড়া ঝরঝরে রাখার উপাদান"
+      },
+      {
+        "en": "contains nano-sized primary particles",
+        "bn": "এতে ন্যানো আকারের প্রাথমিক কণা থাকে"
+      },
+      {
+        "en": "US limit: 2% of food by weight",
+        "bn": "যুক্তরাষ্ট্রের সীমা: খাবারের ওজনের ২%"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "texture",
+        "text": {
+          "en": "Keeps powdered foods loose and easy to pour.",
+          "bn": "গুঁড়া খাবারকে আলগা রাখে এবং ঢালা সহজ করে।"
+        }
+      },
+      {
+        "kind": "processing",
+        "text": {
+          "en": "Helps powders move smoothly through factory equipment.",
+          "bn": "কারখানার যন্ত্রে গুঁড়া সহজে চলাচল করতে সাহায্য করে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "preliminary",
+        "text": {
+          "en": "In its 2018 review EFSA could not confirm the earlier 'not specified' ADI, partly because no long-term study covered nano-sized silica. Its 2024 review, relying mainly on rat studies, found that only limited studies address nano-sized aggregates, that findings on immune effects were inconsistent, and that low-grade gut inflammation deserves further study in people.",
+          "bn": "২০১৮ সালের পর্যালোচনায় ইএফএসএ আগের 'নির্দিষ্ট নয়' এডিআই নিশ্চিত করতে পারেনি, আংশিকভাবে এ কারণে যে ন্যানো আকারের সিলিকা নিয়ে কোনো দীর্ঘমেয়াদি গবেষণা ছিল না। মূলত ইঁদুরের গবেষণার ওপর ভিত্তি করে ২০২৪ সালের পর্যালোচনায় দেখা যায়, ন্যানো গুচ্ছ নিয়ে গবেষণা সীমিত, রোগ-প্রতিরোধ ব্যবস্থার ওপর প্রভাবের ফলাফল অসামঞ্জস্যপূর্ণ এবং অন্ত্রের মৃদু প্রদাহ বিষয়টি মানুষের ক্ষেত্রে আরও গবেষণার দাবি রাখে।"
+        },
+        "sourceIds": [
+          "efsa-2018",
+          "efsa-2024",
+          "efsa-2024-summary"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA set no ADI in 2024 and instead compared estimated intakes with a no-effect dose from an 84-day rat study (2047 mg/kg bw/day). The margin was above the required 36 for every age group, so it found no safety concern at reported uses, including for infants under 16 weeks. How much of the additive exists as nano-sized particles in actual food is still unknown.",
+      "bn": "২০২৪ সালে ইএফএসএ কোনো এডিআই নির্ধারণ করেনি; বরং আনুমানিক গ্রহণের পরিমাণকে ইঁদুরের ৮৪ দিনের গবেষণার প্রভাবহীন মাত্রার (২০৪৭ মিলিগ্রাম/কেজি দেহওজন/দিন) সঙ্গে তুলনা করেছে। সব বয়সের ক্ষেত্রে ব্যবধান প্রয়োজনীয় ৩৬-এর বেশি ছিল, তাই ১৬ সপ্তাহের কম বয়সী শিশুসহ সবার জন্য প্রচলিত ব্যবহারে নিরাপত্তাজনিত উদ্বেগ পাওয়া যায়নি। প্রকৃত খাবারে এর কতটুকু ন্যানো কণা হিসেবে থাকে, তা এখনও অজানা।"
+    },
+    "statusLabels": [
+      "approved-specific",
+      "evidence-developing"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "No safety concern at reported uses for any age group, including infants under 16 weeks.",
+          "bn": "প্রচলিত ব্যবহারে ১৬ সপ্তাহের কম বয়সী শিশুসহ কোনো বয়সের জন্য নিরাপত্তাজনিত উদ্বেগ নেই।"
+        },
+        "adi": {
+          "type": "none-established",
+          "note": {
+            "en": "EFSA judged it still not appropriate to derive an ADI and used a margin-of-exposure approach.",
+            "bn": "ইএফএসএ মনে করেছে, এডিআই নির্ধারণ এখনও উপযুক্ত নয়; তাই এক্সপোজারের ব্যবধান পদ্ধতি ব্যবহার করা হয়েছে।"
+          }
+        },
+        "conditions": {
+          "en": "Recommended lower limits for lead, mercury and arsenic and a new limit for aluminium in the EU specifications.",
+          "bn": "ইইউ মানদণ্ডে সিসা, পারদ ও আর্সেনিকের সীমা কমানো এবং অ্যালুমিনিয়ামের নতুন সীমা যোগ করার সুপারিশ করা হয়েছে।"
+        },
+        "date": "2024-10",
+        "sourceId": "efsa-2024"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Earlier review: no toxicity indication at reported uses, but database limits and possible nanoparticles prevented confirming the ADI.",
+          "bn": "আগের পর্যালোচনা: প্রচলিত ব্যবহারে বিষাক্ততার ইঙ্গিত মেলেনি, তবে তথ্যের সীমাবদ্ধতা ও সম্ভাব্য ন্যানো কণার কারণে এডিআই নিশ্চিত করা যায়নি।"
+        },
+        "adi": {
+          "type": "none-established",
+          "note": {
+            "en": "The Scientific Committee on Food's 1991 ADI 'not specified' could not be confirmed.",
+            "bn": "খাদ্য বৈজ্ঞানিক কমিটির ১৯৯১ সালের 'নির্দিষ্ট নয়' এডিআই নিশ্চিত করা যায়নি।"
+          }
+        },
+        "date": "2018",
+        "sourceId": "efsa-2018"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International (FAO/WHO)",
+          "bn": "আন্তর্জাতিক (এফএও/ডব্লিউএইচও)"
+        },
+        "status": {
+          "en": "ADI 'not specified', set in 1985 and last reviewed for specifications in 2017.",
+          "bn": "এডিআই 'নির্দিষ্ট নয়'; ১৯৮৫ সালে নির্ধারিত এবং ২০১৭ সালে মানদণ্ডের জন্য সর্বশেষ পর্যালোচিত।"
+        },
+        "adi": {
+          "type": "not-specified",
+          "note": {
+            "en": "Group ADI for silicon dioxide and certain silicates.",
+            "bn": "সিলিকন ডাই-অক্সাইড ও নির্দিষ্ট কিছু সিলিকেটের সম্মিলিত এডিআই।"
+          }
+        },
+        "date": "2017",
+        "sourceId": "jecfa-2017"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "মার্কিন যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Permitted as an anticaking agent in foods where it is shown to work.",
+          "bn": "যেসব খাবারে কার্যকর বলে প্রমাণিত, সেখানে দলা-রোধী উপাদান হিসেবে অনুমোদিত।"
+        },
+        "limits": {
+          "en": "Not more than 2% of the food by weight.",
+          "bn": "খাবারের ওজনের ২%-এর বেশি নয়।"
+        },
+        "date": "2024-04",
+        "sourceId": "cfr-172-480"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-2018",
+        "org": "EFSA",
+        "title": "Re-evaluation of silicon dioxide (E 551) as a food additive",
+        "year": 2018,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009582/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "efsa-2024",
+        "org": "EFSA",
+        "title": "Re-evaluation of silicon dioxide (E 551) as a food additive in foods for infants below 16 weeks of age and follow-up of its re-evaluation as a food additive for uses in foods for all population groups",
+        "year": 2024,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11483555/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "efsa-2024-summary",
+        "org": "EFSA",
+        "title": "Plain-language summary: Re-evaluation of silicon dioxide (E 551) as a food additive in foods for infants below 16 weeks of age and follow-up",
+        "year": 2024,
+        "url": "https://www.efsa.europa.eu/en/plain-language-summary/re-evaluation-silicon-dioxide-e-551-food-additive-foods-infants-below-16",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "jecfa-2017",
+        "org": "JECFA (WHO database)",
+        "title": "Silicon dioxide, amorphous: JECFA evaluation record",
+        "year": 2017,
+        "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=2462",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-172-480",
+        "org": "US FDA (21 CFR, govinfo)",
+        "title": "21 CFR 172.480 Silicon dioxide",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec172-480.xml",
+        "kind": "regulatory"
+      }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "No EFSA opinion later than October 2024 and no Commission act adopting the recommended specification changes were found."
+    }
+  },
+  {
+    "id": "calcium-silicate",
+    "name": {
+      "en": "Calcium silicate",
+      "bn": "ক্যালসিয়াম সিলিকেট"
+    },
+    "commonNames": [],
+    "labelNames": [
+      "calcium silicate",
+      "e552",
+      "e 552",
+      "ins 552",
+      "ক্যালসিয়াম সিলিকেট"
+    ],
+    "chemicalName": "Calcium silicate",
+    "eNumber": "E552",
+    "ins": "552",
+    "category": "anti-caking-agents",
+    "origin": "synthetic",
+    "originNote": {
+      "en": "US rules cover calcium silicate including synthetic forms. How it is made tells us nothing about its safety.",
+      "bn": "যুক্তরাষ্ট্রের নিয়মে কৃত্রিমভাবে তৈরি রূপসহ ক্যালসিয়াম সিলিকেট অন্তর্ভুক্ত। এটি কীভাবে তৈরি, তা থেকে নিরাপত্তা সম্পর্কে কিছু বোঝা যায় না।"
+    },
+    "applications": [
+      "salt-seasonings",
+      "bread-bakery",
+      "supplements"
+    ],
+    "summary": {
+      "en": "An anti-clumping powder. EFSA could not assess its safety in 2018 because long-term data were lacking; an updated review is under way.",
+      "bn": "দলা বাঁধা রোধকারী গুঁড়া। দীর্ঘমেয়াদি তথ্যের অভাবে ২০১৮ সালে ইএফএসএ এর নিরাপত্তা মূল্যায়ন করতে পারেনি; হালনাগাদ পর্যালোচনা চলছে।"
+    },
+    "whatIs": {
+      "en": "Calcium silicate (E552) is a white powder made of calcium, silicon and oxygen. It is added in small amounts to dry foods.",
+      "bn": "ক্যালসিয়াম সিলিকেট (E552) ক্যালসিয়াম, সিলিকন ও অক্সিজেন দিয়ে গঠিত সাদা গুঁড়া। শুকনো খাবারে এটি অল্প পরিমাণে যোগ করা হয়।"
+    },
+    "whyUsed": {
+      "en": "It keeps products such as table salt and baking powder from caking in the packet.",
+      "bn": "খাবার লবণ ও বেকিং পাউডারের মতো পণ্য যাতে প্যাকেটের ভেতরে জমে না যায়, সে জন্য এটি ব্যবহৃত হয়।"
+    },
+    "howItWorks": {
+      "en": "It is porous and soaks up moisture and oils, so that food grains stay separate.",
+      "bn": "এটি ছিদ্রযুক্ত এবং আর্দ্রতা ও তেল শুষে নেয়, ফলে খাবারের দানাগুলো আলাদা থাকে।"
+    },
+    "properties": [
+      {
+        "en": "absorbs moisture",
+        "bn": "আর্দ্রতা শোষণ করে"
+      },
+      {
+        "en": "very low absorption in the body",
+        "bn": "শরীরে শোষণ খুবই কম"
+      },
+      {
+        "en": "US limit: 2% of food (5% in baking powder)",
+        "bn": "যুক্তরাষ্ট্রের সীমা: খাবারের ২% (বেকিং পাউডারে ৫%)"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "texture",
+        "text": {
+          "en": "Keeps salt and other powders free-flowing.",
+          "bn": "লবণ ও অন্যান্য গুঁড়াকে ঝরঝরে রাখে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA found no sign of genotoxicity or developmental toxicity, but concluded in 2018 that safety 'cannot be assessed' because long-term, cancer and reproduction studies were too limited. The only chronic study, a 2-year rat study, was too limited for firm conclusions; at doses up to 5,000 mg/kg bw/day silicon built up in the liver and kidney.",
+          "bn": "ইএফএসএ জিনগত বিষাক্ততা বা বিকাশজনিত বিষাক্ততার কোনো লক্ষণ পায়নি, তবে ২০১৮ সালে সিদ্ধান্ত দিয়েছে যে দীর্ঘমেয়াদি, ক্যান্সার ও প্রজনন গবেষণা সীমিত হওয়ায় নিরাপত্তা 'মূল্যায়ন করা যায় না'। একমাত্র দীর্ঘমেয়াদি গবেষণাটি ছিল ইঁদুরের ওপর ২ বছরের, যা দৃঢ় সিদ্ধান্তের জন্য যথেষ্ট নয়; ৫,০০০ মিলিগ্রাম/কেজি দেহওজন/দিন পর্যন্ত মাত্রায় যকৃৎ ও কিডনিতে সিলিকন জমেছিল।"
+        },
+        "sourceIds": [
+          "efsa-2018"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "'Cannot be assessed' means the evidence is incomplete; it is not a finding of harm. Absorption of silicates is very low, and EFSA noted that some electron-microscope data placed calcium silicate in the nano size range, while laser measurements found no particles below 100 nm.",
+      "bn": "'মূল্যায়ন করা যায় না' মানে তথ্য অসম্পূর্ণ; এর অর্থ ক্ষতি প্রমাণিত হয়েছে এমন নয়। সিলিকেটের শোষণ খুবই কম। ইএফএসএ উল্লেখ করেছে, ইলেকট্রন মাইক্রোস্কোপের কিছু তথ্যে ক্যালসিয়াম সিলিকেট ন্যানো আকারের পরিসরে পড়েছে, তবে লেজার পরিমাপে ১০০ ন্যানোমিটারের নিচে কোনো কণা পাওয়া যায়নি।"
+    },
+    "statusLabels": [
+      "approved-specific",
+      "evidence-developing"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Safety as a food additive could not be assessed; further toxicity studies were recommended.",
+          "bn": "খাদ্য সংযোজন হিসেবে নিরাপত্তা মূল্যায়ন করা যায়নি; আরও বিষাক্ততা গবেষণার সুপারিশ করা হয়েছে।"
+        },
+        "adi": {
+          "type": "none-established",
+          "note": {
+            "en": "EFSA considered the earlier group ADI 'not specified' from the Scientific Committee on Food obsolete.",
+            "bn": "ইএফএসএ খাদ্য বৈজ্ঞানিক কমিটির আগের সম্মিলিত 'নির্দিষ্ট নয়' এডিআইকে অপ্রচলিত বলে গণ্য করেছে।"
+          }
+        },
+        "date": "2018-08",
+        "sourceId": "efsa-2018"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "An updated opinion on calcium and magnesium silicates was listed as an ongoing risk assessment.",
+          "bn": "ক্যালসিয়াম ও ম্যাগনেসিয়াম সিলিকেট নিয়ে হালনাগাদ মতামত চলমান ঝুঁকি মূল্যায়ন হিসেবে তালিকাভুক্ত ছিল।"
+        },
+        "date": "2026-07",
+        "sourceId": "openefsa-2026"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International (FAO/WHO)",
+          "bn": "আন্তর্জাতিক (এফএও/ডব্লিউএইচও)"
+        },
+        "status": {
+          "en": "ADI 'not specified', first set in 1985 and listed at the 2015 evaluation.",
+          "bn": "এডিআই 'নির্দিষ্ট নয়'; ১৯৮৫ সালে প্রথম নির্ধারিত এবং ২০১৫ সালের মূল্যায়নেও তালিকাভুক্ত।"
+        },
+        "adi": {
+          "type": "not-specified",
+          "note": {
+            "en": "Group ADI for silicon dioxide and certain silicates.",
+            "bn": "সিলিকন ডাই-অক্সাইড ও নির্দিষ্ট কিছু সিলিকেটের সম্মিলিত এডিআই।"
+          }
+        },
+        "date": "2015",
+        "sourceId": "jecfa-2015"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "মার্কিন যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Permitted as an anticaking agent.",
+          "bn": "দলা-রোধী উপাদান হিসেবে অনুমোদিত।"
+        },
+        "limits": {
+          "en": "Not more than 2% of the food by weight; up to 5% in baking powder.",
+          "bn": "খাবারের ওজনের ২%-এর বেশি নয়; বেকিং পাউডারে সর্বোচ্চ ৫%।"
+        },
+        "date": "2024-04",
+        "sourceId": "cfr-172-410"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-2018",
+        "org": "EFSA",
+        "title": "Re-evaluation of calcium silicate (E 552), magnesium silicate (E 553a(i)), magnesium trisilicate (E 553a(ii)) and talc (E 553b) as food additives",
+        "year": 2018,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009349/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "openefsa-2026",
+        "org": "EFSA (OpenEFSA)",
+        "title": "OpenEFSA question EFSA-Q-2024-00284: updated opinion on calcium silicate (E 552), magnesium silicate (E 553a(i)) and magnesium trisilicate (E 553a(ii))",
+        "year": 2026,
+        "url": "https://open.efsa.europa.eu/questions/EFSA-Q-2024-00284",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "jecfa-2015",
+        "org": "JECFA (WHO database)",
+        "title": "Calcium silicate: JECFA evaluation record",
+        "year": 2015,
+        "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=1559",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-172-410",
+        "org": "US FDA (21 CFR, govinfo)",
+        "title": "21 CFR 172.410 Calcium silicate",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec172-410.xml",
+        "kind": "regulatory"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "The ongoing status of EFSA's updated opinion comes from a search result for the OpenEFSA page, whose content did not load when opened. EU maximum levels for E552 could not be read and are left out."
+    }
+  },
+  {
+    "id": "magnesium-carbonate",
+    "name": {
+      "en": "Magnesium carbonate",
+      "bn": "ম্যাগনেসিয়াম কার্বনেট"
+    },
+    "commonNames": [
+      "magnesium carbonate hydroxide"
+    ],
+    "labelNames": [
+      "magnesium carbonate",
+      "magnesium carbonates",
+      "magnesium hydroxide carbonate",
+      "magnesium carbonate hydroxide",
+      "e504",
+      "e 504",
+      "ins 504",
+      "ম্যাগনেসিয়াম কার্বনেট"
+    ],
+    "chemicalName": "Magnesium carbonate",
+    "eNumber": "E504",
+    "ins": "504",
+    "category": "anti-caking-agents",
+    "alsoIn": [
+      "acidity-regulators"
+    ],
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "US rules describe it as made by chemical reaction of magnesium salts or magnesium hydroxide with carbonate or carbon dioxide.",
+      "bn": "যুক্তরাষ্ট্রের নিয়ম অনুযায়ী এটি ম্যাগনেসিয়াম লবণ বা ম্যাগনেসিয়াম হাইড্রোক্সাইডের সঙ্গে কার্বনেট বা কার্বন ডাই-অক্সাইডের রাসায়নিক বিক্রিয়ায় তৈরি হয়।"
+    },
+    "applications": [
+      "salt-seasonings",
+      "flour-grains",
+      "supplements"
+    ],
+    "summary": {
+      "en": "A white mineral powder that keeps dry foods loose and adjusts acidity. EFSA's re-evaluation has not been completed.",
+      "bn": "শুকনো খাবার ঝরঝরে রাখে ও অম্লতা নিয়ন্ত্রণ করে এমন সাদা খনিজ গুঁড়া। ইএফএসএর পুনর্মূল্যায়ন এখনও শেষ হয়নি।"
+    },
+    "whatIs": {
+      "en": "Magnesium carbonate (E504) is a white powder containing magnesium and carbonate. The food-grade material may be a carbonate-hydroxide form.",
+      "bn": "ম্যাগনেসিয়াম কার্বনেট (E504) ম্যাগনেসিয়াম ও কার্বনেটযুক্ত সাদা গুঁড়া। খাদ্য-মানের উপাদানটি কার্বনেট-হাইড্রোক্সাইড রূপেও থাকতে পারে।"
+    },
+    "whyUsed": {
+      "en": "It stops powders from caking and can also adjust acidity or treat flour.",
+      "bn": "এটি গুঁড়াকে জমে যাওয়া থেকে রক্ষা করে এবং অম্লতা নিয়ন্ত্রণ বা ময়দা প্রক্রিয়াজাতকরণেও ব্যবহৃত হতে পারে।"
+    },
+    "howItWorks": {
+      "en": "Its fine particles take up moisture and sit between food grains. As a mild base it can also lower acidity.",
+      "bn": "এর মিহি কণা আর্দ্রতা শুষে নেয় এবং খাবারের দানার মাঝে অবস্থান করে। মৃদু ক্ষারক হওয়ায় এটি অম্লতাও কমাতে পারে।"
+    },
+    "properties": [
+      {
+        "en": "anticaking agent and pH control agent",
+        "bn": "দলা-রোধী ও পিএইচ নিয়ন্ত্রক উপাদান"
+      },
+      {
+        "en": "mild base",
+        "bn": "মৃদু ক্ষারক"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "texture",
+        "text": {
+          "en": "Keeps powders loose during storage.",
+          "bn": "সংরক্ষণের সময় গুঁড়াকে আলগা রাখে।"
+        }
+      },
+      {
+        "kind": "processing",
+        "text": {
+          "en": "Can act as a flour treatment and acidity regulator.",
+          "bn": "ময়দা প্রক্রিয়াজাতকরণ ও অম্লতা নিয়ন্ত্রণে কাজ করতে পারে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "No completed EFSA opinion on E504 was found: it was on EFSA's 2026 priority list for use-level data. JECFA's magnesium carbonate evaluation dates from 1965, so the assessment is old rather than showing a specific concern.",
+          "bn": "E504 নিয়ে ইএফএসএর কোনো সম্পূর্ণ মতামত পাওয়া যায়নি; ব্যবহারের মাত্রার তথ্যের জন্য এটি ২০২৬ সালের অগ্রাধিকার তালিকায় ছিল। জেইসিএফএর ম্যাগনেসিয়াম কার্বনেট মূল্যায়ন ১৯৬৫ সালের; অর্থাৎ মূল্যায়নটি পুরোনো, কোনো নির্দিষ্ট উদ্বেগ এতে দেখানো হয়নি।"
+        },
+        "sourceIds": [
+          "efsa-call-2026",
+          "jecfa-1965"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "JECFA set no numerical limit and US rules allow use at good manufacturing practice. This record does not include a dose-based hazard because no recent authority assessment was found to base one on.",
+      "bn": "জেইসিএফএ কোনো সংখ্যাগত সীমা নির্ধারণ করেনি এবং যুক্তরাষ্ট্রের নিয়মে উত্তম উৎপাদন অনুশীলন অনুযায়ী ব্যবহার অনুমোদিত। সাম্প্রতিক কোনো কর্তৃপক্ষের মূল্যায়ন না পাওয়ায় এই তথ্যে মাত্রাভিত্তিক কোনো ঝুঁকির কথা উল্লেখ করা হয়নি।"
+    },
+    "statusLabels": [
+      "gras-conditions",
+      "evidence-developing"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Listed for use-level data under the re-evaluation framework; no finished opinion found.",
+          "bn": "পুনর্মূল্যায়ন কাঠামোর আওতায় ব্যবহারের মাত্রার তথ্যের জন্য তালিকাভুক্ত; কোনো চূড়ান্ত মতামত পাওয়া যায়নি।"
+        },
+        "date": "2026-03",
+        "sourceId": "efsa-call-2026"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International (FAO/WHO)",
+          "bn": "আন্তর্জাতিক (এফএও/ডব্লিউএইচও)"
+        },
+        "status": {
+          "en": "Evaluated in 1965 as 'not limited'.",
+          "bn": "১৯৬৫ সালে 'সীমাহীন' হিসেবে মূল্যায়িত।"
+        },
+        "adi": {
+          "type": "not-specified",
+          "note": {
+            "en": "JECFA's record uses its older wording, 'not limited'.",
+            "bn": "জেইসিএফএর নথিতে এর পুরোনো শব্দ 'সীমাহীন' ব্যবহার করা হয়েছে।"
+          }
+        },
+        "date": "1965",
+        "sourceId": "jecfa-1965"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "মার্কিন যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Affirmed as GRAS (magnesium carbonate hydroxide).",
+          "bn": "জিআরএএস হিসেবে স্বীকৃত (ম্যাগনেসিয়াম কার্বনেট হাইড্রোক্সাইড)।"
+        },
+        "limits": {
+          "en": "No numeric cap; good manufacturing practice applies.",
+          "bn": "সংখ্যাগত সীমা নেই; উত্তম উৎপাদন অনুশীলন প্রযোজ্য।"
+        },
+        "date": "2024-04",
+        "sourceId": "cfr-184-1425"
+      },
+      {
+        "authority": "FSA",
+        "jurisdiction": {
+          "en": "United Kingdom",
+          "bn": "যুক্তরাজ্য"
+        },
+        "status": {
+          "en": "Listed among approved additives as magnesium carbonates.",
+          "bn": "অনুমোদিত সংযোজনের তালিকায় ম্যাগনেসিয়াম কার্বনেটস নামে অন্তর্ভুক্ত।"
+        },
+        "date": "2026-06",
+        "sourceId": "fsa-approved"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-call-2026",
+        "org": "EFSA",
+        "title": "Open call for food additives analytical data and use levels in food and beverages intended for human consumption",
+        "year": 2026,
+        "url": "https://www.efsa.europa.eu/en/call/open-call-food-additives-analytical-data-and-use-levels-food-and-beverages-intended-human",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "jecfa-1965",
+        "org": "JECFA (INCHEM)",
+        "title": "JECFA Evaluations: Magnesium carbonate",
+        "year": 1965,
+        "url": "https://inchem.org/documents/jecfa/jeceval/jec_1295.htm",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-184-1425",
+        "org": "US FDA (21 CFR, govinfo)",
+        "title": "21 CFR 184.1425 Magnesium carbonate",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1425.xml",
+        "kind": "regulatory"
+      },
+      {
+        "id": "fsa-approved",
+        "org": "Food Standards Agency",
+        "title": "Approved additives and E numbers",
+        "year": 2026,
+        "url": "https://www.food.gov.uk/business-guidance/approved-additives-and-e-numbers?navref=search-global-all-1",
+        "kind": "agency-guidance"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "No completed EFSA opinion on E504 could be found. EU permitted uses and maximum levels could not be read (EUR-Lex pages did not load) and are left out. JECFA's 1965 entry reads 'not limited' and is stored as not-specified. The US rule names magnesium carbonate hydroxide."
+    }
+  },
+  {
+    "id": "sodium-bicarbonate",
+    "name": {
+      "en": "Sodium bicarbonate",
+      "bn": "সোডিয়াম বাইকার্বনেট"
+    },
+    "commonNames": [
+      "baking soda",
+      "bicarbonate of soda",
+      "sodium hydrogen carbonate"
+    ],
+    "labelNames": [
+      "sodium bicarbonate",
+      "baking soda",
+      "bicarbonate of soda",
+      "sodium hydrogen carbonate",
+      "e500(ii)",
+      "e 500(ii)",
+      "e500ii",
+      "e 500ii",
+      "ins 500(ii)",
+      "সোডিয়াম বাইকার্বনেট",
+      "বেকিং সোডা"
+    ],
+    "chemicalName": "Sodium hydrogen carbonate",
+    "eNumber": "E500(ii)",
+    "ins": "500(ii)",
+    "formula": "NaHCO3",
+    "category": "leavening-agents",
+    "alsoIn": [
+      "acidity-regulators"
+    ],
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "US rules describe it as made by treating sodium carbonate solution with carbon dioxide.",
+      "bn": "যুক্তরাষ্ট্রের নিয়ম অনুযায়ী সোডিয়াম কার্বনেটের দ্রবণে কার্বন ডাই-অক্সাইড প্রয়োগ করে এটি তৈরি হয়।"
+    },
+    "applications": [
+      "bread-bakery",
+      "biscuits"
+    ],
+    "summary": {
+      "en": "Baking soda: a raising agent that releases carbon dioxide so baked foods rise. Used with no US limit beyond good manufacturing practice.",
+      "bn": "বেকিং সোডা: কার্বন ডাই-অক্সাইড ছেড়ে বেকড খাবার ফোলায়। যুক্তরাষ্ট্রে উত্তম উৎপাদন অনুশীলন ছাড়া আর কোনো সীমা নেই।"
+    },
+    "whatIs": {
+      "en": "Sodium bicarbonate, or baking soda, is a white powder. On food labels it appears as E500(ii) or as a raising agent.",
+      "bn": "সোডিয়াম বাইকার্বনেট বা বেকিং সোডা একটি সাদা গুঁড়া। খাবারের লেবেলে এটি E500(ii) বা ফোলানোর উপাদান হিসেবে লেখা থাকে।"
+    },
+    "whyUsed": {
+      "en": "It makes cakes, biscuits and breads light by producing gas in the dough or batter.",
+      "bn": "খামির বা গোলায় গ্যাস তৈরি করে এটি কেক, বিস্কুট ও রুটিকে হালকা করে।"
+    },
+    "howItWorks": {
+      "en": "When it meets an acid, or is heated, it releases carbon dioxide. The gas bubbles expand and lift the dough.",
+      "bn": "অম্লের সংস্পর্শে এলে বা তাপ পেলে এটি কার্বন ডাই-অক্সাইড ছাড়ে। গ্যাসের বুদ্বুদ প্রসারিত হয়ে খামিরকে ফুলিয়ে তোলে।"
+    },
+    "properties": [
+      {
+        "en": "raising agent",
+        "bn": "ফোলানোর উপাদান"
+      },
+      {
+        "en": "releases carbon dioxide with acid or heat",
+        "bn": "অম্ল বা তাপে কার্বন ডাই-অক্সাইড ছাড়ে"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "texture",
+        "text": {
+          "en": "Gives baked foods a light, open crumb.",
+          "bn": "বেকড খাবারকে হালকা ও ফাঁপা গঠন দেয়।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "No completed EFSA opinion on E500 was found: it was on EFSA's 2026 priority list for use-level data, and JECFA's evaluation dates from 1965. This reflects the age of the assessments, not a specific safety finding.",
+          "bn": "E500 নিয়ে ইএফএসএর কোনো সম্পূর্ণ মতামত পাওয়া যায়নি; ব্যবহারের মাত্রার তথ্যের জন্য এটি ২০২৬ সালের অগ্রাধিকার তালিকায় ছিল, আর জেইসিএফএর মূল্যায়ন ১৯৬৫ সালের। এটি মূল্যায়নের বয়স বোঝায়, কোনো নির্দিষ্ট নিরাপত্তাজনিত ফলাফল নয়।"
+        },
+        "sourceIds": [
+          "efsa-call-2026",
+          "jecfa-1965"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "JECFA set no numerical limit and US rules allow use at good manufacturing practice. During baking, bicarbonate reacts to release carbon dioxide, which is how it does its job.",
+      "bn": "জেইসিএফএ কোনো সংখ্যাগত সীমা নির্ধারণ করেনি এবং যুক্তরাষ্ট্রের নিয়মে উত্তম উৎপাদন অনুশীলন অনুযায়ী ব্যবহার অনুমোদিত। বেকিংয়ের সময় বাইকার্বনেট বিক্রিয়া করে কার্বন ডাই-অক্সাইড ছাড়ে; এভাবেই এটি কাজ করে।"
+    },
+    "statusLabels": [
+      "gras-conditions",
+      "evidence-developing"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Listed for use-level data under the re-evaluation framework; no finished opinion found.",
+          "bn": "পুনর্মূল্যায়ন কাঠামোর আওতায় ব্যবহারের মাত্রার তথ্যের জন্য তালিকাভুক্ত; কোনো চূড়ান্ত মতামত পাওয়া যায়নি।"
+        },
+        "date": "2026-03",
+        "sourceId": "efsa-call-2026"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International (FAO/WHO)",
+          "bn": "আন্তর্জাতিক (এফএও/ডব্লিউএইচও)"
+        },
+        "status": {
+          "en": "Evaluated in 1965 as 'not limited'.",
+          "bn": "১৯৬৫ সালে 'সীমাহীন' হিসেবে মূল্যায়িত।"
+        },
+        "adi": {
+          "type": "not-specified",
+          "note": {
+            "en": "JECFA's record uses its older wording, 'not limited'.",
+            "bn": "জেইসিএফএর নথিতে এর পুরোনো শব্দ 'সীমাহীন' ব্যবহার করা হয়েছে।"
+          }
+        },
+        "date": "1965",
+        "sourceId": "jecfa-1965"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "মার্কিন যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Affirmed as GRAS.",
+          "bn": "জিআরএএস হিসেবে স্বীকৃত।"
+        },
+        "limits": {
+          "en": "No limit other than good manufacturing practice.",
+          "bn": "উত্তম উৎপাদন অনুশীলন ছাড়া অন্য কোনো সীমা নেই।"
+        },
+        "date": "2024-04",
+        "sourceId": "cfr-184-1736"
+      },
+      {
+        "authority": "FSA",
+        "jurisdiction": {
+          "en": "United Kingdom",
+          "bn": "যুক্তরাজ্য"
+        },
+        "status": {
+          "en": "Listed among approved additives under sodium carbonates (E500).",
+          "bn": "সোডিয়াম কার্বনেটস (E500) শিরোনামে অনুমোদিত সংযোজনের তালিকায় অন্তর্ভুক্ত।"
+        },
+        "date": "2026-06",
+        "sourceId": "fsa-approved"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-call-2026",
+        "org": "EFSA",
+        "title": "Open call for food additives analytical data and use levels in food and beverages intended for human consumption",
+        "year": 2026,
+        "url": "https://www.efsa.europa.eu/en/call/open-call-food-additives-analytical-data-and-use-levels-food-and-beverages-intended-human",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "jecfa-1965",
+        "org": "JECFA (INCHEM)",
+        "title": "JECFA Evaluations: Sodium hydrogen carbonate",
+        "year": 1965,
+        "url": "https://inchem.org/documents/jecfa/jeceval/jec_2151.htm",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-184-1736",
+        "org": "US FDA (21 CFR, govinfo)",
+        "title": "21 CFR 184.1736 Sodium bicarbonate",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1736.xml",
+        "kind": "regulatory"
+      },
+      {
+        "id": "fsa-approved",
+        "org": "Food Standards Agency",
+        "title": "Approved additives and E numbers",
+        "year": 2026,
+        "url": "https://www.food.gov.uk/business-guidance/approved-additives-and-e-numbers?navref=search-global-all-1",
+        "kind": "agency-guidance"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "No completed EFSA opinion on E500 could be found. EU permitted uses and maximum levels could not be read (EUR-Lex pages did not load) and are left out. JECFA's 1965 entry reads 'not limited' and is stored as not-specified."
+    }
+  },
+  {
+    "id": "ammonium-bicarbonate",
+    "name": {
+      "en": "Ammonium bicarbonate",
+      "bn": "অ্যামোনিয়াম বাইকার্বনেট"
+    },
+    "commonNames": [
+      "ammonium hydrogen carbonate",
+      "baker's ammonia"
+    ],
+    "labelNames": [
+      "ammonium bicarbonate",
+      "ammonium hydrogen carbonate",
+      "baker's ammonia",
+      "e503(ii)",
+      "e 503(ii)",
+      "e503ii",
+      "e 503ii",
+      "ins 503(ii)",
+      "অ্যামোনিয়াম বাইকার্বনেট"
+    ],
+    "chemicalName": "Ammonium hydrogen carbonate",
+    "eNumber": "E503(ii)",
+    "ins": "503(ii)",
+    "formula": "NH4HCO3",
+    "category": "leavening-agents",
+    "alsoIn": [
+      "acidity-regulators"
+    ],
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "US rules describe it as made by bubbling carbon dioxide into ammonia solution.",
+      "bn": "যুক্তরাষ্ট্রের নিয়ম অনুযায়ী অ্যামোনিয়ার দ্রবণে কার্বন ডাই-অক্সাইড চালনা করে এটি তৈরি হয়।"
+    },
+    "applications": [
+      "biscuits",
+      "bread-bakery"
+    ],
+    "summary": {
+      "en": "A raising agent for thin, dry baked goods such as biscuits. It breaks down into gases when heated.",
+      "bn": "বিস্কুটের মতো পাতলা, শুকনো বেকড খাবারের ফোলানোর উপাদান। তাপে এটি ভেঙে গ্যাসে পরিণত হয়।"
+    },
+    "whatIs": {
+      "en": "Ammonium bicarbonate (E503(ii)) is a white crystalline powder used as a raising agent. It is one of the ammonium carbonates listed as food additives.",
+      "bn": "অ্যামোনিয়াম বাইকার্বনেট (E503(ii)) ফোলানোর কাজে ব্যবহৃত সাদা দানাদার গুঁড়া। খাদ্য সংযোজন হিসেবে তালিকাভুক্ত অ্যামোনিয়াম কার্বনেটগুলোর একটি।"
+    },
+    "whyUsed": {
+      "en": "It gives crisp biscuits and crackers a light texture without needing an added acid.",
+      "bn": "আলাদা অম্ল ছাড়াই এটি মচমচে বিস্কুট ও ক্র্যাকারকে হালকা গঠন দেয়।"
+    },
+    "howItWorks": {
+      "en": "Oven heat breaks it down into ammonia, carbon dioxide and water vapour, and the gases puff up the dough. Thin products let the ammonia escape during baking.",
+      "bn": "চুলার তাপে এটি অ্যামোনিয়া, কার্বন ডাই-অক্সাইড ও জলীয় বাষ্পে ভেঙে যায়, আর গ্যাসগুলো খামিরকে ফুলিয়ে তোলে। পাতলা খাবার থেকে বেকিংয়ের সময় অ্যামোনিয়া বেরিয়ে যায়।"
+    },
+    "properties": [
+      {
+        "en": "breaks down fully on heating",
+        "bn": "তাপে সম্পূর্ণ ভেঙে যায়"
+      },
+      {
+        "en": "suits thin, dry baked goods",
+        "bn": "পাতলা, শুকনো বেকড খাবারের জন্য উপযোগী"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "texture",
+        "text": {
+          "en": "Produces a crisp, light texture in biscuits.",
+          "bn": "বিস্কুটে মচমচে ও হালকা গঠন আনে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "No completed EFSA opinion on E503 was found: it was on EFSA's 2026 priority list for use-level data, and JECFA's latest evaluation is from 1982. This reflects the age of the assessments, not a specific safety finding.",
+          "bn": "E503 নিয়ে ইএফএসএর কোনো সম্পূর্ণ মতামত পাওয়া যায়নি; ব্যবহারের মাত্রার তথ্যের জন্য এটি ২০২৬ সালের অগ্রাধিকার তালিকায় ছিল, আর জেইসিএফএর সর্বশেষ মূল্যায়ন ১৯৮২ সালের। এটি মূল্যায়নের বয়স বোঝায়, কোনো নির্দিষ্ট নিরাপত্তাজনিত ফলাফল নয়।"
+        },
+        "sourceIds": [
+          "efsa-call-2026",
+          "jecfa-1982"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "JECFA gave an ADI 'not specified', meaning it saw no need for a numerical limit, and US rules allow use at good manufacturing practice. The compound breaks down into gases during baking.",
+      "bn": "জেইসিএফএ 'নির্দিষ্ট নয়' এডিআই দিয়েছে, অর্থাৎ সংখ্যাগত সীমার প্রয়োজন দেখেনি; যুক্তরাষ্ট্রের নিয়মে উত্তম উৎপাদন অনুশীলন অনুযায়ী ব্যবহার অনুমোদিত। বেকিংয়ের সময় যৌগটি ভেঙে গ্যাসে পরিণত হয়।"
+    },
+    "statusLabels": [
+      "gras-conditions",
+      "evidence-developing"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Listed for use-level data under the re-evaluation framework; no finished opinion found.",
+          "bn": "পুনর্মূল্যায়ন কাঠামোর আওতায় ব্যবহারের মাত্রার তথ্যের জন্য তালিকাভুক্ত; কোনো চূড়ান্ত মতামত পাওয়া যায়নি।"
+        },
+        "date": "2026-03",
+        "sourceId": "efsa-call-2026"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International (FAO/WHO)",
+          "bn": "আন্তর্জাতিক (এফএও/ডব্লিউএইচও)"
+        },
+        "status": {
+          "en": "ADI 'not specified'.",
+          "bn": "এডিআই 'নির্দিষ্ট নয়'।"
+        },
+        "adi": {
+          "type": "not-specified"
+        },
+        "date": "1982",
+        "sourceId": "jecfa-1982"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "মার্কিন যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Affirmed as GRAS as a leavening agent, dough strengthener, pH control agent and texturizer.",
+          "bn": "ফোলানোর উপাদান, খামির শক্তিবর্ধক, পিএইচ নিয়ন্ত্রক ও গঠন উন্নয়নকারী হিসেবে জিআরএএস স্বীকৃত।"
+        },
+        "limits": {
+          "en": "No limit other than good manufacturing practice.",
+          "bn": "উত্তম উৎপাদন অনুশীলন ছাড়া অন্য কোনো সীমা নেই।"
+        },
+        "date": "2024-04",
+        "sourceId": "cfr-184-1135"
+      },
+      {
+        "authority": "FSA",
+        "jurisdiction": {
+          "en": "United Kingdom",
+          "bn": "যুক্তরাজ্য"
+        },
+        "status": {
+          "en": "Listed among approved additives under ammonium carbonates (E503).",
+          "bn": "অ্যামোনিয়াম কার্বনেটস (E503) শিরোনামে অনুমোদিত সংযোজনের তালিকায় অন্তর্ভুক্ত।"
+        },
+        "date": "2026-06",
+        "sourceId": "fsa-approved"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-call-2026",
+        "org": "EFSA",
+        "title": "Open call for food additives analytical data and use levels in food and beverages intended for human consumption",
+        "year": 2026,
+        "url": "https://www.efsa.europa.eu/en/call/open-call-food-additives-analytical-data-and-use-levels-food-and-beverages-intended-human",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "jecfa-1982",
+        "org": "JECFA (INCHEM)",
+        "title": "JECFA Evaluations: Ammonium hydrogen carbonate",
+        "year": 1982,
+        "url": "https://inchem.org/documents/jecfa/jeceval/jec_105.htm",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-184-1135",
+        "org": "US FDA (21 CFR, govinfo)",
+        "title": "21 CFR 184.1135 Ammonium bicarbonate",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1135.xml",
+        "kind": "regulatory"
+      },
+      {
+        "id": "fsa-approved",
+        "org": "Food Standards Agency",
+        "title": "Approved additives and E numbers",
+        "year": 2026,
+        "url": "https://www.food.gov.uk/business-guidance/approved-additives-and-e-numbers?navref=search-global-all-1",
+        "kind": "agency-guidance"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "No completed EFSA opinion on E503 could be found. EU permitted uses and maximum levels could not be read (EUR-Lex pages did not load) and are left out."
+    }
+  },
+  {
+    "id": "sodium-acid-pyrophosphate",
+    "name": {
+      "en": "Sodium acid pyrophosphate",
+      "bn": "সোডিয়াম অ্যাসিড পাইরোফসফেট"
+    },
+    "commonNames": [
+      "SAPP",
+      "disodium diphosphate",
+      "disodium dihydrogen diphosphate",
+      "acid sodium pyrophosphate"
+    ],
+    "labelNames": [
+      "sodium acid pyrophosphate",
+      "sapp",
+      "disodium diphosphate",
+      "disodium dihydrogen diphosphate",
+      "disodium dihydrogen pyrophosphate",
+      "acid sodium pyrophosphate",
+      "e450(i)",
+      "e 450(i)",
+      "e450i",
+      "e 450i",
+      "ins 450(i)",
+      "সোডিয়াম অ্যাসিড পাইরোফসফেট"
+    ],
+    "chemicalName": "Disodium dihydrogen diphosphate",
+    "eNumber": "E450(i)",
+    "ins": "450(i)",
+    "formula": "Na2H2P2O7",
+    "category": "leavening-agents",
+    "origin": "synthetic",
+    "applications": [
+      "bread-bakery",
+      "biscuits"
+    ],
+    "summary": {
+      "en": "A phosphate raising acid used with baking soda. It falls under EFSA's group limit for phosphates: 40 mg phosphorus per kg body weight a day.",
+      "bn": "বেকিং সোডার সঙ্গে ব্যবহৃত ফসফেট অম্ল। এটি ইএফএসএর ফসফেট দলগত সীমায় পড়ে: দৈনিক প্রতি কেজি দেহওজনে ৪০ মিলিগ্রাম ফসফরাস।"
+    },
+    "whatIs": {
+      "en": "Sodium acid pyrophosphate (E450(i)) is a white powder and one of the diphosphates. It is often the acid part of baking powder.",
+      "bn": "সোডিয়াম অ্যাসিড পাইরোফসফেট (E450(i)) একটি সাদা গুঁড়া এবং ডাইফসফেট শ্রেণির উপাদান। এটি প্রায়ই বেকিং পাউডারের অম্ল অংশ হিসেবে থাকে।"
+    },
+    "whyUsed": {
+      "en": "It reacts with baking soda to raise cakes and baked goods, and its slower reaction helps batter keep its rise.",
+      "bn": "এটি বেকিং সোডার সঙ্গে বিক্রিয়া করে কেক ও বেকড খাবার ফোলায়; ধীর বিক্রিয়ার কারণে গোলা ফোলা অবস্থা ধরে রাখতে পারে।"
+    },
+    "howItWorks": {
+      "en": "When moistened and heated, its acid reacts with bicarbonate and releases carbon dioxide gas in stages.",
+      "bn": "ভিজে ও গরম হলে এর অম্ল বাইকার্বনেটের সঙ্গে বিক্রিয়া করে ধাপে ধাপে কার্বন ডাই-অক্সাইড গ্যাস ছাড়ে।"
+    },
+    "properties": [
+      {
+        "en": "leavening acid",
+        "bn": "ফোলানোর অম্ল"
+      },
+      {
+        "en": "counts toward total phosphorus intake",
+        "bn": "মোট ফসফরাস গ্রহণের সঙ্গে যুক্ত হয়"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "texture",
+        "text": {
+          "en": "Controls how quickly batter rises.",
+          "bn": "গোলা কত দ্রুত ফুলবে তা নিয়ন্ত্রণ করে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "dose-dependent",
+        "evidence": "animal",
+        "strength": "established",
+        "text": {
+          "en": "High phosphorus intake caused calcium deposits and kidney damage (nephrocalcinosis and nephropathy) in rat studies. Authorities base their phosphate limits on these findings.",
+          "bn": "ইঁদুরের গবেষণায় অতিরিক্ত ফসফরাস গ্রহণে কিডনিতে ক্যালসিয়াম জমা ও কিডনির ক্ষতি (নেফ্রোক্যালসিনোসিস ও নেফ্রোপ্যাথি) দেখা গেছে। কর্তৃপক্ষগুলো এই ফলাফলের ভিত্তিতে ফসফেটের সীমা নির্ধারণ করে।"
+        },
+        "sourceIds": [
+          "jecfa-2026"
+        ]
+      },
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "EFSA states that its phosphate ADI does not apply to people with moderate to severe reduction in kidney function, and notes that people with chronic kidney disease may not tolerate intakes at that level.",
+          "bn": "ইএফএসএ জানিয়েছে, মাঝারি থেকে গুরুতর মাত্রায় কিডনির কার্যক্ষমতা কমে যাওয়া ব্যক্তিদের ক্ষেত্রে ফসফেটের এডিআই প্রযোজ্য নয়; দীর্ঘস্থায়ী কিডনি রোগীরা ওই মাত্রা সহ্য নাও করতে পারেন।"
+        },
+        "sourceIds": [
+          "efsa-2019"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "The limit covers phosphorus from all foods, not only this additive, and phosphorus is also an essential nutrient. EFSA estimated that total intake can exceed its ADI in infants from 12 weeks, toddlers and children, and that supplements can exceed it; JECFA's higher limit reflects a different assessment. The authorities disagree on the number.",
+      "bn": "এই সীমা কেবল এই সংযোজন নয়, সব খাবারের ফসফরাসের ক্ষেত্রে প্রযোজ্য; ফসফরাস একটি প্রয়োজনীয় পুষ্টি উপাদানও। ইএফএসএর হিসাবে ১২ সপ্তাহের বেশি বয়সী শিশু, ছোট শিশু ও বড় শিশুদের মোট গ্রহণ এডিআই ছাড়াতে পারে, আর সাপ্লিমেন্টও তা ছাড়াতে পারে। জেইসিএফএর উচ্চতর সীমা ভিন্ন মূল্যায়নের ফল; কর্তৃপক্ষগুলোর সংখ্যায় পার্থক্য রয়েছে।"
+    },
+    "statusLabels": [
+      "within-limits",
+      "gras-conditions",
+      "evidence-developing"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Group ADI set for phosphates, including diphosphates E450.",
+          "bn": "E450 ডাইফসফেটসহ ফসফেটগুলোর জন্য দলগত এডিআই নির্ধারিত।"
+        },
+        "adi": {
+          "type": "numeric",
+          "value": 40,
+          "unit": "mg/kg bw/day",
+          "note": {
+            "en": "Group ADI expressed as phosphorus, for all sources including E338-341, E343 and E450-452. Does not apply to people with moderate to severe reduction in kidney function.",
+            "bn": "ফসফরাস হিসেবে প্রকাশিত দলগত এডিআই; E338 থেকে E341, E343 এবং E450 থেকে E452 সহ সব উৎসের জন্য। মাঝারি থেকে গুরুতর মাত্রায় কিডনির কার্যক্ষমতা কম এমন ব্যক্তিদের ক্ষেত্রে প্রযোজ্য নয়।"
+          }
+        },
+        "date": "2019-06",
+        "sourceId": "efsa-2019"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International (FAO/WHO)",
+          "bn": "আন্তর্জাতিক (এফএও/ডব্লিউএইচও)"
+        },
+        "status": {
+          "en": "Group limit retained for phosphoric acid and phosphate salts at the June 2026 meeting.",
+          "bn": "২০২৬ সালের জুনের সভায় ফসফরিক অম্ল ও ফসফেট লবণের দলগত সীমা বহাল রাখা হয়েছে।"
+        },
+        "adi": {
+          "type": "none-established",
+          "note": {
+            "en": "JECFA uses a maximum tolerable daily intake instead of an ADI because phosphorus is an essential nutrient.",
+            "bn": "ফসফরাস প্রয়োজনীয় পুষ্টি উপাদান বলে জেইসিএফএ এডিআইয়ের বদলে সর্বোচ্চ সহনীয় দৈনিক গ্রহণমাত্রা ব্যবহার করে।"
+          }
+        },
+        "limits": {
+          "en": "Maximum tolerable daily intake: 70 mg/kg bw/day as phosphorus, from all sources.",
+          "bn": "সর্বোচ্চ সহনীয় দৈনিক গ্রহণমাত্রা: ফসফরাস হিসেবে ৭০ মিলিগ্রাম/কেজি দেহওজন/দিন, সব উৎস মিলিয়ে।"
+        },
+        "date": "2026-07",
+        "sourceId": "jecfa-2026"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International (FAO/WHO)",
+          "bn": "আন্তর্জাতিক (এফএও/ডব্লিউএইচও)"
+        },
+        "status": {
+          "en": "Original group entry that names INS 450(i).",
+          "bn": "INS ৪৫০(i)-এর নাম উল্লেখ করা মূল দলগত নথি।"
+        },
+        "limits": {
+          "en": "Group maximum tolerable daily intake of 70 mg/kg bw as phosphorus.",
+          "bn": "ফসফরাস হিসেবে দলগত সর্বোচ্চ সহনীয় দৈনিক গ্রহণমাত্রা ৭০ মিলিগ্রাম/কেজি দেহওজন।"
+        },
+        "date": "1982",
+        "sourceId": "jecfa-1982"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "মার্কিন যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Generally recognized as safe.",
+          "bn": "সাধারণভাবে নিরাপদ হিসেবে স্বীকৃত (জিআরএএস)।"
+        },
+        "conditions": {
+          "en": "Used in accordance with good manufacturing practice.",
+          "bn": "উত্তম উৎপাদন অনুশীলন অনুসারে ব্যবহার করতে হবে।"
+        },
+        "date": "2024-04",
+        "sourceId": "cfr-182-1087"
+      }
+    ],
+    "flags": [
+      "kidney-caution"
+    ],
+    "references": [
+      {
+        "id": "efsa-2019",
+        "org": "EFSA",
+        "title": "Re-evaluation of phosphoric acid-phosphates - di-, tri- and polyphosphates (E 338-341, E 343, E 450-452) as food additives and the safety of proposed extension of use",
+        "year": 2019,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009158/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "jecfa-2026",
+        "org": "JECFA (WHO)",
+        "title": "Joint FAO/WHO Expert Committee on Food Additives, one hundred and second meeting: Summary and conclusions",
+        "year": 2026,
+        "url": "https://cdn.who.int/media/docs/default-source/food-safety/jecfa/summary-and-conclusions/jecfa-102-summary-report_final.pdf?sfvrsn=53a0d1f9_3&download=true",
+        "kind": "regulatory"
+      },
+      {
+        "id": "jecfa-1982",
+        "org": "JECFA (WHO database)",
+        "title": "Disodium dihydrogen diphosphate: JECFA evaluation record",
+        "year": 1982,
+        "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/383",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-182-1087",
+        "org": "US FDA (21 CFR, govinfo)",
+        "title": "21 CFR 182.1087 Sodium acid pyrophosphate",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec182-1087.xml",
+        "kind": "regulatory"
+      }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "JECFA's June 2026 summary states the group MTDI of 70 mg/kg bw is retained; its footnote lists six phosphates (INS 339 and 340) as the salts reviewed, so INS 450(i) is linked through the 1982 group entry. EU maximum levels for E450 could not be read and are left out."
+    }
+  },
+  {
+    "id": "glycerol",
+    "name": {
+      "en": "Glycerol",
+      "bn": "গ্লিসারল"
+    },
+    "commonNames": [
+      "glycerine",
+      "glycerin"
+    ],
+    "labelNames": [
+      "glycerol",
+      "glycerine",
+      "glycerin",
+      "e422",
+      "e 422",
+      "ins 422",
+      "গ্লিসারল",
+      "গ্লিসারিন"
+    ],
+    "chemicalName": "Propane-1,2,3-triol",
+    "eNumber": "E422",
+    "ins": "422",
+    "formula": "C3H8O3",
+    "category": "humectants",
+    "origin": "natural-derived",
+    "originNote": {
+      "en": "Commercially made from fats and oils or by synthesis from propene. In 2022 EFSA proposed defining E422 as made only from vegetable oils and fats. Source does not decide safety.",
+      "bn": "বাণিজ্যিকভাবে চর্বি ও তেল থেকে বা প্রোপিন থেকে সংশ্লেষণে তৈরি হয়। ২০২২ সালে ইএফএসএ প্রস্তাব করে যে E422 কেবল উদ্ভিজ্জ তেল ও চর্বি থেকে তৈরি বলে সংজ্ঞায়িত হোক। উৎস নিরাপত্তা নির্ধারণ করে না।"
+    },
+    "applications": [
+      "soft-drinks",
+      "chocolate-confectionery",
+      "bread-bakery",
+      "supplements"
+    ],
+    "summary": {
+      "en": "A sweet-tasting liquid that keeps foods moist. EFSA found no concern at reported uses, but large quick doses in slush drinks can make young children ill.",
+      "bn": "মিষ্টি স্বাদের তরল, যা খাবার আর্দ্র রাখে। ইএফএসএর মতে প্রচলিত ব্যবহারে উদ্বেগ নেই, তবে স্লাশ পানীয়ে দ্রুত বেশি মাত্রা ছোট শিশুদের অসুস্থ করতে পারে।"
+    },
+    "whatIs": {
+      "en": "Glycerol (E422) is a clear, thick, sweet-tasting liquid. It occurs naturally in fats and is also produced by the body.",
+      "bn": "গ্লিসারল (E422) স্বচ্ছ, ঘন ও মিষ্টি স্বাদের তরল। এটি প্রাকৃতিকভাবে চর্বিতে থাকে এবং শরীরেও তৈরি হয়।"
+    },
+    "whyUsed": {
+      "en": "It keeps cakes, sweets and fillings soft, and in slush drinks it stops the liquid from freezing solid.",
+      "bn": "এটি কেক, মিষ্টি ও পুরকে নরম রাখে; স্লাশ পানীয়ে তরলকে জমে শক্ত হওয়া থেকে রক্ষা করে।"
+    },
+    "howItWorks": {
+      "en": "It attracts and holds water, which slows drying and lowers the freezing point of drinks.",
+      "bn": "এটি পানি আকর্ষণ করে ধরে রাখে, ফলে খাবার দেরিতে শুকায় এবং পানীয়ের হিমাঙ্ক কমে।"
+    },
+    "properties": [
+      {
+        "en": "holds water",
+        "bn": "পানি ধরে রাখে"
+      },
+      {
+        "en": "lowers freezing point",
+        "bn": "হিমাঙ্ক কমায়"
+      },
+      {
+        "en": "sweet taste",
+        "bn": "মিষ্টি স্বাদ"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "texture",
+        "text": {
+          "en": "Keeps baked goods and sweets soft.",
+          "bn": "বেকড খাবার ও মিষ্টিকে নরম রাখে।"
+        }
+      },
+      {
+        "kind": "shelf-life",
+        "text": {
+          "en": "Slows drying out during storage.",
+          "bn": "সংরক্ষণের সময় শুকিয়ে যাওয়া ধীর করে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "Case reports reviewed by the UK Food Standards Agency, mostly in children under 4, describe low blood sugar and reduced consciousness after slush drinks containing glycerol. EFSA identified 125 mg/kg bw per hour as the lowest single dose that could cause effects such as headache, nausea and vomiting.",
+          "bn": "যুক্তরাজ্যের ফুড স্ট্যান্ডার্ডস এজেন্সির পর্যালোচিত ঘটনা-প্রতিবেদনে, যার বেশির ভাগই ৪ বছরের কম বয়সী শিশু, গ্লিসারলযুক্ত স্লাশ পানীয়ের পর রক্তে শর্করা কমে যাওয়া ও চেতনা কমে যাওয়ার কথা আছে। ইএফএসএ প্রতি ঘণ্টায় ১২৫ মিলিগ্রাম/কেজি দেহওজনকে সর্বনিম্ন একক মাত্রা হিসেবে চিহ্নিত করেছে, যাতে মাথাব্যথা, বমিভাব ও বমির মতো প্রভাব হতে পারে।"
+        },
+        "sourceIds": [
+          "fsa-rra-2025",
+          "efsa-2017"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "The concern is a large amount taken quickly by a small child, not the small amounts used to keep foods moist. EFSA found no need for a numerical ADI and no safety concern at reported uses. The UK advises that children under 7 should not have slush drinks containing glycerol, and that children aged 7 to 9 have no more than one 350 ml drink a day.",
+      "bn": "উদ্বেগের বিষয় হলো ছোট শিশুর দ্রুত অনেকটা গ্রহণ, খাবার আর্দ্র রাখতে ব্যবহৃত অল্প পরিমাণ নয়। ইএফএসএ সংখ্যাগত এডিআইয়ের প্রয়োজন দেখেনি এবং প্রচলিত ব্যবহারে নিরাপত্তাজনিত উদ্বেগ পায়নি। যুক্তরাজ্যের পরামর্শ, ৭ বছরের কম বয়সী শিশুরা গ্লিসারলযুক্ত স্লাশ পানীয় খাবে না এবং ৭ থেকে ৯ বছর বয়সীরা দিনে ৩৫০ মিলিলিটারের একটির বেশি খাবে না।"
+    },
+    "statusLabels": [
+      "gras-conditions",
+      "known-adverse"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "No safety concern at the refined exposure for reported uses.",
+          "bn": "প্রচলিত ব্যবহারের পরিমার্জিত এক্সপোজারে নিরাপত্তাজনিত উদ্বেগ নেই।"
+        },
+        "adi": {
+          "type": "not-specified",
+          "note": {
+            "en": "EFSA concluded there is no need for a numerical ADI.",
+            "bn": "ইএফএসএর সিদ্ধান্ত, সংখ্যাগত এডিআইয়ের প্রয়োজন নেই।"
+          }
+        },
+        "conditions": {
+          "en": "Authorised at quantum satis in 68 food categories at the time of the review.",
+          "bn": "পর্যালোচনার সময় ৬৮টি খাদ্য শ্রেণিতে প্রয়োজনমতো মাত্রায় অনুমোদিত ছিল।"
+        },
+        "date": "2017-03",
+        "sourceId": "efsa-2017"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Follow-up on purity: lower toxic-element limits and a numerical acrolein limit were advised.",
+          "bn": "বিশুদ্ধতা বিষয়ক ফলো-আপ: বিষাক্ত ধাতুর সীমা কমানো ও অ্যাক্রোলিনের সংখ্যাগত সীমা নির্ধারণের পরামর্শ।"
+        },
+        "date": "2022-06",
+        "sourceId": "efsa-2022"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International (FAO/WHO)",
+          "bn": "আন্তর্জাতিক (এফএও/ডব্লিউএইচও)"
+        },
+        "status": {
+          "en": "ADI 'not specified', as reported in EFSA's 2017 opinion.",
+          "bn": "এডিআই 'নির্দিষ্ট নয়', ইএফএসএর ২০১৭ সালের মতামতে উল্লিখিত।"
+        },
+        "adi": {
+          "type": "not-specified"
+        },
+        "date": "1976",
+        "sourceId": "efsa-2017"
+      },
+      {
+        "authority": "FSA",
+        "jurisdiction": {
+          "en": "United Kingdom",
+          "bn": "যুক্তরাজ্য"
+        },
+        "status": {
+          "en": "Advises that slush ice drinks with glycerol are not for children under 7.",
+          "bn": "পরামর্শ: গ্লিসারলযুক্ত স্লাশ আইস পানীয় ৭ বছরের কম বয়সী শিশুদের জন্য নয়।"
+        },
+        "conditions": {
+          "en": "Children aged 7 to 9: no more than one 350 ml drink a day.",
+          "bn": "৭ থেকে ৯ বছর বয়সী শিশু: দিনে ৩৫০ মিলিলিটারের একটির বেশি নয়।"
+        },
+        "date": "2025-07",
+        "sourceId": "fsa-glycerol"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "মার্কিন যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Generally recognized as safe.",
+          "bn": "সাধারণভাবে নিরাপদ হিসেবে স্বীকৃত (জিআরএএস)।"
+        },
+        "conditions": {
+          "en": "Used in accordance with good manufacturing practice.",
+          "bn": "উত্তম উৎপাদন অনুশীলন অনুসারে ব্যবহার করতে হবে।"
+        },
+        "date": "2024-04",
+        "sourceId": "cfr-182-1320"
+      }
+    ],
+    "flags": [
+      "infants-caution"
+    ],
+    "references": [
+      {
+        "id": "efsa-2017",
+        "org": "EFSA",
+        "title": "Re-evaluation of glycerol (E 422) as a food additive",
+        "year": 2017,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009851/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "efsa-2022",
+        "org": "EFSA",
+        "title": "Follow-up of the re-evaluation of glycerol (E 422) as a food additive",
+        "year": 2022,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9208908",
+        "kind": "regulatory"
+      },
+      {
+        "id": "fsa-rra-2025",
+        "org": "Food Standards Agency",
+        "title": "Rapid Risk Assessment for Glycerol in Slushed Ice Drink Products",
+        "year": 2025,
+        "url": "https://science.food.gov.uk/article/140678-rapid-risk-assessment-for-glycerol-in-slushed-ice-drink-products",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "fsa-glycerol",
+        "org": "Food Standards Agency",
+        "title": "Glycerol: what consumers need to know about glycerol and slush ice drinks",
+        "year": 2025,
+        "url": "https://www.food.gov.uk/safety-hygiene/glycerol",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "cfr-182-1320",
+        "org": "US FDA (21 CFR, govinfo)",
+        "title": "21 CFR 182.1320 Glycerin",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec182-1320.xml",
+        "kind": "regulatory"
+      }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "The food.gov.uk glycerol address now redirects to the same FSA guidance on gov.uk, where the text was read. Whether the EU has adopted the 2022 specification changes was not confirmed and is not claimed."
+    }
+  },
+  {
+    "id": "sorbitol",
+    "name": {
+      "en": "Sorbitol",
+      "bn": "সরবিটল"
+    },
+    "commonNames": [
+      "D-glucitol",
+      "sorbitol syrup"
+    ],
+    "labelNames": [
+      "sorbitol",
+      "sorbitol syrup",
+      "d-sorbitol",
+      "d-glucitol",
+      "e420",
+      "e 420",
+      "e420(i)",
+      "e420(ii)",
+      "ins 420",
+      "সরবিটল"
+    ],
+    "chemicalName": "D-Glucitol",
+    "eNumber": "E420",
+    "ins": "420",
+    "formula": "C6H14O6",
+    "category": "humectants",
+    "alsoIn": [
+      "natural-sweeteners"
+    ],
+    "origin": "natural-derived",
+    "originNote": {
+      "en": "Made by hydrogenating or electrolytically reducing glucose or fructose syrups. Its starting material says nothing about safety.",
+      "bn": "গ্লুকোজ বা ফ্রুকটোজের দ্রবণে হাইড্রোজেন যোগ করে বা তড়িৎ-বিজারণে তৈরি হয়। এর কাঁচামাল নিরাপত্তা সম্পর্কে কিছু বলে না।"
+    },
+    "applications": [
+      "chocolate-confectionery",
+      "jams-spreads",
+      "bread-bakery",
+      "frozen-desserts"
+    ],
+    "summary": {
+      "en": "A sugar alcohol that sweetens and keeps foods moist. Eating a lot can have a laxative effect, which is why labels carry a warning.",
+      "bn": "চিনি-অ্যালকোহল, যা মিষ্টি করে ও খাবার আর্দ্র রাখে। বেশি খেলে পেট নরম হতে পারে, তাই লেবেলে সতর্কবার্তা থাকে।"
+    },
+    "whatIs": {
+      "en": "Sorbitol (E420) is a polyol, or sugar alcohol, made from glucose or fructose. It is less sweet than sugar and is sold as a powder or syrup.",
+      "bn": "সরবিটল (E420) একটি পলিওল বা চিনি-অ্যালকোহল, যা গ্লুকোজ বা ফ্রুকটোজ থেকে তৈরি। এটি চিনির চেয়ে কম মিষ্টি এবং গুঁড়া বা সিরাপ হিসেবে পাওয়া যায়।"
+    },
+    "whyUsed": {
+      "en": "It keeps sweets and bakery fillings moist and gives sweetness in sugar-free products.",
+      "bn": "এটি মিষ্টি ও বেকারি পুরকে আর্দ্র রাখে এবং চিনিমুক্ত পণ্যে মিষ্টত্ব দেয়।"
+    },
+    "howItWorks": {
+      "en": "It binds water, slowing drying. It is only partly absorbed, so the rest passes to the large intestine, where it draws in water.",
+      "bn": "এটি পানি ধরে রাখে, ফলে খাবার দেরিতে শুকায়। শরীরে আংশিক শোষিত হয়; বাকিটা বৃহদন্ত্রে গিয়ে পানি টেনে আনে।"
+    },
+    "properties": [
+      {
+        "en": "holds water",
+        "bn": "পানি ধরে রাখে"
+      },
+      {
+        "en": "sweetener and humectant",
+        "bn": "মিষ্টিকারক ও আর্দ্রতা রক্ষাকারী"
+      },
+      {
+        "en": "laxative in large amounts",
+        "bn": "বেশি পরিমাণে পেট নরম করে"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "texture",
+        "text": {
+          "en": "Keeps sweets and fillings soft and moist.",
+          "bn": "মিষ্টি ও পুরকে নরম ও আর্দ্র রাখে।"
+        }
+      },
+      {
+        "kind": "sugar-reduction",
+        "text": {
+          "en": "Allows sweetness in products with no added sugar.",
+          "bn": "চিনি যোগ না করা পণ্যে মিষ্টত্ব আনতে সাহায্য করে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "dose-dependent",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "Large amounts can have a laxative effect. The EU requires the statement 'excessive consumption may produce laxative effects' on foods with more than 10% added polyols, and notes that symptoms are unlikely below 20 g of polyols a day from all sources. The US requires a similar statement when a food could lead to eating 50 g of sorbitol a day.",
+          "bn": "বেশি পরিমাণে খেলে পেট নরম হতে পারে। ১০%-এর বেশি পলিওল যোগ করা খাবারে ইইউ 'অতিরিক্ত গ্রহণে পেট নরম হতে পারে' বিবৃতি বাধ্যতামূলক করেছে এবং জানিয়েছে, সব উৎস মিলিয়ে দিনে ২০ গ্রামের কম পলিওলে উপসর্গ হওয়ার সম্ভাবনা কম। কোনো খাবার থেকে দিনে ৫০ গ্রাম সরবিটল গ্রহণের সম্ভাবনা থাকলে যুক্তরাষ্ট্রও একই ধরনের বিবৃতি বাধ্যতামূলক করেছে।"
+        },
+        "sourceIds": [
+          "eu-1169",
+          "eu-2021-1175",
+          "efsa-2023-erythritol",
+          "cfr-184-1835"
+        ]
+      },
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "People with hereditary fructose intolerance, a rare inherited condition, are advised by clinical guidelines to exclude sorbitol, including in medicines and sugar-free products, because the body converts it to fructose.",
+          "bn": "জন্মগত ফ্রুকটোজ অসহিষ্ণুতা নামের বিরল বংশগত অবস্থায় আক্রান্ত ব্যক্তিদের চিকিৎসা নির্দেশিকায় ওষুধ ও চিনিমুক্ত পণ্যসহ সরবিটল বাদ দিতে বলা হয়েছে, কারণ শরীর এটিকে ফ্রুকটোজে রূপান্তর করে।"
+        },
+        "sourceIds": [
+          "hfi-guideline-2024"
+        ]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "laboratory",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA's re-evaluation is unfinished. In 2023 it asked for a new laboratory micronucleus test on sorbitol because a fully reliable one was lacking; a data gap, not evidence of harm.",
+          "bn": "ইএফএসএর পুনর্মূল্যায়ন এখনও শেষ হয়নি। পুরোপুরি নির্ভরযোগ্য পরীক্ষা না থাকায় ২০২৩ সালে সরবিটলের নতুন একটি পরীক্ষাগার মাইক্রোনিউক্লিয়াস পরীক্ষা চাওয়া হয়; এটি তথ্যের ঘাটতি, ক্ষতির প্রমাণ নয়।"
+        },
+        "sourceIds": [
+          "efsa-call-2023",
+          "efsa-sweeteners"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "The laxative effect depends on how much is eaten at a time and from all polyol sources together. A single sweet is unlikely to matter, but several sugar-free products in one day can add up. JECFA gave an ADI 'not specified'; EFSA's re-evaluation was still ongoing at the last check.",
+      "bn": "পেট নরম হওয়ার প্রভাব নির্ভর করে একবারে কতটা খাওয়া হলো এবং সব পলিওল উৎস মিলিয়ে কত হলো তার ওপর। একটি মিষ্টিতে সমস্যা হওয়ার সম্ভাবনা কম, তবে একদিনে কয়েকটি চিনিমুক্ত পণ্য মিলে পরিমাণ বেড়ে যেতে পারে। জেইসিএফএ 'নির্দিষ্ট নয়' এডিআই দিয়েছে; সর্বশেষ যাচাইয়ে ইএফএসএর পুনর্মূল্যায়ন চলমান ছিল।"
+    },
+    "statusLabels": [
+      "gras-conditions",
+      "known-adverse",
+      "evidence-developing"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Re-evaluation ongoing; no finished opinion listed.",
+          "bn": "পুনর্মূল্যায়ন চলমান; কোনো চূড়ান্ত মতামত তালিকাভুক্ত নেই।"
+        },
+        "date": "2026",
+        "sourceId": "efsa-sweeteners"
+      },
+      {
+        "authority": "European Commission",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Mandatory laxative statement for foods with added polyols.",
+          "bn": "পলিওল যোগ করা খাবারে পেট নরম হওয়ার বিবৃতি বাধ্যতামূলক।"
+        },
+        "conditions": {
+          "en": "Applies to foods with more than 10% added polyols: 'excessive consumption may produce laxative effects'.",
+          "bn": "১০%-এর বেশি পলিওল যোগ করা খাবারে প্রযোজ্য: 'অতিরিক্ত গ্রহণে পেট নরম হতে পারে'।"
+        },
+        "date": "2011",
+        "sourceId": "eu-1169"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International (FAO/WHO)",
+          "bn": "আন্তর্জাতিক (এফএও/ডব্লিউএইচও)"
+        },
+        "status": {
+          "en": "ADI 'not specified' for sorbitol.",
+          "bn": "সরবিটলের এডিআই 'নির্দিষ্ট নয়'।"
+        },
+        "adi": {
+          "type": "not-specified"
+        },
+        "date": "1982",
+        "sourceId": "jecfa-1982"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International (FAO/WHO)",
+          "bn": "আন্তর্জাতিক (এফএও/ডব্লিউএইচও)"
+        },
+        "status": {
+          "en": "ADI 'not specified' for sorbitol syrup, INS 420(ii).",
+          "bn": "সরবিটল সিরাপ, INS ৪২০(ii)-এর এডিআই 'নির্দিষ্ট নয়'।"
+        },
+        "adi": {
+          "type": "not-specified"
+        },
+        "date": "2018",
+        "sourceId": "jecfa-2018"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "মার্কিন যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Affirmed as GRAS, with maximum levels by food type.",
+          "bn": "খাবারের ধরন অনুযায়ী সর্বোচ্চ মাত্রাসহ জিআরএএস হিসেবে স্বীকৃত।"
+        },
+        "limits": {
+          "en": "From 99% in hard candy to 12% in foods not otherwise listed.",
+          "bn": "হার্ড ক্যান্ডিতে ৯৯% থেকে তালিকার বাইরের খাবারে ১২% পর্যন্ত।"
+        },
+        "conditions": {
+          "en": "Label statement required if foreseeable intake could reach 50 g a day.",
+          "bn": "দৈনিক গ্রহণ ৫০ গ্রামে পৌঁছানোর সম্ভাবনা থাকলে লেবেলে বিবৃতি বাধ্যতামূলক।"
+        },
+        "date": "2024-04",
+        "sourceId": "cfr-184-1835"
+      }
+    ],
+    "flags": [
+      "polyol-laxative"
+    ],
+    "references": [
+      {
+        "id": "efsa-sweeteners",
+        "org": "EFSA",
+        "title": "Sweeteners (topic page)",
+        "year": 2026,
+        "url": "https://www.efsa.europa.eu/en/topics/topic/sweeteners",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "efsa-call-2023",
+        "org": "EFSA",
+        "title": "Call for data on genotoxicity data on sorbitol (E 420 i)",
+        "year": 2023,
+        "url": "https://www.efsa.europa.eu/en/call/call-data-genotoxicity-data-sorbitol-e-420-i",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "eu-1169",
+        "org": "European Union",
+        "title": "Regulation (EU) No 1169/2011 on the provision of food information to consumers",
+        "year": 2011,
+        "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/eng",
+        "kind": "regulatory"
+      },
+      {
+        "id": "eu-2021-1175",
+        "org": "European Commission",
+        "title": "Commission Regulation (EU) 2021/1175 of 16 July 2021 amending Annex II to Regulation (EC) No 1333/2008",
+        "year": 2021,
+        "url": "https://eur-lex.europa.eu/eli/reg/2021/1175/oj",
+        "kind": "regulatory"
+      },
+      {
+        "id": "efsa-2023-erythritol",
+        "org": "EFSA",
+        "title": "Re-evaluation of erythritol (E 968) as a food additive",
+        "year": 2023,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10731997/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "jecfa-1982",
+        "org": "JECFA (INCHEM)",
+        "title": "JECFA Evaluations: Sorbitol",
+        "year": 1982,
+        "url": "https://inchem.org/documents/jecfa/jeceval/jec_2187.htm",
+        "kind": "regulatory"
+      },
+      {
+        "id": "jecfa-2018",
+        "org": "JECFA (WHO database)",
+        "title": "Sorbitol syrup: JECFA evaluation record",
+        "year": 2018,
+        "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=3856",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-184-1835",
+        "org": "US FDA (21 CFR, govinfo)",
+        "title": "21 CFR 184.1835 Sorbitol",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1835.xml",
+        "kind": "regulatory"
+      },
+      {
+        "id": "hfi-guideline-2024",
+        "org": "Diseases (MDPI)",
+        "title": "Clinical Practice Guidelines for the Diagnosis and Management of Hereditary Fructose Intolerance",
+        "year": 2024,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10969590/",
+        "kind": "peer-reviewed"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "EU regulation pages did not load. The Annex III wording and 10% threshold were read in EFSA's 2023 erythritol opinion, and the 20 g statement comes from a search extract of Regulation 2021/1175. EU permitted uses and maximum levels for E420 could not be read and are left out."
+    }
+  },
+  {
+    "id": "propylene-glycol",
+    "name": {
+      "en": "Propylene glycol",
+      "bn": "প্রোপিলিন গ্লাইকল"
+    },
+    "commonNames": [
+      "propane-1,2-diol",
+      "1,2-propanediol",
+      "PG"
+    ],
+    "labelNames": [
+      "propylene glycol",
+      "propane-1,2-diol",
+      "propan-1,2-diol",
+      "1,2-propanediol",
+      "e1520",
+      "e 1520",
+      "ins 1520",
+      "প্রোপিলিন গ্লাইকল"
+    ],
+    "chemicalName": "Propane-1,2-diol",
+    "eNumber": "E1520",
+    "ins": "1520",
+    "formula": "C3H8O2",
+    "category": "humectants",
+    "origin": "synthetic",
+    "originNote": {
+      "en": "US rules state it does not occur in nature and is made from propylene or by heating glycerol with sodium hydroxide. Being synthetic is not evidence of harm.",
+      "bn": "যুক্তরাষ্ট্রের নিয়ম অনুযায়ী এটি প্রকৃতিতে পাওয়া যায় না এবং প্রোপিলিন থেকে বা সোডিয়াম হাইড্রোক্সাইডের সঙ্গে গ্লিসারল গরম করে তৈরি হয়। কৃত্রিম হওয়া ক্ষতির প্রমাণ নয়।"
+    },
+    "applications": [
+      "chocolate-confectionery",
+      "frozen-desserts",
+      "salt-seasonings"
+    ],
+    "summary": {
+      "en": "A liquid used to carry flavours and colours and to hold moisture. EFSA kept its limit of 25 mg per kg body weight a day in 2018.",
+      "bn": "স্বাদ ও রঙ বহন এবং আর্দ্রতা ধরে রাখতে ব্যবহৃত তরল। ২০১৮ সালে ইএফএসএ দৈনিক প্রতি কেজি দেহওজনে ২৫ মিলিগ্রামের সীমা বহাল রাখে।"
+    },
+    "whatIs": {
+      "en": "Propylene glycol (E1520) is a clear, slightly thick liquid. In the EU it is used mainly as a carrier for other additives rather than added directly to food.",
+      "bn": "প্রোপিলিন গ্লাইকল (E1520) স্বচ্ছ, সামান্য ঘন তরল। ইইউতে এটি খাবারে সরাসরি না দিয়ে মূলত অন্য সংযোজনের বাহক হিসেবে ব্যবহৃত হয়।"
+    },
+    "whyUsed": {
+      "en": "It dissolves and carries flavourings, colours and other additives evenly through food, and helps hold moisture.",
+      "bn": "এটি স্বাদ, রঙ ও অন্যান্য সংযোজন গলিয়ে খাবারে সমানভাবে ছড়িয়ে দেয় এবং আর্দ্রতা ধরে রাখতে সাহায্য করে।"
+    },
+    "howItWorks": {
+      "en": "It mixes with both water and many flavour oils, so it acts as a shared solvent, and it binds water to slow drying.",
+      "bn": "এটি পানি ও অনেক স্বাদযুক্ত তেল দুটোর সঙ্গেই মেশে, তাই সাধারণ দ্রাবক হিসেবে কাজ করে; পানি ধরে রেখে শুকানো ধীর করে।"
+    },
+    "properties": [
+      {
+        "en": "solvent and carrier",
+        "bn": "দ্রাবক ও বাহক"
+      },
+      {
+        "en": "ADI 25 mg/kg bw/day (EFSA, JECFA)",
+        "bn": "এডিআই ২৫ মিলিগ্রাম/কেজি দেহওজন/দিন (ইএফএসএ, জেইসিএফএ)"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "processing",
+        "text": {
+          "en": "Spreads flavours and colours evenly through a product.",
+          "bn": "পণ্যে স্বাদ ও রঙ সমানভাবে ছড়িয়ে দেয়।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "Clearance of propylene glycol is very low in premature babies and in the first weeks of life, and kidney clearance is much lower in infants up to about 3 months than in adults, as EFSA's review of human data notes.",
+          "bn": "ইএফএসএর পর্যালোচিত মানব-তথ্য অনুযায়ী, অকালজাত শিশু ও জীবনের প্রথম সপ্তাহগুলোতে প্রোপিলিন গ্লাইকল দূরীকরণ খুবই কম, এবং প্রায় ৩ মাস বয়স পর্যন্ত শিশুদের কিডনির মাধ্যমে দূরীকরণ প্রাপ্তবয়স্কদের চেয়ে অনেক কম।"
+        },
+        "sourceIds": [
+          "efsa-2018"
+        ]
+      },
+      {
+        "kind": "dose-dependent",
+        "evidence": "animal",
+        "strength": "established",
+        "text": {
+          "en": "In a 2-year rat study there were no adverse effects up to 2,500 mg/kg bw/day, the basis of the ADI. In dogs, the highest dose of 5,000 mg/kg bw/day caused blood changes suggesting faster breakdown of red blood cells.",
+          "bn": "ইঁদুরের ২ বছরের গবেষণায় ২,৫০০ মিলিগ্রাম/কেজি দেহওজন/দিন পর্যন্ত কোনো ক্ষতিকর প্রভাব ছিল না; এটিই এডিআইয়ের ভিত্তি। কুকুরে সর্বোচ্চ ৫,০০০ মিলিগ্রাম/কেজি দেহওজন/দিন মাত্রায় রক্তে এমন পরিবর্তন দেখা গেছে, যা লোহিত রক্তকণিকার দ্রুত ভাঙনের ইঙ্গিত দেয়।"
+        },
+        "sourceIds": [
+          "efsa-2018"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA's realistic estimates stayed under the ADI for all age groups, with the highest at 23.3 mg/kg bw/day in children. Elimination only saturates above about 20,000 mg a day in people. EFSA also considered it very unlikely to act as an allergen when used as a food additive.",
+      "bn": "ইএফএসএর বাস্তবসম্মত হিসাবে সব বয়সের গ্রহণ এডিআইয়ের নিচে ছিল; সর্বোচ্চ ছিল শিশুদের ক্ষেত্রে ২৩.৩ মিলিগ্রাম/কেজি দেহওজন/দিন। মানুষের দেহে দিনে প্রায় ২০,০০০ মিলিগ্রামের বেশি হলে তবেই দূরীকরণ সম্পৃক্ত হয়। খাদ্য সংযোজন হিসেবে ব্যবহারে এটি অ্যালার্জেন হওয়ার সম্ভাবনাও খুব কম বলে ইএফএসএ মনে করে।"
+    },
+    "statusLabels": [
+      "within-limits",
+      "approved-specific",
+      "gras-conditions"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "No reason to revise the ADI; exposure did not exceed it in the brand-loyal refined scenario.",
+          "bn": "এডিআই পরিবর্তনের কারণ নেই; পরিমার্জিত ব্র্যান্ড-অনুগত হিসাবে গ্রহণ তা ছাড়ায়নি।"
+        },
+        "adi": {
+          "type": "numeric",
+          "value": 25,
+          "unit": "mg/kg bw/day"
+        },
+        "limits": {
+          "en": "At the time of the review: not added directly to food; as a carrier up to 3,000 mg/kg of food from all sources, and 1,000 mg/L in drinks (except cream liqueurs).",
+          "bn": "পর্যালোচনার সময়: খাবারে সরাসরি যোগ করা যায় না; বাহক হিসেবে সব উৎস মিলিয়ে প্রতি কেজি খাবারে ৩,০০০ মিলিগ্রাম পর্যন্ত এবং পানীয়ে প্রতি লিটারে ১,০০০ মিলিগ্রাম (ক্রিম লিকিউর বাদে)।"
+        },
+        "date": "2018",
+        "sourceId": "efsa-2018"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International (FAO/WHO)",
+          "bn": "আন্তর্জাতিক (এফএও/ডব্লিউএইচও)"
+        },
+        "status": {
+          "en": "ADI of 0-25 mg/kg bw, as reported in EFSA's 2018 opinion.",
+          "bn": "এডিআই ০-২৫ মিলিগ্রাম/কেজি দেহওজন, ইএফএসএর ২০১৮ সালের মতামতে উল্লিখিত।"
+        },
+        "adi": {
+          "type": "numeric",
+          "value": 25,
+          "low": 0,
+          "unit": "mg/kg bw/day"
+        },
+        "date": "1973",
+        "sourceId": "efsa-2018"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "মার্কিন যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Affirmed as GRAS with maximum levels by food type.",
+          "bn": "খাবারের ধরন অনুযায়ী সর্বোচ্চ মাত্রাসহ জিআরএএস হিসেবে স্বীকৃত।"
+        },
+        "limits": {
+          "en": "From 97% in seasonings and flavourings to 2% in foods not otherwise listed.",
+          "bn": "মসলা ও স্বাদকারকে ৯৭% থেকে তালিকার বাইরের খাবারে ২% পর্যন্ত।"
+        },
+        "date": "2024-04",
+        "sourceId": "cfr-184-1666"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-2018",
+        "org": "EFSA",
+        "title": "Re-evaluation of propane-1,2-diol (E 1520) as a food additive",
+        "year": 2018,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009459/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-184-1666",
+        "org": "US FDA (21 CFR, govinfo)",
+        "title": "21 CFR 184.1666 Propylene glycol",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1666.xml",
+        "kind": "regulatory"
+      }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "EU carrier limits are as described in EFSA's 2018 opinion; whether they have changed since could not be confirmed because EUR-Lex pages did not load. JECFA's ADI is taken from the EFSA opinion."
+    }
+  },
+  {
+    "id": "shellac",
+    "name": {
+      "en": "Shellac",
+      "bn": "শেলাক"
+    },
+    "commonNames": [
+      "confectioner's glaze",
+      "resinous glaze",
+      "lac resin"
+    ],
+    "labelNames": [
+      "shellac",
+      "confectioner's glaze",
+      "confectioners glaze",
+      "resinous glaze",
+      "e904",
+      "e 904",
+      "ins 904",
+      "শেলাক"
+    ],
+    "chemicalName": "Shellac, wax-free bleached",
+    "eNumber": "E904",
+    "ins": "904",
+    "category": "glazing-agents",
+    "origin": "natural-derived",
+    "originNote": {
+      "en": "Purified lac, a resin secreted by the lac insect (Laccifer lacca). It is then chemically bleached or physically decoloured. Insect origin matters for those who avoid animal products; it says nothing about safety.",
+      "bn": "পরিশোধিত লাক্ষা, যা লাক্ষা পোকা (Laccifer lacca) থেকে নিঃসৃত রজন। পরে এটিকে রাসায়নিকভাবে ব্লিচ বা ভৌতভাবে বর্ণহীন করা হয়। পোকা থেকে উৎপত্তি প্রাণিজ পণ্য এড়িয়ে চলা ব্যক্তিদের জন্য গুরুত্বপূর্ণ; এটি নিরাপত্তা সম্পর্কে কিছু বলে না।"
+    },
+    "applications": [
+      "chocolate-confectionery",
+      "supplements"
+    ],
+    "summary": {
+      "en": "A shiny glaze made from a resin secreted by lac insects. EFSA set an ADI in 2024, temporary for the chemically bleached form.",
+      "bn": "লাক্ষা পোকার নিঃসৃত রজন থেকে তৈরি চকচকে প্রলেপ। ২০২৪ সালে ইএফএসএ এডিআই নির্ধারণ করে, যা রাসায়নিকভাবে ব্লিচ করা রূপের জন্য সাময়িক।"
+    },
+    "whatIs": {
+      "en": "Shellac (E904) is purified, bleached lac, a resin secreted by the insect Laccifer lacca. It is used as a thin shiny coating. Because of its source, it is not suitable for people avoiding insect-derived foods.",
+      "bn": "শেলাক (E904) হলো পরিশোধিত ও ব্লিচ করা লাক্ষা, যা Laccifer lacca পোকা থেকে নিঃসৃত রজন। পাতলা চকচকে প্রলেপ হিসেবে এটি ব্যবহৃত হয়। উৎসের কারণে পোকা থেকে পাওয়া খাবার এড়িয়ে চলা ব্যক্তিদের জন্য এটি উপযুক্ত নয়।"
+    },
+    "whyUsed": {
+      "en": "It gives sweets and tablets a glossy finish and protects their surface.",
+      "bn": "এটি মিষ্টি ও ট্যাবলেটকে চকচকে করে এবং উপরিভাগ সুরক্ষা দেয়।"
+    },
+    "howItWorks": {
+      "en": "Dissolved in a solvent and sprayed on, it dries to a thin film that seals the surface.",
+      "bn": "দ্রাবকে গলিয়ে স্প্রে করলে এটি শুকিয়ে পাতলা আবরণ তৈরি করে, যা উপরিভাগকে আটকে দেয়।"
+    },
+    "properties": [
+      {
+        "en": "from a resin secreted by lac insects",
+        "bn": "লাক্ষা পোকার নিঃসৃত রজন থেকে তৈরি"
+      },
+      {
+        "en": "forms a glossy film",
+        "bn": "চকচকে আবরণ তৈরি করে"
+      },
+      {
+        "en": "ADI 4 mg/kg bw/day (EFSA, wax-free)",
+        "bn": "এডিআই ৪ মিলিগ্রাম/কেজি দেহওজন/দিন (ইএফএসএ, মোমমুক্ত)"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "appearance",
+        "text": {
+          "en": "Gives confectionery a shiny finish.",
+          "bn": "মিষ্টিজাত পণ্যকে চকচকে করে।"
+        }
+      },
+      {
+        "kind": "shelf-life",
+        "text": {
+          "en": "Forms a barrier on coated products.",
+          "bn": "প্রলেপ দেওয়া পণ্যে একটি আবরণ-স্তর তৈরি করে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA's ADI is only temporary for chemically bleached shellac, because the identity and levels of organochlorine impurities from bleaching still need data. This is a data gap and not a finding of harm.",
+          "bn": "রাসায়নিকভাবে ব্লিচ করা শেলাকের ক্ষেত্রে ইএফএসএর এডিআই কেবল সাময়িক, কারণ ব্লিচিং থেকে আসা অর্গানোক্লোরিন অশুদ্ধির পরিচয় ও মাত্রা নিয়ে এখনও তথ্য প্রয়োজন। এটি তথ্যের ঘাটতি, ক্ষতির প্রমাণ নয়।"
+        },
+        "sourceIds": [
+          "efsa-2024"
+        ]
+      },
+      {
+        "kind": "allergy-intolerance",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "Contact dermatitis has been reported from shellac in cosmetics. EFSA found no reports of food allergy to shellac and considers one unlikely.",
+          "bn": "প্রসাধনীতে থাকা শেলাকে ত্বকের সংস্পর্শজনিত প্রদাহের কথা জানা গেছে। শেলাকে খাদ্য অ্যালার্জির কোনো প্রতিবেদন ইএফএসএ পায়নি এবং এর সম্ভাবনা কম বলে মনে করে।"
+        },
+        "sourceIds": [
+          "efsa-2024"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA's high-end estimates (95th percentile) passed the ADI for toddlers, children and adolescents in some scenarios, but it judged this not to indicate a safety concern because both the exposure and toxicity assessments were conservative. Most people meet shellac only as a very thin coating.",
+      "bn": "ইএফএসএর উচ্চমাত্রার হিসাবে (৯৫তম পার্সেন্টাইল) কিছু পরিস্থিতিতে ছোট শিশু, শিশু ও কিশোরদের ক্ষেত্রে এডিআই ছাড়িয়েছিল, তবে এক্সপোজার ও বিষাক্ততা দুই মূল্যায়নই রক্ষণশীল হওয়ায় একে নিরাপত্তাজনিত উদ্বেগ বলে ধরা হয়নি। বেশির ভাগ মানুষ শেলাক কেবল খুব পাতলা প্রলেপ হিসেবেই গ্রহণ করেন।"
+    },
+    "statusLabels": [
+      "within-limits",
+      "approved-specific",
+      "evidence-developing"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "ADI set for wax-free shellac; the exceedance at high estimates was not judged a safety concern.",
+          "bn": "মোমমুক্ত শেলাকের এডিআই নির্ধারিত; উচ্চ হিসাবে সীমা ছাড়ানোকে নিরাপত্তাজনিত উদ্বেগ ধরা হয়নি।"
+        },
+        "adi": {
+          "type": "numeric",
+          "value": 4,
+          "unit": "mg/kg bw/day",
+          "note": {
+            "en": "For wax-free shellac by physical decolouring; temporary for wax-free shellac by chemical bleaching. Does not apply to wax-containing shellac.",
+            "bn": "ভৌতভাবে বর্ণহীন করা মোমমুক্ত শেলাকের জন্য; রাসায়নিকভাবে ব্লিচ করা মোমমুক্ত শেলাকের ক্ষেত্রে সাময়িক। মোমযুক্ত শেলাকের ক্ষেত্রে প্রযোজ্য নয়।"
+          }
+        },
+        "date": "2024-08",
+        "sourceId": "efsa-2024"
+      },
+      {
+        "authority": "European Commission",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Authorised as a glazing agent on tablets in foods for special medical purposes; wax-containing shellac removed from specifications.",
+          "bn": "বিশেষ চিকিৎসা-উদ্দেশ্যের খাবারের ট্যাবলেটে প্রলেপ হিসেবে অনুমোদিত; মানদণ্ড থেকে মোমযুক্ত শেলাক বাদ দেওয়া হয়েছে।"
+        },
+        "date": "2026-01",
+        "sourceId": "eu-2026-189"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International (FAO/WHO)",
+          "bn": "আন্তর্জাতিক (এফএও/ডব্লিউএইচও)"
+        },
+        "status": {
+          "en": "No ADI allocated; functional uses considered of no toxicological concern, as reported by EFSA.",
+          "bn": "কোনো এডিআই দেওয়া হয়নি; ইএফএসএর তথ্যমতে কার্যকরী ব্যবহারে বিষাক্ততার উদ্বেগ নেই।"
+        },
+        "adi": {
+          "type": "none-established"
+        },
+        "date": "1993",
+        "sourceId": "efsa-2024"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "মার্কিন যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Purified food-grade shellac is listed as a diluent in inks for marking supplement tablets, gum and confectionery.",
+          "bn": "সাপ্লিমেন্ট ট্যাবলেট, গাম ও মিষ্টিজাত পণ্যে চিহ্ন দেওয়ার কালিতে পরিশোধিত খাদ্য-মানের শেলাক তরলকারক হিসেবে তালিকাভুক্ত।"
+        },
+        "date": "2024-04",
+        "sourceId": "cfr-73-1"
+      }
+    ],
+    "flags": [
+      "insect-derived",
+      "animal-derived"
+    ],
+    "references": [
+      {
+        "id": "efsa-2024",
+        "org": "EFSA",
+        "title": "Re-evaluation of shellac (E 904) as a food additive",
+        "year": 2024,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11292212",
+        "kind": "regulatory"
+      },
+      {
+        "id": "eu-2026-189",
+        "org": "European Commission",
+        "title": "Commission Regulation (EU) 2026/189 of 28 January 2026",
+        "year": 2026,
+        "url": "https://eur-lex.europa.eu/eli/reg/2026/189/oj/eng",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-73-1",
+        "org": "US FDA (21 CFR, govinfo)",
+        "title": "21 CFR 73.1 (diluents in color additive mixtures)",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol1/xml/CFR-2024-title21-vol1-sec73-1.xml",
+        "kind": "regulatory"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "US status as a direct food glaze or GRAS substance could not be confirmed on an FDA source; only the 21 CFR 73.1 ink diluent listing is stated. Regulation (EU) 2026/189 was read through a search extract because the EUR-Lex page did not load. JECFA's position is taken from EFSA's 2024 opinion."
+    }
+  },
+  {
+    "id": "beeswax",
+    "name": {
+      "en": "Beeswax",
+      "bn": "মৌমাছির মোম"
+    },
+    "commonNames": [
+      "white beeswax",
+      "yellow beeswax"
+    ],
+    "labelNames": [
+      "beeswax",
+      "bees wax",
+      "white beeswax",
+      "yellow beeswax",
+      "white and yellow beeswax",
+      "e901",
+      "e 901",
+      "ins 901",
+      "মৌমোম",
+      "মৌমাছির মোম"
+    ],
+    "chemicalName": "Beeswax, white and yellow",
+    "eNumber": "E901",
+    "ins": "901",
+    "category": "glazing-agents",
+    "origin": "natural",
+    "originNote": {
+      "en": "Produced by worker honeybees and collected from honeycombs after the honey is removed. White beeswax is bleached with peroxides or sunlight. Bee origin matters for those who avoid animal products; it says nothing about safety.",
+      "bn": "কর্মী মৌমাছি এটি তৈরি করে এবং মধু সরানোর পর মৌচাক থেকে সংগ্রহ করা হয়। সাদা মোম পারক্সাইড বা সূর্যালোকে ব্লিচ করা হয়। মৌমাছি থেকে উৎপত্তি প্রাণিজ পণ্য এড়িয়ে চলা ব্যক্তিদের জন্য গুরুত্বপূর্ণ; এটি নিরাপত্তা সম্পর্কে কিছু বলে না।"
+    },
+    "applications": [
+      "chocolate-confectionery",
+      "biscuits",
+      "chips-snacks",
+      "supplements"
+    ],
+    "summary": {
+      "en": "A natural wax made by honeybees, used to glaze sweets, nuts and some fruit. EFSA found no safety concern at existing uses in 2007.",
+      "bn": "মৌমাছির তৈরি প্রাকৃতিক মোম, যা মিষ্টি, বাদাম ও কিছু ফলে প্রলেপ হিসেবে ব্যবহৃত হয়। ২০০৭ সালে ইএফএসএ প্রচলিত ব্যবহারে উদ্বেগ পায়নি।"
+    },
+    "whatIs": {
+      "en": "Beeswax (E901) is a wax produced by worker honeybees to build honeycomb. It is a mixture of esters, hydrocarbons, fatty acids and fatty alcohols, sold as yellow or bleached white wax.",
+      "bn": "মৌমাছির মোম (E901) কর্মী মৌমাছিরা মৌচাক তৈরিতে উৎপন্ন করে। এটি এস্টার, হাইড্রোকার্বন, ফ্যাটি অ্যাসিড ও ফ্যাটি অ্যালকোহলের মিশ্রণ; হলুদ বা ব্লিচ করা সাদা মোম হিসেবে পাওয়া যায়।"
+    },
+    "whyUsed": {
+      "en": "It gives sweets, nuts and some fresh fruit a shiny surface and helps limit moisture loss.",
+      "bn": "এটি মিষ্টি, বাদাম ও কিছু তাজা ফলকে চকচকে করে এবং আর্দ্রতা কমে যাওয়া সীমিত করতে সাহায্য করে।"
+    },
+    "howItWorks": {
+      "en": "A very thin layer of wax coats the food and repels water, creating a glossy barrier.",
+      "bn": "মোমের খুব পাতলা স্তর খাবারকে ঢেকে পানি প্রতিহত করে এবং চকচকে একটি আবরণ তৈরি করে।"
+    },
+    "properties": [
+      {
+        "en": "made by honeybees",
+        "bn": "মৌমাছির তৈরি"
+      },
+      {
+        "en": "water-repellent coating",
+        "bn": "পানি-প্রতিরোধী প্রলেপ"
+      },
+      {
+        "en": "poorly absorbed in the gut",
+        "bn": "অন্ত্রে খুব কম শোষিত হয়"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "appearance",
+        "text": {
+          "en": "Gives a shiny finish to sweets and fruit.",
+          "bn": "মিষ্টি ও ফলকে চকচকে করে।"
+        }
+      },
+      {
+        "kind": "shelf-life",
+        "text": {
+          "en": "Forms a thin moisture barrier.",
+          "bn": "পাতলা আর্দ্রতা-প্রতিরোধী স্তর তৈরি করে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "preliminary",
+        "text": {
+          "en": "Toxicology studies on beeswax itself are lacking, so EFSA did not set an ADI and based its assessment on animal studies of its main components and similar plant waxes.",
+          "bn": "মৌমাছির মোম নিয়ে সরাসরি বিষাক্ততা গবেষণা নেই, তাই ইএফএসএ এডিআই নির্ধারণ করেনি এবং এর প্রধান উপাদান ও অনুরূপ উদ্ভিজ্জ মোমের প্রাণী-গবেষণার ওপর ভিত্তি করে মূল্যায়ন করেছে।"
+        },
+        "sourceIds": [
+          "efsa-2007"
+        ]
+      },
+      {
+        "kind": "allergy-intolerance",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "There are isolated reports of skin sensitisation to beeswax, but EFSA found no information on allergic responses after eating it. JECFA could not reach a conclusion on allergenicity because information was very limited.",
+          "bn": "মৌমাছির মোমে ত্বকের সংবেদনশীলতার বিচ্ছিন্ন কিছু প্রতিবেদন আছে, তবে খাওয়ার পর অ্যালার্জির কোনো তথ্য ইএফএসএ পায়নি। তথ্য খুব সীমিত হওয়ায় জেইসিএফএ অ্যালার্জি বিষয়ে সিদ্ধান্তে পৌঁছাতে পারেনি।"
+        },
+        "sourceIds": [
+          "efsa-2007"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA's deliberately high estimate was about 22 mg/kg bw/day, and no-effect doses for its components were 10 to 50 times higher. Its components are poorly absorbed. EFSA also noted varroa-treatment residues in European beeswax, which are covered by separate EU residue rules, and advised keeping lead limits as low as possible.",
+      "bn": "ইএফএসএর ইচ্ছাকৃতভাবে উচ্চ হিসাব ছিল প্রায় ২২ মিলিগ্রাম/কেজি দেহওজন/দিন, আর এর উপাদানগুলোর প্রভাবহীন মাত্রা ছিল এর ১০ থেকে ৫০ গুণ। উপাদানগুলো খুব কম শোষিত হয়। ইএফএসএ ইউরোপীয় মোমে ভ্যারোয়া-চিকিৎসার অবশিষ্টাংশের কথাও উল্লেখ করেছে, যা ইইউর পৃথক নিয়মে নিয়ন্ত্রিত, এবং সিসার সীমা যথাসম্ভব কম রাখার পরামর্শ দিয়েছে।"
+    },
+    "statusLabels": [
+      "gras-conditions",
+      "approved-specific"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Not of safety concern for existing uses and the proposed use as a flavour carrier.",
+          "bn": "প্রচলিত ব্যবহার ও স্বাদের বাহক হিসেবে প্রস্তাবিত ব্যবহারে নিরাপত্তাজনিত উদ্বেগ নেই।"
+        },
+        "adi": {
+          "type": "none-established",
+          "note": {
+            "en": "Data on beeswax itself were insufficient to establish an ADI.",
+            "bn": "মোম নিয়ে সরাসরি তথ্য এডিআই নির্ধারণের জন্য যথেষ্ট ছিল না।"
+          }
+        },
+        "conditions": {
+          "en": "At the time of the opinion: glazing on confectionery, some chocolate-coated bakery products, snacks, nuts, coffee beans and the surface of certain fruits.",
+          "bn": "মতামতের সময়: মিষ্টিজাত পণ্য, কিছু চকলেট-প্রলিপ্ত বেকারি পণ্য, স্ন্যাকস, বাদাম, কফি বীজ ও নির্দিষ্ট কিছু ফলের উপরিভাগে প্রলেপ হিসেবে।"
+        },
+        "date": "2007-12",
+        "sourceId": "efsa-2007"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International (FAO/WHO)",
+          "bn": "আন্তর্জাতিক (এফএও/ডব্লিউএইচও)"
+        },
+        "status": {
+          "en": "ADI 'not specified'; predicted intake under 650 mg per person a day raised no safety concern.",
+          "bn": "এডিআই 'নির্দিষ্ট নয়'; জনপ্রতি দিনে ৬৫০ মিলিগ্রামের কম সম্ভাব্য গ্রহণে নিরাপত্তাজনিত উদ্বেগ পাওয়া যায়নি।"
+        },
+        "adi": {
+          "type": "not-specified"
+        },
+        "date": "2005",
+        "sourceId": "jecfa-2005"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "মার্কিন যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Listed as a direct food substance affirmed as GRAS.",
+          "bn": "জিআরএএস হিসেবে স্বীকৃত সরাসরি খাদ্য উপাদান হিসেবে তালিকাভুক্ত।"
+        },
+        "limits": {
+          "en": "From 0.1% in soft candy and 0.065% in chewing gum to 0.002% or less in other foods.",
+          "bn": "নরম ক্যান্ডিতে ০.১% ও চুইংগামে ০.০৬৫% থেকে অন্যান্য খাবারে ০.০০২% বা তার কম।"
+        },
+        "date": "2024-04",
+        "sourceId": "cfr-184-1973"
+      }
+    ],
+    "flags": [
+      "insect-derived",
+      "animal-derived"
+    ],
+    "references": [
+      {
+        "id": "efsa-2007",
+        "org": "EFSA",
+        "title": "Beeswax (E 901) as a glazing agent and as carrier for flavours",
+        "year": 2007,
+        "url": "https://efsa.europa.eu/en/efsajournal/pub/615",
+        "kind": "regulatory"
+      },
+      {
+        "id": "jecfa-2005",
+        "org": "JECFA (WHO database)",
+        "title": "Beeswax: JECFA evaluation record",
+        "year": 2005,
+        "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=168",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-184-1973",
+        "org": "US FDA (21 CFR, govinfo)",
+        "title": "21 CFR 184.1973 Beeswax (yellow and white)",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1973.xml",
+        "kind": "regulatory"
+      }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "EFSA's 2007 text was read in a PDF copy of the opinion because the EFSA Journal page refused automated access. No later EFSA opinion on E901 was found. Current EU authorised uses could not be read on EUR-Lex; the uses given are those stated in the 2007 opinion."
+    }
+  },
+  {
+    "id": "carnauba-wax",
+    "name": {
+      "en": "Carnauba wax",
+      "bn": "কারনাউবা মোম"
+    },
+    "commonNames": [
+      "carnauba",
+      "Brazil wax"
+    ],
+    "labelNames": [
+      "carnauba wax",
+      "carnauba",
+      "brazil wax",
+      "e903",
+      "e 903",
+      "ins 903",
+      "কারনাউবা মোম"
+    ],
+    "chemicalName": "Carnauba wax",
+    "eNumber": "E903",
+    "ins": "903",
+    "category": "glazing-agents",
+    "origin": "natural",
+    "originNote": {
+      "en": "Obtained from the leaves and buds of the Brazilian wax palm (Copernicia cerifera). A plant origin is not, in itself, evidence of safety.",
+      "bn": "ব্রাজিলের মোম-পাম (Copernicia cerifera) গাছের পাতা ও কুঁড়ি থেকে পাওয়া যায়। উদ্ভিজ্জ উৎস নিজে থেকে নিরাপত্তার প্রমাণ নয়।"
+    },
+    "applications": [
+      "chocolate-confectionery",
+      "bread-bakery"
+    ],
+    "summary": {
+      "en": "A hard plant wax that gives sweets a glossy shine. Authorities differ on an ADI; EFSA set none in 2012 but found authorised uses of no concern.",
+      "bn": "শক্ত উদ্ভিজ্জ মোম, যা মিষ্টিকে চকচকে করে। এডিআই নিয়ে কর্তৃপক্ষের মত ভিন্ন; ২০১২ সালে ইএফএসএ এডিআই না দিলেও অনুমোদিত ব্যবহারে উদ্বেগ পায়নি।"
+    },
+    "whatIs": {
+      "en": "Carnauba wax (E903) is a hard, brittle wax from the leaves and buds of the Brazilian wax palm. It is a complex mixture, mainly of wax esters.",
+      "bn": "কারনাউবা মোম (E903) ব্রাজিলের মোম-পাম গাছের পাতা ও কুঁড়ি থেকে পাওয়া শক্ত, ভঙ্গুর মোম। এটি মূলত ওয়াক্স এস্টারের জটিল মিশ্রণ।"
+    },
+    "whyUsed": {
+      "en": "It gives sweets and coated products a hard, glossy finish and stops them from sticking together.",
+      "bn": "এটি মিষ্টি ও প্রলেপ দেওয়া পণ্যকে শক্ত, চকচকে করে এবং একে অপরের সঙ্গে লেগে যাওয়া রোধ করে।"
+    },
+    "howItWorks": {
+      "en": "Applied in a very thin layer, its hard surface polishes to a shine and resists water.",
+      "bn": "খুব পাতলা স্তরে দিলে এর শক্ত উপরিভাগ চকচক করে এবং পানি প্রতিরোধ করে।"
+    },
+    "properties": [
+      {
+        "en": "plant-based wax",
+        "bn": "উদ্ভিজ্জ মোম"
+      },
+      {
+        "en": "hard and brittle",
+        "bn": "শক্ত ও ভঙ্গুর"
+      },
+      {
+        "en": "not expected to be significantly absorbed",
+        "bn": "উল্লেখযোগ্যভাবে শোষিত হওয়ার সম্ভাবনা কম"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "appearance",
+        "text": {
+          "en": "Gives a durable shine to confectionery.",
+          "bn": "মিষ্টিজাত পণ্যে দীর্ঘস্থায়ী চকচকে ভাব আনে।"
+        }
+      },
+      {
+        "kind": "processing",
+        "text": {
+          "en": "Acts as a release agent so that products do not stick.",
+          "bn": "পণ্য যাতে লেগে না যায়, সে জন্য পৃথককারী উপাদান হিসেবে কাজ করে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "preliminary",
+        "text": {
+          "en": "No long-term toxicity or cancer studies exist, so EFSA did not set an ADI. Shorter animal studies, including reproduction and development studies, showed no adverse effects, and EFSA found no genotoxicity concern.",
+          "bn": "দীর্ঘমেয়াদি বিষাক্ততা বা ক্যান্সার গবেষণা নেই, তাই ইএফএসএ এডিআই নির্ধারণ করেনি। প্রজনন ও বিকাশ-সংক্রান্ত গবেষণাসহ স্বল্পমেয়াদি প্রাণী-গবেষণায় ক্ষতিকর প্রভাব দেখা যায়নি এবং ইএফএসএ জিনগত বিষাক্ততার উদ্বেগ পায়নি।"
+        },
+        "sourceIds": [
+          "efsa-2012"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA predicted that carnauba wax is not significantly absorbed and that estimated intakes left sufficient margins of safety. JECFA took a different route and set a numerical ADI; the two positions are shown separately.",
+      "bn": "ইএফএসএর পূর্বাভাস, কারনাউবা মোম উল্লেখযোগ্যভাবে শোষিত হয় না এবং আনুমানিক গ্রহণে নিরাপত্তার যথেষ্ট ব্যবধান থাকে। জেইসিএফএ ভিন্ন পথে সংখ্যাগত এডিআই নির্ধারণ করেছে; দুটি অবস্থান আলাদাভাবে দেখানো হয়েছে।"
+    },
+    "statusLabels": [
+      "approved-specific",
+      "gras-conditions",
+      "within-limits"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Currently authorised uses not of safety concern, based on margins of safety.",
+          "bn": "নিরাপত্তার ব্যবধানের ভিত্তিতে বর্তমানে অনুমোদিত ব্যবহারে উদ্বেগ নেই।"
+        },
+        "adi": {
+          "type": "none-established",
+          "note": {
+            "en": "No ADI set because long-term toxicity data were lacking.",
+            "bn": "দীর্ঘমেয়াদি বিষাক্ততার তথ্য না থাকায় এডিআই নির্ধারণ করা হয়নি।"
+          }
+        },
+        "date": "2012",
+        "sourceId": "efsa-2012"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International (FAO/WHO)",
+          "bn": "আন্তর্জাতিক (এফএও/ডব্লিউএইচও)"
+        },
+        "status": {
+          "en": "Numerical ADI allocated.",
+          "bn": "সংখ্যাগত এডিআই নির্ধারিত।"
+        },
+        "adi": {
+          "type": "numeric",
+          "value": 7,
+          "low": 0,
+          "unit": "mg/kg bw/day"
+        },
+        "date": "1992",
+        "sourceId": "jecfa-1992"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "মার্কিন যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Affirmed as GRAS for listed food types.",
+          "bn": "তালিকাভুক্ত খাবারের জন্য জিআরএএস হিসেবে স্বীকৃত।"
+        },
+        "limits": {
+          "en": "No numeric cap; good manufacturing practice applies.",
+          "bn": "সংখ্যাগত সীমা নেই; উত্তম উৎপাদন অনুশীলন প্রযোজ্য।"
+        },
+        "date": "2024-04",
+        "sourceId": "cfr-184-1978"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-2012",
+        "org": "EFSA",
+        "title": "Scientific Opinion on the re-evaluation of carnauba wax (E 903) as a food additive",
+        "year": 2012,
+        "url": "https://efsa.europa.eu/en/efsajournal/pub/2880",
+        "kind": "regulatory"
+      },
+      {
+        "id": "jecfa-1992",
+        "org": "JECFA (INCHEM)",
+        "title": "JECFA Evaluations: Carnauba wax",
+        "year": 1992,
+        "url": "https://inchem.org/documents/jecfa/jeceval/jec_367.htm",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-184-1978",
+        "org": "US FDA (21 CFR, govinfo)",
+        "title": "21 CFR 184.1978 Carnauba wax",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1978.xml",
+        "kind": "regulatory"
+      }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "EFSA's 2012 abstract was read through the FAO AGRIS record of the opinion because the EFSA Journal page refused automated access. No later EFSA opinion on E903 was found."
+    }
+  }
+]

@@ -1,0 +1,1329 @@
+[
+  {
+    "id": "tartrazine",
+    "name": { "en": "Tartrazine", "bn": "টারট্রাজিন" },
+    "commonNames": ["FD&C Yellow No. 5", "Yellow 5"],
+    "labelNames": ["tartrazine", "e102", "e 102", "ins 102", "fd&c yellow no. 5", "fd&c yellow 5", "yellow 5", "yellow no. 5", "টারট্রাজিন"],
+    "eNumber": "E102",
+    "ins": "102",
+    "formula": "C16H9N4Na3O9S2",
+    "category": "food-colors",
+    "origin": "synthetic",
+    "applications": ["soft-drinks", "chocolate-confectionery", "chips-snacks", "sauces-condiments"],
+    "summary": {
+      "en": "A synthetic lemon-yellow azo colour, carrying an EU warning label and part of a voluntary US phase-out, with intolerance reported in a small group.",
+      "bn": "লেবু-হলুদ রঙের একটি কৃত্রিম অ্যাজো রং; ইউরোপে সতর্কবার্তা লাগে, যুক্তরাষ্ট্রে স্বেচ্ছায় বাদ দেওয়ার উদ্যোগ চলছে।"
+    },
+    "whatIs": {
+      "en": "Tartrazine is a lab-made yellow azo dye, sold in the US as FD&C Yellow No. 5. It is one of six colours that must carry a warning statement in the EU.",
+      "bn": "টারট্রাজিন গবেষণাগারে তৈরি হলুদ অ্যাজো রং, যুক্তরাষ্ট্রে এর নাম এফডিঅ্যান্ডসি ইয়েলো নং ৫। ইউরোপীয় ইউনিয়নে যে ছয়টি রঙের জন্য মোড়কে সতর্কবার্তা বাধ্যতামূলক, এটি তার একটি।"
+    },
+    "whyUsed": {
+      "en": "It gives drinks, sweets and snacks a bright, stable yellow at low cost.",
+      "bn": "পানীয়, মিষ্টি ও স্ন্যাকসে কম খরচে উজ্জ্বল ও স্থায়ী হলুদ রং আনতে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "The dye dissolves in water and absorbs blue light, so the food looks yellow.",
+      "bn": "রংটি পানিতে দ্রবীভূত হয়ে নীল আলো শোষণ করে, তাই খাবার হলুদ দেখায়।"
+    },
+    "properties": [
+      { "en": "water-soluble azo dye", "bn": "পানিতে দ্রবণীয় অ্যাজো রং" },
+      { "en": "lemon-yellow shade", "bn": "লেবু-হলুদ আভা" }
+    ],
+    "benefits": [
+      { "kind": "appearance", "text": { "en": "Gives a consistent yellow colour.", "bn": "একই রকম হলুদ রং ধরে রাখে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "conflicting",
+        "text": {
+          "en": "In the 2007 Southampton randomised trial (153 children aged 3, 144 aged 8/9), drinks with colour mixtures plus sodium benzoate raised hyperactivity scores, but the design could not separate single additives. EFSA called this limited evidence of a small effect and kept the ADI. A 2022 review of human and animal studies supported an association and questioned whether intake limits protect sensitive children.",
+          "bn": "২০০৭ সালের সাউদাম্পটন র‍্যান্ডমাইজড ট্রায়ালে (৩ বছর বয়সী ১৫৩ জন এবং ৮/৯ বছর বয়সী ১৪৪ জন শিশু) রঙের মিশ্রণ ও সোডিয়াম বেনজোয়েটযুক্ত পানীয়তে অতিচঞ্চলতার স্কোর বেড়েছিল, তবে আলাদা করে কোন উপাদানের প্রভাব তা বোঝা যায়নি। ইএফএসএ একে সামান্য প্রভাবের সীমিত প্রমাণ বলে ADI বদলায়নি। ২০২২ সালের একটি পর্যালোচনা সম্পর্কের পক্ষে মত দিয়ে প্রশ্ন তোলে, সংবেদনশীল শিশুদের জন্য মাত্রাগুলো যথেষ্ট কি না।"
+        },
+        "sourceIds": ["mccann-2007", "efsa-2008-southampton", "efsa-2009-news", "miller-2022"]
+      },
+      {
+        "kind": "allergy-intolerance",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "EFSA concluded tartrazine may cause intolerance reactions, such as skin irritation, in a small part of the population, and that some sensitive people may react within the ADI.",
+          "bn": "ইএফএসএ-র মতে, টারট্রাজিন অল্পসংখ্যক মানুষের ক্ষেত্রে ত্বকের জ্বালার মতো অসহিষ্ণুতা ঘটাতে পারে, এবং কিছু সংবেদনশীল মানুষ ADI-এর মধ্যেই প্রতিক্রিয়া দেখাতে পারেন।"
+        },
+        "sourceIds": ["efsa-2009-news", "efsa-2009-tartrazine"]
+      }
+    ],
+    "riskContext": {
+      "en": "JECFA estimated in 2016 that children's dietary exposure stayed below the upper end of its ADI and saw no health concern. Whether mixtures affect behaviour in some children remains disputed. Being synthetic does not itself show that a colour is safe or unsafe.",
+      "bn": "জেইসিএফএ ২০১৬ সালে হিসাব করে দেখেছে, শিশুদের খাদ্যগ্রহণ ADI-এর ঊর্ধ্বসীমার নিচে এবং স্বাস্থ্যঝুঁকির কারণ নেই। তবে মিশ্রণ কিছু শিশুর আচরণে প্রভাব ফেলে কি না, সে বিতর্ক রয়ে গেছে। কৃত্রিম হওয়া নিজে নিরাপদ বা অনিরাপদ হওয়ার প্রমাণ নয়।"
+    },
+    "statusLabels": ["within-limits", "known-adverse", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International", "bn": "আন্তর্জাতিক" },
+        "status": { "en": "ADI raised in 2016", "bn": "২০১৬ সালে ADI বাড়ানো হয়" },
+        "adi": { "type": "numeric", "value": 10, "low": 0, "unit": "mg/kg bw/day" },
+        "date": "2016",
+        "sourceId": "jecfa-tartrazine"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "ADI kept at re-evaluation", "bn": "পুনর্মূল্যায়নে ADI অপরিবর্তিত" },
+        "adi": { "type": "numeric", "value": 7.5, "unit": "mg/kg bw/day" },
+        "date": "2009",
+        "sourceId": "efsa-2009-tartrazine"
+      },
+      {
+        "authority": "European Parliament and Council",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Label must state the colour may affect activity and attention in children", "bn": "মোড়কে লিখতে হয়, রংটি শিশুদের কর্মচঞ্চলতা ও মনোযোগে বিরূপ প্রভাব ফেলতে পারে" },
+        "conditions": { "en": "Annex V; warning applies to six colours", "bn": "অ্যানেক্স ৫; ছয়টি রঙে প্রযোজ্য" },
+        "date": "2008",
+        "sourceId": "eu-1333-2008"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Listed for foods generally; must be named on the label", "bn": "সাধারণভাবে খাবারে অনুমোদিত; মোড়কে নাম লেখা বাধ্যতামূলক" },
+        "limits": { "en": "Good manufacturing practice", "bn": "উত্তম উৎপাদন বিধি অনুযায়ী" },
+        "date": "2026-11",
+        "sourceId": "cfr-74-705"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Target of a voluntary industry phase-out by the end of 2027; not revoked", "bn": "২০২৭ সালের শেষ নাগাদ স্বেচ্ছায় বাদ দেওয়ার লক্ষ্য; অনুমোদন বাতিল হয়নি" },
+        "date": "2026-10",
+        "sourceId": "fda-pledges"
+      }
+    ],
+    "flags": ["azo-color-eu-warning"],
+    "references": [
+      { "id": "jecfa-tartrazine", "org": "JECFA", "title": "Tartrazine", "year": 2016, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3885", "kind": "regulatory" },
+      { "id": "efsa-2009-tartrazine", "org": "EFSA", "title": "Scientific Opinion on the re-evaluation Tartrazine (E 102)", "year": 2009, "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2009.1331", "kind": "regulatory" },
+      { "id": "efsa-2009-news", "org": "EFSA", "title": "EFSA updates safety advice on six food colours", "year": 2009, "url": "https://www.efsa.europa.eu/en/press/news/091112", "kind": "agency-guidance" },
+      { "id": "efsa-2008-southampton", "org": "EFSA", "title": "EFSA evaluates Southampton study on food additives and child behaviour", "year": 2008, "url": "https://www.efsa.europa.eu/en/press/news/080314", "kind": "agency-guidance" },
+      { "id": "mccann-2007", "org": "The Lancet", "title": "Food additives and hyperactive behaviour in 3-year-old and 8/9-year-old children in the community: a randomised, double-blinded, placebo-controlled trial", "year": 2007, "url": "https://pubmed.ncbi.nlm.nih.gov/17825405/", "kind": "peer-reviewed" },
+      { "id": "miller-2022", "org": "Environmental Health", "title": "Potential impacts of synthetic food dyes on activity and attention in children: a review of the human and animal evidence", "year": 2022, "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9052604/", "kind": "peer-reviewed" },
+      { "id": "eu-1333-2008", "org": "European Union", "title": "Regulation (EC) No 1333/2008 on food additives", "year": 2008, "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32008R1333", "kind": "regulatory" },
+      { "id": "cfr-74-705", "org": "US FDA", "title": "21 CFR 74.705 FD&C Yellow No. 5", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-74/subpart-A/section-74.705", "kind": "regulatory" },
+      { "id": "fda-pledges", "org": "US FDA", "title": "Tracking Food Industry Pledges to Remove Petroleum Based Food Dyes", "year": 2026, "url": "https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes", "kind": "agency-guidance" }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "EFSA Journal 2009 pages returned HTTP 403 to direct fetch; the EFSA ADI of 7.5 mg/kg and the within-ADI sensitivity point were read in search excerpts of the linked opinion. Annex V wording of Regulation 1333/2008 was read in search excerpts of EUR-Lex; the EUR-Lex page did not load directly."
+    }
+  },
+  {
+    "id": "sunset-yellow-fcf",
+    "name": { "en": "Sunset Yellow FCF", "bn": "সানসেট ইয়েলো এফসিএফ" },
+    "commonNames": ["FD&C Yellow No. 6", "Yellow 6", "Orange Yellow S"],
+    "labelNames": ["sunset yellow", "sunset yellow fcf", "orange yellow s", "e110", "e 110", "ins 110", "fd&c yellow no. 6", "fd&c yellow 6", "yellow 6", "yellow no. 6", "সানসেট ইয়েলো"],
+    "eNumber": "E110",
+    "ins": "110",
+    "formula": "C16H10N2Na2O7S2",
+    "category": "food-colors",
+    "origin": "synthetic",
+    "applications": ["soft-drinks", "chocolate-confectionery", "chips-snacks", "sauces-condiments"],
+    "summary": {
+      "en": "A synthetic orange-yellow azo colour. EFSA and JECFA now share an ADI of 4 mg/kg; the EU requires a warning and the US seeks voluntary removal.",
+      "bn": "কমলা-হলুদ কৃত্রিম অ্যাজো রং। ইএফএসএ ও জেইসিএফএ-র ADI এখন একই, ইউরোপে সতর্কবার্তা লাগে, যুক্তরাষ্ট্র স্বেচ্ছায় বাদ দিতে বলছে।"
+    },
+    "whatIs": {
+      "en": "Sunset Yellow FCF is a lab-made orange-yellow azo dye, known in the US as FD&C Yellow No. 6. It is one of the six colours linked to the EU warning label.",
+      "bn": "সানসেট ইয়েলো এফসিএফ গবেষণাগারে তৈরি কমলা-হলুদ অ্যাজো রং, যুক্তরাষ্ট্রে এর নাম এফডিঅ্যান্ডসি ইয়েলো নং ৬। ইউরোপের সতর্কবার্তাযুক্ত ছয়টি রঙের একটি এটি।"
+    },
+    "whyUsed": {
+      "en": "It gives an even orange shade to drinks, sweets and snack coatings.",
+      "bn": "পানীয়, মিষ্টি ও স্ন্যাকসের প্রলেপে সমান কমলা রং দিতে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "The water-soluble dye absorbs blue-green light, leaving an orange appearance.",
+      "bn": "পানিতে দ্রবণীয় রংটি নীল-সবুজ আলো শোষণ করে, ফলে কমলা দেখায়।"
+    },
+    "properties": [
+      { "en": "water-soluble azo dye", "bn": "পানিতে দ্রবণীয় অ্যাজো রং" },
+      { "en": "orange-yellow shade", "bn": "কমলা-হলুদ আভা" }
+    ],
+    "benefits": [
+      { "kind": "appearance", "text": { "en": "Gives a uniform orange colour.", "bn": "একই রকম কমলা রং দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "conflicting",
+        "text": {
+          "en": "The 2007 Southampton trial tested colour mixtures with sodium benzoate, so it could not isolate this colour. EFSA called the evidence limited, and said in 2009 that data did not substantiate a causal link between individual colours and behaviour. A 2022 review reached a more cautious view of the combined human and animal evidence.",
+          "bn": "২০০৭ সালের সাউদাম্পটন ট্রায়ালে রঙের মিশ্রণ ও সোডিয়াম বেনজোয়েট একসঙ্গে পরীক্ষা হয়েছিল, তাই এই রঙের আলাদা প্রভাব জানা যায়নি। ইএফএসএ প্রমাণকে সীমিত বলে; ২০০৯ সালে জানায়, একক রং ও আচরণের কার্যকারণ সম্পর্ক তথ্যে প্রমাণিত নয়। ২০২২ সালের একটি পর্যালোচনা মানুষ ও প্রাণীর সম্মিলিত প্রমাণ দেখে বেশি সতর্ক অবস্থান নেয়।"
+        },
+        "sourceIds": ["mccann-2007", "efsa-2008-southampton", "efsa-2009-news", "miller-2022"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "For this colour EFSA reached no firm conclusion on a link with intolerance reactions.",
+          "bn": "এই রঙের সঙ্গে অসহিষ্ণুতার সম্পর্ক নিয়ে ইএফএসএ নিশ্চিত সিদ্ধান্তে পৌঁছায়নি।"
+        },
+        "sourceIds": ["efsa-2009-news"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA set a temporary ADI of 1 mg/kg in 2009 and replaced it in 2014 with 4 mg/kg, matching JECFA. JECFA concluded dietary exposure does not pose a health concern. The warning label reflects the Southampton concern and is not based on a tumour or organ finding.",
+      "bn": "ইএফএসএ ২০০৯ সালে ১ মিগ্রা/কেজি অস্থায়ী ADI দিয়েছিল, ২০১৪ সালে তা ৪ মিগ্রা/কেজি করে, যা জেইসিএফএ-র সমান। জেইসিএফএ-র মতে খাবার থেকে গ্রহণ স্বাস্থ্যঝুঁকির কারণ নয়। সতর্কবার্তাটি সাউদাম্পটনের উদ্বেগ থেকে এসেছে, টিউমার বা অঙ্গের ক্ষতির ফলাফল থেকে নয়।"
+    },
+    "statusLabels": ["within-limits", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Temporary ADI replaced in 2014", "bn": "২০১৪ সালে অস্থায়ী ADI প্রতিস্থাপিত" },
+        "adi": { "type": "numeric", "value": 4, "unit": "mg/kg bw/day" },
+        "date": "2014",
+        "sourceId": "efsa-2014-sunset"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International", "bn": "আন্তর্জাতিক" },
+        "status": { "en": "ADI set; earlier 0-2.5 withdrawn", "bn": "ADI নির্ধারিত; আগের ০-২.৫ প্রত্যাহার" },
+        "adi": { "type": "numeric", "value": 4, "low": 0, "unit": "mg/kg bw/day" },
+        "date": "2011",
+        "sourceId": "jecfa-sunset"
+      },
+      {
+        "authority": "European Parliament and Council",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Label warning on activity and attention in children", "bn": "শিশুদের কর্মচঞ্চলতা ও মনোযোগ নিয়ে মোড়কে সতর্কবার্তা" },
+        "conditions": { "en": "Annex V; applies to six colours", "bn": "অ্যানেক্স ৫; ছয়টি রঙে প্রযোজ্য" },
+        "date": "2008",
+        "sourceId": "eu-1333-2008"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Listed for foods generally", "bn": "সাধারণভাবে খাবারে অনুমোদিত" },
+        "limits": { "en": "Good manufacturing practice", "bn": "উত্তম উৎপাদন বিধি অনুযায়ী" },
+        "date": "2026-11",
+        "sourceId": "cfr-74-706"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Target of a voluntary industry phase-out by the end of 2027; not revoked", "bn": "২০২৭ সালের শেষ নাগাদ স্বেচ্ছায় বাদ দেওয়ার লক্ষ্য; অনুমোদন বাতিল হয়নি" },
+        "date": "2026-10",
+        "sourceId": "fda-pledges"
+      }
+    ],
+    "flags": ["azo-color-eu-warning"],
+    "references": [
+      { "id": "efsa-2014-sunset", "org": "EFSA", "title": "Reconsideration of the temporary ADI and refined exposure assessment for Sunset Yellow FCF (E 110)", "year": 2014, "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2014.3765", "kind": "regulatory" },
+      { "id": "jecfa-sunset", "org": "JECFA", "title": "Sunset Yellow FCF", "year": 2011, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2703", "kind": "regulatory" },
+      { "id": "efsa-2009-news", "org": "EFSA", "title": "EFSA updates safety advice on six food colours", "year": 2009, "url": "https://www.efsa.europa.eu/en/press/news/091112", "kind": "agency-guidance" },
+      { "id": "efsa-2008-southampton", "org": "EFSA", "title": "EFSA evaluates Southampton study on food additives and child behaviour", "year": 2008, "url": "https://www.efsa.europa.eu/en/press/news/080314", "kind": "agency-guidance" },
+      { "id": "mccann-2007", "org": "The Lancet", "title": "Food additives and hyperactive behaviour in 3-year-old and 8/9-year-old children in the community: a randomised, double-blinded, placebo-controlled trial", "year": 2007, "url": "https://pubmed.ncbi.nlm.nih.gov/17825405/", "kind": "peer-reviewed" },
+      { "id": "miller-2022", "org": "Environmental Health", "title": "Potential impacts of synthetic food dyes on activity and attention in children: a review of the human and animal evidence", "year": 2022, "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9052604/", "kind": "peer-reviewed" },
+      { "id": "eu-1333-2008", "org": "European Union", "title": "Regulation (EC) No 1333/2008 on food additives", "year": 2008, "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32008R1333", "kind": "regulatory" },
+      { "id": "cfr-74-706", "org": "US FDA", "title": "21 CFR 74.706 FD&C Yellow No. 6", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-74/subpart-A/section-74.706", "kind": "regulatory" },
+      { "id": "fda-pledges", "org": "US FDA", "title": "Tracking Food Industry Pledges to Remove Petroleum Based Food Dyes", "year": 2026, "url": "https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes", "kind": "agency-guidance" }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "EFSA's 2014 ADI of 4 mg/kg and the 2009 temporary ADI of 1 mg/kg were read in search excerpts of EFSA Journal pages (direct fetch returned HTTP 403). Annex V wording was read in search excerpts of EUR-Lex."
+    }
+  },
+  {
+    "id": "allura-red-ac",
+    "name": { "en": "Allura Red AC", "bn": "অ্যালুরা রেড এসি" },
+    "commonNames": ["FD&C Red No. 40", "Red 40"],
+    "labelNames": ["allura red", "allura red ac", "e129", "e 129", "ins 129", "fd&c red no. 40", "fd&c red 40", "red 40", "red no. 40", "অ্যালুরা রেড"],
+    "eNumber": "E129",
+    "ins": "129",
+    "formula": "C18H14N2Na2O8S2",
+    "category": "food-colors",
+    "origin": "synthetic",
+    "applications": ["soft-drinks", "chocolate-confectionery", "chips-snacks", "breakfast-cereals"],
+    "summary": {
+      "en": "A synthetic red azo colour with an ADI of 7 mg/kg from EFSA and JECFA, an EU warning label, and a voluntary US phase-out target.",
+      "bn": "কৃত্রিম লাল অ্যাজো রং; ইএফএসএ ও জেইসিএফএ-র ADI ৭ মিগ্রা/কেজি, ইউরোপে সতর্কবার্তা ও যুক্তরাষ্ট্রে স্বেচ্ছায় বাদের লক্ষ্য।"
+    },
+    "whatIs": {
+      "en": "Allura Red AC is a lab-made red azo dye, called FD&C Red No. 40 in the US. It is one of six colours that must carry an EU warning statement.",
+      "bn": "অ্যালুরা রেড এসি গবেষণাগারে তৈরি লাল অ্যাজো রং, যুক্তরাষ্ট্রে এর নাম এফডিঅ্যান্ডসি রেড নং ৪০। ইউরোপের সতর্কবার্তাযুক্ত ছয়টি রঙের একটি।"
+    },
+    "whyUsed": {
+      "en": "It gives a strong, stable red to drinks, sweets and snacks.",
+      "bn": "পানীয়, মিষ্টি ও স্ন্যাকসে গাঢ় ও স্থায়ী লাল রং দিতে ব্যবহৃত হয়।"
+    },
+    "howItWorks": {
+      "en": "The water-soluble dye absorbs green light, so food looks red.",
+      "bn": "পানিতে দ্রবণীয় রংটি সবুজ আলো শোষণ করে, তাই খাবার লাল দেখায়।"
+    },
+    "properties": [
+      { "en": "water-soluble azo dye", "bn": "পানিতে দ্রবণীয় অ্যাজো রং" },
+      { "en": "red shade", "bn": "লাল আভা" }
+    ],
+    "benefits": [
+      { "kind": "appearance", "text": { "en": "Gives a strong red colour.", "bn": "গাঢ় লাল রং দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "conflicting",
+        "text": {
+          "en": "This colour was one of those tested in mixtures with sodium benzoate in the 2007 Southampton trial. EFSA found limited evidence of a small effect that could not be tied to any single colour. A 2022 review supported an association and questioned current limits.",
+          "bn": "২০০৭ সালের সাউদাম্পটন ট্রায়ালে সোডিয়াম বেনজোয়েটের সঙ্গে মিশ্রণে পরীক্ষিত রঙের মধ্যে এটিও ছিল। ইএফএসএ সামান্য প্রভাবের সীমিত প্রমাণ পেয়েছে, যা কোনো একক রঙের সঙ্গে যুক্ত করা যায়নি। ২০২২ সালের একটি পর্যালোচনা সম্পর্কের পক্ষে মত দিয়ে বর্তমান সীমা নিয়ে প্রশ্ন তোলে।"
+        },
+        "sourceIds": ["mccann-2007", "efsa-2008-southampton", "miller-2022"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "preliminary",
+        "text": {
+          "en": "In a 2022 mouse study, long-term exposure worsened experimental colitis through gut serotonin. The authors noted it is unknown whether the same happens in people.",
+          "bn": "২০২২ সালের একটি ইঁদুর-গবেষণায় দীর্ঘমেয়াদি গ্রহণে পরীক্ষামূলক কোলাইটিস বেড়েছিল। গবেষকরাই বলেছেন, মানুষের ক্ষেত্রে একই ঘটে কি না তা অজানা।"
+        },
+        "sourceIds": ["kwon-2022"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "conflicting",
+        "text": {
+          "en": "After positive comet-assay results in mice, EFSA stated in 2013 that the new data were not enough to change its 2009 conclusions or the ADI.",
+          "bn": "ইঁদুরে কমেট পরীক্ষায় ইতিবাচক ফল আসার পর ২০১৩ সালে ইএফএসএ জানায়, নতুন তথ্য ২০০৯ সালের সিদ্ধান্ত বা ADI বদলানোর জন্য যথেষ্ট নয়।"
+        },
+        "sourceIds": ["efsa-2013-allura"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA's 2015 refined assessment found no estimate above the ADI in any population at permitted levels, and JECFA in 2016 saw no health concern for children. The mouse and behaviour findings are open questions and do not measure the risk of ordinary intake.",
+      "bn": "ইএফএসএ-র ২০১৫ সালের পরিমার্জিত হিসাবে অনুমোদিত মাত্রায় কোনো জনগোষ্ঠীর গ্রহণ ADI ছাড়ায়নি, এবং জেইসিএফএ ২০১৬ সালে শিশুদের জন্য ঝুঁকি দেখেনি। ইঁদুর ও আচরণের ফলাফলগুলো খোলা প্রশ্ন; এগুলো সাধারণ গ্রহণের ঝুঁকি পরিমাপ করে না।"
+    },
+    "statusLabels": ["within-limits", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "ADI kept at 2009 re-evaluation", "bn": "২০০৯ সালের পুনর্মূল্যায়নে ADI অপরিবর্তিত" },
+        "adi": { "type": "numeric", "value": 7, "unit": "mg/kg bw/day" },
+        "date": "2009",
+        "sourceId": "efsa-2009-allura"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International", "bn": "আন্তর্জাতিক" },
+        "status": { "en": "ADI confirmed; no concern for children", "bn": "ADI নিশ্চিত; শিশুদের জন্য উদ্বেগ নেই" },
+        "adi": { "type": "numeric", "value": 7, "low": 0, "unit": "mg/kg bw/day" },
+        "date": "2016",
+        "sourceId": "jecfa-allura"
+      },
+      {
+        "authority": "European Parliament and Council",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Label warning on activity and attention in children", "bn": "শিশুদের কর্মচঞ্চলতা ও মনোযোগ নিয়ে মোড়কে সতর্কবার্তা" },
+        "conditions": { "en": "Annex V; applies to six colours", "bn": "অ্যানেক্স ৫; ছয়টি রঙে প্রযোজ্য" },
+        "date": "2008",
+        "sourceId": "eu-1333-2008"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Listed for foods generally", "bn": "সাধারণভাবে খাবারে অনুমোদিত" },
+        "limits": { "en": "Good manufacturing practice", "bn": "উত্তম উৎপাদন বিধি অনুযায়ী" },
+        "date": "2026-11",
+        "sourceId": "cfr-74-340"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Target of a voluntary industry phase-out by the end of 2027; not revoked", "bn": "২০২৭ সালের শেষ নাগাদ স্বেচ্ছায় বাদ দেওয়ার লক্ষ্য; অনুমোদন বাতিল হয়নি" },
+        "date": "2026-10",
+        "sourceId": "fda-pledges"
+      }
+    ],
+    "flags": ["azo-color-eu-warning"],
+    "references": [
+      { "id": "efsa-2009-allura", "org": "EFSA", "title": "Scientific Opinion on the re-evaluation of Allura Red AC (E 129) as a food additive", "year": 2009, "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2009.1327", "kind": "regulatory" },
+      { "id": "efsa-2013-allura", "org": "EFSA", "title": "Statement on Allura Red AC and other sulphonated mono azo dyes authorised as food and feed additives", "year": 2013, "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2013.3234", "kind": "regulatory" },
+      { "id": "efsa-2015-allura", "org": "EFSA", "title": "Refined exposure assessment for Allura Red AC (E 129)", "year": 2015, "url": "https://efsa.onlinelibrary.wiley.com/doi/abs/10.2903/j.efsa.2015.4007", "kind": "regulatory" },
+      { "id": "jecfa-allura", "org": "JECFA", "title": "Allura Red AC", "year": 2016, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2361", "kind": "regulatory" },
+      { "id": "efsa-2008-southampton", "org": "EFSA", "title": "EFSA evaluates Southampton study on food additives and child behaviour", "year": 2008, "url": "https://www.efsa.europa.eu/en/press/news/080314", "kind": "agency-guidance" },
+      { "id": "mccann-2007", "org": "The Lancet", "title": "Food additives and hyperactive behaviour in 3-year-old and 8/9-year-old children in the community: a randomised, double-blinded, placebo-controlled trial", "year": 2007, "url": "https://pubmed.ncbi.nlm.nih.gov/17825405/", "kind": "peer-reviewed" },
+      { "id": "miller-2022", "org": "Environmental Health", "title": "Potential impacts of synthetic food dyes on activity and attention in children: a review of the human and animal evidence", "year": 2022, "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9052604/", "kind": "peer-reviewed" },
+      { "id": "kwon-2022", "org": "Nature Communications", "title": "Chronic exposure to synthetic food colorant Allura Red AC promotes susceptibility to experimental colitis via intestinal serotonin in mice", "year": 2022, "url": "https://doi.org/10.1038/s41467-022-35309-y", "kind": "peer-reviewed" },
+      { "id": "eu-1333-2008", "org": "European Union", "title": "Regulation (EC) No 1333/2008 on food additives", "year": 2008, "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32008R1333", "kind": "regulatory" },
+      { "id": "cfr-74-340", "org": "US FDA", "title": "21 CFR 74.340 FD&C Red No. 40", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-74/subpart-A/section-74.340", "kind": "regulatory" },
+      { "id": "fda-pledges", "org": "US FDA", "title": "Tracking Food Industry Pledges to Remove Petroleum Based Food Dyes", "year": 2026, "url": "https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes", "kind": "agency-guidance" }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "EFSA's ADI of 7 mg/kg, the 2013 statement and the 2015 refined exposure result were read in search excerpts of the linked EFSA Journal pages (direct fetch returned HTTP 403). Annex V wording was read in search excerpts of EUR-Lex. That the Southampton mixtures included this colour rests on EFSA's description of the six colours; the mix compositions were not read in the abstract."
+    }
+  },
+  {
+    "id": "ponceau-4r",
+    "name": { "en": "Ponceau 4R", "bn": "পনসো ৪আর" },
+    "commonNames": ["Cochineal Red A", "New Coccine", "CI Food Red 7"],
+    "labelNames": ["ponceau 4r", "cochineal red a", "new coccine", "e124", "e 124", "ins 124", "পনসো ৪আর"],
+    "eNumber": "E124",
+    "ins": "124",
+    "formula": "C20H11N2Na3O10S3",
+    "category": "food-colors",
+    "origin": "synthetic",
+    "originNote": {
+      "en": "Despite the name Cochineal Red A, this is a synthetic azo dye and does not come from cochineal insects.",
+      "bn": "কোচিনিয়াল রেড এ নাম থাকলেও এটি কৃত্রিম অ্যাজো রং, কোচিনিয়াল পোকা থেকে আসে না।"
+    },
+    "applications": ["soft-drinks", "chocolate-confectionery", "sauces-condiments"],
+    "summary": {
+      "en": "A synthetic red azo colour. EFSA's ADI (0.7 mg/kg) is lower than JECFA's (0-4), and the US does not permit it in food.",
+      "bn": "কৃত্রিম লাল অ্যাজো রং। ইএফএসএ-র ADI (০.৭) জেইসিএফএ-র (০-৪) চেয়ে কম, আর যুক্তরাষ্ট্রে খাবারে এটি অনুমোদিত নয়।"
+    },
+    "whatIs": {
+      "en": "Ponceau 4R is a lab-made strawberry-red azo dye. It is one of the six EU warning-label colours, and it is not a listed colour for food in the US.",
+      "bn": "পনসো ৪আর গবেষণাগারে তৈরি স্ট্রবেরি-লাল অ্যাজো রং। ইউরোপের সতর্কবার্তাযুক্ত ছয়টি রঙের একটি, যুক্তরাষ্ট্রে খাবারের তালিকাভুক্ত রং নয়।"
+    },
+    "whyUsed": {
+      "en": "It gives sweets, drinks and sauces a red shade where it is permitted.",
+      "bn": "যেসব দেশে অনুমোদিত, সেখানে মিষ্টি, পানীয় ও সসে লাল রং দিতে ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "The water-soluble dye absorbs green and blue light, so food looks red.",
+      "bn": "পানিতে দ্রবণীয় রংটি সবুজ ও নীল আলো শোষণ করে, তাই খাবার লাল দেখায়।"
+    },
+    "properties": [
+      { "en": "water-soluble azo dye", "bn": "পানিতে দ্রবণীয় অ্যাজো রং" },
+      { "en": "strawberry-red shade", "bn": "স্ট্রবেরি-লাল আভা" }
+    ],
+    "benefits": [
+      { "kind": "appearance", "text": { "en": "Gives a red colour.", "bn": "লাল রং দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "conflicting",
+        "text": {
+          "en": "This is one of the colours in the Southampton debate. The 2007 trial tested mixtures, so EFSA said it gave limited evidence of a small effect and could not substantiate a causal link for any single colour. A 2022 review supported an association and questioned current limits.",
+          "bn": "সাউদাম্পটন বিতর্কের রঙগুলোর একটি এটি। ২০০৭ সালের ট্রায়ালে মিশ্রণ পরীক্ষা হয়েছিল; তাই ইএফএসএ বলেছে এটি সামান্য প্রভাবের সীমিত প্রমাণ এবং একক রঙের কার্যকারণ সম্পর্ক প্রমাণিত নয়। ২০২২ সালের একটি পর্যালোচনা সম্পর্কের পক্ষে মত দিয়ে বর্তমান সীমা নিয়ে প্রশ্ন তোলে।"
+        },
+        "sourceIds": ["mccann-2007", "efsa-2008-southampton", "efsa-2009-news", "miller-2022"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA reached no firm conclusion on a link between this colour and intolerance reactions.",
+          "bn": "এই রঙের সঙ্গে অসহিষ্ণুতার সম্পর্ক নিয়ে ইএফএসএ নিশ্চিত সিদ্ধান্তে পৌঁছায়নি।"
+        },
+        "sourceIds": ["efsa-2009-news"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA lowered the ADI in 2009 on toxicology grounds, and its 2015 refined assessment found no exposure estimate above the ADI in any population. JECFA kept 0-4 mg/kg in 2011. The two bodies differ in their ADI and neither figure is a measure of harm at ordinary intake.",
+      "bn": "ইএফএসএ ২০০৯ সালে বিষতাত্ত্বিক কারণে ADI কমায়; ২০১৫ সালের পরিমার্জিত হিসাবে কোনো জনগোষ্ঠীর গ্রহণ ADI ছাড়ায়নি। জেইসিএফএ ২০১১ সালে ০-৪ মিগ্রা/কেজি রেখেছে। দুই সংস্থার ADI আলাদা, এবং কোনোটিই সাধারণ গ্রহণে ক্ষতির পরিমাপ নয়।"
+    },
+    "statusLabels": ["within-limits", "restricted-some", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "ADI lowered in 2009; used in 2015 exposure review", "bn": "২০০৯ সালে ADI কমানো; ২০১৫ সালের হিসাবেও ব্যবহৃত" },
+        "adi": { "type": "numeric", "value": 0.7, "unit": "mg/kg bw/day" },
+        "date": "2015",
+        "sourceId": "efsa-2015-ponceau"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International", "bn": "আন্তর্জাতিক" },
+        "status": { "en": "ADI kept; exposure not a health concern", "bn": "ADI অপরিবর্তিত; গ্রহণ স্বাস্থ্যঝুঁকি নয়" },
+        "adi": { "type": "numeric", "value": 4, "low": 0, "unit": "mg/kg bw/day" },
+        "date": "2011",
+        "sourceId": "jecfa-ponceau"
+      },
+      {
+        "authority": "European Parliament and Council",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Label warning on activity and attention in children", "bn": "শিশুদের কর্মচঞ্চলতা ও মনোযোগ নিয়ে মোড়কে সতর্কবার্তা" },
+        "conditions": { "en": "Annex V; applies to six colours", "bn": "অ্যানেক্স ৫; ছয়টি রঙে প্রযোজ্য" },
+        "date": "2008",
+        "sourceId": "eu-1333-2008"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Treated as a non-permitted colour in food import enforcement", "bn": "খাদ্য আমদানি নিয়ন্ত্রণে অননুমোদিত রং হিসেবে গণ্য" },
+        "date": "2026-11",
+        "sourceId": "fda-import-alert-45-02"
+      }
+    ],
+    "flags": ["azo-color-eu-warning"],
+    "references": [
+      { "id": "efsa-2015-ponceau", "org": "EFSA", "title": "Refined exposure assessment for Ponceau 4R (E 124)", "year": 2015, "url": "https://doi.org/10.2903/j.efsa.2015.4073", "kind": "regulatory" },
+      { "id": "efsa-2009-news", "org": "EFSA", "title": "EFSA updates safety advice on six food colours", "year": 2009, "url": "https://www.efsa.europa.eu/en/press/news/091112", "kind": "agency-guidance" },
+      { "id": "jecfa-ponceau", "org": "JECFA", "title": "Ponceau 4R", "year": 2011, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4941", "kind": "regulatory" },
+      { "id": "efsa-2008-southampton", "org": "EFSA", "title": "EFSA evaluates Southampton study on food additives and child behaviour", "year": 2008, "url": "https://www.efsa.europa.eu/en/press/news/080314", "kind": "agency-guidance" },
+      { "id": "mccann-2007", "org": "The Lancet", "title": "Food additives and hyperactive behaviour in 3-year-old and 8/9-year-old children in the community: a randomised, double-blinded, placebo-controlled trial", "year": 2007, "url": "https://pubmed.ncbi.nlm.nih.gov/17825405/", "kind": "peer-reviewed" },
+      { "id": "miller-2022", "org": "Environmental Health", "title": "Potential impacts of synthetic food dyes on activity and attention in children: a review of the human and animal evidence", "year": 2022, "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9052604/", "kind": "peer-reviewed" },
+      { "id": "eu-1333-2008", "org": "European Union", "title": "Regulation (EC) No 1333/2008 on food additives", "year": 2008, "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32008R1333", "kind": "regulatory" },
+      { "id": "fda-import-alert-45-02", "org": "US FDA", "title": "Import Alert 45-02: Detention Without Physical Examination and Guidance of Foods Containing Illegal and/or Undeclared Colors", "year": 2026, "url": "https://www.accessdata.fda.gov/cms_ia/importalert_118.html", "kind": "regulatory" }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "US status rests on FDA Import Alert 45-02 entries marking Ponceau 4R (C.I. 16255) as non-permitted; no FDA page stating its status in general terms was read, and the absence from 21 CFR Part 74 was not separately checked. Annex V wording was read in search excerpts of EUR-Lex."
+    }
+  },
+  {
+    "id": "brilliant-blue-fcf",
+    "name": { "en": "Brilliant Blue FCF", "bn": "ব্রিলিয়ান্ট ব্লু এফসিএফ" },
+    "commonNames": ["FD&C Blue No. 1", "Blue 1"],
+    "labelNames": ["brilliant blue", "brilliant blue fcf", "e133", "e 133", "ins 133", "fd&c blue no. 1", "fd&c blue 1", "blue 1", "blue no. 1", "ব্রিলিয়ান্ট ব্লু"],
+    "eNumber": "E133",
+    "ins": "133",
+    "formula": "C37H34N2Na2O9S3",
+    "category": "food-colors",
+    "origin": "synthetic",
+    "applications": ["soft-drinks", "chocolate-confectionery", "frozen-desserts", "dairy"],
+    "summary": {
+      "en": "A synthetic blue colour with an ADI of 6 mg/kg from both EFSA and JECFA. It is not one of the EU warning-label colours.",
+      "bn": "কৃত্রিম নীল রং; ইএফএসএ ও জেইসিএফএ দুই সংস্থারই ADI ৬ মিগ্রা/কেজি। ইউরোপের সতর্কবার্তাযুক্ত ছয় রঙের মধ্যে এটি নেই।"
+    },
+    "whatIs": {
+      "en": "Brilliant Blue FCF is a lab-made blue dye, known in the US as FD&C Blue No. 1. It is not among the six colours that need the EU activity-and-attention warning.",
+      "bn": "ব্রিলিয়ান্ট ব্লু এফসিএফ গবেষণাগারে তৈরি নীল রং, যুক্তরাষ্ট্রে এর নাম এফডিঅ্যান্ডসি ব্লু নং ১। ইউরোপের ছয়টি সতর্কবার্তাযুক্ত রঙের মতো এতে ওই সতর্কবার্তা লাগে না।"
+    },
+    "whyUsed": {
+      "en": "It gives blue and, with yellow, green shades to drinks, sweets and ices.",
+      "bn": "পানীয়, মিষ্টি ও বরফজাত খাবারে নীল রং দিতে এবং হলুদের সঙ্গে মিশিয়ে সবুজ আনতে ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "The water-soluble dye absorbs red-orange light, so food looks blue.",
+      "bn": "পানিতে দ্রবণীয় রংটি লাল-কমলা আলো শোষণ করে, তাই খাবার নীল দেখায়।"
+    },
+    "properties": [
+      { "en": "water-soluble blue dye", "bn": "পানিতে দ্রবণীয় নীল রং" },
+      { "en": "can be blended to make green", "bn": "মিশিয়ে সবুজ করা যায়" }
+    ],
+    "benefits": [
+      { "kind": "appearance", "text": { "en": "Gives a stable blue colour.", "bn": "স্থায়ী নীল রং দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "In EFSA's 2010 modelling, intake at the 95th percentile for children exceeded the ADI in one calculation tier, but refined estimates stayed below it. JECFA in 2017 found a conservative children's estimate below its ADI.",
+          "bn": "ইএফএসএ-র ২০১০ সালের হিসাবে শিশুদের ৯৫তম পার্সেন্টাইলে একটি ধাপে গ্রহণ ADI ছাড়িয়েছিল, তবে পরিমার্জিত হিসাবে তা নিচে ছিল। জেইসিএফএ ২০১৭ সালে শিশুদের রক্ষণশীল হিসাবও ADI-এর নিচে পেয়েছে।"
+        },
+        "sourceIds": ["efsa-2010-blue", "jecfa-blue"]
+      }
+    ],
+    "riskContext": {
+      "en": "Both bodies base the ADI on a rat long-term study with a 100-fold safety factor. Its inclusion in the US phase-out is a policy step: FDA has not revoked the colour, and the phase-out does not by itself show a new hazard.",
+      "bn": "দুই সংস্থাই ইঁদুরের দীর্ঘমেয়াদি গবেষণা ও ১০০ গুণ নিরাপত্তা-ব্যবধানের ওপর ADI ঠিক করেছে। যুক্তরাষ্ট্রের উদ্যোগে এর অন্তর্ভুক্তি একটি নীতিগত পদক্ষেপ: এফডিএ অনুমোদন বাতিল করেনি, আর এই উদ্যোগ নিজে নতুন কোনো বিপদের প্রমাণ নয়।"
+    },
+    "statusLabels": ["within-limits", "approved-specific"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "ADI lowered from 10 at re-evaluation", "bn": "পুনর্মূল্যায়নে ১০ থেকে ADI কমানো হয়" },
+        "adi": { "type": "numeric", "value": 6, "unit": "mg/kg bw/day" },
+        "date": "2010",
+        "sourceId": "efsa-2010-blue"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International", "bn": "আন্তর্জাতিক" },
+        "status": { "en": "ADI revised from 0-12.5", "bn": "০-১২.৫ থেকে ADI সংশোধিত" },
+        "adi": { "type": "numeric", "value": 6, "low": 0, "unit": "mg/kg bw/day" },
+        "date": "2017",
+        "sourceId": "jecfa-blue"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Listed for foods generally", "bn": "সাধারণভাবে খাবারে অনুমোদিত" },
+        "limits": { "en": "Good manufacturing practice", "bn": "উত্তম উৎপাদন বিধি অনুযায়ী" },
+        "date": "2026-11",
+        "sourceId": "cfr-74-101"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Target of a voluntary industry phase-out by the end of 2027; not revoked", "bn": "২০২৭ সালের শেষ নাগাদ স্বেচ্ছায় বাদ দেওয়ার লক্ষ্য; অনুমোদন বাতিল হয়নি" },
+        "date": "2026-10",
+        "sourceId": "fda-pledges"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2010-blue", "org": "EFSA", "title": "Scientific Opinion on the re-evaluation of Brilliant Blue FCF (E 133) as a food additive", "year": 2010, "url": "https://doi.org/10.2903/j.efsa.2010.1853", "kind": "regulatory" },
+      { "id": "jecfa-blue", "org": "JECFA", "title": "Brilliant Blue FCF", "year": 2017, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3309", "kind": "regulatory" },
+      { "id": "cfr-74-101", "org": "US FDA", "title": "21 CFR 74.101 FD&C Blue No. 1", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-74/subpart-A/section-74.101", "kind": "regulatory" },
+      { "id": "fda-pledges", "org": "US FDA", "title": "Tracking Food Industry Pledges to Remove Petroleum Based Food Dyes", "year": 2026, "url": "https://www.fda.gov/food/color-additives-information-consumers/tracking-food-industry-pledges-remove-petroleum-based-food-dyes", "kind": "agency-guidance" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "carmine-cochineal",
+    "name": { "en": "Carmine (cochineal extract)", "bn": "কারমাইন (কোচিনিয়াল নির্যাস)" },
+    "commonNames": ["Cochineal", "Cochineal extract", "Carminic acid"],
+    "labelNames": ["carmine", "carmines", "cochineal", "cochineal extract", "carminic acid", "e120", "e 120", "ins 120", "কারমাইন", "কোচিনিয়াল"],
+    "eNumber": "E120",
+    "ins": "120",
+    "category": "food-colors",
+    "origin": "natural",
+    "originNote": {
+      "en": "Made from the dried bodies of female Dactylopius coccus insects. An insect or natural origin says nothing about safety on its own.",
+      "bn": "স্ত্রী ড্যাকটাইলোপিয়াস কক্কাস পোকার শুকনো দেহ থেকে তৈরি। পোকা বা প্রাকৃতিক উৎস নিজে নিরাপত্তার প্রমাণ নয়।"
+    },
+    "applications": ["dairy", "chocolate-confectionery", "juices", "processed-meat", "frozen-desserts"],
+    "summary": {
+      "en": "A red colour made from cochineal insects. EFSA found no reason to revise its ADI, but some people have severe allergic reactions.",
+      "bn": "কোচিনিয়াল পোকা থেকে তৈরি লাল রং। ইএফএসএ ADI বদলানোর কারণ পায়নি, তবে কারও কারও গুরুতর অ্যালার্জি হতে পারে।"
+    },
+    "whatIs": {
+      "en": "Cochineal extract comes from dried female Dactylopius coccus insects. Further processing gives carmine, and both owe their red colour to carminic acid.",
+      "bn": "কোচিনিয়াল নির্যাস আসে শুকনো স্ত্রী ড্যাকটাইলোপিয়াস কক্কাস পোকা থেকে। আরও প্রক্রিয়াজাত করে কারমাইন হয়; দুটোতেই লাল রং দেয় কারমিনিক অ্যাসিড।"
+    },
+    "whyUsed": {
+      "en": "It gives a stable pink-to-red colour to foods such as yoghurts, sweets and drinks.",
+      "bn": "দই, মিষ্টি ও পানীয়ের মতো খাবারে স্থায়ী গোলাপি থেকে লাল রং দিতে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "Carminic acid absorbs visible light and gives a red shade; in carmine it is bound to a metal to form a colour lake.",
+      "bn": "কারমিনিক অ্যাসিড দৃশ্যমান আলো শোষণ করে লাল আভা দেয়; কারমাইনে এটি ধাতুর সঙ্গে যুক্ত হয়ে রঞ্জক তৈরি করে।"
+    },
+    "properties": [
+      { "en": "insect-derived colour", "bn": "পোকা থেকে পাওয়া রং" },
+      { "en": "colouring principle is carminic acid", "bn": "মূল রঞ্জক কারমিনিক অ্যাসিড" }
+    ],
+    "benefits": [
+      { "kind": "appearance", "text": { "en": "Gives a stable pink-to-red colour.", "bn": "স্থায়ী গোলাপি থেকে লাল রং দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "allergy-intolerance",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "Cochineal extract and carmine can cause allergic reactions in some people, including severe ones such as anaphylaxis. JECFA advised informing allergic individuals, FDA requires the colour to be named on food labels, and EFSA said no threshold dose can be set for allergy and that purification should reduce proteins that trigger reactions.",
+          "bn": "কোচিনিয়াল নির্যাস ও কারমাইনে কারও কারও অ্যালার্জি হতে পারে, কখনও অ্যানাফাইল্যাক্সিসের মতো গুরুতর। জেইসিএফএ অ্যালার্জি-আক্রান্তদের জানানোর পরামর্শ দিয়েছে, এফডিএ মোড়কে নাম লেখা বাধ্যতামূলক করেছে, আর ইএফএসএ বলেছে অ্যালার্জির কোনো নিরাপদ সীমা ঠিক করা যায় না এবং পরিশোধনের মাধ্যমে প্রোটিন কমানো উচিত।"
+        },
+        "sourceIds": ["jecfa-cochineal-2000", "fda-2009-rule", "efsa-2015-carmine"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA's refined estimates were below the ADI for all population groups, and animal studies showed no reason to revise it. For a person with this allergy, the ADI does not protect, so the practical point is reading the label. Vegetarians and others who avoid insect products may also want to check it.",
+      "bn": "ইএফএসএ-র পরিমার্জিত হিসাবে সব জনগোষ্ঠীর গ্রহণ ADI-এর নিচে, আর প্রাণী-গবেষণায় ADI বদলানোর কারণ মেলেনি। তবে এই অ্যালার্জি থাকলে ADI সুরক্ষা দেয় না, তাই মোড়ক দেখাই আসল কথা। নিরামিষাশী বা পোকাজাত পণ্য এড়াতে চান এমন মানুষও এটি দেখে নিতে পারেন।"
+    },
+    "statusLabels": ["within-limits", "known-adverse"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Earlier ADI kept at 2015 re-evaluation", "bn": "২০১৫ সালের পুনর্মূল্যায়নে আগের ADI বহাল" },
+        "adi": {
+          "type": "numeric",
+          "value": 5,
+          "unit": "mg/kg bw/day",
+          "note": { "en": "As carmine; equals 2.5 mg/kg as carminic acid", "bn": "কারমাইন হিসেবে; কারমিনিক অ্যাসিড হিসেবে ২.৫ মিগ্রা/কেজি" }
+        },
+        "date": "2015",
+        "sourceId": "efsa-2015-carmine"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International", "bn": "আন্তর্জাতিক" },
+        "status": { "en": "ADI set in 1982, kept in 2000; no ADI for cochineal extract", "bn": "১৯৮২ সালের ADI ২০০০ সালেও বহাল; কোচিনিয়াল নির্যাসের ADI নেই" },
+        "adi": {
+          "type": "numeric",
+          "value": 5,
+          "low": 0,
+          "unit": "mg/kg bw/day",
+          "note": { "en": "For carmines, as ammonium carmine or equivalent salts", "bn": "কারমাইনের জন্য, অ্যামোনিয়াম কারমাইন বা সমতুল্য লবণ হিসেবে" }
+        },
+        "date": "2000",
+        "sourceId": "jecfa-carmines"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Listed for foods generally; must be named on the label", "bn": "সাধারণভাবে খাবারে অনুমোদিত; মোড়কে নাম লেখা বাধ্যতামূলক" },
+        "limits": { "en": "Good manufacturing practice", "bn": "উত্তম উৎপাদন বিধি অনুযায়ী" },
+        "date": "2026-11",
+        "sourceId": "cfr-73-100"
+      }
+    ],
+    "flags": ["insect-derived", "animal-derived"],
+    "references": [
+      { "id": "efsa-2015-carmine", "org": "EFSA", "title": "Scientific Opinion on the re-evaluation of cochineal, carminic acid, carmines (E 120) as a food additive", "year": 2015, "url": "https://doi.org/10.2903/j.efsa.2015.4288", "kind": "regulatory" },
+      { "id": "jecfa-carmines", "org": "JECFA", "title": "JECFA Evaluations: Carmines", "year": 2000, "url": "https://www.inchem.org/documents/jecfa/jeceval/jec_366.htm", "kind": "regulatory" },
+      { "id": "jecfa-cochineal-2000", "org": "JECFA", "title": "Cochineal extract, carmine, and carminic acid (WHO Food Additives Series 46)", "year": 2001, "url": "https://inchem.org/documents/jecfa/jecmono/v46je03.htm", "kind": "regulatory" },
+      { "id": "cfr-73-100", "org": "US FDA", "title": "21 CFR 73.100 Cochineal extract; carmine", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-73/subpart-A/section-73.100", "kind": "regulatory" },
+      { "id": "fda-2009-rule", "org": "US FDA", "title": "Listing of Color Additives Exempt From Certification; Food, Drug, and Cosmetic Labeling: Cochineal Extract and Carmine Declaration (74 FR 207)", "year": 2009, "url": "https://www.govinfo.gov/content/pkg/FR-2009-01-05/pdf/E8-31253.pdf", "kind": "regulatory" }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "The reports of severe reactions behind the 2009 FDA rule were read in a search excerpt of the Federal Register text. The JECFA monograph year of 2001 is the WHO Food Additives Series 46 publication year; the assessment itself was made at the 2000 meeting."
+    }
+  },
+  {
+    "id": "caramel-iv-sulfite-ammonia",
+    "name": { "en": "Caramel IV (sulfite ammonia caramel)", "bn": "ক্যারামেল ৪ (সালফাইট অ্যামোনিয়া ক্যারামেল)" },
+    "commonNames": ["Class IV caramel", "Sulphite ammonia caramel"],
+    "labelNames": ["sulfite ammonia caramel", "sulphite ammonia caramel", "caramel iv", "class iv caramel", "caramel colour class iv", "caramel color class iv", "e150d", "e 150d", "ins 150d", "সালফাইট অ্যামোনিয়া ক্যারামেল"],
+    "eNumber": "E150d",
+    "ins": "150d",
+    "category": "food-colors",
+    "origin": "natural-derived",
+    "originNote": {
+      "en": "Made by heating carbohydrates with sulfite and ammonia compounds.",
+      "bn": "কার্বোহাইড্রেটকে সালফাইট ও অ্যামোনিয়া যৌগের সঙ্গে গরম করে তৈরি।"
+    },
+    "applications": ["soft-drinks", "sauces-condiments"],
+    "summary": {
+      "en": "A dark brown caramel colour. EFSA and JECFA set different ADIs, and its by-product 4-MEI has been the main subject of debate.",
+      "bn": "গাঢ় বাদামি ক্যারামেল রং। ইএফএসএ ও জেইসিএফএ-র ADI আলাদা, আর এর উপজাত ৪-এমইআই নিয়েই মূল বিতর্ক।"
+    },
+    "whatIs": {
+      "en": "Caramel IV is the class of caramel colour made by heating carbohydrates with sulfite and ammonia compounds. It can contain small amounts of the by-product 4-MEI (4-methylimidazole).",
+      "bn": "ক্যারামেল ৪ হলো কার্বোহাইড্রেটকে সালফাইট ও অ্যামোনিয়া যৌগের সঙ্গে গরম করে তৈরি ক্যারামেল রং। এতে অল্প পরিমাণে উপজাত ৪-এমইআই (৪-মিথাইলইমিডাজল) থাকতে পারে।"
+    },
+    "whyUsed": {
+      "en": "It gives a dark brown colour, especially to soft drinks and sauces.",
+      "bn": "বিশেষত কোমল পানীয় ও সসে গাঢ় বাদামি রং দিতে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "Heating sugars forms brown compounds that stay dissolved in foods and drinks.",
+      "bn": "চিনি গরম করলে বাদামি যৌগ তৈরি হয়, যা খাবার ও পানীয়ে দ্রবীভূত থাকে।"
+    },
+    "properties": [
+      { "en": "dark brown colour", "bn": "গাঢ় বাদামি রং" },
+      { "en": "by-product 4-MEI can be present", "bn": "উপজাত ৪-এমইআই থাকতে পারে" }
+    ],
+    "benefits": [
+      { "kind": "appearance", "text": { "en": "Gives a dark brown colour.", "bn": "গাঢ় বাদামি রং দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "conflicting",
+        "text": {
+          "en": "In 2-year feed studies published by the US National Toxicology Program in 2007, 4-MEI at about 40 to 170 mg/kg body weight a day gave clear evidence of lung tumours in mice, while male rats showed no evidence and female rats equivocal evidence. IARC classed it as possibly carcinogenic to humans (Group 2B); this is a hazard classification and does not measure risk at normal intake. Genotoxicity tests were negative, but assessors have disagreed on how far they rule it out.",
+          "bn": "মার্কিন ন্যাশনাল টক্সিকোলজি প্রোগ্রামের ২০০৭ সালের ২ বছরের খাদ্য-গবেষণায় দৈনিক প্রায় ৪০ থেকে ১৭০ মিগ্রা/কেজি দেহ-ওজন ৪-এমইআই-তে ইঁদুরের (মাইস) ফুসফুসে টিউমারের স্পষ্ট প্রমাণ মেলে; পুরুষ র‍্যাটে প্রমাণ ছিল না, স্ত্রী র‍্যাটে ছিল অনিশ্চিত। আইএআরসি একে গ্রুপ ২বি (মানুষের জন্য সম্ভবত ক্যান্সারজনক) শ্রেণিতে রেখেছে; এটি বিপদের শ্রেণিবিন্যাস, সাধারণ গ্রহণের ঝুঁকির পরিমাপ নয়। জিনোটক্সিসিটি পরীক্ষা নেতিবাচক ছিল, তবে তা কতটা নিশ্চিত করে সে নিয়ে মূল্যায়নকারীদের মতভেদ আছে।"
+        },
+        "sourceIds": ["ntp-2007-tr535", "morita-2016"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA said in 2011 that the highest possible 4-MEI exposure from E150c and E150d gave no cause for concern, and it judged the existing limit sufficiently protective. Its 2012 refined estimate found combined intake of the four caramel colours within the group ADI for every population group. FDA has set no 4-MEI limit, is still reviewing the data, and does not advise people to change their diets. 4-MEI also forms in some cooked foods such as roasted coffee and grilled meat.",
+      "bn": "ইএফএসএ ২০১১ সালে জানায়, E150c ও E150d থেকে সর্বোচ্চ সম্ভাব্য ৪-এমইআই গ্রহণ উদ্বেগের কারণ নয় এবং প্রচলিত সীমা যথেষ্ট সুরক্ষা দেয়। ২০১২ সালের পরিমার্জিত হিসাবে চার ক্যারামেল রং মিলিয়ে গ্রহণ সব জনগোষ্ঠীতে গ্রুপ ADI-এর মধ্যে ছিল। এফডিএ ৪-এমইআই-এর সীমা ঠিক করেনি, তথ্য পর্যালোচনা চলছে, এবং খাদ্যাভ্যাস বদলাতে পরামর্শ দেয় না। ভাজা কফি ও গ্রিল করা মাংসের মতো রান্না করা খাবারেও ৪-এমইআই তৈরি হয়।"
+    },
+    "statusLabels": ["within-limits", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Group ADI for all four caramel colours", "bn": "চার ধরনের ক্যারামেল রঙের জন্য গ্রুপ ADI" },
+        "adi": {
+          "type": "numeric",
+          "value": 300,
+          "unit": "mg/kg bw/day",
+          "note": { "en": "Group ADI for E150a-d combined", "bn": "E150a-d মিলিয়ে গ্রুপ ADI" }
+        },
+        "date": "2011",
+        "sourceId": "efsa-2011-caramel"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International", "bn": "আন্তর্জাতিক" },
+        "status": { "en": "ADI for Class IV caramel", "bn": "ক্লাস ৪ ক্যারামেলের ADI" },
+        "adi": {
+          "type": "numeric",
+          "value": 200,
+          "low": 0,
+          "unit": "mg/kg bw/day",
+          "note": { "en": "On a solids basis 0-150 mg/kg", "bn": "কঠিন অংশ হিসেবে ০-১৫০ মিগ্রা/কেজি" }
+        },
+        "date": "1985",
+        "sourceId": "jecfa-caramel-iv"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Caramel listed for foods generally; no 4-MEI limit set", "bn": "সাধারণভাবে খাবারে অনুমোদিত; ৪-এমইআই-এর সীমা নেই" },
+        "limits": { "en": "Good manufacturing practice", "bn": "উত্তম উৎপাদন বিধি অনুযায়ী" },
+        "date": "2026-11",
+        "sourceId": "cfr-73-85"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2011-caramel", "org": "EFSA", "title": "EFSA reviews safety of caramel colours", "year": 2011, "url": "https://www.efsa.europa.eu/en/press/news/ans110308", "kind": "agency-guidance" },
+      { "id": "efsa-2012-caramel", "org": "EFSA", "title": "Caramel colours: consumer exposure lower than previously estimated", "year": 2012, "url": "https://www.efsa.europa.eu/en/press/news/121219", "kind": "agency-guidance" },
+      { "id": "jecfa-caramel-iv", "org": "JECFA", "title": "Caramel Colour, Class IV", "year": 1985, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1668", "kind": "regulatory" },
+      { "id": "cfr-73-85", "org": "US FDA", "title": "21 CFR 73.85 Caramel", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-73/subpart-A/section-73.85", "kind": "regulatory" },
+      { "id": "fda-4mei", "org": "US FDA", "title": "Questions & Answers About 4-MEI", "year": 2020, "url": "https://www.fda.gov/food/food-additives-petitions/questions-answers-about-4-mei", "kind": "agency-guidance" },
+      { "id": "ntp-2007-tr535", "org": "US National Toxicology Program", "title": "Toxicology and Carcinogenesis Studies of 4-Methylimidazole in F344/N Rats and B6C3F1 Mice (Feed Studies)", "year": 2007, "url": "https://ntp.niehs.nih.gov/publications/reports/tr/tr535", "kind": "peer-reviewed" },
+      { "id": "morita-2016", "org": "Genes and Environment", "title": "Genotoxicity assessment of 4-methylimidazole: regulatory perspectives", "year": 2016, "url": "https://pubmed.ncbi.nlm.nih.gov/27822321/", "kind": "peer-reviewed" }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "EFSA figures come from EFSA press releases because the EFSA Journal opinion returned HTTP 403. The FDA 4-MEI page is dated 2020 and no newer FDA position was found. The numeric EU specification limit for 4-MEI in E150d could not be confirmed and is left out."
+    }
+  },
+  {
+    "id": "curcumin",
+    "name": { "en": "Curcumin", "bn": "কারকিউমিন" },
+    "commonNames": ["Turmeric yellow", "Kurkum"],
+    "labelNames": ["curcumin", "turmeric yellow", "e100", "e 100", "ins 100", "কারকিউমিন"],
+    "eNumber": "E100",
+    "ins": "100(i)",
+    "formula": "C21H20O6",
+    "category": "food-colors",
+    "origin": "natural",
+    "originNote": {
+      "en": "The yellow pigment of turmeric. Coming from a plant does not by itself make it safe at any amount.",
+      "bn": "হলুদের রঞ্জক। উদ্ভিদ থেকে আসা মানেই যেকোনো পরিমাণে নিরাপদ, এমন নয়।"
+    },
+    "applications": ["dairy", "sauces-condiments", "chocolate-confectionery", "bread-bakery"],
+    "summary": {
+      "en": "The yellow pigment from turmeric, with an ADI of 3 mg/kg from both EFSA and JECFA.",
+      "bn": "হলুদ থেকে পাওয়া হলুদ রঞ্জক; ইএফএসএ ও জেইসিএফএ দুই সংস্থারই ADI ৩ মিগ্রা/কেজি।"
+    },
+    "whatIs": {
+      "en": "Curcumin is the yellow pigment of turmeric root. As a food colour it is used on its own or as turmeric.",
+      "bn": "কারকিউমিন হলুদের শিকড়ের রঞ্জক। খাদ্যরং হিসেবে এটি আলাদাভাবে বা হলুদ আকারে ব্যবহৃত হয়।"
+    },
+    "whyUsed": {
+      "en": "It gives a warm yellow colour to foods such as sauces and dairy products.",
+      "bn": "সস ও দুগ্ধজাত খাবারের মতো পণ্যে উষ্ণ হলুদ রং দিতে ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "The pigment absorbs blue light, so the food looks yellow.",
+      "bn": "রঞ্জকটি নীল আলো শোষণ করে, তাই খাবার হলুদ দেখায়।"
+    },
+    "properties": [
+      { "en": "plant pigment from turmeric", "bn": "হলুদ থেকে পাওয়া উদ্ভিজ্জ রঞ্জক" },
+      { "en": "yellow shade", "bn": "হলুদ আভা" }
+    ],
+    "benefits": [
+      { "kind": "appearance", "text": { "en": "Gives a yellow colour from a plant source.", "bn": "উদ্ভিজ্জ উৎস থেকে হলুদ রং দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "In EFSA's 2014 modelling, high-level estimates for toddlers and children reached the ADI, with one survey each exceeding it. Mean intakes and estimates for older groups were below it.",
+          "bn": "ইএফএসএ-র ২০১৪ সালের হিসাবে ছোট ও বড় শিশুদের উচ্চ মাত্রার গ্রহণ ADI ছুঁয়েছে, প্রতিটি গোষ্ঠীর একটি করে সমীক্ষায় তা ছাড়িয়েছে। গড় গ্রহণ ও বয়স্ক গোষ্ঠীর হিসাব ছিল নিচে।"
+        },
+        "sourceIds": ["efsa-2014-curcumin"]
+      }
+    ],
+    "riskContext": {
+      "en": "The ADI rests on a rat multigeneration study with a 100-fold safety factor, and it concerns the use of curcumin as a colour. Being of plant origin is not a measure of safety either way.",
+      "bn": "ADI র‍্যাটের বহুপ্রজন্ম গবেষণা ও ১০০ গুণ নিরাপত্তা-ব্যবধানের ওপর নির্ভর করে, এবং তা রং হিসেবে কারকিউমিন ব্যবহারের ক্ষেত্রে প্রযোজ্য। উদ্ভিদজাত হওয়া নিরাপত্তার মাপকাঠি নয়।"
+    },
+    "statusLabels": ["within-limits", "approved-specific"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "ADI set at 2010 re-evaluation", "bn": "২০১০ সালের পুনর্মূল্যায়নে ADI নির্ধারিত" },
+        "adi": { "type": "numeric", "value": 3, "unit": "mg/kg bw/day" },
+        "date": "2014",
+        "sourceId": "efsa-2014-curcumin"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International", "bn": "আন্তর্জাতিক" },
+        "status": { "en": "ADI for curcumin", "bn": "কারকিউমিনের ADI" },
+        "adi": { "type": "numeric", "value": 3, "low": 0, "unit": "mg/kg bw/day" },
+        "date": "2003",
+        "sourceId": "jecfa-curcumin"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Turmeric listed for foods generally", "bn": "হলুদ সাধারণভাবে খাবারে অনুমোদিত" },
+        "limits": { "en": "Good manufacturing practice", "bn": "উত্তম উৎপাদন বিধি অনুযায়ী" },
+        "conditions": { "en": "Listing covers turmeric, not purified curcumin as such", "bn": "তালিকাটি হলুদের জন্য, শুধু বিশুদ্ধ কারকিউমিনের জন্য নয়" },
+        "date": "2026-11",
+        "sourceId": "cfr-73-600"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2014-curcumin", "org": "EFSA", "title": "Refined exposure assessment for curcumin (E 100)", "year": 2014, "url": "https://doi.org/10.2903/j.efsa.2014.3876", "kind": "regulatory" },
+      { "id": "jecfa-curcumin", "org": "JECFA", "title": "Curcumin", "year": 2003, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=638", "kind": "regulatory" },
+      { "id": "cfr-73-600", "org": "US FDA", "title": "21 CFR 73.600 Turmeric", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-73/subpart-A/section-73.600", "kind": "regulatory" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "titanium-dioxide",
+    "name": { "en": "Titanium dioxide", "bn": "টাইটানিয়াম ডাইঅক্সাইড" },
+    "commonNames": ["TiO2"],
+    "labelNames": ["titanium dioxide", "e171", "e 171", "ins 171", "টাইটানিয়াম ডাইঅক্সাইড"],
+    "eNumber": "E171",
+    "ins": "171",
+    "formula": "TiO2",
+    "category": "food-colors",
+    "origin": "synthetic",
+    "applications": ["chocolate-confectionery", "supplements", "sauces-condiments"],
+    "summary": {
+      "en": "A white pigment no longer allowed in EU food since 2022, while JECFA, FDA and others keep different positions.",
+      "bn": "সাদা রঞ্জক; ২০২২ সাল থেকে ইউরোপীয় খাবারে অনুমোদিত নয়, তবে জেইসিএফএ, এফডিএ ও অন্যদের অবস্থান ভিন্ন।"
+    },
+    "whatIs": {
+      "en": "Titanium dioxide is a white mineral pigment made of particles, some of which are nano-sized. In 2021 EFSA concluded it could no longer be considered safe as a food additive, and the EU then removed it from food.",
+      "bn": "টাইটানিয়াম ডাইঅক্সাইড সূক্ষ্ম কণায় তৈরি সাদা খনিজ রঞ্জক, যার কিছু কণা ন্যানো আকারের। ২০২১ সালে ইএফএসএ জানায় একে আর খাদ্য সংযোজক হিসেবে নিরাপদ বলা যায় না, এরপর ইউরোপীয় ইউনিয়ন খাবার থেকে এটি বাদ দেয়।"
+    },
+    "whyUsed": {
+      "en": "Where permitted, it makes products whiter and more opaque, for example in sweets and coatings.",
+      "bn": "যেখানে অনুমোদিত, সেখানে মিষ্টি ও প্রলেপের মতো পণ্যকে আরও সাদা ও অস্বচ্ছ করতে ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "The particles scatter light strongly, giving a bright white, opaque look.",
+      "bn": "কণাগুলো আলো ছড়িয়ে দেয়, ফলে উজ্জ্বল সাদা ও অস্বচ্ছ দেখায়।"
+    },
+    "properties": [
+      { "en": "insoluble white particles", "bn": "অদ্রবণীয় সাদা কণা" },
+      { "en": "poorly absorbed from the gut", "bn": "অন্ত্র থেকে খুব কম শোষিত হয়" }
+    ],
+    "benefits": [
+      { "kind": "appearance", "text": { "en": "Gives a bright white, opaque colour where permitted.", "bn": "যেখানে অনুমোদিত, সেখানে উজ্জ্বল সাদা ও অস্বচ্ছ রং দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "laboratory",
+        "strength": "conflicting",
+        "text": {
+          "en": "EFSA said in 2021 that TiO2 particles can cause DNA strand breaks and chromosomal damage in laboratory tests, could not rule out a genotoxicity concern and could not set an ADI. JECFA reviewed the question in 2023, found the genotoxicity evidence not convincing, noted limits of test methods for nanoparticles, and considered many nanoparticle studies not relevant to food-grade material. FDA has also said some tests used non-representative materials.",
+          "bn": "ইএফএসএ ২০২১ সালে জানায়, গবেষণাগারের পরীক্ষায় টাইটানিয়াম ডাইঅক্সাইডের কণা ডিএনএ ও ক্রোমোজোমের ক্ষতি করতে পারে, জিনোটক্সিসিটির আশঙ্কা নাকচ করা যায় না, তাই ADI ঠিক করা যায়নি। জেইসিএফএ ২০২৩ সালে প্রমাণকে বিশ্বাসযোগ্য নয় বলে জানায়, ন্যানো-কণা পরীক্ষার পদ্ধতিগত সীমাবদ্ধতা উল্লেখ করে এবং বহু ন্যানো-গবেষণাকে খাদ্য-গ্রেডের জন্য প্রাসঙ্গিক মনে করেনি। এফডিএ-ও বলেছে, কিছু পরীক্ষায় অপ্রতিনিধিত্বশীল উপাদান ব্যবহার হয়েছে।"
+        },
+        "sourceIds": ["efsa-2021-e171", "jecfa-tio2", "fda-tio2"]
+      }
+    ],
+    "riskContext": {
+      "en": "The EU decision rests on uncertainty about safety, not on proof of harm: EFSA could not exclude a concern. EFSA found no adverse effects in organ or reproductive studies at up to 1,000 mg/kg a day, and JECFA reported very low oral absorption. A separate EU court ruling in 2025 upheld the annulment of a carcinogen classification for inhaled TiO2 powder, a chemical-labelling matter that is not about food.",
+      "bn": "ইউরোপের সিদ্ধান্তের ভিত্তি নিরাপত্তা নিয়ে অনিশ্চয়তা, ক্ষতির প্রমাণ নয়: ইএফএসএ উদ্বেগ বাতিল করতে পারেনি। প্রতিদিন ১,০০০ মিগ্রা/কেজি পর্যন্ত অঙ্গ ও প্রজনন-গবেষণায় ইএফএসএ বিরূপ প্রভাব পায়নি, আর জেইসিএফএ জানিয়েছে মুখে খাওয়ার পর শোষণ খুব কম। ২০২৫ সালে ইউরোপীয় আদালত শ্বাসের মাধ্যমে নেওয়া গুঁড়ার ক্যান্সার-শ্রেণিবিন্যাস বাতিল বহাল রাখে; এটি রাসায়নিক লেবেলিংয়ের বিষয়, খাবারের নয়।"
+    },
+    "statusLabels": ["restricted-some", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "European Commission",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Removed from authorised food additives by Regulation (EU) 2022/63", "bn": "রেগুলেশন (ইইউ) ২০২২/৬৩ অনুযায়ী অনুমোদিত খাদ্য সংযোজকের তালিকা থেকে বাদ" },
+        "conditions": { "en": "In force 7 February 2022; foods could be placed on the market until 7 August 2022; medicines remain provisionally permitted", "bn": "কার্যকর ৭ ফেব্রুয়ারি ২০২২; ৭ আগস্ট ২০২২ পর্যন্ত বাজারে আনা যেত; ওষুধে সাময়িকভাবে অনুমোদিত" },
+        "date": "2022-02",
+        "sourceId": "ec-reevaluation"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "No longer considered safe as a food additive; no ADI could be set", "bn": "খাদ্য সংযোজক হিসেবে আর নিরাপদ বলা যায় না; ADI ঠিক করা যায়নি" },
+        "adi": { "type": "none-established", "note": { "en": "Because a genotoxicity concern could not be excluded", "bn": "জিনোটক্সিসিটির আশঙ্কা নাকচ করা যায়নি বলে" } },
+        "date": "2021-05",
+        "sourceId": "efsa-2021-e171"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International", "bn": "আন্তর্জাতিক" },
+        "status": { "en": "ADI 'not specified' reaffirmed at 97th meeting", "bn": "৯৭তম সভায় 'অনির্দিষ্ট' ADI পুনর্ব্যক্ত" },
+        "adi": { "type": "not-specified" },
+        "date": "2023",
+        "sourceId": "jecfa-tio2"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Listed for foods up to 1% by weight", "bn": "ওজনের ১% পর্যন্ত খাবারে অনুমোদিত" },
+        "date": "2026-11",
+        "sourceId": "cfr-73-575"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "2023 petition to repeal the listing remains under review", "bn": "তালিকা বাতিলের ২০২৩ সালের আবেদন এখনও পর্যালোচনায়" },
+        "date": "2026-10",
+        "sourceId": "fda-tio2-cap"
+      },
+      {
+        "authority": "Health Canada",
+        "jurisdiction": { "en": "Canada", "bn": "কানাডা" },
+        "status": { "en": "No conclusive evidence of a human health concern from food use", "bn": "খাদ্য ব্যবহারে স্বাস্থ্যঝুঁকির চূড়ান্ত প্রমাণ নেই" },
+        "date": "2023-04",
+        "sourceId": "health-canada-tio2"
+      },
+      {
+        "authority": "FSANZ",
+        "jurisdiction": { "en": "Australia and New Zealand", "bn": "অস্ট্রেলিয়া ও নিউজিল্যান্ড" },
+        "status": { "en": "No evidence that dietary exposure to food-grade TiO2 is a health concern", "bn": "খাদ্য-গ্রেড টাইটানিয়াম ডাইঅক্সাইডে স্বাস্থ্যঝুঁকির প্রমাণ নেই" },
+        "date": "2025-11",
+        "sourceId": "fsanz-tio2"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "ec-reevaluation", "org": "European Commission", "title": "Re-evaluation - Food Safety", "year": 2022, "url": "https://food.ec.europa.eu/food-safety/food-improvement-agents/additives/re-evaluation_en", "kind": "regulatory" },
+      { "id": "eu-2022-63", "org": "European Commission", "title": "Commission Regulation (EU) 2022/63", "year": 2022, "url": "https://eur-lex.europa.eu/eli/reg/2022/63/oj/eng", "kind": "regulatory" },
+      { "id": "efsa-2021-e171", "org": "EFSA", "title": "Safety assessment of titanium dioxide (E171) as a food additive", "year": 2021, "url": "https://doi.org/10.2903/j.efsa.2021.6585", "kind": "regulatory" },
+      { "id": "efsa-2021-news", "org": "EFSA", "title": "Titanium dioxide: E171 no longer considered safe when used as a food additive", "year": 2021, "url": "https://www.efsa.europa.eu/en/news/titanium-dioxide-e171-no-longer-considered-safe-when-used-food-additive", "kind": "agency-guidance" },
+      { "id": "jecfa-tio2", "org": "JECFA", "title": "Titanium dioxide", "year": 2023, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2723", "kind": "regulatory" },
+      { "id": "cfr-73-575", "org": "US FDA", "title": "21 CFR 73.575 Titanium dioxide", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-73/subpart-A/section-73.575", "kind": "regulatory" },
+      { "id": "fda-tio2", "org": "US FDA", "title": "Titanium Dioxide as a Color Additive in Foods", "year": 2024, "url": "https://www.fda.gov/industry/color-additives/titanium-dioxide-color-additive-foods", "kind": "agency-guidance" },
+      { "id": "fda-tio2-cap", "org": "US FDA", "title": "Food Additive and Color Additive Petitions Under Review or Held in Abeyance (CAP 3C0325)", "year": 2026, "url": "https://hfpappexternal.fda.gov/scripts/fdcc/?set=FAP-CAP&id=CAP_3C0325", "kind": "regulatory" },
+      { "id": "health-canada-tio2", "org": "Health Canada", "title": "Titanium dioxide (TiO2) as a food additive: Current science report", "year": 2023, "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/reports-publications/titanium-dioxide-food-additive-science-report.html", "kind": "regulatory" },
+      { "id": "fsanz-tio2", "org": "FSANZ", "title": "Review of titanium dioxide as a food additive", "year": 2025, "url": "https://www.foodstandards.gov.au/consumer/foodtech/Review-of-titanium-dioxide-as-a-food-additive", "kind": "regulatory" },
+      { "id": "cjeu-2025", "org": "Court of Justice of the European Union", "title": "The Court of Justice upholds the annulment of the classification of titanium dioxide as a carcinogen (press release)", "year": 2025, "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2025-08/cp250099en.pdf", "kind": "regulatory" }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "Regulation 2022/63 dates and medicines text were read on the European Commission's re-evaluation page; EUR-Lex itself did not load by direct fetch. That page reports no outcome of the medicines review, so none is stated. Health Canada and FSANZ dates are page dates, not assessment dates. The EU court item was read in search excerpts."
+    }
+  },
+  {
+    "id": "beta-carotene",
+    "name": { "en": "Beta-carotene", "bn": "বিটা-ক্যারোটিন" },
+    "commonNames": ["β-carotene", "Provitamin A", "Carotene"],
+    "labelNames": ["beta-carotene", "beta carotene", "β-carotene", "e160a", "e 160a", "ins 160a", "বিটা-ক্যারোটিন", "বিটা ক্যারোটিন"],
+    "chemicalName": "β,β-carotene",
+    "eNumber": "E160a",
+    "ins": "160a(i)",
+    "formula": "C40H56",
+    "category": "food-colors",
+    "alsoIn": ["fortifying-agents"],
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "Made synthetically or obtained from sources such as carrots, palm fruit oil, algae or the fungus Blakeslea trispora.",
+      "bn": "কৃত্রিমভাবে তৈরি হয়, অথবা গাজর, পাম ফলের তেল, শৈবাল বা ব্লেকেসলিয়া ট্রিসপোরা ছত্রাকের মতো উৎস থেকে পাওয়া যায়।"
+    },
+    "applications": ["soft-drinks", "juices", "dairy", "oils-fats", "supplements"],
+    "summary": {
+      "en": "An orange pigment found in vegetables. Colour use is viewed differently from high-dose supplements, which raised lung cancer in smokers.",
+      "bn": "শাকসবজিতে থাকা কমলা রঞ্জক। রং হিসেবে ব্যবহার আর উচ্চমাত্রার সাপ্লিমেন্ট এক নয়; সাপ্লিমেন্টে ধূমপায়ীদের ফুসফুসের ক্যান্সার বেড়েছিল।"
+    },
+    "whatIs": {
+      "en": "Beta-carotene is an orange pigment found in many vegetables and is also made synthetically. The body can convert it to vitamin A.",
+      "bn": "বিটা-ক্যারোটিন অনেক শাকসবজিতে থাকা কমলা রঞ্জক, যা কৃত্রিমভাবেও তৈরি হয়। শরীর একে ভিটামিন এ-তে রূপান্তর করতে পারে।"
+    },
+    "whyUsed": {
+      "en": "It gives a yellow-to-orange colour to foods such as drinks, spreads and dairy products.",
+      "bn": "পানীয়, স্প্রেড ও দুগ্ধজাত খাবারের মতো পণ্যে হলুদ থেকে কমলা রং দিতে ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "The pigment absorbs blue light, giving yellow to orange shades. It dissolves in fat, so it suits fatty foods or specially dispersed forms.",
+      "bn": "রঞ্জকটি নীল আলো শোষণ করে হলুদ থেকে কমলা আভা দেয়। এটি চর্বিতে দ্রবণীয়, তাই চর্বিযুক্ত খাবারে বা বিশেষ বিচ্ছুরিত আকারে ব্যবহৃত হয়।"
+    },
+    "properties": [
+      { "en": "fat-soluble pigment", "bn": "চর্বিতে দ্রবণীয় রঞ্জক" },
+      { "en": "provitamin A", "bn": "প্রোভিটামিন এ" }
+    ],
+    "benefits": [
+      { "kind": "appearance", "text": { "en": "Gives a yellow-to-orange colour.", "bn": "হলুদ থেকে কমলা রং দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "This is a supplement finding, separate from colour use. In a randomised trial of 29,133 male smokers, 20 mg a day was linked to 18% more lung cancer. In another trial of 18,314 smokers, former smokers and asbestos workers, 30 mg a day with vitamin A gave a relative risk of 1.28. EFSA advised in 2024 that smokers should avoid supplements containing beta-carotene, and it could not set an upper intake level.",
+          "bn": "এটি সাপ্লিমেন্টের ফলাফল, রং হিসেবে ব্যবহারের নয়। ২৯,১৩৩ জন পুরুষ ধূমপায়ীর র‍্যান্ডমাইজড ট্রায়ালে দৈনিক ২০ মিগ্রা গ্রহণে ফুসফুসের ক্যান্সার ১৮% বেশি হয়েছিল। ১৮,৩১৪ জন ধূমপায়ী, প্রাক্তন ধূমপায়ী ও অ্যাসবেস্টস-শ্রমিকের আরেকটি ট্রায়ালে ভিটামিন এ-সহ দৈনিক ৩০ মিগ্রায় আপেক্ষিক ঝুঁকি ছিল ১.২৮। ইএফএসএ ২০২৪ সালে ধূমপায়ীদের বিটা-ক্যারোটিনযুক্ত সাপ্লিমেন্ট এড়াতে পরামর্শ দেয় এবং ঊর্ধ্বসীমা ঠিক করতে পারেনি।"
+        },
+        "sourceIds": ["atbc-1994", "caret-1996", "efsa-2024-ul"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "Neither EFSA nor JECFA now has an ADI. JECFA withdrew its group ADI in 2019 because rats are a poor model and the general population includes heavy smokers. Its 2026 review found upper exposure estimates higher than before and said their toxicological relevance cannot be characterised without an ADI.",
+          "bn": "ইএফএসএ বা জেইসিএফএ কারোরই এখন ADI নেই। জেইসিএফএ ২০১৯ সালে গ্রুপ ADI প্রত্যাহার করে, কারণ র‍্যাট উপযুক্ত মডেল নয় এবং সাধারণ জনগণের মধ্যে ভারী ধূমপায়ীরাও আছেন। ২০২৬ সালের পর্যালোচনায় ঊর্ধ্ব-গ্রহণের হিসাব আগের চেয়ে বেশি পাওয়া যায়, এবং ADI না থাকায় তার বিষতাত্ত্বিক তাৎপর্য নির্ণয় করা যায়নি বলে জানানো হয়।"
+        },
+        "sourceIds": ["jecfa-beta-carotene", "efsa-2012-carotene"]
+      }
+    ],
+    "riskContext": {
+      "en": "The smoker trials used purified supplements at 20 to 30 mg a day. EFSA found food-colour use not of concern when total intake stays within what ordinary diets provide (about 5 to 10 mg a day), and in 2012 said intake below 15 mg a day raised no concern, including for heavy smokers. EFSA also found no indication of harm from beta-carotene in the background diet.",
+      "bn": "ধূমপায়ীদের ট্রায়ালে দৈনিক ২০ থেকে ৩০ মিগ্রা বিশুদ্ধ সাপ্লিমেন্ট ব্যবহৃত হয়েছিল। ইএফএসএ-র মতে, খাদ্যরং হিসেবে ব্যবহার উদ্বেগজনক নয় যদি মোট গ্রহণ সাধারণ খাদ্য থেকে পাওয়া মাত্রার (দৈনিক প্রায় ৫ থেকে ১০ মিগ্রা) মধ্যে থাকে; ২০১২ সালে বলা হয়, দৈনিক ১৫ মিগ্রার কম গ্রহণ ভারী ধূমপায়ীদের জন্যও উদ্বেগজনক নয়। স্বাভাবিক খাদ্য থেকে পাওয়া বিটা-ক্যারোটিনে ক্ষতির ইঙ্গিত ইএফএসএ পায়নি।"
+    },
+    "statusLabels": ["approved-specific", "known-adverse", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Not of concern as a colour if total intake stays near dietary levels", "bn": "মোট গ্রহণ খাদ্যের মাত্রার কাছাকাছি থাকলে রং হিসেবে উদ্বেগ নেই" },
+        "adi": { "type": "none-established", "note": { "en": "Panel said no ADI can be established", "bn": "প্যানেল জানায়, ADI নির্ধারণ করা যায় না" } },
+        "limits": { "en": "Exposure from these uses should stay below 15 mg a day", "bn": "এসব ব্যবহার থেকে গ্রহণ দৈনিক ১৫ মিগ্রার নিচে থাকা উচিত" },
+        "date": "2012",
+        "sourceId": "efsa-2012-carotene"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International", "bn": "আন্তর্জাতিক" },
+        "status": { "en": "Group ADIs of 0-5 mg/kg withdrawn", "bn": "০-৫ মিগ্রা/কেজি গ্রুপ ADI প্রত্যাহার" },
+        "adi": { "type": "withdrawn", "note": { "en": "No group ADI could be set because the population includes heavy smokers", "bn": "জনগণের মধ্যে ভারী ধূমপায়ী থাকায় গ্রুপ ADI ঠিক করা যায়নি" } },
+        "date": "2019",
+        "sourceId": "jecfa-beta-carotene"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Listed for foods generally", "bn": "সাধারণভাবে খাবারে অনুমোদিত" },
+        "limits": { "en": "Good manufacturing practice", "bn": "উত্তম উৎপাদন বিধি অনুযায়ী" },
+        "date": "2026-11",
+        "sourceId": "cfr-73-95"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2012-carotene", "org": "EFSA", "title": "Scientific Opinion on the re-evaluation of mixed carotenes (E 160a (i)) and beta-carotene (E 160a (ii)) as a food additive", "year": 2012, "url": "https://doi.org/10.2903/j.efsa.2012.2593", "kind": "regulatory" },
+      { "id": "efsa-2012-smokers", "org": "EFSA", "title": "Statement on the safety of β-carotene use in heavy smokers", "year": 2012, "url": "https://efsa.onlinelibrary.wiley.com/doi/abs/10.2903/j.efsa.2012.2953", "kind": "regulatory" },
+      { "id": "efsa-2024-ul", "org": "EFSA", "title": "Scientific opinion on the tolerable upper intake level for preformed vitamin A and β-carotene", "year": 2024, "url": "https://doi.org/10.2903/j.efsa.2024.8814", "kind": "regulatory" },
+      { "id": "jecfa-beta-carotene", "org": "JECFA", "title": "beta-Carotene (synthetic)", "year": 2026, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1514", "kind": "regulatory" },
+      { "id": "atbc-1994", "org": "New England Journal of Medicine", "title": "The effect of vitamin E and beta carotene on the incidence of lung cancer and other cancers in male smokers", "year": 1994, "url": "https://pubmed.ncbi.nlm.nih.gov/8127329/", "kind": "peer-reviewed" },
+      { "id": "caret-1996", "org": "New England Journal of Medicine", "title": "Effects of a combination of beta carotene and vitamin A on lung cancer and cardiovascular disease", "year": 1996, "url": "https://pubmed.ncbi.nlm.nih.gov/8602180/", "kind": "peer-reviewed" },
+      { "id": "cfr-73-95", "org": "US FDA", "title": "21 CFR 73.95 Beta-carotene", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-73/subpart-A/section-73.95", "kind": "regulatory" }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "The 2012 EFSA heavy-smokers statement was read in a search excerpt; the 15 mg a day figure also appears in the 2012 opinion abstract, which was opened directly. JECFA's 2026 entry records exposure only."
+    }
+  },
+  {
+    "id": "anthocyanins",
+    "name": { "en": "Anthocyanins", "bn": "অ্যান্থোসায়ানিন" },
+    "commonNames": ["Grape skin extract", "Enocianina", "Grape color extract"],
+    "labelNames": ["anthocyanins", "anthocyanin", "grape skin extract", "enocianina", "grape color extract", "e163", "e 163", "ins 163", "অ্যান্থোসায়ানিন"],
+    "eNumber": "E163",
+    "ins": "163",
+    "category": "food-colors",
+    "origin": "natural",
+    "originNote": {
+      "en": "Plant pigments, for example from grape skins or blackcurrants. A plant origin alone does not show that they are safe or unsafe.",
+      "bn": "উদ্ভিজ্জ রঞ্জক, যেমন আঙুরের খোসা বা ব্ল্যাককারেন্ট থেকে। উদ্ভিদজাত হওয়া নিজে নিরাপদ বা অনিরাপদ হওয়ার প্রমাণ নয়।"
+    },
+    "applications": ["soft-drinks", "juices", "jams-spreads", "frozen-desserts", "chocolate-confectionery"],
+    "summary": {
+      "en": "Red-purple plant pigments. EFSA could not set an ADI from limited data; JECFA gave a numeric ADI only for grape skin extract.",
+      "bn": "লাল-বেগুনি উদ্ভিজ্জ রঞ্জক। সীমিত তথ্যে ইএফএসএ ADI ঠিক করতে পারেনি; জেইসিএফএ কেবল আঙুরের খোসার নির্যাসে সংখ্যা দিয়েছে।"
+    },
+    "whatIs": {
+      "en": "Anthocyanins are the red, purple and blue pigments of many fruits and vegetables. As a colour they are often extracted from sources such as grape skins.",
+      "bn": "অ্যান্থোসায়ানিন হলো বহু ফল ও সবজির লাল, বেগুনি ও নীল রঞ্জক। রং হিসেবে এগুলো সাধারণত আঙুরের খোসার মতো উৎস থেকে নিষ্কাশন করা হয়।"
+    },
+    "whyUsed": {
+      "en": "They give red to purple shades, for example to acidic drinks and fruit products.",
+      "bn": "অম্লীয় পানীয় ও ফলজাত পণ্যে লাল থেকে বেগুনি আভা দিতে এগুলো ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "The pigments change shade with acidity, looking redder in more acidic foods.",
+      "bn": "অম্লতা অনুযায়ী রঞ্জকের আভা বদলায়, বেশি অম্লীয় খাবারে আরও লাল দেখায়।"
+    },
+    "properties": [
+      { "en": "water-soluble plant pigments", "bn": "পানিতে দ্রবণীয় উদ্ভিজ্জ রঞ্জক" },
+      { "en": "shade changes with acidity", "bn": "অম্লতায় আভা বদলায়" }
+    ],
+    "benefits": [
+      { "kind": "appearance", "text": { "en": "Gives red to purple colours.", "bn": "লাল থেকে বেগুনি রং দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA said in 2013 that toxicology data were too limited for a numerical ADI and that refined exposure estimates were higher than usual dietary intake. It asked for better characterisation of these extracts and more toxicology data. This is a data gap, not a finding of harm.",
+          "bn": "ইএফএসএ ২০১৩ সালে জানায়, বিষতাত্ত্বিক তথ্য সংখ্যাগত ADI-এর জন্য খুব সীমিত, এবং পরিমার্জিত গ্রহণের হিসাব স্বাভাবিক খাদ্যগ্রহণের চেয়ে বেশি। এসব নির্যাসের আরও বিশ্লেষণ ও তথ্য চাওয়া হয়েছে। এটি তথ্যের ঘাটতি, ক্ষতির প্রমাণ নয়।"
+        },
+        "sourceIds": ["efsa-2013-anthocyanins"]
+      }
+    ],
+    "riskContext": {
+      "en": "Anthocyanins are common in ordinary fruit and vegetables. EFSA considered exposure from aqueous grape-skin and blackcurrant extracts unlikely to be a concern, but could not make that call for other extracts because they were poorly characterised.",
+      "bn": "সাধারণ ফল ও সবজিতে অ্যান্থোসায়ানিন প্রচুর থাকে। ইএফএসএ মনে করে, আঙুরের খোসা ও ব্ল্যাককারেন্টের জলীয় নির্যাস থেকে গ্রহণ উদ্বেগের কারণ হওয়ার সম্ভাবনা কম, তবে অন্য নির্যাসগুলোর পর্যাপ্ত বিশ্লেষণ না থাকায় সে কথা বলা যায়নি।"
+    },
+    "statusLabels": ["approved-specific", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Data too limited for a numerical ADI", "bn": "সংখ্যাগত ADI-এর জন্য তথ্য অপর্যাপ্ত" },
+        "adi": { "type": "none-established" },
+        "date": "2013",
+        "sourceId": "efsa-2013-anthocyanins"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International", "bn": "আন্তর্জাতিক" },
+        "status": { "en": "Anthocyanins: no ADI allocated", "bn": "অ্যান্থোসায়ানিন: কোনো ADI দেওয়া হয়নি" },
+        "adi": { "type": "none-established" },
+        "date": "1982",
+        "sourceId": "jecfa-anthocyanins"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International", "bn": "আন্তর্জাতিক" },
+        "status": { "en": "ADI for grape skin extract only", "bn": "কেবল আঙুরের খোসার নির্যাসের ADI" },
+        "adi": {
+          "type": "numeric",
+          "value": 2.5,
+          "low": 0,
+          "unit": "mg/kg bw/day",
+          "note": { "en": "Grape skin extract (INS 163(ii)) only", "bn": "কেবল আঙুরের খোসার নির্যাস (INS ১৬৩(ii))" }
+        },
+        "date": "1982",
+        "sourceId": "jecfa-grape-skin"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Grape skin extract listed for beverages only", "bn": "আঙুরের খোসার নির্যাস কেবল পানীয়ে অনুমোদিত" },
+        "date": "2026-11",
+        "sourceId": "cfr-73-170"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Grape color extract listed for non-beverage foods", "bn": "আঙুরের রঙের নির্যাস পানীয় ছাড়া খাবারে অনুমোদিত" },
+        "date": "2026-11",
+        "sourceId": "cfr-73-169"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2013-anthocyanins", "org": "EFSA", "title": "Scientific Opinion on the re-evaluation of anthocyanins (E 163) as a food additive", "year": 2013, "url": "https://www.efsa.europa.eu/en/efsajournal/pub/3145", "kind": "regulatory" },
+      { "id": "jecfa-anthocyanins", "org": "JECFA", "title": "Anthocyanins", "year": 1982, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1491", "kind": "regulatory" },
+      { "id": "jecfa-grape-skin", "org": "JECFA", "title": "Grape skin extract", "year": 1982, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1445", "kind": "regulatory" },
+      { "id": "cfr-73-170", "org": "US FDA", "title": "21 CFR 73.170 Grape skin extract (enocianina)", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-73/subpart-A/section-73.170", "kind": "regulatory" },
+      { "id": "cfr-73-169", "org": "US FDA", "title": "21 CFR 73.169 Grape color extract", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-73/subpart-A/section-73.169", "kind": "regulatory" }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "EFSA's 2013 conclusions were read only in search excerpts (the opinion page returned HTTP 403 by direct fetch and is not indexed in Europe PMC). JECFA's anthocyanins and grape skin extract entries are recorded separately as the database shows them."
+    }
+  },
+  {
+    "id": "beetroot-red",
+    "name": { "en": "Beetroot red", "bn": "বিটরুট রেড" },
+    "commonNames": ["Betanin", "Beet red", "Dehydrated beets"],
+    "labelNames": ["beetroot red", "beet red", "betanin", "beet powder", "dehydrated beets", "e162", "e 162", "ins 162", "বিটরুট রেড"],
+    "eNumber": "E162",
+    "ins": "162",
+    "category": "food-colors",
+    "origin": "natural",
+    "applications": ["dairy", "frozen-desserts", "sauces-condiments", "jams-spreads"],
+    "summary": {
+      "en": "A red colour from beetroot. EFSA found data too limited for an ADI, but no concern at the levels reported; JECFA's ADI is not specified.",
+      "bn": "বিটরুট থেকে পাওয়া লাল রং। ইএফএসএ ADI ঠিক করতে পারেনি, তবে প্রচলিত মাত্রায় উদ্বেগ পায়নি; জেইসিএফএ-র ADI অনির্দিষ্ট।"
+    },
+    "whatIs": {
+      "en": "Beetroot red is the red colour from beetroot, and its main pigment is betanin. In the US, dehydrated beet powder has its own listing.",
+      "bn": "বিটরুট রেড হলো বিটের লাল রং, এর মূল রঞ্জক বেটানিন। যুক্তরাষ্ট্রে শুকনো বিটের গুঁড়ার আলাদা অনুমোদন আছে।"
+    },
+    "whyUsed": {
+      "en": "It adds a pink-to-red shade, often to chilled and frozen products.",
+      "bn": "ঠান্ডা ও হিমায়িত পণ্যে গোলাপি থেকে লাল আভা দিতে এটি প্রায়ই ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "Betanin absorbs green light and looks red in food.",
+      "bn": "বেটানিন সবুজ আলো শোষণ করে, তাই খাবার লাল দেখায়।"
+    },
+    "properties": [
+      { "en": "plant pigment from beetroot", "bn": "বিটরুট থেকে পাওয়া উদ্ভিজ্জ রঞ্জক" },
+      { "en": "main pigment is betanin", "bn": "মূল রঞ্জক বেটানিন" }
+    ],
+    "benefits": [
+      { "kind": "appearance", "text": { "en": "Gives a pink-to-red colour.", "bn": "গোলাপি থেকে লাল রং দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA said in 2015 that the toxicology data were inadequate to set an ADI and that genotoxic potential could not be evaluated. It still judged reported use levels not of concern because betanin exposure was in the same range as from the regular diet. JECFA noted that nitrate in beet red should stay within specifications, especially in foods for infants and young children.",
+          "bn": "ইএফএসএ ২০১৫ সালে জানায়, ADI ঠিক করার মতো বিষতাত্ত্বিক তথ্য নেই এবং জিনোটক্সিক সম্ভাবনাও মূল্যায়ন করা যায়নি। তবু প্রচলিত মাত্রা উদ্বেগজনক নয়, কারণ বেটানিন গ্রহণ স্বাভাবিক খাদ্যের কাছাকাছি। জেইসিএফএ বলেছে, বিশেষত শিশুখাদ্যে নাইট্রেট নির্ধারিত সীমার মধ্যে রাখতে হবে।"
+        },
+        "sourceIds": ["efsa-2015-beetroot", "jecfa-beet-red"]
+      }
+    ],
+    "riskContext": {
+      "en": "Exposure from colour use was similar to the amounts people get from eating beetroot, so the data gaps matter less in practice. A 2026 US order for a separate beetroot red listing is on hold after objections; FDA says the delay does not change its safety finding.",
+      "bn": "রং হিসেবে গ্রহণ বিট খাওয়া থেকে পাওয়া মাত্রার কাছাকাছি, তাই তথ্যের ঘাটতি বাস্তবে কম গুরুত্বপূর্ণ। ২০২৬ সালের যুক্তরাষ্ট্রের আলাদা একটি বিটরুট রেড অনুমোদন আপত্তির পর স্থগিত আছে; এফডিএ বলছে, এই বিলম্ব তাদের নিরাপত্তা-সিদ্ধান্ত বদলায় না।"
+    },
+    "statusLabels": ["approved-specific", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Data inadequate for an ADI; reported uses not of concern", "bn": "ADI-এর জন্য তথ্য অপর্যাপ্ত; প্রচলিত ব্যবহারে উদ্বেগ নেই" },
+        "adi": { "type": "none-established" },
+        "date": "2015",
+        "sourceId": "efsa-2015-beetroot"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International", "bn": "আন্তর্জাতিক" },
+        "status": { "en": "ADI not specified, with nitrate kept within specifications", "bn": "ADI অনির্দিষ্ট; নাইট্রেট নির্দিষ্ট সীমায় রাখতে হবে" },
+        "adi": { "type": "not-specified" },
+        "date": "1987",
+        "sourceId": "jecfa-beet-red"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Dehydrated beets listed for foods generally", "bn": "শুকনো বিট সাধারণভাবে খাবারে অনুমোদিত" },
+        "limits": { "en": "Good manufacturing practice", "bn": "উত্তম উৎপাদন বিধি অনুযায়ী" },
+        "date": "2026-11",
+        "sourceId": "cfr-73-40"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Beetroot red order (21 CFR 73.39) issued February 2026; effective date delayed indefinitely", "bn": "বিটরুট রেড আদেশ (২১ CFR ৭৩.৩৯) ফেব্রুয়ারি ২০২৬-এ জারি; কার্যকর তারিখ অনির্দিষ্টকালের জন্য স্থগিত" },
+        "date": "2026-03",
+        "sourceId": "fda-beetroot-delay"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2015-beetroot", "org": "EFSA", "title": "Scientific Opinion on the re-evaluation of beetroot red (E 162) as a food additive", "year": 2015, "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4318", "kind": "regulatory" },
+      { "id": "jecfa-beet-red", "org": "JECFA", "title": "Beet Red", "year": 1987, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=877", "kind": "regulatory" },
+      { "id": "cfr-73-40", "org": "US FDA", "title": "21 CFR 73.40 Dehydrated beets (beet powder)", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-73/subpart-A/section-73.40", "kind": "regulatory" },
+      { "id": "fda-beetroot-delay", "org": "US FDA", "title": "Listing of Color Additive Exempt From Certification; Beetroot Red; Delay of Effective Date", "year": 2026, "url": "https://www.govinfo.gov/content/pkg/FR-2026-03-24/html/2026-05732.htm", "kind": "regulatory" }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "EFSA's 2015 conclusions were read only in search excerpts (direct fetch returned HTTP 403). It was not confirmed whether the FDA beetroot red delay has been lifted since March 2026; FDA's status page, updated 14 August 2026, still shows the delay notice. The composition of the FDA-listed product was not stated on the pages read, so whether it matches E162 is not claimed."
+    }
+  }
+]

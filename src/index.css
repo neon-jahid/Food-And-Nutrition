@@ -36,6 +36,30 @@
   --color-roast-900: #2e1c12;
   --color-roast-950: #17100b;
 
+  /* ingredient section: deep forest green with a restrained orange accent */
+  --font-display: "Fraunces Variable", "Noto Sans Bengali Variable", ui-serif, Georgia, serif;
+  --color-paper: #faf8f3;
+  --color-paper-dark: #0f1713;
+  --color-forest-50: #eff6f1;
+  --color-forest-100: #d9e9df;
+  --color-forest-200: #b4d2c0;
+  --color-forest-300: #86b39b;
+  --color-forest-400: #578f74;
+  --color-forest-500: #3a7359;
+  --color-forest-600: #2a5b46;
+  --color-forest-700: #224a39;
+  --color-forest-800: #1c3c2f;
+  --color-forest-900: #163027;
+  --color-forest-950: #0b1a14;
+  --color-ember-50: #fff6ed;
+  --color-ember-100: #ffe9d2;
+  --color-ember-300: #fdba74;
+  --color-ember-400: #fb923c;
+  --color-ember-500: #f2751a;
+  --color-ember-600: #d15a0b;
+  --color-ember-700: #ad460b;
+  --color-ember-800: #8a380f;
+
   --color-protein: #6366f1;
   --color-carbs: #f59e0b;
   --color-fat: #ef4444;
@@ -276,4 +300,9 @@ input[type="number"] { -moz-appearance: textfield; }
     scroll-behavior: auto !important;
   }
   [data-reveal] { animation: none !important; }
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
 }

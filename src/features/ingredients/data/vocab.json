@@ -1,0 +1,404 @@
+{
+  "applications": {
+    "soft-drinks": {
+      "en": "Soft drinks",
+      "bn": "কোমল পানীয়"
+    },
+    "juices": {
+      "en": "Juice drinks",
+      "bn": "জুস পানীয়"
+    },
+    "instant-noodles": {
+      "en": "Instant noodles",
+      "bn": "ইনস্ট্যান্ট নুডলস"
+    },
+    "biscuits": {
+      "en": "Biscuits",
+      "bn": "বিস্কুট"
+    },
+    "chips-snacks": {
+      "en": "Chips & snacks",
+      "bn": "চিপস ও স্ন্যাকস"
+    },
+    "chocolate-confectionery": {
+      "en": "Chocolate & sweets",
+      "bn": "চকলেট ও মিষ্টি"
+    },
+    "sauces-condiments": {
+      "en": "Sauces",
+      "bn": "সস"
+    },
+    "bread-bakery": {
+      "en": "Bread & bakery",
+      "bn": "রুটি ও বেকারি"
+    },
+    "dairy": {
+      "en": "Dairy products",
+      "bn": "দুগ্ধজাত পণ্য"
+    },
+    "frozen-desserts": {
+      "en": "Ice cream",
+      "bn": "আইসক্রিম"
+    },
+    "canned-foods": {
+      "en": "Canned foods",
+      "bn": "ক্যানজাত খাবার"
+    },
+    "processed-meat": {
+      "en": "Processed meat",
+      "bn": "প্রক্রিয়াজাত মাংস"
+    },
+    "jams-spreads": {
+      "en": "Jams & spreads",
+      "bn": "জ্যাম ও স্প্রেড"
+    },
+    "breakfast-cereals": {
+      "en": "Breakfast cereals",
+      "bn": "ব্রেকফাস্ট সিরিয়াল"
+    },
+    "oils-fats": {
+      "en": "Oils & fats",
+      "bn": "তেল ও চর্বি"
+    },
+    "flour-grains": {
+      "en": "Flour & grains",
+      "bn": "আটা-ময়দা ও শস্য"
+    },
+    "salt-seasonings": {
+      "en": "Salt & seasonings",
+      "bn": "লবণ ও মসলা"
+    },
+    "tabletop-sweeteners": {
+      "en": "Tabletop sweeteners",
+      "bn": "টেবিল-টপ মিষ্টিকারক"
+    },
+    "infant-foods": {
+      "en": "Infant foods",
+      "bn": "শিশুখাদ্য"
+    },
+    "supplements": {
+      "en": "Supplements",
+      "bn": "সাপ্লিমেন্ট"
+    },
+    "beer-wine": {
+      "en": "Beer & wine",
+      "bn": "বিয়ার ও ওয়াইন"
+    }
+  },
+  "origins": {
+    "natural": {
+      "en": "Natural source",
+      "bn": "প্রাকৃতিক উৎস"
+    },
+    "natural-derived": {
+      "en": "Natural source, modified",
+      "bn": "প্রাকৃতিক উৎস, পরিবর্তিত"
+    },
+    "fermentation": {
+      "en": "Fermentation",
+      "bn": "ফারমেন্টেশন"
+    },
+    "nature-identical": {
+      "en": "Nature-identical",
+      "bn": "প্রকৃতি-অভিন্ন"
+    },
+    "synthetic": {
+      "en": "Synthetic",
+      "bn": "কৃত্রিম"
+    }
+  },
+  "benefits": {
+    "preservation": {
+      "en": "Food preservation",
+      "bn": "খাদ্য সংরক্ষণ"
+    },
+    "shelf-life": {
+      "en": "Longer shelf life",
+      "bn": "দীর্ঘ স্থায়িত্ব"
+    },
+    "texture": {
+      "en": "Texture",
+      "bn": "গঠন ও বুনট"
+    },
+    "taste": {
+      "en": "Taste",
+      "bn": "স্বাদ"
+    },
+    "antioxidant": {
+      "en": "Prevents oxidation",
+      "bn": "অক্সিডেশন প্রতিরোধ"
+    },
+    "fortification": {
+      "en": "Nutritional fortification",
+      "bn": "পুষ্টি সমৃদ্ধকরণ"
+    },
+    "processing": {
+      "en": "Easier processing",
+      "bn": "সহজ প্রক্রিয়াজাতকরণ"
+    },
+    "appearance": {
+      "en": "Appearance",
+      "bn": "দেখতে"
+    },
+    "sugar-reduction": {
+      "en": "Reduces sugar",
+      "bn": "চিনি কমায়"
+    }
+  },
+  "riskKinds": {
+    "adverse-effect": {
+      "en": "Known adverse effect",
+      "bn": "জানা বিরূপ প্রভাব"
+    },
+    "side-effect": {
+      "en": "Possible side effect",
+      "bn": "সম্ভাব্য পার্শ্বপ্রতিক্রিয়া"
+    },
+    "dose-dependent": {
+      "en": "Depends on dose",
+      "bn": "মাত্রার ওপর নির্ভরশীল"
+    },
+    "allergy-intolerance": {
+      "en": "Allergy or intolerance",
+      "bn": "অ্যালার্জি বা অসহিষ্ণুতা"
+    },
+    "population": {
+      "en": "Specific groups",
+      "bn": "নির্দিষ্ট গোষ্ঠী"
+    },
+    "uncertainty": {
+      "en": "Uncertain or conflicting",
+      "bn": "অনিশ্চিত বা পরস্পরবিরোধী"
+    }
+  },
+  "evidence": {
+    "human": {
+      "en": "Human studies",
+      "bn": "মানুষের ওপর গবেষণা"
+    },
+    "animal": {
+      "en": "Animal studies",
+      "bn": "প্রাণীর ওপর গবেষণা"
+    },
+    "laboratory": {
+      "en": "Laboratory studies",
+      "bn": "গবেষণাগারের পরীক্ষা"
+    },
+    "theoretical": {
+      "en": "Theoretical concern",
+      "bn": "তাত্ত্বিক উদ্বেগ"
+    }
+  },
+  "strength": {
+    "established": {
+      "en": "Established",
+      "bn": "প্রতিষ্ঠিত"
+    },
+    "preliminary": {
+      "en": "Preliminary",
+      "bn": "প্রাথমিক"
+    },
+    "conflicting": {
+      "en": "Conflicting",
+      "bn": "পরস্পরবিরোধী"
+    }
+  },
+  "flags": {
+    "pku": {
+      "en": "Source of phenylalanine (relevant to phenylketonuria)",
+      "bn": "ফিনাইলঅ্যালানিনের উৎস (ফিনাইলকিটোনিউরিয়ায় প্রাসঙ্গিক)"
+    },
+    "sulfite-sensitivity": {
+      "en": "Sulfites: some people, especially with asthma, react",
+      "bn": "সালফাইট: কিছু মানুষের, বিশেষ করে হাঁপানি রোগীর প্রতিক্রিয়া হতে পারে"
+    },
+    "polyol-laxative": {
+      "en": "Polyol: large amounts can have a laxative effect",
+      "bn": "পলিওল: বেশি পরিমাণে পাতলা পায়খানা হতে পারে"
+    },
+    "azo-color-eu-warning": {
+      "en": "EU requires a label statement on children's activity and attention",
+      "bn": "ইইউতে শিশুদের সক্রিয়তা ও মনোযোগ বিষয়ে লেবেলে সতর্কবার্তা বাধ্যতামূলক"
+    },
+    "insect-derived": {
+      "en": "Derived from insects (relevant to vegan and some religious diets)",
+      "bn": "পোকা থেকে প্রাপ্ত (নিরামিষাশী ও কিছু ধর্মীয় খাদ্যাভ্যাসে প্রাসঙ্গিক)"
+    },
+    "animal-derived": {
+      "en": "May be of animal origin",
+      "bn": "প্রাণিজ উৎসের হতে পারে"
+    },
+    "contains-soy": {
+      "en": "May come from soy",
+      "bn": "সয়া থেকে আসতে পারে"
+    },
+    "contains-milk": {
+      "en": "May come from milk",
+      "bn": "দুধ থেকে আসতে পারে"
+    },
+    "contains-egg": {
+      "en": "May come from egg",
+      "bn": "ডিম থেকে আসতে পারে"
+    },
+    "contains-gluten": {
+      "en": "May come from gluten-containing grain",
+      "bn": "গ্লুটেনযুক্ত শস্য থেকে আসতে পারে"
+    },
+    "contains-fish": {
+      "en": "May come from fish",
+      "bn": "মাছ থেকে আসতে পারে"
+    },
+    "contains-sesame": {
+      "en": "May come from sesame",
+      "bn": "তিল থেকে আসতে পারে"
+    },
+    "contains-nuts": {
+      "en": "May come from nuts",
+      "bn": "বাদাম থেকে আসতে পারে"
+    },
+    "infants-caution": {
+      "en": "Specific caution for infants",
+      "bn": "শিশুদের জন্য বিশেষ সতর্কতা"
+    },
+    "pregnancy-caution": {
+      "en": "Specific caution in pregnancy",
+      "bn": "গর্ভাবস্থায় বিশেষ সতর্কতা"
+    },
+    "kidney-caution": {
+      "en": "Relevant to people with kidney disease",
+      "bn": "কিডনি রোগীদের জন্য প্রাসঙ্গিক"
+    },
+    "medicine-interaction": {
+      "en": "May interact with some medicines",
+      "bn": "কিছু ওষুধের সঙ্গে প্রতিক্রিয়া হতে পারে"
+    }
+  },
+  "allergens": {
+    "gluten": {
+      "en": "Cereals containing gluten",
+      "bn": "গ্লুটেনযুক্ত শস্য"
+    },
+    "milk": {
+      "en": "Milk",
+      "bn": "দুধ"
+    },
+    "egg": {
+      "en": "Egg",
+      "bn": "ডিম"
+    },
+    "soy": {
+      "en": "Soy",
+      "bn": "সয়া"
+    },
+    "peanut": {
+      "en": "Peanut",
+      "bn": "চিনাবাদাম"
+    },
+    "tree-nuts": {
+      "en": "Tree nuts",
+      "bn": "গাছের বাদাম"
+    },
+    "sesame": {
+      "en": "Sesame",
+      "bn": "তিল"
+    },
+    "fish": {
+      "en": "Fish",
+      "bn": "মাছ"
+    },
+    "crustacean": {
+      "en": "Crustacean shellfish",
+      "bn": "চিংড়িজাতীয় খোলসযুক্ত প্রাণী"
+    },
+    "mustard": {
+      "en": "Mustard",
+      "bn": "সরিষা"
+    },
+    "sulfites": {
+      "en": "Sulfites",
+      "bn": "সালফাইট"
+    }
+  },
+  "groups": {
+    "aromatic-ring": {
+      "en": "Aromatic ring",
+      "bn": "অ্যারোমেটিক রিং"
+    },
+    "carboxylate": {
+      "en": "Carboxylate",
+      "bn": "কার্বক্সিলেট"
+    },
+    "carboxylic-acid": {
+      "en": "Carboxylic acid",
+      "bn": "কার্বক্সিলিক অ্যাসিড"
+    },
+    "ester": {
+      "en": "Ester",
+      "bn": "এস্টার"
+    },
+    "amide": {
+      "en": "Amide",
+      "bn": "অ্যামাইড"
+    },
+    "ketone": {
+      "en": "Ketone",
+      "bn": "কিটোন"
+    },
+    "aldehyde": {
+      "en": "Aldehyde",
+      "bn": "অ্যালডিহাইড"
+    },
+    "alkene": {
+      "en": "Alkene (C=C)",
+      "bn": "অ্যালকিন (C=C)"
+    },
+    "nitrile": {
+      "en": "Nitrile",
+      "bn": "নাইট্রাইল"
+    },
+    "halide": {
+      "en": "Organic halide",
+      "bn": "জৈব হ্যালাইড"
+    },
+    "phenol": {
+      "en": "Phenol",
+      "bn": "ফেনল"
+    },
+    "hydroxyl": {
+      "en": "Hydroxyl",
+      "bn": "হাইড্রক্সিল"
+    },
+    "ether": {
+      "en": "Ether",
+      "bn": "ইথার"
+    },
+    "azo": {
+      "en": "Azo group",
+      "bn": "অ্যাজো মূলক"
+    },
+    "quaternary-ammonium": {
+      "en": "Quaternary ammonium",
+      "bn": "কোয়াটার্নারি অ্যামোনিয়াম"
+    },
+    "amine": {
+      "en": "Amine",
+      "bn": "অ্যামিন"
+    },
+    "sulfonate": {
+      "en": "Sulfonate",
+      "bn": "সালফোনেট"
+    },
+    "sulfonamide": {
+      "en": "Sulfonamide",
+      "bn": "সালফোনামাইড"
+    },
+    "phosphate": {
+      "en": "Phosphate",
+      "bn": "ফসফেট"
+    },
+    "sulfamate": {
+      "en": "Sulfamate",
+      "bn": "সালফামেট"
+    }
+  }
+}

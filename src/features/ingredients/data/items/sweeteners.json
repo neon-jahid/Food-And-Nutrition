@@ -1,0 +1,1236 @@
+[
+  {
+    "id": "aspartame",
+    "name": { "en": "Aspartame", "bn": "অ্যাসপারটেম" },
+    "commonNames": ["L-aspartyl-L-phenylalanine methyl ester"],
+    "labelNames": ["aspartame", "e951", "e 951", "ins 951", "অ্যাসপারটেম"],
+    "chemicalName": "L-aspartyl-L-phenylalanine methyl ester",
+    "eNumber": "E951",
+    "ins": "951",
+    "formula": "C14H18N2O5",
+    "category": "artificial-sweeteners",
+    "alsoIn": ["flavor-enhancers"],
+    "origin": "synthetic",
+    "originNote": {
+      "en": "Made by joining two amino acids. Being made from amino acids says nothing about safety either way.",
+      "bn": "দুটি অ্যামিনো অ্যাসিড জুড়ে তৈরি করা হয়। অ্যামিনো অ্যাসিড থেকে তৈরি হওয়া নিজে থেকে নিরাপদ বা অনিরাপদ কিছুই প্রমাণ করে না।"
+    },
+    "applications": ["soft-drinks", "tabletop-sweeteners", "dairy", "frozen-desserts", "chocolate-confectionery", "jams-spreads", "supplements"],
+    "summary": {
+      "en": "A low-calorie sweetener about 200 times sweeter than sugar; people with PKU must restrict it, and IARC and JECFA reached different kinds of conclusion in 2023.",
+      "bn": "চিনির চেয়ে প্রায় ২০০ গুণ মিষ্টি কম-ক্যালরির সুইটেনার; PKU রোগীদের এটি সীমিত রাখতে হয়, আর ২০২৩ সালে IARC ও JECFA দুই ধরনের সিদ্ধান্ত দিয়েছে।"
+    },
+    "whatIs": {
+      "en": "Aspartame is a low-calorie sweetener built from two amino acids, aspartic acid and phenylalanine. The US FDA puts it at about 200 times sweeter than table sugar, so very little is needed.",
+      "bn": "অ্যাসপারটেম হলো অ্যাসপারটিক অ্যাসিড ও ফিনাইলঅ্যালানিন নামের দুটি অ্যামিনো অ্যাসিড দিয়ে গঠিত কম-ক্যালরির সুইটেনার। মার্কিন FDA-র হিসাবে এটি সাধারণ চিনির চেয়ে প্রায় ২০০ গুণ মিষ্টি, তাই খুব অল্প পরিমাণই যথেষ্ট।"
+    },
+    "whyUsed": {
+      "en": "It sweetens drinks and foods while adding almost no sugar or calories at the amounts used.",
+      "bn": "ব্যবহৃত পরিমাণে প্রায় কোনো চিনি বা ক্যালরি যোগ না করেই এটি পানীয় ও খাবার মিষ্টি করে।"
+    },
+    "howItWorks": {
+      "en": "It triggers the tongue's sweet taste receptors at very low concentrations. JECFA reports that it is fully broken down in the gut, so intact aspartame does not enter the bloodstream; phenylalanine is one of the products.",
+      "bn": "খুব কম ঘনত্বেই এটি জিভের মিষ্টি স্বাদের গ্রাহককে সক্রিয় করে। JECFA জানিয়েছে, অন্ত্রে এটি পুরোপুরি ভেঙে যায়, তাই অক্ষত অ্যাসপারটেম রক্তে পৌঁছায় না; ভাঙনের একটি উপাদান হলো ফিনাইলঅ্যালানিন।"
+    },
+    "properties": [
+      { "en": "about 200 times sweeter than sugar (FDA)", "bn": "চিনির চেয়ে প্রায় ২০০ গুণ মিষ্টি (FDA)" },
+      { "en": "a source of phenylalanine", "bn": "ফিনাইলঅ্যালানিনের উৎস" },
+      { "en": "US table-use products must advise against cooking or baking", "bn": "যুক্তরাষ্ট্রে টেবিল-ব্যবহারের পণ্যে রান্না বা বেকিংয়ে ব্যবহার না করার পরামর্শ লিখতে হয়" }
+    ],
+    "benefits": [
+      { "kind": "sugar-reduction", "text": { "en": "Lets a food or drink stay sweet with less added sugar.", "bn": "কম চিনি দিয়েও খাবার বা পানীয়ের মিষ্টতা বজায় রাখতে সাহায্য করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "conflicting",
+        "text": {
+          "en": "In July 2023 IARC placed aspartame in Group 2B (possibly carcinogenic to humans), citing limited human evidence for a type of liver cancer. JECFA, reviewing the evidence at the same time, judged the link to cancer not convincing and kept its intake limit. EFSA's 2026 update found no causal link between current exposure and cancer. The US FDA disagrees with IARC's reading of the studies.",
+          "bn": "২০২৩ সালের জুলাইয়ে IARC এক ধরনের যকৃতের ক্যানসারের সীমিত মানব-প্রমাণের ভিত্তিতে অ্যাসপারটেমকে গ্রুপ ২বি (মানুষের জন্য সম্ভাব্য ক্যানসারজনক) শ্রেণিতে রাখে। একই সময়ে JECFA প্রমাণ পর্যালোচনা করে ক্যানসারের সঙ্গে সম্পর্ককে বিশ্বাসযোগ্য মনে করেনি এবং গ্রহণসীমা অপরিবর্তিত রাখে। ২০২৬ সালে EFSA-র হালনাগাদেও বর্তমান গ্রহণমাত্রার সঙ্গে ক্যানসারের কার্যকারণ সম্পর্ক পাওয়া যায়নি। মার্কিন FDA-ও IARC-এর ব্যাখ্যার সঙ্গে একমত নয়।"
+        },
+        "sourceIds": ["who-iarc-jecfa-2023", "efsa-2026-e962", "fda-sweeteners"]
+      },
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "People with phenylketonuria (PKU) cannot process phenylalanine normally and need a strict low-phenylalanine diet. EFSA states that the ADI does not apply to them, and FDA says they should avoid or restrict aspartame. Labels in the EU and US must carry a phenylalanine statement.",
+          "bn": "ফিনাইলকিটোনিউরিয়া (PKU) রোগীরা ফিনাইলঅ্যালানিন স্বাভাবিকভাবে ভাঙতে পারেন না, তাই তাঁদের কঠোরভাবে কম-ফিনাইলঅ্যালানিনের খাদ্য মানতে হয়। EFSA জানিয়েছে, ADI তাঁদের ক্ষেত্রে প্রযোজ্য নয়, আর FDA-র মতে তাঁদের অ্যাসপারটেম এড়ানো বা সীমিত রাখা উচিত। ইউরোপীয় ইউনিয়ন ও যুক্তরাষ্ট্রে লেবেলে ফিনাইলঅ্যালানিনের সতর্কবাণী বাধ্যতামূলক।"
+        },
+        "sourceIds": ["efsa-aspartame-topic", "fda-sweeteners", "eu-1169-2011", "cfr-172-804"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "WHO's 2023 guideline suggests not using non-sugar sweeteners, aspartame included, to control weight or lower disease risk. It is a conditional recommendation: the evidence, including possible long-term links to type 2 diabetes and heart disease from observational studies that may be confounded, was low certainty overall. It does not apply to people with pre-existing diabetes, and WHO says it is not guidance on safe or maximum intake levels.",
+          "bn": "WHO-র ২০২৩ সালের নির্দেশিকা ওজন নিয়ন্ত্রণ বা রোগের ঝুঁকি কমাতে অ্যাসপারটেমসহ অ-চিনি সুইটেনার ব্যবহার না করার পরামর্শ দেয়। এটি শর্তসাপেক্ষ সুপারিশ: পর্যবেক্ষণমূলক গবেষণায় টাইপ ২ ডায়াবেটিস ও হৃদ্‌রোগের সঙ্গে সম্ভাব্য দীর্ঘমেয়াদি সম্পর্ক, যা অন্য কারণেও প্রভাবিত হতে পারে, সহ সামগ্রিক প্রমাণের নিশ্চয়তা কম। আগে থেকে ডায়াবেটিস থাকা ব্যক্তিদের ক্ষেত্রে এটি প্রযোজ্য নয়, আর WHO জানিয়েছে এটি নিরাপদ বা সর্বোচ্চ গ্রহণমাত্রার নির্দেশনা নয়।"
+        },
+        "sourceIds": ["who-nss-2023", "who-nss-news-2023"]
+      }
+    ],
+    "riskContext": {
+      "en": "IARC and JECFA answer different questions. IARC rates how strong the evidence is that something can cause cancer at all, and its classes do not measure the risk at a given intake. JECFA asks how much can be eaten safely. WHO's own example: a 70 kg adult would need more than 9 to 14 cans a day of a diet drink containing 200 to 300 mg of aspartame per can to exceed the ADI, with no other sources. EFSA's 2026 update found EU exposure did not exceed the ADI.",
+      "bn": "IARC ও JECFA আলাদা প্রশ্নের উত্তর দেয়। কোনো কিছু আদৌ ক্যানসার ঘটাতে পারে কি না, সেই প্রমাণ কতটা শক্ত, তা IARC দেখে; নির্দিষ্ট গ্রহণমাত্রায় ঝুঁকি কত, তা এই শ্রেণি মাপে না। JECFA দেখে কতটা খাওয়া নিরাপদ। WHO-র উদাহরণে, ৭০ কেজি ওজনের প্রাপ্তবয়স্ককে অন্য কোনো উৎস ছাড়া ADI পার করতে ক্যানপ্রতি ২০০ থেকে ৩০০ মিলিগ্রাম অ্যাসপারটেমযুক্ত ডায়েট পানীয় দিনে ৯ থেকে ১৪ ক্যানের বেশি খেতে হবে। ২০২৬ সালের EFSA হালনাগাদে ইউরোপে গ্রহণমাত্রা ADI ছাড়ায়নি।"
+    },
+    "statusLabels": ["within-limits", "known-adverse", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "Reviewed in 2023; no reason found to change the ADI.", "bn": "২০২৩ সালে পর্যালোচিত; ADI বদলানোর কারণ পাওয়া যায়নি।" },
+        "adi": { "type": "numeric", "value": 40, "low": 0, "unit": "mg/kg bw/day" },
+        "date": "2023-07",
+        "sourceId": "who-iarc-jecfa-2023"
+      },
+      {
+        "authority": "IARC",
+        "jurisdiction": { "en": "International (WHO cancer agency)", "bn": "আন্তর্জাতিক (WHO-র ক্যানসার সংস্থা)" },
+        "status": { "en": "Group 2B, possibly carcinogenic to humans. A hazard classification, not an intake limit.", "bn": "গ্রুপ ২বি, মানুষের জন্য সম্ভাব্য ক্যানসারজনক। এটি বিপদের শ্রেণিবিন্যাস, গ্রহণসীমা নয়।" },
+        "date": "2023-07",
+        "sourceId": "who-iarc-jecfa-2023"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Full re-evaluation in 2013; ADI confirmed as still valid in the 2026 opinion on E962, which updated the E951 assessment.", "bn": "২০১৩ সালে পূর্ণ পুনর্মূল্যায়ন; E951-এর মূল্যায়ন হালনাগাদ করা ২০২৬ সালের E962 মতামতে ADI বহাল।" },
+        "adi": { "type": "numeric", "value": 40, "unit": "mg/kg bw/day", "note": { "en": "Does not apply to people with PKU.", "bn": "PKU রোগীদের ক্ষেত্রে প্রযোজ্য নয়।" } },
+        "conditions": { "en": "EFSA recommended reviewing the arsenic and lead limits in the E951 specifications.", "bn": "E951-এর স্পেসিফিকেশনে আর্সেনিক ও সীসার সীমা পুনর্বিবেচনার সুপারিশ করেছে EFSA।" },
+        "date": "2026-09",
+        "sourceId": "efsa-2026-e962"
+      },
+      {
+        "authority": "European Union",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Foods containing it must state that it is a source of phenylalanine.", "bn": "এটি থাকা খাবারে ফিনাইলঅ্যালানিনের উৎস বলে উল্লেখ করতে হয়।" },
+        "date": "2011",
+        "sourceId": "eu-1169-2011"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Permitted food additive; FDA has no safety concerns under approved conditions of use.", "bn": "অনুমোদিত খাদ্য সংযোজন; অনুমোদিত শর্তে ব্যবহারে FDA নিরাপত্তা নিয়ে উদ্বিগ্ন নয়।" },
+        "adi": { "type": "numeric", "value": 50, "unit": "mg/kg bw/day" },
+        "conditions": { "en": "Label must state: PHENYLKETONURICS: CONTAINS PHENYLALANINE.", "bn": "লেবেলে PKU রোগীদের জন্য ফিনাইলঅ্যালানিন থাকার সতর্কবাণী লিখতে হয়।" },
+        "date": "2025",
+        "sourceId": "fda-sweeteners"
+      }
+    ],
+    "flags": ["pku"],
+    "references": [
+      { "id": "who-iarc-jecfa-2023", "org": "WHO, IARC and JECFA", "title": "Aspartame hazard and risk assessment results released", "year": 2023, "url": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released", "kind": "agency-guidance" },
+      { "id": "efsa-2026-e962", "org": "EFSA", "title": "Re-evaluation of salt of aspartame-acesulfame (E 962) as food additive (plain language summary)", "year": 2026, "url": "https://www.efsa.europa.eu/en/plain-language-summary/re-evaluation-salt-aspartame-acesulfame-e-962-food-additive", "kind": "regulatory" },
+      { "id": "efsa-aspartame-topic", "org": "EFSA", "title": "Aspartame (topic page)", "year": 2026, "url": "https://www.efsa.europa.eu/en/topics/topic/aspartame", "kind": "agency-guidance" },
+      { "id": "fda-sweeteners", "org": "US FDA", "title": "Aspartame and Other Sweeteners in Food", "year": 2025, "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food", "kind": "agency-guidance" },
+      { "id": "cfr-172-804", "org": "US Code of Federal Regulations", "title": "21 CFR 172.804 Aspartame", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec172-804.xml", "kind": "regulatory" },
+      { "id": "eu-1169-2011", "org": "European Union", "title": "Regulation (EU) No 1169/2011 on the provision of food information to consumers", "year": 2011, "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32011R1169", "kind": "regulatory" },
+      { "id": "who-nss-2023", "org": "WHO", "title": "Use of non-sugar sweeteners: WHO guideline", "year": 2023, "url": "https://www.who.int/publications/i/item/9789240073616", "kind": "agency-guidance" },
+      { "id": "who-nss-news-2023", "org": "WHO", "title": "WHO advises not to use non-sugar sweeteners for weight control in newly released guideline", "year": 2023, "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline", "kind": "agency-guidance" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "sucralose",
+    "name": { "en": "Sucralose", "bn": "সুক্রালোজ" },
+    "commonNames": ["trichlorogalactosucrose"],
+    "labelNames": ["sucralose", "e955", "e 955", "ins 955", "সুক্রালোজ"],
+    "chemicalName": "4,1',6'-trichlorogalactosucrose",
+    "eNumber": "E955",
+    "ins": "955",
+    "formula": "C12H19Cl3O8",
+    "category": "artificial-sweeteners",
+    "origin": "synthetic",
+    "originNote": {
+      "en": "Made from sugar by swapping some of its parts for chlorine. Starting from sugar does not make it the same as sugar, and origin is not evidence of safety or harm.",
+      "bn": "চিনির কিছু অংশ ক্লোরিন দিয়ে বদলে তৈরি। চিনি থেকে তৈরি হলেই এটি চিনির মতো হয় না, আর উৎস নিরাপত্তা বা ক্ষতির প্রমাণ নয়।"
+    },
+    "applications": ["soft-drinks", "tabletop-sweeteners", "dairy", "frozen-desserts", "sauces-condiments", "chocolate-confectionery", "jams-spreads", "supplements"],
+    "summary": {
+      "en": "A high-intensity sweetener; EFSA's 2026 opinion kept the ADI but could not confirm safety in fine bakery wares because of uncertainty over prolonged heating.",
+      "bn": "উচ্চ-তীব্রতার সুইটেনার; ২০২৬ সালের EFSA মতামতে ADI অপরিবর্তিত, তবে দীর্ঘ উত্তাপের অনিশ্চয়তায় বেকারি পণ্যে নিরাপত্তা নিশ্চিত করা যায়নি।"
+    },
+    "whatIs": {
+      "en": "Sucralose is a high-intensity sweetener made from sugar in which some parts of the molecule are replaced by chlorine. The US FDA puts it at about 600 times sweeter than table sugar.",
+      "bn": "সুক্রালোজ চিনি থেকে তৈরি উচ্চ-তীব্রতার সুইটেনার, যার অণুর কিছু অংশ ক্লোরিন দিয়ে বদলানো। মার্কিন FDA-র হিসাবে এটি সাধারণ চিনির চেয়ে প্রায় ৬০০ গুণ মিষ্টি।"
+    },
+    "whyUsed": {
+      "en": "A very small amount replaces the sweetness of a much larger amount of sugar, so foods can be sweetened with little added sugar.",
+      "bn": "অনেক বেশি চিনির মিষ্টতা খুব অল্প পরিমাণেই পাওয়া যায়, তাই সামান্য চিনিতেই খাবার মিষ্টি করা যায়।"
+    },
+    "howItWorks": {
+      "en": "It activates the tongue's sweet taste receptors at very low concentrations, which is why so little is used.",
+      "bn": "খুব কম ঘনত্বেই এটি জিভের মিষ্টি স্বাদের গ্রাহককে সক্রিয় করে, তাই এত অল্প ব্যবহার করা হয়।"
+    },
+    "properties": [
+      { "en": "about 600 times sweeter than sugar (FDA)", "bn": "চিনির চেয়ে প্রায় ৬০০ গুণ মিষ্টি (FDA)" },
+      { "en": "EFSA uncertainty at prolonged high temperatures", "bn": "দীর্ঘ সময় উচ্চ তাপে EFSA-র অনিশ্চয়তা" }
+    ],
+    "benefits": [
+      { "kind": "sugar-reduction", "text": { "en": "Keeps foods and drinks sweet with less added sugar.", "bn": "কম চিনি দিয়েও খাবার ও পানীয় মিষ্টি রাখে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA's 2026 opinion could not confirm safety for a proposed extension to fine bakery wares. When sucralose is heated at high temperatures for long periods, chlorine may transfer to other organic molecules and form compounds whose health effects are unknown. EFSA said this could be set aside only with limits on baking temperature and time, and that the same uncertainty applies to home baking or frying. This is an unresolved data gap, not a demonstrated harm.",
+          "bn": "২০২৬ সালের মতামতে EFSA ফাইন বেকারি পণ্যে ব্যবহার বাড়ানোর প্রস্তাবের নিরাপত্তা নিশ্চিত করতে পারেনি। দীর্ঘ সময় উচ্চ তাপে সুক্রালোজ থেকে ক্লোরিন অন্য জৈব অণুতে গিয়ে এমন যৌগ তৈরি করতে পারে, যার স্বাস্থ্য-প্রভাব অজানা। EFSA বলেছে, বেকিংয়ের তাপমাত্রা ও সময়ে সীমা থাকলে তবেই এই অনিশ্চয়তা বাদ দেওয়া যায়, আর বাড়িতে বেকিং বা ভাজায়ও একই অনিশ্চয়তা আছে। এটি অমীমাংসিত তথ্য-ঘাটতি, প্রমাণিত ক্ষতি নয়।"
+        },
+        "sourceIds": ["efsa-2026-sucralose-pls", "efsa-2026-sucralose"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "WHO's 2023 guideline suggests not using non-sugar sweeteners, sucralose included, to control weight or lower disease risk. It is a conditional recommendation: the evidence, including possible long-term links to type 2 diabetes and heart disease from observational studies, was low certainty overall. It does not apply to people with pre-existing diabetes and does not set safe intake levels.",
+          "bn": "WHO-র ২০২৩ সালের নির্দেশিকা ওজন নিয়ন্ত্রণ বা রোগের ঝুঁকি কমাতে সুক্রালোজসহ অ-চিনি সুইটেনার ব্যবহার না করার পরামর্শ দেয়। এটি শর্তসাপেক্ষ সুপারিশ: পর্যবেক্ষণমূলক গবেষণায় টাইপ ২ ডায়াবেটিস ও হৃদ্‌রোগের সঙ্গে সম্ভাব্য দীর্ঘমেয়াদি সম্পর্কসহ সামগ্রিক প্রমাণের নিশ্চয়তা কম। আগে থেকে ডায়াবেটিস থাকা ব্যক্তিদের ক্ষেত্রে এটি প্রযোজ্য নয়, আর এটি নিরাপদ গ্রহণমাত্রাও নির্ধারণ করে না।"
+        },
+        "sourceIds": ["who-nss-2023", "who-nss-news-2023"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA's 2026 opinion found the highest estimated EU intake was below the ADI in every population group and raised no genotoxicity concern for sucralose or its impurities and degradation products. Authorities set different ADIs, EFSA and JECFA at 15 and the US FDA at 5 mg/kg bw/day. The heating question concerns baking and frying at high temperature for long periods, not sucralose in drinks or other uses without heating.",
+      "bn": "২০২৬ সালের EFSA মতামতে ইউরোপের সর্বোচ্চ আনুমানিক গ্রহণমাত্রা সব জনগোষ্ঠীতেই ADI-র নিচে ছিল, এবং সুক্রালোজ, এর অশুদ্ধি বা ভাঙনজাত পদার্থ নিয়ে জিনোটক্সিসিটির উদ্বেগ পাওয়া যায়নি। ADI সংস্থাভেদে আলাদা: EFSA ও JECFA ১৫, মার্কিন FDA ৫ মিলিগ্রাম/কেজি শরীরের ওজন/দিন। উত্তাপের প্রশ্নটি দীর্ঘ সময় উচ্চ তাপে বেকিং ও ভাজা নিয়ে, পানীয় বা উত্তাপহীন ব্যবহার নিয়ে নয়।"
+    },
+    "statusLabels": ["within-limits", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluated in 2026; no need to change the ADI. Safety in fine bakery wares could not be confirmed.", "bn": "২০২৬ সালে পুনর্মূল্যায়িত; ADI বদলানোর প্রয়োজন নেই। ফাইন বেকারি পণ্যে নিরাপত্তা নিশ্চিত করা যায়নি।" },
+        "adi": { "type": "numeric", "value": 15, "unit": "mg/kg bw/day" },
+        "conditions": { "en": "EFSA recommended specification limits for two chlorinated monosaccharide impurities and a lower lead limit.", "bn": "EFSA দুটি ক্লোরিনযুক্ত মনোস্যাকারাইড অশুদ্ধির সীমা এবং সীসার সীমা কমানোর সুপারিশ করেছে।" },
+        "date": "2026-02",
+        "sourceId": "efsa-2026-sucralose-pls"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "Evaluated; ADI allocated.", "bn": "মূল্যায়িত; ADI নির্ধারিত।" },
+        "adi": { "type": "numeric", "value": 15, "low": 0, "unit": "mg/kg bw/day" },
+        "date": "1990",
+        "sourceId": "jecfa-sucralose"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Permitted as a general-purpose sweetener under good manufacturing practice.", "bn": "উত্তম উৎপাদন-চর্চা মেনে সাধারণ সুইটেনার হিসেবে অনুমোদিত।" },
+        "adi": { "type": "numeric", "value": 5, "unit": "mg/kg bw/day" },
+        "date": "2025",
+        "sourceId": "fda-sweeteners"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2026-sucralose", "org": "EFSA", "title": "Re-evaluation of sucralose (E 955) as a food additive and evaluation of a new application on extension of use of sucralose (E 955) in fine bakery wares", "year": 2026, "url": "https://doi.org/10.2903/j.efsa.2026.9854", "kind": "regulatory" },
+      { "id": "efsa-2026-sucralose-pls", "org": "EFSA", "title": "Re-evaluation of sucralose (E 955) as a food additive (plain language summary)", "year": 2026, "url": "https://www.efsa.europa.eu/en/plain-language-summary/re-evaluation-sucralose-e-955-food-additive", "kind": "regulatory" },
+      { "id": "jecfa-sucralose", "org": "JECFA", "title": "JECFA Evaluations: Sucralose", "year": 1990, "url": "https://www.inchem.org/documents/jecfa/jeceval/jec_2206.htm", "kind": "regulatory" },
+      { "id": "fda-sweeteners", "org": "US FDA", "title": "Aspartame and Other Sweeteners in Food", "year": 2025, "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food", "kind": "agency-guidance" },
+      { "id": "who-nss-2023", "org": "WHO", "title": "Use of non-sugar sweeteners: WHO guideline", "year": 2023, "url": "https://www.who.int/publications/i/item/9789240073616", "kind": "agency-guidance" },
+      { "id": "who-nss-news-2023", "org": "WHO", "title": "WHO advises not to use non-sugar sweeteners for weight control in newly released guideline", "year": 2023, "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline", "kind": "agency-guidance" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "acesulfame-potassium",
+    "name": { "en": "Acesulfame potassium", "bn": "অ্যাসিসালফেম পটাশিয়াম" },
+    "commonNames": ["acesulfame K", "ace-K"],
+    "labelNames": ["acesulfame potassium", "acesulfame k", "acesulfame-k", "ace-k", "e950", "e 950", "ins 950", "অ্যাসিসালফেম পটাশিয়াম"],
+    "eNumber": "E950",
+    "ins": "950",
+    "formula": "C4H4KNO4S",
+    "category": "artificial-sweeteners",
+    "alsoIn": ["flavor-enhancers"],
+    "origin": "synthetic",
+    "applications": ["soft-drinks", "tabletop-sweeteners", "dairy", "frozen-desserts", "chocolate-confectionery", "jams-spreads", "supplements"],
+    "summary": {
+      "en": "A sweetener about 200 times sweeter than sugar; EFSA raised its ADI to 15 mg/kg in 2025, matching JECFA and the US FDA.",
+      "bn": "চিনির চেয়ে প্রায় ২০০ গুণ মিষ্টি সুইটেনার; ২০২৫ সালে EFSA এর ADI বাড়িয়ে ১৫ মিলিগ্রাম/কেজি করেছে, যা JECFA ও মার্কিন FDA-র সমান।"
+    },
+    "whatIs": {
+      "en": "Acesulfame potassium, often written acesulfame K, is a synthetic high-intensity sweetener. The US FDA puts it at about 200 times sweeter than table sugar.",
+      "bn": "অ্যাসিসালফেম পটাশিয়াম, যা প্রায়ই অ্যাসিসালফেম কে লেখা হয়, একটি কৃত্রিম উচ্চ-তীব্রতার সুইটেনার। মার্কিন FDA-র হিসাবে এটি সাধারণ চিনির চেয়ে প্রায় ২০০ গুণ মিষ্টি।"
+    },
+    "whyUsed": {
+      "en": "It provides sweetness in low-sugar products, and the US permits it as a sweetener and flavour enhancer in foods generally, except meat and poultry.",
+      "bn": "কম-চিনির পণ্যে এটি মিষ্টতা দেয়; যুক্তরাষ্ট্রে মাংস ও পোল্ট্রি ছাড়া সাধারণ খাবারে সুইটেনার ও স্বাদবর্ধক হিসেবে এটি অনুমোদিত।"
+    },
+    "howItWorks": {
+      "en": "It activates the tongue's sweet taste receptors at very low concentrations.",
+      "bn": "খুব কম ঘনত্বেই এটি জিভের মিষ্টি স্বাদের গ্রাহককে সক্রিয় করে।"
+    },
+    "properties": [
+      { "en": "about 200 times sweeter than sugar (FDA)", "bn": "চিনির চেয়ে প্রায় ২০০ গুণ মিষ্টি (FDA)" },
+      { "en": "ADI 15 mg/kg bw/day at EFSA, JECFA and FDA", "bn": "EFSA, JECFA ও FDA-তে ADI ১৫ মিলিগ্রাম/কেজি শরীরের ওজন/দিন" }
+    ],
+    "benefits": [
+      { "kind": "sugar-reduction", "text": { "en": "Allows sweetness with less added sugar.", "bn": "কম চিনিতেই মিষ্টতা পাওয়া যায়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA's 2025 opinion noted that no experimental genotoxicity data exist for 5-chloro-acesulfame, a possible impurity. It recommended either a maximum limit of 0.1 mg/kg for that impurity or further data. In 2026 EFSA said this uncertainty does not change its overall safety conclusions.",
+          "bn": "২০২৫ সালের মতামতে EFSA জানায়, সম্ভাব্য অশুদ্ধি ৫-ক্লোরো-অ্যাসিসালফেম নিয়ে পরীক্ষাভিত্তিক জিনোটক্সিসিটি তথ্য নেই। এই অশুদ্ধির জন্য সর্বোচ্চ ০.১ মিলিগ্রাম/কেজি সীমা অথবা আরও তথ্য চাওয়ার সুপারিশ করা হয়। ২০২৬ সালে EFSA বলেছে, এই অনিশ্চয়তা তাদের সামগ্রিক নিরাপত্তা সিদ্ধান্ত বদলায় না।"
+        },
+        "sourceIds": ["efsa-2025-acek", "efsa-2026-e962"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "WHO's 2023 guideline suggests not using non-sugar sweeteners, acesulfame K included, to control weight or lower disease risk. It is a conditional recommendation: the evidence, including possible long-term links to type 2 diabetes and heart disease from observational studies, was low certainty overall. It does not apply to people with pre-existing diabetes and does not set safe intake levels.",
+          "bn": "WHO-র ২০২৩ সালের নির্দেশিকা ওজন নিয়ন্ত্রণ বা রোগের ঝুঁকি কমাতে অ্যাসিসালফেম কে-সহ অ-চিনি সুইটেনার ব্যবহার না করার পরামর্শ দেয়। এটি শর্তসাপেক্ষ সুপারিশ: পর্যবেক্ষণমূলক গবেষণায় টাইপ ২ ডায়াবেটিস ও হৃদ্‌রোগের সঙ্গে সম্ভাব্য দীর্ঘমেয়াদি সম্পর্কসহ সামগ্রিক প্রমাণের নিশ্চয়তা কম। আগে থেকে ডায়াবেটিস থাকা ব্যক্তিদের ক্ষেত্রে এটি প্রযোজ্য নয়, আর এটি নিরাপদ গ্রহণমাত্রাও নির্ধারণ করে না।"
+        },
+        "sourceIds": ["who-nss-2023", "who-nss-news-2023"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA found the highest estimated EU intake was generally below the ADI in all population groups, which it read as no safety concern. Its ADI rests on the highest dose tested in rats, and in 2025 it replaced the older EU figure of 9 mg/kg bw/day.",
+      "bn": "EFSA দেখেছে, ইউরোপের সর্বোচ্চ আনুমানিক গ্রহণমাত্রা সাধারণত সব জনগোষ্ঠীতে ADI-র নিচে, যা নিরাপত্তা-উদ্বেগ নির্দেশ করে না। এই ADI ইঁদুরে পরীক্ষিত সর্বোচ্চ মাত্রার ওপর ভিত্তি করা, এবং ২০২৫ সালে এটি ইউরোপের আগের ৯ মিলিগ্রাম/কেজি শরীরের ওজন/দিন সীমার জায়গা নিয়েছে।"
+    },
+    "statusLabels": ["within-limits"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluated in 2025; new ADI replaces the 9 mg/kg set in 2000.", "bn": "২০২৫ সালে পুনর্মূল্যায়িত; নতুন ADI ২০০০ সালের ৯ মিলিগ্রাম/কেজি সীমার জায়গা নিয়েছে।" },
+        "adi": { "type": "numeric", "value": 15, "unit": "mg/kg bw/day" },
+        "date": "2025-04",
+        "sourceId": "efsa-2025-acek"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "Evaluated; ADI allocated.", "bn": "মূল্যায়িত; ADI নির্ধারিত।" },
+        "adi": { "type": "numeric", "value": 15, "low": 0, "unit": "mg/kg bw/day" },
+        "date": "1990",
+        "sourceId": "jecfa-acek"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Permitted sweetener and flavour enhancer in foods generally, except meat and poultry.", "bn": "মাংস ও পোল্ট্রি ছাড়া সাধারণ খাবারে অনুমোদিত সুইটেনার ও স্বাদবর্ধক।" },
+        "adi": { "type": "numeric", "value": 15, "unit": "mg/kg bw/day" },
+        "date": "2025",
+        "sourceId": "fda-sweeteners"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2025-acek", "org": "EFSA", "title": "Re-evaluation of acesulfame K (E 950) as food additive", "year": 2025, "url": "https://doi.org/10.2903/j.efsa.2025.9317", "kind": "regulatory" },
+      { "id": "efsa-2026-e962", "org": "EFSA", "title": "Re-evaluation of salt of aspartame-acesulfame (E 962) as food additive (plain language summary)", "year": 2026, "url": "https://www.efsa.europa.eu/en/plain-language-summary/re-evaluation-salt-aspartame-acesulfame-e-962-food-additive", "kind": "regulatory" },
+      { "id": "jecfa-acek", "org": "JECFA", "title": "JECFA Evaluations: Acesulfame potassium", "year": 1990, "url": "https://www.inchem.org/documents/jecfa/jeceval/jec_1.htm", "kind": "regulatory" },
+      { "id": "fda-sweeteners", "org": "US FDA", "title": "Aspartame and Other Sweeteners in Food", "year": 2025, "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food", "kind": "agency-guidance" },
+      { "id": "who-nss-2023", "org": "WHO", "title": "Use of non-sugar sweeteners: WHO guideline", "year": 2023, "url": "https://www.who.int/publications/i/item/9789240073616", "kind": "agency-guidance" },
+      { "id": "who-nss-news-2023", "org": "WHO", "title": "WHO advises not to use non-sugar sweeteners for weight control in newly released guideline", "year": 2023, "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline", "kind": "agency-guidance" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "saccharin",
+    "name": { "en": "Saccharin", "bn": "স্যাকারিন" },
+    "commonNames": ["sodium saccharin", "calcium saccharin", "potassium saccharin"],
+    "labelNames": ["saccharin", "sodium saccharin", "saccharin sodium", "calcium saccharin", "potassium saccharin", "e954", "e 954", "ins 954", "স্যাকারিন"],
+    "eNumber": "E954",
+    "ins": "954",
+    "formula": "C7H5NO3S",
+    "category": "artificial-sweeteners",
+    "origin": "synthetic",
+    "applications": ["soft-drinks", "tabletop-sweeteners", "chocolate-confectionery", "jams-spreads", "supplements"],
+    "summary": {
+      "en": "An old, high-intensity sweetener; EFSA raised its ADI to 9 mg/kg in 2024 after concluding the rat bladder tumours behind the old limit are not relevant to people.",
+      "bn": "পুরোনো উচ্চ-তীব্রতার সুইটেনার; ইঁদুরের মূত্রথলির টিউমার মানুষের জন্য প্রাসঙ্গিক নয় ধরে ২০২৪ সালে EFSA এর ADI বাড়িয়ে ৯ মিলিগ্রাম/কেজি করেছে।"
+    },
+    "whatIs": {
+      "en": "Saccharin and its sodium, potassium and calcium salts are synthetic sweeteners. The US FDA puts saccharin at 200 to 700 times sweeter than table sugar.",
+      "bn": "স্যাকারিন এবং এর সোডিয়াম, পটাশিয়াম ও ক্যালসিয়াম লবণ কৃত্রিম সুইটেনার। মার্কিন FDA-র হিসাবে স্যাকারিন সাধারণ চিনির চেয়ে ২০০ থেকে ৭০০ গুণ মিষ্টি।"
+    },
+    "whyUsed": {
+      "en": "It sweetens tabletop products, drinks and other low-sugar foods. EFSA notes that its salts dissolve in water more easily, which makes them simpler to add.",
+      "bn": "টেবিল সুইটেনার, পানীয় ও অন্যান্য কম-চিনির খাবার মিষ্টি করতে এটি ব্যবহৃত হয়। EFSA জানিয়েছে, এর লবণগুলো পানিতে সহজে দ্রবীভূত হয়, তাই যোগ করা সহজ।"
+    },
+    "howItWorks": {
+      "en": "It activates the tongue's sweet taste receptors at very low concentrations.",
+      "bn": "খুব কম ঘনত্বেই এটি জিভের মিষ্টি স্বাদের গ্রাহককে সক্রিয় করে।"
+    },
+    "properties": [
+      { "en": "200 to 700 times sweeter than sugar (FDA)", "bn": "চিনির চেয়ে ২০০ থেকে ৭০০ গুণ মিষ্টি (FDA)" },
+      { "en": "salts dissolve easily in water", "bn": "লবণগুলো পানিতে সহজে দ্রবীভূত হয়" }
+    ],
+    "benefits": [
+      { "kind": "sugar-reduction", "text": { "en": "Provides sweetness with less added sugar.", "bn": "কম চিনিতেই মিষ্টতা দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "established",
+        "text": {
+          "en": "In rat studies from the 1970s saccharin was linked to bladder tumours, which led to a US warning label that is no longer required. EFSA's 2024 opinion says there is now scientific agreement that these tumours are specific to male rats and not relevant to humans, and that saccharin does not cause DNA damage.",
+          "bn": "১৯৭০-এর দশকের ইঁদুরের গবেষণায় স্যাকারিনের সঙ্গে মূত্রথলির টিউমারের সম্পর্ক দেখা গিয়েছিল, ফলে যুক্তরাষ্ট্রে সতর্ক-লেবেল চালু হয়; এখন তা আর বাধ্যতামূলক নয়। ২০২৪ সালের মতামতে EFSA জানিয়েছে, এই টিউমার পুরুষ ইঁদুরেই সীমাবদ্ধ এবং মানুষের জন্য প্রাসঙ্গিক নয় বলে এখন বিজ্ঞানীরা একমত, আর স্যাকারিন ডিএনএ-র ক্ষতি করে না।"
+        },
+        "sourceIds": ["efsa-2024-saccharin-pls", "efsa-2024-saccharin-news", "fda-sweeteners"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "WHO's 2023 guideline suggests not using non-sugar sweeteners for weight control or to lower disease risk. Its review reported that higher intake, mostly of saccharin, was associated with bladder cancer in case-control studies, rated very low certainty, while overall cancer was not associated in cohort studies. The recommendation is conditional, does not apply to people with pre-existing diabetes and does not set safe intake levels.",
+          "bn": "WHO-র ২০২৩ সালের নির্দেশিকা ওজন নিয়ন্ত্রণ বা রোগের ঝুঁকি কমাতে অ-চিনি সুইটেনার ব্যবহার না করার পরামর্শ দেয়। এর পর্যালোচনায় কেস-কন্ট্রোল গবেষণায় বেশি গ্রহণের, প্রধানত স্যাকারিনের, সঙ্গে মূত্রথলির ক্যানসারের সম্পর্ক পাওয়া যায়, যার নিশ্চয়তা খুবই কম; কোহর্ট গবেষণায় সামগ্রিক ক্যানসারের সঙ্গে সম্পর্ক পাওয়া যায়নি। সুপারিশটি শর্তসাপেক্ষ, আগে থেকে ডায়াবেটিস থাকা ব্যক্তিদের ক্ষেত্রে প্রযোজ্য নয় এবং এটি নিরাপদ গ্রহণমাত্রাও নির্ধারণ করে না।"
+        },
+        "sourceIds": ["who-nss-2023", "who-nss-news-2023"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA found the highest estimates of long-term intake were below the ADI in all population groups, indicating no safety concern. Authorities' ADIs differ and are expressed differently: EFSA's 9 mg/kg is as free imide, while JECFA's 5 mg/kg is a group figure for saccharin and its salts, and the US FDA uses 15.",
+      "bn": "EFSA দেখেছে, দীর্ঘমেয়াদি গ্রহণের সর্বোচ্চ অনুমানও সব জনগোষ্ঠীতে ADI-র নিচে, অর্থাৎ নিরাপত্তা-উদ্বেগ নেই। সংস্থাগুলোর ADI ভিন্ন এবং আলাদাভাবে প্রকাশিত: EFSA-র ৯ মিলিগ্রাম/কেজি মুক্ত ইমাইড হিসেবে, JECFA-র ৫ মিলিগ্রাম/কেজি স্যাকারিন ও এর লবণের সম্মিলিত সীমা, আর মার্কিন FDA ব্যবহার করে ১৫।"
+    },
+    "statusLabels": ["within-limits", "approved-specific"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluated in 2024; ADI raised from the 1995 figure of 5 mg/kg (as sodium saccharin).", "bn": "২০২৪ সালে পুনর্মূল্যায়িত; ADI ১৯৯৫ সালের ৫ মিলিগ্রাম/কেজি (সোডিয়াম স্যাকারিন হিসেবে) থেকে বাড়ানো হয়েছে।" },
+        "adi": { "type": "numeric", "value": 9, "unit": "mg/kg bw/day", "note": { "en": "Expressed as free imide.", "bn": "মুক্ত ইমাইড হিসেবে প্রকাশিত।" } },
+        "date": "2024-11",
+        "sourceId": "efsa-2024-saccharin"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "Evaluated; group ADI allocated.", "bn": "মূল্যায়িত; সম্মিলিত ADI নির্ধারিত।" },
+        "adi": { "type": "numeric", "value": 5, "low": 0, "unit": "mg/kg bw/day", "note": { "en": "Group ADI for saccharin and its calcium, potassium and sodium salts.", "bn": "স্যাকারিন এবং এর ক্যালসিয়াম, পটাশিয়াম ও সোডিয়াম লবণের সম্মিলিত ADI।" } },
+        "date": "1993",
+        "sourceId": "jecfa-saccharin"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Permitted food additive under an interim listing with set limits.", "bn": "নির্দিষ্ট সীমাসহ অন্তর্বর্তী তালিকায় অনুমোদিত খাদ্য সংযোজন।" },
+        "adi": { "type": "numeric", "value": 15, "unit": "mg/kg bw/day" },
+        "limits": { "en": "Up to 12 mg per fluid ounce in beverages and 30 mg per serving in processed foods, calculated as saccharin.", "bn": "স্যাকারিন হিসেবে পানীয়ে প্রতি ফ্লুইড আউন্সে সর্বোচ্চ ১২ মিলিগ্রাম, প্রক্রিয়াজাত খাবারে প্রতি পরিবেশনে সর্বোচ্চ ৩০ মিলিগ্রাম।" },
+        "date": "2024",
+        "sourceId": "cfr-180-37"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2024-saccharin", "org": "EFSA", "title": "Re-evaluation of saccharin and its sodium, potassium and calcium salts (E 954) as food additives", "year": 2024, "url": "https://doi.org/10.2903/j.efsa.2024.9044", "kind": "regulatory" },
+      { "id": "efsa-2024-saccharin-pls", "org": "EFSA", "title": "Re-evaluation of saccharin and its sodium, potassium and calcium salts (E 954) as food additives (plain language summary)", "year": 2024, "url": "https://www.efsa.europa.eu/en/plain-language-summary/re-evaluation-saccharin-and-its-sodium-potassium-and-calcium-salts-e-954", "kind": "regulatory" },
+      { "id": "efsa-2024-saccharin-news", "org": "EFSA", "title": "Saccharin: safety threshold increased", "year": 2024, "url": "https://www.efsa.europa.eu/en/news/saccharin-safety-threshold-increased", "kind": "agency-guidance" },
+      { "id": "jecfa-saccharin", "org": "JECFA", "title": "JECFA Evaluations: Sodium saccharin", "year": 1993, "url": "https://www.inchem.org/documents/jecfa/jeceval/jec_2171.htm", "kind": "regulatory" },
+      { "id": "cfr-180-37", "org": "US Code of Federal Regulations", "title": "21 CFR 180.37 Saccharin, ammonium saccharin, calcium saccharin, and sodium saccharin", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec180-37.xml", "kind": "regulatory" },
+      { "id": "fda-sweeteners", "org": "US FDA", "title": "Aspartame and Other Sweeteners in Food", "year": 2025, "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food", "kind": "agency-guidance" },
+      { "id": "who-nss-2023", "org": "WHO", "title": "Use of non-sugar sweeteners: WHO guideline", "year": 2023, "url": "https://www.who.int/publications/i/item/9789240073616", "kind": "agency-guidance" },
+      { "id": "who-nss-news-2023", "org": "WHO", "title": "WHO advises not to use non-sugar sweeteners for weight control in newly released guideline", "year": 2023, "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline", "kind": "agency-guidance" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "sodium-cyclamate",
+    "name": { "en": "Sodium cyclamate", "bn": "সোডিয়াম সাইক্লামেট" },
+    "commonNames": ["cyclamate", "cyclamic acid salts"],
+    "labelNames": ["sodium cyclamate", "cyclamate", "cyclamic acid", "calcium cyclamate", "e952", "e 952", "ins 952", "সোডিয়াম সাইক্লামেট"],
+    "eNumber": "E952",
+    "ins": "952",
+    "formula": "C6H12NNaO3S",
+    "category": "artificial-sweeteners",
+    "origin": "synthetic",
+    "applications": ["soft-drinks", "tabletop-sweeteners", "jams-spreads", "chocolate-confectionery"],
+    "summary": {
+      "en": "A sweetener permitted in the EU and evaluated by JECFA, but prohibited in US food; EFSA's re-evaluation is due by June 2027.",
+      "bn": "ইউরোপীয় ইউনিয়নে অনুমোদিত ও JECFA-র মূল্যায়িত সুইটেনার, তবে যুক্তরাষ্ট্রের খাবারে নিষিদ্ধ; EFSA-র পুনর্মূল্যায়ন জুন ২০২৭-এর মধ্যে শেষ হওয়ার কথা।"
+    },
+    "whatIs": {
+      "en": "Sodium cyclamate is a salt of cyclamic acid and is used as a synthetic sweetener. Regulators assess it together with cyclamic acid and its calcium salt.",
+      "bn": "সোডিয়াম সাইক্লামেট হলো সাইক্লামিক অ্যাসিডের লবণ, যা কৃত্রিম সুইটেনার হিসেবে ব্যবহৃত হয়। নিয়ন্ত্রক সংস্থাগুলো এটিকে সাইক্লামিক অ্যাসিড ও এর ক্যালসিয়াম লবণের সঙ্গে একসঙ্গে মূল্যায়ন করে।"
+    },
+    "whyUsed": {
+      "en": "It adds sweetness to low-sugar drinks and tabletop sweeteners where permitted.",
+      "bn": "যেখানে অনুমোদিত, সেখানে কম-চিনির পানীয় ও টেবিল সুইটেনারে এটি মিষ্টতা যোগ করে।"
+    },
+    "howItWorks": {
+      "en": "It activates the tongue's sweet taste receptors. Part of what is swallowed can be converted by gut bacteria into cyclohexylamine, and this conversion varies widely between people.",
+      "bn": "এটি জিভের মিষ্টি স্বাদের গ্রাহককে সক্রিয় করে। গিলে ফেলা অংশের কিছুটা অন্ত্রের ব্যাকটেরিয়া সাইক্লোহেক্সিলঅ্যামিনে রূপান্তর করতে পারে, আর এই রূপান্তর মানুষভেদে অনেক আলাদা।"
+    },
+    "properties": [
+      { "en": "ADIs differ: 7 (SCF) and 11 (JECFA) mg/kg bw/day as cyclamic acid", "bn": "ADI আলাদা: সাইক্লামিক অ্যাসিড হিসেবে ৭ (SCF) ও ১১ (JECFA) মিলিগ্রাম/কেজি শরীরের ওজন/দিন" },
+      { "en": "prohibited in US food", "bn": "যুক্তরাষ্ট্রের খাবারে নিষিদ্ধ" }
+    ],
+    "benefits": [
+      { "kind": "sugar-reduction", "text": { "en": "Provides sweetness with less added sugar where it is permitted.", "bn": "যেখানে অনুমোদিত, সেখানে কম চিনিতেই মিষ্টতা দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "dose-dependent",
+        "evidence": "animal",
+        "strength": "established",
+        "text": {
+          "en": "The ADI rests on testicular toxicity seen in rats given cyclohexylamine, which gut bacteria can form from cyclamate. The EU's Scientific Committee on Food used an 85% conversion rate for high converters when it set its ADI in 2000. Whether and how much this applies to people was the main uncertainty in that review.",
+          "bn": "এর ADI-র ভিত্তি হলো ইঁদুরকে সাইক্লোহেক্সিলঅ্যামিন দিলে শুক্রাশয়ে দেখা বিষক্রিয়া; অন্ত্রের ব্যাকটেরিয়া সাইক্লামেট থেকে এই পদার্থ তৈরি করতে পারে। ২০০০ সালে ADI নির্ধারণের সময় ইউরোপের খাদ্যবিষয়ক বৈজ্ঞানিক কমিটি উচ্চ-রূপান্তরকারীদের জন্য ৮৫% রূপান্তর হার ধরে। মানুষের ক্ষেত্রে এটি কতটা প্রযোজ্য, সেটিই ছিল ওই পর্যালোচনার প্রধান অনিশ্চয়তা।"
+        },
+        "sourceIds": ["scf-2000-cyclamate"]
+      },
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "Intake data submitted by Denmark suggested children's intake could exceed the EU ADI, which contributed to lower maximum use levels. JECFA's 2009 assessment likewise found that of the use levels it considered, only 250 mg/kg was unlikely to lead high-consuming children and others to exceed its ADI, and a 350 mg/kg level also stayed below it.",
+          "bn": "ডেনমার্কের দেওয়া তথ্যে শিশুদের গ্রহণমাত্রা ইউরোপের ADI ছাড়াতে পারে বলে ইঙ্গিত মেলে, যা সর্বোচ্চ ব্যবহারমাত্রা কমানোর একটি কারণ। JECFA-র ২০০৯ সালের মূল্যায়নেও বিবেচিত মাত্রাগুলোর মধ্যে ২৫০ মিলিগ্রাম/কেজিতে শিশুসহ বেশি গ্রহণকারীদের ADI ছাড়ানোর আশঙ্কা কম ছিল; ৩৫০ মিলিগ্রাম/কেজি মাত্রাও সীমার নিচে ছিল।"
+        },
+        "sourceIds": ["eu-2002-cyclamate-proposal", "jecfa-cyclamate"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "WHO's 2023 guideline suggests not using non-sugar sweeteners, cyclamates included, to control weight or lower disease risk. It is a conditional recommendation: the evidence, including possible long-term links to type 2 diabetes and heart disease from observational studies, was low certainty overall. It does not apply to people with pre-existing diabetes and does not set safe intake levels.",
+          "bn": "WHO-র ২০২৩ সালের নির্দেশিকা ওজন নিয়ন্ত্রণ বা রোগের ঝুঁকি কমাতে সাইক্লামেটসহ অ-চিনি সুইটেনার ব্যবহার না করার পরামর্শ দেয়। এটি শর্তসাপেক্ষ সুপারিশ: পর্যবেক্ষণমূলক গবেষণায় টাইপ ২ ডায়াবেটিস ও হৃদ্‌রোগের সঙ্গে সম্ভাব্য দীর্ঘমেয়াদি সম্পর্কসহ সামগ্রিক প্রমাণের নিশ্চয়তা কম। আগে থেকে ডায়াবেটিস থাকা ব্যক্তিদের ক্ষেত্রে এটি প্রযোজ্য নয়, আর এটি নিরাপদ গ্রহণমাত্রাও নির্ধারণ করে না।"
+        },
+        "sourceIds": ["who-nss-2023", "who-nss-news-2023"]
+      }
+    ],
+    "riskContext": {
+      "en": "Cyclamate's standing differs by country: it is used in the EU within limits, while US law treats food containing it as adulterated. EFSA's re-evaluation is still under way, so the current EU figure dates from 2000. The EU ADI includes a 32-fold safety factor on the rat finding, and whether high-consuming children stay within the limit depends on the permitted use levels.",
+      "bn": "দেশভেদে সাইক্লামেটের অবস্থান আলাদা: ইউরোপীয় ইউনিয়নে সীমার মধ্যে ব্যবহৃত হয়, আর যুক্তরাষ্ট্রের আইনে এটি থাকা খাবারকে ভেজাল ধরা হয়। EFSA-র পুনর্মূল্যায়ন এখনো চলছে, তাই ইউরোপের বর্তমান সীমা ২০০০ সালের। ইউরোপের ADI-তে ইঁদুরের ফলাফলের ওপর ৩২ গুণ নিরাপত্তা-গুণক ধরা হয়েছে, আর বেশি গ্রহণকারী শিশুরা সীমার মধ্যে থাকবে কি না তা অনুমোদিত ব্যবহারমাত্রার ওপর নির্ভর করে।"
+    },
+    "statusLabels": ["restricted-some", "within-limits", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "Scientific Committee on Food",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Full ADI set in 2000, replacing a temporary 0 to 11.", "bn": "২০০০ সালে পূর্ণ ADI নির্ধারিত, যা অস্থায়ী ০ থেকে ১১ সীমার জায়গা নেয়।" },
+        "adi": { "type": "numeric", "value": 7, "low": 0, "unit": "mg/kg bw/day", "note": { "en": "Expressed as cyclamic acid; covers the acid and its sodium and calcium salts.", "bn": "সাইক্লামিক অ্যাসিড হিসেবে প্রকাশিত; অ্যাসিড ও এর সোডিয়াম-ক্যালসিয়াম লবণের ক্ষেত্রে প্রযোজ্য।" } },
+        "date": "2000-03",
+        "sourceId": "scf-2000-cyclamate"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluation under way; foreseen to finish by June 2027.", "bn": "পুনর্মূল্যায়ন চলছে; জুন ২০২৭-এর মধ্যে শেষ হওয়ার কথা।" },
+        "date": "2026-07",
+        "sourceId": "efsa-sweeteners-update-2026"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI first set in 1982 and retained in 2009.", "bn": "ADI প্রথম ১৯৮২ সালে নির্ধারিত, ২০০৯ সালে বহাল।" },
+        "adi": { "type": "numeric", "value": 11, "low": 0, "unit": "mg/kg bw/day", "note": { "en": "Expressed as cyclamic acid.", "bn": "সাইক্লামিক অ্যাসিড হিসেবে প্রকাশিত।" } },
+        "date": "2009",
+        "sourceId": "jecfa-cyclamate"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Prohibited: food containing any added or detectable cyclamate is deemed adulterated.", "bn": "নিষিদ্ধ: যোগ করা বা শনাক্তযোগ্য সাইক্লামেট থাকা খাবারকে ভেজাল ধরা হয়।" },
+        "date": "2024",
+        "sourceId": "cfr-189-135"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "scf-2000-cyclamate", "org": "European Commission, Scientific Committee on Food", "title": "Revised opinion on cyclamic acid and its sodium and calcium salts", "year": 2000, "url": "https://ec.europa.eu/food/fs/sc/scf/out53_en.pdf", "kind": "regulatory" },
+      { "id": "efsa-sweeteners-update-2026", "org": "EFSA", "title": "Update on the re-evaluation of sweeteners (67th FAF Plenary, 1-2 July 2026)", "year": 2026, "url": "https://www.efsa.europa.eu/sites/default/files/2026-07/Annex%20II_10.1%20Update%20on%20the%20re-evaluation%20of%20sweeteners_%201-2%20July%202026.pdf", "kind": "agency-guidance" },
+      { "id": "jecfa-cyclamate", "org": "JECFA", "title": "Evaluations of JECFA: Cyclamic acid", "year": 2009, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/995", "kind": "regulatory" },
+      { "id": "cfr-189-135", "org": "US Code of Federal Regulations", "title": "21 CFR 189.135 Cyclamate and its derivatives", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec189-135.xml", "kind": "regulatory" },
+      { "id": "eu-2002-cyclamate-proposal", "org": "European Commission", "title": "COM(2002) 375 proposal amending Directive 94/35/EC on sweeteners", "year": 2002, "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52002PC0375", "kind": "regulatory" },
+      { "id": "who-nss-2023", "org": "WHO", "title": "Use of non-sugar sweeteners: WHO guideline", "year": 2023, "url": "https://www.who.int/publications/i/item/9789240073616", "kind": "agency-guidance" },
+      { "id": "who-nss-news-2023", "org": "WHO", "title": "WHO advises not to use non-sugar sweeteners for weight control in newly released guideline", "year": 2023, "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline", "kind": "agency-guidance" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "neotame",
+    "name": { "en": "Neotame", "bn": "নিওটেম" },
+    "commonNames": [],
+    "labelNames": ["neotame", "e961", "e 961", "ins 961", "নিওটেম"],
+    "eNumber": "E961",
+    "ins": "961",
+    "formula": "C20H30N2O5",
+    "category": "artificial-sweeteners",
+    "alsoIn": ["flavor-enhancers"],
+    "origin": "synthetic",
+    "applications": ["tabletop-sweeteners", "soft-drinks", "bread-bakery", "dairy", "chocolate-confectionery"],
+    "summary": {
+      "en": "A very intense sweetener related to aspartame; little phenylalanine is formed from it, and it does not carry aspartame's phenylalanine warning in the US.",
+      "bn": "অ্যাসপারটেমের সমগোত্রীয় অতি-তীব্র সুইটেনার; এ থেকে সামান্যই ফিনাইলঅ্যালানিন তৈরি হয়, আর যুক্তরাষ্ট্রে এতে অ্যাসপারটেমের মতো ফিনাইলঅ্যালানিন সতর্কবাণী নেই।"
+    },
+    "whatIs": {
+      "en": "Neotame is a synthetic high-intensity sweetener related in structure to aspartame. The US FDA puts it at 7,000 to 13,000 times sweeter than table sugar.",
+      "bn": "নিওটেম হলো কাঠামোয় অ্যাসপারটেমের সঙ্গে সম্পর্কিত কৃত্রিম উচ্চ-তীব্রতার সুইটেনার। মার্কিন FDA-র হিসাবে এটি সাধারণ চিনির চেয়ে ৭,০০০ থেকে ১৩,০০০ গুণ মিষ্টি।"
+    },
+    "whyUsed": {
+      "en": "Because it is so sweet, tiny amounts are enough. The FDA notes that it stays sweet at high temperatures, which suits baked goods.",
+      "bn": "এত মিষ্টি হওয়ায় খুব সামান্যই যথেষ্ট। FDA জানিয়েছে, উচ্চ তাপেও এর মিষ্টতা থাকে, তাই বেকারি পণ্যে উপযোগী।"
+    },
+    "howItWorks": {
+      "en": "It activates the tongue's sweet taste receptors at extremely low concentrations. EFSA reports that it is rapidly absorbed and largely broken down, with its de-esterified form as the main product.",
+      "bn": "অত্যন্ত কম ঘনত্বেই এটি জিভের মিষ্টি স্বাদের গ্রাহককে সক্রিয় করে। EFSA জানিয়েছে, এটি দ্রুত শোষিত হয়ে বেশিরভাগই ভেঙে যায়, আর প্রধান উৎপাদ হলো এর ডি-এস্টারিফায়েড রূপ।"
+    },
+    "properties": [
+      { "en": "7,000 to 13,000 times sweeter than sugar (FDA)", "bn": "চিনির চেয়ে ৭,০০০ থেকে ১৩,০০০ গুণ মিষ্টি (FDA)" },
+      { "en": "heat stable (FDA)", "bn": "তাপে স্থিতিশীল (FDA)" }
+    ],
+    "benefits": [
+      { "kind": "sugar-reduction", "text": { "en": "Provides sweetness with less added sugar.", "bn": "কম চিনিতেই মিষ্টতা দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "Neotame differs from aspartame on phenylalanine. EFSA's 2025 opinion calls phenylalanine a minor product, under 1% of the dose, and judged the amount at the ADI safe for the general population and for carriers of the PKU gene; the sections checked did not discuss people who have PKU. The Australia and New Zealand food regulator (2001) decided the special aspartame warning was not needed, and the US neotame regulation has no phenylalanine label statement.",
+          "bn": "ফিনাইলঅ্যালানিনের ক্ষেত্রে নিওটেম অ্যাসপারটেমের থেকে আলাদা। ২০২৫ সালের মতামতে EFSA ফিনাইলঅ্যালানিনকে গৌণ উৎপাদ বলেছে, যা মাত্রার ১%-এর কম, এবং ADI-তে এই পরিমাণকে সাধারণ মানুষ ও PKU জিনের বাহকদের জন্য নিরাপদ ধরেছে; যাচাই করা অংশে PKU রোগীদের নিয়ে আলোচনা পাওয়া যায়নি। অস্ট্রেলিয়া ও নিউজিল্যান্ডের খাদ্য নিয়ন্ত্রক সংস্থা (২০০১) অ্যাসপারটেমের বিশেষ সতর্কবাণী দরকার নেই বলে সিদ্ধান্ত নেয়, আর যুক্তরাষ্ট্রের নিওটেম বিধিতেও ফিনাইলঅ্যালানিনের লেবেল-বিবৃতি নেই।"
+        },
+        "sourceIds": ["efsa-2025-neotame", "fsanz-a406", "cfr-172-829"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "WHO's 2023 guideline suggests not using non-sugar sweeteners, neotame included, to control weight or lower disease risk. It is a conditional recommendation: the evidence, including possible long-term links to type 2 diabetes and heart disease from observational studies, was low certainty overall. It does not apply to people with pre-existing diabetes and does not set safe intake levels.",
+          "bn": "WHO-র ২০২৩ সালের নির্দেশিকা ওজন নিয়ন্ত্রণ বা রোগের ঝুঁকি কমাতে নিওটেমসহ অ-চিনি সুইটেনার ব্যবহার না করার পরামর্শ দেয়। এটি শর্তসাপেক্ষ সুপারিশ: পর্যবেক্ষণমূলক গবেষণায় টাইপ ২ ডায়াবেটিস ও হৃদ্‌রোগের সঙ্গে সম্ভাব্য দীর্ঘমেয়াদি সম্পর্কসহ সামগ্রিক প্রমাণের নিশ্চয়তা কম। আগে থেকে ডায়াবেটিস থাকা ব্যক্তিদের ক্ষেত্রে এটি প্রযোজ্য নয়, আর এটি নিরাপদ গ্রহণমাত্রাও নির্ধারণ করে না।"
+        },
+        "sourceIds": ["who-nss-2023", "who-nss-news-2023"]
+      }
+    ],
+    "riskContext": {
+      "en": "Neotame is used in such tiny amounts that estimated EU intakes are very low: EFSA's refined 95th-percentile figures ranged from 0.01 to 0.16 mg/kg bw/day, none above its ADI, and it described these as overestimates. The authorities' ADIs differ widely, from 0.3 at the US FDA to 2 at JECFA and 10 at EFSA.",
+      "bn": "নিওটেম এত সামান্য পরিমাণে ব্যবহৃত হয় যে ইউরোপে আনুমানিক গ্রহণমাত্রা খুবই কম: EFSA-র পরিমার্জিত ৯৫তম পার্সেন্টাইল হিসাব ০.০১ থেকে ০.১৬ মিলিগ্রাম/কেজি শরীরের ওজন/দিন, কোনোটিই ADI-র ওপরে নয়, আর EFSA এগুলোকে অতিমূল্যায়ন বলেছে। সংস্থাভেদে ADI অনেক আলাদা: মার্কিন FDA ০.৩, JECFA ২, EFSA ১০।"
+    },
+    "statusLabels": ["within-limits"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluated in 2025; ADI raised from the 2 mg/kg set in 2007.", "bn": "২০২৫ সালে পুনর্মূল্যায়িত; ADI ২০০৭ সালের ২ মিলিগ্রাম/কেজি থেকে বাড়ানো হয়েছে।" },
+        "adi": { "type": "numeric", "value": 10, "unit": "mg/kg bw/day" },
+        "date": "2025-07",
+        "sourceId": "efsa-2025-neotame"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "Evaluated; ADI allocated.", "bn": "মূল্যায়িত; ADI নির্ধারিত।" },
+        "adi": { "type": "numeric", "value": 2, "low": 0, "unit": "mg/kg bw/day" },
+        "date": "2003",
+        "sourceId": "jecfa-neotame"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Approved in 2002 as a general-purpose sweetener and flavour enhancer, except in meat and poultry.", "bn": "২০০২ সালে মাংস ও পোল্ট্রি ছাড়া সাধারণ সুইটেনার ও স্বাদবর্ধক হিসেবে অনুমোদিত।" },
+        "adi": { "type": "numeric", "value": 0.3, "unit": "mg/kg bw/day" },
+        "date": "2025",
+        "sourceId": "fda-sweeteners"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2025-neotame", "org": "EFSA", "title": "Re-evaluation of neotame (E 961) as food additive", "year": 2025, "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12231243/", "kind": "regulatory" },
+      { "id": "jecfa-neotame", "org": "JECFA", "title": "JECFA Evaluations: Neotame", "year": 2003, "url": "https://inchem.org/documents/jecfa/jeceval/jec_1690.htm", "kind": "regulatory" },
+      { "id": "fda-sweeteners", "org": "US FDA", "title": "Aspartame and Other Sweeteners in Food", "year": 2025, "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food", "kind": "agency-guidance" },
+      { "id": "cfr-172-829", "org": "US Code of Federal Regulations", "title": "21 CFR 172.829 Neotame", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec172-829.xml", "kind": "regulatory" },
+      { "id": "fsanz-a406", "org": "FSANZ", "title": "A406 - Statement of Reasons: Neotame, intense artificial sweetener", "year": 2001, "url": "https://www.foodstandards.gov.au/food-standards-code/applications/applicationa406neotameintenseartificialsweetener/a406statementofreaso1356", "kind": "regulatory" },
+      { "id": "who-nss-2023", "org": "WHO", "title": "Use of non-sugar sweeteners: WHO guideline", "year": 2023, "url": "https://www.who.int/publications/i/item/9789240073616", "kind": "agency-guidance" },
+      { "id": "who-nss-news-2023", "org": "WHO", "title": "WHO advises not to use non-sugar sweeteners for weight control in newly released guideline", "year": 2023, "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline", "kind": "agency-guidance" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09", "notes": "EFSA 2025 opinion: phenylalanine passages read in the first 200,000 characters of 339,311; the remainder was not read, so a passage on PKU itself may exist further on." }
+  },
+  {
+    "id": "steviol-glycosides",
+    "name": { "en": "Steviol glycosides", "bn": "স্টিভিয়ল গ্লাইকোসাইড" },
+    "commonNames": ["stevia", "stevia extract", "rebaudioside A", "stevioside"],
+    "labelNames": ["steviol glycosides", "steviol glycosides from stevia", "stevia extract", "stevia", "rebaudioside a", "reb a", "stevioside", "e960", "e960a", "e 960", "e 960a", "ins 960", "স্টিভিয়ল গ্লাইকোসাইড", "স্টিভিয়া"],
+    "eNumber": "E960",
+    "ins": "960",
+    "category": "natural-sweeteners",
+    "origin": "natural-derived",
+    "originNote": {
+      "en": "Purified from stevia leaves or produced by other routes, including enzymatic or fermentation processes. Being plant-derived is not evidence of safety or harm.",
+      "bn": "স্টিভিয়া পাতা থেকে পরিশোধন করে অথবা এনজাইম বা ফার্মেন্টেশনসহ অন্য পদ্ধতিতে তৈরি হয়। উদ্ভিদজাত হওয়া নিরাপত্তা বা ক্ষতির প্রমাণ নয়।"
+    },
+    "applications": ["soft-drinks", "tabletop-sweeteners", "dairy", "frozen-desserts", "chocolate-confectionery", "jams-spreads", "supplements"],
+    "summary": {
+      "en": "Sweet compounds purified from stevia leaves; EFSA and JECFA both hold the ADI at 4 mg/kg as steviol, and only high-purity forms are GRAS in the US.",
+      "bn": "স্টিভিয়া পাতা থেকে পরিশোধিত মিষ্টি যৌগ; EFSA ও JECFA উভয়ের ADI স্টিভিয়ল হিসেবে ৪ মিলিগ্রাম/কেজি, আর যুক্তরাষ্ট্রে শুধু উচ্চ-বিশুদ্ধ রূপ GRAS।"
+    },
+    "whatIs": {
+      "en": "Steviol glycosides are sweet-tasting compounds found in the leaves of the stevia plant, such as stevioside and rebaudioside A. The US FDA puts high-purity forms at 200 to 400 times sweeter than table sugar.",
+      "bn": "স্টিভিয়ল গ্লাইকোসাইড হলো স্টিভিয়া গাছের পাতায় পাওয়া মিষ্টি যৌগ, যেমন স্টিভিওসাইড ও রেবাউডিওসাইড এ। মার্কিন FDA-র হিসাবে উচ্চ-বিশুদ্ধ রূপগুলো সাধারণ চিনির চেয়ে ২০০ থেকে ৪০০ গুণ মিষ্টি।"
+    },
+    "whyUsed": {
+      "en": "They sweeten low-sugar foods and drinks in very small amounts.",
+      "bn": "খুব অল্প পরিমাণেই এগুলো কম-চিনির খাবার ও পানীয় মিষ্টি করে।"
+    },
+    "howItWorks": {
+      "en": "They activate the tongue's sweet taste receptors at low concentrations. Safety limits are expressed as steviol, the shared core of the family, so one limit covers different glycosides.",
+      "bn": "কম ঘনত্বেই এগুলো জিভের মিষ্টি স্বাদের গ্রাহককে সক্রিয় করে। নিরাপত্তা-সীমা প্রকাশ করা হয় এই পরিবারের অভিন্ন কাঠামো স্টিভিয়ল হিসেবে, তাই একটি সীমাই বিভিন্ন গ্লাইকোসাইডের ক্ষেত্রে প্রযোজ্য।"
+    },
+    "properties": [
+      { "en": "200 to 400 times sweeter than sugar (FDA)", "bn": "চিনির চেয়ে ২০০ থেকে ৪০০ গুণ মিষ্টি (FDA)" },
+      { "en": "ADI expressed as steviol", "bn": "ADI স্টিভিয়ল হিসেবে প্রকাশিত" }
+    ],
+    "benefits": [
+      { "kind": "sugar-reduction", "text": { "en": "Provides sweetness with less added sugar.", "bn": "কম চিনিতেই মিষ্টতা দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "dose-dependent",
+        "evidence": "theoretical",
+        "strength": "established",
+        "text": {
+          "en": "Conservative intake estimates sit close to the limit for high-consuming young children. EFSA's 2024 opinion found that proposed extended uses would increase the exceedance of the ADI in toddlers at the 95th percentile, and JECFA noted estimates for EU children who are high consumers slightly above its upper limit, while judging this unlikely to be a health concern because the estimate is conservative.",
+          "bn": "বেশি গ্রহণকারী ছোট শিশুদের ক্ষেত্রে সতর্ক হিসাব সীমার কাছাকাছি। ২০২৪ সালের মতামতে EFSA দেখেছে, প্রস্তাবিত বাড়তি ব্যবহারে ৯৫তম পার্সেন্টাইলের টডলারদের ADI ছাড়ানো আরও বাড়বে। JECFA-ও ইউরোপের বেশি গ্রহণকারী শিশুদের হিসাব সীমার সামান্য ওপরে পেয়েছে, তবে হিসাবটি সতর্ক বলে এটি স্বাস্থ্য-উদ্বেগ হওয়ার সম্ভাবনা কম বলে মনে করে।"
+        },
+        "sourceIds": ["efsa-2024-steviol", "jecfa-steviol"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "WHO's 2023 guideline suggests not using non-sugar sweeteners, stevia and its derivatives included, to control weight or lower disease risk. It is a conditional recommendation: the evidence, including possible long-term links to type 2 diabetes and heart disease from observational studies, was low certainty overall. It does not apply to people with pre-existing diabetes and does not set safe intake levels.",
+          "bn": "WHO-র ২০২৩ সালের নির্দেশিকা ওজন নিয়ন্ত্রণ বা রোগের ঝুঁকি কমাতে স্টিভিয়া ও এর উৎপাদসহ অ-চিনি সুইটেনার ব্যবহার না করার পরামর্শ দেয়। এটি শর্তসাপেক্ষ সুপারিশ: পর্যবেক্ষণমূলক গবেষণায় টাইপ ২ ডায়াবেটিস ও হৃদ্‌রোগের সঙ্গে সম্ভাব্য দীর্ঘমেয়াদি সম্পর্কসহ সামগ্রিক প্রমাণের নিশ্চয়তা কম। আগে থেকে ডায়াবেটিস থাকা ব্যক্তিদের ক্ষেত্রে এটি প্রযোজ্য নয়, আর এটি নিরাপদ গ্রহণমাত্রাও নির্ধারণ করে না।"
+        },
+        "sourceIds": ["who-nss-2023", "who-nss-news-2023"]
+      }
+    ],
+    "riskContext": {
+      "en": "Coming from a plant says nothing about safety; the safety assessment is what matters here, and it applies to purified glycosides. The ADI is 4 mg/kg bw/day as steviol at both EFSA and JECFA. The FDA's GRAS position covers high-purity forms only, and it does not extend to whole leaves or crude extracts.",
+      "bn": "উদ্ভিদ থেকে আসা নিরাপত্তার কোনো প্রমাণ নয়; এখানে গুরুত্বপূর্ণ হলো নিরাপত্তা মূল্যায়ন, যা পরিশোধিত গ্লাইকোসাইডের জন্য প্রযোজ্য। EFSA ও JECFA উভয়ের ADI স্টিভিয়ল হিসেবে ৪ মিলিগ্রাম/কেজি শরীরের ওজন/দিন। FDA-র GRAS অবস্থান শুধু উচ্চ-বিশুদ্ধ রূপের জন্য; পুরো পাতা বা অপরিশোধিত নির্যাস এর আওতায় নয়।"
+    },
+    "statusLabels": ["within-limits", "gras-conditions"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "In 2024 found insufficient justification to raise the ADI.", "bn": "২০২৪ সালে ADI বাড়ানোর যথেষ্ট যুক্তি পাওয়া যায়নি।" },
+        "adi": { "type": "numeric", "value": 4, "unit": "mg/kg bw/day", "note": { "en": "Expressed as steviol equivalents.", "bn": "স্টিভিয়ল সমতুল্য হিসেবে প্রকাশিত।" } },
+        "date": "2024-11",
+        "sourceId": "efsa-2024-steviol"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "Latest review found no reason to revise the ADI.", "bn": "সর্বশেষ পর্যালোচনায় ADI বদলানোর কারণ পাওয়া যায়নি।" },
+        "adi": { "type": "numeric", "value": 4, "low": 0, "unit": "mg/kg bw/day", "note": { "en": "Expressed as steviol.", "bn": "স্টিভিয়ল হিসেবে প্রকাশিত।" } },
+        "date": "2026",
+        "sourceId": "jecfa-steviol"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "FDA has not questioned GRAS conclusions for high-purity forms (95% minimum). Leaf and crude extracts are not GRAS.", "bn": "উচ্চ-বিশুদ্ধ রূপের (ন্যূনতম ৯৫%) GRAS সিদ্ধান্তে FDA আপত্তি করেনি। পাতা ও অপরিশোধিত নির্যাস GRAS নয়।" },
+        "adi": { "type": "numeric", "value": 4, "unit": "mg/kg bw/day", "note": { "en": "FDA lists JECFA's figure, as steviol equivalents.", "bn": "FDA JECFA-র সীমাই স্টিভিয়ল সমতুল্য হিসেবে উল্লেখ করেছে।" } },
+        "date": "2025",
+        "sourceId": "fda-sweeteners"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2024-steviol", "org": "EFSA", "title": "Scientific opinion on the extension of the authorisation of use of the food additive steviol glycosides (E 960a–d) and the modification of the acceptable daily intake (ADI) for steviol", "year": 2024, "url": "https://www.efsa.europa.eu/en/efsajournal/pub/9045", "kind": "regulatory" },
+      { "id": "jecfa-steviol", "org": "JECFA", "title": "Evaluations of JECFA: Steviol glycosides", "year": 2026, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/267", "kind": "regulatory" },
+      { "id": "fda-sweeteners", "org": "US FDA", "title": "Aspartame and Other Sweeteners in Food", "year": 2025, "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food", "kind": "agency-guidance" },
+      { "id": "who-nss-2023", "org": "WHO", "title": "Use of non-sugar sweeteners: WHO guideline", "year": 2023, "url": "https://www.who.int/publications/i/item/9789240073616", "kind": "agency-guidance" },
+      { "id": "who-nss-news-2023", "org": "WHO", "title": "WHO advises not to use non-sugar sweeteners for weight control in newly released guideline", "year": 2023, "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline", "kind": "agency-guidance" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "erythritol",
+    "name": { "en": "Erythritol", "bn": "ইরিথ্রিটল" },
+    "commonNames": ["meso-erythritol"],
+    "labelNames": ["erythritol", "e968", "e 968", "ins 968", "ইরিথ্রিটল"],
+    "chemicalName": "1,2,3,4-butanetetrol",
+    "eNumber": "E968",
+    "formula": "C4H10O4",
+    "category": "natural-sweeteners",
+    "alsoIn": ["humectants"],
+    "origin": "fermentation",
+    "originNote": {
+      "en": "Made using microorganisms, and the body also forms small amounts on its own. Neither fact is evidence of safety or harm.",
+      "bn": "অণুজীব ব্যবহার করে তৈরি হয়, আর শরীরও নিজে সামান্য পরিমাণে এটি তৈরি করে। এর কোনোটিই নিরাপত্তা বা ক্ষতির প্রমাণ নয়।"
+    },
+    "applications": ["tabletop-sweeteners", "soft-drinks", "chocolate-confectionery", "bread-bakery", "frozen-desserts"],
+    "summary": {
+      "en": "A sugar alcohol with a laxative effect at high intakes; EFSA set an ADI of 0.5 g/kg in 2023 and found observational heart-risk links not proven causal.",
+      "bn": "বেশি খেলে জোলাপের প্রভাবযুক্ত সুগার অ্যালকোহল; ২০২৩ সালে EFSA ০.৫ গ্রাম/কেজি ADI ঠিক করে এবং হৃদ্‌রোগের পর্যবেক্ষণমূলক সম্পর্ককে কার্যকারণ প্রমাণিত বলেনি।"
+    },
+    "whatIs": {
+      "en": "Erythritol is a sugar alcohol (polyol) produced with the help of microorganisms. It is absorbed by the body and passed out largely unchanged in urine. The body also makes small amounts itself.",
+      "bn": "ইরিথ্রিটল হলো অণুজীবের সাহায্যে তৈরি একটি সুগার অ্যালকোহল বা পলিওল। শরীর এটি শোষণ করে এবং বেশিরভাগই অপরিবর্তিত অবস্থায় প্রস্রাবের সঙ্গে বের করে দেয়। শরীরও নিজে সামান্য পরিমাণে এটি তৈরি করে।"
+    },
+    "whyUsed": {
+      "en": "It adds bulk and sweetness in reduced-sugar foods and also serves as a humectant and carrier.",
+      "bn": "কম-চিনির খাবারে এটি আয়তন ও মিষ্টতা যোগ করে, আর আর্দ্রতা ধরে রাখা ও বাহক হিসেবেও কাজ করে।"
+    },
+    "howItWorks": {
+      "en": "It tastes sweet on the tongue. Because large amounts can upset digestion, EFSA based its limit on the dose that causes diarrhoea.",
+      "bn": "জিভে এটি মিষ্টি লাগে। বেশি পরিমাণ হজমে সমস্যা করতে পারে, তাই EFSA ডায়রিয়া ঘটানো মাত্রার ভিত্তিতে এর সীমা ঠিক করেছে।"
+    },
+    "properties": [
+      { "en": "polyol, not counted as a non-sugar sweetener by WHO", "bn": "পলিওল; WHO এটিকে অ-চিনি সুইটেনার ধরে না" },
+      { "en": "EU warning applies above 10% in foods", "bn": "খাবারে ১০%-এর বেশি হলে ইউরোপে সতর্কবাণী প্রযোজ্য" }
+    ],
+    "benefits": [
+      { "kind": "sugar-reduction", "text": { "en": "Replaces some sugar and adds sweetness and bulk.", "bn": "কিছু চিনির জায়গা নিয়ে মিষ্টতা ও আয়তন যোগ করে।" } },
+      { "kind": "texture", "text": { "en": "Helps hold moisture and acts as a carrier.", "bn": "আর্দ্রতা ধরে রাখতে সাহায্য করে এবং বাহক হিসেবে কাজ করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "dose-dependent",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "In human intervention studies, erythritol can cause diarrhoea at high doses. EFSA set its ADI from the lowest no-effect dose for diarrhoea, 0.5 g/kg body weight. It rejected a request to remove erythritol from the EU warning that excessive consumption may produce laxative effects, which applies to foods with more than 10% erythritol.",
+          "bn": "মানুষের ওপর পরীক্ষায় দেখা গেছে, বেশি মাত্রায় ইরিথ্রিটল ডায়রিয়া ঘটাতে পারে। EFSA ডায়রিয়ার প্রভাবহীন সর্বনিম্ন মাত্রা, ০.৫ গ্রাম/কেজি শরীরের ওজন, থেকে ADI ঠিক করেছে। ১০%-এর বেশি ইরিথ্রিটলযুক্ত খাবারে প্রযোজ্য ইউরোপের জোলাপ-প্রভাবের সতর্কবাণী থেকে ছাড় দেওয়ার আবেদনও EFSA নাকচ করেছে।"
+        },
+        "sourceIds": ["efsa-2023-erythritol", "efsa-sweeteners-update-2026"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "An observational study (Witkowski, 2023) linked higher blood erythritol to major cardiovascular events over 3 years in 1,157 patients, with validation cohorts of 2,149 and 833, in people already at high cardiovascular risk. It did not measure erythritol in the diet, and the body makes erythritol too. Platelet work was in the lab and in mice, with only 8 volunteers in a pilot. EFSA concluded a causal link has not been demonstrated and that blood levels may be a marker of metabolic disturbance.",
+          "bn": "একটি পর্যবেক্ষণমূলক গবেষণায় (উইটকোস্কি, ২০২৩) ১,১৫৭ জন রোগী এবং ২,১৪৯ ও ৮৩৩ জনের যাচাই-দলে, যাঁরা আগে থেকেই উচ্চ হৃদ্‌ঝুঁকিতে ছিলেন, রক্তে বেশি ইরিথ্রিটলের সঙ্গে ৩ বছরে বড় হৃদ্‌ঘটনার সম্পর্ক পাওয়া যায়। খাবার থেকে কতটা এসেছে তা মাপা হয়নি, আর শরীরও ইরিথ্রিটল তৈরি করে। প্লেটলেট পরীক্ষা হয়েছে গবেষণাগারে ও ইঁদুরে, পাইলট গবেষণায় ছিলেন মাত্র ৮ জন। EFSA-র সিদ্ধান্ত, কার্যকারণ সম্পর্ক প্রমাণিত হয়নি, আর রক্তের মাত্রা বিপাকীয় সমস্যার সূচক হতে পারে।"
+        },
+        "sourceIds": ["witkowski-2023", "pafili-2023", "efsa-epi-2024", "efsa-2023-erythritol"]
+      }
+    ],
+    "riskContext": {
+      "en": "The established effect is digestive and depends on dose. EFSA's 2023 intake estimates were above the ADI, meaning people with high intake could be affected, but it called them overestimates and in 2026 asked for better use data to refine them, covering edible ices, fine bakery wares and flavoured drinks. On heart risk, EFSA found no demonstrated causal link and said more research could clarify the association. JECFA, assessing it in 1999, did not set a number.",
+      "bn": "প্রতিষ্ঠিত প্রভাবটি হজম-সংক্রান্ত এবং মাত্রানির্ভর। ২০২৩ সালে EFSA-র গ্রহণের হিসাব ADI-র ওপরে ছিল, অর্থাৎ বেশি গ্রহণকারীরা প্রভাবিত হতে পারেন, তবে EFSA এগুলোকে অতিমূল্যায়ন বলেছে এবং ২০২৬ সালে আইসক্রিম-জাতীয় খাবার, ফাইন বেকারি পণ্য ও স্বাদযুক্ত পানীয়ের ব্যবহারের তথ্য চেয়েছে। হৃদ্‌ঝুঁকি নিয়ে EFSA কার্যকারণ সম্পর্ক পায়নি এবং বলেছে, আরও গবেষণা এই সম্পর্ক স্পষ্ট করতে পারে। ১৯৯৯ সালের মূল্যায়নে JECFA কোনো সংখ্যা ঠিক করেনি।"
+    },
+    "statusLabels": ["within-limits", "known-adverse", "evidence-developing", "gras-conditions"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluated in 2023; numerical ADI set. Exposure refinement in progress in 2026.", "bn": "২০২৩ সালে পুনর্মূল্যায়িত; সংখ্যাগত ADI নির্ধারিত। ২০২৬ সালে গ্রহণের হিসাব পরিমার্জন চলছে।" },
+        "adi": { "type": "numeric", "value": 500, "unit": "mg/kg bw/day", "note": { "en": "0.5 g/kg bw/day, set to protect against the laxative effect.", "bn": "০.৫ গ্রাম/কেজি শরীরের ওজন/দিন, জোলাপের প্রভাব থেকে সুরক্ষার জন্য নির্ধারিত।" } },
+        "date": "2023-12",
+        "sourceId": "efsa-2023-erythritol"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI not specified.", "bn": "ADI নির্দিষ্ট করা হয়নি।" },
+        "adi": { "type": "not-specified" },
+        "date": "1999",
+        "sourceId": "jecfa-erythritol"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "GRAS notice GRN 789: FDA had no questions about the notifier's GRAS conclusion.", "bn": "GRAS নোটিস জিআরএন ৭৮৯: নোটিসদাতার GRAS সিদ্ধান্ত নিয়ে FDA-র কোনো প্রশ্ন ছিল না।" },
+        "conditions": { "en": "A no-questions letter is not an FDA approval or affirmation of GRAS status.", "bn": "কোনো প্রশ্ন নেই জানানো চিঠি FDA-র অনুমোদন বা GRAS স্বীকৃতি নয়।" },
+        "date": "2019-02",
+        "sourceId": "fda-grn-789"
+      }
+    ],
+    "flags": ["polyol-laxative"],
+    "references": [
+      { "id": "efsa-2023-erythritol", "org": "EFSA", "title": "Re-evaluation of erythritol (E 968) as a food additive", "year": 2023, "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10731997/", "kind": "regulatory" },
+      { "id": "efsa-sweeteners-update-2026", "org": "EFSA", "title": "Update on the re-evaluation of sweeteners (67th FAF Plenary, 1-2 July 2026)", "year": 2026, "url": "https://www.efsa.europa.eu/sites/default/files/2026-07/Annex%20II_10.1%20Update%20on%20the%20re-evaluation%20of%20sweeteners_%201-2%20July%202026.pdf", "kind": "agency-guidance" },
+      { "id": "efsa-epi-2024", "org": "EFSA", "title": "Integrating epidemiological evidence in risk assessment: the case of erythritol", "year": 2024, "url": "https://www.efsa.europa.eu/sites/default/files/2024-03/02b-integrating-epidemiological-evidence-risk-assessment-case-of-erythritol.pdf", "kind": "agency-guidance" },
+      { "id": "witkowski-2023", "org": "Nature Medicine", "title": "The artificial sweetener erythritol and cardiovascular event risk", "year": 2023, "url": "https://pubmed.ncbi.nlm.nih.gov/36849732/", "kind": "peer-reviewed" },
+      { "id": "pafili-2023", "org": "Signal Transduction and Targeted Therapy", "title": "The sugar-free paradox: cardiometabolic consequences of erythritol", "year": 2023, "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10275890/", "kind": "peer-reviewed" },
+      { "id": "jecfa-erythritol", "org": "JECFA", "title": "JECFA Evaluations: Erythritol", "year": 1999, "url": "https://www.inchem.org/documents/jecfa/jeceval/jec_698.htm", "kind": "regulatory" },
+      { "id": "fda-grn-789", "org": "US FDA", "title": "Agency Response Letter: GRAS Notice No. GRN 000789", "year": 2019, "url": "https://www.fda.gov/media/121983/download", "kind": "regulatory" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09", "notes": "INS number not stated on the JECFA pages read, so the ins field is omitted. No newer EFSA opinion than 2023 was found; EFSA's July 2026 plenary update lists only follow-up exposure work." }
+  },
+  {
+    "id": "xylitol",
+    "name": { "en": "Xylitol", "bn": "জাইলিটল" },
+    "commonNames": [],
+    "labelNames": ["xylitol", "e967", "e 967", "ins 967", "জাইলিটল"],
+    "eNumber": "E967",
+    "ins": "967",
+    "formula": "C5H12O5",
+    "category": "natural-sweeteners",
+    "alsoIn": ["humectants"],
+    "origin": "natural-derived",
+    "originNote": {
+      "en": "A polyol found in nature and also made industrially. Being natural is not evidence of safety or harm, and the body forms some xylitol itself.",
+      "bn": "প্রকৃতিতে পাওয়া যায় এমন পলিওল, শিল্পেও তৈরি হয়। প্রাকৃতিক হওয়া নিরাপত্তা বা ক্ষতির প্রমাণ নয়, আর শরীরও কিছু জাইলিটল তৈরি করে।"
+    },
+    "applications": ["chocolate-confectionery", "tabletop-sweeteners", "supplements"],
+    "summary": {
+      "en": "A sugar alcohol with a laxative effect at high intakes; EFSA's re-evaluation is under way and a 2024 study linked blood levels to heart events, without proving cause.",
+      "bn": "বেশি খেলে জোলাপের প্রভাবযুক্ত সুগার অ্যালকোহল; EFSA-র পুনর্মূল্যায়ন চলছে, আর ২০২৪ সালের গবেষণা রক্তের মাত্রার সঙ্গে হৃদ্‌ঘটনার সম্পর্ক দেখালেও কারণ প্রমাণ করেনি।"
+    },
+    "whatIs": {
+      "en": "Xylitol is a sugar alcohol (polyol) used to sweeten foods and to hold moisture. The WHO sugar-substitute guideline does not cover polyols like xylitol because they contain calories.",
+      "bn": "জাইলিটল একটি সুগার অ্যালকোহল বা পলিওল, যা খাবার মিষ্টি করতে ও আর্দ্রতা ধরে রাখতে ব্যবহৃত হয়। পলিওলে ক্যালরি থাকায় WHO-র অ-চিনি সুইটেনার নির্দেশিকা জাইলিটলের ক্ষেত্রে প্রযোজ্য নয়।"
+    },
+    "whyUsed": {
+      "en": "It provides sweetness and bulk in sugar-reduced confectionery and helps keep products moist.",
+      "bn": "কম-চিনির মিষ্টান্নে এটি মিষ্টতা ও আয়তন দেয় এবং পণ্যকে আর্দ্র রাখতে সাহায্য করে।"
+    },
+    "howItWorks": {
+      "en": "It tastes sweet on the tongue. In large amounts it can cause loose stools, which is the basis of the laxative warning.",
+      "bn": "জিভে এটি মিষ্টি লাগে। বেশি পরিমাণে পাতলা পায়খানা ঘটাতে পারে, যা জোলাপ-সতর্কবাণীর ভিত্তি।"
+    },
+    "properties": [
+      { "en": "polyol, not counted as a non-sugar sweetener by WHO", "bn": "পলিওল; WHO এটিকে অ-চিনি সুইটেনার ধরে না" },
+      { "en": "EU warning applies above 10% added polyols", "bn": "১০%-এর বেশি যোগ করা পলিওলে ইউরোপে সতর্কবাণী প্রযোজ্য" }
+    ],
+    "benefits": [
+      { "kind": "sugar-reduction", "text": { "en": "Replaces some sugar and adds sweetness and bulk.", "bn": "কিছু চিনির জায়গা নিয়ে মিষ্টতা ও আয়তন যোগ করে।" } },
+      { "kind": "texture", "text": { "en": "Helps keep products moist.", "bn": "পণ্যকে আর্দ্র রাখতে সাহায্য করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "dose-dependent",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "Human studies reported diarrhoea at doses above 50 g a day, according to EFSA's protocol summary of earlier reviews. EU labelling law requires foods with more than 10% added polyols to say that excessive consumption may produce laxative effects.",
+          "bn": "EFSA-র প্রোটোকলে আগের পর্যালোচনার সারাংশ অনুযায়ী, মানুষের ওপর গবেষণায় দিনে ৫০ গ্রামের বেশি মাত্রায় ডায়রিয়া দেখা গেছে। ১০%-এর বেশি যোগ করা পলিওলযুক্ত খাবারে অতিরিক্ত খেলে জোলাপের প্রভাব হতে পারে বলে লেখা ইউরোপের লেবেল আইনে বাধ্যতামূলক।"
+        },
+        "sourceIds": ["efsa-protocol-2019", "eu-1169-2011"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "A 2024 study linked higher blood xylitol to major cardiovascular events over 3 years and reported more platelet activity in lab work and in 10 volunteers given xylitol. Published critics note that observational studies show association, not cause, that xylitol measured in patients may come from the body's own production, and that the volunteer study had no placebo group. Long-term studies of xylitol in the diet would be needed to settle this.",
+          "bn": "২০২৪ সালের একটি গবেষণায় রক্তে বেশি জাইলিটলের সঙ্গে ৩ বছরে বড় হৃদ্‌ঘটনার সম্পর্ক এবং গবেষণাগারে ও জাইলিটল দেওয়া ১০ জন স্বেচ্ছাসেবীর ক্ষেত্রে প্লেটলেটের বেশি সক্রিয়তা দেখা যায়। প্রকাশিত সমালোচনায় বলা হয়েছে, পর্যবেক্ষণমূলক গবেষণা সম্পর্ক দেখায়, কারণ নয়; রোগীদের রক্তের জাইলিটল শরীরের নিজের উৎপাদন থেকে আসতে পারে; আর স্বেচ্ছাসেবী গবেষণায় প্লাসিবো দল ছিল না। বিষয়টি নিষ্পত্তি করতে খাদ্যের জাইলিটল নিয়ে দীর্ঘমেয়াদি গবেষণা দরকার।"
+        },
+        "sourceIds": ["witkowski-2024", "wolnerhanssen-2025"]
+      }
+    ],
+    "riskContext": {
+      "en": "The well-established effect is digestive and depends on how much is eaten at once. JECFA and the EU's former food committee did not need a numerical limit. The heart-risk question is new and unresolved: it comes from blood measurements, not diet records, and EFSA's re-evaluation of xylitol had not been completed at the time of checking.",
+      "bn": "প্রতিষ্ঠিত প্রভাবটি হজম-সংক্রান্ত এবং একসঙ্গে কতটা খাওয়া হলো তার ওপর নির্ভর করে। JECFA ও ইউরোপের আগের খাদ্য কমিটি সংখ্যাগত সীমার প্রয়োজন মনে করেনি। হৃদ্‌ঝুঁকির প্রশ্নটি নতুন ও অমীমাংসিত: এটি এসেছে রক্তের পরিমাপ থেকে, খাদ্যের রেকর্ড থেকে নয়, আর যাচাইয়ের সময় EFSA-র জাইলিটল পুনর্মূল্যায়ন শেষ হয়নি।"
+    },
+    "statusLabels": ["approved-specific", "known-adverse", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI not specified.", "bn": "ADI নির্দিষ্ট করা হয়নি।" },
+        "adi": { "type": "not-specified" },
+        "date": "1983",
+        "sourceId": "jecfa-xylitol"
+      },
+      {
+        "authority": "Scientific Committee on Food",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Listed by EFSA as evaluated with ADI not specified.", "bn": "EFSA-র তালিকায় ADI নির্দিষ্ট না করে মূল্যায়িত হিসেবে উল্লিখিত।" },
+        "adi": { "type": "not-specified" },
+        "date": "1984",
+        "sourceId": "efsa-protocol-2019"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluation ongoing as of October 2026, together with other polyols.", "bn": "অক্টোবর ২০২৬ পর্যন্ত অন্য পলিওলের সঙ্গে পুনর্মূল্যায়ন চলছে।" },
+        "date": "2026-10",
+        "sourceId": "efsa-sweeteners-topic"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Permitted in foods for special dietary uses, in the amount needed for its effect.", "bn": "বিশেষ খাদ্যপ্রয়োজনের খাবারে, প্রয়োজনীয় পরিমাণে অনুমোদিত।" },
+        "date": "2024",
+        "sourceId": "cfr-172-395"
+      }
+    ],
+    "flags": ["polyol-laxative"],
+    "references": [
+      { "id": "jecfa-xylitol", "org": "JECFA", "title": "Evaluations of JECFA: Xylitol", "year": 1983, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2620", "kind": "regulatory" },
+      { "id": "efsa-protocol-2019", "org": "EFSA", "title": "Protocol on hazard identification and characterisation of sweeteners", "year": 2019, "url": "https://www.efsa.europa.eu/sites/default/files/consultation/consultation/190705-d.pdf", "kind": "agency-guidance" },
+      { "id": "efsa-sweeteners-topic", "org": "EFSA", "title": "Sweeteners (topic page)", "year": 2026, "url": "https://www.efsa.europa.eu/en/topics/topic/sweeteners", "kind": "agency-guidance" },
+      { "id": "cfr-172-395", "org": "US Code of Federal Regulations", "title": "21 CFR 172.395 Xylitol", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec172-395.xml", "kind": "regulatory" },
+      { "id": "eu-1169-2011", "org": "European Union", "title": "Regulation (EU) No 1169/2011 on the provision of food information to consumers", "year": 2011, "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32011R1169", "kind": "regulatory" },
+      { "id": "witkowski-2024", "org": "European Heart Journal", "title": "Xylitol is prothrombotic and associated with cardiovascular risk", "year": 2024, "url": "https://pubmed.ncbi.nlm.nih.gov/38842092/", "kind": "peer-reviewed" },
+      { "id": "wolnerhanssen-2025", "org": "European Heart Journal", "title": "Xylitol exposure and cardiovascular risk", "year": 2025, "url": "https://academic.oup.com/eurheartj/article/46/3/328/7905371", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09", "notes": "Witkowski 2024 read through its abstract and summaries, not the full text, so effect sizes are left out." }
+  },
+  {
+    "id": "thaumatin",
+    "name": { "en": "Thaumatin", "bn": "থমাটিন" },
+    "commonNames": ["thaumatin I", "thaumatin II"],
+    "labelNames": ["thaumatin", "e957", "e 957", "ins 957", "থমাটিন"],
+    "eNumber": "E957",
+    "ins": "957",
+    "category": "natural-sweeteners",
+    "alsoIn": ["flavor-enhancers"],
+    "origin": "natural",
+    "originNote": {
+      "en": "A sweet protein extracted from a plant. Plant origin is not itself evidence of safety; the safety conclusion comes from the studies and intake data.",
+      "bn": "উদ্ভিদ থেকে নেওয়া একটি মিষ্টি প্রোটিন। উদ্ভিদজাত হওয়া নিজে থেকে নিরাপত্তার প্রমাণ নয়; সিদ্ধান্ত আসে গবেষণা ও গ্রহণের তথ্য থেকে।"
+    },
+    "applications": ["soft-drinks", "chocolate-confectionery", "dairy", "tabletop-sweeteners", "supplements"],
+    "summary": {
+      "en": "A sweet plant protein used in very small amounts; EFSA and JECFA saw no need for a numerical ADI, and intakes are low compared with the doses studied.",
+      "bn": "খুব অল্প পরিমাণে ব্যবহৃত উদ্ভিদজাত মিষ্টি প্রোটিন; EFSA ও JECFA সংখ্যাগত ADI-র প্রয়োজন দেখেনি, আর গ্রহণমাত্রা গবেষণার ডোজের তুলনায় কম।"
+    },
+    "whatIs": {
+      "en": "Thaumatin is a protein with a very sweet taste, extracted from a plant. The US FDA puts it at 2,000 to 3,000 times sweeter than table sugar.",
+      "bn": "থমাটিন হলো উদ্ভিদ থেকে নেওয়া খুবই মিষ্টি স্বাদের একটি প্রোটিন। মার্কিন FDA-র হিসাবে এটি সাধারণ চিনির চেয়ে ২,০০০ থেকে ৩,০০০ গুণ মিষ্টি।"
+    },
+    "whyUsed": {
+      "en": "It is used as a sweetener and to modify flavour, usually in tiny amounts.",
+      "bn": "সাধারণত খুব অল্প পরিমাণে এটি সুইটেনার ও স্বাদ পরিবর্তনকারী হিসেবে ব্যবহৃত হয়।"
+    },
+    "howItWorks": {
+      "en": "As a protein it activates the sweet taste receptors on the tongue. JECFA notes it adds an insignificant amount to the normal protein intake.",
+      "bn": "প্রোটিন হিসেবে এটি জিভের মিষ্টি স্বাদের গ্রাহককে সক্রিয় করে। JECFA জানিয়েছে, স্বাভাবিক প্রোটিন গ্রহণে এর অবদান নগণ্য।"
+    },
+    "properties": [
+      { "en": "2,000 to 3,000 times sweeter than sugar (FDA)", "bn": "চিনির চেয়ে ২,০০০ থেকে ৩,০০০ গুণ মিষ্টি (FDA)" },
+      { "en": "a protein", "bn": "একটি প্রোটিন" }
+    ],
+    "benefits": [
+      { "kind": "sugar-reduction", "text": { "en": "Provides sweetness with less added sugar.", "bn": "কম চিনিতেই মিষ্টতা দেয়।" } },
+      { "kind": "taste", "text": { "en": "Used to modify flavour.", "bn": "স্বাদ পরিবর্তনে ব্যবহৃত হয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "established",
+        "text": {
+          "en": "Few concerns have been identified. EFSA's 2021 re-evaluation found no adverse effects at the highest doses in sub-chronic rat and dog studies and a prenatal developmental study, and no genotoxicity concern. Its conclusion rests on a margin of safety of 5,417 from these shorter studies, and it asked for tighter purity specifications.",
+          "bn": "উদ্বেগ খুব কমই পাওয়া গেছে। ২০২১ সালের পুনর্মূল্যায়নে EFSA ইঁদুর ও কুকুরের স্বল্পমেয়াদি গবেষণা এবং গর্ভকালীন বিকাশের গবেষণায় সর্বোচ্চ মাত্রাতেও ক্ষতিকর প্রভাব পায়নি, জিনোটক্সিসিটির উদ্বেগও পায়নি। সিদ্ধান্তের ভিত্তি এই গবেষণাগুলো থেকে পাওয়া ৫,৪১৭ গুণ নিরাপত্তা-ব্যবধান, এবং EFSA বিশুদ্ধতার স্পেসিফিকেশন আরও কড়া করতে বলেছে।"
+        },
+        "sourceIds": ["efsa-2021-thaumatin"]
+      }
+    ],
+    "riskContext": {
+      "en": "Because so little is used, intakes are low compared with the doses tested. JECFA estimated high exposure in children at up to 0.33 mg/kg bw/day and concluded this was not a safety concern. Neither EFSA nor JECFA considered a numerical limit necessary.",
+      "bn": "এত কম ব্যবহৃত হওয়ায় গ্রহণমাত্রা পরীক্ষিত ডোজের তুলনায় কম। JECFA শিশুদের উচ্চ গ্রহণ ০.৩৩ মিলিগ্রাম/কেজি শরীরের ওজন/দিন পর্যন্ত ধরে একে নিরাপত্তা-উদ্বেগ মনে করেনি। EFSA বা JECFA কেউই সংখ্যাগত সীমা প্রয়োজন মনে করেনি।"
+    },
+    "statusLabels": ["within-limits", "gras-conditions"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluated in 2021; no need for a numerical ADI.", "bn": "২০২১ সালে পুনর্মূল্যায়িত; সংখ্যাগত ADI-র প্রয়োজন নেই।" },
+        "adi": { "type": "not-specified" },
+        "date": "2021-11",
+        "sourceId": "efsa-2021-thaumatin"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "Group ADI not specified, covering thaumatin and thaumatin II.", "bn": "থমাটিন ও থমাটিন II-র জন্য সম্মিলিত ADI নির্দিষ্ট করা হয়নি।" },
+        "adi": { "type": "not-specified", "note": { "en": "Group ADI including thaumatin and thaumatin II.", "bn": "থমাটিন ও থমাটিন II-সহ সম্মিলিত ADI।" } },
+        "date": "2025",
+        "sourceId": "jecfa-thaumatin"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Listed by FDA as GRAS, with no ADI specified.", "bn": "FDA-র তালিকায় GRAS, কোনো ADI উল্লেখ নেই।" },
+        "date": "2025",
+        "sourceId": "fda-sweeteners"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2021-thaumatin", "org": "EFSA", "title": "Re-evaluation of thaumatin (E 957) as food additive", "year": 2021, "url": "https://efsa.europa.eu/en/efsajournal/pub/6884", "kind": "regulatory" },
+      { "id": "jecfa-thaumatin", "org": "JECFA", "title": "Evaluations of JECFA: Thaumatin", "year": 2025, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4169", "kind": "regulatory" },
+      { "id": "fda-sweeteners", "org": "US FDA", "title": "Aspartame and Other Sweeteners in Food", "year": 2025, "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food", "kind": "agency-guidance" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "monk-fruit-extract",
+    "name": { "en": "Monk fruit extract (mogrosides)", "bn": "মঙ্ক ফ্রুট নির্যাস (মোগ্রোসাইড)" },
+    "commonNames": ["luo han guo extract", "mogrosides", "Siraitia grosvenorii extract"],
+    "labelNames": ["monk fruit extract", "monk fruit", "luo han guo extract", "luo han guo", "mogrosides", "mogroside v", "siraitia grosvenorii extract", "মঙ্ক ফ্রুট নির্যাস"],
+    "category": "natural-sweeteners",
+    "origin": "natural",
+    "originNote": {
+      "en": "Extracted from the fruit of Siraitia grosvenorii. Natural origin is not evidence of safety: EFSA reviewed one extract and could not conclude on its safety.",
+      "bn": "সিরাইটিয়া গ্রসভেনোরি গাছের ফল থেকে নেওয়া। প্রাকৃতিক উৎস নিরাপত্তার প্রমাণ নয়: EFSA একটি নির্যাস পর্যালোচনা করে এর নিরাপত্তা নিয়ে সিদ্ধান্তে পৌঁছাতে পারেনি।"
+    },
+    "applications": ["tabletop-sweeteners", "soft-drinks", "dairy"],
+    "summary": {
+      "en": "A fruit extract sweetened by mogrosides; US GRAS notices and some national approvals exist, while EFSA could not conclude on its safety as a sweetener in 2019.",
+      "bn": "মোগ্রোসাইডে মিষ্টি ফলের নির্যাস; সংস্থাভেদে অবস্থান আলাদা: যুক্তরাষ্ট্রে GRAS নোটিস ও কিছু দেশে অনুমোদন আছে, তবে ২০১৯ সালে EFSA সুইটেনার ব্যবহারে সিদ্ধান্তে পৌঁছাতে পারেনি।"
+    },
+    "whatIs": {
+      "en": "Monk fruit extract comes from the Siraitia grosvenorii fruit, and its sweetness comes mainly from compounds called mogrosides. The US FDA puts it at 100 to 250 times sweeter than table sugar.",
+      "bn": "মঙ্ক ফ্রুট নির্যাস আসে সিরাইটিয়া গ্রসভেনোরি ফল থেকে, আর এর মিষ্টতার মূল উৎস মোগ্রোসাইড নামের যৌগ। মার্কিন FDA-র হিসাবে এটি সাধারণ চিনির চেয়ে ১০০ থেকে ২৫০ গুণ মিষ্টি।"
+    },
+    "whyUsed": {
+      "en": "It is used as a sweetener in reduced-sugar products in countries where its use is allowed.",
+      "bn": "যেসব দেশে অনুমোদিত, সেখানে কম-চিনির পণ্যে এটি সুইটেনার হিসেবে ব্যবহৃত হয়।"
+    },
+    "howItWorks": {
+      "en": "Its mogrosides activate the tongue's sweet taste receptors, giving sweetness in small amounts.",
+      "bn": "এর মোগ্রোসাইড জিভের মিষ্টি স্বাদের গ্রাহককে সক্রিয় করে, ফলে অল্প পরিমাণেই মিষ্টতা পাওয়া যায়।"
+    },
+    "properties": [
+      { "en": "100 to 250 times sweeter than sugar (FDA)", "bn": "চিনির চেয়ে ১০০ থেকে ২৫০ গুণ মিষ্টি (FDA)" },
+      { "en": "regulatory status differs by country", "bn": "দেশভেদে নিয়ন্ত্রক অবস্থান আলাদা" }
+    ],
+    "benefits": [
+      { "kind": "sugar-reduction", "text": { "en": "Provides sweetness with less added sugar where permitted.", "bn": "যেখানে অনুমোদিত, সেখানে কম চিনিতেই মিষ্টতা দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA's 2019 opinion found the toxicity data on the assessed extract insufficient. In a 90-day rat study of a 52% mogroside V extract, the testes were smaller at the high dose, with tubular changes whose adversity could not be ruled out. EFSA said a longer study was needed. FSANZ, reviewing its own data for its 2018 approval, found no identifiable hazard, so the authorities differ.",
+          "bn": "২০১৯ সালের মতামতে EFSA মূল্যায়িত নির্যাসের বিষক্রিয়ার তথ্য অপর্যাপ্ত পেয়েছে। ৫২% মোগ্রোসাইড ভি নির্যাসে ইঁদুরের ৯০ দিনের গবেষণায় উচ্চ মাত্রায় শুক্রাশয়ের ওজন কমে এবং টিউবুলের পরিবর্তন দেখা যায়, যার ক্ষতিকর প্রভাব উড়িয়ে দেওয়া যায়নি। EFSA দীর্ঘতর গবেষণা দরকার বলেছে। অন্যদিকে FSANZ ২০১৮ সালের অনুমোদনের সময় কোনো শনাক্তযোগ্য বিপদ পায়নি, তাই সংস্থাগুলোর অবস্থান ভিন্ন।"
+        },
+        "sourceIds": ["efsa-2019-monk", "fsanz-a1129-sd1"]
+      }
+    ],
+    "riskContext": {
+      "en": "This is a data gap rather than a demonstrated risk at normal intake: EFSA could not conclude either way on the extract it assessed. Natural origin does not settle the question, and neither does any single agency's view. Status depends on the extract and country, so a product allowed in one country may not be allowed in another.",
+      "bn": "এটি স্বাভাবিক গ্রহণে প্রমাণিত ঝুঁকি নয়, বরং তথ্যের ঘাটতি: EFSA মূল্যায়িত নির্যাস নিয়ে কোনো দিকেই সিদ্ধান্ত দিতে পারেনি। প্রাকৃতিক উৎস বা কোনো একটি সংস্থার মত এই প্রশ্নের মীমাংসা করে না। অবস্থান নির্ভর করে নির্যাস ও দেশের ওপর, তাই এক দেশে অনুমোদিত পণ্য অন্য দেশে অনুমোদিত নাও হতে পারে।"
+    },
+    "statusLabels": ["approved-specific", "gras-conditions", "restricted-some", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Could not conclude on safety as a food additive; data insufficient.", "bn": "তথ্য অপর্যাপ্ত হওয়ায় খাদ্য সংযোজন হিসেবে নিরাপত্তা নিয়ে সিদ্ধান্তে পৌঁছাতে পারেনি।" },
+        "adi": { "type": "none-established" },
+        "date": "2019-12",
+        "sourceId": "efsa-2019-monk"
+      },
+      {
+        "authority": "European Commission",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "A 2025 review reports one aqueous extract authorised under Regulation (EU) 2024/2345, with highly purified mogrosides remaining unapproved; the regulation's text could not be opened.", "bn": "২০২৫ সালের এক পর্যালোচনায় বলা হয়েছে, নিয়ন্ত্রণ (EU) ২০২৪/২৩৪৫ অনুযায়ী একটি জলীয় নির্যাস অনুমোদিত, আর উচ্চ-পরিশোধিত মোগ্রোসাইড অননুমোদিত; মূল বিধির পাঠ খোলা যায়নি।" },
+        "date": "2024",
+        "sourceId": "review-2025-eu-monk"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "FDA has not questioned GRAS conclusions for monk fruit extract; no ADI specified.", "bn": "মঙ্ক ফ্রুট নির্যাসের GRAS সিদ্ধান্তে FDA আপত্তি করেনি; কোনো ADI উল্লেখ নেই।" },
+        "date": "2025",
+        "sourceId": "fda-sweeteners"
+      },
+      {
+        "authority": "FSANZ",
+        "jurisdiction": { "en": "Australia and New Zealand", "bn": "অস্ট্রেলিয়া ও নিউজিল্যান্ড" },
+        "status": { "en": "Application A1129 approved as an intense sweetener.", "bn": "তীব্র সুইটেনার হিসেবে ব্যবহারের আবেদন অনুমোদিত।" },
+        "adi": { "type": "not-specified", "note": { "en": "FSANZ concluded an ADI not specified was appropriate.", "bn": "FSANZ ADI নির্দিষ্ট না করাকেই উপযুক্ত মনে করেছে।" } },
+        "date": "2018-11",
+        "sourceId": "fsanz-a1129-sd1"
+      },
+      {
+        "authority": "Health Canada",
+        "jurisdiction": { "en": "Canada", "bn": "কানাডা" },
+        "status": { "en": "Permitted as a sweetener in table-top sweeteners since December 2013.", "bn": "ডিসেম্বর ২০১৩ থেকে টেবিল সুইটেনারে অনুমোদিত।" },
+        "date": "2013-12",
+        "sourceId": "health-canada-monk"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2019-monk", "org": "EFSA", "title": "Safety of use of Monk fruit extract as a food additive in different food categories", "year": 2019, "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7008860/", "kind": "regulatory" },
+      { "id": "review-2025-eu-monk", "org": "Foods (MDPI)", "title": "Why Does Monk Fruit Extract Remain Only Partially Approved in the EU? Regulatory Barriers and Policy Implications for Food Innovation", "year": 2025, "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12386098/", "kind": "peer-reviewed" },
+      { "id": "fda-sweeteners", "org": "US FDA", "title": "Aspartame and Other Sweeteners in Food", "year": 2025, "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food", "kind": "agency-guidance" },
+      { "id": "fsanz-a1129-sd1", "org": "FSANZ", "title": "Application A1129 Monk fruit extract as a food additive: SD1 at approval", "year": 2018, "url": "https://www.foodstandards.gov.au/sites/default/files/food-standards-code/applications/Documents/A1129%20SD1%20at%20approval.pdf", "kind": "regulatory" },
+      { "id": "health-canada-monk", "org": "Health Canada", "title": "Notice of Modification to the List of Permitted Sweeteners to Enable the Use of Monk Fruit Extract (Luo Han Guo) as a Sweetener in Table-Top Sweeteners", "year": 2013, "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/public-involvement-partnerships/modification-list-permitted-sweeteners-use-monk-fruit-extract-sweetener-table-top-sweeteners.html", "kind": "regulatory" }
+    ],
+    "verification": { "status": "partial", "checkedOn": "2026-11-09", "notes": "EU status not confirmed from primary text: Regulation (EU) 2024/2345 and the 2024 EFSA opinion on an aqueous extract could not be opened. The authorisation and the unapproved status of purified mogrosides rest on a 2025 review read only as a search excerpt. The FSANZ ADI-not-specified finding was read as a search excerpt of its supporting document. No E-number was found. No JECFA evaluation was located." }
+  },
+  {
+    "id": "high-fructose-corn-syrup",
+    "name": { "en": "High-fructose corn syrup", "bn": "হাই-ফ্রুক্টোজ কর্ন সিরাপ" },
+    "commonNames": ["HFCS", "glucose-fructose syrup", "isoglucose"],
+    "labelNames": ["high-fructose corn syrup", "high fructose corn syrup", "hfcs", "hfcs 42", "hfcs 55", "glucose-fructose syrup", "fructose-glucose syrup", "isoglucose", "হাই-ফ্রুক্টোজ কর্ন সিরাপ"],
+    "category": "natural-sweeteners",
+    "origin": "natural-derived",
+    "originNote": {
+      "en": "A food ingredient, not a food additive, made from corn starch using enzymes. Coming from corn says nothing about how it affects health.",
+      "bn": "এটি খাদ্য উপাদান, খাদ্য সংযোজন নয়; এনজাইম ব্যবহার করে ভুট্টার স্টার্চ থেকে তৈরি। ভুট্টা থেকে আসা স্বাস্থ্যের ওপর প্রভাব সম্পর্কে কিছু বলে না।"
+    },
+    "applications": ["soft-drinks", "bread-bakery", "sauces-condiments", "jams-spreads", "breakfast-cereals", "canned-foods", "chocolate-confectionery"],
+    "summary": {
+      "en": "A corn-based added sugar, a food ingredient rather than an additive; it has no ADI, and the FDA treats it like other added sugars.",
+      "bn": "ভুট্টা-ভিত্তিক যোগ করা চিনি, যা সংযোজন নয়, খাদ্য উপাদান; এর কোনো ADI নেই, আর FDA একে অন্যান্য যোগ করা চিনির মতোই দেখে।"
+    },
+    "whatIs": {
+      "en": "High-fructose corn syrup is a sugar syrup made from corn starch. Enzymes convert part of its glucose into fructose, giving forms with about 42 or 55 percent fructose. It is a food ingredient, not a food additive, so it has no ADI.",
+      "bn": "হাই-ফ্রুক্টোজ কর্ন সিরাপ হলো ভুট্টার স্টার্চ থেকে তৈরি চিনির সিরাপ। এনজাইম এর গ্লুকোজের একটি অংশকে ফ্রুক্টোজে বদলে দেয়, ফলে প্রায় ৪২ বা ৫৫ শতাংশ ফ্রুক্টোজযুক্ত রূপ পাওয়া যায়। এটি খাদ্য উপাদান, খাদ্য সংযোজন নয়, তাই এর কোনো ADI নেই।"
+    },
+    "whyUsed": {
+      "en": "It sweetens foods and drinks and is easy to handle as a liquid. FDA says the 42 percent form is used mainly in processed foods and the 55 percent form mainly in soft drinks.",
+      "bn": "এটি খাবার ও পানীয় মিষ্টি করে এবং তরল হওয়ায় ব্যবহার করা সহজ। FDA-র মতে ৪২ শতাংশ রূপ প্রধানত প্রক্রিয়াজাত খাবারে, ৫৫ শতাংশ রূপ প্রধানত কোমল পানীয়ে ব্যবহৃত হয়।"
+    },
+    "howItWorks": {
+      "en": "It works as a sugar: FDA says its mix of fructose and glucose is similar to table sugar, except that the two are not bonded and the syrup contains water.",
+      "bn": "এটি চিনির মতোই কাজ করে: FDA-র মতে এর ফ্রুক্টোজ ও গ্লুকোজের অনুপাত সাধারণ চিনির মতোই, তবে এ দুটি পরস্পরের সঙ্গে যুক্ত নয় এবং সিরাপে পানি থাকে।"
+    },
+    "properties": [
+      { "en": "about 42 or 55 percent fructose", "bn": "প্রায় ৪২ বা ৫৫ শতাংশ ফ্রুক্টোজ" },
+      { "en": "provides calories like other sugars", "bn": "অন্যান্য চিনির মতো ক্যালরি দেয়" }
+    ],
+    "benefits": [
+      { "kind": "taste", "text": { "en": "Adds sweetness as a liquid sugar.", "bn": "তরল চিনি হিসেবে মিষ্টতা যোগ করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "dose-dependent",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "The concern is the amount of added sugar eaten overall. WHO recommends keeping free sugars below 10% of total energy, and suggests below 5% if possible. FDA advises limiting all added sugars, including this syrup and sucrose, and says it knows of no evidence of a difference in safety between this syrup and similar nutritive sweeteners.",
+          "bn": "মূল বিষয় হলো সব মিলিয়ে কতটা যোগ করা চিনি খাওয়া হচ্ছে। WHO মুক্ত চিনিকে মোট শক্তির ১০%-এর নিচে এবং সম্ভব হলে ৫%-এর নিচে রাখার পরামর্শ দেয়। FDA এই সিরাপ ও সুক্রোজসহ সব যোগ করা চিনি সীমিত করতে বলে, আর জানায় এই সিরাপ ও একই রকম পুষ্টিকর সুইটেনারের মধ্যে নিরাপত্তায় পার্থক্যের কোনো প্রমাণ তাদের জানা নেই।"
+        },
+        "sourceIds": ["who-sugars-2015", "fda-hfcs"]
+      }
+    ],
+    "riskContext": {
+      "en": "This is ordinary sugar in syrup form, so the relevant question is total added sugar, not this ingredient alone. WHO's limit is on free sugars from all sources. An ADI does not apply because it is a food ingredient, used under good manufacturing practice.",
+      "bn": "এটি সিরাপ-রূপে সাধারণ চিনি, তাই আসল প্রশ্ন শুধু এই উপাদান নয়, মোট যোগ করা চিনি। WHO-র সীমা সব উৎসের মুক্ত চিনির জন্য। এটি উত্তম উৎপাদন-চর্চা মেনে ব্যবহৃত খাদ্য উপাদান, তাই ADI প্রযোজ্য নয়।"
+    },
+    "statusLabels": ["gras-conditions"],
+    "regulatory": [
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Listed as GRAS, with no limitation other than good manufacturing practice.", "bn": "GRAS হিসেবে তালিকাভুক্ত; উত্তম উৎপাদন-চর্চা ছাড়া অন্য সীমা নেই।" },
+        "date": "2024",
+        "sourceId": "cfr-184-1866"
+      },
+      {
+        "authority": "WHO",
+        "jurisdiction": { "en": "International guidance", "bn": "আন্তর্জাতিক নির্দেশিকা" },
+        "status": { "en": "Dietary guidance, not a food rule: free sugars below 10% of energy, below 5% if possible.", "bn": "খাদ্য-নির্দেশিকা, আইন নয়: মুক্ত চিনি শক্তির ১০%-এর নিচে, সম্ভব হলে ৫%-এর নিচে।" },
+        "date": "2015",
+        "sourceId": "who-sugars-2015"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "cfr-184-1866", "org": "US Code of Federal Regulations", "title": "21 CFR 184.1866 High fructose corn syrup", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1866.xml", "kind": "regulatory" },
+      { "id": "fda-hfcs", "org": "US FDA", "title": "High Fructose Corn Syrup Questions and Answers", "year": 2018, "url": "https://www.fda.gov/food/food-additives-petitions/high-fructose-corn-syrup-questions-and-answers", "kind": "agency-guidance" },
+      { "id": "who-sugars-2015", "org": "WHO", "title": "Guideline: sugars intake for adults and children", "year": 2015, "url": "https://iris.who.int/items/00ba199c-9435-4e0c-804c-04c95b7b261d", "kind": "agency-guidance" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  }
+]

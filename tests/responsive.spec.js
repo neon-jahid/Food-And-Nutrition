@@ -9,12 +9,12 @@ test("mobile drawer and bottom tabs navigate", async ({ page }) => {
   await page.getByRole("button", { name: "মেনু খুলুন" }).click();
   await page.getByRole("dialog", { name: "মেনু" }).getByRole("link", { name: /ঔষধি গাছ/ }).click();
   await expect(page).toHaveURL(/\/bn\/plants$/);
-  await page.getByRole("navigation", { name: "দ্রুত নেভিগেশন" }).getByRole("link", { name: "ব্লগ" }).click();
-  await expect(page).toHaveURL(/\/bn\/blog$/);
+  await page.getByRole("navigation", { name: "দ্রুত নেভিগেশন" }).getByRole("link", { name: "ফুডস্কোপ" }).click();
+  await expect(page).toHaveURL(/\/bn\/ingredients$/);
   w.assertClean();
 });
 
-for (const path of ["/en", "/bn", "/bn/foods", "/en/foods/hilsa", "/en/foods/jackfruit", "/bn/foods/apple", "/en/food-guide/food-storage", "/bn/womens-health", "/en/anti-aging", "/bn/pregnancy", "/bn/child-nutrition","/bn/plants/neem", "/en/plants", "/en/references"]) {
+for (const path of ["/en", "/bn", "/bn/foods", "/en/foods/hilsa", "/en/foods/jackfruit", "/bn/foods/apple", "/en/food-guide/food-storage", "/bn/womens-health", "/en/anti-aging", "/bn/pregnancy", "/bn/child-nutrition","/bn/plants/neem", "/en/plants", "/en/references", "/bn/ingredients", "/en/ingredients/explore", "/en/ingredients/aspartame", "/bn/ingredients/titanium-dioxide", "/en/ingredients/decoder", "/en/ingredients/compare?items=aspartame,sucralose", "/en/ingredients/category/preservatives", "/bn/ingredients/learn/what-is-msg"]) {
   test(`no horizontal overflow on ${path}`, async ({ page }) => {
     await page.goto(path);
     await hydrated(page);

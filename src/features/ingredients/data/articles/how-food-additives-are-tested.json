@@ -1,0 +1,66 @@
+{
+  "slug": "how-food-additives-are-tested",
+  "title": { "en": "How Food Additives Are Tested", "bn": "খাদ্য সংযোজন কীভাবে পরীক্ষা করা হয়" },
+  "dek": { "en": "From identifying the substance to setting a safe intake: what regulators ask for, and what the tests cannot tell us.", "bn": "পদার্থ শনাক্ত করা থেকে নিরাপদ গ্রহণমাত্রা নির্ধারণ পর্যন্ত: নিয়ন্ত্রকরা কী চান, আর পরীক্ষা কী বলতে পারে না।" },
+  "minutes": 4,
+  "takeaways": [
+    { "en": "Testing moves through stages: what the substance is, how it is used, how much people eat, and what it does at different doses.", "bn": "পরীক্ষা ধাপে ধাপে এগোয়: পদার্থটি কী, কীভাবে ব্যবহৃত হয়, মানুষ কতটা খায়, আর বিভিন্ন মাত্রায় এটি কী করে।" },
+    { "en": "A safe intake is usually set from the highest dose without adverse effects in animal studies, divided by a default factor of 100.", "bn": "নিরাপদ গ্রহণমাত্রা সাধারণত প্রাণী গবেষণায় ক্ষতিকর প্রভাবহীন সর্বোচ্চ মাত্রাকে ডিফল্ট ১০০ দিয়ে ভাগ করে ঠিক করা হয়।" },
+    { "en": "The assessment does not end at approval; the EU has been re-evaluating older additives under a legal duty.", "bn": "অনুমোদনেই মূল্যায়ন শেষ হয় না; ইইউ আইনি দায়িত্বে পুরোনো সংযোজন পুনর্মূল্যায়ন করছে।" },
+    { "en": "Tests have limits: EFSA's ADI does not apply to infants under 16 weeks, and sometimes data are too sparse to set a value at all.", "bn": "পরীক্ষারও সীমা আছে: ইএফএসএ-র এডিআই ১৬ সপ্তাহের কম বয়সী শিশুদের জন্য প্রযোজ্য নয়, আর কখনও তথ্য এত কম থাকে যে মানই ঠিক করা যায় না।" }
+  ],
+  "sections": [
+    {
+      "heading": { "en": "Who does the work", "bn": "কাজটি কারা করে" },
+      "paragraphs": [
+        { "en": "Regulators do not usually run the experiments themselves. A company that wants to use a new additive generates the data and submits them, and independent experts review them. In the European Union, the European Food Safety Authority (EFSA) provides the scientific opinion, while the European Commission and Member States decide on authorisation. In the United States, a food additive petition is reviewed by the Food and Drug Administration (FDA), which requires a reasonable certainty of no harm under the intended conditions of use. Internationally, JECFA, the joint FAO and WHO committee, reviews biochemical and toxicological data, including animal tests and observations in humans.", "bn": "নিয়ন্ত্রকরা সাধারণত নিজেরা পরীক্ষা চালান না। যে কোম্পানি নতুন সংযোজন ব্যবহার করতে চায় তারা তথ্য তৈরি করে জমা দেয়, আর স্বাধীন বিশেষজ্ঞরা তা পর্যালোচনা করেন। ইউরোপীয় ইউনিয়নে ইউরোপীয় খাদ্য নিরাপত্তা কর্তৃপক্ষ (ইএফএসএ) বৈজ্ঞানিক মতামত দেয়, আর অনুমোদনের সিদ্ধান্ত নেয় ইউরোপীয় কমিশন ও সদস্য দেশগুলো। যুক্তরাষ্ট্রে খাদ্য সংযোজন পিটিশন পর্যালোচনা করে খাদ্য ও ওষুধ প্রশাসন (এফডিএ), যেখানে অভিপ্রেত ব্যবহারের শর্তে ক্ষতি না হওয়ার যুক্তিসঙ্গত নিশ্চয়তা লাগে। আন্তর্জাতিকভাবে এফএও ও ডব্লিউএইচও-র যৌথ কমিটি জেইসিএফএ প্রাণীর পরীক্ষা ও মানুষের পর্যবেক্ষণসহ জৈব-রাসায়নিক ও বিষতত্ত্ব তথ্য পর্যালোচনা করে।" },
+        { "en": "It is reasonable to ask whether industry-funded data can be trusted. Part of the answer is that the data requirements are published and are assessed by panels of independent experts, who can reject them or ask for more.", "bn": "শিল্পের অর্থায়নে তৈরি তথ্যে ভরসা করা যায় কিনা, এই প্রশ্ন যুক্তিসঙ্গত। উত্তরের একটি অংশ হলো তথ্যের শর্ত প্রকাশিত থাকে এবং স্বাধীন বিশেষজ্ঞ প্যানেল সেগুলো মূল্যায়ন করে, যারা তা প্রত্যাখ্যান করতে বা আরও তথ্য চাইতে পারে।" }
+      ]
+    },
+    {
+      "heading": { "en": "What the data have to cover", "bn": "তথ্যে কী কী থাকতে হয়" },
+      "paragraphs": [
+        { "en": "EFSA published updated guidance on food additive data on 20 January 2026, and it applies to applications submitted since 20 July 2026. EFSA lists the main areas as characterisation of the substance, its proposed uses and exposure, and safety data, including genotoxicity. Each answers a different question.", "bn": "খাদ্য সংযোজনের তথ্য নিয়ে ইএফএসএ ২০২৬ সালের ২০ জানুয়ারি হালনাগাদ নির্দেশিকা প্রকাশ করেছে, যা ২০২৬ সালের ২০ জুলাই থেকে জমা হওয়া আবেদনে প্রযোজ্য। ইএফএসএ প্রধান ক্ষেত্রগুলো হিসেবে পদার্থের বৈশিষ্ট্য, প্রস্তাবিত ব্যবহার ও এক্সপোজার, এবং জিনগত বিষক্রিয়াসহ নিরাপত্তা তথ্য উল্লেখ করেছে। প্রতিটি আলাদা প্রশ্নের উত্তর দেয়।" }
+      ],
+      "bullets": [
+        { "en": "Characterisation: what the substance is, how it is made, and what impurities it may carry.", "bn": "বৈশিষ্ট্য নির্ণয়: পদার্থটি কী, কীভাবে তৈরি, আর এতে কী অশুদ্ধি থাকতে পারে।" },
+        { "en": "Uses and exposure: which foods it goes into and how much people are likely to eat.", "bn": "ব্যবহার ও এক্সপোজার: কোন খাবারে যায় এবং মানুষ কতটা খেতে পারে।" },
+        { "en": "Toxicokinetics: how the body absorbs, distributes and clears it, using a tiered approach.", "bn": "টক্সিকোকাইনেটিক্স: শরীর কীভাবে এটি শোষণ করে, ছড়ায় ও বের করে দেয়, ধাপভিত্তিক পদ্ধতিতে।" },
+        { "en": "Toxicity: studies that identify hazards and the dose at which they appear. Genotoxicity is examined separately.", "bn": "বিষক্রিয়া: বিপত্তি এবং কোন মাত্রায় তা দেখা দেয় তা শনাক্ত করার গবেষণা। জিনগত বিষক্রিয়া আলাদাভাবে দেখা হয়।" }
+      ]
+    },
+    {
+      "heading": { "en": "From a study to a safe intake", "bn": "গবেষণা থেকে নিরাপদ গ্রহণমাত্রা" },
+      "paragraphs": [
+        { "en": "Toxicity data are used to find a point of departure, the dose in a good study that has no important adverse effect or gives a known small change. The World Health Organization's chemical-safety handbook describes how an overall default uncertainty factor of 100 is then applied, made up of a factor of 10 for differences between animals and humans and a factor of 10 for differences among people. The result is an acceptable daily intake, or ADI.", "bn": "বিষতত্ত্ব তথ্য থেকে একটি প্রারম্ভিক বিন্দু খোঁজা হয়, অর্থাৎ ভালো গবেষণার সেই মাত্রা, যেখানে গুরুত্বপূর্ণ ক্ষতিকর প্রভাব নেই বা একটি জানা ছোট পরিবর্তন দেখা যায়। ডব্লিউএইচও-র রাসায়নিক নিরাপত্তা হ্যান্ডবুক বর্ণনা করে, এরপর ডিফল্ট ১০০ অনিশ্চয়তা ফ্যাক্টর প্রয়োগ করা হয়, যা গঠিত প্রাণী ও মানুষের পার্থক্যের জন্য ১০ এবং মানুষের মধ্যে পার্থক্যের জন্য ১০ দিয়ে। ফল হলো গ্রহণযোগ্য দৈনিক মাত্রা বা এডিআই।" },
+        { "en": "A worked example makes this concrete. For sorbic acid and potassium sorbate, EFSA used a benchmark dose lower confidence limit of 1,110 mg per kg of body weight a day from a rat reproductive study, applied a factor of 100, and arrived at 11 mg per kg a day. That is how a laboratory result becomes a number you might read about.", "bn": "একটি উদাহরণ বিষয়টি স্পষ্ট করে। সরবিক অ্যাসিড ও পটাসিয়াম সরবেটের ক্ষেত্রে ইএফএসএ ইঁদুরের প্রজনন গবেষণা থেকে প্রতি কেজি শরীর-ওজনে দিনে ১,১১০ মিলিগ্রাম বেঞ্চমার্ক ডোজের নিম্নসীমা নিয়ে ১০০ ফ্যাক্টর প্রয়োগ করে দিনে প্রতি কেজিতে ১১ মিলিগ্রাম পেয়েছে। এভাবেই ল্যাবের ফল একটি সংখ্যায় পরিণত হয়।" },
+        { "en": "EFSA also compares estimated intakes with the ADI. It may find that some groups are close to it, or that intake from a particular pattern of eating is too high. Exposure is usually estimated under several scenarios, such as a refined brand-loyal scenario, so that the result reflects more than one way of eating. In its 2026 guidance, it notes that acute toxicity studies are generally not required, because experience shows that most additives are not acute toxicants; the concern is what happens with repeated, long-term intake.", "bn": "ইএফএসএ আনুমানিক গ্রহণকে এডিআই-এর সঙ্গে তুলনাও করে। হয়তো দেখা যায় কোনো গোষ্ঠী এর কাছাকাছি, বা কোনো খাওয়ার ধরন থেকে গ্রহণ খুব বেশি। গ্রহণের হিসাব সাধারণত একাধিক পরিস্থিতিতে করা হয়, যেমন পরিমার্জিত ব্র্যান্ড-অনুগত পরিস্থিতি, যাতে ফলাফল একের বেশি খাওয়ার ধরনকে তুলে ধরে। ২০২৬ সালের নির্দেশিকায় ইএফএসএ জানিয়েছে, তীব্র বিষক্রিয়ার গবেষণা সাধারণত দরকার হয় না, কারণ অভিজ্ঞতায় দেখা যায় বেশিরভাগ সংযোজন তীব্র বিষাক্ত পদার্থ নয়; উদ্বেগের বিষয় বারবার ও দীর্ঘমেয়াদি গ্রহণে কী ঘটে।" }
+      ]
+    },
+    {
+      "heading": { "en": "Approval is not the end", "bn": "অনুমোদনেই শেষ নয়" },
+      "paragraphs": [
+        { "en": "Evidence changes, so safety conclusions have to be able to change with it. EU law requires EFSA to re-evaluate all 315 additives approved before 20 January 2009. EFSA reports having re-evaluated more than 70% so far, after the task took longer than the original 2020 deadline. Recent outcomes have gone in different directions: EFSA has raised intake values, as with sorbates, and in 2026 it confirmed sucralose's existing limit while declining to confirm safety for proposed new uses. A 2026 follow-up on vegetable carbon (E153) recommended tighter limits on contaminants and asked for nanoscale considerations.", "bn": "প্রমাণ বদলায়, তাই নিরাপত্তার সিদ্ধান্তও বদলাতে পারতে হয়। ইইউ আইনে ২০০৯ সালের ২০ জানুয়ারির আগে অনুমোদিত সব ৩১৫টি সংযোজন ইএফএসএ-কে পুনর্মূল্যায়ন করতে হয়। ইএফএসএ জানায় এখন পর্যন্ত ৭০%-এর বেশি হয়েছে, মূল ২০২০ সালের সময়সীমার চেয়ে বেশি সময় লেগেছে। সাম্প্রতিক ফল বিভিন্ন দিকে গেছে: সরবেটের ক্ষেত্রে গ্রহণমান বেড়েছে, আর ২০২৬ সালে সুক্রালোজের বিদ্যমান সীমা নিশ্চিত হলেও নতুন প্রস্তাবিত ব্যবহারে নিরাপত্তা নিশ্চিত করা হয়নি। ভেজিটেবল কার্বন (E153) নিয়ে ২০২৬ সালের ফলো-আপে দূষকের সীমা কঠোর করার সুপারিশ ও ন্যানো-বিবেচনার কথা বলা হয়েছে।" }
+      ]
+    },
+    {
+      "heading": { "en": "What testing cannot do", "bn": "পরীক্ষা যা করতে পারে না" },
+      "paragraphs": [
+        { "en": "No testing programme proves that a substance can never cause harm under any conditions. Animal studies are models of people, and they carry uncertainty, which is why the safety factor exists. There are also gaps. EFSA's 2026 guidance says the ADI does not apply to infants below 16 weeks of age. EFSA has also said it is sometimes unable to derive an ADI because data are missing, and it can lower an ADI because toxicological data are limited.", "bn": "কোনো পরীক্ষা-কর্মসূচি প্রমাণ করতে পারে না যে একটি পদার্থ কোনো অবস্থাতেই ক্ষতি করবে না। প্রাণী গবেষণা মানুষের মডেল, এতে অনিশ্চয়তা থাকে, তাই নিরাপত্তা ফ্যাক্টর। ফাঁকও আছে। ইএফএসএ-র ২০২৬ সালের নির্দেশিকা বলছে, ১৬ সপ্তাহের কম বয়সী শিশুদের জন্য এডিআই প্রযোজ্য নয়। ইএফএসএ আরও বলেছে, তথ্যের অভাবে কখনও এডিআই নির্ধারণ করা যায় না, এবং সীমিত বিষতত্ত্ব তথ্যের কারণে এডিআই কমানোও হতে পারে।" },
+        { "en": "Knowing this makes the conclusions easier to read. A panel saying no safety concern at reported uses is a judgement about what those uses are and what the data show, and it is open to revision when either changes.", "bn": "এটি জানা থাকলে সিদ্ধান্তগুলো পড়া সহজ হয়। প্যানেল যখন বলে জানানো ব্যবহারে নিরাপত্তাজনিত উদ্বেগ নেই, সেটি ওই ব্যবহার ও তথ্যের ওপর একটি বিচার, এবং যেকোনোটি বদলালে সংশোধনের সুযোগ থাকে।" }
+      ]
+    }
+  ],
+  "references": [
+    { "id": "efsa-topic", "org": "EFSA", "title": "Food additives (topic page)", "year": 2026, "url": "https://www.efsa.europa.eu/en/topics/topic/food-additives", "kind": "agency-guidance" },
+    { "id": "efsa-guidance-2026", "org": "EFSA FAF Panel", "title": "Guidance on the scientific data requirements for an application for authorisation of a food additive submitted under Regulation (EC) No 1331/2008", "year": 2026, "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2026.9778", "kind": "regulatory" },
+    { "id": "ehc240-ch5", "org": "WHO/FAO (IPCS)", "title": "Environmental Health Criteria 240, Chapter 5: Dose-response assessment and derivation of health-based guidance values (second edition)", "year": 2020, "url": "https://www.inchem.org/documents/ehc/ehc/ehc240_chapter5.pdf", "kind": "agency-guidance" },
+    { "id": "who-additives", "org": "World Health Organization", "title": "Food additives (fact sheet)", "year": 2023, "url": "https://www.who.int/news-room/fact-sheets/detail/food-additives", "kind": "agency-guidance" },
+    { "id": "fda-regulates", "org": "US FDA", "title": "Understanding How the FDA Regulates Food Additives and GRAS Ingredients", "year": 2024, "url": "https://www.fda.gov/food/food-additives-and-gras-ingredients-information-consumers/understanding-how-fda-regulates-food-additives-and-gras-ingredients", "kind": "agency-guidance" },
+    { "id": "efsa-sorbates", "org": "EFSA FAF Panel", "title": "Opinion on the follow-up of the re-evaluation of sorbic acid (E200) and potassium sorbate (E202) as food additives", "year": 2019, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009143/", "kind": "regulatory" },
+    { "id": "efsa-sucralose", "org": "EFSA", "title": "EFSA finds sucralose safe when used as currently authorised; cannot confirm safety of extending its use", "year": 2026, "url": "https://www.efsa.europa.eu/en/news/efsa-finds-sucralose-safe-when-used-currently-authorised-cannot-confirm-safety-extending-its", "kind": "agency-guidance" },
+    { "id": "efsa-e153-2026", "org": "EFSA FAF Panel", "title": "Scientific opinion on the amendment of the specifications for vegetable carbon (E 153) as a food additive", "year": 2026, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12848909/", "kind": "regulatory" }
+  ],
+  "relatedIngredients": ["potassium-sorbate", "sucralose", "aspartame", "tartrazine"],
+  "checkedOn": "2026-11-09"
+}

@@ -46,7 +46,7 @@ const FOOTER_LEGAL = [
 function Footer() {
   const { t, lang } = useLang();
   const groups = [
-    { title: lang === "bn" ? "এক্সপ্লোর" : "Explore", items: PRIMARY_NAV.map(n => [n.to, n[lang]]) },
+    { title: lang === "bn" ? "এক্সপ্লোর" : "Explore", items: [...PRIMARY_NAV.map(n => [n.to, n[lang]]), ["/blog", lang === "bn" ? "ব্লগ" : "Blog"]] },
     ...LEARN_GROUPS.map(g => ({ title: g[lang], items: g.items.map(i => [i.to, i[lang][0]]) })),
   ];
   const link = "text-slate-500 transition hover:text-brand-700 dark:text-slate-400 dark:hover:text-brand-300";

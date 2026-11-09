@@ -1,0 +1,62 @@
+{
+  "slug": "understanding-preservatives",
+  "title": { "en": "Understanding Preservatives", "bn": "প্রিজারভেটিভ বোঝা" },
+  "dek": { "en": "What preservatives do, why intake limits exist, and how to read the evidence on nitrites, benzoates and sorbates.", "bn": "প্রিজারভেটিভ কী করে, গ্রহণসীমা কেন আছে, আর নাইট্রাইট, বেনজোয়েট ও সরবেটের প্রমাণ কীভাবে পড়বেন।" },
+  "minutes": 4,
+  "takeaways": [
+    { "en": "Preservatives slow microbial spoilage and oxidation, and US rules require their function to be stated on the label.", "bn": "প্রিজারভেটিভ জীবাণুজনিত পচন ও জারণ ধীর করে, এবং মার্কিন বিধিতে লেবেলে এর কাজ উল্লেখ করা বাধ্যতামূলক।" },
+    { "en": "Intake limits differ by preservative: EFSA's figures are 5 mg/kg body weight a day for benzoates, 11 for sorbates and 0.07 for nitrite.", "bn": "গ্রহণসীমা প্রিজারভেটিভভেদে আলাদা: ইএফএসএ-র হিসাবে দিনে প্রতি কেজি শরীর-ওজনে বেনজোয়েট ৫, সরবেট ১১ ও নাইট্রাইট ০.০৭ মিলিগ্রাম।" },
+    { "en": "Children's exposure is the main practical point: EFSA noted some high consumers may exceed limits for benzoates and nitrites.", "bn": "শিশুদের গ্রহণই মূল ব্যবহারিক বিষয়: ইএফএসএ জানিয়েছে, বেনজোয়েট ও নাইট্রাইটের সীমা কিছু উচ্চ গ্রহণকারী ছাড়াতে পারে।" },
+    { "en": "Processed meat's IARC Group 1 classification concerns the food as a whole and describes strength of evidence, not likelihood at a given intake.", "bn": "প্রক্রিয়াজাত মাংসের আইএআরসি গ্রুপ ১ শ্রেণি পুরো খাবার নিয়ে, এবং তা প্রমাণের শক্তি বোঝায়, নির্দিষ্ট গ্রহণে সম্ভাবনা নয়।" }
+  ],
+  "sections": [
+    {
+      "heading": { "en": "What preservatives are for", "bn": "প্রিজারভেটিভের কাজ কী" },
+      "paragraphs": [
+        { "en": "Food spoils for two main reasons: microbes grow in it, and its fats and other components react with oxygen. The US Food and Drug Administration describes preservatives as ingredients that stop microbial spoilage, slow oxidation and rancidity, and maintain freshness. Common label names include sodium benzoate, potassium sorbate, ascorbic acid, BHT and tocopherols. Some of these act mainly against microbes, while others act as antioxidants that protect fats and colours.", "bn": "খাবার নষ্ট হয় মূলত দুই কারণে: এতে জীবাণু বাড়ে, আর চর্বি ও অন্যান্য উপাদান অক্সিজেনের সঙ্গে বিক্রিয়া করে। মার্কিন খাদ্য ও ওষুধ প্রশাসনের বর্ণনায় প্রিজারভেটিভ হলো এমন উপাদান, যা জীবাণুজনিত পচন ঠেকায়, জারণ ও বাসি হওয়া ধীর করে এবং তাজা ভাব বজায় রাখে। লেবেলে সাধারণ নাম হলো সোডিয়াম বেনজোয়েট, পটাসিয়াম সরবেট, অ্যাসকরবিক অ্যাসিড, বিএইচটি ও টোকোফেরল। এর কিছু প্রধানত জীবাণুর বিরুদ্ধে কাজ করে, আর কিছু অ্যান্টিঅক্সিডেন্ট হিসেবে চর্বি ও রঙ রক্ষা করে।" },
+        { "en": "The word has a legal edge in the United States. Federal rules define a chemical preservative as any chemical that, when added to food, tends to prevent or retard deterioration, and they exclude common salt, sugars, vinegars and spices. A food containing one must give the preservative's name and describe its function, for example preservative or to retard spoilage.", "bn": "যুক্তরাষ্ট্রে শব্দটির একটি আইনি দিক আছে। ফেডারেল বিধিতে রাসায়নিক প্রিজারভেটিভ হলো এমন যেকোনো রাসায়নিক, যা খাবারে যোগ করলে নষ্ট হওয়া ঠেকায় বা ধীর করে, তবে সাধারণ লবণ, চিনি, ভিনেগার ও মশলা এর বাইরে। এমন উপাদান থাকলে খাবারে প্রিজারভেটিভের নাম ও কাজ উল্লেখ করতে হয়, যেমন প্রিজারভেটিভ বা পচন রোধের জন্য।" }
+      ]
+    },
+    {
+      "heading": { "en": "Benzoates and sorbates", "bn": "বেনজোয়েট ও সরবেট" },
+      "paragraphs": [
+        { "en": "Benzoates are widely used in acidic foods and drinks. In its 2016 re-evaluation, the European Food Safety Authority (EFSA) set an acceptable daily intake of 5 mg per kg of body weight, expressed as benzoic acid, from a four-generation rat study using an uncertainty factor of 100. It found no genotoxicity concern. It also reported that under a brand-loyal scenario, the group limit was exceeded, in particular for toddlers and children who regularly drink flavoured drinks.", "bn": "বেনজোয়েট অম্লীয় খাবার ও পানীয়ে ব্যাপকভাবে ব্যবহৃত। ২০১৬ সালের পুনর্মূল্যায়নে ইউরোপীয় খাদ্য নিরাপত্তা কর্তৃপক্ষ (ইএফএসএ) চার প্রজন্মের ইঁদুর গবেষণা থেকে ১০০ অনিশ্চয়তা ফ্যাক্টর ব্যবহার করে প্রতি কেজি শরীর-ওজনে ৫ মিলিগ্রাম গ্রহণযোগ্য দৈনিক মাত্রা নির্ধারণ করে, বেনজোয়িক অ্যাসিড হিসেবে। জিনগত বিষক্রিয়ার উদ্বেগ পাওয়া যায়নি। তবে ব্র্যান্ড-অনুগত পরিস্থিতিতে দলগত সীমা ছাড়িয়েছে, বিশেষত নিয়মিত ফ্লেভার্ড পানীয় খাওয়া ছোট শিশু ও বাচ্চাদের ক্ষেত্রে।" },
+        { "en": "Sorbates show how an intake value can rise with better data. In 2019, EFSA raised the temporary group limit for sorbic acid and potassium sorbate from 3 to 11 mg per kg of body weight a day, based on a rat reproductive study with an uncertainty factor of 100. Under its most realistic scenario, the highest estimates were 1.7 mg per kg at the mean and 3.7 mg per kg at the 95th percentile, both for children aged 3 to 9, so the new limit would not be exceeded. EFSA added that the uncertainties in that estimate generally lead to an overestimate of actual exposure.", "bn": "সরবেট দেখায়, ভালো তথ্য পেলে গ্রহণমান বাড়তেও পারে। ২০১৯ সালে ইএফএসএ ইঁদুরের প্রজনন গবেষণার ভিত্তিতে ১০০ অনিশ্চয়তা ফ্যাক্টর নিয়ে সরবিক অ্যাসিড ও পটাসিয়াম সরবেটের অস্থায়ী দলগত সীমা ৩ থেকে বাড়িয়ে প্রতি কেজি শরীর-ওজনে দিনে ১১ মিলিগ্রাম করে। সবচেয়ে বাস্তবসম্মত পরিস্থিতিতে সর্বোচ্চ হিসাব ছিল গড়ে ১.৭ এবং ৯৫তম পার্সেন্টাইলে ৩.৭ মিলিগ্রাম, দুটোই ৩ থেকে ৯ বছরের শিশুদের জন্য, ফলে নতুন সীমা অতিক্রম হবে না। ইএফএসএ আরও জানিয়েছে, এই হিসাবের অনিশ্চয়তাগুলো সাধারণত প্রকৃত গ্রহণকে বাড়িয়ে দেখায়।" }
+      ]
+    },
+    {
+      "heading": { "en": "Nitrites and cured meats", "bn": "নাইট্রাইট ও কিওর করা মাংস" },
+      "paragraphs": [
+        { "en": "Nitrites are used in cured meats and are among the most debated preservatives. In June 2017, EFSA re-established a safe level of 0.07 mg per kg of body weight a day, close to the existing limit of 0.06. It reported that nitrite from additives is within safe levels for all population groups except highly exposed children, who may slightly exceed it. Taking all dietary sources together, the limit may be exceeded by infants, toddlers and children with medium exposure, and by highly exposed people of all ages. EFSA's picture for nitrate, a close relative with an acceptable daily intake of 3.7 mg per kg, is similar in shape: additives supply less than 5% of dietary nitrate, while total intake from all sources may go over that limit.", "bn": "নাইট্রাইট কিওর করা মাংসে ব্যবহৃত হয় এবং সবচেয়ে আলোচিত প্রিজারভেটিভের একটি। ২০১৭ সালের জুনে ইএফএসএ প্রতি কেজি শরীর-ওজনে দিনে ০.০৭ মিলিগ্রাম নিরাপদ মাত্রা পুনর্নির্ধারণ করে, যা বিদ্যমান ০.০৬ মাত্রার কাছাকাছি। ইএফএসএ জানায়, সংযোজন থেকে নাইট্রাইট সব জনগোষ্ঠীর জন্য নিরাপদ সীমার মধ্যে, তবে উচ্চ গ্রহণকারী শিশুরা সামান্য ছাড়াতে পারে। সব খাদ্য উৎস মিলিয়ে মাঝারি গ্রহণের শিশু, ছোট শিশু ও বাচ্চা এবং সব বয়সের উচ্চ গ্রহণকারীদের ক্ষেত্রে সীমা ছাড়াতে পারে। নিকটাত্মীয় নাইট্রেটের ক্ষেত্রে (গ্রহণযোগ্য দৈনিক মাত্রা প্রতি কেজিতে ৩.৭ মিলিগ্রাম) ইএফএসএ-র চিত্রটি একই রকম: খাদ্যের নাইট্রেটের ৫%-এর কম আসে সংযোজন থেকে, অথচ সব উৎস মিলিয়ে গ্রহণ ওই সীমা ছাড়াতে পারে।" },
+        { "en": "Part of the concern is nitrosamines, which can form from nitrite. EFSA concluded that when nitrites are used at approved levels, their contribution to overall exposure to nitrosamines is of low concern for health. It also said that nitrite from other sources, such as environmental contamination, may contribute to nitrosamine formation, and that more research is needed. The two conclusions sit together honestly: additive use is one source among several, and uncertainty remains.", "bn": "উদ্বেগের একটি অংশ হলো নাইট্রোসামিন, যা নাইট্রাইট থেকে তৈরি হতে পারে। ইএফএসএ সিদ্ধান্ত দিয়েছে, অনুমোদিত মাত্রায় নাইট্রাইট ব্যবহারে সামগ্রিক নাইট্রোসামিন এক্সপোজারে এর অবদান স্বাস্থ্যের জন্য কম উদ্বেগের। আবার বলেছে, পরিবেশ দূষণের মতো অন্য উৎসের নাইট্রাইট নাইট্রোসামিন তৈরিতে ভূমিকা রাখতে পারে, এবং আরও গবেষণা দরকার। দুটি সিদ্ধান্ত সৎভাবে পাশাপাশি থাকে: সংযোজন বহু উৎসের একটি, এবং অনিশ্চয়তা রয়ে গেছে।" }
+      ]
+    },
+    {
+      "heading": { "en": "Hazard, risk and processed meat", "bn": "বিপত্তি, ঝুঁকি ও প্রক্রিয়াজাত মাংস" },
+      "paragraphs": [
+        { "en": "Processed meat is classified by the WHO's cancer agency as Group 1, carcinogenic to humans, meaning there is convincing evidence that it causes cancer. WHO notes that the categories indicate the strength of evidence and do not measure the likelihood that cancer will occur at a particular level of exposure. The classification is about the food. EFSA's additive assessment, by contrast, is about a preservative at permitted use levels. It is easy to mix up the two, but they are answering different questions.", "bn": "ডব্লিউএইচও-র ক্যান্সার সংস্থা প্রক্রিয়াজাত মাংসকে গ্রুপ ১, অর্থাৎ মানুষের জন্য ক্যান্সারকারী হিসেবে শ্রেণিবদ্ধ করেছে, যার মানে এটি ক্যান্সার ঘটায় এমন বিশ্বাসযোগ্য প্রমাণ আছে। ডব্লিউএইচও জানায়, শ্রেণিগুলো প্রমাণের শক্তি বোঝায়, নির্দিষ্ট এক্সপোজারে ক্যান্সার হওয়ার সম্ভাবনা মাপে না। শ্রেণিবিন্যাসটি খাবারটি নিয়ে। অন্যদিকে ইএফএসএ-র সংযোজন মূল্যায়ন অনুমোদিত মাত্রায় একটি প্রিজারভেটিভ নিয়ে। দুটি গুলিয়ে ফেলা সহজ, তবে এরা ভিন্ন প্রশ্নের উত্তর দিচ্ছে।" }
+      ]
+    },
+    {
+      "heading": { "en": "Reading these results as a shopper", "bn": "ক্রেতা হিসেবে এই ফল কীভাবে পড়বেন" },
+      "paragraphs": [
+        { "en": "Preservatives solve a genuine problem, and the regulatory numbers show they are limited, not unlimited. The honest conclusion from these assessments is more specific than safe or unsafe.", "bn": "প্রিজারভেটিভ একটি বাস্তব সমস্যার সমাধান করে, আর নিয়ন্ত্রক সংখ্যা দেখায় এদের ব্যবহার সীমিত, অবাধ নয়। এই মূল্যায়নগুলোর সৎ সিদ্ধান্ত নিরাপদ বা অনিরাপদের চেয়ে বেশি সুনির্দিষ্ট।" }
+      ],
+      "bullets": [
+        { "en": "For most people, intake from additive use in these assessments falls within safe levels.", "bn": "বেশিরভাগ মানুষের ক্ষেত্রে এই মূল্যায়নে সংযোজন থেকে গ্রহণ নিরাপদ সীমার মধ্যে পড়ে।" },
+        { "en": "Children are the group most often close to the limit, because they eat and drink more relative to body weight.", "bn": "শিশুরাই সবচেয়ে বেশি সীমার কাছাকাছি থাকে, কারণ শরীর-ওজনের তুলনায় তারা বেশি খায় ও পান করে।" },
+        { "en": "The label names the preservative and its job, so you can see what is in a product and how often you are eating it.", "bn": "লেবেলে প্রিজারভেটিভের নাম ও কাজ থাকে, তাই পণ্যে কী আছে এবং আপনি কতবার খাচ্ছেন তা দেখা যায়।" }
+      ]
+    }
+  ],
+  "references": [
+    { "id": "fda-types", "org": "US FDA", "title": "Types of Food Ingredients", "year": 2023, "url": "https://www.fda.gov/food/food-additives-and-gras-ingredients-information-consumers/types-food-ingredients", "kind": "agency-guidance" },
+    { "id": "cfr-101-22", "org": "US Code of Federal Regulations", "title": "21 CFR 101.22 Foods; labeling of spices, flavorings, colorings and chemical preservatives", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol2/xml/CFR-2024-title21-vol2-sec101-22.xml", "kind": "regulatory" },
+    { "id": "efsa-benzoates", "org": "EFSA ANS Panel", "title": "Scientific Opinion on the re-evaluation of benzoic acid (E 210), sodium benzoate (E 211), potassium benzoate (E 212) and calcium benzoate (E 213) as food additives", "year": 2016, "url": "https://efsa.onlinelibrary.wiley.com/doi/abs/10.2903/j.efsa.2016.4433", "kind": "regulatory" },
+    { "id": "efsa-sorbates", "org": "EFSA FAF Panel", "title": "Opinion on the follow-up of the re-evaluation of sorbic acid (E200) and potassium sorbate (E202) as food additives", "year": 2019, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009143/", "kind": "regulatory" },
+    { "id": "efsa-nitrite-news", "org": "EFSA", "title": "EFSA confirms safe levels for nitrites and nitrates added to food", "year": 2017, "url": "https://www.efsa.europa.eu/en/press/news/170615", "kind": "agency-guidance" },
+    { "id": "who-meat", "org": "World Health Organization", "title": "Cancer: Carcinogenicity of the consumption of red meat and processed meat (questions and answers)", "year": 2026, "url": "https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat", "kind": "agency-guidance" }
+  ],
+  "relatedIngredients": ["sodium-benzoate", "potassium-sorbate", "sodium-nitrite", "ascorbic-acid"],
+  "checkedOn": "2026-11-09"
+}

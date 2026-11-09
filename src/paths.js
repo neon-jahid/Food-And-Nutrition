@@ -8,6 +8,7 @@
 import { CATEGORIES, FOODS } from "./data/foods.js";
 import { POSTS } from "./data/blog.js";
 import { PLANTS } from "./data/plants.js";
+import ingredientManifest from "./features/ingredients/data/generated/manifest.json" with { type: "json" };
 
 export const LANGS = ["en", "bn"];
 // first-time visitors land on Bangla; a language they pick is remembered (see routes/entry.jsx)
@@ -52,6 +53,12 @@ export const STATIC_PATHS = [
   "/child-nutrition",
   "/coffee",
   "/anti-aging",
+  "/ingredients",
+  "/ingredients/explore",
+  "/ingredients/decoder",
+  "/ingredients/compare",
+  "/ingredients/learn",
+  "/ingredients/evidence-labels",
   "/blog",
   "/about",
   "/contact",
@@ -70,6 +77,9 @@ export function allPublicPaths() {
     ...FOODS.map(f => `/foods/${foodSlug(f)}`),
     ...PLANTS.map(p => `/plants/${p.id}`),
     ...POSTS.map(p => `/blog/${p.slug}`),
+    ...ingredientManifest.categories.map(c => `/ingredients/category/${c}`),
+    ...ingredientManifest.items.map(id => `/ingredients/${id}`),
+    ...ingredientManifest.articles.map(s => `/ingredients/learn/${s}`),
   ];
 }
 

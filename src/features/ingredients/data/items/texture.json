@@ -1,0 +1,602 @@
+[
+  {
+    "id": "lecithins",
+    "name": { "en": "Lecithins", "bn": "লেসিথিন" },
+    "commonNames": ["soy lecithin", "sunflower lecithin", "phospholipids"],
+    "labelNames": ["lecithin", "lecithins", "soy lecithin", "soya lecithin", "sunflower lecithin", "e322", "e 322", "ins 322", "লেসিথিন", "সয়া লেসিথিন"],
+    "chemicalName": "Mixture of phosphatides including phosphatidylcholine, phosphatidylethanolamine and phosphatidylinositol",
+    "eNumber": "E322",
+    "ins": "322",
+    "category": "emulsifiers",
+    "alsoIn": ["antioxidants"],
+    "origin": "natural",
+    "originNote": { "en": "Mainly from soybean oil; also sunflower, rapeseed, corn, cottonseed and egg yolk. Origin says nothing about safety.", "bn": "প্রধানত সয়াবিন তেল থেকে; সূর্যমুখী, রেপসিড, ভুট্টা, তুলাবীজ ও ডিমের কুসুম থেকেও পাওয়া যায়। উৎস দিয়ে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["chocolate-confectionery", "bread-bakery", "biscuits", "oils-fats", "infant-foods"],
+    "summary": { "en": "A fat-like emulsifier, mostly from soybean oil, that helps oil and water stay mixed; soy-derived lecithin is covered by allergen labelling rules.", "bn": "প্রধানত সয়াবিন তেল থেকে তৈরি চর্বিজাতীয় ইমালসিফায়ার, যা তেল ও পানিকে মিশিয়ে রাখে; সয়া থেকে তৈরি লেসিথিন অ্যালার্জেন লেবেলিং নিয়মের আওতায় পড়ে।" },
+    "whatIs": { "en": "Lecithins are mixtures of phospholipids, the same family of fats found in cell membranes. Commercial lecithin is made mainly from soybean oil, with smaller amounts from other oils and egg yolk.", "bn": "লেসিথিন হলো ফসফোলিপিডের মিশ্রণ; কোষের ঝিল্লিতে যে ধরনের চর্বি থাকে, এটি সেই পরিবারের। বাণিজ্যিক লেসিথিন প্রধানত সয়াবিন তেল থেকে তৈরি হয়, অল্প পরিমাণে অন্য তেল ও ডিমের কুসুম থেকেও আসে।" },
+    "whyUsed": { "en": "It keeps fat and water from separating and helps chocolate flow and doughs handle well.", "bn": "এটি চর্বি ও পানিকে আলাদা হতে দেয় না, চকলেটকে সহজে গলে প্রবাহিত হতে এবং ময়দার খামিরকে সহজে সামলাতে সাহায্য করে।" },
+    "howItWorks": { "en": "One end of each molecule is attracted to water and the other to fat, so it sits at the boundary between them and steadies tiny droplets.", "bn": "প্রতিটি অণুর এক প্রান্ত পানির দিকে, অন্য প্রান্ত চর্বির দিকে আকৃষ্ট হয়; তাই অণুগুলো দুইয়ের সীমানায় বসে ছোট ছোট ফোঁটাকে স্থিতিশীল রাখে।" },
+    "properties": [
+      { "en": "oil-in-water and water-in-oil emulsifier", "bn": "তেল-পানি দুই ধরনের ইমালশনেই কার্যকর" },
+      { "en": "provides choline when digested", "bn": "হজমের পর কোলিন জোগায়" }
+    ],
+    "benefits": [
+      { "kind": "texture", "text": { "en": "Gives smooth, stable textures in chocolate, spreads and baked goods.", "bn": "চকলেট, স্প্রেড ও বেকড খাবারে মসৃণ ও স্থিতিশীল গঠন দেয়।" } },
+      { "kind": "processing", "text": { "en": "Makes doughs and molten chocolate easier to handle in production.", "bn": "উৎপাদনের সময় খামির ও গলানো চকলেট সামলানো সহজ করে।" } }
+    ],
+    "risks": [
+      { "kind": "allergy-intolerance", "evidence": "human", "strength": "established", "text": { "en": "EFSA noted case reports of hypersensitivity to soya and egg lecithins and attributed them to residual proteins, whose levels vary widely between products. People with soy or egg allergy should follow allergen labels and medical advice.", "bn": "EFSA সয়া ও ডিমের লেসিথিনে অতিসংবেদনশীলতার কিছু কেস রিপোর্ট উল্লেখ করেছে এবং এর কারণ হিসেবে অবশিষ্ট প্রোটিনকে চিহ্নিত করেছে, যার মাত্রা পণ্যভেদে অনেক আলাদা। সয়া বা ডিমে অ্যালার্জি থাকলে অ্যালার্জেন লেবেল ও চিকিৎসকের পরামর্শ মেনে চলা উচিত।" }, "sourceIds": ["efsa-2017"] },
+      { "kind": "uncertainty", "evidence": "human", "strength": "preliminary", "text": { "en": "The published abstracts of the French NutriNet-Santé observational analyses on heart disease, cancer and type 2 diabetes did not name lecithins among the emulsifiers linked to higher risk. Observational studies cannot show cause, and these findings do not settle the question either way.", "bn": "হৃদরোগ, ক্যানসার ও টাইপ ২ ডায়াবেটিস নিয়ে ফরাসি NutriNet-Santé পর্যবেক্ষণমূলক বিশ্লেষণগুলোর প্রকাশিত সারসংক্ষেপে ঝুঁকি বৃদ্ধির সঙ্গে যুক্ত ইমালসিফায়ারের তালিকায় লেসিথিনের নাম নেই। পর্যবেক্ষণমূলক গবেষণা কারণ প্রমাণ করতে পারে না, তাই এই ফলাফল কোনো দিকেই চূড়ান্ত নয়।" }, "sourceIds": ["nutrinet-cvd-2023", "nutrinet-cancer-2024", "nutrinet-t2d-2024"] }
+    ],
+    "riskContext": { "en": "EFSA saw no need for a numerical ADI and found no safety concern at reported uses, including in infant formula up to the permitted maximum. For most people the practical issue is allergen labelling for those with soy or egg allergy, not the amount eaten.", "bn": "EFSA সংখ্যাভিত্তিক ADI-এর প্রয়োজন দেখেনি এবং অনুমোদিত সর্বোচ্চ মাত্রা পর্যন্ত শিশু ফর্মুলাসহ প্রতিবেদিত ব্যবহারে নিরাপত্তা-উদ্বেগ পায়নি। অধিকাংশ মানুষের জন্য খাওয়ার পরিমাণ নয়, বরং সয়া বা ডিমে অ্যালার্জি যাঁদের আছে তাঁদের জন্য অ্যালার্জেন লেবেলই বাস্তব বিষয়।" },
+    "statusLabels": ["gras-conditions"],
+    "regulatory": [
+      { "authority": "EFSA", "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" }, "status": { "en": "Re-evaluated in 2017; no safety concern for infant formula up to the maximum permitted level (2020 follow-up)", "bn": "২০১৭ সালে পুনর্মূল্যায়িত; ২০২০ সালের অনুসরণমূলক মূল্যায়নে সর্বোচ্চ অনুমোদিত মাত্রা পর্যন্ত শিশু ফর্মুলায় নিরাপত্তা-উদ্বেগ নেই" }, "adi": { "type": "not-specified", "note": { "en": "EFSA: no need for a numerical ADI.", "bn": "EFSA: সংখ্যাভিত্তিক ADI-এর প্রয়োজন নেই।" } }, "date": "2020-11", "sourceId": "efsa-2020" },
+      { "authority": "JECFA", "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" }, "status": { "en": "Evaluated; ADI recorded as 'not limited'", "bn": "মূল্যায়িত; ADI 'not limited' হিসেবে নথিভুক্ত" }, "adi": { "type": "not-specified", "note": { "en": "JECFA's older wording is 'not limited' (latest evaluation 1973).", "bn": "JECFA-র পুরোনো ভাষায় 'not limited' (সর্বশেষ মূল্যায়ন ১৯৭৩)।" } }, "date": "1973", "sourceId": "jecfa-inchem" },
+      { "authority": "US FDA", "jurisdiction": { "en": "United States", "bn": "মার্কিন যুক্তরাষ্ট্র" }, "status": { "en": "Affirmed as GRAS (21 CFR 184.1400)", "bn": "GRAS হিসেবে স্বীকৃত (২১ CFR ১৮৪.১৪০০)" }, "conditions": { "en": "No limitation other than current good manufacturing practice.", "bn": "প্রচলিত উত্তম উৎপাদন-চর্চা ছাড়া আলাদা সীমা নেই।" }, "date": "1983-11", "sourceId": "cfr-184-1400" },
+      { "authority": "US FDA", "jurisdiction": { "en": "United States", "bn": "মার্কিন যুক্তরাষ্ট্র" }, "status": { "en": "Soybeans are a major food allergen; the food source must be named on the label unless the ingredient is exempt", "bn": "সয়াবিন একটি প্রধান খাদ্য অ্যালার্জেন; উপাদানটি ছাড় না পেলে লেবেলে খাদ্য-উৎসের নাম থাকতে হবে" }, "conditions": { "en": "FDA's inventory lists individual exemption petitions for particular soy lecithin uses; a listing is not itself a general exemption.", "bn": "FDA-র তালিকায় সয়া লেসিথিনের নির্দিষ্ট ব্যবহারের জন্য আলাদা আলাদা ছাড়ের আবেদন আছে; তালিকায় থাকা মানেই সাধারণ ছাড় নয়।" }, "date": "2026-03", "sourceId": "fda-allergies" },
+      { "authority": "European Commission", "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" }, "status": { "en": "Soybeans, eggs and products thereof, including lecithins, are listed in Annex II of Regulation 1169/2011 (as reported by EFSA)", "bn": "সয়াবিন, ডিম ও এগুলোর পণ্য, লেসিথিনসহ, রেগুলেশন ১১৬৯/২০১১-এর অ্যানেক্স II-তে তালিকাভুক্ত (EFSA-র বিবরণ অনুযায়ী)" }, "date": "2011", "sourceId": "efsa-2017" }
+    ],
+    "flags": ["contains-soy", "contains-egg"],
+    "references": [
+      { "id": "efsa-2017", "org": "EFSA", "title": "Re-evaluation of lecithins (E 322) as a food additive", "year": 2017, "url": "https://doi.org/10.2903/j.efsa.2017.4742", "kind": "regulatory" },
+      { "id": "efsa-2020", "org": "EFSA", "title": "Opinion on the re-evaluation of lecithins (E 322) as a food additive in foods for infants below 16 weeks of age and follow-up of its re-evaluation as food additive for uses in foods for all population groups", "year": 2020, "url": "https://doi.org/10.2903/j.efsa.2020.6266", "kind": "regulatory" },
+      { "id": "jecfa-inchem", "org": "JECFA", "title": "JECFA Evaluations: Lecithin", "year": 2003, "url": "https://www.inchem.org/documents/jecfa/jeceval/jec_1261.htm", "kind": "regulatory" },
+      { "id": "cfr-184-1400", "org": "US FDA", "title": "21 CFR 184.1400 Lecithin", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/section-184.1400", "kind": "regulatory" },
+      { "id": "fda-allergies", "org": "US FDA", "title": "Food Allergies", "year": 2026, "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies", "kind": "agency-guidance" },
+      { "id": "fda-petitions", "org": "US FDA", "title": "Inventory of Petitions Received under 21 U.S.C. 343(w)(6) for Exemptions from Food Allergen Labeling", "year": 2024, "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/inventory-petitions-received-under-21-usc-343w6-exemptions-food-allergen-labeling", "kind": "agency-guidance" },
+      { "id": "nutrinet-cvd-2023", "org": "BMJ", "title": "Food additive emulsifiers and risk of cardiovascular disease in the NutriNet-Santé cohort: prospective cohort study", "year": 2023, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10480690/", "kind": "peer-reviewed" },
+      { "id": "nutrinet-cancer-2024", "org": "PLOS Medicine", "title": "Food additive emulsifiers and cancer risk: Results from the French prospective NutriNet-Santé cohort", "year": 2024, "url": "https://doi.org/10.1371/journal.pmed.1004338", "kind": "peer-reviewed" },
+      { "id": "nutrinet-t2d-2024", "org": "The Lancet Diabetes & Endocrinology", "title": "Food additive emulsifiers and the risk of type 2 diabetes: analysis of data from the NutriNet-Santé prospective cohort study", "year": 2024, "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00086-X/fulltext", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09", "notes": "EU Annex II status is taken from EFSA's 2017 opinion because the regulation text itself could not be opened; the exact soybean exceptions in Annex II were not read and are not stated." }
+  },
+  {
+    "id": "mono-and-diglycerides-of-fatty-acids",
+    "name": { "en": "Mono- and diglycerides of fatty acids", "bn": "ফ্যাটি অ্যাসিডের মনো- ও ডাইগ্লিসারাইড" },
+    "commonNames": ["monoglycerides", "glyceryl monostearate"],
+    "labelNames": ["mono- and diglycerides of fatty acids", "mono- and diglycerides", "mono and diglycerides", "mono & diglycerides", "monoglycerides", "diglycerides", "glyceryl monostearate", "e471", "e 471", "ins 471", "মনো- ও ডাইগ্লিসারাইড"],
+    "chemicalName": "Mixture of mono- and diglyceryl esters of long-chain fatty acids",
+    "eNumber": "E471",
+    "ins": "471",
+    "category": "emulsifiers",
+    "alsoIn": ["stabilizers"],
+    "origin": "natural-derived",
+    "originNote": { "en": "Made by reacting glycerol with fats or fatty acids. Raw materials are mainly plant oils but can include tallow or lard. Origin says nothing about safety.", "bn": "গ্লিসারলের সঙ্গে চর্বি বা ফ্যাটি অ্যাসিডের বিক্রিয়ায় তৈরি। কাঁচামাল প্রধানত উদ্ভিজ্জ তেল, তবে গরুর চর্বি বা শূকরের চর্বিও হতে পারে। উৎস দিয়ে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["bread-bakery", "frozen-desserts", "dairy", "oils-fats"],
+    "summary": { "en": "Partly digested fats used to keep bread soft and ice cream smooth; assessed as safe at reported uses, with early observational findings still being studied.", "bn": "রুটি নরম ও আইসক্রিম মসৃণ রাখতে ব্যবহৃত আংশিক ভাঙা চর্বি; প্রতিবেদিত ব্যবহারে নিরাপদ বলে মূল্যায়িত, তবে প্রাথমিক পর্যবেক্ষণমূলক ফলাফল নিয়ে গবেষণা চলছে।" },
+    "whatIs": { "en": "These are fats that have one or two fatty acids attached to glycerol instead of the usual three. They are made from food fats and oils and are similar to the fragments produced when fat is digested.", "bn": "এগুলো এমন চর্বি, যাতে গ্লিসারলের সঙ্গে সাধারণ তিনটির বদলে একটি বা দুটি ফ্যাটি অ্যাসিড যুক্ত থাকে। খাদ্য-চর্বি ও তেল থেকে তৈরি এই পদার্থ চর্বি হজমের সময় তৈরি অংশের মতোই।" },
+    "whyUsed": { "en": "They soften bread crumb, slow staling and help ice cream and whipped products hold their structure.", "bn": "এগুলো রুটির ভেতরটা নরম রাখে, বাসি হওয়া ধীর করে এবং আইসক্রিম ও ফেটানো খাবারের গঠন ধরে রাখে।" },
+    "howItWorks": { "en": "Part of the molecule mixes with water and part with fat, so it stabilises droplets and interacts with starch in dough.", "bn": "অণুর একটি অংশ পানির সঙ্গে, অন্য অংশ চর্বির সঙ্গে মেশে; তাই এটি ফোঁটাকে স্থিতিশীল রাখে এবং খামিরের স্টার্চের সঙ্গে ক্রিয়া করে।" },
+    "properties": [
+      { "en": "broken down to glycerol and fatty acids in the gut", "bn": "অন্ত্রে গ্লিসারল ও ফ্যাটি অ্যাসিডে ভাঙে" },
+      { "en": "anti-staling agent in bread", "bn": "রুটি বাসি হওয়া ধীর করে" }
+    ],
+    "benefits": [
+      { "kind": "texture", "text": { "en": "Gives a soft crumb and smooth frozen desserts.", "bn": "নরম রুটি ও মসৃণ হিমায়িত ডেজার্ট তৈরি করে।" } },
+      { "kind": "shelf-life", "text": { "en": "Helps bread stay soft for longer.", "bn": "রুটিকে বেশি সময় নরম থাকতে সাহায্য করে।" } }
+    ],
+    "risks": [
+      { "kind": "uncertainty", "evidence": "human", "strength": "preliminary", "text": { "en": "In the French NutriNet-Santé observational cohort of 92,000 adults, higher E471 intake was associated with higher overall cancer (HR 1.15, 95% CI 1.04-1.27), breast cancer (1.24) and prostate cancer (1.46) risk. A separate analysis linked the E471 and E472 group to cardiovascular outcomes. This design cannot prove cause; the authors cite possible measurement error and residual confounding and call for replication.", "bn": "৯২,০০০ প্রাপ্তবয়স্কের ফরাসি NutriNet-Santé পর্যবেক্ষণমূলক কোহর্টে বেশি E471 গ্রহণের সঙ্গে সামগ্রিক ক্যানসার (HR ১.১৫, ৯৫% CI ১.০৪-১.২৭), স্তন ক্যানসার (১.২৪) ও প্রস্টেট ক্যানসার (১.৪৬) ঝুঁকি বৃদ্ধির সম্পর্ক দেখা গেছে। আলাদা এক বিশ্লেষণে E471 ও E472 গ্রুপকে হৃদ্‌রোগের ফলাফলের সঙ্গে যুক্ত পাওয়া গেছে। এই নকশায় কারণ প্রমাণ হয় না; গবেষকেরা পরিমাপের ভুল ও অবশিষ্ট বিভ্রান্তিকর প্রভাবের সম্ভাবনা উল্লেখ করেছেন এবং অন্য জনগোষ্ঠীতে পুনরাবৃত্তির কথা বলেছেন।" }, "sourceIds": ["nutrinet-cancer-2024", "nutrinet-cvd-2023"] }
+    ],
+    "riskContext": { "en": "EFSA found no adverse effects in animal studies including long-term ones, no need for a numerical ADI, and that E471 contributed only about 0.8-3.5% of recommended daily fat intake on average. The cohort signals are associations that need confirmation, not a measured effect at normal intake.", "bn": "EFSA দীর্ঘমেয়াদিসহ প্রাণী-গবেষণায় ক্ষতিকর প্রভাব পায়নি, সংখ্যাভিত্তিক ADI-এর প্রয়োজন দেখেনি, এবং গড়ে দৈনিক প্রস্তাবিত চর্বি গ্রহণের মাত্র ০.৮-৩.৫% E471 থেকে আসে বলে জানিয়েছে। কোহর্টের সংকেতগুলো সম্পর্কমাত্র, যার নিশ্চিতকরণ দরকার; স্বাভাবিক গ্রহণে পরিমাপ করা প্রভাব নয়।" },
+    "statusLabels": ["gras-conditions", "evidence-developing"],
+    "regulatory": [
+      { "authority": "EFSA", "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" }, "status": { "en": "No safety concern at reported uses (2017); no reason for concern in infant formula, with lower impurity limits recommended (2021)", "bn": "প্রতিবেদিত ব্যবহারে নিরাপত্তা-উদ্বেগ নেই (২০১৭); শিশু ফর্মুলায় উদ্বেগের কারণ নেই, তবে অশুদ্ধির সীমা কমানোর সুপারিশ (২০২১)" }, "adi": { "type": "not-specified", "note": { "en": "EFSA: no need for a numerical ADI.", "bn": "EFSA: সংখ্যাভিত্তিক ADI-এর প্রয়োজন নেই।" } }, "date": "2021-11", "sourceId": "efsa-2021" },
+      { "authority": "JECFA", "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" }, "status": { "en": "Evaluated; ADI recorded as 'not limited'", "bn": "মূল্যায়িত; ADI 'not limited' হিসেবে নথিভুক্ত" }, "adi": { "type": "not-specified", "note": { "en": "JECFA's older wording is 'not limited' (latest evaluation 1973).", "bn": "JECFA-র পুরোনো ভাষায় 'not limited' (সর্বশেষ মূল্যায়ন ১৯৭৩)।" } }, "date": "1973", "sourceId": "jecfa-inchem" },
+      { "authority": "US FDA", "jurisdiction": { "en": "United States", "bn": "মার্কিন যুক্তরাষ্ট্র" }, "status": { "en": "Affirmed as GRAS (21 CFR 184.1505)", "bn": "GRAS হিসেবে স্বীকৃত (২১ CFR ১৮৪.১৫০৫)" }, "conditions": { "en": "No limitation other than current good manufacturing practice.", "bn": "প্রচলিত উত্তম উৎপাদন-চর্চা ছাড়া আলাদা সীমা নেই।" }, "date": "1992-03", "sourceId": "cfr-184-1505" }
+    ],
+    "flags": ["animal-derived"],
+    "references": [
+      { "id": "efsa-2017", "org": "EFSA", "title": "Re-evaluation of mono- and di-glycerides of fatty acids (E 471) as food additives", "year": 2017, "url": "https://doi.org/10.2903/j.efsa.2017.5045", "kind": "regulatory" },
+      { "id": "efsa-2021", "org": "EFSA", "title": "Opinion on the re-evaluation of mono- and diglycerides of fatty acids (E 471) as food additive in foods for infants below 16 weeks of age and follow-up of their re-evaluation as food additives for uses in foods for all population groups", "year": 2021, "url": "https://doi.org/10.2903/j.efsa.2021.6885", "kind": "regulatory" },
+      { "id": "jecfa-inchem", "org": "JECFA", "title": "JECFA Evaluations: Mono- and diglycerides", "year": 2003, "url": "https://www.inchem.org/documents/jecfa/jeceval/jec_1665.htm", "kind": "regulatory" },
+      { "id": "cfr-184-1505", "org": "US FDA", "title": "21 CFR 184.1505 Mono- and diglycerides", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/section-184.1505", "kind": "regulatory" },
+      { "id": "nutrinet-cancer-2024", "org": "PLOS Medicine", "title": "Food additive emulsifiers and cancer risk: Results from the French prospective NutriNet-Santé cohort", "year": 2024, "url": "https://doi.org/10.1371/journal.pmed.1004338", "kind": "peer-reviewed" },
+      { "id": "nutrinet-cvd-2023", "org": "BMJ", "title": "Food additive emulsifiers and risk of cardiovascular disease in the NutriNet-Santé cohort: prospective cohort study", "year": 2023, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10480690/", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "polysorbate-80",
+    "name": { "en": "Polysorbate 80", "bn": "পলিসরবেট ৮০" },
+    "commonNames": ["polyoxyethylene (20) sorbitan monooleate"],
+    "labelNames": ["polysorbate 80", "polyoxyethylene sorbitan monooleate", "polyoxyethylene (20) sorbitan monooleate", "e433", "e 433", "ins 433", "পলিসরবেট ৮০"],
+    "chemicalName": "Polyoxyethylene (20) sorbitan monooleate",
+    "eNumber": "E433",
+    "ins": "433",
+    "category": "emulsifiers",
+    "origin": "synthetic",
+    "originNote": { "en": "Made by reacting oleic acid with sorbitol and then with ethylene oxide. Origin says nothing about safety.", "bn": "অলিক অ্যাসিডের সঙ্গে সরবিটল এবং পরে ইথিলিন অক্সাইডের বিক্রিয়ায় তৈরি। উৎস দিয়ে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["frozen-desserts", "supplements", "sauces-condiments"],
+    "summary": { "en": "A manufactured emulsifier with a group ADI, used in frozen desserts and supplements; mouse gut studies have prompted further research.", "bn": "গ্রুপ ADI সহ একটি কৃত্রিম ইমালসিফায়ার, হিমায়িত ডেজার্ট ও সাপ্লিমেন্টে ব্যবহৃত; ইঁদুরের অন্ত্র নিয়ে গবেষণা আরও অনুসন্ধানের জন্ম দিয়েছে।" },
+    "whatIs": { "en": "Polysorbate 80 is a manufactured emulsifier built from oleic acid, sorbitol and ethylene oxide. It belongs to the polysorbate family, which regulators assess together.", "bn": "পলিসরবেট ৮০ হলো অলিক অ্যাসিড, সরবিটল ও ইথিলিন অক্সাইড থেকে তৈরি একটি কৃত্রিম ইমালসিফায়ার। এটি পলিসরবেট পরিবারের সদস্য, যেগুলো নিয়ন্ত্রকেরা একসঙ্গে মূল্যায়ন করেন।" },
+    "whyUsed": { "en": "It helps fats disperse evenly in water-based foods and keeps ice cream and frozen desserts smooth.", "bn": "এটি পানিভিত্তিক খাবারে চর্বিকে সমানভাবে ছড়িয়ে দেয় এবং আইসক্রিম ও হিমায়িত ডেজার্টকে মসৃণ রাখে।" },
+    "howItWorks": { "en": "Its water-loving and fat-loving parts sit at the surface of droplets and stop them from joining together.", "bn": "এর পানি-প্রিয় ও চর্বি-প্রিয় অংশ ফোঁটার পৃষ্ঠে বসে সেগুলোকে একত্র হতে দেয় না।" },
+    "properties": [
+      { "en": "water-soluble emulsifier", "bn": "পানিতে দ্রবণীয় ইমালসিফায়ার" },
+      { "en": "group ADI with other polysorbates", "bn": "অন্য পলিসরবেটের সঙ্গে গ্রুপ ADI" }
+    ],
+    "benefits": [
+      { "kind": "texture", "text": { "en": "Keeps frozen desserts and emulsions smooth and stable.", "bn": "হিমায়িত ডেজার্ট ও ইমালশনকে মসৃণ ও স্থিতিশীল রাখে।" } }
+    ],
+    "risks": [
+      { "kind": "uncertainty", "evidence": "animal", "strength": "preliminary", "text": { "en": "In a 2015 mouse study, polysorbate 80 and carboxymethylcellulose in the diet changed gut bacteria, caused low-grade inflammation and metabolic changes, and promoted colitis in susceptible mice. Mouse findings do not show the same happens in people at normal intake.", "bn": "২০১৫ সালের ইঁদুর-গবেষণায় খাবারে পলিসরবেট ৮০ ও কার্বক্সিমিথাইল সেলুলোজ অন্ত্রের ব্যাকটেরিয়া বদলে দেয়, মৃদু প্রদাহ ও বিপাকীয় পরিবর্তন ঘটায় এবং সংবেদনশীল ইঁদুরে কোলাইটিস বাড়ায়। স্বাভাবিক গ্রহণে মানুষের ক্ষেত্রেও এমন হয়, তা এই ফলাফল দেখায় না।" }, "sourceIds": ["mouse-2015"] },
+      { "kind": "dose-dependent", "evidence": "theoretical", "strength": "preliminary", "text": { "en": "Exposure estimates: EFSA's highest non-brand-loyal estimate for toddlers (24.5 mg/kg bw/day) was very close to the group ADI, and JECFA in 2026 reported the same figure for European children as its highest estimate.", "bn": "গ্রহণের হিসাব: টডলারদের জন্য EFSA-র সর্বোচ্চ নন-ব্র্যান্ড-লয়াল হিসাব (২৪.৫ মিগ্রা/কেজি দেহ-ওজন/দিন) গ্রুপ ADI-র খুব কাছাকাছি ছিল, এবং JECFA ২০২৬ সালে ইউরোপীয় শিশুদের জন্য একই সংখ্যাকে সর্বোচ্চ হিসাব বলে জানিয়েছে।" }, "sourceIds": ["efsa-2015", "jecfa-2026"] }
+    ],
+    "riskContext": { "en": "The ADI rests on a long-term rat study with a 100-fold safety margin. EFSA and JECFA estimate that the highest-exposed children come close to the ADI, but JECFA concluded that current uses do not pose a safety concern. Too few NutriNet-Santé participants consumed it for a separate heart-disease analysis, so human data are limited.", "bn": "ADI নির্ধারিত হয়েছে দীর্ঘমেয়াদি ইঁদুর-গবেষণা ও ১০০ গুণ নিরাপত্তা-ব্যবধানের ভিত্তিতে। EFSA ও JECFA-র হিসাবে সর্বোচ্চ গ্রহণকারী শিশুরা ADI-র কাছাকাছি পৌঁছায়, তবে JECFA বর্তমান ব্যবহারে নিরাপত্তা-উদ্বেগ পায়নি। NutriNet-Santé-তে খুব কম অংশগ্রহণকারী এটি খেয়েছেন বলে হৃদ্‌রোগের আলাদা বিশ্লেষণ হয়নি, তাই মানুষের তথ্য সীমিত।" },
+    "statusLabels": ["within-limits", "approved-specific", "evidence-developing"],
+    "regulatory": [
+      { "authority": "EFSA", "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" }, "status": { "en": "Re-evaluated with E432-E436; more usage and analytical data requested", "bn": "E432-E436-এর সঙ্গে পুনর্মূল্যায়িত; আরও ব্যবহার ও বিশ্লেষণমূলক তথ্য চাওয়া হয়েছে" }, "adi": { "type": "numeric", "value": 25, "unit": "mg/kg bw/day", "note": { "en": "Group ADI for polysorbates (E432-E436).", "bn": "পলিসরবেটগুলোর (E432-E436) গ্রুপ ADI।" } }, "date": "2015-07", "sourceId": "efsa-2015" },
+      { "authority": "JECFA", "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" }, "status": { "en": "Group ADI confirmed at the 102nd meeting; current uses and Codex maximum levels do not pose a safety concern", "bn": "১০২তম সভায় গ্রুপ ADI নিশ্চিত; বর্তমান ব্যবহার ও কোডেক্স সর্বোচ্চ মাত্রায় নিরাপত্তা-উদ্বেগ নেই" }, "adi": { "type": "numeric", "value": 25, "low": 0, "unit": "mg/kg bw/day", "note": { "en": "Group ADI of 0-25, as total polyoxyethylene (20) sorbitan esters.", "bn": "মোট পলিঅক্সিইথিলিন (২০) সরবিটান এস্টার হিসেবে ০-২৫ গ্রুপ ADI।" } }, "date": "2026", "sourceId": "jecfa-2026" },
+      { "authority": "US FDA", "jurisdiction": { "en": "United States", "bn": "মার্কিন যুক্তরাষ্ট্র" }, "status": { "en": "Permitted food additive for listed uses (21 CFR 172.840)", "bn": "তালিকাভুক্ত ব্যবহারে অনুমোদিত খাদ্য সংযোজন (২১ CFR ১৭২.৮৪০)" }, "limits": { "en": "For example, not over 0.1% of finished frozen dessert, alone or with polysorbate 65.", "bn": "যেমন, একা বা পলিসরবেট ৬৫-র সঙ্গে সমাপ্ত হিমায়িত ডেজার্টের ০.১%-এর বেশি নয়।" }, "date": "2026-11", "sourceId": "cfr-172-840" }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2015", "org": "EFSA", "title": "Scientific Opinion on the re-evaluation of polyoxyethylene sorbitan monolaurate (E 432), polyoxyethylene sorbitan monooleate (E 433), polyoxyethylene sorbitan monopalmitate (E 434), polyoxyethylene sorbitan monostearate (E 435) and polyoxyethylene sorbitan tristearate (E 436) as food additives", "year": 2015, "url": "https://doi.org/10.2903/j.efsa.2015.4152", "kind": "regulatory" },
+      { "id": "jecfa-2026", "org": "JECFA / WHO", "title": "JECFA database: polyoxyethylene (20) sorbitan monooleate", "year": 2026, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3735", "kind": "regulatory" },
+      { "id": "cfr-172-840", "org": "US FDA", "title": "21 CFR 172.840 Polysorbate 80", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/section-172.840", "kind": "regulatory" },
+      { "id": "mouse-2015", "org": "Nature", "title": "Dietary emulsifiers impact the mouse gut microbiota promoting colitis and metabolic syndrome", "year": 2015, "url": "https://pubmed.ncbi.nlm.nih.gov/25731162/", "kind": "peer-reviewed" },
+      { "id": "nutrinet-cvd-2023", "org": "BMJ", "title": "Food additive emulsifiers and risk of cardiovascular disease in the NutriNet-Santé cohort: prospective cohort study", "year": 2023, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10480690/", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "datem",
+    "name": { "en": "DATEM (diacetyl tartaric acid esters of mono- and diglycerides)", "bn": "ডেটেম (ডাইঅ্যাসিটাইল টারটারিক অ্যাসিড এস্টার)" },
+    "commonNames": ["diacetyl tartaric acid esters of mono- and diglycerides"],
+    "labelNames": ["datem", "diacetyl tartaric acid esters of mono- and diglycerides", "diacetyl tartaric acid esters of mono and diglycerides", "mono- and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids", "e472e", "e 472e", "ins 472e", "ডেটেম"],
+    "chemicalName": "Mono- and diacetyltartaric acid esters of mono- and diglycerides of fatty acids",
+    "eNumber": "E472e",
+    "ins": "472e",
+    "category": "emulsifiers",
+    "origin": "natural-derived",
+    "originNote": { "en": "Made by reacting mono- and diglycerides from edible sources with diacetyl tartaric anhydride. Origin says nothing about safety.", "bn": "ভোজ্য উৎসের মনো- ও ডাইগ্লিসারাইডের সঙ্গে ডাইঅ্যাসিটাইল টারটারিক অ্যানহাইড্রাইডের বিক্রিয়ায় তৈরি। উৎস দিয়ে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["bread-bakery", "biscuits"],
+    "summary": { "en": "A dough-strengthening emulsifier for bread; EFSA set an ADI based on tartaric acid and in 2025 found estimated intakes below it.", "bn": "রুটির খামির শক্ত করার ইমালসিফায়ার; EFSA টারটারিক অ্যাসিডের ভিত্তিতে ADI নির্ধারণ করেছে এবং ২০২৫ সালে হিসাব করা গ্রহণ তার নিচে পেয়েছে।" },
+    "whatIs": { "en": "DATEM is made by attaching diacetyl tartaric acid to mono- and diglycerides of fatty acids. In the body it is expected to break down into normal dietary components.", "bn": "মনো- ও ডাইগ্লিসারাইডের সঙ্গে ডাইঅ্যাসিটাইল টারটারিক অ্যাসিড যুক্ত করে ডেটেম তৈরি হয়। শরীরে এটি সাধারণ খাদ্য-উপাদানে ভেঙে যাবে বলে ধরা হয়।" },
+    "whyUsed": { "en": "It strengthens dough so bread rises well and holds its shape, especially in high-speed baking.", "bn": "এটি খামিরকে শক্ত করে, ফলে রুটি ভালোভাবে ফোলে ও আকার ধরে রাখে, বিশেষত দ্রুতগতির বেকিংয়ে।" },
+    "howItWorks": { "en": "It interacts with gluten proteins and gas-cell surfaces in dough, helping the structure trap gas.", "bn": "এটি খামিরের গ্লুটেন প্রোটিন ও গ্যাসের কোষের পৃষ্ঠের সঙ্গে ক্রিয়া করে গঠনকে গ্যাস ধরে রাখতে সাহায্য করে।" },
+    "properties": [
+      { "en": "dough strengthener", "bn": "খামির শক্ত করে" },
+      { "en": "ADI linked to tartaric acid content", "bn": "ADI টারটারিক অ্যাসিডের পরিমাণের সঙ্গে যুক্ত" }
+    ],
+    "benefits": [
+      { "kind": "texture", "text": { "en": "Improves loaf volume and crumb structure.", "bn": "রুটির আয়তন ও ভেতরের গঠন উন্নত করে।" } },
+      { "kind": "processing", "text": { "en": "Makes dough more tolerant in machine production.", "bn": "যন্ত্রে উৎপাদনের সময় খামিরকে বেশি সহনশীল করে।" } }
+    ],
+    "risks": [
+      { "kind": "uncertainty", "evidence": "human", "strength": "preliminary", "text": { "en": "In the French NutriNet-Santé observational cohort, E472e intake was associated with type 2 diabetes (HR 1.04, 95% CI 1.00-1.08 per 100 mg/day), and the combined E471/E472 group with cardiovascular outcomes. The lower confidence limit reaches 1.00, the design cannot prove cause, and the findings need confirmation elsewhere.", "bn": "ফরাসি NutriNet-Santé পর্যবেক্ষণমূলক কোহর্টে E472e গ্রহণের সঙ্গে টাইপ ২ ডায়াবেটিসের সম্পর্ক পাওয়া গেছে (প্রতি দিন ১০০ মিগ্রায় HR ১.০৪, ৯৫% CI ১.০০-১.০৮), এবং E471/E472 গ্রুপের সঙ্গে হৃদ্‌রোগের ফলাফলের সম্পর্ক পাওয়া গেছে। আস্থা-ব্যবধানের নিচের সীমা ১.০০ ছুঁয়েছে, এই নকশায় কারণ প্রমাণ হয় না, এবং অন্যত্র নিশ্চিতকরণ দরকার।" }, "sourceIds": ["nutrinet-t2d-2024", "nutrinet-cvd-2023"] },
+      { "kind": "uncertainty", "evidence": "theoretical", "strength": "preliminary", "text": { "en": "EFSA and JECFA differ: EFSA's 2020 ADI for E472e is 600 mg/kg bw/day, while JECFA's 2003 ADI is 0-50 mg/kg bw. EFSA noted that absorption and metabolism data for this group are limited.", "bn": "EFSA ও JECFA-র মধ্যে পার্থক্য আছে: EFSA-র ২০২০ সালের E472e ADI ৬০০ মিগ্রা/কেজি দেহ-ওজন/দিন, আর JECFA-র ২০০৩ সালের ADI ০-৫০ মিগ্রা/কেজি দেহ-ওজন। EFSA জানিয়েছে, এই গ্রুপের শোষণ ও বিপাকের তথ্য সীমিত।" }, "sourceIds": ["efsa-2020", "jecfa-2003"] }
+    ],
+    "riskContext": { "en": "EFSA's 2025 follow-up found estimated E472e intake below its ADI in all population groups and scenarios assessed, and supported changes to the purity specification. The cohort finding is a weak association awaiting replication, not a demonstrated harm at normal intake.", "bn": "EFSA-র ২০২৫ সালের অনুসরণমূলক মূল্যায়নে মূল্যায়িত সব জনগোষ্ঠী ও পরিস্থিতিতে E472e-র হিসাব করা গ্রহণ ADI-র নিচে পাওয়া গেছে এবং বিশুদ্ধতার মান পরিবর্তনের পক্ষে সমর্থন মিলেছে। কোহর্টের ফলাফলটি দুর্বল সম্পর্ক, যার পুনরাবৃত্তি প্রয়োজন; স্বাভাবিক গ্রহণে প্রমাণিত ক্ষতি নয়।" },
+    "statusLabels": ["within-limits", "gras-conditions", "evidence-developing"],
+    "regulatory": [
+      { "authority": "EFSA", "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" }, "status": { "en": "2025 follow-up: exposure below the ADI in all population groups assessed; specification amendments for E472e supported", "bn": "২০২৫ অনুসরণমূলক মূল্যায়ন: মূল্যায়িত সব জনগোষ্ঠীতে গ্রহণ ADI-র নিচে; E472e-র মান সংশোধন সমর্থিত" }, "adi": { "type": "numeric", "value": 600, "unit": "mg/kg bw/day", "note": { "en": "ADI for E472e, based on the group ADI of 240 mg/kg bw/day for L(+)-tartaric acid and tartrates, expressed as tartaric acid, and the additive's tartaric acid content.", "bn": "E472e-র ADI, যা L(+)-টারটারিক অ্যাসিড ও টারটারেটের ২৪০ মিগ্রা/কেজি দেহ-ওজন/দিন গ্রুপ ADI (টারটারিক অ্যাসিড হিসেবে) ও এই সংযোজনের টারটারিক অ্যাসিড পরিমাণের ভিত্তিতে।" } }, "date": "2025-08", "sourceId": "efsa-2025" },
+      { "authority": "JECFA", "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" }, "status": { "en": "ADI established at the 61st meeting", "bn": "৬১তম সভায় ADI নির্ধারিত" }, "adi": { "type": "numeric", "value": 50, "low": 0, "unit": "mg/kg bw/day" }, "date": "2003", "sourceId": "jecfa-2003" },
+      { "authority": "US FDA", "jurisdiction": { "en": "United States", "bn": "মার্কিন যুক্তরাষ্ট্র" }, "status": { "en": "Affirmed as GRAS (21 CFR 184.1101)", "bn": "GRAS হিসেবে স্বীকৃত (২১ CFR ১৮৪.১১০১)" }, "conditions": { "en": "No limitation other than current good manufacturing practice.", "bn": "প্রচলিত উত্তম উৎপাদন-চর্চা ছাড়া আলাদা সীমা নেই।" }, "date": "2026-11", "sourceId": "cfr-184-1101" }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2025", "org": "EFSA", "title": "Scientific opinion as regards the specifications of the food additives acetic, lactic, tartaric, mono- and diacetyltartaric, mixed acetic and tartaric acids esters of mono- and diglycerides of fatty acids (E 472a,b,d,e,f)", "year": 2025, "url": "https://doi.org/10.2903/j.efsa.2025.9602", "kind": "regulatory" },
+      { "id": "efsa-2020", "org": "EFSA", "title": "Re-evaluation of acetic acid, lactic acid, citric acid, tartaric acid, mono- and diacetyltartaric acid, mixed acetic and tartaric acid esters of mono- and diglycerides of fatty acids (E 472a-f) as food additives", "year": 2020, "url": "https://doi.org/10.2903/j.efsa.2020.6032", "kind": "regulatory" },
+      { "id": "jecfa-2003", "org": "JECFA / WHO", "title": "JECFA database: Diacetyltartaric and fatty acid esters of glycerol", "year": 2003, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1126", "kind": "regulatory" },
+      { "id": "cfr-184-1101", "org": "US FDA", "title": "21 CFR 184.1101 Diacetyl tartaric acid esters of mono- and diglycerides", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/section-184.1101", "kind": "regulatory" },
+      { "id": "nutrinet-t2d-2024", "org": "The Lancet Diabetes & Endocrinology", "title": "Food additive emulsifiers and the risk of type 2 diabetes: analysis of data from the NutriNet-Santé prospective cohort study", "year": 2024, "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00086-X/fulltext", "kind": "peer-reviewed" },
+      { "id": "nutrinet-cvd-2023", "org": "BMJ", "title": "Food additive emulsifiers and risk of cardiovascular disease in the NutriNet-Santé cohort: prospective cohort study", "year": 2023, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10480690/", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "carrageenan",
+    "name": { "en": "Carrageenan", "bn": "ক্যারাজিনান" },
+    "commonNames": ["Irish moss extract", "seaweed extract"],
+    "labelNames": ["carrageenan", "carrageenans", "processed eucheuma seaweed", "e407", "e 407", "e407a", "e 407a", "ins 407", "ক্যারাজিনান"],
+    "chemicalName": "Sulfated polysaccharide from red seaweed",
+    "eNumber": "E407",
+    "ins": "407",
+    "category": "stabilizers",
+    "alsoIn": ["thickeners", "emulsifiers"],
+    "origin": "natural",
+    "originNote": { "en": "Extracted from red seaweeds. Being from seaweed is not evidence of safety or harm.", "bn": "লাল সামুদ্রিক শৈবাল থেকে আহরিত। শৈবাল থেকে আসা নিরাপত্তা বা ক্ষতি কোনোটিরই প্রমাণ নয়।" },
+    "applications": ["dairy", "frozen-desserts", "processed-meat", "sauces-condiments"],
+    "summary": { "en": "A seaweed-based gelling agent whose EU group ADI is temporary because of data gaps; food-grade carrageenan is distinct from degraded carrageenan.", "bn": "সামুদ্রিক শৈবালজাত জেল-উৎপাদক; তথ্যের ঘাটতির কারণে এর ইইউ গ্রুপ ADI অস্থায়ী; খাদ্যমানের ক্যারাজিনান ক্ষয়প্রাপ্ত ক্যারাজিনান থেকে আলাদা।" },
+    "whatIs": { "en": "Carrageenan is a large, sulfated carbohydrate extracted from red seaweed. Food-grade carrageenan is different from degraded carrageenan (poligeenan), a small-molecule material that is not authorised as a food additive.", "bn": "ক্যারাজিনান হলো লাল সামুদ্রিক শৈবাল থেকে আহরিত বড় আকারের সালফেটযুক্ত শর্করা। খাদ্যমানের ক্যারাজিনান ক্ষয়প্রাপ্ত ক্যারাজিনান বা পলিজিনান থেকে ভিন্ন; পলিজিনান ছোট অণুর পদার্থ, যা খাদ্য সংযোজন হিসেবে অনুমোদিত নয়।" },
+    "whyUsed": { "en": "It gels and thickens dairy products and desserts and keeps cocoa or fat evenly suspended in drinks.", "bn": "এটি দুগ্ধজাত খাবার ও ডেজার্টে জেল ও ঘনত্ব তৈরি করে এবং পানীয়ে কোকো বা চর্বিকে সমানভাবে ভাসিয়ে রাখে।" },
+    "howItWorks": { "en": "Its long chains form a loose network with milk proteins and water, which traps liquid and holds particles in place.", "bn": "এর লম্বা শৃঙ্খলগুলো দুধের প্রোটিন ও পানির সঙ্গে আলগা জাল তৈরি করে, যা তরল ধরে রাখে এবং কণাগুলোকে স্থির রাখে।" },
+    "properties": [
+      { "en": "gels with milk proteins", "bn": "দুধের প্রোটিনের সঙ্গে জেল তৈরি করে" },
+      { "en": "not absorbed intact", "bn": "অক্ষত অবস্থায় শোষিত হয় না" }
+    ],
+    "benefits": [
+      { "kind": "texture", "text": { "en": "Provides gels and creamy body in dairy and desserts at low levels.", "bn": "অল্প পরিমাণে দুগ্ধজাত খাবার ও ডেজার্টে জেল ও ক্রিমি ঘনত্ব দেয়।" } }
+    ],
+    "risks": [
+      { "kind": "uncertainty", "evidence": "animal", "strength": "preliminary", "text": { "en": "EFSA in 2018 made the group ADI temporary because of unresolved uncertainties in the chemistry, exposure assessment and biological and toxicological data, asking for a better database within five years. It also flagged possible links with inflammatory bowel disease and glucose intolerance as uncertain.", "bn": "রসায়ন, গ্রহণ-মূল্যায়ন এবং জৈবিক ও বিষতাত্ত্বিক তথ্যের অনিশ্চয়তার কারণে EFSA ২০১৮ সালে গ্রুপ ADI-কে অস্থায়ী করেছে এবং পাঁচ বছরের মধ্যে আরও ভালো তথ্যভান্ডার চেয়েছে। প্রদাহজনিত অন্ত্রের রোগ ও গ্লুকোজ-অসহিষ্ণুতার সম্ভাব্য যোগসূত্রকেও অনিশ্চিত বলে উল্লেখ করেছে।" }, "sourceIds": ["efsa-2018"] },
+      { "kind": "adverse-effect", "evidence": "animal", "strength": "established", "text": { "en": "Degraded carrageenan is a different material. In rats, degraded carrageenan caused colitis and later tumours. It is not authorised as a food additive, and the EU limit restricts low-molecular-weight material in food-grade carrageenan to not more than 5% below 50 kDa. EFSA recommended tightening this and developing a validated test method.", "bn": "ক্ষয়প্রাপ্ত ক্যারাজিনান আলাদা পদার্থ। ইঁদুরে এটি কোলাইটিস ও পরে টিউমার ঘটিয়েছে। এটি খাদ্য সংযোজন হিসেবে অনুমোদিত নয়, এবং ইইউ-র মান অনুযায়ী খাদ্যমানের ক্যারাজিনানে ৫০ কেডিএ-র নিচের কম আণবিক ওজনের অংশ ৫%-এর বেশি থাকতে পারে না। EFSA এই সীমা আরও কঠোর করা ও যাচাইকৃত পরীক্ষা-পদ্ধতি তৈরির সুপারিশ করেছে।" }, "sourceIds": ["efsa-2018"] },
+      { "kind": "uncertainty", "evidence": "human", "strength": "conflicting", "text": { "en": "Small human trials disagree. A randomised cross-over trial in 20 men (250 mg twice daily for 2 weeks) found no overall change in insulin sensitivity, though results differed in overweight participants. A 7-person pilot in ulcerative colitis found no effect on disease activity or markers. A 2023 scoping review called for larger trials at realistic doses using the native form.", "bn": "ছোট মানবগবেষণাগুলোর ফল ভিন্ন। ২০ জন পুরুষের র‍্যান্ডমাইজড ক্রসওভার ট্রায়ালে (২৫০ মিগ্রা দিনে দুবার, ২ সপ্তাহ) সামগ্রিক ইনসুলিন সংবেদনশীলতায় পরিবর্তন হয়নি, তবে অতিরিক্ত ওজনের অংশগ্রহণকারীদের ফল ভিন্ন ছিল। আলসারেটিভ কোলাইটিসে ৭ জনের পাইলট গবেষণায় রোগের সক্রিয়তা বা সূচকে প্রভাব পাওয়া যায়নি। ২০২৩ সালের একটি স্কোপিং রিভিউ বাস্তবসম্মত মাত্রায় ও মূল রূপে বড় ট্রায়ালের আহ্বান জানিয়েছে।" }, "sourceIds": ["rct-insulin-2024", "pilot-uc-2023", "scoping-2023"] },
+      { "kind": "uncertainty", "evidence": "human", "strength": "preliminary", "text": { "en": "French NutriNet-Santé observational analyses linked carrageenans to type 2 diabetes (HR 1.03 per 100 mg/day) and breast cancer (HR 1.32, high vs low intake). A US survey analysis found no overall link with the inflammation marker CRP. Observational studies cannot prove cause and these results need replication.", "bn": "ফরাসি NutriNet-Santé পর্যবেক্ষণমূলক বিশ্লেষণে ক্যারাজিনানকে টাইপ ২ ডায়াবেটিস (প্রতি দিন ১০০ মিগ্রায় HR ১.০৩) ও স্তন ক্যানসারের (বেশি বনাম কম গ্রহণে HR ১.৩২) সঙ্গে যুক্ত পাওয়া গেছে। একটি মার্কিন জরিপ বিশ্লেষণে প্রদাহ-সূচক CRP-র সঙ্গে সামগ্রিক সম্পর্ক পাওয়া যায়নি। পর্যবেক্ষণমূলক গবেষণা কারণ প্রমাণ করতে পারে না, এবং এসব ফলাফলের পুনরাবৃত্তি প্রয়োজন।" }, "sourceIds": ["nutrinet-t2d-2024", "nutrinet-cancer-2024", "nhanes-2026"] },
+      { "kind": "population", "evidence": "theoretical", "strength": "conflicting", "text": { "en": "Views on infant formula differ: JECFA found it inadvisable in 2007, then in 2014 said use in infant formula up to 1,000 mg/L is not of concern, while the EU Scientific Committee on Food considered it inadvisable in formula fed from birth. EFSA's ADI does not apply to infants under 12 weeks.", "bn": "শিশু ফর্মুলা নিয়ে মত ভিন্ন: JECFA ২০০৭ সালে একে অনুপযুক্ত বলেছিল, পরে ২০১৪ সালে ১,০০০ মিগ্রা/লিটার পর্যন্ত ব্যবহারে উদ্বেগ নেই বলে জানায়; অন্যদিকে ইইউ-র খাদ্য বিষয়ক বৈজ্ঞানিক কমিটি জন্ম থেকে খাওয়ানো ফর্মুলায় একে অনুপযুক্ত মনে করেছে। EFSA-র ADI ১২ সপ্তাহের কম বয়সী শিশুদের ক্ষেত্রে প্রযোজ্য নয়।" }, "sourceIds": ["efsa-2018", "jecfa-who"] }
+    ],
+    "riskContext": { "en": "Food-grade carrageenan is not absorbed intact, and EFSA reported no adverse effects in long-term rat studies. EFSA's high-exposure estimates exceeded the temporary ADI, in some cases by about 10-fold at the 95th percentile, but it noted these may be overestimates. No later EFSA opinion on E407 was found as of 2026-11, so the temporary status remains the latest published EU position found.", "bn": "খাদ্যমানের ক্যারাজিনান অক্ষত অবস্থায় শোষিত হয় না এবং EFSA দীর্ঘমেয়াদি ইঁদুর-গবেষণায় ক্ষতিকর প্রভাব পায়নি। EFSA-র উচ্চ-গ্রহণের হিসাব কিছু ক্ষেত্রে ৯৫তম পারসেন্টাইলে অস্থায়ী ADI-র প্রায় ১০ গুণ ছাড়িয়েছে, তবে এগুলো অতিরঞ্জিত হতে পারে বলে EFSA উল্লেখ করেছে। ২০২৬ সালের নভেম্বর পর্যন্ত E407 নিয়ে EFSA-র নতুন মতামত পাওয়া যায়নি, তাই অস্থায়ী অবস্থানটিই পাওয়া সর্বশেষ প্রকাশিত ইইউ অবস্থান।" },
+    "statusLabels": ["within-limits", "evidence-developing", "approved-specific"],
+    "regulatory": [
+      { "authority": "EFSA", "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" }, "status": { "en": "Group ADI kept as temporary pending better data (E407 and E407a)", "bn": "আরও ভালো তথ্য না আসা পর্যন্ত গ্রুপ ADI অস্থায়ী রাখা হয়েছে (E407 ও E407a)" }, "adi": { "type": "numeric", "value": 75, "unit": "mg/kg bw/day", "note": { "en": "Temporary group ADI for carrageenan and processed Eucheuma seaweed; not applicable to infants under 12 weeks.", "bn": "ক্যারাজিনান ও প্রক্রিয়াজাত ইউকিউমা সিউইডের অস্থায়ী গ্রুপ ADI; ১২ সপ্তাহের কম বয়সী শিশুদের ক্ষেত্রে প্রযোজ্য নয়।" } }, "limits": { "en": "EU specification: not more than 5% below 50 kDa.", "bn": "ইইউ মান: ৫০ কেডিএ-র নিচে ৫%-এর বেশি নয়।" }, "date": "2018-04", "sourceId": "efsa-2018" },
+      { "authority": "JECFA", "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" }, "status": { "en": "ADI 'not specified'; use in infant formula up to 1,000 mg/L not of concern (2014)", "bn": "ADI 'not specified'; ১,০০০ মিগ্রা/লিটার পর্যন্ত শিশু ফর্মুলায় ব্যবহারে উদ্বেগ নেই (২০১৪)" }, "adi": { "type": "not-specified", "note": { "en": "Group ADI 'not specified' with processed Eucheuma seaweed (2001); listed as 'not specified' in 2014.", "bn": "প্রক্রিয়াজাত ইউকিউমা সিউইডের সঙ্গে গ্রুপ ADI 'not specified' (২০০১); ২০১৪ সালেও 'not specified' হিসেবে তালিকাভুক্ত।" } }, "date": "2014", "sourceId": "jecfa-who" },
+      { "authority": "US FDA", "jurisdiction": { "en": "United States", "bn": "মার্কিন যুক্তরাষ্ট্র" }, "status": { "en": "Permitted food additive (21 CFR 172.620)", "bn": "অনুমোদিত খাদ্য সংযোজন (২১ CFR ১৭২.৬২০)" }, "conditions": { "en": "In the amount necessary as an emulsifier, stabilizer or thickener.", "bn": "ইমালসিফায়ার, স্থিতিকারক বা ঘনকারক হিসেবে প্রয়োজনীয় পরিমাণে।" }, "date": "2026-11", "sourceId": "cfr-172-620" }
+    ],
+    "flags": ["infants-caution"],
+    "references": [
+      { "id": "efsa-2018", "org": "EFSA", "title": "Re-evaluation of carrageenan (E 407) and processed Eucheuma seaweed (E 407a) as food additives", "year": 2018, "url": "https://doi.org/10.2903/j.efsa.2018.5238", "kind": "regulatory" },
+      { "id": "jecfa-who", "org": "JECFA / WHO", "title": "JECFA database: carrageenan (from chondrus and gigartina spp.)", "year": 2014, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1310", "kind": "regulatory" },
+      { "id": "cfr-172-620", "org": "US FDA", "title": "21 CFR 172.620 Carrageenan", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/section-172.620", "kind": "regulatory" },
+      { "id": "rct-insulin-2024", "org": "BMC Medicine", "title": "Carrageenan and insulin resistance in humans: a randomised double-blind cross-over trial", "year": 2024, "url": "https://doi.org/10.1186/s12916-024-03771-8", "kind": "peer-reviewed" },
+      { "id": "pilot-uc-2023", "org": "Food & Nutrition Research", "title": "Randomized controlled pilot study: effect of carrageenan emulsifier on inflammation and gastrointestinal symptoms in quiescent ulcerative colitis", "year": 2023, "url": "https://doi.org/10.29219/fnr.v67.9575", "kind": "peer-reviewed" },
+      { "id": "scoping-2023", "org": "Critical Reviews in Toxicology", "title": "Evidence and hypotheses on adverse effects of the food additives carrageenan (E 407)/processed Eucheuma seaweed (E 407a) and carboxymethylcellulose (E 466) on the intestines: a scoping review", "year": 2023, "url": "https://doi.org/10.1080/10408444.2023.2270574", "kind": "peer-reviewed" },
+      { "id": "nutrinet-t2d-2024", "org": "The Lancet Diabetes & Endocrinology", "title": "Food additive emulsifiers and the risk of type 2 diabetes: analysis of data from the NutriNet-Santé prospective cohort study", "year": 2024, "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00086-X/fulltext", "kind": "peer-reviewed" },
+      { "id": "nutrinet-cancer-2024", "org": "PLOS Medicine", "title": "Food additive emulsifiers and cancer risk: Results from the French prospective NutriNet-Santé cohort", "year": 2024, "url": "https://doi.org/10.1371/journal.pmed.1004338", "kind": "peer-reviewed" },
+      { "id": "nhanes-2026", "org": "Molecular Nutrition & Food Research", "title": "Evaluation of the Association Between Carrageenan and Systemic Inflammation: Results From the National Health and Nutrition Examination Survey", "year": 2026, "url": "https://doi.org/10.1002/mnfr.70484", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09", "notes": "No EFSA food-additive follow-up to the 2018 opinion was found in searches of EFSA Journal records up to 2026; this absence could not be confirmed on an EFSA status page. JECFA's 2014 review addressed carrageenan, not processed Eucheuma seaweed, in infant formula." }
+  },
+  {
+    "id": "carboxymethylcellulose",
+    "name": { "en": "Carboxymethylcellulose (CMC)", "bn": "কার্বক্সিমিথাইল সেলুলোজ (সিএমসি)" },
+    "commonNames": ["cellulose gum", "CMC", "sodium carboxymethylcellulose"],
+    "labelNames": ["carboxymethylcellulose", "carboxymethyl cellulose", "sodium carboxymethylcellulose", "sodium carboxymethyl cellulose", "sodium cmc", "cellulose gum", "cmc", "e466", "e 466", "ins 466", "কার্বক্সিমিথাইল সেলুলোজ"],
+    "chemicalName": "Sodium salt of carboxymethyl ether of cellulose",
+    "eNumber": "E466",
+    "ins": "466",
+    "category": "stabilizers",
+    "alsoIn": ["thickeners"],
+    "origin": "natural-derived",
+    "originNote": { "en": "Cellulose from plants, chemically modified to dissolve in water. Origin says nothing about safety.", "bn": "উদ্ভিদের সেলুলোজকে পানিতে দ্রবণীয় করতে রাসায়নিকভাবে পরিবর্তন করা হয়। উৎস দিয়ে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["frozen-desserts", "sauces-condiments", "dairy", "bread-bakery"],
+    "summary": { "en": "A modified cellulose thickener; no numerical ADI in the EU or JECFA, while a small 2022 human feeding trial reported gut microbiome changes that need confirming.", "bn": "পরিবর্তিত সেলুলোজ-ঘনকারক; ইইউ ও JECFA-তে সংখ্যাভিত্তিক ADI নেই, তবে ২০২২ সালের ছোট মানব-খাদ্য ট্রায়ালে অন্ত্রের অণুজীবে পরিবর্তন দেখা গেছে, যা নিশ্চিত করা দরকার।" },
+    "whatIs": { "en": "Carboxymethylcellulose is cellulose, the main fibre in plants, chemically modified so it dissolves in water. It is not absorbed by the body and passes through the gut.", "bn": "কার্বক্সিমিথাইল সেলুলোজ হলো উদ্ভিদের প্রধান আঁশ সেলুলোজ, যাকে রাসায়নিকভাবে পরিবর্তন করে পানিতে দ্রবণীয় করা হয়েছে। শরীর এটি শোষণ করে না, এটি অন্ত্র দিয়ে বেরিয়ে যায়।" },
+    "whyUsed": { "en": "It thickens sauces and stops ice crystals and separation in frozen desserts and dairy products.", "bn": "এটি সস ঘন করে এবং হিমায়িত ডেজার্ট ও দুগ্ধজাত খাবারে বরফের স্ফটিক ও আলাদা হয়ে যাওয়া ঠেকায়।" },
+    "howItWorks": { "en": "Its long chains absorb water and make the liquid thicker, which slows the movement of droplets and crystals.", "bn": "এর লম্বা শৃঙ্খল পানি শোষণ করে তরলকে ঘন করে, ফলে ফোঁটা ও স্ফটিকের চলাচল ধীর হয়।" },
+    "properties": [
+      { "en": "water-soluble thickener", "bn": "পানিতে দ্রবণীয় ঘনকারক" },
+      { "en": "not absorbed; excreted intact", "bn": "শোষিত হয় না; অক্ষত অবস্থায় বেরিয়ে যায়" }
+    ],
+    "benefits": [
+      { "kind": "texture", "text": { "en": "Gives body to sauces and controls ice crystals in frozen desserts.", "bn": "সসে ঘনত্ব দেয় এবং হিমায়িত ডেজার্টে বরফের স্ফটিক নিয়ন্ত্রণ করে।" } }
+    ],
+    "risks": [
+      { "kind": "uncertainty", "evidence": "animal", "strength": "preliminary", "text": { "en": "In a 2015 mouse study, CMC and polysorbate 80 altered gut bacteria, caused low-grade inflammation and metabolic changes, and promoted colitis in predisposed mice. Mouse findings do not establish what happens in people at normal intake.", "bn": "২০১৫ সালের ইঁদুর-গবেষণায় সিএমসি ও পলিসরবেট ৮০ অন্ত্রের ব্যাকটেরিয়া বদলেছে, মৃদু প্রদাহ ও বিপাকীয় পরিবর্তন ঘটিয়েছে এবং সংবেদনশীল ইঁদুরে কোলাইটিস বাড়িয়েছে। স্বাভাবিক গ্রহণে মানুষের ক্ষেত্রে কী হয়, তা ইঁদুরের ফলাফল থেকে প্রমাণিত হয় না।" }, "sourceIds": ["mouse-2015"] },
+      { "kind": "side-effect", "evidence": "human", "strength": "preliminary", "text": { "en": "In a small double-blind feeding trial of healthy adults (7 on 15 g/day CMC, 9 on control, 11 days), CMC modestly increased abdominal discomfort after meals, reduced gut microbiota diversity and changed faecal metabolites; 2 CMC participants showed bacteria moving into the inner mucus layer. The study was short and small, and used a fixed 15 g/day.", "bn": "সুস্থ প্রাপ্তবয়স্কদের নিয়ে একটি ছোট ডাবল-ব্লাইন্ড খাদ্য-ট্রায়ালে (৭ জন দৈনিক ১৫ গ্রাম সিএমসি, ৯ জন নিয়ন্ত্রণ, ১১ দিন) সিএমসি খাবারের পর পেটের অস্বস্তি সামান্য বাড়িয়েছে, অন্ত্রের অণুজীবের বৈচিত্র্য কমিয়েছে এবং মলের বিপাকজাত পদার্থ বদলেছে; সিএমসি গ্রহণকারী ২ জনের ক্ষেত্রে ব্যাকটেরিয়া ভেতরের শ্লেষ্মা স্তরে ঢুকতে দেখা গেছে। গবেষণাটি স্বল্পমেয়াদি ও ছোট, এবং দৈনিক নির্দিষ্ট ১৫ গ্রাম ব্যবহার করেছে।" }, "sourceIds": ["rct-2022"] },
+      { "kind": "uncertainty", "evidence": "human", "strength": "preliminary", "text": { "en": "In the French NutriNet-Santé observational cohort, higher E466 intake was associated with cardiovascular disease (HR 1.03 per SD, 95% CI 1.01-1.05) and coronary heart disease (1.04). The authors describe the associations as moderate; observational data cannot prove cause and residual confounding cannot be excluded.", "bn": "ফরাসি NutriNet-Santé পর্যবেক্ষণমূলক কোহর্টে বেশি E466 গ্রহণের সঙ্গে হৃদ্‌রোগ (প্রতি SD-তে HR ১.০৩, ৯৫% CI ১.০১-১.০৫) ও করোনারি হৃদ্‌রোগের (১.০৪) সম্পর্ক পাওয়া গেছে। গবেষকেরা এই সম্পর্ককে মাঝারি বলেছেন; পর্যবেক্ষণমূলক তথ্য কারণ প্রমাণ করতে পারে না এবং অবশিষ্ট বিভ্রান্তিকর প্রভাব বাদ দেওয়া যায় না।" }, "sourceIds": ["nutrinet-cvd-2023"] },
+      { "kind": "population", "evidence": "theoretical", "strength": "preliminary", "text": { "en": "EFSA in 2022 said available data did not allow an adequate safety assessment of E466 in foods for special medical purposes for infants and young children, and no assessment was made for infants below 16 weeks because of lack of data.", "bn": "EFSA ২০২২ সালে জানিয়েছে, শিশু ও ছোটদের বিশেষ চিকিৎসা-উদ্দেশ্যের খাবারে E466-এর নিরাপত্তা যথাযথভাবে মূল্যায়নের মতো তথ্য নেই, এবং তথ্যের অভাবে ১৬ সপ্তাহের কম বয়সী শিশুদের জন্য মূল্যায়ন করা হয়নি।" }, "sourceIds": ["efsa-2022"] }
+    ],
+    "riskContext": { "en": "EFSA and JECFA set no numerical ADI, and EFSA reported no safety concern at reported uses. The human microbiome result comes from 16 people, 7 of them given a fixed 15 g/day for 11 days, and a 2023 scoping review called for larger trials at realistic intakes. It raises a question; it does not measure risk at normal intake.", "bn": "EFSA ও JECFA সংখ্যাভিত্তিক ADI নির্ধারণ করেনি, এবং EFSA প্রতিবেদিত ব্যবহারে নিরাপত্তা-উদ্বেগ পায়নি। মানুষের অণুজীব-ফলাফল এসেছে ১৬ জনের গবেষণা থেকে, যাঁদের ৭ জনকে ১১ দিন দৈনিক নির্দিষ্ট ১৫ গ্রাম দেওয়া হয়েছিল, এবং ২০২৩ সালের একটি স্কোপিং রিভিউ বাস্তবসম্মত গ্রহণে বড় ট্রায়ালের আহ্বান জানিয়েছে। এটি প্রশ্ন তোলে; স্বাভাবিক গ্রহণের ঝুঁকি পরিমাপ করে না।" },
+    "statusLabels": ["gras-conditions", "evidence-developing"],
+    "regulatory": [
+      { "authority": "EFSA", "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" }, "status": { "en": "No safety concern at reported uses for celluloses (2018); 2022 follow-up found data insufficient for foods for special medical purposes for young children", "bn": "প্রতিবেদিত ব্যবহারে সেলুলোজে নিরাপত্তা-উদ্বেগ নেই (২০১৮); ২০২২ সালে ছোটদের বিশেষ চিকিৎসা-উদ্দেশ্যের খাবারের জন্য তথ্য অপর্যাপ্ত পাওয়া গেছে" }, "adi": { "type": "not-specified", "note": { "en": "EFSA: no need for a numerical ADI (celluloses as a group).", "bn": "EFSA: সংখ্যাভিত্তিক ADI-এর প্রয়োজন নেই (সেলুলোজ গ্রুপ হিসেবে)।" } }, "date": "2022-12", "sourceId": "efsa-2022" },
+      { "authority": "JECFA", "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" }, "status": { "en": "ADI 'not specified' as part of a group for modified celluloses", "bn": "পরিবর্তিত সেলুলোজ গ্রুপের অংশ হিসেবে ADI 'not specified'" }, "adi": { "type": "not-specified", "note": { "en": "Group ADI for modified celluloses (latest evaluation 1989).", "bn": "পরিবর্তিত সেলুলোজের গ্রুপ ADI (সর্বশেষ মূল্যায়ন ১৯৮৯)।" } }, "date": "1989", "sourceId": "jecfa-inchem" },
+      { "authority": "US FDA", "jurisdiction": { "en": "United States", "bn": "মার্কিন যুক্তরাষ্ট্র" }, "status": { "en": "Generally recognized as safe (21 CFR 182.1745)", "bn": "সাধারণভাবে নিরাপদ হিসেবে স্বীকৃত (২১ CFR ১৮২.১৭৪৫)" }, "conditions": { "en": "When used in accordance with good manufacturing practice.", "bn": "উত্তম উৎপাদন-চর্চা মেনে ব্যবহার করলে।" }, "date": "2026-11", "sourceId": "cfr-182-1745" }
+    ],
+    "flags": ["infants-caution"],
+    "references": [
+      { "id": "efsa-2018", "org": "EFSA", "title": "Re-evaluation of celluloses E 460(i), E 460(ii), E 461, E 462, E 463, E 464, E 465, E 466, E 468 and E 469 as food additives", "year": 2018, "url": "https://doi.org/10.2903/j.efsa.2018.5047", "kind": "regulatory" },
+      { "id": "efsa-2022", "org": "EFSA", "title": "Opinion on the re-evaluation of sodium carboxy methyl cellulose (E 466) as a food additive in foods for infants below 16 weeks of age and follow-up of its re-evaluation as food additive for uses in foods for all population groups", "year": 2022, "url": "https://doi.org/10.2903/j.efsa.2022.7665", "kind": "regulatory" },
+      { "id": "jecfa-inchem", "org": "JECFA", "title": "JECFA Evaluations: Sodium carboxymethyl cellulose", "year": 1989, "url": "https://inchem.org/documents/jecfa/jeceval/jec_2138.htm", "kind": "regulatory" },
+      { "id": "cfr-182-1745", "org": "US FDA", "title": "21 CFR 182.1745 Sodium carboxymethylcellulose", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/section-182.1745", "kind": "regulatory" },
+      { "id": "mouse-2015", "org": "Nature", "title": "Dietary emulsifiers impact the mouse gut microbiota promoting colitis and metabolic syndrome", "year": 2015, "url": "https://pubmed.ncbi.nlm.nih.gov/25731162/", "kind": "peer-reviewed" },
+      { "id": "rct-2022", "org": "Gastroenterology", "title": "Randomized Controlled-Feeding Study of Dietary Emulsifier Carboxymethylcellulose Reveals Detrimental Impacts on the Gut Microbiota and Metabolome", "year": 2022, "url": "https://pubmed.ncbi.nlm.nih.gov/34774538/", "kind": "peer-reviewed" },
+      { "id": "nutrinet-cvd-2023", "org": "BMJ", "title": "Food additive emulsifiers and risk of cardiovascular disease in the NutriNet-Santé cohort: prospective cohort study", "year": 2023, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10480690/", "kind": "peer-reviewed" },
+      { "id": "scoping-2023", "org": "Critical Reviews in Toxicology", "title": "Evidence and hypotheses on adverse effects of the food additives carrageenan (E 407)/processed Eucheuma seaweed (E 407a) and carboxymethylcellulose (E 466) on the intestines: a scoping review", "year": 2023, "url": "https://doi.org/10.1080/10408444.2023.2270574", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "sodium-alginate",
+    "name": { "en": "Sodium alginate", "bn": "সোডিয়াম অ্যালজিনেট" },
+    "commonNames": ["alginate", "algin"],
+    "labelNames": ["sodium alginate", "e401", "e 401", "ins 401", "সোডিয়াম অ্যালজিনেট"],
+    "chemicalName": "Sodium salt of alginic acid",
+    "eNumber": "E401",
+    "ins": "401",
+    "category": "stabilizers",
+    "alsoIn": ["thickeners"],
+    "origin": "natural-derived",
+    "originNote": { "en": "Alginic acid is taken from brown seaweed and neutralised to its sodium salt. Origin says nothing about safety.", "bn": "বাদামি সামুদ্রিক শৈবাল থেকে অ্যালজিনিক অ্যাসিড নিয়ে নিরপেক্ষ করে সোডিয়াম লবণ তৈরি হয়। উৎস দিয়ে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["jams-spreads", "frozen-desserts", "sauces-condiments", "dairy"],
+    "summary": { "en": "A brown-seaweed gelling agent that sets when it meets calcium; EFSA saw no need for a numerical ADI, with data gaps for young children's medical foods.", "bn": "বাদামি শৈবালের জেল-উৎপাদক, যা ক্যালসিয়ামের সংস্পর্শে জমে যায়; EFSA সংখ্যাভিত্তিক ADI-এর প্রয়োজন দেখেনি, তবে শিশুদের চিকিৎসা-খাবারে তথ্যের ঘাটতি আছে।" },
+    "whatIs": { "en": "Sodium alginate is the sodium salt of alginic acid, a natural carbohydrate in brown seaweeds. It dissolves in water to form a thick solution.", "bn": "সোডিয়াম অ্যালজিনেট হলো বাদামি শৈবালের প্রাকৃতিক শর্করা অ্যালজিনিক অ্যাসিডের সোডিয়াম লবণ। এটি পানিতে দ্রবীভূত হয়ে ঘন দ্রবণ তৈরি করে।" },
+    "whyUsed": { "en": "It stabilises and thickens foods and forms gels used in fruit fillings and restructured products.", "bn": "এটি খাবারকে স্থিতিশীল ও ঘন করে এবং ফলের পুর ও পুনর্গঠিত খাবারে ব্যবহৃত জেল তৈরি করে।" },
+    "howItWorks": { "en": "Calcium ions link its chains together, creating a firm gel even without heat.", "bn": "ক্যালসিয়াম আয়ন এর শৃঙ্খলগুলোকে জুড়ে দেয়, ফলে তাপ ছাড়াই শক্ত জেল তৈরি হয়।" },
+    "properties": [
+      { "en": "gels with calcium without heating", "bn": "তাপ ছাড়াই ক্যালসিয়ামের সঙ্গে জেল তৈরি করে" }
+    ],
+    "benefits": [
+      { "kind": "texture", "text": { "en": "Allows gels and stable fillings without heating.", "bn": "তাপ ছাড়াই জেল ও স্থিতিশীল পুর তৈরি করা যায়।" } }
+    ],
+    "risks": [
+      { "kind": "population", "evidence": "theoretical", "strength": "preliminary", "text": { "en": "EFSA said exposure of infants and young children should stay below therapeutic doses where side effects can occur, and that available data did not allow an adequate safety assessment in foods for special medical purposes for infants and young children.", "bn": "EFSA বলেছে, শিশু ও ছোটদের গ্রহণ চিকিৎসা-মাত্রার নিচে থাকা উচিত, যেখানে পার্শ্বপ্রতিক্রিয়া হতে পারে; এবং শিশু ও ছোটদের বিশেষ চিকিৎসা-উদ্দেশ্যের খাবারে নিরাপত্তা যথাযথভাবে মূল্যায়নের মতো তথ্য নেই।" }, "sourceIds": ["efsa-2017"] }
+    ],
+    "riskContext": { "en": "EFSA found no safety concern at reported uses and no need for a numerical ADI, so for the general population the evidence shows few concerns. The open questions are limited to infants and young children, especially in special medical foods.", "bn": "EFSA প্রতিবেদিত ব্যবহারে নিরাপত্তা-উদ্বেগ পায়নি এবং সংখ্যাভিত্তিক ADI-এর প্রয়োজন দেখেনি, তাই সাধারণ জনগোষ্ঠীর জন্য প্রমাণে উদ্বেগ কমই দেখা যায়। অমীমাংসিত প্রশ্নগুলো শিশু ও ছোটদের, বিশেষত বিশেষ চিকিৎসা-খাবারের ক্ষেত্রে সীমিত।" },
+    "statusLabels": ["gras-conditions", "within-limits"],
+    "regulatory": [
+      { "authority": "EFSA", "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" }, "status": { "en": "No safety concern at reported uses (E400-E404)", "bn": "প্রতিবেদিত ব্যবহারে নিরাপত্তা-উদ্বেগ নেই (E400-E404)" }, "adi": { "type": "not-specified", "note": { "en": "EFSA: no need for a numerical ADI for alginic acid and its salts.", "bn": "EFSA: অ্যালজিনিক অ্যাসিড ও এর লবণের জন্য সংখ্যাভিত্তিক ADI-এর প্রয়োজন নেই।" } }, "date": "2017-11", "sourceId": "efsa-2017" },
+      { "authority": "JECFA", "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" }, "status": { "en": "ADI 'not specified' listed for alginic acid", "bn": "অ্যালজিনিক অ্যাসিডের জন্য ADI 'not specified' তালিকাভুক্ত" }, "adi": { "type": "not-specified", "note": { "en": "Database entry is for alginic acid (INS 400); EFSA reports JECFA gave the acid and its salts a group ADI 'not specified'.", "bn": "ডেটাবেসের এন্ট্রি অ্যালজিনিক অ্যাসিডের জন্য; EFSA জানিয়েছে JECFA অ্যাসিড ও এর লবণকে 'not specified' গ্রুপ ADI দিয়েছে।" } }, "date": "1992", "sourceId": "jecfa-who" },
+      { "authority": "US FDA", "jurisdiction": { "en": "United States", "bn": "মার্কিন যুক্তরাষ্ট্র" }, "status": { "en": "Affirmed as GRAS with specific limits by food type (21 CFR 184.1724)", "bn": "খাবারের ধরন অনুযায়ী নির্দিষ্ট সীমাসহ GRAS হিসেবে স্বীকৃত (২১ CFR ১৮৪.১৭২৪)" }, "limits": { "en": "For example, condiments and relishes up to 1.0%, confections and frostings up to 0.3%.", "bn": "যেমন, চাটনি ও মশলাদার সসে ১.০% পর্যন্ত, মিষ্টান্ন ও আইসিংয়ে ০.৩% পর্যন্ত।" }, "date": "1983-11", "sourceId": "cfr-184-1724" }
+    ],
+    "flags": ["infants-caution"],
+    "references": [
+      { "id": "efsa-2017", "org": "EFSA", "title": "Re-evaluation of alginic acid and its sodium, potassium, ammonium and calcium salts (E 400-E 404) as food additives", "year": 2017, "url": "https://doi.org/10.2903/j.efsa.2017.5049", "kind": "regulatory" },
+      { "id": "jecfa-who", "org": "JECFA / WHO", "title": "JECFA database: Alginic acid", "year": 1992, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1159", "kind": "regulatory" },
+      { "id": "cfr-184-1724", "org": "US FDA", "title": "21 CFR 184.1724 Sodium alginate", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/section-184.1724", "kind": "regulatory" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09", "notes": "JECFA's database gives the evaluation as 1992 while EFSA gives 1993 for what appears to be the same allocation; the database year is used." }
+  },
+  {
+    "id": "gellan-gum",
+    "name": { "en": "Gellan gum", "bn": "জেলান গাম" },
+    "commonNames": ["gellan"],
+    "labelNames": ["gellan gum", "gellan", "e418", "e 418", "ins 418", "জেলান গাম"],
+    "chemicalName": "High-molecular-weight polysaccharide gum from Pseudomonas elodea",
+    "eNumber": "E418",
+    "ins": "418",
+    "category": "stabilizers",
+    "alsoIn": ["thickeners"],
+    "origin": "fermentation",
+    "originNote": { "en": "Made by pure-culture bacterial fermentation and purified. Origin says nothing about safety.", "bn": "বিশুদ্ধ ব্যাকটেরিয়া-কালচারে গাঁজন করে তৈরি ও শোধিত। উৎস দিয়ে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["dairy", "jams-spreads", "soft-drinks", "frozen-desserts"],
+    "summary": { "en": "A fermentation-made gelling agent used at very low levels; EFSA saw no need for a numerical ADI and JECFA also lists it as not specified.", "bn": "গাঁজনে তৈরি জেল-উৎপাদক, খুব অল্প মাত্রায় ব্যবহৃত; EFSA সংখ্যাভিত্তিক ADI-এর প্রয়োজন দেখেনি, JECFA-ও একে not specified বলে তালিকাভুক্ত করেছে।" },
+    "whatIs": { "en": "Gellan gum is a carbohydrate made by bacteria during fermentation, then purified. It is built from repeating sugar units.", "bn": "জেলান গাম হলো গাঁজনের সময় ব্যাকটেরিয়ার তৈরি শর্করা, যা পরে শোধন করা হয়। এটি পুনরাবৃত্ত চিনি-একক দিয়ে গঠিত।" },
+    "whyUsed": { "en": "It forms gels and suspends fine particles in drinks and desserts at very small amounts.", "bn": "খুব অল্প পরিমাণেই এটি জেল তৈরি করে এবং পানীয় ও ডেজার্টে সূক্ষ্ম কণা ভাসিয়ে রাখে।" },
+    "howItWorks": { "en": "Its chains join with minerals such as calcium when cooled, forming a network that traps water.", "bn": "ঠান্ডা হলে এর শৃঙ্খলগুলো ক্যালসিয়ামের মতো খনিজের সঙ্গে যুক্ত হয়ে পানি-ধরা জাল তৈরি করে।" },
+    "properties": [
+      { "en": "gels with calcium", "bn": "ক্যালসিয়ামের সঙ্গে জেল তৈরি করে" },
+      { "en": "suspends particles in drinks", "bn": "পানীয়ে কণা ভাসিয়ে রাখে" }
+    ],
+    "benefits": [
+      { "kind": "texture", "text": { "en": "Gives clean gels and particle suspension at small doses.", "bn": "অল্প মাত্রায় পরিষ্কার জেল ও কণা ভাসানোর সুবিধা দেয়।" } }
+    ],
+    "risks": [
+      { "kind": "side-effect", "evidence": "human", "strength": "preliminary", "text": { "en": "JECFA advised taking account of a possible laxative effect at high intakes. EFSA reported that repeated intake up to 200 mg/kg bw/day for 3 weeks had no adverse effects in humans, and noted that gellan would not be fermented by gut bacteria.", "bn": "JECFA উচ্চ গ্রহণে সম্ভাব্য জোলাপ-প্রভাব বিবেচনায় নিতে বলেছে। EFSA জানিয়েছে, ৩ সপ্তাহ ধরে ২০০ মিগ্রা/কেজি দেহ-ওজন/দিন পর্যন্ত গ্রহণে মানুষের ক্ষতিকর প্রভাব দেখা যায়নি, এবং অন্ত্রের ব্যাকটেরিয়া জেলান গাঁজন করবে না।" }, "sourceIds": ["jecfa-who", "efsa-2018"] }
+    ],
+    "riskContext": { "en": "EFSA's highest refined estimate was 72.4 mg/kg bw/day in toddlers, well below the levels without adverse effect in long-term mouse and rat studies. In the NutriNet-Santé cardiovascular analysis only about 2% of participants consumed gellan, too few for a separate result, so human evidence is thin.", "bn": "EFSA-র পরিমার্জিত সর্বোচ্চ হিসাব টডলারদের জন্য ৭২.৪ মিগ্রা/কেজি দেহ-ওজন/দিন, যা দীর্ঘমেয়াদি ইঁদুর-গবেষণায় ক্ষতিকর প্রভাব না-পাওয়া মাত্রার অনেক নিচে। NutriNet-Santé-র হৃদ্‌রোগ বিশ্লেষণে মাত্র প্রায় ২% অংশগ্রহণকারী জেলান খেয়েছেন, যা আলাদা ফলাফলের জন্য যথেষ্ট নয়; তাই মানুষের প্রমাণ সীমিত।" },
+    "statusLabels": ["approved-specific"],
+    "regulatory": [
+      { "authority": "EFSA", "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" }, "status": { "en": "No safety concern at reported uses", "bn": "প্রতিবেদিত ব্যবহারে নিরাপত্তা-উদ্বেগ নেই" }, "adi": { "type": "not-specified", "note": { "en": "EFSA: no need for a numerical ADI.", "bn": "EFSA: সংখ্যাভিত্তিক ADI-এর প্রয়োজন নেই।" } }, "date": "2018-06", "sourceId": "efsa-2018" },
+      { "authority": "JECFA", "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" }, "status": { "en": "ADI 'not specified'; low-acyl clarified gellan for infant special medical formulas not of concern (2019)", "bn": "ADI 'not specified'; শিশুদের বিশেষ চিকিৎসা-ফর্মুলায় লো-অ্যাসাইল ক্ল্যারিফায়েড জেলানে উদ্বেগ নেই (২০১৯)" }, "adi": { "type": "not-specified" }, "date": "2019", "sourceId": "jecfa-who" },
+      { "authority": "US FDA", "jurisdiction": { "en": "United States", "bn": "মার্কিন যুক্তরাষ্ট্র" }, "status": { "en": "Permitted food additive (21 CFR 172.665)", "bn": "অনুমোদিত খাদ্য সংযোজন (২১ CFR ১৭২.৬৬৫)" }, "conditions": { "en": "As a stabilizer and thickener under good manufacturing practice.", "bn": "উত্তম উৎপাদন-চর্চা মেনে স্থিতিকারক ও ঘনকারক হিসেবে।" }, "date": "2026-11", "sourceId": "cfr-172-665" }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2018", "org": "EFSA", "title": "Re-evaluation of gellan gum (E 418) as food additive", "year": 2018, "url": "https://doi.org/10.2903/j.efsa.2018.5296", "kind": "regulatory" },
+      { "id": "jecfa-who", "org": "JECFA / WHO", "title": "JECFA database: gellan gum", "year": 2025, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2056", "kind": "regulatory" },
+      { "id": "cfr-172-665", "org": "US FDA", "title": "21 CFR 172.665 Gellan gum", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/section-172.665", "kind": "regulatory" },
+      { "id": "nutrinet-cvd-2023", "org": "BMJ", "title": "Food additive emulsifiers and risk of cardiovascular disease in the NutriNet-Santé cohort: prospective cohort study", "year": 2023, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10480690/", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "xanthan-gum",
+    "name": { "en": "Xanthan gum", "bn": "জ্যান্থান গাম" },
+    "commonNames": ["xanthan"],
+    "labelNames": ["xanthan gum", "xanthan", "e415", "e 415", "ins 415", "জ্যান্থান গাম"],
+    "chemicalName": "Polysaccharide gum from Xanthomonas campestris",
+    "eNumber": "E415",
+    "ins": "415",
+    "category": "thickeners",
+    "alsoIn": ["stabilizers"],
+    "origin": "fermentation",
+    "originNote": { "en": "Made by pure-culture fermentation with Xanthomonas campestris and purified. Origin says nothing about safety.", "bn": "Xanthomonas campestris-এর বিশুদ্ধ কালচারে গাঁজন করে তৈরি ও শোধিত। উৎস দিয়ে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["sauces-condiments", "frozen-desserts", "bread-bakery"],
+    "summary": { "en": "A fermentation-made thickener common in sauces; no numerical ADI, with a 2011 FDA warning about a xanthan-based thickening product for premature infants.", "bn": "সসে বহুল ব্যবহৃত গাঁজনজাত ঘনকারক; সংখ্যাভিত্তিক ADI নেই, তবে ২০১১ সালে অকালজাত শিশুদের জন্য জ্যান্থান-ভিত্তিক একটি ঘনকারক পণ্য নিয়ে FDA সতর্কতা দেয়।" },
+    "whatIs": { "en": "Xanthan gum is a carbohydrate made by the bacterium Xanthomonas campestris during fermentation. It is not absorbed intact and is fermented by gut bacteria.", "bn": "জ্যান্থান গাম হলো Xanthomonas campestris ব্যাকটেরিয়ার গাঁজনে তৈরি শর্করা। এটি অক্ষত অবস্থায় শোষিত হয় না এবং অন্ত্রের ব্যাকটেরিয়া এটি গাঁজন করে।" },
+    "whyUsed": { "en": "It thickens sauces and dressings, suspends particles and gives structure to gluten-free baking.", "bn": "এটি সস ও ড্রেসিং ঘন করে, কণা ভাসিয়ে রাখে এবং গ্লুটেনমুক্ত বেকিংয়ে গঠন দেয়।" },
+    "howItWorks": { "en": "Its long chains form a weak network in water that thickens at rest and thins when poured or stirred.", "bn": "এর লম্বা শৃঙ্খল পানিতে দুর্বল জাল তৈরি করে, যা স্থির অবস্থায় ঘন এবং ঢালা বা নাড়ার সময় পাতলা হয়।" },
+    "properties": [
+      { "en": "thickens hot or cold", "bn": "গরম বা ঠান্ডা অবস্থায় ঘন করে" },
+      { "en": "thins when poured, thickens at rest", "bn": "ঢালার সময় পাতলা, স্থির হলে ঘন" }
+    ],
+    "benefits": [
+      { "kind": "texture", "text": { "en": "Stabilises sauces and dressings at low levels.", "bn": "অল্প মাত্রায় সস ও ড্রেসিং স্থিতিশীল করে।" } }
+    ],
+    "risks": [
+      { "kind": "population", "evidence": "human", "strength": "preliminary", "text": { "en": "In May 2011 FDA, through a CDC health advisory, warned not to feed a xanthan-gum thickening product to infants born before 37 weeks, citing 17 reports of necrotizing enterocolitis including five deaths. The mechanism was unknown and it was unclear whether other thickeners shared the risk. FDA-related case review published in 2012 described 22 exposed cases. Caregivers of premature infants should follow that advice and ask their clinician about thickened feeds.", "bn": "২০১১ সালের মে মাসে FDA, CDC-র একটি স্বাস্থ্য পরামর্শের মাধ্যমে, ৩৭ সপ্তাহের আগে জন্মানো শিশুদের একটি জ্যান্থান গাম ঘনকারক পণ্য না খাওয়াতে সতর্ক করে; নেক্রোটাইজিং এন্টারোকোলাইটিসের ১৭টি প্রতিবেদন উল্লেখ করা হয়, যার মধ্যে পাঁচটি মৃত্যু। কারণ-প্রক্রিয়া জানা ছিল না এবং অন্য ঘনকারকের একই ঝুঁকি আছে কি না তাও অজানা ছিল। ২০১২ সালে প্রকাশিত FDA-সংশ্লিষ্ট কেস-পর্যালোচনায় সংস্পর্শে থাকা ২২টি ঘটনা বর্ণিত হয়। অকালজাত শিশুর পরিচর্যাকারীদের এই পরামর্শ মানা এবং ঘন করা খাবার নিয়ে চিকিৎসকের সঙ্গে কথা বলা উচিত।" }, "sourceIds": ["cdc-han-2011", "beal-2012"] },
+      { "kind": "side-effect", "evidence": "human", "strength": "established", "text": { "en": "EFSA reported that adults taking up to 214 mg/kg bw/day for ten days tolerated it well, but some had abdominal discomfort, which it classed as undesirable but not adverse.", "bn": "EFSA জানিয়েছে, প্রাপ্তবয়স্করা দশ দিন ধরে ২১৪ মিগ্রা/কেজি দেহ-ওজন/দিন পর্যন্ত ভালোভাবে সহ্য করেছেন, তবে কারও কারও পেটে অস্বস্তি হয়েছে, যা EFSA অবাঞ্ছিত কিন্তু ক্ষতিকর নয় বলে গণ্য করেছে।" }, "sourceIds": ["efsa-2017"] },
+      { "kind": "uncertainty", "evidence": "human", "strength": "preliminary", "text": { "en": "In the French NutriNet-Santé observational cohort, E415 was associated with type 2 diabetes (HR 1.08 per 500 mg/day, 95% CI 1.02-1.14). A link with overall cancer was not robust in sensitivity analyses. These are associations, not proof of cause, and replication is needed.", "bn": "ফরাসি NutriNet-Santé পর্যবেক্ষণমূলক কোহর্টে E415-এর সঙ্গে টাইপ ২ ডায়াবেটিসের সম্পর্ক পাওয়া গেছে (প্রতি দিন ৫০০ মিগ্রায় HR ১.০৮, ৯৫% CI ১.০২-১.১৪)। সামগ্রিক ক্যানসারের সঙ্গে সম্পর্কটি সংবেদনশীলতা বিশ্লেষণে টেকেনি। এগুলো সম্পর্কমাত্র, কারণের প্রমাণ নয়; পুনরাবৃত্তি প্রয়োজন।" }, "sourceIds": ["nutrinet-t2d-2024", "nutrinet-cancer-2024"] }
+    ],
+    "riskContext": { "en": "The infant warning concerned a specific thickening product given to very young infants, and the 2023 EFSA review, based on piglet data and margin of exposure, found no safety concern for E415 in special medical formulas for infants below 16 weeks. These are different questions, and for premature babies the FDA warning is the relevant caution.", "bn": "শিশু-সতর্কতাটি খুব ছোট শিশুদের দেওয়া একটি নির্দিষ্ট ঘনকারক পণ্য নিয়ে ছিল, আর ২০২৩ সালে EFSA শূকর-ছানার তথ্য ও এক্সপোজার-মার্জিনের ভিত্তিতে ১৬ সপ্তাহের কম বয়সী শিশুদের বিশেষ চিকিৎসা-ফর্মুলায় E415-এ নিরাপত্তা-উদ্বেগ পায়নি। প্রশ্ন দুটি আলাদা; অকালজাত শিশুদের জন্য FDA-র সতর্কতাই প্রাসঙ্গিক।" },
+    "statusLabels": ["approved-specific", "evidence-developing"],
+    "regulatory": [
+      { "authority": "EFSA", "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" }, "status": { "en": "No safety concern for the general population (2017); no safety concern for special medical formulas for infants below 16 weeks (2023)", "bn": "সাধারণ জনগোষ্ঠীর জন্য নিরাপত্তা-উদ্বেগ নেই (২০১৭); ১৬ সপ্তাহের কম বয়সী শিশুদের বিশেষ চিকিৎসা-ফর্মুলায় উদ্বেগ নেই (২০২৩)" }, "adi": { "type": "not-specified", "note": { "en": "EFSA: no need for a numerical ADI.", "bn": "EFSA: সংখ্যাভিত্তিক ADI-এর প্রয়োজন নেই।" } }, "date": "2023-05", "sourceId": "efsa-2023" },
+      { "authority": "JECFA", "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" }, "status": { "en": "ADI 'not specified' (latest evaluation 1986)", "bn": "ADI 'not specified' (সর্বশেষ মূল্যায়ন ১৯৮৬)" }, "adi": { "type": "not-specified" }, "date": "1986", "sourceId": "jecfa-inchem" },
+      { "authority": "US FDA", "jurisdiction": { "en": "United States", "bn": "মার্কিন যুক্তরাষ্ট্র" }, "status": { "en": "Permitted food additive (21 CFR 172.695)", "bn": "অনুমোদিত খাদ্য সংযোজন (২১ CFR ১৭২.৬৯৫)" }, "conditions": { "en": "As stabilizer, emulsifier, thickener and similar uses under good manufacturing practice.", "bn": "উত্তম উৎপাদন-চর্চা মেনে স্থিতিকারক, ইমালসিফায়ার, ঘনকারক ও অনুরূপ ব্যবহারে।" }, "date": "2026-11", "sourceId": "cfr-172-695" }
+    ],
+    "flags": ["infants-caution"],
+    "references": [
+      { "id": "efsa-2017", "org": "EFSA", "title": "Re-evaluation of xanthan gum (E 415) as a food additive", "year": 2017, "url": "https://doi.org/10.2903/j.efsa.2017.4909", "kind": "regulatory" },
+      { "id": "efsa-2023", "org": "EFSA", "title": "Re-evaluation of xanthan gum (E 415) as a food additive in foods for infants below 16 weeks of age and follow-up of its re-evaluation as a food additive for uses in foods for all population groups", "year": 2023, "url": "https://doi.org/10.2903/j.efsa.2023.7951", "kind": "regulatory" },
+      { "id": "jecfa-inchem", "org": "JECFA", "title": "JECFA Evaluations: Xanthan gum", "year": 2001, "url": "https://inchem.org/documents/jecfa/jeceval/jec_2394.htm", "kind": "regulatory" },
+      { "id": "cfr-172-695", "org": "US FDA", "title": "21 CFR 172.695 Xanthan gum", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/section-172.695", "kind": "regulatory" },
+      { "id": "cdc-han-2011", "org": "CDC Health Alert Network / US FDA", "title": "Health Advisory CDCHAN-00321-ADV-N, May 27, 2011", "year": 2011, "url": "https://archive.cdc.gov/emergency_cdc_gov/han/han00321.asp", "kind": "agency-guidance" },
+      { "id": "beal-2012", "org": "The Journal of Pediatrics", "title": "Late onset necrotizing enterocolitis in infants following use of a xanthan gum-containing thickening agent", "year": 2012, "url": "https://pubmed.ncbi.nlm.nih.gov/22575248/", "kind": "peer-reviewed" },
+      { "id": "nutrinet-t2d-2024", "org": "The Lancet Diabetes & Endocrinology", "title": "Food additive emulsifiers and the risk of type 2 diabetes: analysis of data from the NutriNet-Santé prospective cohort study", "year": 2024, "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00086-X/fulltext", "kind": "peer-reviewed" },
+      { "id": "nutrinet-cancer-2024", "org": "PLOS Medicine", "title": "Food additive emulsifiers and cancer risk: Results from the French prospective NutriNet-Santé cohort", "year": 2024, "url": "https://doi.org/10.1371/journal.pmed.1004338", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "partial", "checkedOn": "2026-11-09", "notes": "The May 2011 FDA warning was read in the CDC Health Alert Network copy; FDA's own page and any later FDA update (a 2012 expansion to other infants was reported by secondary sources) could not be opened, so the record states only the 2011 warning and the 2012 case-series count. The reference title omits the product brand name named in the source document." }
+  },
+  {
+    "id": "guar-gum",
+    "name": { "en": "Guar gum", "bn": "গুয়ার গাম" },
+    "commonNames": ["guar", "guar flour"],
+    "labelNames": ["guar gum", "guar", "e412", "e 412", "ins 412", "গুয়ার গাম"],
+    "chemicalName": "Natural gum from the seed of Cyamopsis tetragonoloba",
+    "eNumber": "E412",
+    "ins": "412",
+    "category": "thickeners",
+    "alsoIn": ["stabilizers"],
+    "origin": "natural",
+    "originNote": { "en": "From the seed of the guar plant. Origin says nothing about safety.", "bn": "গুয়ার গাছের বীজ থেকে পাওয়া। উৎস দিয়ে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["sauces-condiments", "frozen-desserts", "dairy", "bread-bakery"],
+    "summary": { "en": "A plant-seed thickener with no numerical ADI; EFSA found the data insufficient to support its use in foods for infants and young children in medical categories.", "bn": "উদ্ভিদের বীজের ঘনকারক, সংখ্যাভিত্তিক ADI নেই; শিশু ও ছোটদের চিকিৎসা-খাবারে এর ব্যবহার সমর্থনের মতো তথ্য EFSA অপর্যাপ্ত পেয়েছে।" },
+    "whatIs": { "en": "Guar gum comes from the seeds of the guar plant. It is a soluble fibre that the body does not digest but gut bacteria significantly ferment.", "bn": "গুয়ার গাম আসে গুয়ার গাছের বীজ থেকে। এটি দ্রবণীয় আঁশ, যা শরীর হজম করতে পারে না, তবে অন্ত্রের ব্যাকটেরিয়া উল্লেখযোগ্যভাবে গাঁজন করে।" },
+    "whyUsed": { "en": "It thickens foods cheaply and helps keep ice cream, sauces and baked goods moist and smooth.", "bn": "এটি কম খরচে খাবার ঘন করে এবং আইসক্রিম, সস ও বেকড খাবারকে আর্দ্র ও মসৃণ রাখে।" },
+    "howItWorks": { "en": "Its long chains swell in cold water and form a thick solution.", "bn": "এর লম্বা শৃঙ্খল ঠান্ডা পানিতে ফুলে ঘন দ্রবণ তৈরি করে।" },
+    "properties": [
+      { "en": "thickens in cold water", "bn": "ঠান্ডা পানিতে ঘন করে" },
+      { "en": "significantly fermented by gut bacteria", "bn": "অন্ত্রের ব্যাকটেরিয়া উল্লেখযোগ্যভাবে গাঁজন করে" }
+    ],
+    "benefits": [
+      { "kind": "texture", "text": { "en": "Gives thickness and moisture retention at low cost.", "bn": "কম খরচে ঘনত্ব ও আর্দ্রতা ধরে রাখার সুবিধা দেয়।" } }
+    ],
+    "risks": [
+      { "kind": "population", "evidence": "theoretical", "strength": "preliminary", "text": { "en": "EFSA in 2024 concluded that the submitted data were not sufficient to support safe use of guar gum in formula and foods for special medical purposes for infants and young children. The 2017 opinion asked for abdominal discomfort to be monitored in young children.", "bn": "EFSA ২০২৪ সালে সিদ্ধান্তে পৌঁছেছে, শিশু ও ছোটদের ফর্মুলা ও বিশেষ চিকিৎসা-উদ্দেশ্যের খাবারে গুয়ার গামের নিরাপদ ব্যবহার সমর্থনের জন্য জমা দেওয়া তথ্য যথেষ্ট নয়। ২০১৭ সালের মতামতে ছোটদের পেটের অস্বস্তি পর্যবেক্ষণ করতে বলা হয়েছিল।" }, "sourceIds": ["efsa-2024", "efsa-2017"] },
+      { "kind": "uncertainty", "evidence": "human", "strength": "preliminary", "text": { "en": "In the French NutriNet-Santé observational cohort, E412 was associated with type 2 diabetes (HR 1.11 per 500 mg/day, 95% CI 1.06-1.17). A link with prostate cancer was not robust in sensitivity analyses. These findings cannot show cause and need replication.", "bn": "ফরাসি NutriNet-Santé পর্যবেক্ষণমূলক কোহর্টে E412-এর সঙ্গে টাইপ ২ ডায়াবেটিসের সম্পর্ক পাওয়া গেছে (প্রতি দিন ৫০০ মিগ্রায় HR ১.১১, ৯৫% CI ১.০৬-১.১৭)। প্রস্টেট ক্যানসারের সঙ্গে সম্পর্কটি সংবেদনশীলতা বিশ্লেষণে টেকেনি। এই ফলাফল কারণ দেখাতে পারে না; পুনরাবৃত্তি প্রয়োজন।" }, "sourceIds": ["nutrinet-t2d-2024", "nutrinet-cancer-2024"] }
+    ],
+    "riskContext": { "en": "For the general population EFSA found no safety concern at reported uses and no need for a numerical ADI, and noted that oral intake was well tolerated in adults. The caution applies to infant and young-child medical foods, where data are missing, rather than to everyday use by adults.", "bn": "সাধারণ জনগোষ্ঠীর জন্য EFSA প্রতিবেদিত ব্যবহারে নিরাপত্তা-উদ্বেগ পায়নি, সংখ্যাভিত্তিক ADI-এর প্রয়োজন দেখেনি, এবং প্রাপ্তবয়স্করা এটি ভালোভাবে সহ্য করেন বলে জানিয়েছে। সতর্কতাটি শিশু ও ছোটদের চিকিৎসা-খাবারের জন্য, যেখানে তথ্যের ঘাটতি আছে; প্রাপ্তবয়স্কদের দৈনন্দিন ব্যবহারের জন্য নয়।" },
+    "statusLabels": ["gras-conditions", "within-limits", "evidence-developing"],
+    "regulatory": [
+      { "authority": "EFSA", "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" }, "status": { "en": "No safety concern for the general population (2017); data insufficient for infant and young-child medical foods (2024)", "bn": "সাধারণ জনগোষ্ঠীর জন্য নিরাপত্তা-উদ্বেগ নেই (২০১৭); শিশু ও ছোটদের চিকিৎসা-খাবারের জন্য তথ্য অপর্যাপ্ত (২০২৪)" }, "adi": { "type": "not-specified", "note": { "en": "EFSA: no need for a numerical ADI.", "bn": "EFSA: সংখ্যাভিত্তিক ADI-এর প্রয়োজন নেই।" } }, "date": "2024-05", "sourceId": "efsa-2024" },
+      { "authority": "JECFA", "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" }, "status": { "en": "ADI 'not specified' (latest evaluation 1975)", "bn": "ADI 'not specified' (সর্বশেষ মূল্যায়ন ১৯৭৫)" }, "adi": { "type": "not-specified" }, "date": "1975", "sourceId": "jecfa-inchem" },
+      { "authority": "US FDA", "jurisdiction": { "en": "United States", "bn": "মার্কিন যুক্তরাষ্ট্র" }, "status": { "en": "Affirmed as GRAS with limits by food type (21 CFR 184.1339)", "bn": "খাবারের ধরন অনুযায়ী সীমাসহ GRAS হিসেবে স্বীকৃত (২১ CFR ১৮৪.১৩৩৯)" }, "limits": { "en": "For example, baked goods up to 0.35%, breakfast cereals up to 1.2%.", "bn": "যেমন, বেকড খাবারে ০.৩৫% পর্যন্ত, ব্রেকফাস্ট সিরিয়ালে ১.২% পর্যন্ত।" }, "date": "2026-11", "sourceId": "cfr-184-1339" }
+    ],
+    "flags": ["infants-caution"],
+    "references": [
+      { "id": "efsa-2017", "org": "EFSA", "title": "Re-evaluation of guar gum (E 412) as a food additive", "year": 2017, "url": "https://doi.org/10.2903/j.efsa.2017.4669", "kind": "regulatory" },
+      { "id": "efsa-2024", "org": "EFSA", "title": "Re-evaluation of guar gum (E 412) as a food additive in foods for infants below 16 weeks of age and follow-up of its re-evaluation as food additive for uses in foods for all population groups", "year": 2024, "url": "https://doi.org/10.2903/j.efsa.2024.8748", "kind": "regulatory" },
+      { "id": "jecfa-inchem", "org": "JECFA", "title": "JECFA Evaluations: Guar gum", "year": 2001, "url": "https://inchem.org/documents/jecfa/jeceval/jec_946.htm", "kind": "regulatory" },
+      { "id": "cfr-184-1339", "org": "US FDA", "title": "21 CFR 184.1339 Guar gum", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/section-184.1339", "kind": "regulatory" },
+      { "id": "nutrinet-t2d-2024", "org": "The Lancet Diabetes & Endocrinology", "title": "Food additive emulsifiers and the risk of type 2 diabetes: analysis of data from the NutriNet-Santé prospective cohort study", "year": 2024, "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00086-X/fulltext", "kind": "peer-reviewed" },
+      { "id": "nutrinet-cancer-2024", "org": "PLOS Medicine", "title": "Food additive emulsifiers and cancer risk: Results from the French prospective NutriNet-Santé cohort", "year": 2024, "url": "https://doi.org/10.1371/journal.pmed.1004338", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "pectin",
+    "name": { "en": "Pectin", "bn": "পেকটিন" },
+    "commonNames": ["amidated pectin", "fruit pectin"],
+    "labelNames": ["pectin", "pectins", "amidated pectin", "e440", "e 440", "e440i", "e440ii", "ins 440", "পেকটিন"],
+    "chemicalName": "Partially methylated polygalacturonic acid",
+    "eNumber": "E440",
+    "ins": "440",
+    "category": "thickeners",
+    "alsoIn": ["stabilizers"],
+    "origin": "natural",
+    "originNote": { "en": "Extracted with hot dilute acid from citrus peel, apple pomace or beet pulp; amidated pectin is further modified. Origin says nothing about safety.", "bn": "গরম লঘু অ্যাসিডে সাইট্রাসের খোসা, আপেলের ছোবড়া বা বিট-মণ্ড থেকে আহরিত; অ্যামিডেটেড পেকটিন আরও পরিবর্তিত। উৎস দিয়ে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["jams-spreads", "juices", "dairy", "chocolate-confectionery"],
+    "summary": { "en": "A fruit-fibre gelling agent for jams and fruit products; EFSA saw no need for a numerical ADI but recommended lower limits in some special infant foods.", "bn": "জ্যাম ও ফলের পণ্যের জন্য ফলের আঁশের জেল-উৎপাদক; EFSA সংখ্যাভিত্তিক ADI-এর প্রয়োজন দেখেনি, তবে কিছু বিশেষ শিশু-খাবারে সীমা কমানোর সুপারিশ করেছে।" },
+    "whatIs": { "en": "Pectin is a soluble fibre found in the cell walls of plants. Commercial pectin is usually extracted from citrus peel or apple residue.", "bn": "পেকটিন হলো উদ্ভিদের কোষপ্রাচীরে থাকা দ্রবণীয় আঁশ। বাণিজ্যিক পেকটিন সাধারণত সাইট্রাসের খোসা বা আপেলের অবশিষ্টাংশ থেকে আহরণ করা হয়।" },
+    "whyUsed": { "en": "It sets jams and jellies and helps stabilise fruit drinks and acidified dairy products.", "bn": "এটি জ্যাম ও জেলি জমায় এবং ফলের পানীয় ও অম্লীয় দুগ্ধজাত খাবারকে স্থিতিশীল রাখে।" },
+    "howItWorks": { "en": "In the presence of sugar and acid, or calcium for some types, its chains link together into a gel.", "bn": "চিনি ও অ্যাসিড, অথবা কিছু ধরনের ক্ষেত্রে ক্যালসিয়ামের উপস্থিতিতে এর শৃঙ্খল জুড়ে জেল তৈরি হয়।" },
+    "properties": [
+      { "en": "gels with sugar and acid", "bn": "চিনি ও অ্যাসিডের সঙ্গে জেল তৈরি করে" },
+      { "en": "extensively fermented by gut bacteria", "bn": "অন্ত্রের ব্যাকটেরিয়া ব্যাপকভাবে গাঁজন করে" }
+    ],
+    "benefits": [
+      { "kind": "texture", "text": { "en": "Gives jams their set and stabilises fruit drinks.", "bn": "জ্যাম জমায় এবং ফলের পানীয় স্থিতিশীল রাখে।" } }
+    ],
+    "risks": [
+      { "kind": "population", "evidence": "animal", "strength": "established", "text": { "en": "EFSA in 2021, based on a neonatal piglet study, found margins of safety below 1 in some scenarios for special infant foods, and that methanol released at maximum levels could affect infants below 16 weeks. It recommended lowering the maximum permitted level in those foods.", "bn": "নবজাতক শূকর-ছানার গবেষণার ভিত্তিতে EFSA ২০২১ সালে বিশেষ শিশু-খাবারের কিছু পরিস্থিতিতে নিরাপত্তা-ব্যবধান ১-এর নিচে পেয়েছে, এবং সর্বোচ্চ মাত্রায় নির্গত মিথানল ১৬ সপ্তাহের কম বয়সী শিশুদের প্রভাবিত করতে পারে বলে জানিয়েছে। ওই খাবারগুলোতে সর্বোচ্চ অনুমোদিত মাত্রা কমানোর সুপারিশ করেছে।" }, "sourceIds": ["efsa-2021"] },
+      { "kind": "uncertainty", "evidence": "human", "strength": "preliminary", "text": { "en": "The NutriNet-Santé observational cancer analysis reported a link between pectin and premenopausal breast cancer in one subgroup (HR 1.55, 95% CI 1.12-2.14). It was not among the abstract's headline findings, and the authors call for replication. Observational data cannot prove cause.", "bn": "NutriNet-Santé পর্যবেক্ষণমূলক ক্যানসার-বিশ্লেষণে একটি উপগোষ্ঠীতে পেকটিনের সঙ্গে প্রাক-রজোনিবৃত্তি স্তন ক্যানসারের সম্পর্ক জানানো হয়েছে (HR ১.৫৫, ৯৫% CI ১.১২-২.১৪)। এটি সারসংক্ষেপের প্রধান ফলাফলের মধ্যে ছিল না, এবং গবেষকেরা পুনরাবৃত্তির আহ্বান জানিয়েছেন। পর্যবেক্ষণমূলক তথ্য কারণ প্রমাণ করতে পারে না।" }, "sourceIds": ["nutrinet-cancer-2024"] }
+    ],
+    "riskContext": { "en": "Toddlers' highest estimated exposure (442 mg/kg bw/day) was below amounts tested without adverse effect, and a human study of 36 g/day for 6 weeks found no adverse effects. EFSA's caution concerns very young infants on special foods, not general use.", "bn": "টডলারদের সর্বোচ্চ হিসাব করা গ্রহণ (৪৪২ মিগ্রা/কেজি দেহ-ওজন/দিন) ক্ষতিকর প্রভাবহীনভাবে পরীক্ষিত মাত্রার নিচে ছিল, এবং ৬ সপ্তাহ ধরে দৈনিক ৩৬ গ্রাম নিয়ে এক মানবগবেষণায় ক্ষতিকর প্রভাব পাওয়া যায়নি। EFSA-র সতর্কতা বিশেষ খাবার খাওয়া খুব ছোট শিশুদের জন্য, সাধারণ ব্যবহারের জন্য নয়।" },
+    "statusLabels": ["gras-conditions", "within-limits"],
+    "regulatory": [
+      { "authority": "EFSA", "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" }, "status": { "en": "No safety concern for the general population (2017); lower maximum levels recommended for special infant foods (2021)", "bn": "সাধারণ জনগোষ্ঠীর জন্য নিরাপত্তা-উদ্বেগ নেই (২০১৭); বিশেষ শিশু-খাবারে সর্বোচ্চ মাত্রা কমানোর সুপারিশ (২০২১)" }, "adi": { "type": "not-specified", "note": { "en": "EFSA: no need for a numerical ADI.", "bn": "EFSA: সংখ্যাভিত্তিক ADI-এর প্রয়োজন নেই।" } }, "date": "2021-01", "sourceId": "efsa-2021" },
+      { "authority": "US FDA", "jurisdiction": { "en": "United States", "bn": "মার্কিন যুক্তরাষ্ট্র" }, "status": { "en": "Affirmed as GRAS (21 CFR 184.1588)", "bn": "GRAS হিসেবে স্বীকৃত (২১ CFR ১৮৪.১৫৮৮)" }, "conditions": { "en": "No limitation other than current good manufacturing practice.", "bn": "প্রচলিত উত্তম উৎপাদন-চর্চা ছাড়া আলাদা সীমা নেই।" }, "date": "1983-11", "sourceId": "cfr-184-1588" }
+    ],
+    "flags": ["infants-caution"],
+    "references": [
+      { "id": "efsa-2017", "org": "EFSA", "title": "Re-evaluation of pectin (E 440i) and amidated pectin (E 440ii) as food additives", "year": 2017, "url": "https://doi.org/10.2903/j.efsa.2017.4866", "kind": "regulatory" },
+      { "id": "efsa-2021", "org": "EFSA", "title": "Opinion on the re-evaluation of pectin (E 440i) and amidated pectin (E 440ii) as food additives in foods for infants below 16 weeks of age and follow-up of their re-evaluation as food additives for uses in foods for all population groups", "year": 2021, "url": "https://doi.org/10.2903/j.efsa.2021.6387", "kind": "regulatory" },
+      { "id": "cfr-184-1588", "org": "US FDA", "title": "21 CFR 184.1588 Pectins", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/section-184.1588", "kind": "regulatory" },
+      { "id": "nutrinet-cancer-2024", "org": "PLOS Medicine", "title": "Food additive emulsifiers and cancer risk: Results from the French prospective NutriNet-Santé cohort", "year": 2024, "url": "https://doi.org/10.1371/journal.pmed.1004338", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "partial", "checkedOn": "2026-11-09", "notes": "JECFA's ADI status for pectins could not be confirmed directly in this session and is not stated. Whether the premenopausal breast cancer association for pectin held across the paper's sensitivity analyses could not be confirmed." }
+  },
+  {
+    "id": "agar",
+    "name": { "en": "Agar", "bn": "আগার" },
+    "commonNames": ["agar-agar", "kanten"],
+    "labelNames": ["agar", "agar-agar", "agar agar", "e406", "e 406", "ins 406", "আগার"],
+    "chemicalName": "Polysaccharide from red algae",
+    "eNumber": "E406",
+    "ins": "406",
+    "category": "thickeners",
+    "alsoIn": ["stabilizers"],
+    "origin": "natural",
+    "originNote": { "en": "Extracted from red seaweeds. Origin says nothing about safety.", "bn": "লাল সামুদ্রিক শৈবাল থেকে আহরিত। উৎস দিয়ে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["chocolate-confectionery", "jams-spreads", "dairy"],
+    "summary": { "en": "A seaweed-based gelling agent used in desserts and confectionery; EFSA saw no need for a numerical ADI and found no safety concern at reported uses.", "bn": "ডেজার্ট ও মিষ্টান্নে ব্যবহৃত সামুদ্রিক শৈবালজাত জেল-উৎপাদক; EFSA সংখ্যাভিত্তিক ADI-এর প্রয়োজন দেখেনি এবং প্রতিবেদিত ব্যবহারে নিরাপত্তা-উদ্বেগ পায়নি।" },
+    "whatIs": { "en": "Agar is a carbohydrate extracted from red seaweeds that forms firm gels. It has been used in cooking for a long time, especially in East and South Asia.", "bn": "আগার হলো লাল সামুদ্রিক শৈবাল থেকে আহরিত শর্করা, যা শক্ত জেল তৈরি করে। রান্নায়, বিশেষত পূর্ব ও দক্ষিণ এশিয়ায়, এটি বহুদিন ধরে ব্যবহৃত হচ্ছে।" },
+    "whyUsed": { "en": "It sets jellies and desserts and works as a plant-based alternative to gelatin.", "bn": "এটি জেলি ও ডেজার্ট জমায় এবং জেলাটিনের উদ্ভিজ্জ বিকল্প হিসেবে কাজ করে।" },
+    "howItWorks": { "en": "When a hot solution cools, its chains join into a network that holds water in a firm gel.", "bn": "গরম দ্রবণ ঠান্ডা হলে এর শৃঙ্খল জুড়ে জাল তৈরি করে, যা শক্ত জেলে পানি ধরে রাখে।" },
+    "properties": [
+      { "en": "firm gel that sets on cooling", "bn": "ঠান্ডা হলে শক্ত জেল তৈরি করে" },
+      { "en": "plant-based gelling agent", "bn": "উদ্ভিজ্জ জেল-উৎপাদক" }
+    ],
+    "benefits": [
+      { "kind": "texture", "text": { "en": "Gives firm gels and a plant-based option in place of gelatin.", "bn": "শক্ত জেল দেয় এবং জেলাটিনের উদ্ভিজ্জ বিকল্প।" } }
+    ],
+    "risks": [
+      { "kind": "uncertainty", "evidence": "theoretical", "strength": "preliminary", "text": { "en": "EFSA's safety assessment was limited: only 7 of the 70 authorised food categories had reported use data, so exposure estimates are indicative.", "bn": "EFSA-র নিরাপত্তা-মূল্যায়ন সীমিত ছিল: অনুমোদিত ৭০টি খাদ্য-শ্রেণির মধ্যে মাত্র ৭টির ব্যবহারের তথ্য ছিল, তাই গ্রহণের হিসাব ইঙ্গিতমূলক।" }, "sourceIds": ["efsa-2016"] }
+    ],
+    "riskContext": { "en": "No carcinogenic effects were reported in mice or rats at the highest doses tested, and 4,500 mg per person daily for 12 weeks was tolerated in humans. EFSA's indicative high exposure was 26 mg/kg bw/day in toddlers. Evidence shows few concerns.", "bn": "ইঁদুর-গবেষণায় সর্বোচ্চ পরীক্ষিত মাত্রায় ক্যানসারজনিত প্রভাব পাওয়া যায়নি, এবং ১২ সপ্তাহ ধরে দৈনিক মাথাপিছু ৪,৫০০ মিগ্রা মানুষের ক্ষেত্রে সহনীয় ছিল। EFSA-র ইঙ্গিতমূলক উচ্চ গ্রহণ ছিল টডলারদের জন্য ২৬ মিগ্রা/কেজি দেহ-ওজন/দিন। প্রমাণে উদ্বেগ কমই দেখা যায়।" },
+    "statusLabels": ["gras-conditions"],
+    "regulatory": [
+      { "authority": "EFSA", "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" }, "status": { "en": "No safety concern for the general population at reported uses", "bn": "প্রতিবেদিত ব্যবহারে সাধারণ জনগোষ্ঠীর জন্য নিরাপত্তা-উদ্বেগ নেই" }, "adi": { "type": "not-specified", "note": { "en": "EFSA: no need for a numerical ADI.", "bn": "EFSA: সংখ্যাভিত্তিক ADI-এর প্রয়োজন নেই।" } }, "date": "2016-12", "sourceId": "efsa-2016" },
+      { "authority": "JECFA", "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" }, "status": { "en": "Evaluated; ADI recorded as 'not limited'", "bn": "মূল্যায়িত; ADI 'not limited' হিসেবে নথিভুক্ত" }, "adi": { "type": "not-specified", "note": { "en": "JECFA's older wording is 'not limited' (latest evaluation 1973).", "bn": "JECFA-র পুরোনো ভাষায় 'not limited' (সর্বশেষ মূল্যায়ন ১৯৭৩)।" } }, "date": "1973", "sourceId": "jecfa-inchem" },
+      { "authority": "US FDA", "jurisdiction": { "en": "United States", "bn": "মার্কিন যুক্তরাষ্ট্র" }, "status": { "en": "Affirmed as GRAS with limits by food type (21 CFR 184.1115)", "bn": "খাবারের ধরন অনুযায়ী সীমাসহ GRAS হিসেবে স্বীকৃত (২১ CFR ১৮৪.১১১৫)" }, "limits": { "en": "For example, baked goods up to 0.8%, confections and frostings up to 2.0%.", "bn": "যেমন, বেকড খাবারে ০.৮% পর্যন্ত, মিষ্টান্ন ও আইসিংয়ে ২.০% পর্যন্ত।" }, "date": "1984-02", "sourceId": "cfr-184-1115" }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2016", "org": "EFSA", "title": "Re-evaluation of agar (E 406) as a food additive", "year": 2016, "url": "https://doi.org/10.2903/j.efsa.2016.4645", "kind": "regulatory" },
+      { "id": "jecfa-inchem", "org": "JECFA", "title": "JECFA Evaluations: Agar", "year": 2001, "url": "https://inchem.org/documents/jecfa/jeceval/jec_47.htm", "kind": "regulatory" },
+      { "id": "cfr-184-1115", "org": "US FDA", "title": "21 CFR 184.1115 Agar-agar", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/section-184.1115", "kind": "regulatory" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "gum-arabic",
+    "name": { "en": "Gum arabic", "bn": "গাম অ্যারাবিক" },
+    "commonNames": ["acacia gum", "gum acacia"],
+    "labelNames": ["gum arabic", "arabic gum", "acacia gum", "gum acacia", "e414", "e 414", "ins 414", "গাম অ্যারাবিক"],
+    "chemicalName": "Dried exudate from Acacia species",
+    "eNumber": "E414",
+    "ins": "414",
+    "category": "thickeners",
+    "alsoIn": ["stabilizers", "emulsifiers"],
+    "origin": "natural",
+    "originNote": { "en": "The dried sap of acacia trees. Origin says nothing about safety.", "bn": "অ্যাকাশিয়া গাছের শুকনো কষ। উৎস দিয়ে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["soft-drinks", "chocolate-confectionery", "supplements"],
+    "summary": { "en": "Dried acacia sap that keeps flavours and oils mixed in drinks and coats sweets; no numerical ADI, and gas is the main reported effect at high intakes.", "bn": "পানীয়ে সুগন্ধি ও তেল মিশিয়ে রাখে এবং মিষ্টির প্রলেপ দেয় এমন শুকনো অ্যাকাশিয়া কষ; সংখ্যাভিত্তিক ADI নেই; উচ্চ গ্রহণে প্রধান প্রতিবেদিত প্রভাব গ্যাস।" },
+    "whatIs": { "en": "Gum arabic is the dried sap of certain acacia trees. It is a complex carbohydrate that dissolves readily in water.", "bn": "গাম অ্যারাবিক হলো নির্দিষ্ট অ্যাকাশিয়া গাছের শুকনো কষ। এটি জটিল শর্করা, যা সহজে পানিতে দ্রবীভূত হয়।" },
+    "whyUsed": { "en": "It holds flavour oils in drinks, coats sweets and helps stabilise emulsions.", "bn": "এটি পানীয়ে সুগন্ধি তেল ধরে রাখে, মিষ্টিতে প্রলেপ দেয় এবং ইমালশন স্থিতিশীল করে।" },
+    "howItWorks": { "en": "Part of the molecule sits at the oil surface while the rest stays in water, keeping droplets apart.", "bn": "অণুর একটি অংশ তেলের পৃষ্ঠে বসে, বাকিটা পানিতে থাকে; ফলে ফোঁটাগুলো আলাদা থাকে।" },
+    "properties": [
+      { "en": "very soluble in water", "bn": "পানিতে অত্যন্ত দ্রবণীয়" },
+      { "en": "keeps flavour oils in drinks", "bn": "পানীয়ে সুগন্ধি তেল ধরে রাখে" }
+    ],
+    "benefits": [
+      { "kind": "texture", "text": { "en": "Stabilises flavour emulsions in drinks and forms coatings on sweets.", "bn": "পানীয়ে সুগন্ধি ইমালশন স্থিতিশীল করে এবং মিষ্টিতে প্রলেপ তৈরি করে।" } }
+    ],
+    "risks": [
+      { "kind": "side-effect", "evidence": "human", "strength": "established", "text": { "en": "EFSA reported that adults taking up to 30 g per day for up to 18 days tolerated it well, but some had flatulence, which it classed as undesirable but not adverse.", "bn": "EFSA জানিয়েছে, প্রাপ্তবয়স্করা ১৮ দিন পর্যন্ত দৈনিক ৩০ গ্রাম পর্যন্ত ভালোভাবে সহ্য করেছেন, তবে কারও কারও পেটে গ্যাস হয়েছে, যা অবাঞ্ছিত কিন্তু ক্ষতিকর নয় বলে গণ্য করা হয়েছে।" }, "sourceIds": ["efsa-2017"] },
+      { "kind": "uncertainty", "evidence": "human", "strength": "preliminary", "text": { "en": "In the French NutriNet-Santé observational cohort, E414 was associated with type 2 diabetes (HR 1.03 per 1000 mg/day, 95% CI 1.01-1.05). A prostate cancer link was not robust in sensitivity analyses. These findings cannot show cause and need replication.", "bn": "ফরাসি NutriNet-Santé পর্যবেক্ষণমূলক কোহর্টে E414-এর সঙ্গে টাইপ ২ ডায়াবেটিসের সম্পর্ক পাওয়া গেছে (প্রতি দিন ১০০০ মিগ্রায় HR ১.০৩, ৯৫% CI ১.০১-১.০৫)। প্রস্টেট ক্যানসারের সঙ্গে সম্পর্কটি সংবেদনশীলতা বিশ্লেষণে টেকেনি। এই ফলাফল কারণ দেখাতে পারে না; পুনরাবৃত্তি প্রয়োজন।" }, "sourceIds": ["nutrinet-t2d-2024", "nutrinet-cancer-2024"] }
+    ],
+    "riskContext": { "en": "EFSA saw no need for a numerical ADI, reported large safety margins even for young infants exposed through carry-over, and noted the human tolerance data above. The observational signal remains a question for further study.", "bn": "EFSA সংখ্যাভিত্তিক ADI-এর প্রয়োজন দেখেনি, ক্যারি-ওভারের মাধ্যমে গ্রহণ করা ছোট শিশুদের ক্ষেত্রেও নিরাপত্তা-ব্যবধান বড় পেয়েছে, এবং ওপরের মানব-সহনশীলতার তথ্য উল্লেখ করেছে। পর্যবেক্ষণমূলক সংকেতটি আরও গবেষণার প্রশ্ন হিসেবেই আছে।" },
+    "statusLabels": ["gras-conditions", "within-limits"],
+    "regulatory": [
+      { "authority": "EFSA", "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" }, "status": { "en": "No safety concern for the general population (2017); large safety margins for carry-over into infant foods (2019)", "bn": "সাধারণ জনগোষ্ঠীর জন্য নিরাপত্তা-উদ্বেগ নেই (২০১৭); শিশু-খাবারে ক্যারি-ওভারের ক্ষেত্রে বড় নিরাপত্তা-ব্যবধান (২০১৯)" }, "adi": { "type": "not-specified", "note": { "en": "EFSA: no need for a numerical ADI.", "bn": "EFSA: সংখ্যাভিত্তিক ADI-এর প্রয়োজন নেই।" } }, "date": "2019-12", "sourceId": "efsa-2019" },
+      { "authority": "JECFA", "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" }, "status": { "en": "ADI 'not specified' (latest evaluation 1989)", "bn": "ADI 'not specified' (সর্বশেষ মূল্যায়ন ১৯৮৯)" }, "adi": { "type": "not-specified" }, "date": "1989", "sourceId": "jecfa-inchem" },
+      { "authority": "US FDA", "jurisdiction": { "en": "United States", "bn": "মার্কিন যুক্তরাষ্ট্র" }, "status": { "en": "Affirmed as GRAS with limits by food type (21 CFR 184.1330)", "bn": "খাবারের ধরন অনুযায়ী সীমাসহ GRAS হিসেবে স্বীকৃত (২১ CFR ১৮৪.১৩৩০)" }, "limits": { "en": "For example, beverages and beverage bases up to 2.0%, confections and frostings up to 12.4%.", "bn": "যেমন, পানীয় ও পানীয়ের ভিত্তিতে ২.০% পর্যন্ত, মিষ্টান্ন ও আইসিংয়ে ১২.৪% পর্যন্ত।" }, "date": "2026-11", "sourceId": "cfr-184-1330" }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2017", "org": "EFSA", "title": "Re-evaluation of acacia gum (E 414) as a food additive", "year": 2017, "url": "https://doi.org/10.2903/j.efsa.2017.4741", "kind": "regulatory" },
+      { "id": "efsa-2019", "org": "EFSA", "title": "Opinion on the re-evaluation of acacia gum (E 414) as a food additive in foods for infants below 16 weeks of age and the follow-up of its re-evaluation as a food additive for uses in foods for all population groups", "year": 2019, "url": "https://doi.org/10.2903/j.efsa.2019.5922", "kind": "regulatory" },
+      { "id": "jecfa-inchem", "org": "JECFA", "title": "JECFA Evaluations: Gum arabic", "year": 2001, "url": "https://www.inchem.org/documents/jecfa/jeceval/jec_948.htm", "kind": "regulatory" },
+      { "id": "cfr-184-1330", "org": "US FDA", "title": "21 CFR 184.1330 Acacia (gum arabic)", "year": 2026, "url": "https://www.ecfr.gov/current/title-21/section-184.1330", "kind": "regulatory" },
+      { "id": "nutrinet-t2d-2024", "org": "The Lancet Diabetes & Endocrinology", "title": "Food additive emulsifiers and the risk of type 2 diabetes: analysis of data from the NutriNet-Santé prospective cohort study", "year": 2024, "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(24)00086-X/fulltext", "kind": "peer-reviewed" },
+      { "id": "nutrinet-cancer-2024", "org": "PLOS Medicine", "title": "Food additive emulsifiers and cancer risk: Results from the French prospective NutriNet-Santé cohort", "year": 2024, "url": "https://doi.org/10.1371/journal.pmed.1004338", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  }
+]

@@ -112,6 +112,20 @@ if (!existsSync("vercel.json") || readFileSync("vercel.json", "utf8").replace(/\
   fail("vercel.json is out of date — run: node scripts/vercel-config.mjs");
 }
 
+// 5. ingredient section: content rules, every file listed, generated indexes current
+const { checkAll, DATA } = await import(pathToFileURL(resolve("scripts/check-ingredients.mjs")).href);
+const { buildIndexes, readGenerated } = await import(pathToFileURL(resolve("scripts/build-ingredient-index.mjs")).href);
+checkAll().errors.forEach(fail);
+for (const dir of ["items", "articles", "images"]) {
+  const index = readFileSync(resolve(DATA, dir, "index.ts"), "utf8");
+  for (const f of readdirSync(resolve(DATA, dir))) if (f.endsWith(".json") && !index.includes(`"./${f}"`)) fail(`ingredients/data/${dir}/${f} is not imported in index.ts`);
+}
+for (const [name, body] of Object.entries(buildIndexes())) {
+  let current = "";
+  try { current = readGenerated(name); } catch { /* a missing file counts as stale */ }
+  if (current !== body) fail(`ingredients/data/generated/${name} is out of date — run: node scripts/build-ingredient-index.mjs`);
+}
+
 if (errors.length) {
   console.error(`✗ ${errors.length} data problem(s):\n  - ` + errors.slice(0, 50).join("\n  - "));
   process.exit(1);

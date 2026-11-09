@@ -1,0 +1,2001 @@
+[
+  {
+    "id": "oxidised-starch",
+    "name": {
+      "en": "Oxidised Starch",
+      "bn": "অক্সিডাইজড স্টার্চ"
+    },
+    "commonNames": [
+      "oxidized starch",
+      "E1404 starch"
+    ],
+    "labelNames": [
+      "oxidised starch",
+      "oxidized starch",
+      "e1404",
+      "e 1404",
+      "ins 1404",
+      "অক্সিডাইজড স্টার্চ"
+    ],
+    "chemicalName": "Oxidised starch",
+    "eNumber": "E1404",
+    "ins": "1404",
+    "category": "modified-starches",
+    "alsoIn": [
+      "thickeners",
+      "stabilizers"
+    ],
+    "origin": "natural-derived",
+    "originNote": {
+      "en": "Made from ordinary food starch treated with sodium hypochlorite. Being plant-derived or processed says nothing by itself about safety.",
+      "bn": "সাধারণ খাদ্য স্টার্চকে সোডিয়াম হাইপোক্লোরাইট দিয়ে প্রক্রিয়াজাত করে তৈরি। উদ্ভিজ্জ উৎস বা প্রক্রিয়াজাত হওয়া নিজে থেকে নিরাপত্তা সম্পর্কে কিছু বলে না।"
+    },
+    "applications": [
+      "chocolate-confectionery",
+      "sauces-condiments"
+    ],
+    "summary": {
+      "en": "A starch treated to give clear, less-gelling pastes; EFSA found no safety concern at reported uses and no need for a numerical ADI.",
+      "bn": "স্বচ্ছ ও কম জমাট বাঁধা পেস্ট দেওয়ার জন্য পরিবর্তিত স্টার্চ; ইএফএসএ জানানো ব্যবহারে নিরাপত্তাজনিত উদ্বেগ পায়নি এবং সংখ্যাগত এডিআই-এর প্রয়োজন দেখেনি।"
+    },
+    "whatIs": {
+      "en": "Oxidised starch is ordinary food starch treated with sodium hypochlorite, which deliberately creates carboxyl groups on the starch. It is listed in the EU as E1404.",
+      "bn": "অক্সিডাইজড স্টার্চ হলো সোডিয়াম হাইপোক্লোরাইট দিয়ে প্রক্রিয়াজাত সাধারণ খাদ্য স্টার্চ, যাতে স্টার্চের ওপর ইচ্ছাকৃতভাবে কার্বক্সিল গ্রুপ তৈরি হয়। ইউরোপীয় ইউনিয়নে এটি E1404 নামে তালিকাভুক্ত।"
+    },
+    "whyUsed": {
+      "en": "It gives foods body while staying fairly fluid and clear, which plain starch does poorly once it cools.",
+      "bn": "এটি খাবারে ঘনত্ব দেয়, অথচ তুলনামূলক তরল ও স্বচ্ছ থাকে; ঠান্ডা হলে সাধারণ স্টার্চ এই কাজটি ভালো পারে না।"
+    },
+    "howItWorks": {
+      "en": "When heated in water it forms clear solutions. EFSA describes these as resisting thickening and gelling on cooling better than acid-converted starches.",
+      "bn": "পানিতে গরম করলে এটি স্বচ্ছ দ্রবণ তৈরি করে। ইএফএসএ-র বর্ণনা অনুযায়ী ঠান্ডা হওয়ার সময় অ্যাসিড-পরিবর্তিত স্টার্চের চেয়ে এটি কম ঘন হয় ও কম জমাট বাঁধে।"
+    },
+    "properties": [
+      {
+        "en": "clear solutions when heated",
+        "bn": "গরম করলে স্বচ্ছ দ্রবণ"
+      },
+      {
+        "en": "gels less on cooling than acid-converted starch",
+        "bn": "ঠান্ডায় অ্যাসিড-পরিবর্তিত স্টার্চের চেয়ে কম জমাট বাঁধে"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "texture",
+        "text": {
+          "en": "Adds body to foods without a heavy set gel.",
+          "bn": "ভারী জমাট জেল ছাড়াই খাবারে ঘনত্ব যোগ করে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "Data gap, not a finding of harm: EFSA said the available data do not allow an adequate safety assessment of E1404 in foods for special medical purposes for infants and young children (food category 13.1.5.2), and asked for more data.",
+          "bn": "এটি তথ্যের ঘাটতি, ক্ষতির প্রমাণ নয়: ইএফএসএ জানিয়েছে, শিশু ও ছোট বাচ্চাদের বিশেষ চিকিৎসা-উদ্দেশ্যের খাবারে (খাদ্য শ্রেণি ১৩.১.৫.২) E1404-এর নিরাপত্তা যথাযথভাবে মূল্যায়নের মতো তথ্য নেই, এবং আরও তথ্য চেয়েছে।"
+        },
+        "sourceIds": [
+          "efsa-2017"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA's high-end estimate for all these starches combined (E1404 to E1451) reached 3,053 mg/kg body weight a day at the 95th percentile of its refined scenario, yet it still found no safety concern at reported uses and saw no need for a numerical ADI. Very large intakes are expected for a starch, so the absence of a number reflects low hazard, not a missing check. The separate open question is the special medical foods for babies.",
+      "bn": "ইএফএসএ-র উচ্চমাত্রার হিসাবে এই সব স্টার্চ মিলিয়ে (E1404 থেকে E1451) পরিমার্জিত পরিস্থিতির ৯৫তম পার্সেন্টাইলে গ্রহণ দাঁড়িয়েছে দিনে প্রতি কেজি শরীর-ওজনে ৩,০৫৩ মিলিগ্রাম পর্যন্ত, তবু জানানো ব্যবহারে নিরাপত্তাজনিত উদ্বেগ পাওয়া যায়নি এবং সংখ্যাগত এডিআই-এর প্রয়োজনও দেখা যায়নি। স্টার্চ বেশি পরিমাণে খাওয়াই স্বাভাবিক, তাই সংখ্যা না থাকার অর্থ কম বিপত্তি, পরীক্ষা বাদ পড়া নয়। আলাদা অমীমাংসিত প্রশ্নটি শিশুদের বিশেষ চিকিৎসা-খাবার নিয়ে।"
+    },
+    "statusLabels": [
+      "approved-specific"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Authorised EU additive; re-evaluated with no safety concern at reported uses and use levels.",
+          "bn": "ইইউ-তে অনুমোদিত সংযোজন; পুনর্মূল্যায়নে জানানো ব্যবহার ও মাত্রায় নিরাপত্তাজনিত উদ্বেগ পাওয়া যায়নি।"
+        },
+        "adi": {
+          "type": "not-specified",
+          "note": {
+            "en": "EFSA saw no need for a numerical ADI and noted that JECFA and the SCF had both allocated an ADI 'not specified'.",
+            "bn": "ইএফএসএ সংখ্যাগত এডিআই-এর প্রয়োজন দেখেনি এবং উল্লেখ করেছে যে জেইসিএফএ ও এসসিএফ উভয়েই 'অনির্দিষ্ট' এডিআই দিয়েছিল।"
+          }
+        },
+        "date": "2017-10",
+        "sourceId": "efsa-2017"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Permitted as food starch-modified under listed treatments.",
+          "bn": "তালিকাভুক্ত প্রক্রিয়ায় পরিবর্তিত খাদ্য স্টার্চ হিসেবে অনুমোদিত।"
+        },
+        "limits": {
+          "en": "Oxidation with sodium hypochlorite: not more than 0.055 lb chlorine per lb of dry starch.",
+          "bn": "সোডিয়াম হাইপোক্লোরাইটে অক্সিডেশন: প্রতি পাউন্ড শুকনো স্টার্চে সর্বোচ্চ ০.০৫৫ পাউন্ড ক্লোরিন।"
+        },
+        "date": "2024",
+        "sourceId": "cfr-172-892"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-2017",
+        "org": "EFSA ANS Panel",
+        "title": "Re-evaluation of oxidised starch (E 1404), monostarch phosphate (E 1410), distarch phosphate (E 1412), phosphated distarch phosphate (E 1413), acetylated distarch phosphate (E 1414), acetylated starch (E 1420), acetylated distarch adipate (E 1422), hydroxypropyl starch (E 1440), hydroxypropyl distarch phosphate (E 1442), starch sodium octenyl succinate (E 1450), acetylated oxidised starch (E 1451) and starch aluminium octenyl succinate (E 1452) as food additives",
+        "year": 2017,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009865/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-172-892",
+        "org": "US Code of Federal Regulations",
+        "title": "21 CFR 172.892 Food starch-modified",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec172-892.xml",
+        "kind": "regulatory"
+      }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "All numbers and approvals read on linked sources. The opinion does not list typical foods for this starch, so applications are general food-technology knowledge."
+    }
+  },
+  {
+    "id": "acetylated-distarch-adipate",
+    "name": {
+      "en": "Acetylated Distarch Adipate",
+      "bn": "অ্যাসিটাইলেটেড ডাইস্টার্চ অ্যাডিপেট"
+    },
+    "commonNames": [
+      "modified starch E1422"
+    ],
+    "labelNames": [
+      "acetylated distarch adipate",
+      "e1422",
+      "e 1422",
+      "ins 1422",
+      "অ্যাসিটাইলেটেড ডাইস্টার্চ অ্যাডিপেট"
+    ],
+    "chemicalName": "Acetylated distarch adipate",
+    "eNumber": "E1422",
+    "ins": "1422",
+    "category": "modified-starches",
+    "alsoIn": [
+      "thickeners",
+      "stabilizers"
+    ],
+    "origin": "natural-derived",
+    "originNote": {
+      "en": "Food starch cross-linked with adipic anhydride and esterified with acetic anhydride. Origin says nothing about safety.",
+      "bn": "অ্যাডিপিক অ্যানহাইড্রাইড দিয়ে ক্রস-লিংক ও অ্যাসিটিক অ্যানহাইড্রাইড দিয়ে এস্টারিফাই করা খাদ্য স্টার্চ। উৎস নিরাপত্তা সম্পর্কে কিছু বলে না।"
+    },
+    "applications": [
+      "sauces-condiments",
+      "canned-foods",
+      "dairy"
+    ],
+    "summary": {
+      "en": "A cross-linked starch that thickens and tolerates acid and salt; EFSA found no safety concern at reported uses and no need for a numerical ADI.",
+      "bn": "ক্রস-লিংক করা স্টার্চ, যা ঘন করে এবং অ্যাসিড ও লবণ সহ্য করে; ইএফএসএ জানানো ব্যবহারে উদ্বেগ পায়নি, সংখ্যাগত এডিআই-এর প্রয়োজনও দেখেনি।"
+    },
+    "whatIs": {
+      "en": "Acetylated distarch adipate is food starch whose chains are tied together (cross-linked) with adipic anhydride and then esterified with acetic anhydride. In the EU its adipate content is limited to 0.135%.",
+      "bn": "অ্যাসিটাইলেটেড ডাইস্টার্চ অ্যাডিপেট হলো এমন খাদ্য স্টার্চ, যার শৃঙ্খলগুলো অ্যাডিপিক অ্যানহাইড্রাইড দিয়ে পরস্পর যুক্ত (ক্রস-লিংক) করে পরে অ্যাসিটিক অ্যানহাইড্রাইড দিয়ে এস্টারিফাই করা হয়। ইইউ-তে এর অ্যাডিপেটের পরিমাণ সর্বোচ্চ ০.১৩৫%।"
+    },
+    "whyUsed": {
+      "en": "It keeps sauces and similar foods thick through cooking, acid and salt, where plain starch tends to thin out.",
+      "bn": "রান্না, অ্যাসিড ও লবণের মধ্যেও এটি সস ও এ জাতীয় খাবার ঘন রাখে, যেখানে সাধারণ স্টার্চ পাতলা হয়ে যেতে চায়।"
+    },
+    "howItWorks": {
+      "en": "Cross-links hold the swollen starch granules together. EFSA reports viscous solutions with improved acid resistance, salt tolerance and viscosity breakdown compared with native starch.",
+      "bn": "ক্রস-লিংক ফুলে ওঠা স্টার্চ কণাগুলোকে একসঙ্গে ধরে রাখে। ইএফএসএ-র তথ্যে, প্রাকৃতিক স্টার্চের তুলনায় এটি সান্দ্র দ্রবণ দেয় এবং অ্যাসিড সহনশীলতা, লবণ সহনশীলতা ও সান্দ্রতা ভাঙনের দিক থেকে উন্নত।"
+    },
+    "properties": [
+      {
+        "en": "viscous solutions",
+        "bn": "সান্দ্র দ্রবণ"
+      },
+      {
+        "en": "better acid and salt tolerance than native starch",
+        "bn": "প্রাকৃতিক স্টার্চের চেয়ে ভালো অ্যাসিড ও লবণ সহনশীলতা"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "texture",
+        "text": {
+          "en": "Keeps foods thick under heat, acid and salt.",
+          "bn": "তাপ, অ্যাসিড ও লবণের মধ্যেও খাবার ঘন রাখে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "dose-dependent",
+        "evidence": "animal",
+        "strength": "established",
+        "text": {
+          "en": "In rat studies at high dietary levels, kidney mineralisation occurred. EFSA linked this to an imbalance of calcium, phosphorus and magnesium in the rats' diet and judged it not relevant to humans.",
+          "bn": "ইঁদুরের ওপর উচ্চ খাদ্যমাত্রার গবেষণায় কিডনিতে খনিজ জমার ঘটনা দেখা গেছে। ইএফএসএ এটিকে ইঁদুরের খাদ্যে ক্যালসিয়াম, ফসফরাস ও ম্যাগনেসিয়ামের ভারসাম্যহীনতার সঙ্গে যুক্ত করেছে এবং মানুষের জন্য প্রাসঙ্গিক নয় বলে মত দিয়েছে।"
+        },
+        "sourceIds": [
+          "efsa-2017"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "The kidney finding is an example of a hazard seen under extreme animal-feeding conditions that does not translate to people, because EFSA traced it to the rats' mineral balance. EFSA's overall conclusion was no safety concern at reported uses and use levels. It did recommend revising the arsenic, lead and mercury limits in the purity specifications for these starches.",
+      "bn": "কিডনির এই পর্যবেক্ষণ হলো চরম প্রাণী-খাদ্য পরিস্থিতিতে দেখা এমন বিপত্তির উদাহরণ যা মানুষের ক্ষেত্রে প্রযোজ্য নয়, কারণ ইএফএসএ এর কারণ হিসেবে ইঁদুরের খনিজ ভারসাম্যকে চিহ্নিত করেছে। ইএফএসএ-র সামগ্রিক সিদ্ধান্ত: জানানো ব্যবহার ও মাত্রায় নিরাপত্তাজনিত উদ্বেগ নেই। তবে এই স্টার্চগুলোর বিশুদ্ধতার মানদণ্ডে আর্সেনিক, সীসা ও পারদের সীমা সংশোধনের সুপারিশ করেছে।"
+    },
+    "statusLabels": [
+      "approved-specific"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Authorised EU additive; re-evaluated with no safety concern at reported uses and use levels.",
+          "bn": "ইইউ-তে অনুমোদিত সংযোজন; পুনর্মূল্যায়নে জানানো ব্যবহার ও মাত্রায় নিরাপত্তাজনিত উদ্বেগ পাওয়া যায়নি।"
+        },
+        "adi": {
+          "type": "not-specified",
+          "note": {
+            "en": "EFSA saw no need for a numerical ADI and noted that JECFA and the SCF had both allocated an ADI 'not specified'.",
+            "bn": "ইএফএসএ সংখ্যাগত এডিআই-এর প্রয়োজন দেখেনি এবং উল্লেখ করেছে যে জেইসিএফএ ও এসসিএফ উভয়েই 'অনির্দিষ্ট' এডিআই দিয়েছিল।"
+          }
+        },
+        "date": "2017-10",
+        "sourceId": "efsa-2017"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Permitted as food starch-modified under listed treatments.",
+          "bn": "তালিকাভুক্ত প্রক্রিয়ায় পরিবর্তিত খাদ্য স্টার্চ হিসেবে অনুমোদিত।"
+        },
+        "limits": {
+          "en": "Adipic anhydride up to 0.12%, with acetic anhydride; acetyl groups in the finished starch not above 2.5%.",
+          "bn": "অ্যাডিপিক অ্যানহাইড্রাইড সর্বোচ্চ ০.১২%, অ্যাসিটিক অ্যানহাইড্রাইডের সঙ্গে; তৈরি স্টার্চে অ্যাসিটাইল গ্রুপ সর্বোচ্চ ২.৫%।"
+        },
+        "date": "2024",
+        "sourceId": "cfr-172-892"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-2017",
+        "org": "EFSA ANS Panel",
+        "title": "Re-evaluation of oxidised starch (E 1404), monostarch phosphate (E 1410), distarch phosphate (E 1412), phosphated distarch phosphate (E 1413), acetylated distarch phosphate (E 1414), acetylated starch (E 1420), acetylated distarch adipate (E 1422), hydroxypropyl starch (E 1440), hydroxypropyl distarch phosphate (E 1442), starch sodium octenyl succinate (E 1450), acetylated oxidised starch (E 1451) and starch aluminium octenyl succinate (E 1452) as food additives",
+        "year": 2017,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009865/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-172-892",
+        "org": "US Code of Federal Regulations",
+        "title": "21 CFR 172.892 Food starch-modified",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec172-892.xml",
+        "kind": "regulatory"
+      }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "All numbers and approvals read on linked sources. The opinion does not list typical foods for this starch, so applications are general food-technology knowledge."
+    }
+  },
+  {
+    "id": "hydroxypropyl-distarch-phosphate",
+    "name": {
+      "en": "Hydroxypropyl Distarch Phosphate",
+      "bn": "হাইড্রক্সিপ্রোপাইল ডাইস্টার্চ ফসফেট"
+    },
+    "commonNames": [
+      "modified starch E1442"
+    ],
+    "labelNames": [
+      "hydroxypropyl distarch phosphate",
+      "e1442",
+      "e 1442",
+      "ins 1442",
+      "হাইড্রক্সিপ্রোপাইল ডাইস্টার্চ ফসফেট"
+    ],
+    "chemicalName": "Hydroxypropyl distarch phosphate",
+    "eNumber": "E1442",
+    "ins": "1442",
+    "category": "modified-starches",
+    "alsoIn": [
+      "thickeners",
+      "stabilizers"
+    ],
+    "origin": "natural-derived",
+    "originNote": {
+      "en": "Food starch cross-linked with a phosphate reagent and then reacted with propylene oxide. Origin says nothing about safety.",
+      "bn": "ফসফেট বিকারক দিয়ে ক্রস-লিংক করে পরে প্রোপিলিন অক্সাইডের সঙ্গে বিক্রিয়া করানো খাদ্য স্টার্চ। উৎস নিরাপত্তা সম্পর্কে কিছু বলে না।"
+    },
+    "applications": [
+      "sauces-condiments",
+      "canned-foods",
+      "dairy",
+      "frozen-desserts"
+    ],
+    "summary": {
+      "en": "A doubly modified starch that thickens at lower temperatures; EFSA found no safety concern at reported uses and no need for a numerical ADI.",
+      "bn": "দুইভাবে পরিবর্তিত স্টার্চ, যা কম তাপমাত্রায় ঘন করে; ইএফএসএ জানানো ব্যবহারে উদ্বেগ পায়নি, সংখ্যাগত এডিআই-এর প্রয়োজনও দেখেনি।"
+    },
+    "whatIs": {
+      "en": "Hydroxypropyl distarch phosphate is food starch cross-linked with sodium trimetaphosphate or phosphorus oxychloride and then etherified with propylene oxide. In the EU, hydroxypropyl groups are limited to 7%.",
+      "bn": "হাইড্রক্সিপ্রোপাইল ডাইস্টার্চ ফসফেট হলো সোডিয়াম ট্রাইমেটাফসফেট বা ফসফরাস অক্সিক্লোরাইড দিয়ে ক্রস-লিংক করে পরে প্রোপিলিন অক্সাইড দিয়ে ইথারিফাই করা খাদ্য স্টার্চ। ইইউ-তে হাইড্রক্সিপ্রোপাইল গ্রুপ সর্বোচ্চ ৭%।"
+    },
+    "whyUsed": {
+      "en": "It thickens foods and helps keep them stable through processing.",
+      "bn": "এটি খাবার ঘন করে এবং প্রক্রিয়াজাতকরণের সময় স্থিতিশীল রাখতে সাহায্য করে।"
+    },
+    "howItWorks": {
+      "en": "It forms viscous solutions. EFSA notes that its pasting temperature falls as hydroxypropyl substitution rises, and that at certain substitution levels it swells in cold water.",
+      "bn": "এটি সান্দ্র দ্রবণ তৈরি করে। ইএফএসএ-র তথ্যে, হাইড্রক্সিপ্রোপাইল প্রতিস্থাপন বাড়লে এর পেস্ট হওয়ার তাপমাত্রা কমে, এবং নির্দিষ্ট প্রতিস্থাপন মাত্রায় এটি ঠান্ডা পানিতেও ফোলে।"
+    },
+    "properties": [
+      {
+        "en": "viscous solutions",
+        "bn": "সান্দ্র দ্রবণ"
+      },
+      {
+        "en": "lower pasting temperature with more hydroxypropyl groups",
+        "bn": "হাইড্রক্সিপ্রোপাইল বাড়লে পেস্ট হওয়ার তাপমাত্রা কমে"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "texture",
+        "text": {
+          "en": "Thickens foods and keeps them stable during processing.",
+          "bn": "খাবার ঘন করে এবং প্রক্রিয়াজাতকরণে স্থিতিশীল রাখে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "dose-dependent",
+        "evidence": "animal",
+        "strength": "established",
+        "text": {
+          "en": "In rat studies at high dietary levels, kidney mineralisation occurred. EFSA linked this to an imbalance of calcium, phosphorus and magnesium in the rats' diet and judged it not relevant to humans.",
+          "bn": "ইঁদুরের ওপর উচ্চ খাদ্যমাত্রার গবেষণায় কিডনিতে খনিজ জমার ঘটনা দেখা গেছে। ইএফএসএ এটিকে ইঁদুরের খাদ্যে ক্যালসিয়াম, ফসফরাস ও ম্যাগনেসিয়ামের ভারসাম্যহীনতার সঙ্গে যুক্ত করেছে এবং মানুষের জন্য প্রাসঙ্গিক নয় বলে মত দিয়েছে।"
+        },
+        "sourceIds": [
+          "efsa-2017"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA reviewed kidney findings from high-dose rat feeding and attributed them to dietary mineral imbalance in the rats, not to a risk for people. Its overall conclusion was no safety concern at reported uses and use levels. It did recommend revising the arsenic, lead and mercury limits in the purity specifications for these starches.",
+      "bn": "ইএফএসএ উচ্চমাত্রার ইঁদুর-খাদ্য গবেষণার কিডনি-সংক্রান্ত ফল পর্যালোচনা করে এর কারণ হিসেবে ইঁদুরের খাদ্যের খনিজ ভারসাম্যহীনতাকে চিহ্নিত করেছে, মানুষের ঝুঁকিকে নয়। সামগ্রিক সিদ্ধান্ত: জানানো ব্যবহার ও মাত্রায় নিরাপত্তাজনিত উদ্বেগ নেই। তবে এই স্টার্চগুলোর বিশুদ্ধতার মানদণ্ডে আর্সেনিক, সীসা ও পারদের সীমা সংশোধনের সুপারিশ করেছে।"
+    },
+    "statusLabels": [
+      "approved-specific"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Authorised EU additive; re-evaluated with no safety concern at reported uses and use levels.",
+          "bn": "ইইউ-তে অনুমোদিত সংযোজন; পুনর্মূল্যায়নে জানানো ব্যবহার ও মাত্রায় নিরাপত্তাজনিত উদ্বেগ পাওয়া যায়নি।"
+        },
+        "adi": {
+          "type": "not-specified",
+          "note": {
+            "en": "EFSA saw no need for a numerical ADI and noted that JECFA and the SCF had both allocated an ADI 'not specified'.",
+            "bn": "ইএফএসএ সংখ্যাগত এডিআই-এর প্রয়োজন দেখেনি এবং উল্লেখ করেছে যে জেইসিএফএ ও এসসিএফ উভয়েই 'অনির্দিষ্ট' এডিআই দিয়েছিল।"
+          }
+        },
+        "date": "2017-10",
+        "sourceId": "efsa-2017"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Permitted as food starch-modified under listed treatments.",
+          "bn": "তালিকাভুক্ত প্রক্রিয়ায় পরিবর্তিত খাদ্য স্টার্চ হিসেবে অনুমোদিত।"
+        },
+        "limits": {
+          "en": "Phosphorus oxychloride up to 0.1% and propylene oxide up to 10%; residual propylene chlorohydrin not above 5 parts per million.",
+          "bn": "ফসফরাস অক্সিক্লোরাইড সর্বোচ্চ ০.১% ও প্রোপিলিন অক্সাইড সর্বোচ্চ ১০%; অবশিষ্ট প্রোপিলিন ক্লোরোহাইড্রিন সর্বোচ্চ ৫ পিপিএম।"
+        },
+        "date": "2024",
+        "sourceId": "cfr-172-892"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-2017",
+        "org": "EFSA ANS Panel",
+        "title": "Re-evaluation of oxidised starch (E 1404), monostarch phosphate (E 1410), distarch phosphate (E 1412), phosphated distarch phosphate (E 1413), acetylated distarch phosphate (E 1414), acetylated starch (E 1420), acetylated distarch adipate (E 1422), hydroxypropyl starch (E 1440), hydroxypropyl distarch phosphate (E 1442), starch sodium octenyl succinate (E 1450), acetylated oxidised starch (E 1451) and starch aluminium octenyl succinate (E 1452) as food additives",
+        "year": 2017,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009865/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-172-892",
+        "org": "US Code of Federal Regulations",
+        "title": "21 CFR 172.892 Food starch-modified",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec172-892.xml",
+        "kind": "regulatory"
+      }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "All numbers and approvals read on linked sources. The opinion does not list typical foods for this starch, so applications are general food-technology knowledge."
+    }
+  },
+  {
+    "id": "ferrous-sulfate",
+    "name": {
+      "en": "Ferrous Sulfate",
+      "bn": "ফেরাস সালফেট"
+    },
+    "commonNames": [
+      "iron(II) sulfate",
+      "ferrous sulphate"
+    ],
+    "labelNames": [
+      "ferrous sulfate",
+      "ferrous sulphate",
+      "iron (ii) sulfate",
+      "iron(ii) sulfate",
+      "ফেরাস সালফেট"
+    ],
+    "chemicalName": "Iron(II) sulfate heptahydrate",
+    "formula": "FeSO4·7H2O",
+    "category": "fortifying-agents",
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "An iron salt made industrially. How it is made says nothing about safety; the amount eaten matters.",
+      "bn": "শিল্পে তৈরি লোহার লবণ। কীভাবে তৈরি তা নিরাপত্তা সম্পর্কে কিছু বলে না; খাওয়ার পরিমাণই গুরুত্বপূর্ণ।"
+    },
+    "applications": [
+      "flour-grains",
+      "breakfast-cereals",
+      "infant-foods",
+      "supplements"
+    ],
+    "summary": {
+      "en": "An iron salt added to foods and supplements to supply iron; EFSA set a safe level of 40 mg/day for adults instead of an upper limit.",
+      "bn": "খাবার ও সাপ্লিমেন্টে আয়রন জোগানোর জন্য যোগ করা লোহার লবণ; ইএফএসএ প্রাপ্তবয়স্কদের জন্য ঊর্ধ্বসীমার বদলে দিনে ৪০ মিলিগ্রাম নিরাপদ মাত্রা দিয়েছে।"
+    },
+    "whatIs": {
+      "en": "Ferrous sulfate is an iron salt used to add iron to foods and supplements. Heating the common heptahydrate form gives dried ferrous sulfate.",
+      "bn": "ফেরাস সালফেট একটি লোহার লবণ, যা খাবার ও সাপ্লিমেন্টে আয়রন যোগ করতে ব্যবহৃত হয়। প্রচলিত হেপটাহাইড্রেট রূপটি গরম করলে শুকনো ফেরাস সালফেট পাওয়া যায়।"
+    },
+    "whyUsed": {
+      "en": "Fortification adds nutrients that may be lacking in the diet, and iron is one of them.",
+      "bn": "খাদ্যে যে পুষ্টি কম থাকতে পারে, ফর্টিফিকেশন তা যোগ করে; আয়রন তার একটি।"
+    },
+    "howItWorks": {
+      "en": "It supplies iron in a form the body can absorb. EFSA notes ferrous sulfate is generally better absorbed than other forms, but absorption depends on a person's iron status and the food it is eaten with.",
+      "bn": "এটি শরীর শোষণ করতে পারে এমন রূপে আয়রন জোগায়। ইএফএসএ জানায়, ফেরাস সালফেট সাধারণত অন্য রূপের চেয়ে ভালো শোষিত হয়, তবে শোষণ নির্ভর করে ব্যক্তির আয়রনের অবস্থা ও সঙ্গে খাওয়া খাবারের ওপর।"
+    },
+    "properties": [
+      {
+        "en": "supplies iron",
+        "bn": "আয়রন জোগায়"
+      },
+      {
+        "en": "generally well absorbed compared with other iron forms",
+        "bn": "অন্য আয়রন রূপের তুলনায় সাধারণত ভালো শোষিত হয়"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "fortification",
+        "text": {
+          "en": "Adds iron to foods where it may be lacking in the diet.",
+          "bn": "যেখানে খাদ্যে আয়রন কম থাকতে পারে সেখানে তা যোগ করে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "dose-dependent",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "In human trials, black stools were the only effect with a usable dose-response. They reflect unabsorbed iron in the gut, and EFSA calls this a conservative marker that is not adverse in itself.",
+          "bn": "মানুষের ওপর পরীক্ষায় কেবল কালো মলই ব্যবহারযোগ্য মাত্রা-প্রতিক্রিয়া দেখিয়েছে। এটি অন্ত্রে শোষিত না হওয়া আয়রনের লক্ষণ, এবং ইএফএসএ একে সতর্ক সূচক বলেছে, যা নিজে ক্ষতিকর নয়।"
+        },
+        "sourceIds": [
+          "efsa-iron-2024"
+        ]
+      },
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "People with hereditary haemochromatosis are particularly sensitive to iron overload. They need medical care, and EFSA's general-population safe level was not set for them.",
+          "bn": "বংশগত হিমোক্রোমাটোসিসে আক্রান্ত ব্যক্তিরা আয়রনের আধিক্যে বিশেষভাবে সংবেদনশীল। তাদের চিকিৎসা প্রয়োজন, এবং ইএফএসএ-র সাধারণ জনগোষ্ঠীর নিরাপদ মাত্রা তাদের জন্য নির্ধারিত নয়।"
+        },
+        "sourceIds": [
+          "efsa-iron-2024"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "Iron is both essential and, in excess, a real hazard: systemic iron overload damages organs. But EFSA could not find a dose-response for that outcome, so it gave a safe level rather than an upper limit. A safe level is more limited: going above it does not necessarily mean a risk of harm. These are nutrient reference values, not ADIs.",
+      "bn": "আয়রন অপরিহার্য, আবার অতিরিক্ত হলে সত্যিই বিপত্তি: শরীরে আয়রনের আধিক্য অঙ্গের ক্ষতি করে। কিন্তু ইএফএসএ ওই ফলাফলের জন্য মাত্রা-প্রতিক্রিয়া পায়নি, তাই ঊর্ধ্বসীমার বদলে নিরাপদ মাত্রা দিয়েছে। নিরাপদ মাত্রার প্রয়োগ সীমিত: এর ওপরে গেলেই ক্ষতির ঝুঁকি হবে, তা অবধারিত নয়। এগুলো পুষ্টি-সংক্রান্ত মান, এডিআই নয়।"
+    },
+    "statusLabels": [
+      "gras-conditions",
+      "within-limits"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Nutrient safety opinion: no Tolerable Upper Intake Level could be set for iron, so a safe level of intake was given.",
+          "bn": "পুষ্টি-নিরাপত্তা মতামত: আয়রনের সহনীয় ঊর্ধ্বসীমা নির্ধারণ করা যায়নি, তাই নিরাপদ গ্রহণমাত্রা দেওয়া হয়েছে।"
+        },
+        "limits": {
+          "en": "Safe level of intake (not an ADI or UL): 40 mg/day for adults including pregnancy and lactation; 10 mg/day at ages 1-3 up to 35 mg/day at ages 15-17; 5 mg/day from fortified foods and supplements for infants aged 4-11 months, excluding formula.",
+          "bn": "নিরাপদ গ্রহণমাত্রা (এডিআই বা ঊর্ধ্বসীমা নয়): গর্ভাবস্থা ও স্তন্যদানকালসহ প্রাপ্তবয়স্কদের দিনে ৪০ মিলিগ্রাম; ১-৩ বছরে ১০ মিলিগ্রাম থেকে ১৫-১৭ বছরে ৩৫ মিলিগ্রাম; ৪-১১ মাসের শিশুদের ফর্টিফাইড খাবার ও সাপ্লিমেন্ট থেকে দিনে ৫ মিলিগ্রাম, ফর্মুলা বাদে।"
+        },
+        "date": "2024-06",
+        "sourceId": "efsa-iron-2024"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Affirmed as generally recognized as safe, as a nutrient supplement and processing aid.",
+          "bn": "পুষ্টি সম্পূরক ও প্রক্রিয়াজাত সহায়ক হিসেবে সাধারণত নিরাপদ বলে স্বীকৃত।"
+        },
+        "conditions": {
+          "en": "No limitation other than current good manufacturing practice.",
+          "bn": "প্রচলিত উত্তম উৎপাদন পদ্ধতি ছাড়া অন্য কোনো সীমা নেই।"
+        },
+        "date": "2024",
+        "sourceId": "cfr-184-1315"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-iron-2024",
+        "org": "EFSA NDA Panel",
+        "title": "Scientific opinion on the tolerable upper intake level for iron",
+        "year": 2024,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11167337/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "efsa-ul-overview",
+        "org": "EFSA",
+        "title": "Overview on Tolerable Upper Intake Levels as derived by the Scientific Committee on Food (SCF) and the EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA), Version 11",
+        "year": 2025,
+        "url": "https://www.efsa.europa.eu/sites/default/files/2024-05/ul-summary-report.pdf",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "cfr-184-1315",
+        "org": "US Code of Federal Regulations",
+        "title": "21 CFR 184.1315 Ferrous sulfate",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1315.xml",
+        "kind": "regulatory"
+      },
+      {
+        "id": "fda-types",
+        "org": "US FDA",
+        "title": "Types of Food Ingredients",
+        "year": 2023,
+        "url": "https://www.fda.gov/food/food-additives-and-gras-ingredients-information-consumers/types-food-ingredients",
+        "kind": "agency-guidance"
+      }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09"
+    }
+  },
+  {
+    "id": "folic-acid",
+    "name": {
+      "en": "Folic Acid",
+      "bn": "ফলিক অ্যাসিড"
+    },
+    "commonNames": [
+      "pteroylmonoglutamic acid",
+      "synthetic folate",
+      "vitamin B9"
+    ],
+    "labelNames": [
+      "folic acid",
+      "pteroylmonoglutamic acid",
+      "ফলিক অ্যাসিড"
+    ],
+    "chemicalName": "Pteroylmonoglutamic acid",
+    "category": "fortifying-agents",
+    "origin": "synthetic",
+    "originNote": {
+      "en": "The manufactured form of folate. Being synthetic says nothing about safety; the upper limit exists because of dose.",
+      "bn": "ফোলেটের কারখানায় তৈরি রূপ। সিন্থেটিক হওয়া নিরাপত্তা সম্পর্কে কিছু বলে না; ঊর্ধ্বসীমা আছে মাত্রার কারণে।"
+    },
+    "applications": [
+      "flour-grains",
+      "breakfast-cereals",
+      "infant-foods",
+      "supplements"
+    ],
+    "summary": {
+      "en": "A form of folate added to grain products and supplements; US health authorities link adequate intake before pregnancy to fewer neural tube defects.",
+      "bn": "শস্যজাত খাবার ও সাপ্লিমেন্টে যোগ করা ফোলেটের একটি রূপ; গর্ভধারণের আগে পর্যাপ্ত গ্রহণকে মার্কিন স্বাস্থ্য কর্তৃপক্ষ নিউরাল টিউব ত্রুটি কমার সঙ্গে যুক্ত করে।"
+    },
+    "whatIs": {
+      "en": "Folic acid is the manufactured form of folate, a B vitamin. It is added to flour, cereals and supplements.",
+      "bn": "ফলিক অ্যাসিড হলো বি-ভিটামিন ফোলেটের কারখানায় তৈরি রূপ। এটি আটা-ময়দা, সিরিয়াল ও সাপ্লিমেন্টে যোগ করা হয়।"
+    },
+    "whyUsed": {
+      "en": "To supply folate that may be lacking in the diet. In the United States, cereal grain fortification is mandated as part of preventing neural tube defects.",
+      "bn": "খাদ্যে কম থাকা ফোলেট পূরণ করতে। যুক্তরাষ্ট্রে নিউরাল টিউব ত্রুটি প্রতিরোধের অংশ হিসেবে শস্য ফর্টিফিকেশন বাধ্যতামূলক।"
+    },
+    "howItWorks": {
+      "en": "After eating, it acts as a source of folate. CDC recommends 400 micrograms of folic acid daily for all women who can become pregnant.",
+      "bn": "খাওয়ার পর এটি ফোলেটের উৎস হিসেবে কাজ করে। গর্ভধারণে সক্ষম সব নারীর জন্য সিডিসি দিনে ৪০০ মাইক্রোগ্রাম ফলিক অ্যাসিড সুপারিশ করে।"
+    },
+    "properties": [
+      {
+        "en": "manufactured form of folate",
+        "bn": "ফোলেটের কারখানায় তৈরি রূপ"
+      },
+      {
+        "en": "EFSA adult upper level 1000 micrograms/day",
+        "bn": "ইএফএসএ-র প্রাপ্তবয়স্ক ঊর্ধ্বসীমা দিনে ১০০০ মাইক্রোগ্রাম"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "fortification",
+        "text": {
+          "en": "CDC states that 400 micrograms of folic acid daily helps prevent some neural tube defects, and estimates that folic acid in foods helps prevent about 1,300 such cases a year in the United States.",
+          "bn": "সিডিসি জানায়, দিনে ৪০০ মাইক্রোগ্রাম ফলিক অ্যাসিড কিছু নিউরাল টিউব ত্রুটি প্রতিরোধে সাহায্য করে, এবং অনুমান করে খাবারের ফলিক অ্যাসিড যুক্তরাষ্ট্রে বছরে প্রায় ১,৩০০টি এ ধরনের ঘটনা ঠেকাতে সাহায্য করে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "EFSA's upper level rests on the risk that high folic acid intakes may allow neurological symptoms to progress in people with vitamin B12 (cobalamin) deficiency.",
+          "bn": "ইএফএসএ-র ঊর্ধ্বসীমার ভিত্তি হলো এই ঝুঁকি যে, বেশি ফলিক অ্যাসিড ভিটামিন বি১২ (কোবালামিন) ঘাটতিতে আক্রান্তদের স্নায়বিক উপসর্গ বাড়তে দিতে পারে।"
+        },
+        "sourceIds": [
+          "efsa-folate-2023"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "The benefit is well established and the hazard is specific: very high folic acid intakes may let neurological problems worsen in people short of vitamin B12. EFSA considers it unlikely that its upper levels are exceeded in European populations, apart from regular users of high-dose supplements. Fortified food alone is not the usual route to high intake. Upper levels are not ADIs.",
+      "bn": "উপকারিতা সুপ্রতিষ্ঠিত এবং বিপত্তিটি নির্দিষ্ট: খুব বেশি ফলিক অ্যাসিড ভিটামিন বি১২-এর ঘাটতি থাকা ব্যক্তিদের স্নায়বিক সমস্যা বাড়তে দিতে পারে। ইএফএসএ মনে করে, ইউরোপের জনগোষ্ঠীতে ঊর্ধ্বসীমা অতিক্রম হওয়ার সম্ভাবনা কম, উচ্চমাত্রার সাপ্লিমেন্টের নিয়মিত ব্যবহারকারী ছাড়া। ফর্টিফাইড খাবার একাই সাধারণত বেশি গ্রহণের পথ নয়। ঊর্ধ্বসীমা এডিআই নয়।"
+    },
+    "statusLabels": [
+      "within-limits",
+      "approved-specific"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Nutrient safety opinion: existing upper levels retained, with a new value for infants.",
+          "bn": "পুষ্টি-নিরাপত্তা মতামত: বিদ্যমান ঊর্ধ্বসীমা বহাল, শিশুদের জন্য নতুন মান যোগ।"
+        },
+        "limits": {
+          "en": "Tolerable Upper Intake Level (not an ADI): 1000 micrograms/day for adults, including pregnancy and lactation; 200 at ages 1-3, 300 at 4-6, 400 at 7-10, 600 at 11-14, 800 at 15-17; 200 for infants 4-11 months.",
+          "bn": "সহনীয় ঊর্ধ্বসীমা (এডিআই নয়): গর্ভাবস্থা ও স্তন্যদানকালসহ প্রাপ্তবয়স্কদের দিনে ১০০০ মাইক্রোগ্রাম; ১-৩ বছরে ২০০, ৪-৬ বছরে ৩০০, ৭-১০ বছরে ৪০০, ১১-১৪ বছরে ৬০০, ১৫-১৭ বছরে ৮০০; ৪-১১ মাসের শিশুদের ২০০।"
+        },
+        "date": "2023-11",
+        "sourceId": "efsa-ul-overview"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Permitted food additive for listed foods.",
+          "bn": "তালিকাভুক্ত খাবারে অনুমোদিত খাদ্য সংযোজন।"
+        },
+        "limits": {
+          "en": "Breakfast cereals not above 400 micrograms per serving; corn grits not above 1.0 mg per pound; corn masa flour not above 0.7 mg per pound.",
+          "bn": "ব্রেকফাস্ট সিরিয়ালে প্রতি পরিবেশনে সর্বোচ্চ ৪০০ মাইক্রোগ্রাম; কর্ন গ্রিটসে প্রতি পাউন্ডে সর্বোচ্চ ১.০ মিলিগ্রাম; কর্ন মাসা ময়দায় প্রতি পাউন্ডে সর্বোচ্চ ০.৭ মিলিগ্রাম।"
+        },
+        "date": "2024",
+        "sourceId": "cfr-172-345"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-folate-2023",
+        "org": "EFSA NDA Panel",
+        "title": "Scientific opinion on the tolerable upper intake level for folate",
+        "year": 2023,
+        "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.8353",
+        "kind": "regulatory"
+      },
+      {
+        "id": "efsa-ul-overview",
+        "org": "EFSA",
+        "title": "Overview on Tolerable Upper Intake Levels as derived by the Scientific Committee on Food (SCF) and the EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA), Version 11",
+        "year": 2025,
+        "url": "https://www.efsa.europa.eu/sites/default/files/2024-05/ul-summary-report.pdf",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "cfr-172-345",
+        "org": "US Code of Federal Regulations",
+        "title": "21 CFR 172.345 Folic acid (folacin)",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec172-345.xml",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cdc-folic-sources",
+        "org": "US CDC",
+        "title": "Folic Acid: Sources and Recommended Intake",
+        "year": 2024,
+        "url": "https://www.cdc.gov/folic-acid/about/intake-and-sources.html",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "cdc-folic-impact",
+        "org": "US CDC",
+        "title": "Impact of Folic Acid Fortification",
+        "year": 2024,
+        "url": "https://www.cdc.gov/folic-acid/php/communication-resources/impact-of-folic-acid.html",
+        "kind": "agency-guidance"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "EFSA upper levels were read on the EFSA overview and dietary reference values page. The EFSA folate opinion and the two CDC pages were seen only as search-result excerpts, not opened, and the CDC reference years are not confirmed."
+    }
+  },
+  {
+    "id": "potassium-iodate",
+    "name": {
+      "en": "Potassium Iodate",
+      "bn": "পটাসিয়াম আয়োডেট"
+    },
+    "commonNames": [
+      "iodate of potash"
+    ],
+    "labelNames": [
+      "potassium iodate",
+      "পটাসিয়াম আয়োডেট"
+    ],
+    "chemicalName": "Potassium iodate",
+    "category": "fortifying-agents",
+    "origin": "synthetic",
+    "originNote": {
+      "en": "US regulation notes it does not occur naturally and is prepared by reacting iodine with potassium hydroxide. That says nothing about its safety at use levels.",
+      "bn": "মার্কিন বিধি অনুযায়ী এটি প্রাকৃতিকভাবে পাওয়া যায় না, আয়োডিন ও পটাসিয়াম হাইড্রক্সাইডের বিক্রিয়ায় তৈরি হয়। ব্যবহৃত মাত্রায় এর নিরাপত্তা সম্পর্কে এতে কিছু বোঝায় না।"
+    },
+    "applications": [
+      "salt-seasonings",
+      "bread-bakery"
+    ],
+    "summary": {
+      "en": "An iodine compound specified in most Asia-Pacific salt iodisation laws; it adds iodine to edible salt and has a US dough-strengthener use.",
+      "bn": "এশিয়া-প্রশান্ত মহাসাগরীয় অঞ্চলের বেশিরভাগ লবণ-আয়োডিনকরণ আইনে উল্লিখিত আয়োডিন যৌগ; ভোজ্য লবণে আয়োডিন যোগ করে, যুক্তরাষ্ট্রে ময়দার খামির শক্ত করতেও ব্যবহৃত।"
+    },
+    "whatIs": {
+      "en": "Potassium iodate is an iodine compound. A 2017 review found most Asia-Pacific countries' salt iodisation laws specify it for adding iodine to salt.",
+      "bn": "পটাসিয়াম আয়োডেট একটি আয়োডিন যৌগ। ২০১৭ সালের এক পর্যালোচনায় দেখা গেছে, এশিয়া-প্রশান্ত মহাসাগরীয় অঞ্চলের বেশিরভাগ দেশের লবণ-আয়োডিনকরণ আইনে লবণে আয়োডিন যোগের জন্য এটি নির্দিষ্ট করা আছে।"
+    },
+    "whyUsed": {
+      "en": "To add iodine to edible salt. In the United States it is also affirmed as a dough strengthener in bread.",
+      "bn": "ভোজ্য লবণে আয়োডিন যোগ করতে। যুক্তরাষ্ট্রে রুটিতে ময়দার খামির শক্ত করার উপাদান হিসেবেও এটি স্বীকৃত।"
+    },
+    "howItWorks": {
+      "en": "Mixed into salt, it delivers a controlled amount of iodine with everyday food. Iodine is the nutrient the body needs; the compound is just the carrier.",
+      "bn": "লবণে মেশালে এটি নিত্যদিনের খাবারের সঙ্গে নিয়ন্ত্রিত পরিমাণ আয়োডিন পৌঁছে দেয়। শরীরের দরকার আয়োডিন; যৌগটি কেবল বাহক।"
+    },
+    "properties": [
+      {
+        "en": "iodine source for salt iodisation",
+        "bn": "লবণ আয়োডিনকরণের আয়োডিন উৎস"
+      },
+      {
+        "en": "US dough-strengthener use",
+        "bn": "যুক্তরাষ্ট্রে ময়দা শক্ত করার ব্যবহার"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "fortification",
+        "text": {
+          "en": "Adds iodine to edible salt, the route Bangladesh law requires for all edible salt.",
+          "bn": "ভোজ্য লবণে আয়োডিন যোগ করে; বাংলাদেশের আইনে সব ভোজ্য লবণের জন্য এটিই বাধ্যতামূলক পথ।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "dose-dependent",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "In short human studies, higher iodine intakes changed thyroid-related blood measures (TSH levels and the TSH response), and the Scientific Committee on Food based its upper level on these changes.",
+          "bn": "স্বল্পমেয়াদি মানব গবেষণায় বেশি আয়োডিন গ্রহণে থাইরয়েড-সংক্রান্ত রক্তের সূচকে (টিএসএইচ মাত্রা ও টিএসএইচ প্রতিক্রিয়া) পরিবর্তন দেখা গেছে, এবং খাদ্য বিষয়ক বৈজ্ঞানিক কমিটি এই পরিবর্তনের ভিত্তিতেই ঊর্ধ্বসীমা নির্ধারণ করেছে।"
+        },
+        "sourceIds": [
+          "efsa-compendium-2006"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "Iodine is needed, and too much can change how the thyroid is regulated, so the amount added to salt is set by standard. The SCF's upper level is for total iodine and is not meant for people treated with iodine under medical supervision. Upper levels are not ADIs. Coverage is a separate real-world issue: one Bangladesh study found 80% of open (unpacked) salt in its sample had no measurable iodine under 5 ppm.",
+      "bn": "আয়োডিন প্রয়োজনীয়, আবার বেশি হলে থাইরয়েডের নিয়ন্ত্রণ বদলাতে পারে, তাই লবণে যোগের পরিমাণ মানদণ্ডে নির্ধারিত। এসসিএফ-এর ঊর্ধ্বসীমা মোট আয়োডিনের জন্য এবং চিকিৎসকের তত্ত্বাবধানে আয়োডিন নেওয়া ব্যক্তিদের জন্য প্রযোজ্য নয়। ঊর্ধ্বসীমা এডিআই নয়। প্রাপ্যতা আলাদা বাস্তব সমস্যা: বাংলাদেশের এক গবেষণায় নমুনার খোলা (প্যাকেটবিহীন) লবণের ৮০%-এ আয়োডিন ৫ পিপিএম-এর নিচে পাওয়া গেছে।"
+    },
+    "statusLabels": [
+      "approved-specific",
+      "within-limits"
+    ],
+    "regulatory": [
+      {
+        "authority": "Government of Bangladesh",
+        "jurisdiction": {
+          "en": "Bangladesh",
+          "bn": "বাংলাদেশ"
+        },
+        "status": {
+          "en": "Iodized Salt Act, 2021: all edible salt used in human food and animal feed must be iodized.",
+          "bn": "আয়োডিনযুক্ত লবণ আইন, ২০২১: মানুষের খাবার ও পশুখাদ্যে ব্যবহৃত সব ভোজ্য লবণ আয়োডিনযুক্ত হতে হবে।"
+        },
+        "limits": {
+          "en": "Until a national standard is set: 30-50 ppm iodine at production and 20-50 ppm at retail. The Act does not name the iodine compound.",
+          "bn": "জাতীয় মান নির্ধারণ না হওয়া পর্যন্ত: উৎপাদন পর্যায়ে ৩০-৫০ পিপিএম এবং খুচরা পর্যায়ে ২০-৫০ পিপিএম আয়োডিন। আইনে আয়োডিন যৌগের নাম নেই।"
+        },
+        "date": "2021-06",
+        "sourceId": "bd-iodized-salt-2021"
+      },
+      {
+        "authority": "SCF / EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Nutrient safety value for iodine from all sources.",
+          "bn": "সব উৎসের আয়োডিনের জন্য পুষ্টি-নিরাপত্তা মান।"
+        },
+        "limits": {
+          "en": "Tolerable Upper Intake Level (not an ADI): 600 micrograms iodine/day for adults including pregnancy and lactation; 200 at ages 1-3, 250 at 4-6, 300 at 7-10, 450 at 11-14, 500 at 15-17.",
+          "bn": "সহনীয় ঊর্ধ্বসীমা (এডিআই নয়): গর্ভাবস্থা ও স্তন্যদানকালসহ প্রাপ্তবয়স্কদের দিনে ৬০০ মাইক্রোগ্রাম আয়োডিন; ১-৩ বছরে ২০০, ৪-৬ বছরে ২৫০, ৭-১০ বছরে ৩০০, ১১-১৪ বছরে ৪৫০, ১৫-১৭ বছরে ৫০০।"
+        },
+        "date": "2003",
+        "sourceId": "efsa-ul-overview"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Affirmed as generally recognized as safe as a dough strengthener in bread.",
+          "bn": "রুটিতে ময়দা শক্ত করার উপাদান হিসেবে সাধারণত নিরাপদ বলে স্বীকৃত।"
+        },
+        "limits": {
+          "en": "Not above 0.0075% of the weight of the flour.",
+          "bn": "ময়দার ওজনের সর্বোচ্চ ০.০০৭৫%।"
+        },
+        "date": "2024",
+        "sourceId": "cfr-184-1635"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "bd-iodized-salt-2021",
+        "org": "Government of Bangladesh (via FAOLEX)",
+        "title": "The Iodized Salt Act, 2021 (Act No. 08 of 2021), authentic English text, S.R.O. No. 143-Law/2025",
+        "year": 2025,
+        "url": "https://faolex.fao.org/docs/pdf/bgd218708.pdf",
+        "kind": "regulatory"
+      },
+      {
+        "id": "efsa-ul-overview",
+        "org": "EFSA",
+        "title": "Overview on Tolerable Upper Intake Levels as derived by the Scientific Committee on Food (SCF) and the EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA), Version 11",
+        "year": 2025,
+        "url": "https://www.efsa.europa.eu/sites/default/files/2024-05/ul-summary-report.pdf",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "efsa-compendium-2006",
+        "org": "EFSA",
+        "title": "Tolerable Upper Intake Levels for Vitamins and Minerals",
+        "year": 2006,
+        "url": "https://www.efsa.europa.eu/sites/default/files/efsa_rep/blobserver_assets/ndatolerableuil.pdf",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "cfr-184-1635",
+        "org": "US Code of Federal Regulations",
+        "title": "21 CFR 184.1635 Potassium iodate",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1635.xml",
+        "kind": "regulatory"
+      },
+      {
+        "id": "phn-2017",
+        "org": "Public Health Nutrition",
+        "title": "The legislative framework for salt iodization in Asia and the Pacific and its impact on programme implementation",
+        "year": 2017,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5647668/",
+        "kind": "peer-reviewed"
+      },
+      {
+        "id": "phn-2019",
+        "org": "Public Health Nutrition",
+        "title": "Factors associated with the availability of iodized salt at household level: a case study in Bangladesh",
+        "year": 2019,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10260559/",
+        "kind": "peer-reviewed"
+      }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "The Bangladesh Act does not name the iodine compound; no source opened says Bangladesh specifically uses potassium iodate, so the record does not claim that. Bread application reflects the US dough-strengthener use only."
+    }
+  },
+  {
+    "id": "retinyl-palmitate",
+    "name": {
+      "en": "Retinyl Palmitate (Vitamin A)",
+      "bn": "রেটিনাইল পালমিটেট (ভিটামিন এ)"
+    },
+    "commonNames": [
+      "vitamin A palmitate",
+      "vitamin A"
+    ],
+    "labelNames": [
+      "retinyl palmitate",
+      "vitamin a palmitate",
+      "রেটিনাইল পালমিটেট"
+    ],
+    "chemicalName": "Retinyl palmitate (palmitate ester of retinol)",
+    "category": "fortifying-agents",
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "A retinol ester used as a preformed vitamin A source. How it is made says nothing about safety; the dose does.",
+      "bn": "রেটিনলের একটি এস্টার, যা পূর্বগঠিত ভিটামিন এ-এর উৎস। কীভাবে তৈরি তা নিরাপত্তা সম্পর্কে কিছু বলে না; মাত্রাই বলে।"
+    },
+    "applications": [
+      "oils-fats",
+      "infant-foods",
+      "supplements"
+    ],
+    "summary": {
+      "en": "A preformed vitamin A source added to foods and supplements; EFSA's adult upper level for preformed vitamin A is 3000 micrograms RE/day.",
+      "bn": "খাবার ও সাপ্লিমেন্টে যোগ করা পূর্বগঠিত ভিটামিন এ-এর উৎস; ইএফএসএ-র প্রাপ্তবয়স্ক ঊর্ধ্বসীমা দিনে ৩০০০ মাইক্রোগ্রাম আরই।"
+    },
+    "whatIs": {
+      "en": "Retinyl palmitate is the palmitate ester of retinol, a preformed form of vitamin A. EFSA lists retinyl esters among the forms authorised for foods and supplements in the EU.",
+      "bn": "রেটিনাইল পালমিটেট হলো রেটিনলের পালমিটেট এস্টার, ভিটামিন এ-এর পূর্বগঠিত রূপ। ইএফএসএ-র তালিকায় ইইউ-তে খাবার ও সাপ্লিমেন্টের অনুমোদিত রূপের মধ্যে রেটিনাইল এস্টার আছে।"
+    },
+    "whyUsed": {
+      "en": "To add vitamin A to foods where it may be lacking in the diet.",
+      "bn": "যেখানে খাদ্যে ভিটামিন এ কম থাকতে পারে সেখানে তা যোগ করতে।"
+    },
+    "howItWorks": {
+      "en": "It is a fat-soluble store of retinol, the active vitamin. It is measured in retinol equivalents (RE).",
+      "bn": "এটি সক্রিয় ভিটামিন রেটিনলের চর্বিতে দ্রবণীয় একটি মজুদ রূপ। এর পরিমাপ হয় রেটিনল সমতুল্যে (আরই)।"
+    },
+    "properties": [
+      {
+        "en": "preformed vitamin A",
+        "bn": "পূর্বগঠিত ভিটামিন এ"
+      },
+      {
+        "en": "fat-soluble",
+        "bn": "চর্বিতে দ্রবণীয়"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "fortification",
+        "text": {
+          "en": "Adds vitamin A to foods. Bangladesh mandated vitamin A fortification of edible oil in 2013.",
+          "bn": "খাবারে ভিটামিন এ যোগ করে। বাংলাদেশ ২০১৩ সালে ভোজ্যতেলে ভিটামিন এ ফর্টিফিকেশন বাধ্যতামূলক করেছে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "Teratogenicity (harm to the developing fetus) was the critical effect behind EFSA's adult upper level. EFSA advises women who are planning pregnancy or are pregnant not to eat liver products.",
+          "bn": "গর্ভস্থ শিশুর গঠনের ক্ষতি (টেরাটোজেনিসিটি) ছিল ইএফএসএ-র প্রাপ্তবয়স্ক ঊর্ধ্বসীমার মূল ভিত্তি। ইএফএসএ গর্ভধারণের পরিকল্পনাকারী বা গর্ভবতী নারীদের কলিজাজাত খাবার না খাওয়ার পরামর্শ দেয়।"
+        },
+        "sourceIds": [
+          "efsa-vita-2024"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "Vitamin A is essential and also has a clear hazard at high intakes during pregnancy. EFSA's upper level covers total preformed vitamin A from all sources, and this is not an ADI. Fortification adds a small, controlled amount; the Bangladesh standard is 15 to 30 micrograms RE per gram of oil. EFSA's specific dietary caution names liver products, not fortified oil.",
+      "bn": "ভিটামিন এ অপরিহার্য, আবার গর্ভাবস্থায় উচ্চমাত্রায় এর স্পষ্ট বিপত্তি আছে। ইএফএসএ-র ঊর্ধ্বসীমা সব উৎসের মোট পূর্বগঠিত ভিটামিন এ-র জন্য, এবং এটি এডিআই নয়। ফর্টিফিকেশনে অল্প নিয়ন্ত্রিত পরিমাণ যোগ হয়; বাংলাদেশের মান প্রতি গ্রাম তেলে ১৫ থেকে ৩০ মাইক্রোগ্রাম আরই। ইএফএসএ-র নির্দিষ্ট খাদ্য-সতর্কতায় কলিজাজাত খাবারের কথা আছে, ফর্টিফাইড তেলের নয়।"
+    },
+    "statusLabels": [
+      "within-limits",
+      "gras-conditions"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Nutrient safety opinion covering retinol and retinyl esters (including retinyl palmitate) authorised for foods and supplements in the EU.",
+          "bn": "ইইউ-তে খাবার ও সাপ্লিমেন্টে অনুমোদিত রেটিনল ও রেটিনাইল এস্টার (রেটিনাইল পালমিটেটসহ) বিষয়ে পুষ্টি-নিরাপত্তা মতামত।"
+        },
+        "limits": {
+          "en": "Tolerable Upper Intake Level (not an ADI): 3000 micrograms RE/day for adults including pregnancy and lactation; 800 at ages 1-3, 1100 at 4-6, 1500 at 7-10, 2000 at 11-14, 2600 at 15-17; 600 for infants 4-11 months.",
+          "bn": "সহনীয় ঊর্ধ্বসীমা (এডিআই নয়): গর্ভাবস্থা ও স্তন্যদানকালসহ প্রাপ্তবয়স্কদের দিনে ৩০০০ মাইক্রোগ্রাম আরই; ১-৩ বছরে ৮০০, ৪-৬ বছরে ১১০০, ৭-১০ বছরে ১৫০০, ১১-১৪ বছরে ২০০০, ১৫-১৭ বছরে ২৬০০; ৪-১১ মাসের শিশুদের ৬০০।"
+        },
+        "date": "2024-06",
+        "sourceId": "efsa-vita-2024"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Vitamin A, including retinyl palmitate, affirmed as generally recognized as safe as a nutrient supplement.",
+          "bn": "রেটিনাইল পালমিটেটসহ ভিটামিন এ পুষ্টি সম্পূরক হিসেবে সাধারণত নিরাপদ বলে স্বীকৃত।"
+        },
+        "conditions": {
+          "en": "No limitation other than current good manufacturing practice.",
+          "bn": "প্রচলিত উত্তম উৎপাদন পদ্ধতি ছাড়া অন্য কোনো সীমা নেই।"
+        },
+        "date": "2024",
+        "sourceId": "cfr-184-1930"
+      },
+      {
+        "authority": "Government of Bangladesh",
+        "jurisdiction": {
+          "en": "Bangladesh",
+          "bn": "বাংলাদেশ"
+        },
+        "status": {
+          "en": "Vitamin A fortification of edible oil (soybean and palm) mandated in 2013, as reported in a 2019 study. The study does not name the vitamin A compound used.",
+          "bn": "২০১৩ সালে ভোজ্যতেলে (সয়াবিন ও পাম) ভিটামিন এ ফর্টিফিকেশন বাধ্যতামূলক, ২০১৯ সালের এক গবেষণার তথ্য অনুযায়ী। গবেষণায় ব্যবহৃত ভিটামিন এ যৌগের নাম নেই।"
+        },
+        "limits": {
+          "en": "Standard: 15 to 30 micrograms RE per gram of oil.",
+          "bn": "মান: প্রতি গ্রাম তেলে ১৫ থেকে ৩০ মাইক্রোগ্রাম আরই।"
+        },
+        "date": "2013",
+        "sourceId": "plos-2019"
+      }
+    ],
+    "flags": [
+      "pregnancy-caution"
+    ],
+    "references": [
+      {
+        "id": "efsa-vita-2024",
+        "org": "EFSA NDA Panel",
+        "title": "Scientific opinion on the tolerable upper intake level for preformed vitamin A and β-carotene",
+        "year": 2024,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11154838/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "efsa-ul-overview",
+        "org": "EFSA",
+        "title": "Overview on Tolerable Upper Intake Levels as derived by the Scientific Committee on Food (SCF) and the EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA), Version 11",
+        "year": 2025,
+        "url": "https://www.efsa.europa.eu/sites/default/files/2024-05/ul-summary-report.pdf",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "cfr-184-1930",
+        "org": "US Code of Federal Regulations",
+        "title": "21 CFR 184.1930 Vitamin A",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1930.xml",
+        "kind": "regulatory"
+      },
+      {
+        "id": "plos-2019",
+        "org": "PLoS ONE",
+        "title": "Household coverage of vitamin A fortification of edible oil in Bangladesh",
+        "year": 2019,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6447147",
+        "kind": "peer-reviewed"
+      }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "The 2019 study confirms the Bangladesh mandate and RE range but does not say which vitamin A compound is used, so the record does not claim retinyl palmitate is used in Bangladeshi oil. The legal instrument itself was not opened."
+    }
+  },
+  {
+    "id": "zinc-oxide",
+    "name": {
+      "en": "Zinc Oxide",
+      "bn": "জিঙ্ক অক্সাইড"
+    },
+    "commonNames": [
+      "zinc oxide fortificant"
+    ],
+    "labelNames": [
+      "zinc oxide",
+      "জিঙ্ক অক্সাইড"
+    ],
+    "chemicalName": "Zinc oxide",
+    "category": "fortifying-agents",
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "A zinc compound produced industrially for use as a nutrient source. Origin says nothing about safety.",
+      "bn": "পুষ্টির উৎস হিসেবে শিল্পে তৈরি জিঙ্ক যৌগ। উৎস নিরাপত্তা সম্পর্কে কিছু বলে না।"
+    },
+    "applications": [
+      "flour-grains",
+      "breakfast-cereals",
+      "supplements"
+    ],
+    "summary": {
+      "en": "A zinc compound used as a nutrient source; the Scientific Committee on Food set an adult upper level of 25 mg zinc per day.",
+      "bn": "পুষ্টির উৎস হিসেবে ব্যবহৃত জিঙ্ক যৌগ; খাদ্য বিষয়ক বৈজ্ঞানিক কমিটি প্রাপ্তবয়স্কদের জন্য দিনে ২৫ মিলিগ্রাম জিঙ্ক ঊর্ধ্বসীমা দিয়েছে।"
+    },
+    "whatIs": {
+      "en": "Zinc oxide is a zinc compound used to add the essential mineral zinc to foods and supplements. In the United States it is generally recognized as safe when used under good manufacturing practice.",
+      "bn": "জিঙ্ক অক্সাইড একটি জিঙ্ক যৌগ, যা খাবার ও সাপ্লিমেন্টে অপরিহার্য খনিজ জিঙ্ক যোগ করতে ব্যবহৃত হয়। যুক্তরাষ্ট্রে উত্তম উৎপাদন পদ্ধতি মেনে ব্যবহার করলে এটি সাধারণত নিরাপদ বলে স্বীকৃত।"
+    },
+    "whyUsed": {
+      "en": "Fortification adds nutrients that may be lacking in the diet, including minerals like zinc.",
+      "bn": "ফর্টিফিকেশন খাদ্যে কম থাকতে পারে এমন পুষ্টি যোগ করে, যার মধ্যে জিঙ্কের মতো খনিজও আছে।"
+    },
+    "howItWorks": {
+      "en": "It acts as a dietary source of zinc, a mineral used in many of the body's enzymes.",
+      "bn": "এটি জিঙ্কের খাদ্য উৎস হিসেবে কাজ করে; জিঙ্ক শরীরের বহু এনজাইমে ব্যবহৃত খনিজ।"
+    },
+    "properties": [
+      {
+        "en": "zinc source",
+        "bn": "জিঙ্কের উৎস"
+      },
+      {
+        "en": "adult upper level 25 mg zinc/day",
+        "bn": "প্রাপ্তবয়স্ক ঊর্ধ্বসীমা দিনে ২৫ মিলিগ্রাম জিঙ্ক"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "fortification",
+        "text": {
+          "en": "Adds zinc to foods where it may be lacking in the diet.",
+          "bn": "যেখানে খাদ্যে জিঙ্ক কম থাকতে পারে সেখানে তা যোগ করে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "dose-dependent",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "In human studies, prolonged zinc supplements of 50 to 300 mg a day were associated with changes similar to copper deficiency, such as lower plasma copper and reduced activity of copper-containing enzymes. The SCF noted that the clinical relevance of some of these changes is unknown.",
+          "bn": "মানব গবেষণায় দীর্ঘদিন দিনে ৫০ থেকে ৩০০ মিলিগ্রাম জিঙ্ক সাপ্লিমেন্ট গ্রহণে তামার ঘাটতির মতো পরিবর্তন দেখা গেছে, যেমন প্লাজমায় তামা কমে যাওয়া ও তামা-নির্ভর এনজাইমের কার্যকারিতা হ্রাস। এসসিএফ জানিয়েছে, এর কিছু পরিবর্তনের চিকিৎসাগত তাৎপর্য অজানা।"
+        },
+        "sourceIds": [
+          "efsa-compendium-2006"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "The effects described come from prolonged supplement doses of 50 mg a day or more. The SCF set its 25 mg upper level from controlled human studies in which about 50 mg a day showed no adverse effect on copper status, then halved that because the studies were small and short. It found mean EU intakes below the upper level, with the highest intakes close to it and not a matter of concern. Upper levels are not ADIs.",
+      "bn": "বর্ণিত প্রভাবগুলো দীর্ঘদিন দিনে ৫০ মিলিগ্রাম বা তার বেশি সাপ্লিমেন্ট মাত্রা থেকে এসেছে। এসসিএফ নিয়ন্ত্রিত মানব গবেষণার ভিত্তিতে ২৫ মিলিগ্রাম ঊর্ধ্বসীমা দিয়েছে: সেখানে দিনে প্রায় ৫০ মিলিগ্রামে তামার অবস্থায় কোনো ক্ষতিকর প্রভাব দেখা যায়নি, আর গবেষণাগুলো ছোট ও স্বল্পমেয়াদি হওয়ায় সেটিকে অর্ধেক করা হয়েছে। ইইউ-তে গড় গ্রহণ ঊর্ধ্বসীমার নিচে পাওয়া গেছে, সর্বোচ্চ গ্রহণ এর কাছাকাছি, যা উদ্বেগের বিষয় নয় বলে কমিটি মনে করেছে। ঊর্ধ্বসীমা এডিআই নয়।"
+    },
+    "statusLabels": [
+      "gras-conditions",
+      "within-limits"
+    ],
+    "regulatory": [
+      {
+        "authority": "SCF / EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Nutrient safety value for zinc from all sources.",
+          "bn": "সব উৎসের জিঙ্কের জন্য পুষ্টি-নিরাপত্তা মান।"
+        },
+        "limits": {
+          "en": "Tolerable Upper Intake Level (not an ADI): 25 mg zinc/day for adults; 7 at ages 1-3, 10 at 4-6, 13 at 7-10, 18 at 11-14, 22 at 15-17. The SCF stated the adult value also applies in pregnancy and lactation.",
+          "bn": "সহনীয় ঊর্ধ্বসীমা (এডিআই নয়): প্রাপ্তবয়স্কদের দিনে ২৫ মিলিগ্রাম জিঙ্ক; ১-৩ বছরে ৭, ৪-৬ বছরে ১০, ৭-১০ বছরে ১৩, ১১-১৪ বছরে ১৮, ১৫-১৭ বছরে ২২। এসসিএফ জানিয়েছে প্রাপ্তবয়স্কের মান গর্ভাবস্থা ও স্তন্যদানকালেও প্রযোজ্য।"
+        },
+        "date": "2002",
+        "sourceId": "efsa-ul-overview"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Generally recognized as safe.",
+          "bn": "সাধারণত নিরাপদ বলে স্বীকৃত।"
+        },
+        "conditions": {
+          "en": "When used in accordance with good manufacturing practice.",
+          "bn": "উত্তম উৎপাদন পদ্ধতি মেনে ব্যবহার করলে।"
+        },
+        "date": "2024",
+        "sourceId": "cfr-182-8991"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-ul-overview",
+        "org": "EFSA",
+        "title": "Overview on Tolerable Upper Intake Levels as derived by the Scientific Committee on Food (SCF) and the EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA), Version 11",
+        "year": 2025,
+        "url": "https://www.efsa.europa.eu/sites/default/files/2024-05/ul-summary-report.pdf",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "efsa-compendium-2006",
+        "org": "EFSA",
+        "title": "Tolerable Upper Intake Levels for Vitamins and Minerals",
+        "year": 2006,
+        "url": "https://www.efsa.europa.eu/sites/default/files/efsa_rep/blobserver_assets/ndatolerableuil.pdf",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "cfr-182-8991",
+        "org": "US Code of Federal Regulations",
+        "title": "21 CFR 182.8991 Zinc oxide",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec182-8991.xml",
+        "kind": "regulatory"
+      },
+      {
+        "id": "fda-types",
+        "org": "US FDA",
+        "title": "Types of Food Ingredients",
+        "year": 2023,
+        "url": "https://www.fda.gov/food/food-additives-and-gras-ingredients-information-consumers/types-food-ingredients",
+        "kind": "agency-guidance"
+      }
+    ],
+    "verification": {
+      "status": "source-checked",
+      "checkedOn": "2026-11-09",
+      "notes": "Upper levels, the 50 mg/day no-adverse-effect level and the risk characterisation were read in the 2006 EFSA compendium (zinc chapter). The EFSA overview confirms these values remain current. Applications are general knowledge."
+    }
+  },
+  {
+    "id": "alpha-amylase",
+    "name": {
+      "en": "Alpha-Amylase",
+      "bn": "আলফা-অ্যামাইলেজ"
+    },
+    "commonNames": [
+      "amylase enzyme",
+      "α-amylase"
+    ],
+    "labelNames": [
+      "alpha-amylase",
+      "alpha amylase",
+      "α-amylase",
+      "ins 1100",
+      "আলফা-অ্যামাইলেজ"
+    ],
+    "chemicalName": "α-Amylase (E.C. 3.2.1.1)",
+    "ins": "1100",
+    "category": "processing-aids",
+    "origin": "fermentation",
+    "originNote": {
+      "en": "Produced by microbial fermentation, including with genetically modified strains. EFSA assesses each production strain separately.",
+      "bn": "জিনগতভাবে পরিবর্তিত স্ট্রেনসহ অণুজীব ফারমেন্টেশনে তৈরি। ইএফএসএ প্রতিটি উৎপাদন স্ট্রেন আলাদাভাবে মূল্যায়ন করে।"
+    },
+    "applications": [
+      "bread-bakery",
+      "flour-grains"
+    ],
+    "summary": {
+      "en": "An enzyme that breaks down starch in syrup making, baking and alcohol production; as a processing aid it often needs no label declaration.",
+      "bn": "সিরাপ তৈরি, বেকিং ও অ্যালকোহল উৎপাদনে স্টার্চ ভাঙার এনজাইম; প্রক্রিয়াজাত সহায়ক হিসেবে প্রায়ই লেবেলে উল্লেখের দরকার হয় না।"
+    },
+    "whatIs": {
+      "en": "Alpha-amylase is an enzyme that breaks down starch into smaller carbohydrates. EFSA has assessed many preparations from different microbial strains; each opinion covers one production strain.",
+      "bn": "আলফা-অ্যামাইলেজ হলো এমন এনজাইম, যা স্টার্চকে ছোট কার্বোহাইড্রেটে ভাঙে। ইএফএসএ বিভিন্ন অণুজীব স্ট্রেনের বহু প্রস্তুতি মূল্যায়ন করেছে; প্রতিটি মতামত একটি উৎপাদন স্ট্রেনের জন্য।"
+    },
+    "whyUsed": {
+      "en": "It is used to make glucose syrups and other starch products, in distilled alcohol production and in baking. In baking it is added to flour when dough is prepared.",
+      "bn": "গ্লুকোজ সিরাপ ও অন্যান্য স্টার্চজাত পণ্য, ডিস্টিলড অ্যালকোহল উৎপাদন এবং বেকিংয়ে এটি ব্যবহৃত হয়। বেকিংয়ে খামির তৈরির সময় ময়দায় মেশানো হয়।"
+    },
+    "howItWorks": {
+      "en": "It cuts the long chains of gelatinised starch into maltodextrins and dextrins, which lowers viscosity. In glucose syrup making, enzyme-derived material is then removed using activated charcoal or similar materials and ion-exchange resins.",
+      "bn": "এটি জেলাটিনাইজড স্টার্চের লম্বা শৃঙ্খল কেটে ম্যালটোডেক্সট্রিন ও ডেক্সট্রিনে পরিণত করে, ফলে সান্দ্রতা কমে। গ্লুকোজ সিরাপ তৈরিতে পরে সক্রিয় চারকোল বা অনুরূপ উপাদান ও আয়ন-বিনিময় রেজিন দিয়ে এনজাইমজাত উপাদান সরানো হয়।"
+    },
+    "properties": [
+      {
+        "en": "breaks down starch",
+        "bn": "স্টার্চ ভাঙে"
+      },
+      {
+        "en": "largely removed in glucose syrup processing",
+        "bn": "গ্লুকোজ সিরাপ প্রক্রিয়ায় প্রায় পুরোটাই সরানো হয়"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "processing",
+        "text": {
+          "en": "Converts starch into syrups and fermentable sugars and helps in baking.",
+          "bn": "স্টার্চকে সিরাপ ও ফারমেন্টযোগ্য শর্করায় রূপান্তর করে এবং বেকিংয়ে সাহায্য করে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "allergy-intolerance",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "From sequence comparison, EFSA found one match to Asp o 21, an occupational respiratory allergen. For one strain it said an allergic reaction from diet cannot be excluded (except for distilled alcohol) but is considered low in likelihood.",
+          "bn": "অ্যামিনো অ্যাসিড ক্রম তুলনায় ইএফএসএ পেশাগত শ্বাসতন্ত্রের অ্যালার্জেন Asp o ২১-এর সঙ্গে একটি মিল পেয়েছে। একটি স্ট্রেনের ক্ষেত্রে বলা হয়েছে, খাদ্য থেকে অ্যালার্জি প্রতিক্রিয়া নাকচ করা যায় না (ডিস্টিলড অ্যালকোহল বাদে), তবে সম্ভাবনা কম।"
+        },
+        "sourceIds": [
+          "efsa-nzym-ay-2022"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "An enzyme is used to do a job and is largely taken out afterwards in some processes. EFSA found residues negligible in glucose syrup and not carried into distilled alcohol. In baked goods enzyme material can stay in the food, so EFSA calculates exposure there. A 2026 opinion noted that an alpha-amylase may not be fully inactivated during bread making, and still found no safety concerns under revised conditions.",
+      "bn": "এনজাইম কাজ সেরে কিছু প্রক্রিয়ায় পরে বেশিরভাগ সরিয়ে ফেলা হয়। ইএফএসএ গ্লুকোজ সিরাপে অবশিষ্টাংশ নগণ্য এবং ডিস্টিলড অ্যালকোহলে তা যায় না বলে পেয়েছে। বেকড খাবারে এনজাইম উপাদান থেকে যেতে পারে, তাই সেখানে ইএফএসএ গ্রহণের হিসাব করে। ২০২৬ সালের এক মতামতে বলা হয়, রুটি তৈরির সময় একটি আলফা-অ্যামাইলেজ পুরোপুরি নিষ্ক্রিয় নাও হতে পারে, তবু সংশোধিত শর্তে নিরাপত্তাজনিত উদ্বেগ পাওয়া যায়নি।"
+    },
+    "statusLabels": [
+      "approved-specific"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Strain-by-strain assessments. For strain NZYM-AY, EFSA found no safety concerns under intended conditions of use.",
+          "bn": "স্ট্রেনভিত্তিক মূল্যায়ন। এনজেডওয়াইএম-এওয়াই স্ট্রেনের ক্ষেত্রে ইএফএসএ অভিপ্রেত ব্যবহারে নিরাপত্তাজনিত উদ্বেগ পায়নি।"
+        },
+        "date": "2022-08",
+        "sourceId": "efsa-nzym-ay-2022"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "An enzyme from a Bacillus stearothermophilus strain affirmed as generally recognized as safe for hydrolysing edible starch.",
+          "bn": "ব্যাসিলাস স্টিয়ারোথার্মোফিলাস স্ট্রেনের একটি এনজাইম ভোজ্য স্টার্চ ভাঙার জন্য সাধারণত নিরাপদ বলে স্বীকৃত।"
+        },
+        "conditions": {
+          "en": "Used at levels not to exceed current good manufacturing practice.",
+          "bn": "প্রচলিত উত্তম উৎপাদন পদ্ধতির চেয়ে বেশি মাত্রায় নয়।"
+        },
+        "date": "2024",
+        "sourceId": "cfr-184-1012"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Label rule: processing aids are exempt from ingredient declaration when they are removed, converted into normal food constituents, or present only at insignificant levels with no technical effect.",
+          "bn": "লেবেল বিধি: প্রক্রিয়াজাত সহায়ক সরিয়ে ফেলা হলে, খাবারের স্বাভাবিক উপাদানে রূপান্তরিত হলে, অথবা কার্যকর প্রভাব ছাড়া নগণ্য মাত্রায় থাকলে উপাদান তালিকায় ঘোষণা থেকে অব্যাহতি পায়।"
+        },
+        "date": "2024",
+        "sourceId": "cfr-101-100"
+      },
+      {
+        "authority": "European Union",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Food additives and food enzymes used as processing aids need not be named in the list of ingredients.",
+          "bn": "প্রক্রিয়াজাত সহায়ক হিসেবে ব্যবহৃত খাদ্য সংযোজন ও খাদ্য এনজাইম উপাদান তালিকায় উল্লেখ করতে হয় না।"
+        },
+        "date": "2011-10",
+        "sourceId": "eu-1169"
+      },
+      {
+        "authority": "Health Canada",
+        "jurisdiction": {
+          "en": "Canada",
+          "bn": "কানাডা"
+        },
+        "status": {
+          "en": "Processing aids, as defined in its policy, are not required to be listed on prepackaged food labels.",
+          "bn": "নীতিমালায় সংজ্ঞায়িত প্রক্রিয়াজাত সহায়ক প্যাকেটজাত খাবারের লেবেলে তালিকাভুক্ত করতে হয় না।"
+        },
+        "date": "2014-08",
+        "sourceId": "canada-pa"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-nzym-ay-2022",
+        "org": "EFSA CEP Panel",
+        "title": "Safety evaluation of the food enzyme α-amylase from the genetically modified Bacillus licheniformis strain NZYM-AY",
+        "year": 2022,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9353655/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "efsa-bzb41-2019",
+        "org": "EFSA CEP Panel",
+        "title": "Safety evaluation of the food enzyme α-amylase from Aspergillus oryzae (strain DP-Bzb41)",
+        "year": 2019,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7008918/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "efsa-nzym-na-2026",
+        "org": "EFSA CEP Panel",
+        "title": "Safety evaluation of an extension of use of the food enzyme α-amylase from the non-genetically modified Aspergillus oryzae strain NZYM-NA",
+        "year": 2026,
+        "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2026.10201",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-184-1012",
+        "org": "US Code of Federal Regulations",
+        "title": "21 CFR 184.1012 α-Amylase enzyme preparation from Bacillus stearothermophilus",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1012.xml",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-101-100",
+        "org": "US Code of Federal Regulations",
+        "title": "21 CFR 101.100 Food; exemptions from labeling",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol2/xml/CFR-2024-title21-vol2-sec101-100.xml",
+        "kind": "regulatory"
+      },
+      {
+        "id": "eu-1169",
+        "org": "European Union",
+        "title": "Regulation (EU) No 1169/2011 on the provision of food information to consumers",
+        "year": 2011,
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A32011R1169",
+        "kind": "regulatory"
+      },
+      {
+        "id": "canada-pa",
+        "org": "Health Canada",
+        "title": "Policy for Differentiating Food Additives and Processing Aids",
+        "year": 2014,
+        "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/reports-publications/policy-differentiating-food-additives-processing-aids-2008.html",
+        "kind": "agency-guidance"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "EUR-Lex pages would not open for this checker: the EU Article 20 rule (Regulation 1169/2011) was read only as a search-result excerpt. The 2019 and 2026 EFSA baking opinions were seen as search-result excerpts; the 2022 NZYM-AY opinion was opened. INS 1100 is the Codex amylases heading; the Codex PDF layout was misaligned when extracted."
+    }
+  },
+  {
+    "id": "activated-carbon",
+    "name": {
+      "en": "Activated Carbon (Vegetable Carbon, E153)",
+      "bn": "অ্যাক্টিভেটেড কার্বন (ভেজিটেবল কার্বন, E153)"
+    },
+    "commonNames": [
+      "activated charcoal",
+      "decolourizing carbon",
+      "vegetable carbon"
+    ],
+    "labelNames": [
+      "activated carbon",
+      "activated charcoal",
+      "vegetable carbon",
+      "decolourizing carbon",
+      "e153",
+      "e 153",
+      "ins 153",
+      "অ্যাক্টিভেটেড কার্বন",
+      "ভেজিটেবল কার্বন"
+    ],
+    "chemicalName": "Carbon",
+    "eNumber": "E153",
+    "ins": "153",
+    "formula": "C",
+    "category": "processing-aids",
+    "alsoIn": [
+      "food-colors"
+    ],
+    "origin": "natural-derived",
+    "originNote": {
+      "en": "JECFA describes activated carbon as made by carbonising and activating organic material such as sawdust, peat, coconut shells or coal. E153 is the vegetable-derived colour; the two uses are distinct.",
+      "bn": "জেইসিএফএ-র বর্ণনায় করাতের গুঁড়া, পিট, নারকেলের খোল বা কয়লার মতো জৈব উপাদান কার্বনায়ন ও সক্রিয়করণ করে অ্যাক্টিভেটেড কার্বন তৈরি হয়। E153 হলো উদ্ভিজ্জ রঙ; দুটি ব্যবহার আলাদা।"
+    },
+    "applications": [
+      "sauces-condiments",
+      "chocolate-confectionery"
+    ],
+    "summary": {
+      "en": "A porous carbon used to remove colours and impurities and then filtered out; E153 is the vegetable-carbon colour that stays in food.",
+      "bn": "রঙ ও অশুদ্ধি সরাতে ব্যবহৃত ছিদ্রযুক্ত কার্বন, যা পরে ছেঁকে ফেলা হয়; E153 হলো ভেজিটেবল কার্বন রঙ, যা খাবারে থেকে যায়।"
+    },
+    "whatIs": {
+      "en": "Activated carbon is a porous, carbon-rich solid. JECFA lists its functional uses as adsorbent and decolourising agent. Vegetable carbon, E153, is a related EU food colour that remains in the food, which is why it is assessed differently.",
+      "bn": "অ্যাক্টিভেটেড কার্বন হলো ছিদ্রযুক্ত, কার্বন-সমৃদ্ধ কঠিন পদার্থ। জেইসিএফএ-র তালিকায় এর ব্যবহার অধিশোষক ও রঙ-অপসারক হিসেবে। ভেজিটেবল কার্বন (E153) ইইউ-র একটি সম্পর্কিত খাদ্য রঙ, যা খাবারে থেকে যায়, তাই এর মূল্যায়ন আলাদা।"
+    },
+    "whyUsed": {
+      "en": "As a processing aid it adsorbs colours and impurities, for example EFSA describes it removing enzyme-derived material from glucose syrups. E153 is used to colour foods black or grey.",
+      "bn": "প্রক্রিয়াজাত সহায়ক হিসেবে এটি রঙ ও অশুদ্ধি অধিশোষণ করে, যেমন ইএফএসএ-র বর্ণনায় গ্লুকোজ সিরাপ থেকে এনজাইমজাত উপাদান সরানো। E153 খাবারে কালো বা ধূসর রঙ দিতে ব্যবহৃত হয়।"
+    },
+    "howItWorks": {
+      "en": "Its huge internal surface holds onto dissolved substances. As a processing aid the carbon is then taken out of the liquid, so the job is done without it remaining as an ingredient.",
+      "bn": "এর বিশাল অভ্যন্তরীণ পৃষ্ঠ দ্রবীভূত পদার্থ ধরে রাখে। প্রক্রিয়াজাত সহায়ক হিসেবে কার্বনটি পরে তরল থেকে বের করে নেওয়া হয়, ফলে উপাদান হিসেবে না থেকেই কাজ সম্পন্ন হয়।"
+    },
+    "properties": [
+      {
+        "en": "adsorbent and decolourising agent",
+        "bn": "অধিশোষক ও রঙ-অপসারক"
+      },
+      {
+        "en": "insoluble in water and organic solvents",
+        "bn": "পানি ও জৈব দ্রাবকে অদ্রবণীয়"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "processing",
+        "text": {
+          "en": "Removes colours and unwanted substances from food liquids such as syrups.",
+          "bn": "সিরাপের মতো খাদ্য তরল থেকে রঙ ও অবাঞ্ছিত উপাদান সরায়।"
+        }
+      },
+      {
+        "kind": "appearance",
+        "text": {
+          "en": "As E153, gives foods a black or grey colour.",
+          "bn": "E153 হিসেবে খাবারে কালো বা ধূসর রঙ দেয়।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "laboratory",
+        "strength": "preliminary",
+        "text": {
+          "en": "From laboratory analysis in EFSA's 2026 follow-up, E153 contains small particles including nanoparticles. EFSA could not establish whether existing toxicology data cover that fraction and said its 2012 risk assessment should be complemented with nanoscale considerations.",
+          "bn": "ইএফএসএ-র ২০২৬ সালের ফলো-আপের ল্যাব বিশ্লেষণে E153-এ ন্যানো-কণাসহ ক্ষুদ্র কণা পাওয়া গেছে। বিদ্যমান বিষতত্ত্ব তথ্য ওই অংশকে আওতায় আনে কি না তা ইএফএসএ নিশ্চিত করতে পারেনি, এবং ২০১২ সালের ঝুঁকি মূল্যায়নে ন্যানো-বিবেচনা যোগ করার কথা বলেছে।"
+        },
+        "sourceIds": [
+          "efsa-2026"
+        ]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "laboratory",
+        "strength": "preliminary",
+        "text": {
+          "en": "From analytical data, EFSA recommended tightening the E153 limits for arsenic, cadmium, mercury, lead and benzo[a]pyrene and adding limits for aluminium and PAH4. Margins of exposure for benzo[a]pyrene and PAH4 were above the level of concern across scenarios.",
+          "bn": "বিশ্লেষণ-তথ্যের ভিত্তিতে ইএফএসএ E153-এ আর্সেনিক, ক্যাডমিয়াম, পারদ, সীসা ও বেনজো[এ]পাইরিনের সীমা কঠোর করা এবং অ্যালুমিনিয়াম ও পিএএইচ৪-এর সীমা যোগ করার সুপারিশ করেছে। বেনজো[এ]পাইরিন ও পিএএইচ৪-এর এক্সপোজার মার্জিন সব পরিস্থিতিতে উদ্বেগের স্তরের ওপরে ছিল।"
+        },
+        "sourceIds": [
+          "efsa-2026"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "Contaminants are the main subject of EFSA's 2026 follow-up: the opinion tightens purity limits rather than finding harm from eating E153. The 2012 opinion concluded E153 was not of safety concern at reported uses, partly because it is not absorbed from the gut. Activated carbon used as a processing aid is filtered out, so exposure is lower still, and JECFA did not establish an ADI. The open question is the nanoparticle fraction.",
+      "bn": "ইএফএসএ-র ২০২৬ সালের ফলো-আপের মূল বিষয় দূষক: মতামতটি E153 খাওয়ার ক্ষতি নয়, বরং বিশুদ্ধতার সীমা কঠোর করার কথা বলে। ২০১২ সালের মতামতে জানানো ব্যবহারে E153 নিরাপত্তাজনিত উদ্বেগের নয় বলা হয়েছিল, আংশিকভাবে কারণ এটি অন্ত্র থেকে শোষিত হয় না। প্রক্রিয়াজাত সহায়ক হিসেবে অ্যাক্টিভেটেড কার্বন ছেঁকে ফেলা হয়, তাই গ্রহণ আরও কম, এবং জেইসিএফএ এডিআই নির্ধারণ করেনি। অমীমাংসিত প্রশ্ন হলো ন্যানো-কণার অংশ।"
+    },
+    "statusLabels": [
+      "approved-specific",
+      "evidence-developing"
+    ],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Follow-up opinion on amending E153 specifications; lower contaminant limits recommended and nanoscale considerations requested.",
+          "bn": "E153-এর মানদণ্ড সংশোধনের ফলো-আপ মতামত; দূষকের সীমা কমানোর সুপারিশ ও ন্যানো-বিবেচনার অনুরোধ।"
+        },
+        "adi": {
+          "type": "none-established",
+          "note": {
+            "en": "No ADI exists: the 2012 panel found the toxicological database too sparse to derive one, and this opinion does not set one.",
+            "bn": "কোনো এডিআই নেই: ২০১২ সালের প্যানেল বিষতত্ত্ব তথ্য অপ্রতুল পেয়েছে, এবং এই মতামতও নির্ধারণ করেনি।"
+          }
+        },
+        "limits": {
+          "en": "Values the Panel said could be considered if limits are revised (mg/kg): arsenic 0.8, cadmium 0.2, mercury 0.1, lead 1.0, aluminium 550; benzo[a]pyrene 20 and PAH4 100 micrograms/kg. These are not adopted limits.",
+          "bn": "সীমা সংশোধন হলে বিবেচনাযোগ্য বলে প্যানেলের উল্লেখিত মান (মিগ্রা/কেজি): আর্সেনিক ০.৮, ক্যাডমিয়াম ০.২, পারদ ০.১, সীসা ১.০, অ্যালুমিনিয়াম ৫৫০; বেনজো[এ]পাইরিন ২০ ও পিএএইচ৪ ১০০ মাইক্রোগ্রাম/কেজি। এগুলো গৃহীত সীমা নয়।"
+        },
+        "date": "2026-01",
+        "sourceId": "efsa-2026"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "2012 re-evaluation of E153: not of safety concern at the reported uses and use levels, as cited in the 2026 opinion.",
+          "bn": "E153-এর ২০১২ সালের পুনর্মূল্যায়ন: জানানো ব্যবহার ও মাত্রায় নিরাপত্তাজনিত উদ্বেগের নয়, ২০২৬ সালের মতামতে উদ্ধৃত।"
+        },
+        "adi": {
+          "type": "none-established",
+          "note": {
+            "en": "The panel could not derive an ADI because the database was sparse.",
+            "bn": "তথ্য অপ্রতুল হওয়ায় প্যানেল এডিআই নির্ধারণ করতে পারেনি।"
+          }
+        },
+        "date": "2012",
+        "sourceId": "efsa-2026"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": {
+          "en": "International",
+          "bn": "আন্তর্জাতিক"
+        },
+        "status": {
+          "en": "Purity specification for activated carbon adopted at the 73rd meeting.",
+          "bn": "৭৩তম সভায় অ্যাক্টিভেটেড কার্বনের বিশুদ্ধতা মানদণ্ড গৃহীত।"
+        },
+        "adi": {
+          "type": "none-established",
+          "note": {
+            "en": "The specification records that no ADI was established at the 31st JECFA (1987).",
+            "bn": "মানদণ্ডে উল্লেখ আছে, ৩১তম জেইসিএফএ-তে (১৯৮৭) কোনো এডিআই নির্ধারিত হয়নি।"
+          }
+        },
+        "date": "2010",
+        "sourceId": "jecfa-2010"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Label rule: processing aids are exempt from ingredient declaration when they are removed, converted into normal food constituents, or present only at insignificant levels with no technical effect.",
+          "bn": "লেবেল বিধি: প্রক্রিয়াজাত সহায়ক সরিয়ে ফেলা হলে, খাবারের স্বাভাবিক উপাদানে রূপান্তরিত হলে, অথবা কার্যকর প্রভাব ছাড়া নগণ্য মাত্রায় থাকলে উপাদান তালিকায় ঘোষণা থেকে অব্যাহতি পায়।"
+        },
+        "date": "2024",
+        "sourceId": "cfr-101-100"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-2026",
+        "org": "EFSA FAF Panel",
+        "title": "Scientific opinion on the amendment of the specifications for vegetable carbon (E 153) as a food additive",
+        "year": 2026,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12848909/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "jecfa-2010",
+        "org": "FAO/WHO JECFA",
+        "title": "Activated carbon. Specifications prepared at the 73rd JECFA (2010), FAO JECFA Monographs 10",
+        "year": 2010,
+        "url": "https://www.fao.org/fileadmin/user_upload/jecfa_additives/docs/monograph10/additive-006-m10.pdf",
+        "kind": "regulatory"
+      },
+      {
+        "id": "efsa-nzym-ay-2022",
+        "org": "EFSA CEP Panel",
+        "title": "Safety evaluation of the food enzyme α-amylase from the genetically modified Bacillus licheniformis strain NZYM-AY",
+        "year": 2022,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9353655/",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-101-100",
+        "org": "US Code of Federal Regulations",
+        "title": "21 CFR 101.100 Food; exemptions from labeling",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol2/xml/CFR-2024-title21-vol2-sec101-100.xml",
+        "kind": "regulatory"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "The 2012 EFSA opinion was not opened; its conclusions are as cited in the 2026 follow-up. US status of activated carbon as a processing aid could not be confirmed, and no US or EU rule specific to it was read. Applications are general knowledge."
+    }
+  },
+  {
+    "id": "hexane",
+    "name": {
+      "en": "Hexane (Extraction Solvent)",
+      "bn": "হেক্সেন (নিষ্কাশন দ্রাবক)"
+    },
+    "commonNames": [
+      "technical hexane",
+      "n-hexane"
+    ],
+    "labelNames": [
+      "hexane",
+      "technical hexane",
+      "n-hexane",
+      "হেক্সেন"
+    ],
+    "chemicalName": "Technical hexane (mainly n-hexane)",
+    "category": "processing-aids",
+    "origin": "natural-derived",
+    "originNote": {
+      "en": "n-Hexane occurs naturally and is made from crude oil; the food-grade solvent is a refined petroleum fraction. Origin says nothing about safety.",
+      "bn": "এন-হেক্সেন প্রাকৃতিকভাবে পাওয়া যায় এবং অপরিশোধিত তেল থেকে তৈরি হয়; খাদ্যমানের দ্রাবকটি পরিশোধিত পেট্রোলিয়াম অংশ। উৎস নিরাপত্তা সম্পর্কে কিছু বলে না।"
+    },
+    "applications": [
+      "oils-fats"
+    ],
+    "summary": {
+      "en": "A solvent used to extract oil from oilseeds, then largely removed; EFSA is re-evaluating it after a 2024 report said this was needed.",
+      "bn": "তেলবীজ থেকে তেল বের করার দ্রাবক, যা পরে বেশিরভাগ সরিয়ে ফেলা হয়; ২০২৪ সালের এক প্রতিবেদনে প্রয়োজনীয়তা উঠে আসার পর ইএফএসএ এর পুনর্মূল্যায়ন করছে।"
+    },
+    "whatIs": {
+      "en": "Technical hexane is a solvent made up mainly of n-hexane and related six-carbon hydrocarbons, distilling between 64 and 70 degrees Celsius. In food it is used as an extraction solvent, chiefly to pull vegetable oil out of oilseeds.",
+      "bn": "টেকনিক্যাল হেক্সেন হলো মূলত এন-হেক্সেন ও সম্পর্কিত ছয়-কার্বন হাইড্রোকার্বনের দ্রাবক, যা ৬৪ থেকে ৭০ ডিগ্রি সেলসিয়াসে পাতিত হয়। খাবারে এটি নিষ্কাশন দ্রাবক হিসেবে, প্রধানত তেলবীজ থেকে উদ্ভিজ্জ তেল বের করতে ব্যবহৃত হয়।"
+    },
+    "whyUsed": {
+      "en": "It dissolves oil out of seeds efficiently. EFSA says extraction solvents are largely removed during production, though unavoidable residues can remain.",
+      "bn": "এটি বীজ থেকে দক্ষতার সঙ্গে তেল দ্রবীভূত করে বের করে। ইএফএসএ জানায়, উৎপাদনের সময় নিষ্কাশন দ্রাবক বেশিরভাগ সরানো হয়, তবে অনিবার্য অবশিষ্টাংশ থাকতে পারে।"
+    },
+    "howItWorks": {
+      "en": "Hexane carries the oil away from the crushed seed, and is then separated and removed from the oil. It works during processing and is not meant to remain as an ingredient.",
+      "bn": "হেক্সেন চূর্ণ বীজ থেকে তেল টেনে আনে, পরে তেল থেকে তা আলাদা করে সরানো হয়। এটি প্রক্রিয়াকরণের সময় কাজ করে, উপাদান হিসেবে থাকার জন্য নয়।"
+    },
+    "properties": [
+      {
+        "en": "extraction solvent for vegetable oils",
+        "bn": "উদ্ভিজ্জ তেলের নিষ্কাশন দ্রাবক"
+      },
+      {
+        "en": "distils between 64 and 70 degrees Celsius",
+        "bn": "৬৪ থেকে ৭০ ডিগ্রি সেলসিয়াসে পাতিত হয়"
+      }
+    ],
+    "benefits": [
+      {
+        "kind": "processing",
+        "text": {
+          "en": "Extracts vegetable oil from oilseeds.",
+          "bn": "তেলবীজ থেকে উদ্ভিজ্জ তেল নিষ্কাশন করে।"
+        }
+      }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA's 2024 report concluded a re-evaluation is needed, with more information on identity, impurities, use, actual occurrence in food and toxicology. Its conservative maximum-residue scenario estimated infant exposure at the 95th percentile up to 1.55 mg/kg body weight a day. The last evaluation, by the SCF in 1996, gave a no-effect level of 23 mg/kg body weight for n-hexane.",
+          "bn": "ইএফএসএ-র ২০২৪ সালের প্রতিবেদন বলেছে পুনর্মূল্যায়ন দরকার, এবং পরিচয়, অশুদ্ধি, ব্যবহার, খাবারে প্রকৃত উপস্থিতি ও বিষতত্ত্ব নিয়ে আরও তথ্য প্রয়োজন। এর সতর্ক সর্বোচ্চ-অবশিষ্টাংশ পরিস্থিতিতে ৯৫তম পার্সেন্টাইলে শিশুদের গ্রহণ দিনে প্রতি কেজি শরীর-ওজনে ১.৫৫ মিলিগ্রাম পর্যন্ত অনুমান করা হয়েছে। সর্বশেষ মূল্যায়নে (এসসিএফ, ১৯৯৬) এন-হেক্সেনের জন্য প্রতি কেজি শরীর-ওজনে ২৩ মিলিগ্রাম নো-ইফেক্ট মাত্রা পাওয়া গিয়েছিল।"
+        },
+        "sourceIds": [
+          "efsa-call"
+        ]
+      },
+      {
+        "kind": "dose-dependent",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "In workers breathing high concentrations of n-hexane, ATSDR reports tingling or numbness in the hands and feet, followed by leg weakness and, with continued exposure, possible paralysis. Workers can recover once removed from exposure. Studies in animals ingesting n-hexane also showed nerve effects.",
+          "bn": "উচ্চ ঘনত্বের এন-হেক্সেন শ্বাসে নেওয়া শ্রমিকদের ক্ষেত্রে এটিএসডিআর হাত-পায়ে ঝিনঝিন বা অবশ ভাব, পরে পায়ের দুর্বলতা এবং দীর্ঘ এক্সপোজারে পক্ষাঘাতের সম্ভাবনার কথা জানায়। এক্সপোজার থেকে সরে এলে শ্রমিকেরা সুস্থ হতে পারেন। এন-হেক্সেন খাওয়ানো প্রাণীর গবেষণাতেও স্নায়বিক প্রভাব দেখা গেছে।"
+        },
+        "sourceIds": [
+          "atsdr-toxfaq"
+        ]
+      }
+    ],
+    "riskContext": {
+      "en": "The human nerve effects come from breathing high concentrations at work, a very different route and dose from residues in refined oil. The hazard is real, while the risk from food depends on how much residue remains, and EFSA says it needs actual occurrence data to judge that. No re-evaluation result had been published when this was checked. Hexane is a useful example of a processing aid that is mostly removed yet still has its residues regulated.",
+      "bn": "মানুষের স্নায়বিক প্রভাব এসেছে কর্মক্ষেত্রে উচ্চ ঘনত্বে শ্বাসের মাধ্যমে, যা পরিশোধিত তেলের অবশিষ্টাংশ থেকে সম্পূর্ণ ভিন্ন পথ ও মাত্রা। বিপত্তি বাস্তব, তবে খাবার থেকে ঝুঁকি নির্ভর করে কতটা অবশিষ্টাংশ থাকে তার ওপর, এবং তা বিচার করতে ইএফএসএ-র প্রকৃত উপস্থিতির তথ্য দরকার। যাচাইয়ের সময় পুনর্মূল্যায়নের ফল প্রকাশিত হয়নি। হেক্সেন এমন প্রক্রিয়াজাত সহায়কের ভালো উদাহরণ, যা বেশিরভাগ সরানো হলেও অবশিষ্টাংশ নিয়ন্ত্রিত হয়।"
+    },
+    "statusLabels": [
+      "approved-specific",
+      "evidence-developing"
+    ],
+    "regulatory": [
+      {
+        "authority": "European Union",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Authorised extraction solvent under Directive 2009/32/EC, which sets conditions of use and maximum residue limits by food category.",
+          "bn": "নির্দেশনা ২০০৯/৩২/ইসি-র অধীনে অনুমোদিত নিষ্কাশন দ্রাবক, যা ব্যবহারের শর্ত ও খাদ্যশ্রেণিভিত্তিক সর্বোচ্চ অবশিষ্টাংশ সীমা নির্ধারণ করে।"
+        },
+        "date": "2009",
+        "sourceId": "efsa-call"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": {
+          "en": "European Union",
+          "bn": "ইউরোপীয় ইউনিয়ন"
+        },
+        "status": {
+          "en": "Under re-evaluation following a 2024 Technical Report; mandate received in May 2025. No outcome published at the check date.",
+          "bn": "২০২৪ সালের কারিগরি প্রতিবেদনের পর পুনর্মূল্যায়নাধীন; মে ২০২৫-এ দায়িত্বপত্র পাওয়া। যাচাইয়ের তারিখ পর্যন্ত ফল প্রকাশিত হয়নি।"
+        },
+        "date": "2025-05",
+        "sourceId": "efsa-call"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Permitted as a residue from extraction in listed foods.",
+          "bn": "তালিকাভুক্ত খাবারে নিষ্কাশনের অবশিষ্টাংশ হিসেবে অনুমোদিত।"
+        },
+        "limits": {
+          "en": "Spice oleoresins: not above 25 parts per million. Hops extract: not above 2.2% by weight, with labelling conditions.",
+          "bn": "মশলার ওলিওরেজিন: সর্বোচ্চ ২৫ পিপিএম। হপস নির্যাস: ওজনের সর্বোচ্চ ২.২%, লেবেলের শর্তসহ।"
+        },
+        "date": "2024",
+        "sourceId": "cfr-173-270"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": {
+          "en": "United States",
+          "bn": "যুক্তরাষ্ট্র"
+        },
+        "status": {
+          "en": "Label rule: processing aids are exempt from ingredient declaration when they are removed, converted into normal food constituents, or present only at insignificant levels with no technical effect.",
+          "bn": "লেবেল বিধি: প্রক্রিয়াজাত সহায়ক সরিয়ে ফেলা হলে, খাবারের স্বাভাবিক উপাদানে রূপান্তরিত হলে, অথবা কার্যকর প্রভাব ছাড়া নগণ্য মাত্রায় থাকলে উপাদান তালিকায় ঘোষণা থেকে অব্যাহতি পায়।"
+        },
+        "date": "2024",
+        "sourceId": "cfr-101-100"
+      }
+    ],
+    "flags": [],
+    "references": [
+      {
+        "id": "efsa-call",
+        "org": "EFSA",
+        "title": "Call for data for the re-evaluation of technical hexane used as an extraction solvent in the preparation of food and food ingredients",
+        "year": 2025,
+        "url": "https://www.efsa.europa.eu/en/call/call-data-re-evaluation-technical-hexane-used-extraction-solvent-preparation-food-and-food",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "efsa-solvents",
+        "org": "EFSA",
+        "title": "Extraction solvents",
+        "year": 2025,
+        "url": "https://www.efsa.europa.eu/en/topics/extraction-solvents",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "atsdr-toxfaq",
+        "org": "US ATSDR",
+        "title": "n-Hexane - ToxFAQs",
+        "year": 2025,
+        "url": "https://www.atsdr.cdc.gov/toxfaqs/tfacts113.pdf",
+        "kind": "agency-guidance"
+      },
+      {
+        "id": "cfr-173-270",
+        "org": "US Code of Federal Regulations",
+        "title": "21 CFR 173.270 Hexane",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec173-270.xml",
+        "kind": "regulatory"
+      },
+      {
+        "id": "cfr-101-100",
+        "org": "US Code of Federal Regulations",
+        "title": "21 CFR 101.100 Food; exemptions from labeling",
+        "year": 2024,
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol2/xml/CFR-2024-title21-vol2-sec101-100.xml",
+        "kind": "regulatory"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "EU numeric maximum residue limits (Directive 2009/32/EC Annex I) could not be read on an allowed source, so they are omitted. The 2024 EFSA Technical Report was not opened; its content is as reported on EFSA's call-for-data page. EFSA re-evaluation outcome: none found as of the check date."
+    }
+  }
+]

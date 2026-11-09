@@ -1,0 +1,1216 @@
+[
+  {
+    "id": "sodium-benzoate",
+    "name": { "en": "Sodium benzoate", "bn": "সোডিয়াম বেনজোয়েট" },
+    "commonNames": ["benzoate of soda", "benzoic acid sodium salt"],
+    "labelNames": ["sodium benzoate", "benzoate of soda", "e211", "e 211", "ins 211", "সোডিয়াম বেনজোয়েট"],
+    "chemicalName": "Sodium benzoate",
+    "eNumber": "E211",
+    "ins": "211",
+    "formula": "C7H5NaO2",
+    "category": "preservatives",
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "Made industrially; benzoic acid also occurs naturally in some fruits and vegetables. Origin says nothing about safety.",
+      "bn": "কারখানায় তৈরি হয়; বেনজোয়িক অ্যাসিড কিছু ফল ও সবজিতে প্রাকৃতিকভাবেও থাকে। উৎস দেখে নিরাপত্তা বিচার করা যায় না।"
+    },
+    "applications": ["soft-drinks", "juices", "sauces-condiments", "jams-spreads"],
+    "summary": {
+      "en": "A preservative that stops yeasts and moulds in acidic foods such as soft drinks and sauces.",
+      "bn": "একটি সংরক্ষক, যা কোমল পানীয় ও সসের মতো অম্লীয় খাবারে ইস্ট ও ছত্রাকের বৃদ্ধি থামায়।"
+    },
+    "whatIs": {
+      "en": "Sodium benzoate is the sodium salt of benzoic acid, supplied as a white powder that dissolves easily in water. It is one of the most familiar preservatives on drink and sauce labels.",
+      "bn": "সোডিয়াম বেনজোয়েট হলো বেনজোয়িক অ্যাসিডের সোডিয়াম লবণ, সাদা গুঁড়া যা পানিতে সহজে গলে। পানীয় ও সসের লেবেলে এটি বহুল পরিচিত একটি সংরক্ষক।"
+    },
+    "whyUsed": {
+      "en": "It helps acidic foods and drinks keep longer after production and after opening, by limiting spoilage yeasts and moulds.",
+      "bn": "নষ্টকারী ইস্ট ও ছত্রাক সীমিত রেখে এটি অম্লীয় খাবার ও পানীয়কে তৈরির পরে এবং খোলার পরেও বেশি দিন ভালো রাখে।"
+    },
+    "howItWorks": {
+      "en": "In acidic conditions part of it is present as undissociated benzoic acid, which enters microbial cells and disturbs their metabolism.",
+      "bn": "অম্লীয় পরিবেশে এর একটি অংশ অবিভাজিত বেনজোয়িক অ্যাসিড হিসেবে থাকে, যা জীবাণুর কোষে ঢুকে তার বিপাক ব্যাহত করে।"
+    },
+    "properties": [
+      { "en": "Works best in acidic foods", "bn": "অম্লীয় খাবারে সবচেয়ে ভালো কাজ করে" },
+      { "en": "Water-soluble powder", "bn": "পানিতে দ্রবণীয় গুঁড়া" }
+    ],
+    "benefits": [
+      { "kind": "preservation", "text": { "en": "Limits yeasts and moulds that spoil acidic foods.", "bn": "অম্লীয় খাবার নষ্টকারী ইস্ট ও ছত্রাক সীমিত করে।" } },
+      { "kind": "shelf-life", "text": { "en": "Helps drinks and sauces keep longer once made.", "bn": "পানীয় ও সস তৈরির পরে বেশি দিন ভালো রাখতে সাহায্য করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "dose-dependent",
+        "evidence": "animal",
+        "strength": "established",
+        "text": {
+          "en": "The ADIs rest on animal feeding studies. EFSA (2016) found exposure could exceed its ADI for toddlers and children who regularly drink flavoured drinks from one source; JECFA (2021) later set a higher ADI and found high child exposure below it.",
+          "bn": "ADI নির্ধারিত হয়েছে প্রাণীর খাদ্য-গবেষণার ভিত্তিতে। EFSA (২০১৬) দেখেছে, একই উৎসের স্বাদযুক্ত পানীয় নিয়মিত পান করা ছোট শিশুদের গ্রহণ তাদের ADI ছাড়াতে পারে; JECFA (২০২১) পরে উচ্চতর ADI দিয়ে দেখেছে, শিশুদের উচ্চ গ্রহণও তার নিচে।"
+        },
+        "sourceIds": ["efsa-2016", "jecfa-2021"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "laboratory",
+        "strength": "established",
+        "text": {
+          "en": "Benzene can form at parts-per-billion levels in drinks containing both benzoate and vitamin C, helped by heat and light. In a US survey of almost 200 drinks, ten exceeded 5 ppb; after reformulation, retests were below 1.5 ppb, and FDA concluded the levels found were not a safety concern.",
+          "bn": "বেনজোয়েট ও ভিটামিন সি দুটোই আছে এমন পানীয়ে তাপ ও আলোর প্রভাবে অতি সামান্য (পিপিবি মাত্রায়) বেনজিন তৈরি হতে পারে। যুক্তরাষ্ট্রের প্রায় ২০০ পানীয়ের জরিপে দশটিতে ৫ পিপিবির বেশি পাওয়া যায়; ফর্মুলা বদলের পর পুনঃপরীক্ষায় ১.৫ পিপিবির নিচে মেলে, এবং FDA-র সিদ্ধান্ত ছিল পাওয়া মাত্রাগুলো নিরাপত্তার উদ্বেগ নয়।"
+        },
+        "sourceIds": ["fda-benzene"]
+      },
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "conflicting",
+        "text": {
+          "en": "A 2007 UK trial in children tested mixtures of colours with sodium benzoate and reported small activity changes. EFSA (2008) judged this limited evidence and said the effect could not be attributed to benzoate alone.",
+          "bn": "যুক্তরাজ্যে ২০০৭ সালের শিশু-পরীক্ষায় রঙ ও সোডিয়াম বেনজোয়েটের মিশ্রণে সামান্য আচরণগত পরিবর্তন দেখা গিয়েছিল। EFSA (২০০৮) একে সীমিত প্রমাণ বলেছে এবং জানিয়েছে, প্রভাবটি শুধু বেনজোয়েটের কারণে বলা যায় না।"
+        },
+        "sourceIds": ["efsa-2008"]
+      }
+    ],
+    "riskContext": {
+      "en": "Authorities set ADIs far below the doses tested in animals, and they disagree on the number: EFSA 5 and JECFA 20 mg/kg bw per day. Benzene is a separate question about how some drinks were formulated, and it was addressed by reformulation.",
+      "bn": "কর্তৃপক্ষগুলো প্রাণীতে পরীক্ষিত মাত্রার অনেক নিচে ADI ঠিক করে, তবে সংখ্যায় তারা একমত নয়: EFSA ৫ এবং JECFA ২০ মিগ্রা/কেজি দেহ-ওজন প্রতিদিন। বেনজিনের বিষয়টি আলাদা, এটি কিছু পানীয়ের ফর্মুলার প্রশ্ন, যা ফর্মুলা বদলে সমাধান করা হয়েছে।"
+    },
+    "statusLabels": ["within-limits", "gras-conditions"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluated with benzoic acid and other benzoates (E210-E213)", "bn": "বেনজোয়িক অ্যাসিড ও অন্যান্য বেনজোয়েটের (E210-E213) সঙ্গে পুনর্মূল্যায়িত" },
+        "adi": { "type": "numeric", "value": 5, "unit": "mg/kg bw/day", "note": { "en": "Group ADI, expressed as benzoic acid", "bn": "গ্রুপ ADI, বেনজোয়িক অ্যাসিড হিসেবে প্রকাশিত" } },
+        "date": "2016-03",
+        "sourceId": "efsa-2016"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "Group ADI raised; the earlier 0-5 ADI was withdrawn", "bn": "গ্রুপ ADI বাড়ানো হয়েছে; আগের ০-৫ ADI প্রত্যাহার করা হয়েছে" },
+        "adi": { "type": "numeric", "value": 20, "unit": "mg/kg bw/day", "note": { "en": "0-20 group ADI, as benzoic acid equivalents", "bn": "০-২০ গ্রুপ ADI, বেনজোয়িক অ্যাসিড সমতুল্য হিসেবে" } },
+        "date": "2021-06",
+        "sourceId": "jecfa-2021"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "GRAS as an antimicrobial and flavouring agent or adjuvant", "bn": "জীবাণুরোধী ও ফ্লেভারিং সহায়ক হিসেবে GRAS" },
+        "limits": { "en": "Current usage gives a maximum of 0.1% in food", "bn": "বর্তমান ব্যবহারে খাবারে সর্বোচ্চ ০.১%" },
+        "date": "2024",
+        "sourceId": "cfr-184-1733"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2016", "org": "EFSA", "title": "Scientific Opinion on the re-evaluation of benzoic acid (E 210), sodium benzoate (E 211), potassium benzoate (E 212) and calcium benzoate (E 213) as food additives", "year": 2016, "url": "https://efsa.europa.eu/en/efsajournal/pub/4433", "kind": "regulatory" },
+      { "id": "jecfa-2021", "org": "JECFA (FAO/WHO)", "title": "Summary report of the ninety-second meeting of JECFA (JECFA/92/SC)", "year": 2021, "url": "https://cdn.who.int/media/docs/default-source/food-safety/jecfa/summary-and-conclusions/jecfa92-7to18june2021-summary-and-conclusions.pdf?sfvrsn=d9f1eaf9_7&download=true", "kind": "regulatory" },
+      { "id": "cfr-184-1733", "org": "US FDA", "title": "21 CFR 184.1733 Sodium benzoate", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1733.xml", "kind": "regulatory" },
+      { "id": "fda-benzene", "org": "US FDA", "title": "Questions and Answers on the Occurrence of Benzene in Soft Drinks and Other Beverages", "year": 2022, "url": "https://www.fda.gov/food/environmental-contaminants-food/questions-and-answers-occurrence-benzene-soft-drinks-and-other-beverages", "kind": "agency-guidance" },
+      { "id": "efsa-2008", "org": "EFSA", "title": "Assessment of the results of the study by McCann et al. (2007) on the effect of some colours and sodium benzoate on children's behaviour", "year": 2008, "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2008.660", "kind": "regulatory" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "potassium-sorbate",
+    "name": { "en": "Potassium sorbate", "bn": "পটাশিয়াম সরবেট" },
+    "commonNames": ["sorbic acid potassium salt"],
+    "labelNames": ["potassium sorbate", "e202", "e 202", "ins 202", "পটাশিয়াম সরবেট"],
+    "chemicalName": "Potassium (E,E)-hexa-2,4-dienoate",
+    "eNumber": "E202",
+    "ins": "202",
+    "formula": "C6H7KO2",
+    "category": "preservatives",
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "Made industrially as the salt of sorbic acid, a substance also found in nature. Origin says nothing about safety.",
+      "bn": "সরবিক অ্যাসিডের লবণ হিসেবে কারখানায় তৈরি হয়; সরবিক অ্যাসিড প্রকৃতিতেও পাওয়া যায়। উৎস দেখে নিরাপত্তা বিচার করা যায় না।"
+    },
+    "applications": ["dairy", "bread-bakery", "juices", "sauces-condiments", "jams-spreads", "beer-wine"],
+    "summary": {
+      "en": "A widely used preservative that limits moulds and yeasts in cheese, baked goods, juices and sauces.",
+      "bn": "বহুল ব্যবহৃত সংরক্ষক, যা পনির, বেকারি পণ্য, জুস ও সসে ছত্রাক ও ইস্ট সীমিত করে।"
+    },
+    "whatIs": {
+      "en": "Potassium sorbate is the potassium salt of sorbic acid. It dissolves well in water, which makes it easy to add to foods and drinks.",
+      "bn": "পটাশিয়াম সরবেট হলো সরবিক অ্যাসিডের পটাশিয়াম লবণ। পানিতে ভালো গলে বলে খাবার ও পানীয়ে মেশানো সহজ।"
+    },
+    "whyUsed": {
+      "en": "It slows moulds and yeasts, helping cheese, baked goods, juices and sauces keep longer.",
+      "bn": "এটি ছত্রাক ও ইস্টের বৃদ্ধি ধীর করে, ফলে পনির, বেকারি পণ্য, জুস ও সস বেশি দিন ভালো থাকে।"
+    },
+    "howItWorks": {
+      "en": "In food it acts as sorbic acid, mainly in its undissociated form, which disturbs the enzymes and cell membranes of moulds and yeasts.",
+      "bn": "খাবারে এটি সরবিক অ্যাসিড হিসেবে, প্রধানত অবিভাজিত রূপে কাজ করে এবং ছত্রাক ও ইস্টের এনজাইম ও কোষঝিল্লি ব্যাহত করে।"
+    },
+    "properties": [
+      { "en": "Mainly active against moulds and yeasts", "bn": "প্রধানত ছত্রাক ও ইস্টের বিরুদ্ধে সক্রিয়" },
+      { "en": "More effective in acidic foods", "bn": "অম্লীয় খাবারে বেশি কার্যকর" }
+    ],
+    "benefits": [
+      { "kind": "preservation", "text": { "en": "Limits moulds and yeasts in a wide range of foods.", "bn": "নানা ধরনের খাবারে ছত্রাক ও ইস্ট সীমিত করে।" } },
+      { "kind": "shelf-life", "text": { "en": "Helps cheese and baked goods keep longer.", "bn": "পনির ও বেকারি পণ্য বেশি দিন ভালো রাখতে সাহায্য করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "established",
+        "text": {
+          "en": "EFSA's ADI comes from a reproductive study in rats, based on reduced weight gain in pups at high doses. The study did not include its neurotoxicity and immunotoxicity cohorts, so those endpoints were not tested there.",
+          "bn": "EFSA-র ADI এসেছে ইঁদুরের প্রজনন-গবেষণা থেকে, উচ্চ মাত্রায় বাচ্চাদের ওজন কম বাড়ার ভিত্তিতে। ওই গবেষণায় স্নায়ু ও রোগপ্রতিরোধ-সংক্রান্ত অংশগুলো ছিল না, তাই সেগুলো সেখানে পরীক্ষিত হয়নি।"
+        },
+        "sourceIds": ["efsa-2019"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA's highest realistic estimates, about 1.7 (mean) and 3.7 (high) mg/kg bw per day for children, are below its ADI of 11. Few specific concerns are recorded at normal food use.",
+      "bn": "EFSA-র সবচেয়ে বাস্তবসম্মত সর্বোচ্চ হিসাব শিশুদের জন্য প্রায় ১.৭ (গড়) ও ৩.৭ (উচ্চ) মিগ্রা/কেজি দেহ-ওজন প্রতিদিন, যা তাদের ১১-এর ADI-এর নিচে। স্বাভাবিক খাদ্য-ব্যবহারে নির্দিষ্ট উদ্বেগ কম।"
+    },
+    "statusLabels": ["gras-conditions", "within-limits"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Authorised in the EU; a 2019 follow-up replaced the temporary ADI of 3", "bn": "ইউরোপীয় ইউনিয়নে অনুমোদিত; ২০১৯ সালের পর্যালোচনা অস্থায়ী ADI ৩ প্রতিস্থাপন করেছে" },
+        "adi": { "type": "numeric", "value": 11, "unit": "mg/kg bw/day", "note": { "en": "Group ADI for E200 and E202, as sorbic acid", "bn": "E200 ও E202-এর গ্রুপ ADI, সরবিক অ্যাসিড হিসেবে" } },
+        "date": "2019-03",
+        "sourceId": "efsa-2019"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "Group ADI with sorbic acid and its salts", "bn": "সরবিক অ্যাসিড ও তার লবণগুলোর সঙ্গে গ্রুপ ADI" },
+        "adi": { "type": "numeric", "value": 25, "unit": "mg/kg bw/day", "note": { "en": "0-25 group ADI, as sorbic acid", "bn": "০-২৫ গ্রুপ ADI, সরবিক অ্যাসিড হিসেবে" } },
+        "date": "1973",
+        "sourceId": "jecfa-sorbate"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "GRAS when used under good manufacturing practice", "bn": "উত্তম উৎপাদন-চর্চা মেনে ব্যবহারে GRAS" },
+        "date": "2024",
+        "sourceId": "cfr-182-3640"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2019", "org": "EFSA", "title": "Opinion on the follow-up of the re-evaluation of sorbic acid (E200) and potassium sorbate (E202) as food additives", "year": 2019, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009143/", "kind": "regulatory" },
+      { "id": "jecfa-sorbate", "org": "JECFA (FAO/WHO)", "title": "Potassium sorbate: evaluations of the Joint FAO/WHO Expert Committee on Food Additives", "year": 1973, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2724", "kind": "regulatory" },
+      { "id": "cfr-182-3640", "org": "US FDA", "title": "21 CFR 182.3640 Potassium sorbate", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec182-3640.xml", "kind": "regulatory" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "sodium-nitrite",
+    "name": { "en": "Sodium nitrite", "bn": "সোডিয়াম নাইট্রাইট" },
+    "commonNames": ["curing salt ingredient"],
+    "labelNames": ["sodium nitrite", "e250", "e 250", "ins 250", "সোডিয়াম নাইট্রাইট"],
+    "chemicalName": "Sodium nitrite",
+    "eNumber": "E250",
+    "ins": "250",
+    "formula": "NaNO2",
+    "category": "preservatives",
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "Made industrially; nitrite also forms in the body from dietary nitrate. Origin says nothing about safety.",
+      "bn": "কারখানায় তৈরি হয়; খাবারের নাইট্রেট থেকে শরীরেও নাইট্রাইট তৈরি হয়। উৎস দেখে নিরাপত্তা বিচার করা যায় না।"
+    },
+    "applications": ["processed-meat"],
+    "summary": {
+      "en": "A curing agent that protects cured meats from harmful bacteria and gives them their pink colour.",
+      "bn": "প্রক্রিয়াজাত মাংসে ক্ষতিকর ব্যাকটেরিয়া রোধ করে এবং গোলাপি রং দেয় এমন কিউরিং উপাদান।"
+    },
+    "whatIs": {
+      "en": "Sodium nitrite is the salt used to cure meats such as ham and sausages. It is added in small, regulated amounts, usually together with ordinary salt.",
+      "bn": "সোডিয়াম নাইট্রাইট হলো হ্যাম ও সসেজের মতো মাংস কিউর করার লবণ। সাধারণত খাবার লবণের সঙ্গে অল্প ও নিয়ন্ত্রিত পরিমাণে যোগ করা হয়।"
+    },
+    "whyUsed": {
+      "en": "It protects cured meats against harmful bacteria, sets the characteristic pink colour and contributes to cured flavour.",
+      "bn": "এটি প্রক্রিয়াজাত মাংসকে ক্ষতিকর ব্যাকটেরিয়া থেকে রক্ষা করে, বৈশিষ্ট্যপূর্ণ গোলাপি রং স্থির করে এবং কিউর করা স্বাদে ভূমিকা রাখে।"
+    },
+    "howItWorks": {
+      "en": "Nitrite is converted to nitric oxide, which binds meat pigment and fixes the colour, and it interferes with bacterial growth. Under some conditions it can also react with amines to form N-nitrosamines.",
+      "bn": "নাইট্রাইট নাইট্রিক অক্সাইডে পরিণত হয়ে মাংসের রঞ্জকের সঙ্গে যুক্ত হয়ে রং স্থির করে এবং ব্যাকটেরিয়ার বৃদ্ধিতে বাধা দেয়। কিছু পরিস্থিতিতে এটি অ্যামিনের সঙ্গে বিক্রিয়া করে N-নাইট্রোসামিনও তৈরি করতে পারে।"
+    },
+    "properties": [
+      { "en": "Used in small, tightly limited amounts", "bn": "অল্প ও কঠোরভাবে সীমিত পরিমাণে ব্যবহৃত হয়" },
+      { "en": "Sets cured-meat colour", "bn": "কিউর করা মাংসের রং স্থির করে" }
+    ],
+    "benefits": [
+      { "kind": "preservation", "text": { "en": "Protects cured meats against harmful bacteria.", "bn": "কিউর করা মাংসকে ক্ষতিকর ব্যাকটেরিয়া থেকে রক্ষা করে।" } },
+      { "kind": "appearance", "text": { "en": "Gives cured meat its stable pink colour.", "bn": "কিউর করা মাংসকে স্থায়ী গোলাপি রং দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "adverse-effect",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "Nitrite can raise methaemoglobin, which carries less oxygen; EFSA based its ADI on this effect. JECFA noted its ADI does not apply to infants under 3 months.",
+          "bn": "নাইট্রাইট মেথেমোগ্লোবিন বাড়াতে পারে, যা কম অক্সিজেন বহন করে; EFSA এই প্রভাবের ভিত্তিতেই ADI দিয়েছে। JECFA জানিয়েছে, তাদের ADI ৩ মাসের কম বয়সী শিশুদের ক্ষেত্রে প্রযোজ্য নয়।"
+        },
+        "sourceIds": ["efsa-2017", "jecfa-nitrite"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "established",
+        "text": {
+          "en": "N-nitrosamines can form from nitrite. Using rat tumour data, EFSA (2023) found margins of exposure below 10,000 for all age groups at high exposure, a health concern, with meat the main source. In 2017 it could not clearly separate nitrosamines from added nitrite from those already in the food.",
+          "bn": "নাইট্রাইট থেকে N-নাইট্রোসামিন তৈরি হতে পারে। ইঁদুরের টিউমারের তথ্য ব্যবহার করে EFSA (২০২৩) উচ্চ গ্রহণে সব বয়সের জন্য ১০,০০০-এর নিচে এক্সপোজার মার্জিন পেয়ে স্বাস্থ্য-উদ্বেগ জানিয়েছে, যার প্রধান উৎস মাংস। ২০১৭ সালে তারা যোগ করা নাইট্রাইটের নাইট্রোসামিন ও খাবারে আগে থেকে থাকা নাইট্রোসামিন স্পষ্ট আলাদা করতে পারেনি।"
+        },
+        "sourceIds": ["efsa-2023", "efsa-2017"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "In observational studies reviewed by EFSA (2017) there was some evidence linking dietary nitrite to gastric cancer, and nitrite plus nitrate from processed meat to colorectal cancer. IARC classifies ingested nitrite under conditions causing nitrosation in the body as Group 2A, a hazard classification that does not measure risk at normal intake.",
+          "bn": "EFSA (২০১৭)-এর পর্যালোচিত পর্যবেক্ষণমূলক গবেষণায় খাবারের নাইট্রাইটের সঙ্গে পাকস্থলীর ক্যান্সার এবং প্রক্রিয়াজাত মাংসের নাইট্রাইট-নাইট্রেটের সঙ্গে কোলোরেক্টাল ক্যান্সারের কিছু প্রমাণ ছিল। শরীরে নাইট্রোসেশন ঘটায় এমন অবস্থায় গ্রহণ করা নাইট্রাইটকে IARC গ্রুপ ২A-তে রেখেছে; এটি বিপদের শ্রেণিবিন্যাস, স্বাভাবিক গ্রহণে ঝুঁকির পরিমাপ নয়।"
+        },
+        "sourceIds": ["efsa-2017", "iarc-v94"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "IARC classifies processed meat itself as Group 1 for colorectal cancer. That finding is about eating processed meat, not an evaluation of the additive alone; meat processing involves salting, curing, smoking and other steps.",
+          "bn": "IARC প্রক্রিয়াজাত মাংসকে কোলোরেক্টাল ক্যান্সারের জন্য গ্রুপ ১-এ রেখেছে। এই সিদ্ধান্ত প্রক্রিয়াজাত মাংস খাওয়া নিয়ে, শুধু এই সংযোজকের মূল্যায়ন নয়; মাংস প্রক্রিয়াজাতকরণে লবণ দেওয়া, কিউর করা, ধোঁয়া দেওয়াসহ নানা ধাপ থাকে।"
+        },
+        "sourceIds": ["iarc-v114"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA found nitrite from additive use within its ADI, apart from a slight excess in children at the highest percentile. Additives were about 17% of total nitrite intake; counting all sources, the ADI was exceeded for infants, toddlers and children at mean intake. The nitrosamine concern relates to meat in the diet overall.",
+      "bn": "EFSA দেখেছে, সংযোজক থেকে নাইট্রাইট ADI-এর মধ্যে থাকে, কেবল সর্বোচ্চ পার্সেন্টাইলের শিশুদের সামান্য বেশি। মোট নাইট্রাইটের প্রায় ১৭% আসে সংযোজক থেকে; সব উৎস মিলিয়ে গড় গ্রহণে শিশু ও ছোট বাচ্চাদের ক্ষেত্রে ADI ছাড়িয়েছে। নাইট্রোসামিনের উদ্বেগ সামগ্রিকভাবে খাদ্যের মাংসের সঙ্গে যুক্ত।"
+    },
+    "statusLabels": ["within-limits", "evidence-developing", "known-adverse"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluated E249 and E250", "bn": "E249 ও E250 পুনর্মূল্যায়িত" },
+        "adi": { "type": "numeric", "value": 0.07, "unit": "mg/kg bw/day", "note": { "en": "As nitrite ion", "bn": "নাইট্রাইট আয়ন হিসেবে" } },
+        "date": "2017-06",
+        "sourceId": "efsa-2017"
+      },
+      {
+        "authority": "European Commission",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Permitted levels were lowered by a 2023 regulation", "bn": "২০২৩ সালের বিধিতে অনুমোদিত মাত্রা কমানো হয়েছে" },
+        "limits": { "en": "From 9 October 2025: 80 mg/kg added in non-sterilised meat products and 55 mg/kg in sterilised ones, as nitrite ion", "bn": "৯ অক্টোবর ২০২৫ থেকে: নন-স্টেরিলাইজড মাংসপণ্যে ৮০ মিগ্রা/কেজি এবং স্টেরিলাইজড পণ্যে ৫৫ মিগ্রা/কেজি যোগ করা যায়, নাইট্রাইট আয়ন হিসেবে" },
+        "conditions": { "en": "Traditional cured products have separate provisions", "bn": "ঐতিহ্যবাহী কিউর করা পণ্যের জন্য আলাদা বিধান আছে" },
+        "date": "2023-10",
+        "sourceId": "eu-2023-2108"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI from all sources; does not apply to infants under 3 months", "bn": "সব উৎস মিলিয়ে ADI; ৩ মাসের কম শিশুদের জন্য প্রযোজ্য নয়" },
+        "adi": { "type": "numeric", "value": 0.07, "unit": "mg/kg bw/day", "note": { "en": "0-0.07, as nitrite ion", "bn": "০-০.০৭, নাইট্রাইট আয়ন হিসেবে" } },
+        "date": "2002",
+        "sourceId": "jecfa-nitrite"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Permitted in specified fish products and home meat-curing preparations", "bn": "নির্দিষ্ট মাছের পণ্য ও বাড়িতে মাংস কিউর করার উপকরণে অনুমোদিত" },
+        "limits": { "en": "Up to 200 ppm in smoked cured sablefish, salmon or shad; 10 ppm in smoked cured tuna products; home curing limited to 200 ppm in finished meat", "bn": "ধূমায়িত কিউর করা সেবলফিশ, স্যামন বা শ্যাডে সর্বোচ্চ ২০০ পিপিএম; ধূমায়িত কিউর করা টুনায় ১০ পিপিএম; বাড়িতে কিউর করা মাংসে সর্বোচ্চ ২০০ পিপিএম" },
+        "date": "2024",
+        "sourceId": "cfr-172-175"
+      }
+    ],
+    "flags": ["infants-caution"],
+    "references": [
+      { "id": "efsa-2017", "org": "EFSA", "title": "Re-evaluation of potassium nitrite (E 249) and sodium nitrite (E 250) as food additives", "year": 2017, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009987/", "kind": "regulatory" },
+      { "id": "efsa-2023", "org": "EFSA", "title": "Risk assessment of N-nitrosamines in food", "year": 2023, "url": "https://doi.org/10.2903/j.efsa.2023.7884", "kind": "regulatory" },
+      { "id": "eu-2023-2108", "org": "European Commission", "title": "Commission Regulation (EU) 2023/2108 amending Annex II to Regulation (EC) No 1333/2008 and the Annex to Regulation (EU) No 231/2012 as regards food additives nitrites (E 249-250) and nitrates (E 251-252)", "year": 2023, "url": "https://eur-lex.europa.eu/eli/reg/2023/2108/oj", "kind": "regulatory" },
+      { "id": "jecfa-nitrite", "org": "JECFA (FAO/WHO)", "title": "Nitrite: evaluations of the Joint FAO/WHO Expert Committee on Food Additives", "year": 2002, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/711", "kind": "regulatory" },
+      { "id": "cfr-172-175", "org": "US FDA", "title": "21 CFR 172.175 Sodium nitrite", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec172-175.xml", "kind": "regulatory" },
+      { "id": "iarc-v94", "org": "IARC", "title": "IARC Monographs Volume 94: Ingested Nitrate and Nitrite, and Cyanobacterial Peptide Toxins", "year": 2010, "url": "https://publications.iarc.who.int/112", "kind": "agency-guidance" },
+      { "id": "iarc-v114", "org": "IARC", "title": "Q&A on the carcinogenicity of the consumption of red meat and processed meat (Monographs Volume 114)", "year": 2015, "url": "https://www.iarc.who.int/wp-content/uploads/2018/11/Monographs-QA_Vol114.pdf", "kind": "agency-guidance" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "sodium-metabisulfite",
+    "name": { "en": "Sodium metabisulfite (and the sulfite group)", "bn": "সোডিয়াম মেটাবাইসালফাইট (ও সালফাইট গোষ্ঠী)" },
+    "commonNames": ["sodium metabisulphite", "sodium pyrosulfite", "sulfites", "sulphites"],
+    "labelNames": ["sodium metabisulfite", "sodium metabisulphite", "sodium pyrosulfite", "sodium disulfite", "e223", "e 223", "ins 223", "sulfur dioxide", "sulphur dioxide", "e220", "e 220", "sodium sulfite", "sodium sulphite", "e221", "sodium bisulfite", "sodium bisulphite", "e222", "potassium metabisulfite", "potassium metabisulphite", "e224", "calcium sulfite", "e226", "calcium bisulfite", "e227", "potassium bisulfite", "e228", "sulfites", "sulphites", "সোডিয়াম মেটাবাইসালফাইট", "সালফার ডাই-অক্সাইড"],
+    "chemicalName": "Sodium disulfite",
+    "eNumber": "E223",
+    "ins": "223",
+    "formula": "Na2S2O5",
+    "category": "preservatives",
+    "alsoIn": ["antioxidants"],
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "Made industrially; sulfur dioxide also forms in small amounts during fermentation. Origin says nothing about safety.",
+      "bn": "কারখানায় তৈরি হয়; গাঁজনের সময় অল্প পরিমাণ সালফার ডাই-অক্সাইডও তৈরি হয়। উৎস দেখে নিরাপত্তা বিচার করা যায় না।"
+    },
+    "applications": ["beer-wine", "juices", "jams-spreads", "canned-foods"],
+    "summary": {
+      "en": "A sulfite used to preserve wine, dried fruit and juices; some people, especially with asthma, react to sulfites.",
+      "bn": "ওয়াইন, শুকনো ফল ও জুস সংরক্ষণে ব্যবহৃত সালফাইট; কিছু মানুষ, বিশেষত হাঁপানি রোগীরা, সালফাইটে প্রতিক্রিয়া দেখান।"
+    },
+    "whatIs": {
+      "en": "Sodium metabisulfite belongs to the sulfite group (E220-E228), which release sulfur dioxide in food. These additives are assessed together and are usually expressed as sulfur dioxide.",
+      "bn": "সোডিয়াম মেটাবাইসালফাইট সালফাইট গোষ্ঠীর (E220-E228) সদস্য, যা খাবারে সালফার ডাই-অক্সাইড ছাড়ে। এই সংযোজকগুলো একসঙ্গে মূল্যায়িত হয় এবং সাধারণত সালফার ডাই-অক্সাইড হিসেবে প্রকাশ করা হয়।"
+    },
+    "whyUsed": {
+      "en": "Sulfites limit microbes and slow browning, which is why they are used in wine, dried fruit and fruit products.",
+      "bn": "সালফাইট জীবাণু সীমিত করে ও বাদামি হওয়া ধীর করে, তাই ওয়াইন, শুকনো ফল ও ফলের পণ্যে ব্যবহৃত হয়।"
+    },
+    "howItWorks": {
+      "en": "In food they form sulfur dioxide and related species, which inhibit microbes and react with substances involved in browning.",
+      "bn": "খাবারে এগুলো সালফার ডাই-অক্সাইড ও সংশ্লিষ্ট যৌগ তৈরি করে, যা জীবাণু দমন করে এবং বাদামি হওয়ার সঙ্গে যুক্ত পদার্থের সঙ্গে বিক্রিয়া করে।"
+    },
+    "properties": [
+      { "en": "Both preservative and anti-browning agent", "bn": "সংরক্ষক ও বাদামি হওয়া রোধক, দুটোই" },
+      { "en": "Declared on EU and US labels from about 10 mg/kg", "bn": "ইউরোপীয় ইউনিয়ন ও যুক্তরাষ্ট্রে প্রায় ১০ মিগ্রা/কেজি থেকে লেবেলে ঘোষণা করতে হয়" }
+    ],
+    "benefits": [
+      { "kind": "preservation", "text": { "en": "Limits spoilage microbes in wine and fruit products.", "bn": "ওয়াইন ও ফলের পণ্যে নষ্টকারী জীবাণু সীমিত করে।" } },
+      { "kind": "appearance", "text": { "en": "Slows browning of dried fruit and similar foods.", "bn": "শুকনো ফল ও এ ধরনের খাবারের বাদামি হওয়া ধীর করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "allergy-intolerance",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "Sulfites can trigger bronchoconstriction in some people with asthma. A review reports 3-10% of people with asthma as sensitive, while noting that the people studied may have been biased towards those with a history of sensitivity or more severe asthma.",
+          "bn": "সালফাইট কিছু হাঁপানি রোগীর শ্বাসনালি সংকোচন ঘটাতে পারে। একটি পর্যালোচনায় ৩-১০% হাঁপানি রোগীকে সংবেদনশীল বলা হয়েছে, তবে সেখানেই উল্লেখ আছে যে অংশগ্রহণকারীরা সংবেদনশীলতার ইতিহাস বা তীব্র হাঁপানি থাকা মানুষের দিকে ঝুঁকে থাকতে পারেন।"
+        },
+        "sourceIds": ["vally-2012"]
+      },
+      {
+        "kind": "dose-dependent",
+        "evidence": "animal",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA (2022) withdrew its temporary ADI because toxicity data were inadequate, then used a margin-of-exposure approach based on a rat study of nerve-signal timing. It found the margins were below 80 for high consumers, raising a safety concern.",
+          "bn": "বিষাক্ততার তথ্য অপর্যাপ্ত হওয়ায় EFSA (২০২২) অস্থায়ী ADI প্রত্যাহার করে এবং ইঁদুরের স্নায়ু-সংকেতের সময় নিয়ে গবেষণার ভিত্তিতে এক্সপোজার মার্জিন পদ্ধতি নেয়। উচ্চ গ্রহণকারীদের ক্ষেত্রে মার্জিন ৮০-র নিচে পাওয়ায় নিরাপত্তা-উদ্বেগ জানায়।"
+        },
+        "sourceIds": ["efsa-2022"]
+      }
+    ],
+    "riskContext": {
+      "en": "Sensitivity is a real reaction in a minority of people, including at low levels, so sulfites are declared on labels. EFSA's 2022 concern is about high consumers of sulfite-containing foods, and JECFA keeps an ADI, so these two authorities differ.",
+      "bn": "সংবেদনশীলতা অল্প কিছু মানুষের ক্ষেত্রে সত্যিকারের প্রতিক্রিয়া, কম মাত্রাতেও হতে পারে, তাই লেবেলে সালফাইট ঘোষণা করা হয়। EFSA-র ২০২২ সালের উদ্বেগ সালফাইটযুক্ত খাবারের উচ্চ গ্রহণকারীদের নিয়ে; JECFA এখনো ADI রেখেছে, অর্থাৎ দুই কর্তৃপক্ষের মত ভিন্ন।"
+    },
+    "statusLabels": ["known-adverse", "evidence-developing", "within-limits"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Follow-up on E220-E228; safety concern raised for high consumers", "bn": "E220-E228 পর্যালোচনা; উচ্চ গ্রহণকারীদের জন্য নিরাপত্তা-উদ্বেগ" },
+        "adi": { "type": "withdrawn", "note": { "en": "Temporary group ADI of 0.7 mg SO2 equivalents/kg bw per day withdrawn; margin-of-exposure approach used", "bn": "প্রতিদিন ০.৭ মিগ্রা সালফার ডাই-অক্সাইড সমতুল্য/কেজি দেহ-ওজনের অস্থায়ী গ্রুপ ADI প্রত্যাহার; এক্সপোজার মার্জিন পদ্ধতি ব্যবহৃত" } },
+        "limits": { "en": "Authorised in 40 food categories at 10 to 2,000 mg/kg", "bn": "৪০টি খাদ্য-শ্রেণিতে ১০ থেকে ২,০০০ মিগ্রা/কেজি পর্যন্ত অনুমোদিত" },
+        "date": "2022-11",
+        "sourceId": "efsa-2022"
+      },
+      {
+        "authority": "European Union",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Sulfites are a listed labelling trigger", "bn": "সালফাইট লেবেলে ঘোষণাযোগ্য তালিকাভুক্ত উপাদান" },
+        "limits": { "en": "Declared above 10 mg/kg or 10 mg/litre as total SO2", "bn": "মোট সালফার ডাই-অক্সাইড হিসেবে ১০ মিগ্রা/কেজি বা ১০ মিগ্রা/লিটারের বেশি হলে ঘোষণা" },
+        "date": "2025-04",
+        "sourceId": "eu-1169"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "Group ADI for sulfites", "bn": "সালফাইটের গ্রুপ ADI" },
+        "adi": { "type": "numeric", "value": 0.7, "unit": "mg/kg bw/day", "note": { "en": "0-0.7, group ADI as sulfur dioxide", "bn": "০-০.৭, সালফার ডাই-অক্সাইড হিসেবে গ্রুপ ADI" } },
+        "date": "1998",
+        "sourceId": "jecfa-metabisulfite"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "GRAS with exclusions", "bn": "কিছু ব্যতিক্রমসহ GRAS" },
+        "conditions": { "en": "Not for use in meats, in foods that are sources of vitamin B1, or on fruit and vegetables served or sold raw or presented as fresh", "bn": "মাংসে, ভিটামিন B1-এর উৎস খাবারে, এবং কাঁচা বা তাজা হিসেবে পরিবেশিত বা বিক্রি হওয়া ফল-সবজিতে ব্যবহার করা যাবে না" },
+        "date": "2024",
+        "sourceId": "cfr-182-3766"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Sulfites must be declared on labels at 10 ppm or more", "bn": "সালফাইট ১০ পিপিএম বা বেশি হলে লেবেলে ঘোষণা করতে হয়" },
+        "date": "2022-01",
+        "sourceId": "fda-sulfite-labelling"
+      }
+    ],
+    "flags": ["sulfite-sensitivity"],
+    "references": [
+      { "id": "efsa-2022", "org": "EFSA", "title": "Follow-up of the re-evaluation of sulfur dioxide (E 220), sodium sulfite (E 221), sodium bisulfite (E 222), sodium metabisulfite (E 223), potassium metabisulfite (E 224), calcium sulfite (E 226), calcium bisulfite (E 227) and potassium bisulfite (E 228)", "year": 2022, "url": "https://www.efsa.europa.eu/en/efsajournal/pub/7594", "kind": "regulatory" },
+      { "id": "eu-1169", "org": "European Union", "title": "Regulation (EU) No 1169/2011 on the provision of food information to consumers (consolidated text, 1 April 2025)", "year": 2025, "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A02011R1169-20250401", "kind": "regulatory" },
+      { "id": "jecfa-metabisulfite", "org": "JECFA (FAO/WHO)", "title": "Sodium metabisulfite: evaluations of the Joint FAO/WHO Expert Committee on Food Additives", "year": 1998, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=1824", "kind": "regulatory" },
+      { "id": "cfr-182-3766", "org": "US FDA", "title": "21 CFR 182.3766 Sodium metabisulfite", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec182-3766.xml", "kind": "regulatory" },
+      { "id": "vally-2012", "org": "Gastroenterology and Hepatology from Bed to Bench", "title": "Adverse reactions to the sulphite additives", "year": 2012, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4017440/", "kind": "peer-reviewed" },
+      { "id": "fda-sulfite-labelling", "org": "US FDA", "title": "New Method for the Analysis of Sulfites in Foods (Federal Register, 18 January 2022)", "year": 2022, "url": "https://www.govinfo.gov/content/pkg/FR-2022-01-18/html/2022-00816.htm", "kind": "regulatory" }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "Could not confirm whether the European Commission has changed E220-228 maximum levels since EFSA's 2022 opinion. The 3-10% figure was read in a search excerpt of the linked review; the PMC page itself would not open."
+    }
+  },
+  {
+    "id": "calcium-propionate",
+    "name": { "en": "Calcium propionate", "bn": "ক্যালসিয়াম প্রোপিওনেট" },
+    "commonNames": ["calcium propanoate"],
+    "labelNames": ["calcium propionate", "calcium propanoate", "e282", "e 282", "ins 282", "ক্যালসিয়াম প্রোপিওনেট"],
+    "chemicalName": "Calcium propanoate",
+    "eNumber": "E282",
+    "ins": "282",
+    "formula": "C6H10CaO4",
+    "category": "preservatives",
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "Usually made industrially from propionic acid, a substance also formed in fermentation. Origin says nothing about safety.",
+      "bn": "সাধারণত প্রোপিওনিক অ্যাসিড থেকে কারখানায় তৈরি হয়; এই অ্যাসিড গাঁজনেও তৈরি হয়। উৎস দেখে নিরাপত্তা বিচার করা যায় না।"
+    },
+    "applications": ["bread-bakery", "dairy"],
+    "summary": {
+      "en": "A mould inhibitor used mainly in bread and baked goods, and in some cheeses.",
+      "bn": "প্রধানত পাউরুটি ও বেকারি পণ্যে এবং কিছু পনিরে ব্যবহৃত ছত্রাক-রোধক।"
+    },
+    "whatIs": {
+      "en": "Calcium propionate is the calcium salt of propionic acid. It is supplied as a white powder that is easy to mix into dough.",
+      "bn": "ক্যালসিয়াম প্রোপিওনেট হলো প্রোপিওনিক অ্যাসিডের ক্যালসিয়াম লবণ। সাদা গুঁড়া হিসেবে পাওয়া যায়, ময়দার মিশ্রণে সহজে মেশে।"
+    },
+    "whyUsed": {
+      "en": "It slows mould growth in bread and baked goods, helping them keep longer.",
+      "bn": "এটি পাউরুটি ও বেকারি পণ্যে ছত্রাকের বৃদ্ধি ধীর করে, ফলে এগুলো বেশি দিন ভালো থাকে।"
+    },
+    "howItWorks": {
+      "en": "In food it acts as propionic acid, which enters mould cells and disturbs their metabolism.",
+      "bn": "খাবারে এটি প্রোপিওনিক অ্যাসিড হিসেবে কাজ করে, যা ছত্রাকের কোষে ঢুকে বিপাক ব্যাহত করে।"
+    },
+    "properties": [
+      { "en": "Targets moulds in baked goods", "bn": "বেকারি পণ্যের ছত্রাককে লক্ষ্য করে" },
+      { "en": "Mixes easily into dough", "bn": "ময়দার মিশ্রণে সহজে মেশে" }
+    ],
+    "benefits": [
+      { "kind": "preservation", "text": { "en": "Limits mould in bread and baked goods.", "bn": "পাউরুটি ও বেকারি পণ্যে ছত্রাক সীমিত করে।" } },
+      { "kind": "shelf-life", "text": { "en": "Helps bread keep longer.", "bn": "পাউরুটি বেশি দিন ভালো রাখতে সাহায্য করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA (2014) said the data did not allow it to set an ADI. In a 90-day dog study at higher dietary levels, it noted reversible thickening of the oesophageal lining, and it judged genotoxicity and carcinogenicity not a concern.",
+          "bn": "EFSA (২০১৪) জানিয়েছে, তথ্য দিয়ে ADI নির্ধারণ করা যায়নি। কুকুরের ৯০ দিনের গবেষণায় বেশি খাদ্যমাত্রায় খাদ্যনালির আস্তরণে নিরাময়যোগ্য পুরুত্ব দেখা গেছে; জিনগত ক্ষতি ও ক্যান্সার নিয়ে উদ্বেগ পায়নি।"
+        },
+        "sourceIds": ["efsa-2014"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA concluded there would be no safety concern at the authorised maximum concentrations, and JECFA considers its group ADI not limited. The lack of a number from EFSA reflects gaps in the data rather than a finding of harm at normal use.",
+      "bn": "EFSA-র সিদ্ধান্ত, অনুমোদিত সর্বোচ্চ মাত্রায় নিরাপত্তার উদ্বেগ নেই; JECFA-র গ্রুপ ADI সীমাহীন। EFSA সংখ্যা না দেওয়ার কারণ তথ্যের ঘাটতি, স্বাভাবিক ব্যবহারে ক্ষতির প্রমাণ নয়।"
+    },
+    "statusLabels": ["gras-conditions", "within-limits"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluated with propionic acid and propionates (E280-E283); no safety concern at authorised maximum levels", "bn": "প্রোপিওনিক অ্যাসিড ও প্রোপিওনেটের (E280-E283) সঙ্গে পুনর্মূল্যায়িত; অনুমোদিত সর্বোচ্চ মাত্রায় নিরাপত্তার উদ্বেগ নেই" },
+        "adi": { "type": "none-established", "note": { "en": "EFSA said the database did not allow an ADI to be allocated", "bn": "EFSA জানিয়েছে, তথ্যভান্ডার দিয়ে ADI নির্ধারণ সম্ভব হয়নি" } },
+        "date": "2014-07",
+        "sourceId": "efsa-2014"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "Group ADI for propionic acid and salts, maintained in 1997", "bn": "প্রোপিওনিক অ্যাসিড ও লবণের গ্রুপ ADI, ১৯৯৭ সালে বহাল" },
+        "adi": { "type": "not-specified", "note": { "en": "JECFA's wording is \"not limited\"", "bn": "JECFA-র ভাষায় \"সীমাহীন\"" } },
+        "date": "1997",
+        "sourceId": "jecfa-propionate"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "GRAS as an antimicrobial in specified foods", "bn": "নির্দিষ্ট খাবারে জীবাণুরোধী হিসেবে GRAS" },
+        "conditions": { "en": "Baked goods, cheeses, confections and frostings, gelatins, puddings and fillings, jams and jellies, under good manufacturing practice", "bn": "বেকারি পণ্য, পনির, মিষ্টান্ন ও ফ্রস্টিং, জেলাটিন, পুডিং ও ফিলিং, জ্যাম ও জেলিতে, উত্তম উৎপাদন-চর্চা মেনে" },
+        "date": "2024",
+        "sourceId": "cfr-184-1221"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2014", "org": "EFSA", "title": "Scientific Opinion on the re-evaluation of propionic acid (E 280), sodium propionate (E 281), calcium propionate (E 282) and potassium propionate (E 283) as food additives", "year": 2014, "url": "https://doi.org/10.2903/j.efsa.2014.3779", "kind": "regulatory" },
+      { "id": "jecfa-propionate", "org": "JECFA (FAO/WHO)", "title": "Calcium propionate: evaluations of the Joint FAO/WHO Expert Committee on Food Additives", "year": 1997, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2163", "kind": "regulatory" },
+      { "id": "cfr-184-1221", "org": "US FDA", "title": "21 CFR 184.1221 Calcium propionate", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1221.xml", "kind": "regulatory" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "nisin",
+    "name": { "en": "Nisin", "bn": "নিসিন" },
+    "commonNames": ["nisin a"],
+    "labelNames": ["nisin", "e234", "e 234", "ins 234", "নিসিন"],
+    "chemicalName": "Nisin (a polypeptide bacteriocin)",
+    "eNumber": "E234",
+    "ins": "234",
+    "category": "preservatives",
+    "origin": "fermentation",
+    "originNote": {
+      "en": "A small protein-like molecule made by fermentation with a lactic acid bacterium. Origin says nothing about safety.",
+      "bn": "ল্যাকটিক অ্যাসিড ব্যাকটেরিয়া দিয়ে গাঁজনে তৈরি প্রোটিন-সদৃশ ছোট অণু। উৎস দেখে নিরাপত্তা বিচার করা যায় না।"
+    },
+    "applications": ["dairy"],
+    "summary": {
+      "en": "An antimicrobial peptide from fermentation, used especially to stop harmful bacteria in processed cheese.",
+      "bn": "গাঁজন থেকে পাওয়া জীবাণুরোধী পেপটাইড, বিশেষত প্রক্রিয়াজাত পনিরে ক্ষতিকর ব্যাকটেরিয়া রোধে ব্যবহৃত।"
+    },
+    "whatIs": {
+      "en": "Nisin is a small peptide produced by certain lactic acid bacteria. It is used as a preservative in small amounts, for example in processed cheese products.",
+      "bn": "নিসিন হলো কিছু ল্যাকটিক অ্যাসিড ব্যাকটেরিয়ার তৈরি ছোট পেপটাইড। প্রক্রিয়াজাত পনিরের মতো পণ্যে অল্প পরিমাণে সংরক্ষক হিসেবে ব্যবহৃত হয়।"
+    },
+    "whyUsed": {
+      "en": "It inhibits spore-forming bacteria such as Clostridium botulinum in pasteurised cheese spreads.",
+      "bn": "এটি পাস্তুরিত চিজ স্প্রেডে ক্লস্ট্রিডিয়াম বটুলিনামের মতো স্পোর-গঠনকারী ব্যাকটেরিয়াকে দমন করে।"
+    },
+    "howItWorks": {
+      "en": "Nisin interferes with the outer structure of certain bacteria and with the germination of their spores.",
+      "bn": "নিসিন কিছু ব্যাকটেরিয়ার বাইরের গঠন এবং তাদের স্পোরের অঙ্কুরোদগমে বাধা দেয়।"
+    },
+    "properties": [
+      { "en": "Active mainly against certain Gram-positive bacteria", "bn": "প্রধানত কিছু গ্রাম-পজিটিভ ব্যাকটেরিয়ার বিরুদ্ধে সক্রিয়" },
+      { "en": "Effective at very small amounts", "bn": "খুব অল্প পরিমাণে কার্যকর" }
+    ],
+    "benefits": [
+      { "kind": "preservation", "text": { "en": "Inhibits spore-forming bacteria in processed cheese.", "bn": "প্রক্রিয়াজাত পনিরে স্পোর-গঠনকারী ব্যাকটেরিয়া দমন করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA's ADI comes from a 90-day rat study with no adverse effects at the highest dose tested, using an extra uncertainty factor because longer-term data were limited. Few specific concerns have been identified.",
+          "bn": "EFSA-র ADI এসেছে ইঁদুরের ৯০ দিনের গবেষণা থেকে, যেখানে সর্বোচ্চ পরীক্ষিত মাত্রায় ক্ষতিকর প্রভাব দেখা যায়নি; দীর্ঘমেয়াদি তথ্য সীমিত বলে বাড়তি অনিশ্চয়তা-গুণক ব্যবহৃত হয়েছে। নির্দিষ্ট উদ্বেগ কম।"
+        },
+        "sourceIds": ["efsa-2017"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA's 2017 assessment found estimated exposure below its ADI for all population groups, so normal use leaves intake within the level it considers acceptable.",
+      "bn": "EFSA-র ২০১৭ সালের মূল্যায়নে সব জনগোষ্ঠীর আনুমানিক গ্রহণ ADI-এর নিচে পাওয়া গেছে, অর্থাৎ স্বাভাবিক ব্যবহারে গ্রহণ তাদের গ্রহণযোগ্য সীমার মধ্যেই থাকে।"
+    },
+    "statusLabels": ["approved-specific", "gras-conditions", "within-limits"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Assessed with new data and a proposed extension of use; replaced the earlier ADI of 0.13", "bn": "নতুন তথ্য ও ব্যবহার সম্প্রসারণের প্রস্তাবসহ মূল্যায়িত; আগের ০.১৩ ADI প্রতিস্থাপিত" },
+        "adi": { "type": "numeric", "value": 1, "unit": "mg/kg bw/day", "note": { "en": "As nisin A", "bn": "নিসিন A হিসেবে" } },
+        "date": "2017",
+        "sourceId": "efsa-2017"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI of 0-33,000 units/kg bw, given in activity units rather than mg", "bn": "ADI ০-৩৩,০০০ একক/কেজি দেহ-ওজন, মিগ্রার বদলে সক্রিয়তার এককে" },
+        "date": "1968",
+        "sourceId": "jecfa-nisin"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "GRAS as an antimicrobial in pasteurised cheese spreads", "bn": "পাস্তুরিত চিজ স্প্রেডে জীবাণুরোধী হিসেবে GRAS" },
+        "limits": { "en": "Current good manufacturing practice results in up to 250 ppm in the finished product", "bn": "বর্তমান উত্তম উৎপাদন-চর্চায় চূড়ান্ত পণ্যে সর্বোচ্চ ২৫০ পিপিএম" },
+        "date": "2024",
+        "sourceId": "cfr-184-1538"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2017", "org": "EFSA", "title": "Safety of nisin (E 234) as a food additive in the light of new toxicological data and the proposed extension of use", "year": 2017, "url": "https://efsa.europa.eu/en/efsajournal/pub/5063", "kind": "regulatory" },
+      { "id": "jecfa-nisin", "org": "JECFA (FAO/WHO)", "title": "Nisin: JECFA evaluations", "year": 1968, "url": "https://inchem.org/documents/jecfa/jeceval/jec_1700.htm", "kind": "regulatory" },
+      { "id": "cfr-184-1538", "org": "US FDA", "title": "21 CFR 184.1538 Nisin preparation", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec184-1538.xml", "kind": "regulatory" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "ascorbic-acid",
+    "name": { "en": "Ascorbic acid", "bn": "অ্যাসকরবিক অ্যাসিড" },
+    "commonNames": ["vitamin c", "l-ascorbic acid"],
+    "labelNames": ["ascorbic acid", "l-ascorbic acid", "vitamin c", "e300", "e 300", "ins 300", "অ্যাসকরবিক অ্যাসিড", "ভিটামিন সি"],
+    "chemicalName": "L-Ascorbic acid",
+    "eNumber": "E300",
+    "ins": "300",
+    "formula": "C6H8O6",
+    "category": "antioxidants",
+    "alsoIn": ["fortifying-agents"],
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "Usually produced industrially and chemically the same as the vitamin C in fruit. Origin says nothing about safety.",
+      "bn": "সাধারণত কারখানায় তৈরি এবং ফলের ভিটামিন সি-র সঙ্গে রাসায়নিকভাবে একই। উৎস দেখে নিরাপত্তা বিচার করা যায় না।"
+    },
+    "applications": ["juices", "soft-drinks", "bread-bakery", "processed-meat", "canned-foods", "supplements"],
+    "summary": {
+      "en": "Vitamin C used as an antioxidant to keep foods from browning and as a nutrient in fortified products.",
+      "bn": "খাবার বাদামি হওয়া রোধে অ্যান্টিঅক্সিডেন্ট এবং ফর্টিফাইড পণ্যে পুষ্টি উপাদান হিসেবে ব্যবহৃত ভিটামিন সি।"
+    },
+    "whatIs": {
+      "en": "Ascorbic acid is the chemical name of vitamin C. As an additive, it is the same molecule whether it comes from a factory or from fruit.",
+      "bn": "অ্যাসকরবিক অ্যাসিড হলো ভিটামিন সি-র রাসায়নিক নাম। সংযোজক হিসেবে এটি কারখানা বা ফল, যেখান থেকেই আসুক, একই অণু।"
+    },
+    "whyUsed": {
+      "en": "It slows browning and colour or flavour loss in foods, supports dough handling, and may be added to raise vitamin C content.",
+      "bn": "এটি খাবারের বাদামি হওয়া, রং ও স্বাদ হারানো ধীর করে, ময়দার মিশ্রণে সহায়তা করে এবং ভিটামিন সি বাড়াতে যোগ করা হতে পারে।"
+    },
+    "howItWorks": {
+      "en": "It readily gives up electrons and reacts with oxygen first, sparing other food components from oxidation.",
+      "bn": "এটি সহজে ইলেকট্রন দেয় এবং আগে অক্সিজেনের সঙ্গে বিক্রিয়া করে, ফলে খাবারের অন্য উপাদান জারণ থেকে বাঁচে।"
+    },
+    "properties": [
+      { "en": "Water-soluble antioxidant", "bn": "পানিতে দ্রবণীয় অ্যান্টিঅক্সিডেন্ট" },
+      { "en": "Also a vitamin", "bn": "একটি ভিটামিনও বটে" }
+    ],
+    "benefits": [
+      { "kind": "antioxidant", "text": { "en": "Slows oxidation, browning and flavour loss.", "bn": "জারণ, বাদামি হওয়া ও স্বাদ হারানো ধীর করে।" } },
+      { "kind": "fortification", "text": { "en": "Can add vitamin C to fortified foods.", "bn": "ফর্টিফাইড খাবারে ভিটামিন সি যোগ করতে পারে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "established",
+        "text": {
+          "en": "EFSA (2015) reported no adverse effects in animal studies and no genotoxicity concern. A vitamin C upper limit could not be derived because data were inadequate, so very high supplement intakes remain less well defined. In drinks with benzoate, it can contribute to trace benzene formation.",
+          "bn": "EFSA (২০১৫) প্রাণীর গবেষণায় ক্ষতিকর প্রভাব বা জিনগত ক্ষতির উদ্বেগ পায়নি। তথ্য অপর্যাপ্ত হওয়ায় ভিটামিন সি-র ঊর্ধ্বসীমা নির্ধারণ করা যায়নি, তাই খুব উচ্চ মাত্রার সাপ্লিমেন্টের বিষয়টি কম স্পষ্ট। বেনজোয়েটযুক্ত পানীয়ে এটি অতি সামান্য বেনজিন তৈরিতে ভূমিকা রাখতে পারে।"
+        },
+        "sourceIds": ["efsa-2015", "efsa-ul", "fda-benzene"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA saw no safety concern at reported uses and no need for a numerical ADI, and JECFA also did not specify one. The benzene question depends on specific drink formulations, not on vitamin C itself at normal intake.",
+      "bn": "EFSA প্রতিবেদিত ব্যবহারে নিরাপত্তার উদ্বেগ পায়নি এবং সংখ্যাগত ADI-এর প্রয়োজন দেখেনি; JECFA-ও ADI নির্দিষ্ট করেনি। বেনজিনের বিষয়টি নির্দিষ্ট পানীয়ের ফর্মুলার সঙ্গে জড়িত, স্বাভাবিক গ্রহণে ভিটামিন সি নিজে এর কারণ নয়।"
+    },
+    "statusLabels": ["gras-conditions", "within-limits"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "No safety concern at reported uses and use levels", "bn": "প্রতিবেদিত ব্যবহার ও মাত্রায় নিরাপত্তার উদ্বেগ নেই" },
+        "adi": { "type": "not-specified", "note": { "en": "EFSA saw no need for a numerical ADI", "bn": "EFSA সংখ্যাগত ADI-এর প্রয়োজন দেখেনি" } },
+        "date": "2015-05",
+        "sourceId": "efsa-2015"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "Group evaluation with its sodium, potassium and calcium salts", "bn": "সোডিয়াম, পটাশিয়াম ও ক্যালসিয়াম লবণের সঙ্গে গ্রুপ মূল্যায়ন" },
+        "adi": { "type": "not-specified" },
+        "date": "1981",
+        "sourceId": "jecfa-ascorbic"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "GRAS when used under good manufacturing practice", "bn": "উত্তম উৎপাদন-চর্চা মেনে ব্যবহারে GRAS" },
+        "date": "2024",
+        "sourceId": "cfr-182-3013"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2015", "org": "EFSA", "title": "Scientific Opinion on the re-evaluation of ascorbic acid (E 300), sodium ascorbate (E 301) and calcium ascorbate (E 302) as food additives", "year": 2015, "url": "https://efsa.europa.eu/en/efsajournal/pub/4087", "kind": "regulatory" },
+      { "id": "efsa-ul", "org": "EFSA", "title": "Overview on Tolerable Upper Intake Levels as derived by the Scientific Committee on Food and EFSA", "year": 2024, "url": "https://www.efsa.europa.eu/sites/default/files/2024-05/ul-summary-report.pdf", "kind": "agency-guidance" },
+      { "id": "fda-benzene", "org": "US FDA", "title": "Questions and Answers on the Occurrence of Benzene in Soft Drinks and Other Beverages", "year": 2022, "url": "https://www.fda.gov/food/environmental-contaminants-food/questions-and-answers-occurrence-benzene-soft-drinks-and-other-beverages", "kind": "agency-guidance" },
+      { "id": "jecfa-ascorbic", "org": "JECFA (FAO/WHO)", "title": "Ascorbic acid: evaluations of the Joint FAO/WHO Expert Committee on Food Additives", "year": 1981, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/59", "kind": "regulatory" },
+      { "id": "cfr-182-3013", "org": "US FDA", "title": "21 CFR 182.3013 Ascorbic acid", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec182-3013.xml", "kind": "regulatory" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "tocopherols",
+    "name": { "en": "Tocopherols", "bn": "টোকোফেরল" },
+    "commonNames": ["vitamin e", "mixed tocopherols", "tocopherol-rich extract"],
+    "labelNames": ["tocopherols", "mixed tocopherols", "tocopherol-rich extract", "vitamin e", "e306", "e 306", "ins 306", "টোকোফেরল", "ভিটামিন ই"],
+    "chemicalName": "Tocopherol-rich extract",
+    "eNumber": "E306",
+    "ins": "306",
+    "category": "antioxidants",
+    "alsoIn": ["fortifying-agents"],
+    "origin": "natural",
+    "originNote": {
+      "en": "E306 is an extract rich in tocopherols, usually from vegetable oils. Origin says nothing about safety.",
+      "bn": "E306 হলো টোকোফেরলসমৃদ্ধ নির্যাস, সাধারণত উদ্ভিজ্জ তেল থেকে নেওয়া। উৎস দেখে নিরাপত্তা বিচার করা যায় না।"
+    },
+    "applications": ["oils-fats", "infant-foods", "supplements"],
+    "summary": {
+      "en": "Vitamin E compounds used as antioxidants that slow fats and oils from going rancid.",
+      "bn": "তেল ও চর্বি বাসি হওয়া ধীর করতে অ্যান্টিঅক্সিডেন্ট হিসেবে ব্যবহৃত ভিটামিন ই যৌগ।"
+    },
+    "whatIs": {
+      "en": "Tocopherols are the family of compounds that includes vitamin E. E306 is a tocopherol-rich extract, usually made from vegetable oils.",
+      "bn": "টোকোফেরল হলো ভিটামিন ই-সহ একদল যৌগ। E306 টোকোফেরলসমৃদ্ধ নির্যাস, সাধারণত উদ্ভিজ্জ তেল থেকে তৈরি।"
+    },
+    "whyUsed": {
+      "en": "They slow the oxidation of fats, which delays rancid flavours in oils and fatty foods.",
+      "bn": "এগুলো চর্বির জারণ ধীর করে, ফলে তেল ও চর্বিযুক্ত খাবারে বাসি স্বাদ দেরিতে আসে।"
+    },
+    "howItWorks": {
+      "en": "Tocopherols donate hydrogen to fat radicals, which interrupts the chain reaction of fat oxidation.",
+      "bn": "টোকোফেরল চর্বির র‍্যাডিকেলকে হাইড্রোজেন দিয়ে জারণের শৃঙ্খল-বিক্রিয়া থামিয়ে দেয়।"
+    },
+    "properties": [
+      { "en": "Fat-soluble antioxidant", "bn": "চর্বিতে দ্রবণীয় অ্যান্টিঅক্সিডেন্ট" },
+      { "en": "Includes vitamin E forms", "bn": "ভিটামিন ই-এর রূপসমূহ অন্তর্ভুক্ত" }
+    ],
+    "benefits": [
+      { "kind": "antioxidant", "text": { "en": "Delays rancidity in oils and fatty foods.", "bn": "তেল ও চর্বিযুক্ত খাবারে বাসি হওয়া দেরি করায়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA (2015) found the toxicity data too limited to set an ADI for E306-E309, and the data on tocopherol-rich extract itself too limited to include in its assessment. Regular high-dose supplements are a separate matter: EFSA's 2024 upper limits do not apply to people on anticoagulant or antiplatelet medicines.",
+          "bn": "EFSA (২০১৫) E306-E309 এর ADI ঠিক করতে বিষাক্ততার তথ্য খুব সীমিত পেয়েছে, আর টোকোফেরলসমৃদ্ধ নির্যাসের তথ্য মূল্যায়নে অন্তর্ভুক্ত করার মতোও যথেষ্ট ছিল না। নিয়মিত উচ্চ মাত্রার সাপ্লিমেন্ট আলাদা বিষয়: EFSA-র ২০২৪ সালের ঊর্ধ্বসীমা রক্ত-তরলকারী বা অ্যান্টিপ্লেটলেট ওষুধ সেবনকারীদের ক্ষেত্রে প্রযোজ্য নয়।"
+        },
+        "sourceIds": ["efsa-2015", "efsa-2024-ul"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA concluded that tocopherols are not a safety concern at the levels used in food. EFSA also said upper levels are unlikely to be exceeded in Europe except by regular users of high-dose supplements.",
+      "bn": "EFSA-র সিদ্ধান্ত, খাবারে ব্যবহৃত মাত্রায় টোকোফেরল নিরাপত্তার উদ্বেগ নয়। EFSA আরও জানিয়েছে, উচ্চ মাত্রার সাপ্লিমেন্টের নিয়মিত ব্যবহারকারী ছাড়া ইউরোপে ঊর্ধ্বসীমা ছাড়ানোর সম্ভাবনা কম।"
+    },
+    "statusLabels": ["gras-conditions", "within-limits"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluated E306-E309; no safety concern at levels used", "bn": "E306-E309 পুনর্মূল্যায়িত; ব্যবহৃত মাত্রায় নিরাপত্তার উদ্বেগ নেই" },
+        "adi": { "type": "none-established", "note": { "en": "Toxicity data were too limited to set an ADI", "bn": "ADI ঠিক করতে বিষাক্ততার তথ্য খুব সীমিত" } },
+        "date": "2015-09",
+        "sourceId": "efsa-2015"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "Group ADI for dl-alpha-tocopherol and d-alpha-tocopherol concentrate (INS 307 forms), not for mixed concentrates", "bn": "ডিএল-আলফা ও ডি-আলফা টোকোফেরল ঘনীভূতের গ্রুপ ADI, মিশ্র ঘনীভূতের জন্য নয়" },
+        "adi": { "type": "numeric", "value": 2, "low": 0.15, "unit": "mg/kg bw/day", "note": { "en": "0.15-2; the lower value reflects a recommended dietary allowance", "bn": "০.১৫-২; নিচের মান একটি প্রস্তাবিত দৈনিক প্রয়োজনের সঙ্গে সম্পর্কিত" } },
+        "date": "1986",
+        "sourceId": "jecfa-tocopherol"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "GRAS when used under good manufacturing practice", "bn": "উত্তম উৎপাদন-চর্চা মেনে ব্যবহারে GRAS" },
+        "date": "2024",
+        "sourceId": "cfr-182-3890"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2015", "org": "EFSA", "title": "Scientific Opinion on the re-evaluation of tocopherol-rich extract (E 306), α-tocopherol (E 307), γ-tocopherol (E 308) and δ-tocopherol (E 309) as food additives", "year": 2015, "url": "https://efsa.europa.eu/sv/efsajournal/pub/4247", "kind": "regulatory" },
+      { "id": "efsa-2024-ul", "org": "EFSA", "title": "Scientific opinion on the tolerable upper intake level for vitamin E", "year": 2024, "url": "https://www.efsa.europa.eu/en/efsajournal/pub/8953", "kind": "regulatory" },
+      { "id": "jecfa-tocopherol", "org": "JECFA (FAO/WHO)", "title": "d-alpha-Tocopherol concentrate: evaluations of the Joint FAO/WHO Expert Committee on Food Additives", "year": 1986, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/22", "kind": "regulatory" },
+      { "id": "cfr-182-3890", "org": "US FDA", "title": "21 CFR 182.3890 Tocopherols", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec182-3890.xml", "kind": "regulatory" }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "JECFA's 0.15-2 mg/kg ADI was read for alpha-tocopherol forms only; no current JECFA ADI for mixed concentrate (E306) was confirmed, and whether JECFA has re-evaluated since 1986 was not confirmed."
+    }
+  },
+  {
+    "id": "bha",
+    "name": { "en": "BHA (butylated hydroxyanisole)", "bn": "বিএইচএ (বিউটাইলেটেড হাইড্রক্সিঅ্যানিসোল)" },
+    "commonNames": ["butylated hydroxyanisole"],
+    "labelNames": ["bha", "butylated hydroxyanisole", "e320", "e 320", "ins 320", "বিউটাইলেটেড হাইড্রক্সিঅ্যানিসোল"],
+    "chemicalName": "Butylated hydroxyanisole",
+    "eNumber": "E320",
+    "ins": "320",
+    "formula": "C11H16O2",
+    "category": "antioxidants",
+    "origin": "synthetic",
+    "originNote": { "en": "Made by synthesis. Origin says nothing about safety.", "bn": "সংশ্লেষণে তৈরি। উৎস দেখে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["oils-fats", "chips-snacks", "breakfast-cereals"],
+    "summary": {
+      "en": "A synthetic antioxidant that delays rancidity in fats; regulators disagree on its ADI and the US is reassessing it.",
+      "bn": "চর্বির বাসি হওয়া দেরি করায় এমন সংশ্লেষিত অ্যান্টিঅক্সিডেন্ট; এর ADI নিয়ে কর্তৃপক্ষগুলোর মতভেদ আছে, যুক্তরাষ্ট্র এটি পুনর্মূল্যায়ন করছে।"
+    },
+    "whatIs": {
+      "en": "BHA is a synthetic, fat-soluble antioxidant. It is used in small amounts in fats and fatty foods, often together with BHT.",
+      "bn": "বিএইচএ একটি সংশ্লেষিত, চর্বিতে দ্রবণীয় অ্যান্টিঅক্সিডেন্ট। চর্বি ও চর্বিযুক্ত খাবারে অল্প পরিমাণে, প্রায়ই বিএইচটির সঙ্গে ব্যবহৃত হয়।"
+    },
+    "whyUsed": {
+      "en": "It delays fats from turning rancid in products such as dry cereals and snack foods.",
+      "bn": "শুকনো সিরিয়াল ও স্ন্যাকের মতো পণ্যে এটি চর্বি বাসি হওয়া দেরি করায়।"
+    },
+    "howItWorks": {
+      "en": "It donates hydrogen to reactive fat radicals, interrupting the chain reaction that causes rancidity.",
+      "bn": "এটি সক্রিয় চর্বি-র‍্যাডিকেলকে হাইড্রোজেন দিয়ে বাসি হওয়ার শৃঙ্খল-বিক্রিয়া থামায়।"
+    },
+    "properties": [
+      { "en": "Fat-soluble antioxidant", "bn": "চর্বিতে দ্রবণীয় অ্যান্টিঅক্সিডেন্ট" },
+      { "en": "Often combined with BHT", "bn": "প্রায়ই বিএইচটির সঙ্গে ব্যবহৃত" }
+    ],
+    "benefits": [
+      { "kind": "antioxidant", "text": { "en": "Delays rancidity in fats and fatty foods.", "bn": "চর্বি ও চর্বিযুক্ত খাবারে বাসি হওয়া দেরি করায়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "conflicting",
+        "text": {
+          "en": "High doses cause proliferative changes in the rodent forestomach. IARC lists BHA in Group 2B and the US National Toxicology Program calls it reasonably anticipated to be a human carcinogen, based on animal studies. EFSA (2011) found no genotoxicity concern and said the forestomach findings may no longer be relevant to people. IARC's group is a hazard classification, not a measure of risk at normal intake.",
+          "bn": "উচ্চ মাত্রায় ইঁদুর-জাতীয় প্রাণীর অগ্রপাকস্থলীতে কোষবৃদ্ধিজনিত পরিবর্তন দেখা যায়। IARC বিএইচএ-কে গ্রুপ ২B-তে রেখেছে; মার্কিন ন্যাশনাল টক্সিকোলজি প্রোগ্রাম প্রাণী-গবেষণার ভিত্তিতে একে মানুষের সম্ভাব্য ক্যান্সার সৃষ্টিকারী বলে। EFSA (২০১১) জিনগত ক্ষতির উদ্বেগ পায়নি এবং বলেছে অগ্রপাকস্থলীর ফলাফল মানুষের ক্ষেত্রে হয়তো আর প্রাসঙ্গিক নয়। IARC-র শ্রেণি বিপদের শ্রেণিবিন্যাস, স্বাভাবিক গ্রহণে ঝুঁকির পরিমাপ নয়।"
+        },
+        "sourceIds": ["iarc-list", "fda-2026", "efsa-2011"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "In February 2026 FDA announced a full reassessment of BHA in food and food-contact uses. Its review list, checked in November 2026, showed no outcome yet.",
+          "bn": "২০২৬ সালের ফেব্রুয়ারিতে FDA খাবার ও খাদ্য-সংস্পর্শে বিএইচএ-এর পূর্ণ পুনর্মূল্যায়নের ঘোষণা দিয়েছে। ২০২৬ সালের নভেম্বরে দেখা তাদের পর্যালোচনা-তালিকায় এখনো কোনো ফলাফল ছিল না।"
+        },
+        "sourceIds": ["fda-2026", "fda-list"]
+      }
+    ],
+    "riskContext": {
+      "en": "The main animal finding was in the forestomach, an organ humans do not have, at high doses. EFSA's refined intake estimates were generally below its ADI, but FDA has reopened the question and the outcome is pending.",
+      "bn": "প্রধান প্রাণী-ফলাফলটি অগ্রপাকস্থলীতে, যে অঙ্গ মানুষের নেই, এবং উচ্চ মাত্রায়। EFSA-র পরিমার্জিত হিসাবে গ্রহণ সাধারণত ADI-এর নিচে, তবে FDA প্রশ্নটি পুনরায় খুলেছে, ফলাফল এখনো অপেক্ষমাণ।"
+    },
+    "statusLabels": ["evidence-developing", "within-limits", "approved-specific"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluated E320; refined intake estimates generally below the ADI", "bn": "E320 পুনর্মূল্যায়িত; পরিমার্জিত গ্রহণ সাধারণত ADI-এর নিচে" },
+        "adi": { "type": "numeric", "value": 1, "unit": "mg/kg bw/day", "note": { "en": "Raised from the earlier 0.5", "bn": "আগের ০.৫ থেকে বাড়ানো" } },
+        "date": "2011",
+        "sourceId": "efsa-2011"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI; high consumers may exceed it, but data were insufficient to quantify", "bn": "ADI; উচ্চ গ্রহণকারীরা ছাড়াতে পারে, তবে পরিমাণ নির্ণয়ে তথ্য অপর্যাপ্ত" },
+        "adi": { "type": "numeric", "value": 0.5, "unit": "mg/kg bw/day", "note": { "en": "0-0.5", "bn": "০-০.৫" } },
+        "date": "1988",
+        "sourceId": "jecfa-bha"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Permitted in specified foods", "bn": "নির্দিষ্ট খাবারে অনুমোদিত" },
+        "limits": { "en": "Ranges from 2 ppm in beverages and desserts from dry mixes to 1,000 ppm in active dry yeast; 50 ppm in dry breakfast cereals", "bn": "শুকনো মিশ্রণ থেকে তৈরি পানীয় ও ডেজার্টে ২ পিপিএম থেকে সক্রিয় শুকনো ইস্টে ১,০০০ পিপিএম পর্যন্ত; শুকনো ব্রেকফাস্ট সিরিয়ালে ৫০ পিপিএম" },
+        "date": "2024",
+        "sourceId": "cfr-172-110"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Post-market reassessment announced; no outcome yet", "bn": "বাজার-পরবর্তী পুনর্মূল্যায়নের ঘোষণা; এখনো ফলাফল নেই" },
+        "date": "2026-02",
+        "sourceId": "fda-2026"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2011", "org": "EFSA", "title": "Scientific Opinion on the re-evaluation of butylated hydroxyanisole - BHA (E 320) as a food additive", "year": 2011, "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2011.2392", "kind": "regulatory" },
+      { "id": "jecfa-bha", "org": "JECFA (FAO/WHO)", "title": "Butylated hydroxyanisole: JECFA evaluations", "year": 1988, "url": "https://www.inchem.org/documents/jecfa/jeceval/jec_258.htm", "kind": "regulatory" },
+      { "id": "cfr-172-110", "org": "US FDA", "title": "21 CFR 172.110 BHA", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec172-110.xml", "kind": "regulatory" },
+      { "id": "fda-2026", "org": "US FDA", "title": "FDA Launches Assessment of BHA, a Common Food Chemical Preservative", "year": 2026, "url": "https://www.fda.gov/news-events/press-announcements/fda-launches-assessment-bha-common-food-chemical-preservative", "kind": "agency-guidance" },
+      { "id": "fda-list", "org": "US FDA", "title": "List of Select Chemicals in the Food Supply Under FDA Review", "year": 2026, "url": "https://www.fda.gov/food/food-chemical-safety/list-select-chemicals-food-supply-under-fda-review", "kind": "agency-guidance" },
+      { "id": "iarc-list", "org": "IARC", "title": "IARC Monographs: List of Classifications", "year": 2018, "url": "https://monographs.iarc.who.int/wp-content/uploads/2018/09/List_of_Classifications.pdf", "kind": "agency-guidance" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "bht",
+    "name": { "en": "BHT (butylated hydroxytoluene)", "bn": "বিএইচটি (বিউটাইলেটেড হাইড্রক্সিটলুইন)" },
+    "commonNames": ["butylated hydroxytoluene"],
+    "labelNames": ["bht", "butylated hydroxytoluene", "e321", "e 321", "ins 321", "বিউটাইলেটেড হাইড্রক্সিটলুইন"],
+    "chemicalName": "Butylated hydroxytoluene",
+    "eNumber": "E321",
+    "ins": "321",
+    "formula": "C15H24O",
+    "category": "antioxidants",
+    "origin": "synthetic",
+    "originNote": { "en": "Made by synthesis. Origin says nothing about safety.", "bn": "সংশ্লেষণে তৈরি। উৎস দেখে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["oils-fats", "chips-snacks", "breakfast-cereals"],
+    "summary": {
+      "en": "A synthetic antioxidant used to delay rancidity in fats and cereal products; the US is reviewing it.",
+      "bn": "চর্বি ও সিরিয়াল পণ্যে বাসি হওয়া দেরি করাতে ব্যবহৃত সংশ্লেষিত অ্যান্টিঅক্সিডেন্ট; যুক্তরাষ্ট্র এটি পর্যালোচনা করছে।"
+    },
+    "whatIs": {
+      "en": "BHT is a synthetic, fat-soluble antioxidant, closely related to BHA. It is used in small amounts to protect fats in stored foods.",
+      "bn": "বিএইচটি একটি সংশ্লেষিত, চর্বিতে দ্রবণীয় অ্যান্টিঅক্সিডেন্ট, বিএইচএ-র ঘনিষ্ঠ। সংরক্ষিত খাবারের চর্বি রক্ষায় অল্প পরিমাণে ব্যবহৃত হয়।"
+    },
+    "whyUsed": {
+      "en": "It delays fats from turning rancid in foods such as dry cereals and potato flakes.",
+      "bn": "শুকনো সিরিয়াল ও আলুর ফ্লেকের মতো খাবারে এটি চর্বি বাসি হওয়া দেরি করায়।"
+    },
+    "howItWorks": {
+      "en": "It donates hydrogen to reactive fat radicals and stops the chain reaction that makes fat rancid.",
+      "bn": "এটি সক্রিয় চর্বি-র‍্যাডিকেলকে হাইড্রোজেন দিয়ে চর্বি বাসি হওয়ার শৃঙ্খল-বিক্রিয়া থামায়।"
+    },
+    "properties": [
+      { "en": "Fat-soluble antioxidant", "bn": "চর্বিতে দ্রবণীয় অ্যান্টিঅক্সিডেন্ট" },
+      { "en": "Often combined with BHA", "bn": "প্রায়ই বিএইচএ-র সঙ্গে ব্যবহৃত" }
+    ],
+    "benefits": [
+      { "kind": "antioxidant", "text": { "en": "Delays rancidity in fats and fatty foods.", "bn": "চর্বি ও চর্বিযুক্ত খাবারে বাসি হওয়া দেরি করায়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "conflicting",
+        "text": {
+          "en": "IARC found limited evidence of carcinogenicity in experimental animals and could not evaluate it for humans, placing BHT in Group 3 (not classifiable). JECFA and EFSA have set ADIs from animal data, and the two values differ.",
+          "bn": "IARC পরীক্ষাগারের প্রাণীতে ক্যান্সার সৃষ্টির সীমিত প্রমাণ পেয়েছে, মানুষের জন্য মূল্যায়ন করতে পারেনি, এবং বিএইচটিকে গ্রুপ ৩-এ (শ্রেণিবদ্ধ করা যায় না) রেখেছে। JECFA ও EFSA প্রাণীর তথ্য থেকে ADI দিয়েছে, আর দুটি মান ভিন্ন।"
+        },
+        "sourceIds": ["iarc-bht", "iarc-list", "jecfa-bht", "efsa-2012"]
+      },
+      {
+        "kind": "dose-dependent",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "JECFA noted estimated intakes above its ADI in some countries' draft-standard calculations, while actual national data exceeded it in only one of eight countries. FDA has also started a post-market reassessment.",
+          "bn": "JECFA জানিয়েছে, খসড়া মানদণ্ডের হিসাবে কিছু দেশে আনুমানিক গ্রহণ ADI ছাড়িয়েছে, কিন্তু আট দেশের জাতীয় তথ্যে কেবল একটিতে তা হয়েছে। FDA বাজার-পরবর্তী পুনর্মূল্যায়নও শুরু করেছে।"
+        },
+        "sourceIds": ["jecfa-bht", "fda-list"]
+      }
+    ],
+    "riskContext": {
+      "en": "IARC's Group 3 means the evidence did not support a classification for humans. ADIs differ between EFSA and JECFA, and both are set well below the doses that caused effects in animals; FDA's review is ongoing.",
+      "bn": "IARC-র গ্রুপ ৩ মানে প্রমাণ মানুষের জন্য শ্রেণিবিন্যাসকে সমর্থন করেনি। EFSA ও JECFA-র ADI ভিন্ন, আর দুটোই প্রাণীতে প্রভাব সৃষ্টিকারী মাত্রার অনেক নিচে; FDA-র পর্যালোচনা চলছে।"
+    },
+    "statusLabels": ["evidence-developing", "within-limits", "approved-specific"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluated E321; ADI newly derived", "bn": "E321 পুনর্মূল্যায়িত; নতুন ADI নির্ধারিত" },
+        "adi": { "type": "numeric", "value": 0.25, "unit": "mg/kg bw/day" },
+        "date": "2012",
+        "sourceId": "efsa-2012"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI", "bn": "ADI নির্ধারিত" },
+        "adi": { "type": "numeric", "value": 0.3, "unit": "mg/kg bw/day", "note": { "en": "0-0.3", "bn": "০-০.৩" } },
+        "date": "1995",
+        "sourceId": "jecfa-bht"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Permitted in specified foods", "bn": "নির্দিষ্ট খাবারে অনুমোদিত" },
+        "limits": { "en": "Total BHA and BHT: 10 ppm in potato granules, 50 ppm in dry cereals and potato flakes, 200 ppm in shortening emulsion stabilisers", "bn": "মোট বিএইচএ ও বিএইচটি: আলুর দানায় ১০ পিপিএম, শুকনো সিরিয়াল ও আলুর ফ্লেকে ৫০ পিপিএম, শর্টেনিংয়ের ইমালসন স্ট্যাবিলাইজারে ২০০ পিপিএম" },
+        "date": "2024",
+        "sourceId": "cfr-172-115"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Under post-market review, with a request for information; no outcome yet", "bn": "তথ্য আহ্বানসহ বাজার-পরবর্তী পর্যালোচনাধীন; এখনো ফলাফল নেই" },
+        "date": "2026-05",
+        "sourceId": "fda-list"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2012", "org": "EFSA", "title": "Scientific Opinion on the re-evaluation of butylated hydroxytoluene BHT (E 321) as a food additive", "year": 2012, "url": "https://efsa.europa.eu/en/efsajournal/pub/2588", "kind": "regulatory" },
+      { "id": "jecfa-bht", "org": "JECFA (FAO/WHO)", "title": "Butylated hydroxytoluene: JECFA evaluations", "year": 1995, "url": "https://www.inchem.org/documents/jecfa/jeceval/jec_259.htm", "kind": "regulatory" },
+      { "id": "cfr-172-115", "org": "US FDA", "title": "21 CFR 172.115 BHT", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec172-115.xml", "kind": "regulatory" },
+      { "id": "fda-list", "org": "US FDA", "title": "List of Select Chemicals in the Food Supply Under FDA Review", "year": 2026, "url": "https://www.fda.gov/food/food-chemical-safety/list-select-chemicals-food-supply-under-fda-review", "kind": "agency-guidance" },
+      { "id": "iarc-bht", "org": "IARC", "title": "Butylated Hydroxytoluene (BHT) (IARC Summary & Evaluation, Volume 40, 1986)", "year": 1986, "url": "https://www.inchem.org/documents/iarc/vol40/butylatedhydroxytoluene.html", "kind": "agency-guidance" },
+      { "id": "iarc-list", "org": "IARC", "title": "IARC Monographs: List of Classifications", "year": 2018, "url": "https://monographs.iarc.who.int/wp-content/uploads/2018/09/List_of_Classifications.pdf", "kind": "agency-guidance" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  },
+  {
+    "id": "tbhq",
+    "name": { "en": "TBHQ (tert-butylhydroquinone)", "bn": "টিবিএইচকিউ (টার্শিয়ারি-বিউটাইলহাইড্রোকুইনোন)" },
+    "commonNames": ["tert-butylhydroquinone", "tertiary butylhydroquinone"],
+    "labelNames": ["tbhq", "tert-butylhydroquinone", "tertiary butylhydroquinone", "e319", "e 319", "ins 319", "টিবিএইচকিউ"],
+    "chemicalName": "tert-Butylhydroquinone",
+    "eNumber": "E319",
+    "ins": "319",
+    "formula": "C10H14O2",
+    "category": "antioxidants",
+    "origin": "synthetic",
+    "originNote": { "en": "Made by synthesis. Origin says nothing about safety.", "bn": "সংশ্লেষণে তৈরি। উৎস দেখে নিরাপত্তা বিচার করা যায় না।" },
+    "applications": ["oils-fats", "instant-noodles", "chips-snacks", "biscuits"],
+    "summary": {
+      "en": "A synthetic antioxidant that protects frying oils and fatty foods from going rancid, used within set limits.",
+      "bn": "ভাজার তেল ও চর্বিযুক্ত খাবারকে বাসি হওয়া থেকে রক্ষা করে এমন সংশ্লেষিত অ্যান্টিঅক্সিডেন্ট, নির্দিষ্ট সীমার মধ্যে ব্যবহৃত।"
+    },
+    "whatIs": {
+      "en": "TBHQ is a synthetic antioxidant used mainly to protect fats and oils. It holds up well at high temperatures, which makes it useful in frying oils.",
+      "bn": "টিবিএইচকিউ একটি সংশ্লেষিত অ্যান্টিঅক্সিডেন্ট, প্রধানত তেল ও চর্বি রক্ষায় ব্যবহৃত। উচ্চ তাপমাত্রায় ভালো টিকে থাকে, তাই ভাজার তেলে উপযোগী।"
+    },
+    "whyUsed": {
+      "en": "It delays rancidity in oils and fried or fatty foods, extending the time they stay fresh.",
+      "bn": "এটি তেল ও ভাজা বা চর্বিযুক্ত খাবারে বাসি হওয়া দেরি করায়, ফলে এগুলো বেশি দিন তাজা থাকে।"
+    },
+    "howItWorks": {
+      "en": "It donates hydrogen to reactive fat radicals and interrupts the chain reaction of fat oxidation.",
+      "bn": "এটি সক্রিয় চর্বি-র‍্যাডিকেলকে হাইড্রোজেন দিয়ে চর্বি জারণের শৃঙ্খল-বিক্রিয়া থামায়।"
+    },
+    "properties": [
+      { "en": "Effective in frying oils", "bn": "ভাজার তেলে কার্যকর" },
+      { "en": "Fat-soluble antioxidant", "bn": "চর্বিতে দ্রবণীয় অ্যান্টিঅক্সিডেন্ট" }
+    ],
+    "benefits": [
+      { "kind": "antioxidant", "text": { "en": "Delays rancidity in oils and fatty foods.", "bn": "তেল ও চর্বিযুক্ত খাবারে বাসি হওয়া দেরি করায়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "dose-dependent",
+        "evidence": "animal",
+        "strength": "established",
+        "text": {
+          "en": "ADIs rest on animal studies. EFSA's 2016 statement found refined intakes within the ADI, while estimates at maximum permitted levels exceeded it for high-consuming toddlers and children. JECFA noted that high consumers could exceed its ADI but the data were insufficient to say how many.",
+          "bn": "ADI প্রাণী-গবেষণানির্ভর। EFSA-র ২০১৬ সালের বিবৃতিতে পরিমার্জিত গ্রহণ ADI-এর মধ্যে ছিল, তবে সর্বোচ্চ অনুমোদিত মাত্রা ধরে উচ্চ গ্রহণকারী ছোট শিশু ও শিশুদের ক্ষেত্রে হিসাব ADI ছাড়িয়েছে। JECFA জানিয়েছে, উচ্চ গ্রহণকারীরা ADI ছাড়াতে পারে, তবে কতজন তা বলতে তথ্য অপর্যাপ্ত।"
+        },
+        "sourceIds": ["efsa-2016", "jecfa-tbhq"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA's exceedances came from assuming every food was at its legal maximum; with realistic use data its ADI was not exceeded in any population group.",
+      "bn": "EFSA-র ADI ছাড়ানোর হিসাব প্রতিটি খাবারে আইনি সর্বোচ্চ মাত্রা ধরে করা; বাস্তব ব্যবহারের তথ্যে কোনো জনগোষ্ঠীতে ADI ছাড়ায়নি।"
+    },
+    "statusLabels": ["within-limits", "approved-specific"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Authorised as a food additive; ADI confirmed in 2004 and restated in 2016", "bn": "খাদ্য সংযোজক হিসেবে অনুমোদিত; ADI ২০০৪ সালে নিশ্চিত, ২০১৬ সালে পুনর্ব্যক্ত" },
+        "adi": { "type": "numeric", "value": 0.7, "unit": "mg/kg bw/day" },
+        "date": "2016",
+        "sourceId": "efsa-2016"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI established after earlier temporary ADIs", "bn": "আগের অস্থায়ী ADI-এর পর স্থায়ী ADI নির্ধারিত" },
+        "adi": { "type": "numeric", "value": 0.7, "unit": "mg/kg bw/day", "note": { "en": "0-0.7", "bn": "০-০.৭" } },
+        "date": "1997",
+        "sourceId": "jecfa-tbhq"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Permitted as an antioxidant alone or with BHA and/or BHT", "bn": "একা বা বিএইচএ/বিএইচটির সঙ্গে অ্যান্টিঅক্সিডেন্ট হিসেবে অনুমোদিত" },
+        "limits": { "en": "Total antioxidants must not exceed 0.02% of the oil or fat content of the food", "bn": "মোট অ্যান্টিঅক্সিডেন্ট খাবারের তেল বা চর্বির ০.০২% ছাড়ানো যাবে না" },
+        "date": "2024",
+        "sourceId": "cfr-172-185"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2016", "org": "EFSA", "title": "Statement on the refined exposure assessment of tertiary-butyl hydroquinone (E 319)", "year": 2016, "url": "https://www.efsa.europa.eu/en/efsajournal/pub/4363", "kind": "regulatory" },
+      { "id": "jecfa-tbhq", "org": "JECFA (FAO/WHO)", "title": "tert-Butylhydroquinone: evaluations of the Joint FAO/WHO Expert Committee on Food Additives", "year": 1997, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1900", "kind": "regulatory" },
+      { "id": "cfr-172-185", "org": "US FDA", "title": "21 CFR 172.185 TBHQ", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec172-185.xml", "kind": "regulatory" }
+    ],
+    "verification": {
+      "status": "partial",
+      "checkedOn": "2026-11-09",
+      "notes": "Authorisation status outside the EU, US and JECFA was not established. Japan's designated-additive list (Japan Food Chemical Research Foundation, ffcr.or.jp, opened 2026-11-09) did not list TBHQ, but that host is not on the allowed source list and another site reported Japanese approval, so restricted-some was not applied. Canadian status was seen only in trade or secondary sources."
+    }
+  },
+  {
+    "id": "rosemary-extract",
+    "name": { "en": "Rosemary extract", "bn": "রোজমেরি নির্যাস" },
+    "commonNames": ["extracts of rosemary", "rosemary oleoresin antioxidant"],
+    "labelNames": ["rosemary extract", "extract of rosemary", "extracts of rosemary", "e392", "e 392", "ins 392", "রোজমেরি নির্যাস"],
+    "chemicalName": "Extract of Rosmarinus officinalis (carnosic acid and carnosol)",
+    "eNumber": "E392",
+    "ins": "392",
+    "category": "antioxidants",
+    "origin": "natural",
+    "originNote": {
+      "en": "Extracted from rosemary leaves. Being plant-derived is no evidence that it is safer or less safe than other antioxidants.",
+      "bn": "রোজমেরি পাতা থেকে নিষ্কাশিত। উদ্ভিজ্জ হওয়া মানে এটি অন্য অ্যান্টিঅক্সিডেন্টের চেয়ে বেশি বা কম নিরাপদ, এমন প্রমাণ নয়।"
+    },
+    "applications": ["oils-fats", "processed-meat", "sauces-condiments", "chips-snacks"],
+    "summary": {
+      "en": "A plant extract used as an antioxidant to slow rancidity, with limits based on its carnosic acid and carnosol content.",
+      "bn": "বাসি হওয়া ধীর করতে অ্যান্টিঅক্সিডেন্ট হিসেবে ব্যবহৃত উদ্ভিজ্জ নির্যাস, যার সীমা কার্নোসিক অ্যাসিড ও কার্নোসলের পরিমাণের ওপর ভিত্তি করে।"
+    },
+    "whatIs": {
+      "en": "Rosemary extract is made from rosemary leaves and concentrated for its antioxidant compounds, chiefly carnosic acid and carnosol. Regulators express limits by those compounds.",
+      "bn": "রোজমেরি নির্যাস রোজমেরি পাতা থেকে তৈরি এবং অ্যান্টিঅক্সিডেন্ট যৌগের জন্য ঘনীভূত, প্রধানত কার্নোসিক অ্যাসিড ও কার্নোসল। কর্তৃপক্ষ এই যৌগগুলোর হিসাবে সীমা নির্ধারণ করে।"
+    },
+    "whyUsed": {
+      "en": "It slows the oxidation of fats, delaying rancid flavours in products such as oils, sauces and meats.",
+      "bn": "এটি চর্বির জারণ ধীর করে এবং তেল, সস ও মাংসের মতো পণ্যে বাসি স্বাদ দেরি করায়।"
+    },
+    "howItWorks": {
+      "en": "Carnosic acid and carnosol donate hydrogen to reactive radicals, interrupting the chain reaction of oxidation.",
+      "bn": "কার্নোসিক অ্যাসিড ও কার্নোসল সক্রিয় র‍্যাডিকেলকে হাইড্রোজেন দিয়ে জারণের শৃঙ্খল-বিক্রিয়া থামায়।"
+    },
+    "properties": [
+      { "en": "Antioxidant activity from carnosic acid and carnosol", "bn": "কার্নোসিক অ্যাসিড ও কার্নোসল থেকে অ্যান্টিঅক্সিডেন্ট সক্রিয়তা" },
+      { "en": "Limits expressed as carnosic acid plus carnosol", "bn": "সীমা কার্নোসিক অ্যাসিড ও কার্নোসল মিলিয়ে প্রকাশিত" }
+    ],
+    "benefits": [
+      { "kind": "antioxidant", "text": { "en": "Delays rancidity in oils and fatty foods.", "bn": "তেল ও চর্বিযুক্ত খাবারে বাসি হওয়া দেরি করায়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "animal",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA's panel (2008) found the toxicology data insufficient to set an ADI, though it saw no reason for concern. JECFA kept a temporary ADI until a 2025 evaluation of a rat study of thyroid hormones in pups allowed it to set a higher, non-temporary ADI.",
+          "bn": "EFSA-র প্যানেল (২০০৮) ADI ঠিক করতে বিষাক্ততার তথ্য অপর্যাপ্ত পেলেও উদ্বেগের কারণ দেখেনি। ইঁদুরের বাচ্চার থাইরয়েড হরমোন নিয়ে গবেষণার ভিত্তিতে ২০২৫ সালে JECFA অস্থায়ী ADI সরিয়ে উচ্চতর, স্থায়ী ADI দিয়েছে।"
+        },
+        "sourceIds": ["efsa-2018", "jecfa-rosemary"]
+      }
+    ],
+    "riskContext": {
+      "en": "EFSA's 2018 refined estimates, at most about 0.20 mg/kg bw per day in children at the high end, likely overstate real intake and are below JECFA's 2025 ADI. Natural dietary carnosic acid and carnosol can be higher than intake from the additive.",
+      "bn": "EFSA-র ২০১৮ সালের পরিমার্জিত হিসাব, শিশুদের উচ্চ প্রান্তে প্রতিদিন সর্বোচ্চ প্রায় ০.২০ মিগ্রা/কেজি দেহ-ওজন, সম্ভবত প্রকৃত গ্রহণের চেয়ে বেশি এবং JECFA-র ২০২৫ সালের ADI-এর নিচে। স্বাভাবিক খাবার থেকে কার্নোসিক অ্যাসিড ও কার্নোসল গ্রহণ সংযোজকের চেয়ে বেশি হতে পারে।"
+    },
+    "statusLabels": ["approved-specific", "within-limits"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Authorised in the EU; refined exposure assessed in 2018", "bn": "ইউরোপীয় ইউনিয়নে অনুমোদিত; ২০১৮ সালে পরিমার্জিত গ্রহণ মূল্যায়িত" },
+        "adi": { "type": "none-established", "note": { "en": "In 2008 the data were judged insufficient to establish an ADI", "bn": "২০০৮ সালে ADI নির্ধারণে তথ্য অপর্যাপ্ত বিবেচিত" } },
+        "limits": { "en": "15-400 mg/kg in 33 food categories (Annex II)", "bn": "৩৩টি খাদ্য-শ্রেণিতে ১৫-৪০০ মিগ্রা/কেজি (অ্যানেক্স ২)" },
+        "date": "2018-08",
+        "sourceId": "efsa-2018"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "2025 ADI replaced the earlier temporary ADI of 0-0.3", "bn": "২০২৫ সালের ADI আগের অস্থায়ী ০-০.৩ ADI প্রতিস্থাপন করেছে" },
+        "adi": { "type": "numeric", "value": 0.6, "unit": "mg/kg bw/day", "note": { "en": "0-0.6, as carnosic acid and carnosol", "bn": "০-০.৬, কার্নোসিক অ্যাসিড ও কার্নোসল হিসেবে" } },
+        "date": "2025",
+        "sourceId": "jecfa-rosemary"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2018", "org": "EFSA", "title": "Refined exposure assessment of extracts of rosemary (E 392) from its use as food additive", "year": 2018, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009710/", "kind": "regulatory" },
+      { "id": "jecfa-rosemary", "org": "JECFA (FAO/WHO)", "title": "Rosemary extract: evaluations of the Joint FAO/WHO Expert Committee on Food Additives", "year": 2025, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/6311", "kind": "regulatory" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09" }
+  }
+]

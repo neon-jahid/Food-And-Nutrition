@@ -1,0 +1,64 @@
+{
+  "slug": "artificial-sweeteners-explained",
+  "title": { "en": "Artificial Sweeteners Explained", "bn": "কৃত্রিম মিষ্টিকারক: সহজ ব্যাখ্যা" },
+  "dek": { "en": "How regulators set limits for sweeteners, why the numbers differ, and how to separate cancer headlines from weight-loss advice.", "bn": "নিয়ন্ত্রকরা মিষ্টিকারকের সীমা কীভাবে ঠিক করেন, সংখ্যা কেন আলাদা, আর ক্যান্সারের শিরোনাম ও ওজন কমানোর পরামর্শ কীভাবে আলাদা করবেন।" },
+  "minutes": 4,
+  "takeaways": [
+    { "en": "The US FDA has approved six high-intensity sweeteners as food additives and lists an acceptable daily intake for each of them.", "bn": "মার্কিন এফডিএ ছয়টি উচ্চ-তীব্রতার মিষ্টিকারককে খাদ্য সংযোজন হিসেবে অনুমোদন দিয়েছে এবং প্রতিটির গ্রহণযোগ্য দৈনিক মাত্রা তালিকাভুক্ত করেছে।" },
+    { "en": "Authorities can set different limits for the same substance. For sucralose, the FDA uses 5 mg/kg body weight a day and EFSA 15.", "bn": "একই পদার্থে কর্তৃপক্ষের সীমা ভিন্ন হতে পারে। সুক্রালোজে এফডিএ প্রতি কেজি শরীর-ওজনে দিনে ৫ মিলিগ্রাম, ইএফএসএ ১৫।" },
+    { "en": "Aspartame's Group 2B classification is a statement about hazard; JECFA's acceptable daily intake is a statement about risk.", "bn": "অ্যাসপারটেমের গ্রুপ ২বি শ্রেণি বিপত্তি সম্পর্কে বক্তব্য; জেইসিএফএ-র গ্রহণযোগ্য দৈনিক মাত্রা ঝুঁকি সম্পর্কে।" },
+    { "en": "People with phenylketonuria need to restrict aspartame, because it is a source of phenylalanine.", "bn": "ফিনাইলকিটোনিউরিয়া আক্রান্তদের অ্যাসপারটেম সীমিত করতে হয়, কারণ এটি ফিনাইলঅ্যালানিনের উৎস।" },
+    { "en": "WHO's 2023 advice against sweeteners for weight control is conditional and is a separate question from safety assessment.", "bn": "ওজন নিয়ন্ত্রণে মিষ্টিকারকের বিরুদ্ধে ডব্লিউএইচও-র ২০২৩ সালের পরামর্শ শর্তসাপেক্ষ এবং নিরাপত্তা মূল্যায়ন থেকে আলাদা প্রশ্ন।" }
+  ],
+  "sections": [
+    {
+      "heading": { "en": "What these sweeteners are", "bn": "এই মিষ্টিকারকগুলো কী" },
+      "paragraphs": [
+        { "en": "High-intensity sweeteners are many times sweeter than sugar, so very small amounts can replace it. The US Food and Drug Administration (FDA) lists six approved as food additives: saccharin, aspartame, acesulfame potassium, sucralose, neotame and advantame. Two others have reached the US market by a different route. Highly purified steviol glycosides and extracts of monk fruit are the subject of notices that they are generally recognized as safe, which FDA has not questioned. Whole-leaf and crude stevia, by contrast, are not permitted as sweeteners in the United States.", "bn": "উচ্চ-তীব্রতার মিষ্টিকারক চিনির চেয়ে বহুগুণ মিষ্টি, তাই খুব সামান্য পরিমাণ চিনির জায়গা নিতে পারে। মার্কিন খাদ্য ও ওষুধ প্রশাসন (এফডিএ) ছয়টিকে খাদ্য সংযোজন হিসেবে অনুমোদন করেছে: স্যাকারিন, অ্যাসপারটেম, অ্যাসিসালফেম পটাসিয়াম, সুক্রালোজ, নিওটেম ও অ্যাডভানটেম। অন্য দুটি ভিন্ন পথে মার্কিন বাজারে এসেছে: উচ্চ-বিশুদ্ধ স্টিভিওল গ্লাইকোসাইড ও মঙ্ক ফ্রুট নির্যাসের জন্য সাধারণত নিরাপদ বলে স্বীকৃতির নোটিশ দেওয়া হয়েছে, যা নিয়ে এফডিএ প্রশ্ন তোলেনি। অন্যদিকে পুরো পাতা ও অপরিশোধিত স্টেভিয়া যুক্তরাষ্ট্রে মিষ্টিকারক হিসেবে অনুমোদিত নয়।" },
+        { "en": "The word artificial is only partly accurate, because steviol glycosides come from a plant. Origin does not settle the safety question either way, and each substance is assessed on its own data.", "bn": "কৃত্রিম শব্দটি আংশিক সঠিক, কারণ স্টিভিওল গ্লাইকোসাইড উদ্ভিদ থেকে আসে। উৎস কোনো দিকেই নিরাপত্তার প্রশ্নের মীমাংসা করে না, প্রতিটি পদার্থ নিজের তথ্যের ভিত্তিতে মূল্যায়িত হয়।" }
+      ]
+    },
+    {
+      "heading": { "en": "How intake limits compare", "bn": "গ্রহণসীমার তুলনা" },
+      "paragraphs": [
+        { "en": "An acceptable daily intake (ADI) is an estimate of the amount that can be consumed daily over a lifetime without appreciable health risk. FDA's published figures, in milligrams per kilogram of body weight a day, are below. Each is expressed as an upper limit; FDA gives its own values, so they may not match those of other regulators. For a sense of scale, FDA estimates a 60 kg person would reach the limit with 75 tabletop packets of aspartame, 45 of saccharin, 23 of sucralose, and 4,920 of advantame, where one packet is roughly as sweet as two teaspoons of sugar.", "bn": "গ্রহণযোগ্য দৈনিক মাত্রা (এডিআই) হলো সারাজীবন প্রতিদিন গ্রহণ করলেও উল্লেখযোগ্য স্বাস্থ্যঝুঁকি হয় না এমন পরিমাণের একটি হিসাব। এফডিএ-র প্রকাশিত মান, প্রতি কেজি শরীর-ওজনে দিনে মিলিগ্রামে, নিচে দেওয়া হলো। প্রতিটি একটি ঊর্ধ্বসীমা; এগুলো এফডিএ-র নিজস্ব মান, তাই অন্য নিয়ন্ত্রকের সঙ্গে নাও মিলতে পারে। মাত্রা বোঝাতে এফডিএ-র হিসাবে ৬০ কেজির একজন মানুষ অ্যাসপারটেমের ৭৫টি, স্যাকারিনের ৪৫টি, সুক্রালোজের ২৩টি এবং অ্যাডভানটেমের ৪,৯২০টি টেবিলটপ প্যাকেটে সীমায় পৌঁছান; একটি প্যাকেট মোটামুটি দুই চা-চামচ চিনির সমান মিষ্টি।" }
+      ],
+      "bullets": [
+        { "en": "Aspartame 50; acesulfame potassium 15; saccharin 15.", "bn": "অ্যাসপারটেম ৫০; অ্যাসিসালফেম পটাসিয়াম ১৫; স্যাকারিন ১৫।" },
+        { "en": "Sucralose 5; neotame 0.3; advantame 32.8.", "bn": "সুক্রালোজ ৫; নিওটেম ০.৩; অ্যাডভানটেম ৩২.৮।" },
+        { "en": "Rebaudioside A, a steviol glycoside, 12.", "bn": "স্টিভিওল গ্লাইকোসাইড রেবাউডিওসাইড এ ১২।" }
+      ]
+    },
+    {
+      "heading": { "en": "Why authorities disagree", "bn": "কর্তৃপক্ষের মতভেদ কেন" },
+      "paragraphs": [
+        { "en": "Numbers differ because regulators choose different studies and assessment methods, and sometimes different dates. For aspartame, FDA's ADI is 50 mg per kg of body weight, while the WHO and FAO committee JECFA uses 0 to 40. For sucralose, FDA lists 5, and the European Food Safety Authority (EFSA) confirmed 15 mg per kg of body weight a day in its 2026 re-evaluation. EFSA concluded that sucralose is safe for its currently authorised uses, with consumer exposure below that level, but that it could not confirm safety for the proposed additional uses in more fine bakery products.", "bn": "সংখ্যা আলাদা হয় কারণ নিয়ন্ত্রকরা ভিন্ন গবেষণা ও মূল্যায়ন পদ্ধতি বেছে নেন, কখনও সময়ও ভিন্ন হয়। অ্যাসপারটেমে এফডিএ-র এডিআই প্রতি কেজি শরীর-ওজনে ৫০ মিলিগ্রাম, আর ডব্লিউএইচও ও এফএও-র কমিটি জেইসিএফএ-র ০ থেকে ৪০। সুক্রালোজে এফডিএ-র তালিকায় ৫, আর ইউরোপীয় খাদ্য নিরাপত্তা কর্তৃপক্ষ (ইএফএসএ) ২০২৬ সালের পুনর্মূল্যায়নে প্রতি কেজি শরীর-ওজনে দিনে ১৫ মিলিগ্রাম নিশ্চিত করেছে। ইএফএসএ-র সিদ্ধান্ত: সুক্রালোজ বর্তমান অনুমোদিত ব্যবহারে নিরাপদ এবং গ্রহণ ওই মাত্রার নিচে, তবে আরও ফাইন বেকারি পণ্যে প্রস্তাবিত ব্যবহারে নিরাপত্তা নিশ্চিত করতে পারেনি।" },
+        { "en": "A difference between two authorities does not make one of them wrong. It is often a sign of how much judgement goes into turning imperfect data into a single number.", "bn": "দুই কর্তৃপক্ষের পার্থক্য মানেই একটি ভুল নয়। প্রায়ই এটি দেখায়, অসম্পূর্ণ তথ্যকে একটি সংখ্যায় আনতে কতটা বিচারবোধ লাগে।" }
+      ]
+    },
+    {
+      "heading": { "en": "Aspartame: hazard, risk and a group that must take care", "bn": "অ্যাসপারটেম: বিপত্তি, ঝুঁকি ও একটি সতর্ক গোষ্ঠী" },
+      "paragraphs": [
+        { "en": "In July 2023 the WHO's cancer agency, IARC, classified aspartame as Group 2B, possibly carcinogenic to humans, on limited evidence for one type of liver cancer. That is a hazard statement about strength of evidence. Its risk-assessment partner JECFA looked at intake and reaffirmed its 0 to 40 mg per kg limit. WHO's example is a 70 kg adult drinking a diet soft drink with 200 or 300 mg aspartame, who would need more than 9 to 14 cans a day to exceed that limit, assuming no other source.", "bn": "২০২৩ সালের জুলাইয়ে ডব্লিউএইচও-র ক্যান্সার সংস্থা আইএআরসি এক ধরনের যকৃতের ক্যান্সারের সীমিত প্রমাণের ভিত্তিতে অ্যাসপারটেমকে গ্রুপ ২বি, মানুষের জন্য সম্ভাব্য ক্যান্সারকারী, হিসেবে শ্রেণিবদ্ধ করে। এটি প্রমাণের শক্তি নিয়ে বিপত্তি-সংক্রান্ত বক্তব্য। তাদের ঝুঁকি মূল্যায়ন সহযোগী জেইসিএফএ গ্রহণের দিকে দেখে ০ থেকে ৪০ মিলিগ্রাম সীমা পুনর্ব্যক্ত করে। ডব্লিউএইচও-র উদাহরণে ৭০ কেজির একজন প্রাপ্তবয়স্ক, যিনি ২০০ বা ৩০০ মিলিগ্রাম অ্যাসপারটেমযুক্ত ডায়েট সফট ড্রিংক পান করেন, অন্য উৎস ছাড়া ওই সীমা পেরোতে দিনে ৯ থেকে ১৪ ক্যানের বেশি পান করতে হবে।" },
+        { "en": "FDA also disagrees with IARC's conclusion and says it identified significant shortcomings in the studies IARC relied on. Whichever view you find more persuasive, the separation of hazard and risk is what makes the debate readable. One group has a genuine, established reason for caution: people with phenylketonuria (PKU) should avoid or restrict aspartame, and FDA requires products containing it to state that they contain phenylalanine.", "bn": "এফডিএ-ও আইএআরসি-র সিদ্ধান্তের সঙ্গে দ্বিমত পোষণ করে এবং বলে, আইএআরসি যে গবেষণাগুলোর ওপর নির্ভর করেছে তাতে উল্লেখযোগ্য ত্রুটি পেয়েছে। আপনি যে মতই বেশি বিশ্বাসযোগ্য মনে করুন, বিপত্তি ও ঝুঁকি আলাদা করলেই বিতর্কটি বোঝা যায়। একটি গোষ্ঠীর সতর্ক থাকার প্রকৃত ও প্রতিষ্ঠিত কারণ আছে: ফিনাইলকিটোনিউরিয়া (পিকেইউ) আক্রান্তদের অ্যাসপারটেম এড়াতে বা সীমিত করতে হবে, এবং এফডিএ-র নিয়মে এমন পণ্যে ফিনাইলঅ্যালানিন থাকার কথা লিখতে হয়।" }
+      ]
+    },
+    {
+      "heading": { "en": "Safety and weight control are different questions", "bn": "নিরাপত্তা আর ওজন নিয়ন্ত্রণ আলাদা প্রশ্ন" },
+      "paragraphs": [
+        { "en": "A separate line of advice comes from WHO's May 2023 guideline. It advises against using non-sugar sweeteners to control body weight or reduce the risk of noncommunicable diseases, based on a review that found no long-term reduction in body fat and possible long-term harms in adults. WHO calls the recommendation conditional, because the links to disease may be confounded by the characteristics of the people studied and their patterns of use. It does not apply to people with pre-existing diabetes, and it covers sweeteners such as stevia and its derivatives as well as artificial ones.", "bn": "আলাদা পরামর্শ এসেছে ডব্লিউএইচও-র ২০২৩ সালের মে মাসের নির্দেশিকা থেকে। শরীরের ওজন নিয়ন্ত্রণ বা অসংক্রামক রোগের ঝুঁকি কমাতে অ-শর্করা মিষ্টিকারক ব্যবহার না করার পরামর্শ দেওয়া হয়, কারণ পর্যালোচনায় শরীরের চর্বি দীর্ঘমেয়াদে কমেনি এবং প্রাপ্তবয়স্কদের সম্ভাব্য দীর্ঘমেয়াদি ক্ষতি দেখা গেছে। ডব্লিউএইচও সুপারিশটিকে শর্তসাপেক্ষ বলেছে, কারণ রোগের সঙ্গে সম্পর্ক অংশগ্রহণকারীদের বৈশিষ্ট্য ও ব্যবহারের ধরনের প্রভাবে বিকৃত হতে পারে। এটি আগে থেকে ডায়াবেটিস থাকা ব্যক্তিদের জন্য প্রযোজ্য নয়, এবং কৃত্রিম মিষ্টিকারকের পাশাপাশি স্টেভিয়া ও এর উপজাতও এর আওতায়।" },
+        { "en": "WHO's guideline is explicitly not based on toxicological assessments of individual sweeteners and does not replace the intake limits from JECFA or others. So a sweetener can be within its intake limit and still not be a useful tool for weight loss. These are two honest answers to two different questions, and either one can matter depending on why you are choosing the product.", "bn": "ডব্লিউএইচও-র নির্দেশিকা স্পষ্টতই প্রতিটি মিষ্টিকারকের বিষতত্ত্ব মূল্যায়নের ওপর ভিত্তি করে নয় এবং জেইসিএফএ বা অন্যদের গ্রহণসীমাকে প্রতিস্থাপন করে না। তাই কোনো মিষ্টিকারক গ্রহণসীমার মধ্যে থেকেও ওজন কমানোর কার্যকর হাতিয়ার নাও হতে পারে। এগুলো দুটি ভিন্ন প্রশ্নের দুটি সৎ উত্তর, আর পণ্যটি কেন বেছে নিচ্ছেন তার ওপর নির্ভর করে যেকোনোটি গুরুত্বপূর্ণ হতে পারে।" }
+      ]
+    }
+  ],
+  "references": [
+    { "id": "fda-sweeteners", "org": "US FDA", "title": "Aspartame and Other Sweeteners in Food", "year": 2025, "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food", "kind": "agency-guidance" },
+    { "id": "fda-hi", "org": "US FDA", "title": "High-Intensity Sweeteners", "year": 2017, "url": "https://www.fda.gov/food/food-additives-petitions/high-intensity-sweeteners", "kind": "agency-guidance" },
+    { "id": "who-aspartame", "org": "World Health Organization", "title": "Aspartame hazard and risk assessment results released", "year": 2023, "url": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released", "kind": "agency-guidance" },
+    { "id": "efsa-sucralose", "org": "EFSA", "title": "EFSA finds sucralose safe when used as currently authorised; cannot confirm safety of extending its use", "year": 2026, "url": "https://www.efsa.europa.eu/en/news/efsa-finds-sucralose-safe-when-used-currently-authorised-cannot-confirm-safety-extending-its", "kind": "agency-guidance" },
+    { "id": "who-nss-news", "org": "World Health Organization", "title": "WHO advises not to use non-sugar sweeteners for weight control in newly released guideline", "year": 2023, "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline", "kind": "agency-guidance" },
+    { "id": "who-nss", "org": "World Health Organization", "title": "Use of non-sugar sweeteners: WHO guideline", "year": 2023, "url": "https://www.who.int/publications/i/item/9789240073616", "kind": "agency-guidance" }
+  ],
+  "relatedIngredients": ["aspartame", "sucralose", "acesulfame-potassium", "saccharin", "steviol-glycosides"],
+  "checkedOn": "2026-11-09"
+}

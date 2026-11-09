@@ -1,0 +1,1212 @@
+[
+  {
+    "id": "monosodium-glutamate",
+    "name": { "en": "Monosodium glutamate (MSG)", "bn": "মনোসোডিয়াম গ্লুটামেট (এমএসজি)" },
+    "commonNames": ["MSG", "sodium glutamate", "tasting salt"],
+    "labelNames": ["monosodium glutamate", "msg", "sodium glutamate", "monosodium l-glutamate", "e621", "e 621", "ins 621", "flavour enhancer 621", "flavor enhancer 621", "মনোসোডিয়াম গ্লুটামেট", "এমএসজি"],
+    "chemicalName": "Monosodium L-glutamate",
+    "eNumber": "E621",
+    "ins": "621",
+    "formula": "C5H8NNaO4",
+    "category": "flavor-enhancers",
+    "origin": "fermentation",
+    "originNote": {
+      "en": "Glutamate also occurs freely in many ordinary foods, and EFSA could not tell added from naturally present glutamate in its data. How it is made says nothing about its safety.",
+      "bn": "অনেক সাধারণ খাবারেও মুক্ত গ্লুটামেট থাকে, এবং EFSA তার তথ্যে যোগ করা ও প্রাকৃতিক গ্লুটামেট আলাদা করতে পারেনি। এটি কীভাবে তৈরি, তা দিয়ে নিরাপত্তা বিচার করা যায় না।"
+    },
+    "applications": ["instant-noodles", "chips-snacks", "sauces-condiments", "salt-seasonings", "processed-meat", "canned-foods"],
+    "summary": {
+      "en": "A savoury flavour enhancer. EFSA set a numeric limit in 2017, JECFA has not, and blinded trials of reported reactions gave inconsistent results.",
+      "bn": "নোনতা-মাংসল স্বাদ বাড়ানোর উপাদান। EFSA ২০১৭ সালে সংখ্যাগত সীমা দিয়েছে, JECFA দেয়নি; সংবেদনশীলতার ব্লাইন্ড পরীক্ষার ফল একরকম নয়।"
+    },
+    "whatIs": {
+      "en": "MSG is the sodium salt of glutamic acid, an amino acid found in protein and, in free form, in many foods. In food it gives the savoury taste known as umami.",
+      "bn": "এমএসজি হলো গ্লুটামিক অ্যাসিডের সোডিয়াম লবণ। গ্লুটামিক অ্যাসিড একটি অ্যামিনো অ্যাসিড, যা প্রোটিনে এবং মুক্ত অবস্থায় অনেক খাবারে থাকে। খাবারে এটি উমামি নামের নোনতা-মাংসল স্বাদ দেয়।"
+    },
+    "whyUsed": {
+      "en": "It makes soups, sauces, snacks and seasonings taste fuller and more savoury.",
+      "bn": "স্যুপ, সস, স্ন্যাকস ও মসলায় স্বাদ আরও ভরাট ও মাংসল করতে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "Free glutamate acts on the taste receptors for umami, so the food tastes richer. The added amount works alongside glutamate already in the food.",
+      "bn": "মুক্ত গ্লুটামেট জিভের উমামি স্বাদ-গ্রাহকে কাজ করে, ফলে খাবারের স্বাদ গাঢ় লাগে। খাবারে আগে থেকে থাকা গ্লুটামেটের সঙ্গে যোগ করা অংশও একসঙ্গে কাজ করে।"
+    },
+    "properties": [
+      { "en": "gives umami (savoury) taste", "bn": "উমামি স্বাদ দেয়" },
+      { "en": "EFSA group ADI 30 mg/kg bw/day as glutamic acid", "bn": "EFSA-র গ্রুপ ADI গ্লুটামিক অ্যাসিড হিসেবে ৩০ মিগ্রা/কেজি দেহওজন/দিন" }
+    ],
+    "benefits": [
+      { "kind": "taste", "text": { "en": "Adds savoury depth to foods such as soups, sauces and seasonings.", "bn": "স্যুপ, সস ও মসলার মতো খাবারে নোনতা-মাংসল গভীরতা যোগ করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "allergy-intolerance",
+        "evidence": "human",
+        "strength": "conflicting",
+        "text": {
+          "en": "Double-blind placebo-controlled challenges in people who believe they react to MSG disagree. In the largest (130 people, 5 g without food), 38.5% responded to MSG only and 13.1% to placebo only, but responses were not consistent on retesting and no persistent or serious effects were seen. A 61-person trial reported more severe symptoms after 5 g and an apparent threshold of 2.5 g.",
+          "bn": "যাঁরা মনে করেন এমএসজিতে তাঁদের প্রতিক্রিয়া হয়, তাঁদের ওপর করা ডাবল-ব্লাইন্ড প্লাসিবো-নিয়ন্ত্রিত পরীক্ষার ফল এক নয়। সবচেয়ে বড় পরীক্ষায় (১৩০ জন, খাবার ছাড়া ৫ গ্রাম) ৩৮.৫% শুধু এমএসজিতে এবং ১৩.১% শুধু প্লাসিবোতে সাড়া দেন, কিন্তু পুনরায় পরীক্ষায় ফল একই থাকেনি এবং দীর্ঘস্থায়ী বা গুরুতর প্রভাব দেখা যায়নি। ৬১ জনের একটি পরীক্ষায় ৫ গ্রামের পর উপসর্গ বেশি তীব্র ছিল এবং সীমা প্রায় ২.৫ গ্রাম বলে মনে হয়েছে।"
+        },
+        "sourceIds": ["geha-2000", "geha-review-2000", "yang-1997"]
+      },
+      {
+        "kind": "dose-dependent",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA noted that the 'MSG symptom complex' was rarely seen below 3,000 mg (about 42.9 mg/kg for a 70 kg adult), without a clear dose-response. It linked headache to about 85.8 mg/kg/day, and raised blood pressure and insulin to higher doses. A 2016 systematic review of human studies found the headache evidence poorly blinded and inconsistent, and called for further research.",
+          "bn": "EFSA উল্লেখ করেছে, ‘এমএসজি সিম্পটম কমপ্লেক্স’ ৩,০০০ মিগ্রা-র নিচে (৭০ কেজি প্রাপ্তবয়স্কের জন্য প্রায় ৪২.৯ মিগ্রা/কেজি) কমই দেখা গেছে এবং মাত্রা-প্রতিক্রিয়ার স্পষ্ট সম্পর্ক পাওয়া যায়নি। মাথাব্যথা প্রায় ৮৫.৮ মিগ্রা/কেজি/দিন এবং রক্তচাপ ও ইনসুলিন বৃদ্ধি আরও বেশি মাত্রার সঙ্গে যুক্ত ছিল। ২০১৬ সালের মানব-গবেষণার একটি সিস্টেমেটিক রিভিউ মাথাব্যথার প্রমাণে ব্লাইন্ডিং দুর্বল ও ফল অসঙ্গত পেয়ে আরও গবেষণার কথা বলেছে।"
+        },
+        "sourceIds": ["efsa-2017", "obayashi-2016"]
+      }
+    ],
+    "riskContext": {
+      "en": "The effects studied mostly involved grams of MSG taken at once without food; FDA says a typical serving has under 0.5 g. EFSA's models put high consumers above its ADI, but those estimates could not separate added from natural glutamate. JECFA and EFSA read the same broad science differently, so both positions are shown.",
+      "bn": "গবেষণার প্রভাবগুলো মূলত খাবার ছাড়া একবারে কয়েক গ্রাম এমএসজি খাওয়ার ক্ষেত্রে দেখা গেছে; FDA বলছে সাধারণ এক পরিবেশনে ০.৫ গ্রামের কম থাকে। EFSA-র মডেলে বেশি গ্রহণকারীরা ADI-র ওপরে যান, তবে এই হিসাবে যোগ করা ও প্রাকৃতিক গ্লুটামেট আলাদা করা যায়নি। JECFA ও EFSA একই ধরনের বিজ্ঞান ভিন্নভাবে ব্যাখ্যা করেছে, তাই দুটি অবস্থানই দেখানো হলো।"
+    },
+    "statusLabels": ["within-limits", "gras-conditions", "known-adverse"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Group ADI set for glutamic acid and glutamates (E620-625).", "bn": "গ্লুটামিক অ্যাসিড ও গ্লুটামেটের (E620 থেকে E625) জন্য গ্রুপ ADI নির্ধারিত।" },
+        "adi": { "type": "numeric", "value": 30, "unit": "mg/kg bw/day", "note": { "en": "Group ADI, expressed as glutamic acid.", "bn": "গ্রুপ ADI, গ্লুটামিক অ্যাসিড হিসেবে প্রকাশিত।" } },
+        "limits": { "en": "Authorised as a Group I additive in 66 food categories, with a specific use in 2 more. EFSA recommended the Commission consider revising maximum levels.", "bn": "৬৬টি খাদ্য-শ্রেণিতে গ্রুপ-১ সংযোজন হিসেবে এবং আরও ২টিতে নির্দিষ্ট ব্যবহারে অনুমোদিত। EFSA সর্বোচ্চ মাত্রা পুনর্বিবেচনার সুপারিশ করেছে।" },
+        "date": "2017-07",
+        "sourceId": "efsa-2017"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI 'not specified', as a group with L-glutamic acid and its salts.", "bn": "ADI ‘নির্দিষ্ট নয়’; L-গ্লুটামিক অ্যাসিড ও এর লবণগুলোর সঙ্গে গ্রুপ হিসেবে।" },
+        "adi": { "type": "not-specified", "note": { "en": "JECFA saw no need for a numerical ADI; EFSA later reached a different view.", "bn": "JECFA সংখ্যাগত ADI-র প্রয়োজন দেখেনি; পরে EFSA ভিন্ন মত দিয়েছে।" } },
+        "date": "1987",
+        "sourceId": "jecfa-msg"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Generally recognized as safe (GRAS).", "bn": "সাধারণভাবে নিরাপদ হিসেবে স্বীকৃত (GRAS)।" },
+        "conditions": { "en": "Added MSG must be listed on the label as 'monosodium glutamate'.", "bn": "যোগ করা এমএসজি লেবেলে ‘monosodium glutamate’ নামে লিখতে হয়।" },
+        "date": "2026-07",
+        "sourceId": "fda-msg"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "efsa-2017", "org": "EFSA ANS Panel", "title": "Re-evaluation of glutamic acid (E 620), sodium glutamate (E 621), potassium glutamate (E 622), calcium glutamate (E 623), ammonium glutamate (E 624) and magnesium glutamate (E 625) as food additives", "year": 2017, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009848", "kind": "regulatory" },
+      { "id": "jecfa-msg", "org": "JECFA (WHO database)", "title": "Monosodium L-glutamate: JECFA evaluation entry", "year": 1987, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2257", "kind": "regulatory" },
+      { "id": "fda-msg", "org": "US FDA", "title": "Questions and Answers on Monosodium glutamate (MSG)", "year": 2026, "url": "https://www.fda.gov/food/food-additives-petitions/questions-and-answers-monosodium-glutamate-msg", "kind": "agency-guidance" },
+      { "id": "geha-2000", "org": "Journal of Allergy and Clinical Immunology", "title": "Multicenter, double-blind, placebo-controlled, multiple-challenge evaluation of reported reactions to monosodium glutamate", "year": 2000, "url": "https://pubmed.ncbi.nlm.nih.gov/11080723/", "kind": "peer-reviewed" },
+      { "id": "geha-review-2000", "org": "The Journal of Nutrition", "title": "Review of alleged reaction to monosodium glutamate and outcome of a multicenter double-blind placebo-controlled study", "year": 2000, "url": "https://pubmed.ncbi.nlm.nih.gov/10736382/", "kind": "peer-reviewed" },
+      { "id": "yang-1997", "org": "Journal of Allergy and Clinical Immunology", "title": "The monosodium glutamate symptom complex: assessment in a double-blind, placebo-controlled, randomized study", "year": 1997, "url": "https://pubmed.ncbi.nlm.nih.gov/9215242/", "kind": "peer-reviewed" },
+      { "id": "obayashi-2016", "org": "The Journal of Headache and Pain", "title": "Does monosodium glutamate really cause headache? A systematic review of human studies", "year": 2016, "url": "https://pubmed.ncbi.nlm.nih.gov/27189588/", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09", "notes": "EFSA opinion read through its PubMed Central copy. Study abstracts read through the Europe PMC record of the same PubMed entries. Origin (fermentation) was not read on a linked source." }
+  },
+  {
+    "id": "disodium-inosinate",
+    "name": { "en": "Disodium inosinate", "bn": "ডাইসোডিয়াম ইনোসিনেট" },
+    "commonNames": ["sodium 5'-inosinate", "sodium inosinate", "IMP"],
+    "labelNames": ["disodium inosinate", "disodium 5'-inosinate", "sodium 5'-inosinate", "sodium inosinate", "e631", "e 631", "ins 631", "flavour enhancer 631", "flavor enhancer 631", "ডাইসোডিয়াম ইনোসিনেট"],
+    "chemicalName": "Disodium inosine-5'-monophosphate",
+    "eNumber": "E631",
+    "ins": "631",
+    "formula": "C10H11N4Na2O8P",
+    "category": "flavor-enhancers",
+    "origin": "fermentation",
+    "applications": ["instant-noodles", "chips-snacks", "sauces-condiments", "salt-seasonings"],
+    "summary": {
+      "en": "A flavour enhancer that boosts savoury taste, used in small amounts. JECFA gave it no numeric limit; EFSA's re-evaluation was not found finished.",
+      "bn": "অল্প পরিমাণে ব্যবহৃত, নোনতা-মাংসল স্বাদ বাড়ানোর উপাদান। JECFA সংখ্যাগত সীমা দেয়নি; EFSA-র পুনর্মূল্যায়ন শেষ হয়েছে বলে পাওয়া যায়নি।"
+    },
+    "whatIs": {
+      "en": "Disodium inosinate is the sodium salt of inosinic acid, a nucleotide. Nucleotides like this occur naturally in the tissues of living things.",
+      "bn": "ডাইসোডিয়াম ইনোসিনেট হলো ইনোসিনিক অ্যাসিডের সোডিয়াম লবণ, যা একটি নিউক্লিওটাইড। এ ধরনের নিউক্লিওটাইড জীবদেহের কোষে প্রাকৃতিকভাবেই থাকে।"
+    },
+    "whyUsed": {
+      "en": "It strengthens savoury flavour in seasonings, noodles and snacks.",
+      "bn": "মসলা, নুডলস ও স্ন্যাকসে নোনতা-মাংসল স্বাদ জোরালো করতে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "It acts as a flavour enhancer, intensifying the savoury taste of the food at low levels of use.",
+      "bn": "এটি স্বাদবর্ধক হিসেবে কাজ করে এবং কম মাত্রাতেই খাবারের নোনতা-মাংসল স্বাদ বাড়ায়।"
+    },
+    "properties": [
+      { "en": "nucleotide flavour enhancer", "bn": "নিউক্লিওটাইড-জাতীয় স্বাদবর্ধক" },
+      { "en": "JECFA ADI not specified", "bn": "JECFA-র ADI নির্দিষ্ট নয়" }
+    ],
+    "benefits": [
+      { "kind": "taste", "text": { "en": "Strengthens savoury taste at low levels of use.", "bn": "কম মাত্রায় নোনতা-মাংসল স্বাদ জোরালো করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "JECFA noted in 1974 that large amounts of these nucleotides can raise blood and urine uric acid in people, which it said needs considering for people with a tendency to gout and those on uric-acid-retaining diuretics. In early human observations 2 g a day did not raise blood uric acid above the normal range; a higher level did.",
+          "bn": "JECFA ১৯৭৪ সালে উল্লেখ করেছে, এই নিউক্লিওটাইড বেশি পরিমাণে খেলে মানুষের রক্ত ও প্রস্রাবে ইউরিক অ্যাসিড বাড়তে পারে; গেঁটেবাতের প্রবণতা আছে এমন মানুষ এবং ইউরিক অ্যাসিড ধরে রাখে এমন ডাইইউরেটিক গ্রহণকারীদের ক্ষেত্রে বিষয়টি বিবেচনার কথা বলেছে। প্রাথমিক মানব পর্যবেক্ষণে দিনে ২ গ্রাম রক্তের ইউরিক অ্যাসিড স্বাভাবিক সীমার ওপরে তোলেনি; এর বেশি মাত্রায় তুলেছে।"
+        },
+        "sourceIds": ["jecfa-1974"]
+      }
+    ],
+    "riskContext": {
+      "en": "JECFA judged that the change in purine intake from these enhancers is no greater than normal variation from foods that are the main purine sources. The caution concerns large amounts and specific groups, not ordinary use.",
+      "bn": "JECFA-র মতে, এই স্বাদবর্ধক থেকে পিউরিন গ্রহণের যে পরিবর্তন হয়, তা পিউরিনের প্রধান উৎস খাবারগুলোর স্বাভাবিক তারতম্যের চেয়ে বেশি নয়। সতর্কতাটি বেশি পরিমাণ ও নির্দিষ্ট গোষ্ঠীর জন্য, সাধারণ ব্যবহারের জন্য নয়।"
+    },
+    "statusLabels": ["approved-specific", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI 'not specified' (latest evaluation 1993).", "bn": "ADI ‘নির্দিষ্ট নয়’ (সর্বশেষ মূল্যায়ন ১৯৯৩)।" },
+        "adi": { "type": "not-specified", "note": { "en": "Earlier entries give this as a group ADI for inosinic acid and its calcium, disodium and dipotassium salts.", "bn": "আগের নথিতে এটি ইনোসিনিক অ্যাসিড এবং এর ক্যালসিয়াম, ডাইসোডিয়াম ও ডাইপটাশিয়াম লবণের গ্রুপ ADI।" } },
+        "date": "1993",
+        "sourceId": "jecfa-e631"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Under re-evaluation with E626-635: call for data opened June 2023. No finished opinion was found by November 2026.", "bn": "E626 থেকে E635 গ্রুপের সঙ্গে পুনর্মূল্যায়নাধীন: ২০২৩ সালের জুনে তথ্য আহ্বান করা হয়। ২০২৬ সালের নভেম্বর পর্যন্ত চূড়ান্ত মতামত পাওয়া যায়নি।" },
+        "date": "2023-06",
+        "sourceId": "efsa-call"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Permitted food additive, as a flavouring adjuvant in food.", "bn": "অনুমোদিত খাদ্য সংযোজন, খাবারে ফ্লেভারিং সহায়ক হিসেবে।" },
+        "date": "2025-04",
+        "sourceId": "cfr-172"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "jecfa-e631", "org": "JECFA (IPCS INCHEM)", "title": "JECFA Evaluations: Disodium 5'-inosinate", "year": 1993, "url": "https://inchem.org/documents/jecfa/jeceval/jec_670.htm", "kind": "regulatory" },
+      { "id": "jecfa-1974", "org": "JECFA (WHO Food Additives Series 6)", "title": "Calcium and sodium-5'-ribonucleotides", "year": 1974, "url": "https://www.inchem.org/documents/jecfa/jecmono/v06je02.htm", "kind": "regulatory" },
+      { "id": "efsa-call", "org": "EFSA", "title": "Call for data for the re-evaluation of ribonucleotides (E 626-635) as food additives", "year": 2023, "url": "https://www.efsa.europa.eu/en/call/call-data-re-evaluation-ribonucleotides-e-626-635-food-additives", "kind": "regulatory" },
+      { "id": "cfr-172", "org": "US Code of Federal Regulations", "title": "21 CFR Part 172: Food additives permitted for direct addition to food for human consumption (April 1, 2025 edition), section 172.535", "year": 2025, "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol3/xml/CFR-2025-title21-vol3-part172.xml", "kind": "regulatory" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09", "notes": "Searches on 2026-11-09 found no finished EFSA opinion on E626-635; absence could not be proven. US status read in the 2025 CFR edition on govinfo because eCFR could not be opened. Origin (fermentation) was not read on a linked source." }
+  },
+  {
+    "id": "disodium-guanylate",
+    "name": { "en": "Disodium guanylate", "bn": "ডাইসোডিয়াম গুয়ানাইলেট" },
+    "commonNames": ["sodium 5'-guanylate", "sodium guanylate", "GMP"],
+    "labelNames": ["disodium guanylate", "disodium 5'-guanylate", "sodium 5'-guanylate", "sodium guanylate", "e627", "e 627", "ins 627", "flavour enhancer 627", "flavor enhancer 627", "ডাইসোডিয়াম গুয়ানাইলেট"],
+    "chemicalName": "Disodium guanosine-5'-monophosphate",
+    "eNumber": "E627",
+    "ins": "627",
+    "formula": "C10H12N5Na2O8P",
+    "category": "flavor-enhancers",
+    "origin": "fermentation",
+    "applications": ["instant-noodles", "chips-snacks", "sauces-condiments", "salt-seasonings"],
+    "summary": {
+      "en": "A nucleotide flavour enhancer for savoury foods. JECFA gave it no numeric limit; EFSA began re-evaluating the group in 2023.",
+      "bn": "নোনতা খাবারের নিউক্লিওটাইড স্বাদবর্ধক। JECFA সংখ্যাগত সীমা দেয়নি; EFSA ২০২৩ সালে এই গ্রুপের পুনর্মূল্যায়নের তথ্য আহ্বান করেছে।"
+    },
+    "whatIs": {
+      "en": "Disodium guanylate is the sodium salt of guanylic acid, a nucleotide. Nucleotides like this occur naturally in the tissues of living things.",
+      "bn": "ডাইসোডিয়াম গুয়ানাইলেট হলো গুয়ানাইলিক অ্যাসিডের সোডিয়াম লবণ, যা একটি নিউক্লিওটাইড। এ ধরনের নিউক্লিওটাইড জীবদেহের কোষে প্রাকৃতিকভাবেই থাকে।"
+    },
+    "whyUsed": {
+      "en": "It strengthens savoury flavour in seasonings, noodles and snacks.",
+      "bn": "মসলা, নুডলস ও স্ন্যাকসে নোনতা-মাংসল স্বাদ জোরালো করতে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "It acts as a flavour enhancer, intensifying the savoury taste of the food at low levels of use.",
+      "bn": "এটি স্বাদবর্ধক হিসেবে কাজ করে এবং কম মাত্রাতেই খাবারের নোনতা-মাংসল স্বাদ বাড়ায়।"
+    },
+    "properties": [
+      { "en": "nucleotide flavour enhancer", "bn": "নিউক্লিওটাইড-জাতীয় স্বাদবর্ধক" },
+      { "en": "JECFA ADI not specified", "bn": "JECFA-র ADI নির্দিষ্ট নয়" }
+    ],
+    "benefits": [
+      { "kind": "taste", "text": { "en": "Strengthens savoury taste at low levels of use.", "bn": "কম মাত্রায় নোনতা-মাংসল স্বাদ জোরালো করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "JECFA noted in 1974 that large amounts of these nucleotides can raise blood and urine uric acid in people, which it said needs considering for people with a tendency to gout and those on uric-acid-retaining diuretics. In early human observations 2 g a day did not raise blood uric acid above the normal range; a higher level did.",
+          "bn": "JECFA ১৯৭৪ সালে উল্লেখ করেছে, এই নিউক্লিওটাইড বেশি পরিমাণে খেলে মানুষের রক্ত ও প্রস্রাবে ইউরিক অ্যাসিড বাড়তে পারে; গেঁটেবাতের প্রবণতা আছে এমন মানুষ এবং ইউরিক অ্যাসিড ধরে রাখে এমন ডাইইউরেটিক গ্রহণকারীদের ক্ষেত্রে বিষয়টি বিবেচনার কথা বলেছে। প্রাথমিক মানব পর্যবেক্ষণে দিনে ২ গ্রাম রক্তের ইউরিক অ্যাসিড স্বাভাবিক সীমার ওপরে তোলেনি; এর বেশি মাত্রায় তুলেছে।"
+        },
+        "sourceIds": ["jecfa-1974"]
+      }
+    ],
+    "riskContext": {
+      "en": "JECFA judged that the change in purine intake from these enhancers is no greater than normal variation from foods that are the main purine sources. The caution concerns large amounts and specific groups, not ordinary use.",
+      "bn": "JECFA-র মতে, এই স্বাদবর্ধক থেকে পিউরিন গ্রহণের যে পরিবর্তন হয়, তা পিউরিনের প্রধান উৎস খাবারগুলোর স্বাভাবিক তারতম্যের চেয়ে বেশি নয়। সতর্কতাটি বেশি পরিমাণ ও নির্দিষ্ট গোষ্ঠীর জন্য, সাধারণ ব্যবহারের জন্য নয়।"
+    },
+    "statusLabels": ["approved-specific", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI 'not specified' (latest evaluation 1993).", "bn": "ADI ‘নির্দিষ্ট নয়’ (সর্বশেষ মূল্যায়ন ১৯৯৩)।" },
+        "adi": { "type": "not-specified", "note": { "en": "Group ADI for guanylic acid and its calcium, disodium and dipotassium salts.", "bn": "গুয়ানাইলিক অ্যাসিড এবং এর ক্যালসিয়াম, ডাইসোডিয়াম ও ডাইপটাশিয়াম লবণের গ্রুপ ADI।" } },
+        "date": "1993",
+        "sourceId": "jecfa-e627"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Under re-evaluation with E626-635: call for data opened June 2023. No finished opinion was found by November 2026.", "bn": "E626 থেকে E635 গ্রুপের সঙ্গে পুনর্মূল্যায়নাধীন: ২০২৩ সালের জুনে তথ্য আহ্বান করা হয়। ২০২৬ সালের নভেম্বর পর্যন্ত চূড়ান্ত মতামত পাওয়া যায়নি।" },
+        "date": "2023-06",
+        "sourceId": "efsa-call"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Permitted food additive, as a flavour enhancer in foods.", "bn": "অনুমোদিত খাদ্য সংযোজন, খাবারে স্বাদবর্ধক হিসেবে।" },
+        "conditions": { "en": "At a level not exceeding what is needed for the intended effect.", "bn": "উদ্দেশ্য পূরণে যতটুকু দরকার, তার বেশি নয়।" },
+        "date": "2025-04",
+        "sourceId": "cfr-172"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "jecfa-e627", "org": "JECFA (WHO database)", "title": "Disodium 5'-guanylate: JECFA evaluation entry", "year": 1993, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/822", "kind": "regulatory" },
+      { "id": "jecfa-1974", "org": "JECFA (WHO Food Additives Series 6)", "title": "Calcium and sodium-5'-ribonucleotides", "year": 1974, "url": "https://www.inchem.org/documents/jecfa/jecmono/v06je02.htm", "kind": "regulatory" },
+      { "id": "efsa-call", "org": "EFSA", "title": "Call for data for the re-evaluation of ribonucleotides (E 626-635) as food additives", "year": 2023, "url": "https://www.efsa.europa.eu/en/call/call-data-re-evaluation-ribonucleotides-e-626-635-food-additives", "kind": "regulatory" },
+      { "id": "cfr-172", "org": "US Code of Federal Regulations", "title": "21 CFR Part 172: Food additives permitted for direct addition to food for human consumption (April 1, 2025 edition), section 172.530", "year": 2025, "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol3/xml/CFR-2025-title21-vol3-part172.xml", "kind": "regulatory" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09", "notes": "Searches on 2026-11-09 found no finished EFSA opinion on E626-635; absence could not be proven. US status read in the 2025 CFR edition on govinfo because eCFR could not be opened. Origin (fermentation) was not read on a linked source." }
+  },
+  {
+    "id": "disodium-5-ribonucleotides",
+    "name": { "en": "Disodium 5'-ribonucleotides", "bn": "ডাইসোডিয়াম ৫'-রাইবোনিউক্লিওটাইড" },
+    "commonNames": ["sodium 5'-ribonucleotides", "sodium ribonucleotides", "I+G"],
+    "labelNames": ["disodium 5'-ribonucleotides", "disodium ribonucleotides", "sodium 5'-ribonucleotides", "sodium ribonucleotides", "e635", "e 635", "ins 635", "flavour enhancer 635", "flavor enhancer 635", "ডাইসোডিয়াম রাইবোনিউক্লিওটাইড"],
+    "chemicalName": "Mixture of disodium inosine-5'-monophosphate and disodium guanosine-5'-monophosphate",
+    "eNumber": "E635",
+    "ins": "635",
+    "category": "flavor-enhancers",
+    "origin": "fermentation",
+    "applications": ["instant-noodles", "chips-snacks", "sauces-condiments", "salt-seasonings"],
+    "summary": {
+      "en": "A blend of two nucleotide flavour enhancers, E627 and E631. JECFA gave it no numeric limit in 1974; EFSA is re-evaluating the group.",
+      "bn": "E627 ও E631 এই দুই নিউক্লিওটাইড স্বাদবর্ধকের মিশ্রণ। JECFA ১৯৭৪ সালে সংখ্যাগত সীমা দেয়নি; EFSA এই গ্রুপের পুনর্মূল্যায়ন করছে।"
+    },
+    "whatIs": {
+      "en": "This is a mixture of disodium inosinate and disodium guanylate. It is used as one flavour-enhancing ingredient rather than as two separate ones.",
+      "bn": "এটি ডাইসোডিয়াম ইনোসিনেট ও ডাইসোডিয়াম গুয়ানাইলেটের মিশ্রণ। দুটি আলাদা উপাদানের বদলে এটি একটি স্বাদবর্ধক হিসেবে ব্যবহৃত হয়।"
+    },
+    "whyUsed": {
+      "en": "It strengthens savoury flavour in seasonings, noodles and snacks.",
+      "bn": "মসলা, নুডলস ও স্ন্যাকসে নোনতা-মাংসল স্বাদ জোরালো করতে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "Both nucleotides intensify savoury taste, so a small amount of the blend has a noticeable effect.",
+      "bn": "দুটি নিউক্লিওটাইডই নোনতা-মাংসল স্বাদ বাড়ায়, তাই অল্প পরিমাণ মিশ্রণেই প্রভাব বোঝা যায়।"
+    },
+    "properties": [
+      { "en": "mixture of E627 and E631", "bn": "E627 ও E631-এর মিশ্রণ" },
+      { "en": "JECFA ADI not specified", "bn": "JECFA-র ADI নির্দিষ্ট নয়" }
+    ],
+    "benefits": [
+      { "kind": "taste", "text": { "en": "Strengthens savoury taste at low levels of use.", "bn": "কম মাত্রায় নোনতা-মাংসল স্বাদ জোরালো করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "JECFA noted in 1974 that large amounts of these nucleotides can raise blood and urine uric acid in people, which it said needs considering for people with a tendency to gout and those on uric-acid-retaining diuretics. In early human observations 2 g a day did not raise blood uric acid above the normal range; a higher level did.",
+          "bn": "JECFA ১৯৭৪ সালে উল্লেখ করেছে, এই নিউক্লিওটাইড বেশি পরিমাণে খেলে মানুষের রক্ত ও প্রস্রাবে ইউরিক অ্যাসিড বাড়তে পারে; গেঁটেবাতের প্রবণতা আছে এমন মানুষ এবং ইউরিক অ্যাসিড ধরে রাখে এমন ডাইইউরেটিক গ্রহণকারীদের ক্ষেত্রে বিষয়টি বিবেচনার কথা বলেছে। প্রাথমিক মানব পর্যবেক্ষণে দিনে ২ গ্রাম রক্তের ইউরিক অ্যাসিড স্বাভাবিক সীমার ওপরে তোলেনি; এর বেশি মাত্রায় তুলেছে।"
+        },
+        "sourceIds": ["jecfa-1974"]
+      }
+    ],
+    "riskContext": {
+      "en": "JECFA judged that the change in purine intake from these enhancers is no greater than normal variation from foods that are the main purine sources. The caution concerns large amounts and specific groups, not ordinary use.",
+      "bn": "JECFA-র মতে, এই স্বাদবর্ধক থেকে পিউরিন গ্রহণের যে পরিবর্তন হয়, তা পিউরিনের প্রধান উৎস খাবারগুলোর স্বাভাবিক তারতম্যের চেয়ে বেশি নয়। সতর্কতাটি বেশি পরিমাণ ও নির্দিষ্ট গোষ্ঠীর জন্য, সাধারণ ব্যবহারের জন্য নয়।"
+    },
+    "statusLabels": ["evidence-developing", "approved-specific"],
+    "regulatory": [
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI 'not specified' (latest evaluation 1974).", "bn": "ADI ‘নির্দিষ্ট নয়’ (সর্বশেষ মূল্যায়ন ১৯৭৪)।" },
+        "adi": { "type": "not-specified" },
+        "date": "1974",
+        "sourceId": "jecfa-e635"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Under re-evaluation with E626-635: call for data opened June 2023. No finished opinion was found by November 2026.", "bn": "E626 থেকে E635 গ্রুপের সঙ্গে পুনর্মূল্যায়নাধীন: ২০২৩ সালের জুনে তথ্য আহ্বান করা হয়। ২০২৬ সালের নভেম্বর পর্যন্ত চূড়ান্ত মতামত পাওয়া যায়নি।" },
+        "date": "2023-06",
+        "sourceId": "efsa-call"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "jecfa-e635", "org": "JECFA (WHO database)", "title": "Disodium 5'-ribonucleotides: JECFA evaluation entry", "year": 1974, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4140", "kind": "regulatory" },
+      { "id": "jecfa-1974", "org": "JECFA (WHO Food Additives Series 6)", "title": "Calcium and sodium-5'-ribonucleotides", "year": 1974, "url": "https://www.inchem.org/documents/jecfa/jecmono/v06je02.htm", "kind": "regulatory" },
+      { "id": "efsa-call", "org": "EFSA", "title": "Call for data for the re-evaluation of ribonucleotides (E 626-635) as food additives", "year": 2023, "url": "https://www.efsa.europa.eu/en/call/call-data-re-evaluation-ribonucleotides-e-626-635-food-additives", "kind": "regulatory" }
+    ],
+    "verification": { "status": "partial", "checkedOn": "2026-11-09", "notes": "US status of E635 as a mixture was not confirmed, and no US entry is given. The EU Annex II conditions for E635 could not be read because EUR-Lex returned no text; the statusLabel approved-specific rests on its listing in EFSA's re-evaluation call for permitted additives. Searches found no finished EFSA opinion on E626-635; absence could not be proven. Origin (fermentation) was not read on a linked source." }
+  },
+  {
+    "id": "yeast-extract",
+    "name": { "en": "Yeast extract", "bn": "ইস্ট এক্সট্রাক্ট" },
+    "commonNames": ["autolyzed yeast extract", "autolysed yeast extract", "bakers yeast extract"],
+    "labelNames": ["yeast extract", "autolyzed yeast extract", "autolysed yeast extract", "autolyzed yeast", "autolysed yeast", "hydrolyzed yeast", "hydrolysed yeast", "bakers yeast extract", "ইস্ট এক্সট্রাক্ট"],
+    "category": "flavor-enhancers",
+    "origin": "natural",
+    "originNote": {
+      "en": "Made from the soluble contents of broken-open yeast cells. Its natural source says nothing about safety in itself.",
+      "bn": "ভাঙা ইস্ট কোষের দ্রবণীয় অংশ থেকে তৈরি। প্রাকৃতিক উৎস হওয়া নিজে থেকে নিরাপত্তার প্রমাণ নয়।"
+    },
+    "applications": ["sauces-condiments", "salt-seasonings", "instant-noodles", "chips-snacks"],
+    "summary": {
+      "en": "A savoury food ingredient made from yeast. It is not a numbered food additive and has no E-number, but it naturally contains free glutamate.",
+      "bn": "ইস্ট থেকে তৈরি নোনতা স্বাদের খাদ্য উপাদান। এটি নম্বরযুক্ত সংযোজন নয়, E-নম্বরও নেই, তবে এতে প্রাকৃতিকভাবে মুক্ত গ্লুটামেট থাকে।"
+    },
+    "whatIs": {
+      "en": "Yeast extract is a food ingredient made by breaking open yeast cells and concentrating the soluble part. It is not a food additive in the numbered sense, so it has no E-number. It naturally contains free glutamate.",
+      "bn": "ইস্ট এক্সট্রাক্ট একটি খাদ্য উপাদান, যা ইস্ট কোষ ভেঙে দ্রবণীয় অংশ ঘন করে তৈরি হয়। এটি নম্বরযুক্ত খাদ্য সংযোজন নয়, তাই এর E-নম্বর নেই। এতে প্রাকৃতিকভাবে মুক্ত গ্লুটামেট থাকে।"
+    },
+    "whyUsed": {
+      "en": "It gives a meaty, savoury flavour to soups, sauces and snacks.",
+      "bn": "স্যুপ, সস ও স্ন্যাকসে মাংসল নোনতা স্বাদ দিতে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "Its free glutamate and other soluble yeast components add savoury taste to the food.",
+      "bn": "এর মুক্ত গ্লুটামেট ও ইস্টের অন্যান্য দ্রবণীয় উপাদান খাবারে নোনতা-মাংসল স্বাদ যোগ করে।"
+    },
+    "properties": [
+      { "en": "food ingredient, no E-number", "bn": "খাদ্য উপাদান, E-নম্বর নেই" },
+      { "en": "contains free glutamate naturally", "bn": "প্রাকৃতিকভাবে মুক্ত গ্লুটামেট থাকে" }
+    ],
+    "benefits": [
+      { "kind": "taste", "text": { "en": "Adds savoury flavour as an ingredient rather than as a numbered additive.", "bn": "নম্বরযুক্ত সংযোজন ছাড়াই উপাদান হিসেবে নোনতা-মাংসল স্বাদ যোগ করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "Because yeast extract contains free glutamate, people who believe they react to MSG may ask about it. The controlled MSG challenge studies tested MSG itself, not yeast extract, and no sourced evidence of harm specific to yeast extract was found.",
+          "bn": "ইস্ট এক্সট্রাক্টে মুক্ত গ্লুটামেট থাকায় যাঁরা মনে করেন এমএসজিতে প্রতিক্রিয়া হয়, তাঁরা এটি নিয়ে প্রশ্ন করতে পারেন। নিয়ন্ত্রিত পরীক্ষাগুলো এমএসজি নিয়ে করা, ইস্ট এক্সট্রাক্ট নিয়ে নয়, এবং ইস্ট এক্সট্রাক্টের নিজস্ব ক্ষতির কোনো সূত্রভিত্তিক প্রমাণ পাওয়া যায়নি।"
+        },
+        "sourceIds": ["fda-msg"]
+      }
+    ],
+    "riskContext": {
+      "en": "In US rules it is treated as a food ingredient. Free glutamate from yeast extract need not be declared as MSG, but foods containing it cannot claim 'No MSG' or 'No added MSG'. FDA cites a review describing short-term, mild symptoms in some sensitive people after 3 g or more of MSG without food.",
+      "bn": "যুক্তরাষ্ট্রের বিধিতে এটি খাদ্য উপাদান হিসেবে গণ্য। ইস্ট এক্সট্রাক্টের মুক্ত গ্লুটামেট এমএসজি হিসেবে ঘোষণা করতে হয় না, তবে এটি থাকলে ‘No MSG’ বা ‘No added MSG’ দাবি করা যায় না। FDA একটি পর্যালোচনার উল্লেখ করেছে, যাতে খাবার ছাড়া ৩ গ্রাম বা তার বেশি এমএসজি খাওয়ার পর কিছু সংবেদনশীল মানুষের স্বল্পস্থায়ী, মৃদু উপসর্গের কথা আছে।"
+    },
+    "statusLabels": ["gras-conditions"],
+    "regulatory": [
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Bakers yeast extract affirmed as GRAS as a flavouring agent and adjuvant.", "bn": "বেকার্স ইস্ট এক্সট্রাক্ট ফ্লেভারিং ও সহায়ক হিসেবে GRAS বলে স্বীকৃত।" },
+        "limits": { "en": "Not to exceed 5 percent in food.", "bn": "খাবারে ৫ শতাংশের বেশি নয়।" },
+        "date": "2025-04",
+        "sourceId": "cfr-184"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Labels need not state that it naturally contains glutamate; 'No MSG' claims are not allowed.", "bn": "প্রাকৃতিকভাবে গ্লুটামেট থাকার কথা লেবেলে লিখতে হয় না; ‘No MSG’ দাবি করা যায় না।" },
+        "date": "2026-07",
+        "sourceId": "fda-msg"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "cfr-184", "org": "US Code of Federal Regulations", "title": "21 CFR Part 184: Direct food substances affirmed as generally recognized as safe (April 1, 2025 edition), section 184.1983", "year": 2025, "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol3/xml/CFR-2025-title21-vol3-part184.xml", "kind": "regulatory" },
+      { "id": "fda-msg", "org": "US FDA", "title": "Questions and Answers on Monosodium glutamate (MSG)", "year": 2026, "url": "https://www.fda.gov/food/food-additives-petitions/questions-and-answers-monosodium-glutamate-msg", "kind": "agency-guidance" }
+    ],
+    "verification": { "status": "partial", "checkedOn": "2026-11-09", "notes": "Only US sources were confirmed. The EU classification of yeast extract as a food ingredient rather than an additive could not be read on an official page. The 5 percent limit applies to the US entry for bakers yeast extract, not necessarily to every yeast extract. No figure for its glutamate content was confirmed." }
+  },
+  {
+    "id": "vanillin",
+    "name": { "en": "Vanillin", "bn": "ভ্যানিলিন" },
+    "commonNames": ["vanilla flavouring", "synthetic vanillin"],
+    "labelNames": ["vanillin", "ভ্যানিলিন"],
+    "chemicalName": "4-Hydroxy-3-methoxybenzaldehyde",
+    "formula": "C8H8O3",
+    "category": "artificial-flavors",
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "Vanillin occurs naturally in vanilla, but a 2024 review puts synthetic vanillin at about 88% of the world market and vanilla pods at about 1.5%. The molecule is the same either way, and its source does not bear on safety.",
+      "bn": "ভ্যানিলিন ভ্যানিলায় প্রাকৃতিকভাবে থাকে, তবে ২০২৪ সালের একটি পর্যালোচনা অনুযায়ী বিশ্ববাজারের প্রায় ৮৮% কৃত্রিমভাবে তৈরি এবং ভ্যানিলা শুঁটি থেকে আসে প্রায় ১.৫%। অণুটি দুই ক্ষেত্রেই একই, এবং উৎস নিরাপত্তার প্রশ্নে কোনো প্রভাব ফেলে না।"
+    },
+    "applications": ["chocolate-confectionery", "biscuits", "frozen-desserts", "dairy", "bread-bakery"],
+    "summary": {
+      "en": "The main flavour molecule of vanilla, mostly made by synthesis. JECFA found no safety concern at current intakes as a flavouring.",
+      "bn": "ভ্যানিলার প্রধান স্বাদ-অণু, যার বেশিরভাগই কৃত্রিমভাবে তৈরি। JECFA ফ্লেভারিং হিসেবে বর্তমান গ্রহণমাত্রায় নিরাপত্তা-উদ্বেগ পায়নি।"
+    },
+    "whatIs": {
+      "en": "Vanillin is the molecule that gives vanilla much of its smell and taste. It occurs naturally in vanilla, but most vanillin sold today is made by synthesis.",
+      "bn": "ভ্যানিলিন হলো সেই অণু, যা ভ্যানিলাকে এর ঘ্রাণ ও স্বাদের বড় অংশ দেয়। এটি ভ্যানিলায় প্রাকৃতিকভাবে থাকে, তবে আজকের বাজারের বেশিরভাগ ভ্যানিলিন কৃত্রিমভাবে তৈরি।"
+    },
+    "whyUsed": {
+      "en": "It gives a vanilla flavour to sweets, baked goods and desserts at far lower cost than vanilla pods.",
+      "bn": "মিষ্টি, বেকড খাবার ও ডেজার্টে ভ্যানিলার স্বাদ দিতে এটি ব্যবহার হয়, ভ্যানিলা শুঁটির তুলনায় খরচ অনেক কম।"
+    },
+    "howItWorks": {
+      "en": "It is detected by smell and taste as vanilla. Very small amounts are enough to flavour a food.",
+      "bn": "ঘ্রাণ ও স্বাদে এটি ভ্যানিলা হিসেবে ধরা পড়ে। খুব অল্প পরিমাণেই খাবারে স্বাদ আসে।"
+    },
+    "properties": [
+      { "en": "main flavour molecule of vanilla", "bn": "ভ্যানিলার প্রধান স্বাদ-অণু" },
+      { "en": "JECFA ADI 0-10 mg/kg bw (1967, kept in 2001)", "bn": "JECFA-র ADI ০-১০ মিগ্রা/কেজি দেহওজন (১৯৬৭, ২০০১ সালে বহাল)" }
+    ],
+    "benefits": [
+      { "kind": "taste", "text": { "en": "Provides a reliable vanilla flavour in small amounts.", "bn": "অল্প পরিমাণে নির্ভরযোগ্য ভ্যানিলা স্বাদ দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "Sources reviewed name no specific concern at flavouring levels. EFSA describes this group of substances as converted to innocuous metabolites. Conclusions apply to current flavouring use, and JECFA's latest review, in 2019, covered specifications only.",
+          "bn": "পর্যালোচিত সূত্রগুলোতে ফ্লেভারিং মাত্রায় নির্দিষ্ট কোনো উদ্বেগের উল্লেখ নেই। EFSA বলছে, এই গ্রুপের পদার্থগুলো নিরীহ বিপাকজাত পদার্থে রূপান্তরিত হয়। সিদ্ধান্তগুলো বর্তমান ফ্লেভারিং ব্যবহারের জন্য, এবং JECFA-র সর্বশেষ ২০১৯ সালের পর্যালোচনা শুধু স্পেসিফিকেশন নিয়ে ছিল।"
+        },
+        "sourceIds": ["efsa-fge414", "jecfa-vanillin"]
+      }
+    ],
+    "riskContext": {
+      "en": "Safety conclusions for vanillin are tied to the small amounts used in flavouring. Natural and synthesised vanillin are the same molecule, so being made by synthesis does not change the assessment.",
+      "bn": "ভ্যানিলিনের নিরাপত্তা-সিদ্ধান্ত ফ্লেভারিংয়ে ব্যবহৃত অল্প পরিমাণের সঙ্গে সম্পর্কিত। প্রাকৃতিক ও কৃত্রিম ভ্যানিলিন একই অণু, তাই কৃত্রিমভাবে তৈরি হওয়ায় মূল্যায়ন বদলায় না।"
+    },
+    "statusLabels": ["gras-conditions", "within-limits"],
+    "regulatory": [
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "No safety concern at current intakes as a flavouring; 2019 review was for specifications only.", "bn": "ফ্লেভারিং হিসেবে বর্তমান গ্রহণমাত্রায় নিরাপত্তা-উদ্বেগ নেই; ২০১৯ সালের পর্যালোচনা শুধু স্পেসিফিকেশনের জন্য।" },
+        "date": "2019",
+        "sourceId": "jecfa-vanillin"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI first set in 1967 and maintained in 2001.", "bn": "ADI প্রথম ১৯৬৭ সালে নির্ধারিত, ২০০১ সালে বহাল।" },
+        "adi": { "type": "numeric", "value": 10, "unit": "mg/kg bw/day", "note": { "en": "Stated by JECFA as 0-10 mg/kg bw.", "bn": "JECFA-র ভাষায় ০-১০ মিগ্রা/কেজি দেহওজন।" } },
+        "date": "2001",
+        "sourceId": "jecfa-vanillin"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Evaluated as a flavouring substance in FGE.52 (FL-no 05.018).", "bn": "ফ্লেভারিং পদার্থ হিসেবে FGE.৫২-তে মূল্যায়িত (FL-no ০৫.০১৮)।" },
+        "date": "2021",
+        "sourceId": "efsa-fge414"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Listed among GRAS synthetic flavouring substances.", "bn": "GRAS কৃত্রিম ফ্লেভারিং পদার্থের তালিকাভুক্ত।" },
+        "date": "2025-04",
+        "sourceId": "cfr-182"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "jecfa-vanillin", "org": "JECFA (WHO database)", "title": "Vanillin: JECFA evaluation entry", "year": 2019, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=2599", "kind": "regulatory" },
+      { "id": "efsa-fge414", "org": "EFSA FAF Panel", "title": "Scientific opinion on flavouring group evaluation 414 (FGE.414): 2-hydroxy-4-methoxybenzaldehyde", "year": 2021, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8585641/", "kind": "regulatory" },
+      { "id": "cfr-182", "org": "US Code of Federal Regulations", "title": "21 CFR Part 182: Substances generally recognized as safe (April 1, 2025 edition), section 182.60", "year": 2025, "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol3/xml/CFR-2025-title21-vol3-part182.xml", "kind": "regulatory" },
+      { "id": "darrigo-2024", "org": "Molecules", "title": "From Waste to Value: Recent Insights into Producing Vanillin from Lignin", "year": 2024, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10818928/", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "partial", "checkedOn": "2026-11-09", "notes": "The EU Union list row for vanillin (Regulation 1334/2008, FL 05.018) could not be read because EUR-Lex returned no text, so no EU authorisation claim is made; the EFSA entry rests on the mention of FGE.52 in EFSA's FGE.414. The market shares in originNote come from one 2024 review (darrigo-2024)." }
+  },
+  {
+    "id": "ethyl-vanillin",
+    "name": { "en": "Ethyl vanillin", "bn": "ইথাইল ভ্যানিলিন" },
+    "commonNames": ["bourbonal", "ethylvanillin"],
+    "labelNames": ["ethyl vanillin", "ethylvanillin", "bourbonal", "ইথাইল ভ্যানিলিন"],
+    "chemicalName": "3-Ethoxy-4-hydroxybenzaldehyde",
+    "formula": "C9H10O3",
+    "category": "artificial-flavors",
+    "origin": "synthetic",
+    "originNote": {
+      "en": "Made by synthesis. That does not by itself indicate safety or harm.",
+      "bn": "কৃত্রিমভাবে তৈরি। এটি নিজে থেকে নিরাপত্তা বা ক্ষতি কোনোটিরই ইঙ্গিত নয়।"
+    },
+    "applications": ["chocolate-confectionery", "biscuits", "frozen-desserts", "dairy", "bread-bakery"],
+    "summary": {
+      "en": "A vanilla-type flavouring related to vanillin. JECFA found no safety concern at current intakes as a flavouring and earlier set an ADI of 0-3 mg/kg.",
+      "bn": "ভ্যানিলিনের সমগোত্রীয় ভ্যানিলা-জাতীয় ফ্লেভারিং। JECFA বর্তমান গ্রহণমাত্রায় নিরাপত্তা-উদ্বেগ পায়নি; আগে ADI দিয়েছিল ০-৩ মিগ্রা/কেজি।"
+    },
+    "whatIs": {
+      "en": "Ethyl vanillin is a flavouring substance closely related in structure to vanillin. It is used to give a vanilla-like flavour.",
+      "bn": "ইথাইল ভ্যানিলিন গঠনে ভ্যানিলিনের খুব কাছাকাছি একটি ফ্লেভারিং পদার্থ। ভ্যানিলার মতো স্বাদ দিতে এটি ব্যবহার হয়।"
+    },
+    "whyUsed": {
+      "en": "It gives a vanilla-type flavour to sweets, baked goods and desserts.",
+      "bn": "মিষ্টি, বেকড খাবার ও ডেজার্টে ভ্যানিলা-ধরনের স্বাদ দিতে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "It is detected by smell and taste as vanilla-like, and small amounts are enough to flavour a food.",
+      "bn": "ঘ্রাণ ও স্বাদে এটি ভ্যানিলার মতো ধরা পড়ে, এবং অল্প পরিমাণেই খাবারে স্বাদ আসে।"
+    },
+    "properties": [
+      { "en": "vanilla-like flavouring", "bn": "ভ্যানিলার মতো ফ্লেভারিং" },
+      { "en": "JECFA ADI 0-3 mg/kg bw (1995, kept in 2001)", "bn": "JECFA-র ADI ০-৩ মিগ্রা/কেজি দেহওজন (১৯৯৫, ২০০১ সালে বহাল)" }
+    ],
+    "benefits": [
+      { "kind": "taste", "text": { "en": "Gives a vanilla-type flavour in small amounts.", "bn": "অল্প পরিমাণে ভ্যানিলা-ধরনের স্বাদ দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "Sources reviewed name no specific concern at flavouring levels. Conclusions apply to current flavouring use, and JECFA's latest review, in 2019, covered specifications only.",
+          "bn": "পর্যালোচিত সূত্রগুলোতে ফ্লেভারিং মাত্রায় নির্দিষ্ট কোনো উদ্বেগের উল্লেখ নেই। সিদ্ধান্তগুলো বর্তমান ফ্লেভারিং ব্যবহারের জন্য, এবং JECFA-র সর্বশেষ ২০১৯ সালের পর্যালোচনা শুধু স্পেসিফিকেশন নিয়ে ছিল।"
+        },
+        "sourceIds": ["jecfa-ethyl-vanillin"]
+      }
+    ],
+    "riskContext": {
+      "en": "JECFA's conclusions refer to its use in flavouring. JECFA's monograph reports a no-effect level of 500 mg/kg/day in a 14-week rat study, hundreds of times higher than estimated human intake from flavouring use.",
+      "bn": "JECFA-র সিদ্ধান্তগুলো ফ্লেভারিং ব্যবহারের ক্ষেত্রে। JECFA-র মনোগ্রাফ অনুযায়ী, ইঁদুরের ১৪ সপ্তাহের গবেষণায় প্রভাবহীন মাত্রা ছিল ৫০০ মিগ্রা/কেজি/দিন, যা ফ্লেভারিং থেকে মানুষের আনুমানিক গ্রহণের চেয়ে কয়েকশ গুণ বেশি।"
+    },
+    "statusLabels": ["gras-conditions", "within-limits"],
+    "regulatory": [
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "No safety concern at current intakes as a flavouring; 2019 review was for specifications only.", "bn": "ফ্লেভারিং হিসেবে বর্তমান গ্রহণমাত্রায় নিরাপত্তা-উদ্বেগ নেই; ২০১৯ সালের পর্যালোচনা শুধু স্পেসিফিকেশনের জন্য।" },
+        "date": "2019",
+        "sourceId": "jecfa-ethyl-vanillin"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI set in 1995 and maintained in 2001.", "bn": "ADI ১৯৯৫ সালে নির্ধারিত, ২০০১ সালে বহাল।" },
+        "adi": { "type": "numeric", "value": 3, "unit": "mg/kg bw/day", "note": { "en": "Stated by JECFA as 0-3 mg/kg bw.", "bn": "JECFA-র ভাষায় ০-৩ মিগ্রা/কেজি দেহওজন।" } },
+        "date": "2001",
+        "sourceId": "jecfa-ethyl-vanillin"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Listed among GRAS synthetic flavouring substances.", "bn": "GRAS কৃত্রিম ফ্লেভারিং পদার্থের তালিকাভুক্ত।" },
+        "date": "2025-04",
+        "sourceId": "cfr-182"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Evaluated as a flavouring substance in FGE.52 (FL-no 05.019).", "bn": "ফ্লেভারিং পদার্থ হিসেবে FGE.৫২-তে মূল্যায়িত (FL-no ০৫.০১৯)।" },
+        "date": "2021",
+        "sourceId": "efsa-fge414"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "jecfa-ethyl-vanillin", "org": "JECFA (WHO database)", "title": "Ethyl vanillin: JECFA evaluation entry", "year": 2019, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2502", "kind": "regulatory" },
+      { "id": "jecfa-fas48", "org": "JECFA (WHO Food Additives Series 48)", "title": "Hydroxy- and alkoxy-substituted benzyl derivatives", "year": 2001, "url": "https://www.inchem.org/documents/jecfa/jecmono/v48je15.htm", "kind": "regulatory" },
+      { "id": "efsa-fge414", "org": "EFSA FAF Panel", "title": "Scientific opinion on flavouring group evaluation 414 (FGE.414): 2-hydroxy-4-methoxybenzaldehyde", "year": 2021, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8585641/", "kind": "regulatory" },
+      { "id": "cfr-182", "org": "US Code of Federal Regulations", "title": "21 CFR Part 182: Substances generally recognized as safe (April 1, 2025 edition), section 182.60", "year": 2025, "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol3/xml/CFR-2025-title21-vol3-part182.xml", "kind": "regulatory" }
+    ],
+    "verification": { "status": "partial", "checkedOn": "2026-11-09", "notes": "The EU Union list row for ethyl vanillin (FL 05.019) could not be read because EUR-Lex returned no text, so no EU authorisation claim is made. The rat no-effect comparison in riskContext comes from jecfa-fas48; that reference uses the 2001 evaluation year given by the WHO database because the page shows no publication year. Origin (synthetic) was not read on a linked source." }
+  },
+  {
+    "id": "ethyl-maltol",
+    "name": { "en": "Ethyl maltol", "bn": "ইথাইল মলটল" },
+    "commonNames": ["2-ethyl pyromeconic acid"],
+    "labelNames": ["ethyl maltol", "ethylmaltol", "e637", "e 637", "ins 637", "ইথাইল মলটল"],
+    "chemicalName": "2-Ethyl-3-hydroxy-4H-pyran-4-one",
+    "ins": "637",
+    "formula": "C7H8O3",
+    "category": "artificial-flavors",
+    "alsoIn": ["flavor-enhancers"],
+    "origin": "synthetic",
+    "originNote": {
+      "en": "Made by synthesis. That does not by itself indicate safety or harm.",
+      "bn": "কৃত্রিমভাবে তৈরি। এটি নিজে থেকে নিরাপত্তা বা ক্ষতি কোনোটিরই ইঙ্গিত নয়।"
+    },
+    "applications": ["chocolate-confectionery", "biscuits", "soft-drinks", "frozen-desserts"],
+    "summary": {
+      "en": "A sweet, caramel-type flavouring with INS number 637. JECFA keeps an ADI of 0-2 mg/kg. Its current EU listing could not be confirmed here.",
+      "bn": "মিষ্টি, ক্যারামেল-ধরনের ফ্লেভারিং, যার INS নম্বর ৬৩৭। JECFA ০-২ মিগ্রা/কেজি ADI বহাল রেখেছে। বর্তমান EU তালিকাভুক্তি এখানে নিশ্চিত করা যায়নি।"
+    },
+    "whatIs": {
+      "en": "Ethyl maltol is a flavouring substance with a sweet, caramel-like character. JECFA classes it as a flavouring agent and flavour enhancer.",
+      "bn": "ইথাইল মলটল মিষ্টি, ক্যারামেলের মতো স্বাদের একটি ফ্লেভারিং পদার্থ। JECFA একে ফ্লেভারিং এজেন্ট ও স্বাদবর্ধক হিসেবে শ্রেণিভুক্ত করেছে।"
+    },
+    "whyUsed": {
+      "en": "It adds or rounds out sweet, caramel-type notes in confectionery, drinks and desserts.",
+      "bn": "মিষ্টান্ন, পানীয় ও ডেজার্টে মিষ্টি, ক্যারামেল-ধরনের স্বাদ যোগ বা পূর্ণ করতে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "It is detected by smell and taste as sweet and caramel-like, and it strengthens similar flavours already present.",
+      "bn": "ঘ্রাণ ও স্বাদে এটি মিষ্টি ও ক্যারামেলের মতো ধরা পড়ে এবং খাবারে থাকা একই ধরনের স্বাদকে জোরালো করে।"
+    },
+    "properties": [
+      { "en": "sweet, caramel-type flavouring", "bn": "মিষ্টি, ক্যারামেল-ধরনের ফ্লেভারিং" },
+      { "en": "JECFA ADI 0-2 mg/kg bw (1974, kept in 2005)", "bn": "JECFA-র ADI ০-২ মিগ্রা/কেজি দেহওজন (১৯৭৪, ২০০৫ সালে বহাল)" }
+    ],
+    "benefits": [
+      { "kind": "taste", "text": { "en": "Adds sweet, caramel-type notes in small amounts.", "bn": "অল্প পরিমাণে মিষ্টি, ক্যারামেল-ধরনের স্বাদ যোগ করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "Sources reviewed name no specific concern at flavouring levels. The ADI dates from 1974 and was maintained in 2005, and only limited detail on its basis was reviewed here.",
+          "bn": "পর্যালোচিত সূত্রগুলোতে ফ্লেভারিং মাত্রায় নির্দিষ্ট কোনো উদ্বেগের উল্লেখ নেই। ADI ১৯৭৪ সালের, ২০০৫ সালে বহাল রাখা হয়েছে; এর ভিত্তি সম্পর্কে এখানে সীমিত তথ্যই পর্যালোচনা করা গেছে।"
+        },
+        "sourceIds": ["jecfa-ethyl-maltol"]
+      }
+    ],
+    "riskContext": {
+      "en": "An ADI is an intake considered safe every day for a lifetime. Flavourings are used in small amounts, but no intake estimate for ethyl maltol was confirmed here to compare with its ADI.",
+      "bn": "ADI হলো এমন গ্রহণমাত্রা, যা সারাজীবন প্রতিদিন নিরাপদ ধরা হয়। ফ্লেভারিং অল্প পরিমাণে ব্যবহৃত হয়, তবে ইথাইল মলটলের গ্রহণের কোনো হিসাব এখানে নিশ্চিত হয়নি, যা ADI-র সঙ্গে তুলনা করা যায়।"
+    },
+    "statusLabels": ["within-limits", "approved-specific"],
+    "regulatory": [
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI set in 1974 and maintained at the 2005 evaluation.", "bn": "ADI ১৯৭৪ সালে নির্ধারিত, ২০০৫ সালের মূল্যায়নে বহাল।" },
+        "adi": { "type": "numeric", "value": 2, "unit": "mg/kg bw/day", "note": { "en": "Stated by JECFA as 0-2 mg/kg bw.", "bn": "JECFA-র ভাষায় ০-২ মিগ্রা/কেজি দেহওজন।" } },
+        "date": "2005",
+        "sourceId": "jecfa-ethyl-maltol"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Listed among permitted synthetic flavouring substances and adjuvants.", "bn": "অনুমোদিত কৃত্রিম ফ্লেভারিং পদার্থ ও সহায়কের তালিকাভুক্ত।" },
+        "date": "2025-04",
+        "sourceId": "cfr-172"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "jecfa-ethyl-maltol", "org": "JECFA (IPCS INCHEM)", "title": "JECFA Evaluations: Ethyl maltol", "year": 2005, "url": "https://inchem.org/documents/jecfa/jeceval/jec_781.htm", "kind": "regulatory" },
+      { "id": "cfr-172", "org": "US Code of Federal Regulations", "title": "21 CFR Part 172: Food additives permitted for direct addition to food for human consumption (April 1, 2025 edition), section 172.515", "year": 2025, "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol3/xml/CFR-2025-title21-vol3-part172.xml", "kind": "regulatory" }
+    ],
+    "verification": { "status": "partial", "checkedOn": "2026-11-09", "notes": "EU status not confirmed: EUR-Lex returned no text, so neither the Union list row (Regulation 1334/2008, FL 07.047) nor the absence or presence of E 637 in Annex II to Regulation 1333/2008 could be read. eNumber is therefore omitted, while e637 stays in labelNames because that spelling appears on some non-EU lists. EFSA's FGE.83Rev1 (2010) covers ethyl maltol but its full text could not be opened, so its conclusion is not stated. Origin (synthetic) was not read on a linked source." }
+  },
+  {
+    "id": "citric-acid",
+    "name": { "en": "Citric acid", "bn": "সাইট্রিক অ্যাসিড" },
+    "commonNames": ["lemon acid"],
+    "labelNames": ["citric acid", "citric acid anhydrous", "citric acid monohydrate", "e330", "e 330", "ins 330", "acidity regulator 330", "সাইট্রিক অ্যাসিড"],
+    "chemicalName": "2-Hydroxypropane-1,2,3-tricarboxylic acid",
+    "eNumber": "E330",
+    "ins": "330",
+    "formula": "C6H8O7",
+    "category": "acidity-regulators",
+    "alsoIn": ["antioxidants"],
+    "origin": "fermentation",
+    "originNote": {
+      "en": "US rules describe recovery from juices such as lemon or pineapple, and mycological fermentation; the additive is mostly made by fermentation. Being made by fermentation says nothing about safety.",
+      "bn": "যুক্তরাষ্ট্রের বিধিতে লেবু বা আনারসের রস থেকে আহরণ এবং ছত্রাক-গাঁজন, দুটিরই উল্লেখ আছে; সংযোজনটি মূলত গাঁজনে তৈরি। গাঁজনে তৈরি হওয়া নিরাপত্তা সম্পর্কে কিছু বলে না।"
+    },
+    "applications": ["soft-drinks", "juices", "jams-spreads", "chocolate-confectionery", "sauces-condiments", "canned-foods"],
+    "summary": {
+      "en": "A common acid that gives sharpness and controls acidity. JECFA set no numeric limit and the US allows it under good manufacturing practice.",
+      "bn": "টক স্বাদ দেয় ও অম্লতা নিয়ন্ত্রণ করে এমন পরিচিত অ্যাসিড। JECFA সংখ্যাগত সীমা দেয়নি; যুক্তরাষ্ট্রে উত্তম উৎপাদন-পদ্ধতিতে অনুমোদিত।"
+    },
+    "whatIs": {
+      "en": "Citric acid is the acid that makes lemons and limes taste sharp. The form added to food is usually produced by fermentation.",
+      "bn": "সাইট্রিক অ্যাসিডের কারণেই লেবু টক লাগে। খাবারে যোগ করা অংশটি সাধারণত গাঁজনের মাধ্যমে তৈরি হয়।"
+    },
+    "whyUsed": {
+      "en": "It adds a sharp taste, adjusts acidity and helps keep drinks, jams and sweets stable.",
+      "bn": "টক স্বাদ যোগ করতে, অম্লতা ঠিক রাখতে এবং পানীয়, জ্যাম ও মিষ্টান্নের মান ধরে রাখতে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "It lowers the pH of a food and can bind metal ions that would otherwise affect colour or flavour.",
+      "bn": "এটি খাবারের পিএইচ কমায় এবং এমন ধাতব আয়ন আটকে রাখতে পারে, যা না হলে রং বা স্বাদ বদলে দিত।"
+    },
+    "properties": [
+      { "en": "sour taste, lowers pH", "bn": "টক স্বাদ, পিএইচ কমায়" },
+      { "en": "JECFA ADI 'not limited'", "bn": "JECFA-র ADI ‘সীমিত নয়’" }
+    ],
+    "benefits": [
+      { "kind": "taste", "text": { "en": "Gives sharpness to drinks and sweets.", "bn": "পানীয় ও মিষ্টান্নে টক স্বাদ দেয়।" } },
+      { "kind": "preservation", "text": { "en": "Lowering acidity helps keep some foods stable.", "bn": "পিএইচ কমিয়ে কিছু খাবারের মান ধরে রাখতে সাহায্য করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "side-effect",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "A 2012 meta-analysis of observational studies linked soft drinks with dental erosion, which the authors attributed to low pH and high titratable acidity. It studied drinks, not citric acid alone.",
+          "bn": "পর্যবেক্ষণমূলক গবেষণার ২০১২ সালের একটি মেটা-অ্যানালাইসিসে কোমল পানীয়ের সঙ্গে দাঁতের ক্ষয়ের সম্পর্ক পাওয়া গেছে; লেখকেরা এর কারণ হিসেবে কম পিএইচ ও বেশি টাইট্রেটেবল অম্লতার কথা বলেছেন। গবেষণাটি পানীয় নিয়ে, শুধু সাইট্রিক অ্যাসিড নিয়ে নয়।"
+        },
+        "sourceIds": ["li-2012"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "human",
+        "strength": "preliminary",
+        "text": {
+          "en": "A 2018 report of four patients suggested inflammatory reactions to manufactured citric acid. Case reports cannot show cause, and this has not been confirmed by a regulator in the sources reviewed. EFSA said in 2021 that its re-evaluation of citric acid had not started.",
+          "bn": "২০১৮ সালের চারজন রোগীর একটি প্রতিবেদনে শিল্পজাত সাইট্রিক অ্যাসিডে প্রদাহজনিত প্রতিক্রিয়ার ইঙ্গিত দেওয়া হয়। কেস রিপোর্ট দিয়ে কারণ প্রমাণ করা যায় না, এবং পর্যালোচিত সূত্রে কোনো নিয়ন্ত্রক সংস্থা এটি নিশ্চিত করেনি। EFSA ২০২১ সালে জানিয়েছে, সাইট্রিক অ্যাসিডের পুনর্মূল্যায়ন তখনো শুরু হয়নি।"
+        },
+        "sourceIds": ["sweis-2018", "efsa-faf-2021"]
+      }
+    ],
+    "riskContext": {
+      "en": "Citric acid is part of normal metabolism, and JECFA placed emphasis on those well-established pathways. The practical point is acidity on teeth with frequent acidic drinks, and that depends on the whole drink and how often it is drunk.",
+      "bn": "সাইট্রিক অ্যাসিড স্বাভাবিক বিপাকের অংশ, এবং JECFA এই সুপ্রতিষ্ঠিত বিপাকপথের ওপর গুরুত্ব দিয়েছে। বাস্তব বিষয়টি হলো ঘন ঘন অম্লীয় পানীয়ে দাঁতের ওপর অম্লতার প্রভাব, যা পুরো পানীয় ও কতবার খাওয়া হয় তার ওপর নির্ভর করে।"
+    },
+    "statusLabels": ["gras-conditions", "approved-specific"],
+    "regulatory": [
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI 'not limited', from the 1973 evaluation; the 2014 review was for specifications only.", "bn": "ADI ‘সীমিত নয়’, ১৯৭৩ সালের মূল্যায়ন থেকে; ২০১৪ সালের পর্যালোচনা শুধু স্পেসিফিকেশনের জন্য।" },
+        "adi": { "type": "not-specified", "note": { "en": "JECFA records this as 'not limited'; there is no numerical ADI.", "bn": "JECFA এটিকে ‘সীমিত নয়’ লিখেছে; সংখ্যাগত ADI নেই।" } },
+        "date": "2014",
+        "sourceId": "jecfa-citric"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Affirmed as GRAS.", "bn": "GRAS বলে স্বীকৃত।" },
+        "limits": { "en": "No limit other than current good manufacturing practice.", "bn": "বর্তমান উত্তম উৎপাদন-পদ্ধতি ছাড়া অন্য কোনো সীমা নেই।" },
+        "date": "2025-04",
+        "sourceId": "cfr-184"
+      },
+      {
+        "authority": "European Commission",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Listed in Annex II to Regulation 1333/2008 at quantum satis in extracts seen.", "bn": "দেখা অংশে রেগুলেশন ১৩৩৩/২০০৮-এর পরিশিষ্ট II-তে কোয়ান্টাম স্যাটিস হিসেবে তালিকাভুক্ত।" },
+        "date": "2022-10",
+        "sourceId": "eu-1333"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "In 2021 EFSA said its re-evaluation of citric acid and citrates had not started. No finished opinion was found by November 2026.", "bn": "২০২১ সালে EFSA জানায়, সাইট্রিক অ্যাসিড ও সাইট্রেটের পুনর্মূল্যায়ন শুরু হয়নি। ২০২৬ সালের নভেম্বর পর্যন্ত চূড়ান্ত মতামত পাওয়া যায়নি।" },
+        "date": "2021",
+        "sourceId": "efsa-faf-2021"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "jecfa-citric", "org": "JECFA (WHO database)", "title": "Citric acid: JECFA evaluation entry", "year": 2014, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=3594", "kind": "regulatory" },
+      { "id": "cfr-184", "org": "US Code of Federal Regulations", "title": "21 CFR Part 184: Direct food substances affirmed as generally recognized as safe (April 1, 2025 edition), section 184.1033", "year": 2025, "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol3/xml/CFR-2025-title21-vol3-part184.xml", "kind": "regulatory" },
+      { "id": "eu-1333", "org": "European Union", "title": "Regulation (EC) No 1333/2008 on food additives, consolidated version of 31 October 2022", "year": 2022, "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/2022-10-31/eng", "kind": "regulatory" },
+      { "id": "efsa-faf-2021", "org": "EFSA FAF Panel", "title": "Minutes of the 24th plenary meeting of the Panel on Food Additives and Flavourings", "year": 2021, "url": "https://www.efsa.europa.eu/sites/default/files/2021-10/24th-plenary-meeting-faf-panel-proposed-be-open-observers-minutes.pdf", "kind": "regulatory" },
+      { "id": "li-2012", "org": "PLoS One", "title": "Dietary Factors Associated with Dental Erosion: A Meta-Analysis", "year": 2012, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3432030/", "kind": "peer-reviewed" },
+      { "id": "sweis-2018", "org": "Toxicology Reports", "title": "Potential role of the common food additive manufactured citric acid in eliciting significant inflammatory reactions contributing to serious disease states: A series of four case reports", "year": 2018, "url": "https://pubmed.ncbi.nlm.nih.gov/30128297/", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "partial", "checkedOn": "2026-11-09", "notes": "The EU Annex II listing was seen only in search extracts; EUR-Lex returned no text when opened, so food-category conditions are not given. Searches found no finished EFSA opinion on citric acid; absence could not be proven." }
+  },
+  {
+    "id": "phosphoric-acid",
+    "name": { "en": "Phosphoric acid", "bn": "ফসফরিক অ্যাসিড" },
+    "commonNames": ["orthophosphoric acid"],
+    "labelNames": ["phosphoric acid", "orthophosphoric acid", "e338", "e 338", "ins 338", "acidity regulator 338", "ফসফরিক অ্যাসিড"],
+    "chemicalName": "Orthophosphoric acid",
+    "eNumber": "E338",
+    "ins": "338",
+    "formula": "H3PO4",
+    "category": "acidity-regulators",
+    "origin": "natural-derived",
+    "applications": ["soft-drinks"],
+    "summary": {
+      "en": "A strong food acid that adds phosphorus to the diet. EFSA's 2019 group ADI is 40 mg/kg as phosphorus and does not apply to moderate to severe kidney disease.",
+      "bn": "খাবারে ফসফরাস যোগ করা শক্তিশালী অ্যাসিড। EFSA-র ২০১৯ সালের গ্রুপ ADI ফসফরাস হিসেবে ৪০ মিগ্রা/কেজি, যা মাঝারি থেকে গুরুতর কিডনি রোগে প্রযোজ্য নয়।"
+    },
+    "whatIs": {
+      "en": "Phosphoric acid is a strong acid that is used as a food acid, and is best known for the sharp taste it gives some soft drinks. Phosphate additives together add to the phosphorus people get from food.",
+      "bn": "ফসফরিক অ্যাসিড একটি শক্তিশালী অ্যাসিড, যা খাদ্য-অ্যাসিড হিসেবে ব্যবহৃত হয় এবং কিছু কোমল পানীয়ের তীক্ষ্ণ স্বাদের জন্য পরিচিত। ফসফেট সংযোজনগুলো মিলে খাবার থেকে পাওয়া ফসফরাস বাড়ায়।"
+    },
+    "whyUsed": {
+      "en": "It gives sharpness and controls acidity, particularly in soft drinks.",
+      "bn": "বিশেষত কোমল পানীয়ে টক স্বাদ দিতে ও অম্লতা নিয়ন্ত্রণে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "It lowers the pH of the food or drink, which sharpens the taste.",
+      "bn": "এটি খাবার বা পানীয়ের পিএইচ কমিয়ে স্বাদ তীক্ষ্ণ করে।"
+    },
+    "properties": [
+      { "en": "strong food acid", "bn": "শক্তিশালী খাদ্য-অ্যাসিড" },
+      { "en": "EFSA group ADI 40 mg/kg bw/day as phosphorus", "bn": "EFSA-র গ্রুপ ADI ফসফরাস হিসেবে ৪০ মিগ্রা/কেজি দেহওজন/দিন" }
+    ],
+    "benefits": [
+      { "kind": "taste", "text": { "en": "Gives a sharp taste to soft drinks.", "bn": "কোমল পানীয়ে তীক্ষ্ণ স্বাদ দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "EFSA said its ADI does not apply to people with moderate to severe reduced kidney function, and that about 10% of the general population may have chronic kidney disease and may not tolerate phosphorus at the ADI. People with kidney disease should follow their clinician's advice on phosphorus.",
+          "bn": "EFSA জানিয়েছে, এই ADI মাঝারি থেকে গুরুতরভাবে কিডনির কার্যক্ষমতা কমে যাওয়া মানুষের জন্য প্রযোজ্য নয়; সাধারণ জনগোষ্ঠীর প্রায় ১০% দীর্ঘস্থায়ী কিডনি রোগে আক্রান্ত হতে পারেন এবং ADI মাত্রার ফসফরাস তাঁদের সহ্য নাও হতে পারে। কিডনি রোগীরা ফসফরাস নিয়ে চিকিৎসকের পরামর্শ অনুসরণ করবেন।"
+        },
+        "sourceIds": ["efsa-2019"]
+      },
+      {
+        "kind": "dose-dependent",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "In clinical trials reviewed by EFSA, up to 2,000 mg of phosphorus a day caused no kidney impairment, while 4,800 mg a day did. Single doses of 160 mg/kg and above were linked to kidney impairment in case reports.",
+          "bn": "EFSA-র পর্যালোচিত ক্লিনিক্যাল ট্রায়ালে দিনে ২,০০০ মিগ্রা পর্যন্ত ফসফরাসে কিডনির ক্ষতি হয়নি, তবে দিনে ৪,৮০০ মিগ্রায় হয়েছে। কেস রিপোর্টে এককালীন ১৬০ মিগ্রা/কেজি বা তার বেশি মাত্রা কিডনির সমস্যার সঙ্গে যুক্ত ছিল।"
+        },
+        "sourceIds": ["efsa-2019"]
+      },
+      {
+        "kind": "side-effect",
+        "evidence": "human",
+        "strength": "established",
+        "text": {
+          "en": "A 2012 meta-analysis of observational studies linked soft drinks with dental erosion, attributed to low pH and acidity. It studied drinks in general, not phosphoric acid alone.",
+          "bn": "পর্যবেক্ষণমূলক গবেষণার ২০১২ সালের একটি মেটা-অ্যানালাইসিসে কোমল পানীয়ের সঙ্গে দাঁতের ক্ষয়ের সম্পর্ক পাওয়া গেছে, যার কারণ হিসেবে কম পিএইচ ও অম্লতার কথা বলা হয়েছে। গবেষণাটি সাধারণভাবে পানীয় নিয়ে, শুধু ফসফরিক অ্যাসিড নিয়ে নয়।"
+        },
+        "sourceIds": ["li-2012"]
+      }
+    ],
+    "riskContext": {
+      "en": "The ADI covers all phosphate additives together and is expressed as phosphorus. EFSA estimated, from total phosphorus measurements, that infants, toddlers and children can exceed it at mean and high intakes, and adolescents at high intakes. Food supplements can also exceed it. One additive is therefore only part of the picture.",
+      "bn": "ADI-টি সব ফসফেট সংযোজনের সম্মিলিত এবং ফসফরাস হিসেবে প্রকাশিত। মোট ফসফরাসের পরিমাপ থেকে EFSA-র হিসাবে শিশু ও অল্পবয়সীদের গড় ও বেশি গ্রহণে এবং কিশোরদের বেশি গ্রহণে এই সীমা অতিক্রম হতে পারে। খাদ্য সম্পূরকেও তা হতে পারে। তাই একটি সংযোজন পুরো চিত্রের একটি অংশ মাত্র।"
+    },
+    "statusLabels": ["within-limits", "known-adverse", "gras-conditions"],
+    "regulatory": [
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Group ADI for phosphoric acid and phosphates (E338-341, E343, E450-452).", "bn": "ফসফরিক অ্যাসিড ও ফসফেটের (E338 থেকে E341, E343, E450 থেকে E452) গ্রুপ ADI।" },
+        "adi": { "type": "numeric", "value": 40, "unit": "mg/kg bw/day", "note": { "en": "Group ADI, expressed as phosphorus. Does not apply to people with moderate to severe reduced kidney function.", "bn": "গ্রুপ ADI, ফসফরাস হিসেবে প্রকাশিত। মাঝারি থেকে গুরুতরভাবে কিডনির কার্যক্ষমতা কমে যাওয়া মানুষের জন্য প্রযোজ্য নয়।" } },
+        "date": "2019-06",
+        "sourceId": "efsa-2019"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "No ADI; a group maximum tolerable daily intake was set instead.", "bn": "ADI নেই; এর বদলে গ্রুপ সর্বোচ্চ সহনীয় দৈনিক গ্রহণমাত্রা দেওয়া হয়েছে।" },
+        "limits": { "en": "MTDI 70 mg/kg bw, for phosphorus from all sources, expressed as phosphorus.", "bn": "MTDI ৭০ মিগ্রা/কেজি দেহওজন, সব উৎসের ফসফরাসের জন্য, ফসফরাস হিসেবে প্রকাশিত।" },
+        "date": "1982",
+        "sourceId": "jecfa-phosphoric"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "GRAS when used in accordance with good manufacturing practice.", "bn": "উত্তম উৎপাদন-পদ্ধতি মেনে ব্যবহারে GRAS।" },
+        "date": "2025-04",
+        "sourceId": "cfr-182"
+      }
+    ],
+    "flags": ["kidney-caution"],
+    "references": [
+      { "id": "efsa-2019", "org": "EFSA FAF Panel", "title": "Re-evaluation of phosphoric acid-phosphates - di-, tri- and polyphosphates (E 338-341, E 343, E 450-452) as food additives and the safety of proposed extension of use", "year": 2019, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009158/", "kind": "regulatory" },
+      { "id": "jecfa-phosphoric", "org": "JECFA (WHO database)", "title": "Phosphoric acid: JECFA evaluation entry", "year": 1982, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=2530", "kind": "regulatory" },
+      { "id": "cfr-182", "org": "US Code of Federal Regulations", "title": "21 CFR Part 182: Substances generally recognized as safe (April 1, 2025 edition), section 182.1073", "year": 2025, "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol3/xml/CFR-2025-title21-vol3-part182.xml", "kind": "regulatory" },
+      { "id": "li-2012", "org": "PLoS One", "title": "Dietary Factors Associated with Dental Erosion: A Meta-Analysis", "year": 2012, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3432030/", "kind": "peer-reviewed" }
+    ],
+    "verification": { "status": "source-checked", "checkedOn": "2026-11-09", "notes": "EFSA opinion read through its PubMed Central copy. Origin (natural-derived, on the basis that it is produced from mineral phosphate) was not read on a linked source." }
+  },
+  {
+    "id": "lactic-acid",
+    "name": { "en": "Lactic acid", "bn": "ল্যাকটিক অ্যাসিড" },
+    "commonNames": ["2-hydroxypropanoic acid"],
+    "labelNames": ["lactic acid", "l-lactic acid", "e270", "e 270", "ins 270", "acidity regulator 270", "ল্যাকটিক অ্যাসিড"],
+    "chemicalName": "2-Hydroxypropanoic acid",
+    "eNumber": "E270",
+    "ins": "270",
+    "formula": "C3H6O3",
+    "category": "acidity-regulators",
+    "alsoIn": ["preservatives"],
+    "origin": "fermentation",
+    "originNote": {
+      "en": "US rules describe commercial production by fermenting sugars such as glucose, sucrose or lactose, or from lactonitrile. The route says nothing about safety.",
+      "bn": "যুক্তরাষ্ট্রের বিধিতে গ্লুকোজ, সুক্রোজ বা ল্যাকটোজের মতো শর্করা গাঁজন করে অথবা ল্যাকটোনাইট্রাইল থেকে বাণিজ্যিক উৎপাদনের কথা আছে। উৎপাদনের পথ নিরাপত্তা সম্পর্কে কিছু বলে না।"
+    },
+    "applications": ["dairy", "sauces-condiments", "bread-bakery", "processed-meat", "chocolate-confectionery"],
+    "summary": {
+      "en": "An acid formed in fermented foods, used for sour taste and acidity control. JECFA set no numeric limit; US rules exclude infant foods.",
+      "bn": "গাঁজানো খাবারে তৈরি হওয়া অ্যাসিড, টক স্বাদ ও অম্লতা নিয়ন্ত্রণে ব্যবহৃত। JECFA সংখ্যাগত সীমা দেয়নি; যুক্তরাষ্ট্রের বিধিতে শিশুখাদ্য বাদ।"
+    },
+    "whatIs": {
+      "en": "Lactic acid is the acid formed when bacteria ferment sugars, as in yoghurt and other fermented foods. The form added to food is commonly produced by fermentation.",
+      "bn": "ব্যাকটেরিয়া শর্করা গাঁজন করলে ল্যাকটিক অ্যাসিড তৈরি হয়, যেমন দই ও অন্যান্য গাঁজানো খাবারে। খাবারে যোগ করা অংশটি সাধারণত গাঁজনে তৈরি।"
+    },
+    "whyUsed": {
+      "en": "It gives a mild sour taste, controls acidity and helps limit microbes in some foods.",
+      "bn": "হালকা টক স্বাদ দিতে, অম্লতা নিয়ন্ত্রণে এবং কিছু খাবারে জীবাণু সীমিত রাখতে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "It lowers the pH, which sharpens flavour and makes conditions less favourable for some microbes.",
+      "bn": "এটি পিএইচ কমায়, ফলে স্বাদ তীক্ষ্ণ হয় এবং কিছু জীবাণুর জন্য পরিবেশ প্রতিকূল হয়।"
+    },
+    "properties": [
+      { "en": "mild sour taste, lowers pH", "bn": "হালকা টক স্বাদ, পিএইচ কমায়" },
+      { "en": "JECFA ADI 'not limited'", "bn": "JECFA-র ADI ‘সীমিত নয়’" }
+    ],
+    "benefits": [
+      { "kind": "taste", "text": { "en": "Adds a mild sour taste.", "bn": "হালকা টক স্বাদ যোগ করে।" } },
+      { "kind": "preservation", "text": { "en": "Lower acidity helps limit some microbes.", "bn": "পিএইচ কমিয়ে কিছু জীবাণু সীমিত রাখতে সাহায্য করে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "theoretical",
+        "strength": "established",
+        "text": {
+          "en": "US rules affirm lactic acid as GRAS except in infant foods and infant formulas. The regulation states this exclusion without giving a health finding, so the reason was not confirmed here.",
+          "bn": "যুক্তরাষ্ট্রের বিধিতে ল্যাকটিক অ্যাসিড GRAS, তবে শিশুখাদ্য ও ইনফ্যান্ট ফর্মুলা বাদে। বিধিতে কোনো স্বাস্থ্যগত কারণ উল্লেখ ছাড়াই এই বাদ দেওয়ার কথা আছে, তাই কারণটি এখানে নিশ্চিত হয়নি।"
+        },
+        "sourceIds": ["cfr-184"]
+      }
+    ],
+    "riskContext": {
+      "en": "JECFA records no numeric limit and found no safety concern at current intakes as a flavouring. Lactic acid is formed naturally in fermented foods, but that fact alone is not evidence of safety.",
+      "bn": "JECFA সংখ্যাগত সীমা রাখেনি এবং ফ্লেভারিং হিসেবে বর্তমান গ্রহণমাত্রায় নিরাপত্তা-উদ্বেগ পায়নি। গাঁজানো খাবারে এটি প্রাকৃতিকভাবে তৈরি হয়, তবে শুধু এই তথ্য নিরাপত্তার প্রমাণ নয়।"
+    },
+    "statusLabels": ["gras-conditions", "approved-specific"],
+    "regulatory": [
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI 'not limited' (1973). No safety concern at current intakes as a flavouring (2001).", "bn": "ADI ‘সীমিত নয়’ (১৯৭৩)। ফ্লেভারিং হিসেবে বর্তমান গ্রহণমাত্রায় নিরাপত্তা-উদ্বেগ নেই (২০০১)।" },
+        "adi": { "type": "not-specified", "note": { "en": "JECFA records this as 'not limited'; there is no numerical ADI.", "bn": "JECFA এটিকে ‘সীমিত নয়’ লিখেছে; সংখ্যাগত ADI নেই।" } },
+        "date": "2001",
+        "sourceId": "jecfa-lactic"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Affirmed as GRAS, except in infant foods and infant formulas.", "bn": "GRAS বলে স্বীকৃত, তবে শিশুখাদ্য ও ইনফ্যান্ট ফর্মুলা বাদে।" },
+        "limits": { "en": "Not to exceed current good manufacturing practice.", "bn": "বর্তমান উত্তম উৎপাদন-পদ্ধতির বেশি নয়।" },
+        "date": "2025-04",
+        "sourceId": "cfr-184"
+      },
+      {
+        "authority": "European Commission",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Listed in Annex II to Regulation 1333/2008 at quantum satis in extracts seen.", "bn": "দেখা অংশে রেগুলেশন ১৩৩৩/২০০৮-এর পরিশিষ্ট II-তে কোয়ান্টাম স্যাটিস হিসেবে তালিকাভুক্ত।" },
+        "date": "2022-10",
+        "sourceId": "eu-1333"
+      }
+    ],
+    "flags": ["infants-caution"],
+    "references": [
+      { "id": "jecfa-lactic", "org": "JECFA (WHO database)", "title": "Lactic acid: JECFA evaluation entry", "year": 2001, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=3367", "kind": "regulatory" },
+      { "id": "cfr-184", "org": "US Code of Federal Regulations", "title": "21 CFR Part 184: Direct food substances affirmed as generally recognized as safe (April 1, 2025 edition), section 184.1061", "year": 2025, "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol3/xml/CFR-2025-title21-vol3-part184.xml", "kind": "regulatory" },
+      { "id": "eu-1333", "org": "European Union", "title": "Regulation (EC) No 1333/2008 on food additives, consolidated version of 31 October 2022", "year": 2022, "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/2022-10-31/eng", "kind": "regulatory" }
+    ],
+    "verification": { "status": "partial", "checkedOn": "2026-11-09", "notes": "The EU Annex II listing was seen only in search extracts; EUR-Lex returned no text when opened. JECFA's note on D- and DL-lactic acid and infant foods appears truncated on the WHO page and was not used. EFSA's plan or status for re-evaluating E270 could not be confirmed." }
+  },
+  {
+    "id": "sodium-citrate",
+    "name": { "en": "Sodium citrate", "bn": "সোডিয়াম সাইট্রেট" },
+    "commonNames": ["trisodium citrate", "sodium citrates"],
+    "labelNames": ["sodium citrate", "sodium citrates", "trisodium citrate", "monosodium citrate", "disodium citrate", "e331", "e 331", "e331(iii)", "ins 331", "ins 331(iii)", "acidity regulator 331", "সোডিয়াম সাইট্রেট"],
+    "chemicalName": "Trisodium citrate",
+    "eNumber": "E331",
+    "ins": "331",
+    "formula": "C6H5Na3O7",
+    "category": "acidity-regulators",
+    "alsoIn": ["emulsifiers", "stabilizers"],
+    "origin": "natural-derived",
+    "originNote": {
+      "en": "Made by neutralising citric acid with sodium hydroxide or sodium carbonate. How it is made says nothing about safety.",
+      "bn": "সোডিয়াম হাইড্রোক্সাইড বা সোডিয়াম কার্বোনেট দিয়ে সাইট্রিক অ্যাসিড প্রশমিত করে তৈরি। কীভাবে তৈরি, তা দিয়ে নিরাপত্তা বিচার করা যায় না।"
+    },
+    "applications": ["soft-drinks", "dairy", "sauces-condiments", "frozen-desserts"],
+    "summary": {
+      "en": "The sodium salt of citric acid, used to control acidity. JECFA set no numeric limit and the US permits it under good manufacturing practice.",
+      "bn": "সাইট্রিক অ্যাসিডের সোডিয়াম লবণ, অম্লতা নিয়ন্ত্রণে ব্যবহৃত। JECFA সংখ্যাগত সীমা দেয়নি; যুক্তরাষ্ট্রে উত্তম উৎপাদন-পদ্ধতিতে অনুমোদিত।"
+    },
+    "whatIs": {
+      "en": "Sodium citrate is the sodium salt of citric acid. It is made by neutralising citric acid and comes as a dry salt.",
+      "bn": "সোডিয়াম সাইট্রেট হলো সাইট্রিক অ্যাসিডের সোডিয়াম লবণ। সাইট্রিক অ্যাসিড প্রশমিত করে এটি তৈরি হয় এবং শুকনো লবণ হিসেবে পাওয়া যায়।"
+    },
+    "whyUsed": {
+      "en": "It holds a food's acidity steady in drinks, dairy products and sauces.",
+      "bn": "পানীয়, দুগ্ধজাত খাবার ও সসে অম্লতা স্থির রাখতে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "Together with citric acid it acts as a buffer, resisting changes in pH.",
+      "bn": "সাইট্রিক অ্যাসিডের সঙ্গে মিলে এটি বাফার হিসেবে কাজ করে এবং পিএইচ-এর পরিবর্তন ঠেকায়।"
+    },
+    "properties": [
+      { "en": "buffers acidity", "bn": "অম্লতা বাফার করে" },
+      { "en": "JECFA ADI 'not limited'", "bn": "JECFA-র ADI ‘সীমিত নয়’" }
+    ],
+    "benefits": [
+      { "kind": "processing", "text": { "en": "Keeps acidity steady during processing and storage.", "bn": "প্রক্রিয়াজাতকরণ ও সংরক্ষণের সময় অম্লতা স্থির রাখে।" } }
+    ],
+    "risks": [
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "No specific concern at food-use levels was named in the sources reviewed. JECFA's assessment dates from 1973, and EFSA said in 2021 that its re-evaluation of citrates had not started.",
+          "bn": "পর্যালোচিত সূত্রগুলোতে খাদ্য-ব্যবহারের মাত্রায় নির্দিষ্ট কোনো উদ্বেগের উল্লেখ নেই। JECFA-র মূল্যায়ন ১৯৭৩ সালের, এবং EFSA ২০২১ সালে জানিয়েছে, সাইট্রেটের পুনর্মূল্যায়ন তখনো শুরু হয়নি।"
+        },
+        "sourceIds": ["jecfa-citrate", "efsa-faf-2021"]
+      }
+    ],
+    "riskContext": {
+      "en": "JECFA emphasised the well-established metabolism of citrate when it concluded that citric acid and its calcium, potassium and sodium salts do not pose a significant toxicological hazard.",
+      "bn": "সাইট্রিক অ্যাসিড এবং এর ক্যালসিয়াম, পটাশিয়াম ও সোডিয়াম লবণ তাৎপর্যপূর্ণ বিষক্রিয়ার ঝুঁকি তৈরি করে না, এই সিদ্ধান্তে JECFA সাইট্রেটের সুপ্রতিষ্ঠিত বিপাকের ওপর গুরুত্ব দিয়েছিল।"
+    },
+    "statusLabels": ["gras-conditions", "approved-specific"],
+    "regulatory": [
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "ADI 'not limited' for trisodium citrate (1973 evaluation).", "bn": "ট্রাইসোডিয়াম সাইট্রেটের ADI ‘সীমিত নয়’ (১৯৭৩ সালের মূল্যায়ন)।" },
+        "adi": { "type": "not-specified", "note": { "en": "JECFA records this as 'not limited'; there is no numerical ADI.", "bn": "JECFA এটিকে ‘সীমিত নয়’ লিখেছে; সংখ্যাগত ADI নেই।" } },
+        "date": "1973",
+        "sourceId": "jecfa-citrate"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Affirmed as GRAS.", "bn": "GRAS বলে স্বীকৃত।" },
+        "limits": { "en": "No limit other than current good manufacturing practice.", "bn": "বর্তমান উত্তম উৎপাদন-পদ্ধতি ছাড়া অন্য কোনো সীমা নেই।" },
+        "date": "2025-04",
+        "sourceId": "cfr-184"
+      },
+      {
+        "authority": "European Commission",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Listed in Annex II to Regulation 1333/2008 at quantum satis in extracts seen.", "bn": "দেখা অংশে রেগুলেশন ১৩৩৩/২০০৮-এর পরিশিষ্ট II-তে কোয়ান্টাম স্যাটিস হিসেবে তালিকাভুক্ত।" },
+        "date": "2022-10",
+        "sourceId": "eu-1333"
+      }
+    ],
+    "flags": [],
+    "references": [
+      { "id": "jecfa-citrate", "org": "JECFA (WHO database)", "title": "Trisodium citrate: JECFA evaluation entry", "year": 1973, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=349", "kind": "regulatory" },
+      { "id": "cfr-184", "org": "US Code of Federal Regulations", "title": "21 CFR Part 184: Direct food substances affirmed as generally recognized as safe (April 1, 2025 edition), section 184.1751", "year": 2025, "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol3/xml/CFR-2025-title21-vol3-part184.xml", "kind": "regulatory" },
+      { "id": "eu-1333", "org": "European Union", "title": "Regulation (EC) No 1333/2008 on food additives, consolidated version of 31 October 2022", "year": 2022, "url": "https://eur-lex.europa.eu/eli/reg/2008/1333/2022-10-31/eng", "kind": "regulatory" },
+      { "id": "efsa-faf-2021", "org": "EFSA FAF Panel", "title": "Minutes of the 24th plenary meeting of the Panel on Food Additives and Flavourings", "year": 2021, "url": "https://www.efsa.europa.eu/sites/default/files/2021-10/24th-plenary-meeting-faf-panel-proposed-be-open-observers-minutes.pdf", "kind": "regulatory" }
+    ],
+    "verification": { "status": "partial", "checkedOn": "2026-11-09", "notes": "The EU Annex II listing (E 331) was seen only in a search extract; EUR-Lex returned no text when opened. The WHO page shows a latest evaluation of 1973 alongside a 1975 specification entry. Searches found no finished EFSA opinion on citrates; absence could not be proven." }
+  },
+  {
+    "id": "malic-acid",
+    "name": { "en": "Malic acid", "bn": "ম্যালিক অ্যাসিড" },
+    "commonNames": ["hydroxysuccinic acid", "L-malic acid", "DL-malic acid"],
+    "labelNames": ["malic acid", "l-malic acid", "dl-malic acid", "hydroxysuccinic acid", "e296", "e 296", "ins 296", "acidity regulator 296", "ম্যালিক অ্যাসিড"],
+    "chemicalName": "Hydroxybutanedioic acid",
+    "eNumber": "E296",
+    "ins": "296",
+    "formula": "C4H6O5",
+    "category": "acidity-regulators",
+    "origin": "nature-identical",
+    "originNote": {
+      "en": "Malate occurs in many fruits and vegetables, and only the L-form exists naturally. Commercial malic acid is made by hydrating fumaric or maleic acid. EU and JECFA assessors saw no need to distinguish the forms when used in food.",
+      "bn": "ম্যালেট অনেক ফল ও সবজিতে থাকে, এবং প্রাকৃতিকভাবে শুধু L-রূপটি পাওয়া যায়। বাণিজ্যিক ম্যালিক অ্যাসিড ফিউমারিক বা ম্যালেইক অ্যাসিডে জল যোগ করে তৈরি হয়। খাবারে ব্যবহারের ক্ষেত্রে EU ও JECFA-র মূল্যায়নকারীরা রূপগুলোর মধ্যে পার্থক্য করার প্রয়োজন দেখেননি।"
+    },
+    "applications": ["soft-drinks", "juices", "chocolate-confectionery", "jams-spreads"],
+    "summary": {
+      "en": "A fruit acid that gives a lingering sourness to drinks and sweets. Earlier EU and JECFA reviews set no numeric ADI; EFSA is re-evaluating it.",
+      "bn": "পানীয় ও মিষ্টান্নে দীর্ঘস্থায়ী টক স্বাদ দেয় এমন ফলের অ্যাসিড। আগের EU ও JECFA পর্যালোচনায় সংখ্যাগত ADI নেই; EFSA পুনর্মূল্যায়ন করছে।"
+    },
+    "whatIs": {
+      "en": "Malic acid is an acid found in many fruits and vegetables, and malate is a normal part of metabolism in all living things. Food-grade malic acid is usually made commercially.",
+      "bn": "ম্যালিক অ্যাসিড অনেক ফল ও সবজিতে থাকে, এবং ম্যালেট সব জীবদেহের স্বাভাবিক বিপাকের অংশ। খাদ্যমানের ম্যালিক অ্যাসিড সাধারণত বাণিজ্যিকভাবে তৈরি হয়।"
+    },
+    "whyUsed": {
+      "en": "It gives a sour, fruity taste and controls acidity in drinks and confectionery.",
+      "bn": "পানীয় ও মিষ্টান্নে টক, ফলের মতো স্বাদ দিতে ও অম্লতা নিয়ন্ত্রণে এটি ব্যবহার হয়।"
+    },
+    "howItWorks": {
+      "en": "It lowers the pH of the food, which sharpens the taste.",
+      "bn": "এটি খাবারের পিএইচ কমিয়ে স্বাদ তীক্ষ্ণ করে।"
+    },
+    "properties": [
+      { "en": "sour, fruity taste", "bn": "টক, ফলের মতো স্বাদ" },
+      { "en": "earlier group ADI not specified", "bn": "আগের গ্রুপ ADI নির্দিষ্ট নয়" }
+    ],
+    "benefits": [
+      { "kind": "taste", "text": { "en": "Gives a sour, fruity taste.", "bn": "টক, ফলের মতো স্বাদ দেয়।" } }
+    ],
+    "risks": [
+      {
+        "kind": "population",
+        "evidence": "theoretical",
+        "strength": "established",
+        "text": {
+          "en": "US rules affirm malic acid as GRAS except in baby food. The regulation states this exclusion without giving a health finding, so the reason was not confirmed here.",
+          "bn": "যুক্তরাষ্ট্রের বিধিতে ম্যালিক অ্যাসিড GRAS, তবে শিশুখাদ্য বাদে। বিধিতে কোনো স্বাস্থ্যগত কারণ উল্লেখ ছাড়াই এই বাদ দেওয়ার কথা আছে, তাই কারণটি এখানে নিশ্চিত হয়নি।"
+        },
+        "sourceIds": ["cfr-184"]
+      },
+      {
+        "kind": "uncertainty",
+        "evidence": "theoretical",
+        "strength": "preliminary",
+        "text": {
+          "en": "EFSA's re-evaluation is unfinished as far as could be found: it called for data in 2024, partly to clarify which forms are used as E296. The existing assessments are older ones.",
+          "bn": "যতটুকু পাওয়া গেছে, EFSA-র পুনর্মূল্যায়ন শেষ হয়নি: ২০২৪ সালে তথ্য আহ্বান করা হয়, আংশিকভাবে E296 হিসেবে কোন রূপগুলো ব্যবহৃত হয় তা স্পষ্ট করতে। বিদ্যমান মূল্যায়নগুলো পুরোনো।"
+        },
+        "sourceIds": ["efsa-malic-call"]
+      }
+    ],
+    "riskContext": {
+      "en": "The earlier EU assessment relied on the well-established metabolism of malate and on how much of it people already eat in food. Those conclusions predate EFSA's current review.",
+      "bn": "আগের EU মূল্যায়ন ম্যালেটের সুপ্রতিষ্ঠিত বিপাক এবং মানুষ খাবারে কতটা ম্যালেট খায়, তার ওপর নির্ভর করেছিল। ওই সিদ্ধান্তগুলো EFSA-র বর্তমান পর্যালোচনার আগের।"
+    },
+    "statusLabels": ["gras-conditions", "approved-specific", "evidence-developing"],
+    "regulatory": [
+      {
+        "authority": "SCF (EU)",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Group ADI 'not specified' for malic acid and sodium, potassium and calcium malates.", "bn": "ম্যালিক অ্যাসিড এবং সোডিয়াম, পটাশিয়াম ও ক্যালসিয়াম ম্যালেটের গ্রুপ ADI ‘নির্দিষ্ট নয়’।" },
+        "adi": { "type": "not-specified", "note": { "en": "Group ADI, as reported in EFSA's 2024 call for data.", "bn": "গ্রুপ ADI, EFSA-র ২০২৪ সালের তথ্য-আহ্বানে উল্লিখিত।" } },
+        "date": "1991",
+        "sourceId": "efsa-malic-call"
+      },
+      {
+        "authority": "EFSA",
+        "jurisdiction": { "en": "European Union", "bn": "ইউরোপীয় ইউনিয়ন" },
+        "status": { "en": "Re-evaluation under way: call for data published July 2024. No finished opinion was found by November 2026.", "bn": "পুনর্মূল্যায়ন চলছে: ২০২৪ সালের জুলাইয়ে তথ্য আহ্বান প্রকাশিত। ২০২৬ সালের নভেম্বর পর্যন্ত চূড়ান্ত মতামত পাওয়া যায়নি।" },
+        "date": "2024-07",
+        "sourceId": "efsa-malic-call-page"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "Group ADI 'not specified' from 1969, confirmed in 1980 for both L- and DL-malic acid.", "bn": "১৯৬৯ সালের গ্রুপ ADI ‘নির্দিষ্ট নয়’, ১৯৮০ সালে L- ও DL-ম্যালিক অ্যাসিড উভয়ের জন্য বহাল।" },
+        "adi": { "type": "not-specified", "note": { "en": "Group ADI, as reported in EFSA's 2024 call for data.", "bn": "গ্রুপ ADI, EFSA-র ২০২৪ সালের তথ্য-আহ্বানে উল্লিখিত।" } },
+        "date": "1980",
+        "sourceId": "efsa-malic-call"
+      },
+      {
+        "authority": "JECFA",
+        "jurisdiction": { "en": "International (FAO/WHO)", "bn": "আন্তর্জাতিক (FAO/WHO)" },
+        "status": { "en": "L-malic acid: no safety concern at current intakes as a flavouring; 2018 review was for specifications only.", "bn": "L-ম্যালিক অ্যাসিড: ফ্লেভারিং হিসেবে বর্তমান গ্রহণমাত্রায় নিরাপত্তা-উদ্বেগ নেই; ২০১৮ সালের পর্যালোচনা শুধু স্পেসিফিকেশনের জন্য।" },
+        "date": "2018",
+        "sourceId": "jecfa-malic"
+      },
+      {
+        "authority": "US FDA",
+        "jurisdiction": { "en": "United States", "bn": "যুক্তরাষ্ট্র" },
+        "status": { "en": "Affirmed as GRAS, except in baby food.", "bn": "GRAS বলে স্বীকৃত, তবে শিশুখাদ্য বাদে।" },
+        "limits": { "en": "Category-specific maximums, for example 3.4 percent in non-alcoholic beverages and 0.7 percent in other food categories not listed separately.", "bn": "খাদ্য-শ্রেণিভিত্তিক সর্বোচ্চ সীমা, যেমন অ্যালকোহলমুক্ত পানীয়ে ৩.৪ শতাংশ এবং আলাদাভাবে উল্লেখ নেই এমন অন্যান্য শ্রেণিতে ০.৭ শতাংশ।" },
+        "date": "2025-04",
+        "sourceId": "cfr-184"
+      }
+    ],
+    "flags": ["infants-caution"],
+    "references": [
+      { "id": "efsa-malic-call", "org": "EFSA", "title": "Call for data for the re-evaluation of malic acid and malates (E 296; E 350-352) as food additives (document)", "year": 2024, "url": "https://efsa.europa.eu/sites/default/files/2024-07/call-for-data-malic-acid-malates_0.pdf", "kind": "regulatory" },
+      { "id": "efsa-malic-call-page", "org": "EFSA", "title": "Call for data for the re-evaluation of malic acid and malates (E 296; E 350-352) as food additives", "year": 2024, "url": "https://efsa.europa.eu/en/call/call-data-re-evaluation-malic-acid-and-malates-e-296-e-350-352-food-additives", "kind": "regulatory" },
+      { "id": "jecfa-malic", "org": "JECFA (WHO database)", "title": "(-)-Malic acid: JECFA evaluation entry", "year": 2018, "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1453", "kind": "regulatory" },
+      { "id": "cfr-184", "org": "US Code of Federal Regulations", "title": "21 CFR Part 184: Direct food substances affirmed as generally recognized as safe (April 1, 2025 edition), section 184.1069", "year": 2025, "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol3/xml/CFR-2025-title21-vol3-part184.xml", "kind": "regulatory" }
+    ],
+    "verification": { "status": "partial", "checkedOn": "2026-11-09", "notes": "The current EU Annex II conditions for E296 could not be read on EUR-Lex. SCF and JECFA group ADI history is taken from EFSA's 2024 call-for-data document rather than from the original reports. Searches found no finished EFSA opinion on malates; absence could not be proven." }
+  }
+]

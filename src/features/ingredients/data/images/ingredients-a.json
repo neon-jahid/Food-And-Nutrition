@@ -1,0 +1,325 @@
+{
+ "beeswax": {
+  "src": "/images/ingredients/beeswax.webp",
+  "sm": "/images/ingredients/beeswax-sm.webp",
+  "w": 640,
+  "h": 506,
+  "file": "Burr comb.jpg",
+  "author": "Migco",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Burr_comb.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "Pale wax comb with hexagonal cells built across wooden hive frames, with honeybees on and around it.",
+   "bn": "কাঠের মৌচাক-ফ্রেমের ওপর গড়ে তোলা ষড়ভুজ খোপওয়ালা ফ্যাকাশে মোমের চাক, তার ওপরে ও চারপাশে মৌমাছি।"
+  },
+  "caption": {
+   "en": "Fresh comb that honeybees have built from beeswax on hive frames.",
+   "bn": "মৌচাকের ফ্রেমে মৌমাছির গড়া তাজা চাক; এই চাক মোম দিয়েই তৈরি।"
+  }
+ },
+ "carmine-cochineal": {
+  "src": "/images/ingredients/carmine-cochineal.webp",
+  "sm": "/images/ingredients/carmine-cochineal-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Dactylopius coccus 01.jpg",
+  "author": "H. Zell",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Dactylopius_coccus_01.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "Green cactus pad covered by a dense crust of dark scale insects dusted with white.",
+   "bn": "সবুজ ক্যাকটাসের গায়ে সাদা গুঁড়োয় ঢাকা কালচে ক্ষুদ্র পোকার ঘন আস্তরণ।"
+  },
+  "caption": {
+   "en": "Cochineal insects (Dactylopius coccus) on a cactus pad, the source of carmine.",
+   "bn": "ক্যাকটাসের গায়ে কোচিনিয়াল পোকা (Dactylopius coccus); এই পোকা থেকেই কারমাইন পাওয়া যায়।"
+  }
+ },
+ "curcumin": {
+  "src": "/images/ingredients/curcumin.webp",
+  "sm": "/images/ingredients/curcumin-sm.webp",
+  "w": 640,
+  "h": 263,
+  "file": "Curcuma longa roots.jpg",
+  "author": "Simon A. Eugster",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Curcuma_longa_roots.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "A knobbly brown turmeric rhizome, orange cut slices and a mound of bright yellow-orange powder on a white surface.",
+   "bn": "সাদা পটভূমিতে গাঁটওয়ালা বাদামি হলুদের কন্দ, কমলা রঙের কাটা টুকরো এবং উজ্জ্বল হলুদ-কমলা গুঁড়োর স্তূপ।"
+  },
+  "caption": {
+   "en": "Fresh turmeric rhizome and ground turmeric. Turmeric is the plant source of curcumin.",
+   "bn": "তাজা হলুদের কন্দ ও হলুদের গুঁড়া। হলুদই কারকিউমিনের উদ্ভিজ্জ উৎস।"
+  }
+ },
+ "agar": {
+  "src": "/images/ingredients/agar.webp",
+  "sm": "/images/ingredients/agar-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Agar-agar.jpg",
+  "author": "Unkky",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Agar-agar.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A small heap of fine, cream-coloured powder scattered on a pale surface.",
+   "bn": "হালকা রঙের তলের ওপর ছড়ানো ঘিয়ে রঙের মিহি গুঁড়োর ছোট স্তূপ।"
+  },
+  "caption": {
+   "en": "Processed agar-agar in powder form.",
+   "bn": "প্রক্রিয়াজাত আগার-আগারের গুঁড়া।"
+  }
+ },
+ "carrageenan": {
+  "src": "/images/ingredients/carrageenan.webp",
+  "sm": "/images/ingredients/carrageenan-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Eucheuma denticulatum in an off-bottom cultivation, Bweleo, Zanzibar.JPG",
+  "author": "StinaTano",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Eucheuma_denticulatum_in_an_off-bottom_cultivation,_Bweleo,_Zanzibar.JPG",
+  "subject": "source",
+  "alt": {
+   "en": "An arm lifts a large mass of branching, bright green seaweed in clear shallow seawater.",
+   "bn": "স্বচ্ছ অগভীর সমুদ্রের পানিতে একটি হাত শাখা-প্রশাখাযুক্ত উজ্জ্বল সবুজ সামুদ্রিক শৈবালের বড় গোছা তুলে ধরেছে।"
+  },
+  "caption": {
+   "en": "Eucheuma denticulatum, a red seaweed despite its colour here, farmed for iota-carrageenan in Zanzibar.",
+   "bn": "জাঞ্জিবারে আয়োটা-ক্যারাজিনানের জন্য চাষ করা Eucheuma denticulatum; এখানে সবুজ দেখালেও এটি লাল শৈবাল।"
+  }
+ },
+ "guar-gum": {
+  "src": "/images/ingredients/guar-gum.webp",
+  "sm": "/images/ingredients/guar-gum-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Cluster bean cluster.jpg",
+  "author": "Ton Rulkens",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Cluster_bean_cluster.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "A cluster of slender green bean pods laid out on orange-red soil.",
+   "bn": "কমলা-লাল মাটির ওপর রাখা সরু সবুজ শিমের এক থোকা।"
+  },
+  "caption": {
+   "en": "Pods of the guar plant (Cyamopsis tetragonoloba). Guar gum is made from the seeds inside.",
+   "bn": "গুয়ার গাছের (Cyamopsis tetragonoloba) শিম। ভেতরের বীজ থেকে গুয়ার গাম তৈরি হয়।"
+  }
+ },
+ "gum-arabic": {
+  "src": "/images/ingredients/gum-arabic.webp",
+  "sm": "/images/ingredients/gum-arabic-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Gum Arabic.jpg",
+  "author": "Tarig A. Eltom",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gum_Arabic.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "Rounded, translucent amber lumps of raw gum on a dark glossy surface.",
+   "bn": "গাঢ় চকচকে তলের ওপর গোলাকার, আধা-স্বচ্ছ অ্যাম্বার রঙের কাঁচা আঠার দলা।"
+  },
+  "caption": {
+   "en": "Pieces of raw gum arabic, the dried exudate of acacia trees.",
+   "bn": "কাঁচা গাম অ্যারাবিকের টুকরো; এটি অ্যাকাশিয়া গাছ থেকে নিঃসৃত শুকনো আঠা।"
+  }
+ },
+ "anthocyanins": {
+  "src": "/images/ingredients/anthocyanins.webp",
+  "sm": "/images/ingredients/anthocyanins-sm.webp",
+  "w": 640,
+  "h": 567,
+  "file": "Cut carrot.jpg",
+  "author": "Tiia Monto",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Cut_carrot.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "A dark purple-black carrot cut open at one end, showing a deep magenta ring around a pale core.",
+   "bn": "এক প্রান্তে কাটা গাঢ় বেগুনি-কালো গাজর, যার ফ্যাকাশে মাঝখানের চারপাশে গাঢ় ম্যাজেন্টা রঙের বলয়।"
+  },
+  "caption": {
+   "en": "A cut black carrot, one of the plants whose deep colour comes from anthocyanins.",
+   "bn": "কাটা কালো গাজর; যেসব উদ্ভিদের গাঢ় রঙ অ্যান্থোসায়ানিন থেকে আসে, এটি তার একটি।"
+  }
+ },
+ "citric-acid": {
+  "src": "/images/ingredients/citric-acid.webp",
+  "sm": "/images/ingredients/citric-acid-sm.webp",
+  "w": 640,
+  "h": 528,
+  "file": "Zitronensäure Kristallzucht.jpg",
+  "author": "TipFox",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Zitronens%C3%A4ure_Kristallzucht.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A cluster of large, clear, faceted crystals on a dark background.",
+   "bn": "গাঢ় পটভূমিতে বড় বড় স্বচ্ছ, কোণাচে স্ফটিকের একটি গুচ্ছ।"
+  },
+  "caption": {
+   "en": "Citric acid crystals grown from a saturated solution.",
+   "bn": "সম্পৃক্ত দ্রবণ থেকে জন্মানো সাইট্রিক অ্যাসিডের স্ফটিক।"
+  }
+ },
+ "activated-carbon": {
+  "src": "/images/ingredients/activated-carbon.webp",
+  "sm": "/images/ingredients/activated-carbon-sm.webp",
+  "w": 640,
+  "h": 460,
+  "file": "Activated Carbon.jpg",
+  "author": "Ravedave ( talk )",
+  "license": "CC BY 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Activated_Carbon.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A mound of fine black powder beside a solid block of black porous carbon on a white surface.",
+   "bn": "সাদা তলের ওপর মিহি কালো গুঁড়োর স্তূপ এবং তার পাশে ছিদ্রযুক্ত কালো কার্বনের একটি শক্ত খণ্ড।"
+  },
+  "caption": {
+   "en": "Activated carbon as a powder and a solid block. This sample is not documented as food grade.",
+   "bn": "গুঁড়া ও শক্ত খণ্ড আকারে অ্যাক্টিভেটেড কার্বন। এই নমুনাটি খাদ্য-মানের বলে নথিভুক্ত নয়।"
+  }
+ },
+ "ammonium-bicarbonate": {
+  "src": "/images/ingredients/ammonium-bicarbonate.webp",
+  "sm": "/images/ingredients/ammonium-bicarbonate-sm.webp",
+  "w": 640,
+  "h": 481,
+  "file": "Ammonium bicarbonate.jpg",
+  "author": "Keresluna",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Ammonium_bicarbonate.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A small heap of white crystalline powder on a round sheet of filter paper.",
+   "bn": "গোল ফিল্টার পেপারের ওপর সাদা দানাদার গুঁড়োর ছোট স্তূপ।"
+  },
+  "caption": {
+   "en": "Ammonium bicarbonate extracted from salt of hartshorn. This sample is not documented as food grade.",
+   "bn": "হার্টশর্ন লবণ থেকে নিষ্কাশিত অ্যামোনিয়াম বাইকার্বনেট। এই নমুনাটি খাদ্য-মানের বলে নথিভুক্ত নয়।"
+  }
+ },
+ "aspartame": {
+  "src": "/images/ingredients/aspartame.webp",
+  "sm": "/images/ingredients/aspartame-sm.webp",
+  "w": 640,
+  "h": 473,
+  "file": "Aspartame sample.jpg",
+  "author": "LHcheM",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Aspartame_sample.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A small amount of off-white crystalline powder at the bottom of a clear glass vial.",
+   "bn": "স্বচ্ছ কাচের শিশির তলায় অল্প পরিমাণ ঘিয়ে-সাদা দানাদার গুঁড়া।"
+  },
+  "caption": {
+   "en": "A laboratory sample of recrystallized aspartame.",
+   "bn": "পুনঃস্ফটিকীকৃত অ্যাসপারটেমের একটি পরীক্ষাগার নমুনা।"
+  }
+ },
+ "ethyl-vanillin": {
+  "src": "/images/ingredients/ethyl-vanillin.webp",
+  "sm": "/images/ingredients/ethyl-vanillin-sm.webp",
+  "w": 640,
+  "h": 479,
+  "file": "Ethylvanilin.jpg",
+  "author": "Milda 444",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Ethylvanilin.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A heap of fine, sparkling white crystals in a shallow glass dish.",
+   "bn": "অগভীর কাচের পাত্রে মিহি, চিকচিকে সাদা স্ফটিকের স্তূপ।"
+  },
+  "caption": {
+   "en": "A sample of synthesized ethyl vanillin.",
+   "bn": "সংশ্লেষিত ইথাইল ভ্যানিলিনের একটি নমুনা।"
+  }
+ },
+ "ferrous-sulfate": {
+  "src": "/images/ingredients/ferrous-sulfate.webp",
+  "sm": "/images/ingredients/ferrous-sulfate-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Iron(II)-sulfate-heptahydrate-sample.jpg",
+  "author": "Benjah-bmm27",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Iron(II)-sulfate-heptahydrate-sample.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A heap of small, glassy blue-green crystals scattered on a pale surface.",
+   "bn": "হালকা রঙের তলের ওপর ছড়ানো কাচের মতো ছোট ছোট নীলচে-সবুজ স্ফটিকের স্তূপ।"
+  },
+  "caption": {
+   "en": "A sample of iron(II) sulfate heptahydrate, the hydrated crystal form of ferrous sulfate.",
+   "bn": "আয়রন(২) সালফেট হেপ্টাহাইড্রেটের নমুনা; এটি ফেরাস সালফেটের সজল স্ফটিক রূপ।"
+  }
+ },
+ "carnauba-wax": {
+  "src": "/images/ingredients/carnauba-wax.webp",
+  "sm": "/images/ingredients/carnauba-wax-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Carnauba.jpg",
+  "author": "Tacarijus",
+  "license": "CC BY 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Carnauba.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "Two tall fan palms with green crowns and shaggy dead fronds against a bright blue sky.",
+   "bn": "উজ্জ্বল নীল আকাশের পটভূমিতে সবুজ মাথা ও ঝুলন্ত শুকনো পাতাসহ দুটি লম্বা পাখাপাতার পাম গাছ।"
+  },
+  "caption": {
+   "en": "Carnauba palms in Piauí, Brazil. Carnauba wax is obtained from their leaves.",
+   "bn": "ব্রাজিলের পিয়াউইতে কার্নাউবা পাম গাছ। এদের পাতা থেকেই কার্নাউবা মোম পাওয়া যায়।"
+  }
+ },
+ "beta-carotene": {
+  "src": "/images/ingredients/beta-carotene.webp",
+  "sm": "/images/ingredients/beta-carotene-sm.webp",
+  "w": 640,
+  "h": 325,
+  "file": "Fresh orange carrots.jpg",
+  "author": "congerdesign",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Fresh_orange_carrots.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "Fresh orange carrots with green tops laid on a grey stone surface.",
+   "bn": "ধূসর পাথরের ওপর রাখা সবুজ পাতাসহ তাজা কমলা গাজর।"
+  },
+  "caption": {
+   "en": "Carrots, one natural source of beta-carotene. The food colour may also be made synthetically or come from other sources.",
+   "bn": "গাজর, বিটা-ক্যারোটিনের একটি প্রাকৃতিক উৎস। খাদ্য রং হিসেবে এটি কৃত্রিমভাবেও তৈরি হতে পারে বা অন্য উৎস থেকেও আসতে পারে।"
+  }
+ },
+ "beetroot-red": {
+  "src": "/images/ingredients/beetroot-red.webp",
+  "sm": "/images/ingredients/beetroot-red-sm.webp",
+  "w": 640,
+  "h": 429,
+  "file": "Beets-Bundle.jpg",
+  "author": "Evan-Amos",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Beets-Bundle.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "A tied bundle of whole beetroots with long crimson stems and green leaves on a white background.",
+   "bn": "সাদা পটভূমিতে লম্বা গাঢ় লাল ডাঁটা ও সবুজ পাতাসহ বাঁধা একগুচ্ছ আস্ত বিটরুট।"
+  },
+  "caption": {
+   "en": "Whole beetroots, the plant source of beetroot red.",
+   "bn": "আস্ত বিটরুট; বিটরুট রেড রঙের উদ্ভিজ্জ উৎস।"
+  }
+ }
+}

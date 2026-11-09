@@ -1,0 +1,68 @@
+{
+  "slug": "understanding-food-labels",
+  "title": { "en": "Understanding Food Labels", "bn": "খাদ্যের লেবেল বোঝা" },
+  "dek": { "en": "What the ingredient list tells you, what it leaves out, and how to read additive names and numbers.", "bn": "উপাদান তালিকা কী জানায়, কী বাদ রাখে, আর সংযোজনের নাম ও নম্বর কীভাবে পড়বেন।" },
+  "minutes": 4,
+  "takeaways": [
+    { "en": "In many countries ingredients appear in descending order by weight, so the first few make up most of the food.", "bn": "অনেক দেশে উপাদান ওজনের ক্রমানুসারে থাকে, তাই প্রথম কয়েকটিই খাবারের বেশিরভাগ।" },
+    { "en": "Additives are usually shown by function plus a name or a code, such as E415 or xanthan gum; the two mean the same thing.", "bn": "সংযোজন সাধারণত কাজের সঙ্গে নাম বা কোডে দেখানো হয়, যেমন E415 বা জ্যানথান গাম; দুটির অর্থ একই।" },
+    { "en": "Processing aids often do not appear on the label at all, because the rules treat them differently from ingredients.", "bn": "প্রক্রিয়াজাত সহায়ক প্রায়ই লেবেলে থাকেই না, কারণ বিধিতে এগুলোকে উপাদান থেকে আলাদা ধরা হয়।" },
+    { "en": "A claim such as no added MSG follows specific legal rules; it is not simply a marketing choice.", "bn": "এমএসজি যোগ করা হয়নি ধরনের দাবি নির্দিষ্ট আইনি নিয়মে চলে; এটি কেবল বিপণনের বিষয় নয়।" }
+  ],
+  "sections": [
+    {
+      "heading": { "en": "The order of the ingredient list", "bn": "উপাদান তালিকার ক্রম" },
+      "paragraphs": [
+        { "en": "The ingredient list is the most useful part of a packet, and it has its own grammar. In the United States, federal rules require ingredients to be listed by their common or usual name in descending order of predominance by weight, so the heaviest ingredient comes first. The rule has a practical exception: ingredients present at 2% or less can be grouped at the end after a statement such as contains less than 2% of, and those do not have to follow the weight order.", "bn": "উপাদান তালিকা প্যাকেটের সবচেয়ে কাজের অংশ, আর এর নিজস্ব ব্যাকরণ আছে। যুক্তরাষ্ট্রে ফেডারেল বিধি অনুযায়ী উপাদানগুলো সাধারণ বা প্রচলিত নামে, ওজনের প্রাধান্যের ক্রমানুসারে লিখতে হয়, তাই সবচেয়ে ভারী উপাদান প্রথমে আসে। বিধিতে একটি ব্যবহারিক ব্যতিক্রম আছে: ২% বা তার কম থাকা উপাদান শেষে ২%-এর কম আছে ধরনের বিবৃতির পরে একসঙ্গে রাখা যায়, এবং সেগুলোকে ওজনের ক্রম মানতে হয় না।" },
+        { "en": "Reading the first three or four items tells you the general shape of a product. A long list by itself says little, though. Many of the words near the end may be functional ingredients used in small amounts, or names for familiar things such as vitamins.", "bn": "প্রথম তিন-চারটি পড়লে পণ্যের সাধারণ চিত্র পাওয়া যায়। তবে লম্বা তালিকা একা তেমন কিছু বলে না। শেষের দিকের অনেক শব্দ হতে পারে অল্প পরিমাণে ব্যবহৃত কার্যকরী উপাদান, বা ভিটামিনের মতো পরিচিত জিনিসের নাম।" }
+      ]
+    },
+    {
+      "heading": { "en": "How additives are written", "bn": "সংযোজন কীভাবে লেখা হয়" },
+      "paragraphs": [
+        { "en": "In the European Union, additives must appear in the ingredient list, and the label must state the additive's function and either its E-number or its name. The European Food Safety Authority gives the example E415 or xanthan gum. A label might say stabiliser (xanthan gum) or stabiliser (E415), and these mean the same thing.", "bn": "ইউরোপীয় ইউনিয়নে সংযোজন উপাদান তালিকায় থাকতে হবে, এবং লেবেলে এর কাজ উল্লেখ করে ই-নম্বর বা নাম দিতে হবে। ইউরোপীয় খাদ্য নিরাপত্তা কর্তৃপক্ষের উদাহরণ E415 বা জ্যানথান গাম। লেবেলে স্টেবিলাইজার (জ্যানথান গাম) বা স্টেবিলাইজার (E415) লেখা থাকতে পারে, দুটির অর্থ একই।" },
+        { "en": "Internationally, Codex uses the International Numbering System (INS), and its guideline says a manufacturer should declare the most descriptive functional class in the ingredient list when an additive could serve several purposes. In the United States, a chemical preservative must be named along with a statement of its function, for example preservative or to retard spoilage. Labels in Bangladesh and other countries may differ in format, and imported products can reflect the rules of the country that made them.", "bn": "আন্তর্জাতিকভাবে কোডেক্স আন্তর্জাতিক নম্বরিং ব্যবস্থা (আইএনএস) ব্যবহার করে, এবং তাদের নির্দেশিকা বলে কোনো সংযোজনের একাধিক কাজ থাকলে উৎপাদককে উপাদান তালিকায় সবচেয়ে বর্ণনামূলক কার্যশ্রেণি ঘোষণা করতে হবে। যুক্তরাষ্ট্রে রাসায়নিক প্রিজারভেটিভের নামের সঙ্গে এর কাজ উল্লেখ করতে হয়, যেমন প্রিজারভেটিভ বা পচন রোধের জন্য। বাংলাদেশ ও অন্যান্য দেশের লেবেলের বিন্যাস আলাদা হতে পারে, আর আমদানি পণ্যে উৎপাদনকারী দেশের নিয়মের ছাপ থাকতে পারে।" }
+      ],
+      "bullets": [
+        { "en": "A code on a label is a name, not a verdict on safety. See our guide to E-numbers.", "bn": "লেবেলের কোড একটি নাম, নিরাপত্তার রায় নয়। আমাদের ই-নম্বর গাইড দেখুন।" },
+        { "en": "If you have an allergy, WHO advises reading labels carefully. A single word can matter.", "bn": "অ্যালার্জি থাকলে ডব্লিউএইচও মনোযোগ দিয়ে লেবেল পড়তে বলে। একটি শব্দও গুরুত্বপূর্ণ হতে পারে।" }
+      ]
+    },
+    {
+      "heading": { "en": "What the label does not have to show", "bn": "লেবেলে যা দেখানো বাধ্যতামূলক নয়" },
+      "paragraphs": [
+        { "en": "Some substances used in food production never reach the list, and the rules explain why. A processing aid is used to do a job during manufacture, such as an enzyme that breaks down starch or a filter that removes colour. US federal rules exempt incidental additives present at insignificant levels with no technical or functional effect in the finished food. That includes substances removed before packaging, substances converted into constituents normally found in the food, and substances added for a technical effect in processing that remain only at insignificant levels.", "bn": "খাদ্য উৎপাদনে ব্যবহৃত কিছু পদার্থ তালিকায় পৌঁছায়ই না, আর বিধি এর কারণ ব্যাখ্যা করে। প্রক্রিয়াজাত সহায়ক উৎপাদনের সময় একটি কাজ করে, যেমন স্টার্চ ভাঙা এনজাইম বা রঙ সরানোর ফিল্টার। মার্কিন ফেডারেল বিধি তৈরি খাবারে কার্যকর প্রভাব ছাড়া নগণ্য মাত্রায় থাকা আনুষঙ্গিক সংযোজনকে অব্যাহতি দেয়। এর মধ্যে আছে প্যাকেট করার আগে সরানো পদার্থ, খাবারের স্বাভাবিক উপাদানে রূপান্তরিত পদার্থ, এবং প্রক্রিয়াকরণে কারিগরি প্রভাবের জন্য যোগ করা পদার্থ, যা কেবল নগণ্য মাত্রায় থাকে।" },
+        { "en": "Canada's policy similarly says that processing aids are not required on prepackaged food labels, because they fall outside the definitions of food additive and ingredient. EU labelling law also exempts food additives and enzymes used as processing aids from being named. A processing aid can still have residue limits, as hexane does in the United States, so not being on a label is not the same as not being regulated.", "bn": "কানাডার নীতিও বলে, প্যাকেটজাত খাবারের লেবেলে প্রক্রিয়াজাত সহায়ক দরকার নেই, কারণ এগুলো খাদ্য সংযোজন ও উপাদানের সংজ্ঞার বাইরে। ইইউ-র লেবেল আইনও প্রক্রিয়াজাত সহায়ক হিসেবে ব্যবহৃত খাদ্য সংযোজন ও এনজাইমের নাম উল্লেখ থেকে অব্যাহতি দেয়। তবু প্রক্রিয়াজাত সহায়কের অবশিষ্টাংশ সীমা থাকতে পারে, যেমন যুক্তরাষ্ট্রে হেক্সেনের আছে, তাই লেবেলে না থাকা মানে নিয়ন্ত্রণে না থাকা নয়।" }
+      ]
+    },
+    {
+      "heading": { "en": "Claims and special statements", "bn": "দাবি ও বিশেষ বিবৃতি" },
+      "paragraphs": [
+        { "en": "Front-of-pack words are regulated more than people assume. FDA's rules on monosodium glutamate are a good example. Added MSG must be listed as monosodium glutamate and cannot be hidden under spices or flavouring. Ingredients that naturally contain free glutamate, such as yeast extract or hydrolysed vegetable protein, must be listed, but the label need not state that they contain glutamate. A product containing them cannot claim No MSG or No added MSG.", "bn": "প্যাকেটের সামনের শব্দ মানুষের ধারণার চেয়ে বেশি নিয়ন্ত্রিত। মনোসোডিয়াম গ্লুটামেট নিয়ে এফডিএ-র বিধি একটি ভালো উদাহরণ। যোগ করা এমএসজি মনোসোডিয়াম গ্লুটামেট নামে থাকতে হবে, মশলা বা ফ্লেভারিংয়ের আড়ালে রাখা যায় না। ইস্ট এক্সট্র্যাক্ট বা হাইড্রোলাইজড ভেজিটেবল প্রোটিনের মতো স্বাভাবিকভাবে মুক্ত গ্লুটামেটযুক্ত উপাদান থাকতে হবে, তবে তাতে গ্লুটামেট আছে বলে লেবেলে লেখা বাধ্যতামূলক নয়। এমন পণ্যে এমএসজি নেই বা যোগ করা হয়নি বলে দাবি করা যায় না।" },
+        { "en": "Some statements exist for a specific group. Products containing aspartame must carry a statement that they contain phenylalanine, because people with phenylketonuria need to restrict it. For everyone else that line may mean nothing; for them it is essential. Natural and artificial flavours also have legal definitions, and those are about the source, not the safety.", "bn": "কিছু বিবৃতি একটি নির্দিষ্ট গোষ্ঠীর জন্য। অ্যাসপারটেমযুক্ত পণ্যে ফিনাইলঅ্যালানিন থাকার বিবৃতি দিতে হয়, কারণ ফিনাইলকিটোনিউরিয়া আক্রান্তদের এটি সীমিত করতে হয়। অন্যদের কাছে এই লাইনের অর্থ নাও থাকতে পারে; তাঁদের জন্য এটি অপরিহার্য। প্রাকৃতিক ও কৃত্রিম ফ্লেভারেরও আইনি সংজ্ঞা আছে, যা উৎস নিয়ে, নিরাপত্তা নিয়ে নয়।" }
+      ]
+    },
+    {
+      "heading": { "en": "Putting it into practice", "bn": "বাস্তবে প্রয়োগ" },
+      "paragraphs": [
+        { "en": "A label is a set of facts, and it works best when you look for the fact you actually need. If you have an allergy, look for that word. If a child in your home has phenylketonuria, look for the phenylalanine statement. If you want less of a particular ingredient, check how high it sits on the list.", "bn": "লেবেল হলো তথ্যের সমষ্টি, আর যে তথ্য আপনার দরকার তা খুঁজলেই এটি সবচেয়ে ভালো কাজ করে। অ্যালার্জি থাকলে সেই শব্দটি খুঁজুন। বাড়িতে ফিনাইলকিটোনিউরিয়া আক্রান্ত শিশু থাকলে ফিনাইলঅ্যালানিনের বিবৃতি দেখুন। কোনো উপাদান কম চাইলে দেখুন তালিকায় সেটি কত ওপরে আছে।" },
+        { "en": "A label cannot tell you the risk of a substance at the amount you eat, because that depends on how much of the product you consume and how often. For that, the independent assessments behind each ingredient, and the distinction between hazard and risk, are more useful than the word on the packet. Our ingredient pages link to those sources so you can check them for yourself.", "bn": "আপনি যে পরিমাণ খাচ্ছেন তাতে কোনো পদার্থের ঝুঁকি লেবেল বলতে পারে না, কারণ তা নির্ভর করে আপনি কতটা ও কতবার পণ্যটি খান তার ওপর। সেজন্য প্রতিটি উপাদানের পেছনের স্বাধীন মূল্যায়ন এবং বিপত্তি ও ঝুঁকির পার্থক্য প্যাকেটের শব্দের চেয়ে বেশি কাজের। আমাদের উপাদান পাতায় সেই উৎসগুলোর লিংক আছে, যাতে আপনি নিজেই যাচাই করতে পারেন।" }
+      ]
+    }
+  ],
+  "references": [
+    { "id": "cfr-101-4", "org": "US Code of Federal Regulations", "title": "21 CFR 101.4 Food; designation of ingredients", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol2/xml/CFR-2024-title21-vol2-sec101-4.xml", "kind": "regulatory" },
+    { "id": "cfr-101-22", "org": "US Code of Federal Regulations", "title": "21 CFR 101.22 Foods; labeling of spices, flavorings, colorings and chemical preservatives", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol2/xml/CFR-2024-title21-vol2-sec101-22.xml", "kind": "regulatory" },
+    { "id": "cfr-101-100", "org": "US Code of Federal Regulations", "title": "21 CFR 101.100 Food; exemptions from labeling", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol2/xml/CFR-2024-title21-vol2-sec101-100.xml", "kind": "regulatory" },
+    { "id": "cfr-173-270", "org": "US Code of Federal Regulations", "title": "21 CFR 173.270 Hexane", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol3/xml/CFR-2024-title21-vol3-sec173-270.xml", "kind": "regulatory" },
+    { "id": "efsa-topic", "org": "EFSA", "title": "Food additives (topic page)", "year": 2026, "url": "https://www.efsa.europa.eu/en/topics/topic/food-additives", "kind": "agency-guidance" },
+    { "id": "codex-ins", "org": "Codex Alimentarius Commission", "title": "Class Names and the International Numbering System for Food Additives (CAC/GL 36-1989, amended 2015)", "year": 2015, "url": "https://www.fao.org/input/download/standards/13341/CXG_036e_2015.pdf", "kind": "regulatory" },
+    { "id": "canada-pa", "org": "Health Canada", "title": "Policy for Differentiating Food Additives and Processing Aids", "year": 2014, "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/reports-publications/policy-differentiating-food-additives-processing-aids-2008.html", "kind": "agency-guidance" },
+    { "id": "eu-1169", "org": "European Union", "title": "Regulation (EU) No 1169/2011 on the provision of food information to consumers", "year": 2011, "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A32011R1169", "kind": "regulatory" },
+    { "id": "fda-msg", "org": "US FDA", "title": "Questions and Answers on Monosodium Glutamate (MSG)", "year": 2026, "url": "https://www.fda.gov/food/food-additives-petitions/questions-and-answers-monosodium-glutamate-msg", "kind": "agency-guidance" },
+    { "id": "fda-sweeteners", "org": "US FDA", "title": "Aspartame and Other Sweeteners in Food", "year": 2025, "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food", "kind": "agency-guidance" },
+    { "id": "who-additives", "org": "World Health Organization", "title": "Food additives (fact sheet)", "year": 2023, "url": "https://www.who.int/news-room/fact-sheets/detail/food-additives", "kind": "agency-guidance" }
+  ],
+  "relatedIngredients": ["monosodium-glutamate", "aspartame", "xanthan-gum", "citric-acid", "sodium-benzoate"],
+  "checkedOn": "2026-11-09"
+}

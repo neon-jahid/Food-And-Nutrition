@@ -1,0 +1,591 @@
+{
+ "monk-fruit-extract": {
+  "src": "/images/ingredients/monk-fruit-extract.webp",
+  "sm": "/images/ingredients/monk-fruit-extract-sm.webp",
+  "w": 640,
+  "h": 640,
+  "file": "羅漢果.jpg",
+  "author": "François Nguyen",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:%E7%BE%85%E6%BC%A2%E6%9E%9C.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "A pile of round, dull brown dried fruits with lightly scuffed skins.",
+   "bn": "হালকা আঁচড় লাগা খোসার গোল, ম্যাটমেটে বাদামি শুকনো ফলের স্তূপ।"
+  },
+  "caption": {
+   "en": "Dried monk fruit (luo han guo, Siraitia grosvenorii), the fruit its sweet extract comes from.",
+   "bn": "শুকনো মংক ফল (লুও হান গুও, Siraitia grosvenorii), যে ফল থেকে এর মিষ্টি নির্যাস তৈরি হয়।"
+  }
+ },
+ "lactic-acid": {
+  "src": "/images/ingredients/lactic-acid.webp",
+  "sm": "/images/ingredients/lactic-acid-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Racemic lactic acid sample horizontal.jpg",
+  "author": "LHcheM",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Racemic_lactic_acid_sample_horizontal.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A small clear glass bottle with a plastic screw cap, half filled with a colourless liquid.",
+   "bn": "প্লাস্টিকের প্যাঁচানো ঢাকনাসহ ছোট স্বচ্ছ কাচের বোতল, অর্ধেক পর্যন্ত বর্ণহীন তরলে ভরা।"
+  },
+  "caption": {
+   "en": "A laboratory sample of DL-lactic acid, a colourless liquid.",
+   "bn": "ডিএল-ল্যাকটিক অ্যাসিডের পরীক্ষাগার নমুনা, একটি বর্ণহীন তরল।"
+  }
+ },
+ "malic-acid": {
+  "src": "/images/ingredients/malic-acid.webp",
+  "sm": "/images/ingredients/malic-acid-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Malic acid crystals.jpg",
+  "author": "Misiek1962",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Malic_acid_crystals.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "Microscope view of branching, fern-like crystals and larger ridged shapes on a dark background, with patches of yellow and orange.",
+   "bn": "অণুবীক্ষণ যন্ত্রে দেখা গাঢ় পটভূমিতে ফার্নের মতো শাখাযুক্ত স্ফটিক ও বড় খাঁজকাটা আকৃতি, মাঝে হলুদ ও কমলা ছোপ।"
+  },
+  "caption": {
+   "en": "Recrystallised malic acid under a microscope.",
+   "bn": "অণুবীক্ষণ যন্ত্রে পুনঃস্ফটিকীকৃত ম্যালিক অ্যাসিড।"
+  }
+ },
+ "magnesium-carbonate": {
+  "src": "/images/ingredients/magnesium-carbonate.webp",
+  "sm": "/images/ingredients/magnesium-carbonate-sm.webp",
+  "w": 640,
+  "h": 543,
+  "file": "Magnesite.jpg",
+  "author": "Didier Descouens",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Magnesite.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "A single blocky, cloudy white crystal with brownish patches, on a black background.",
+   "bn": "কালো পটভূমিতে বাদামি ছোপসহ একটি চৌকো, ঘোলাটে সাদা স্ফটিক।"
+  },
+  "caption": {
+   "en": "A magnesite crystal from Brazil, the natural mineral form of magnesium carbonate. The food additive is a purified white powder, not this mineral specimen.",
+   "bn": "ব্রাজিলের একটি ম্যাগনেসাইট স্ফটিক, ম্যাগনেসিয়াম কার্বনেটের প্রাকৃতিক খনিজ রূপ। খাদ্য সংযোজনটি পরিশোধিত সাদা গুঁড়া, এই খনিজ নমুনা নয়।"
+  }
+ },
+ "monosodium-glutamate": {
+  "src": "/images/ingredients/monosodium-glutamate.webp",
+  "sm": "/images/ingredients/monosodium-glutamate-sm.webp",
+  "w": 640,
+  "h": 399,
+  "file": "MSG crystals.JPG",
+  "author": "Ragesoss",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:MSG_crystals.JPG",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A low mound of thin, white, needle-like crystals scattered on a dark surface.",
+   "bn": "গাঢ় জমিনে ছড়ানো সরু, সাদা, সুচের মতো স্ফটিকের নিচু স্তূপ।"
+  },
+  "caption": {
+   "en": "Crystals of monosodium glutamate (MSG).",
+   "bn": "মনোসোডিয়াম গ্লুটামেটের (এমএসজি) স্ফটিক।"
+  }
+ },
+ "potassium-iodate": {
+  "src": "/images/ingredients/potassium-iodate.webp",
+  "sm": "/images/ingredients/potassium-iodate-sm.webp",
+  "w": 640,
+  "h": 640,
+  "file": "Kaliumiodat.jpg",
+  "author": "SPOTzillah",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Kaliumiodat.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A small heap of off-white powder in a round, shallow glass dish.",
+   "bn": "গোল, অগভীর কাচের পাত্রে অল্প একটু ঘিয়ে-সাদা গুঁড়ার স্তূপ।"
+  },
+  "caption": {
+   "en": "A laboratory sample of potassium iodate powder.",
+   "bn": "পটাশিয়াম আয়োডেট গুঁড়ার পরীক্ষাগার নমুনা।"
+  }
+ },
+ "sodium-bicarbonate": {
+  "src": "/images/ingredients/sodium-bicarbonate.webp",
+  "sm": "/images/ingredients/sodium-bicarbonate-sm.webp",
+  "w": 640,
+  "h": 382,
+  "file": "Sodium bicarbonate.jpg",
+  "author": "Thavox",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Sodium_bicarbonate.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A mound of fine white powder on an olive-brown surface.",
+   "bn": "জলপাই-বাদামি জমিনে মিহি সাদা গুঁড়ার স্তূপ।"
+  },
+  "caption": {
+   "en": "Sodium bicarbonate (baking soda), a fine white powder.",
+   "bn": "সোডিয়াম বাইকার্বোনেট (বেকিং সোডা), একটি মিহি সাদা গুঁড়া।"
+  }
+ },
+ "titanium-dioxide": {
+  "src": "/images/ingredients/titanium-dioxide.webp",
+  "sm": "/images/ingredients/titanium-dioxide-sm.webp",
+  "w": 640,
+  "h": 441,
+  "file": "Titanium-dioxide-sample.jpg",
+  "author": "Benjah-bmm27",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Titanium-dioxide-sample.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A small heap of white powder with loose crumbs around it on a pale grey surface.",
+   "bn": "ফ্যাকাশে ধূসর জমিনে অল্প একটু সাদা গুঁড়ার স্তূপ, চারপাশে ছড়ানো গুঁড়ার দানা।"
+  },
+  "caption": {
+   "en": "A sample of titanium dioxide, a bright white powder.",
+   "bn": "টাইটানিয়াম ডাইঅক্সাইডের নমুনা, একটি উজ্জ্বল সাদা গুঁড়া।"
+  }
+ },
+ "shellac": {
+  "src": "/images/ingredients/shellac.webp",
+  "sm": "/images/ingredients/shellac-sm.webp",
+  "w": 640,
+  "h": 537,
+  "file": "Shellac flakes closeup.JPG",
+  "author": "Nuberger13 at en.wikipedia",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Shellac_flakes_closeup.JPG",
+  "subject": "ingredient",
+  "alt": {
+   "en": "Thin, translucent flakes of amber and dark red-brown resin spread on a white surface.",
+   "bn": "সাদা জমিনে ছড়ানো পাতলা, স্বচ্ছাভ অ্যাম্বার ও গাঢ় লালচে-বাদামি রজনের চলটা।"
+  },
+  "caption": {
+   "en": "Flakes of shellac in two grades. Shellac is a resin secreted by lac insects.",
+   "bn": "দুই গ্রেডের শেলাকের চলটা। শেলাক হলো লাক্ষা পোকার নিঃসৃত রজন।"
+  }
+ },
+ "sodium-nitrite": {
+  "src": "/images/ingredients/sodium-nitrite.webp",
+  "sm": "/images/ingredients/sodium-nitrite-sm.webp",
+  "w": 640,
+  "h": 607,
+  "file": "Azotyn sodu.JPG",
+  "author": "Aleksander Sobolewski",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Azotyn_sodu.JPG",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A heap of pale, yellowish-white granular crystals in a round glass dish.",
+   "bn": "গোল কাচের পাত্রে ফ্যাকাশে হলদেটে-সাদা দানাদার স্ফটিকের স্তূপ।"
+  },
+  "caption": {
+   "en": "A laboratory sample of sodium nitrite.",
+   "bn": "সোডিয়াম নাইট্রাইটের পরীক্ষাগার নমুনা।"
+  }
+ },
+ "zinc-oxide": {
+  "src": "/images/ingredients/zinc-oxide.webp",
+  "sm": "/images/ingredients/zinc-oxide-sm.webp",
+  "w": 588,
+  "h": 496,
+  "file": "Zinc oxide.jpg",
+  "author": "w:User:Walkerma",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Zinc_oxide.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A small heap of white powder on a round glass dish.",
+   "bn": "গোল কাচের পাত্রে অল্প একটু সাদা গুঁড়ার স্তূপ।"
+  },
+  "caption": {
+   "en": "A sample of zinc oxide, a white powder.",
+   "bn": "জিংক অক্সাইডের নমুনা, একটি সাদা গুঁড়া।"
+  }
+ },
+ "high-fructose-corn-syrup": {
+  "src": "/images/ingredients/high-fructose-corn-syrup.webp",
+  "sm": "/images/ingredients/high-fructose-corn-syrup-sm.webp",
+  "w": 640,
+  "h": 559,
+  "file": "Maize Corn.jpg",
+  "author": "Joel Penner from Winnipeg, Canada",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Maize_Corn.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "A cluster of glossy yellow maize kernels on a black background.",
+   "bn": "কালো পটভূমিতে চকচকে হলুদ ভুট্টার দানার গুচ্ছ।"
+  },
+  "caption": {
+   "en": "Maize kernels, the usual raw material for this syrup. The kernels' starch is broken down and converted with enzymes; the photo does not show the syrup itself.",
+   "bn": "ভুট্টার দানা, এই সিরাপের সাধারণ কাঁচামাল। দানার স্টার্চ ভেঙে এনজাইম দিয়ে রূপান্তর করা হয়; ছবিতে সিরাপটি নিজে দেখা যাচ্ছে না।"
+  }
+ },
+ "phosphoric-acid": {
+  "src": "/images/ingredients/phosphoric-acid.webp",
+  "sm": "/images/ingredients/phosphoric-acid-sm.webp",
+  "w": 640,
+  "h": 540,
+  "file": "Phosphorit (Staffelit) - Staffel Lahngebiet.jpg",
+  "author": "Ra'ike (see also: de:Benutzer:Ra'ike )",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Phosphorit_(Staffelit)_-_Staffel_Lahngebiet.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "A lumpy rock specimen with creamy white and rusty brown patches, displayed on a glass stand.",
+   "bn": "কাচের স্ট্যান্ডে রাখা ঘিয়ে-সাদা ও মরচে-বাদামি ছোপওয়ালা এবড়োখেবড়ো পাথরের নমুনা।"
+  },
+  "caption": {
+   "en": "Phosphorite, a phosphate-rich rock, in a mineralogical museum. Phosphate rock is the main raw material for phosphoric acid; the additive itself is a clear liquid.",
+   "bn": "খনিজ জাদুঘরে রাখা ফসফেটসমৃদ্ধ পাথর ফসফোরাইট। ফসফেট শিলা ফসফরিক অ্যাসিডের প্রধান কাঁচামাল; সংযোজনটি নিজে একটি স্বচ্ছ তরল।"
+  }
+ },
+ "yeast-extract": {
+  "src": "/images/ingredients/yeast-extract.webp",
+  "sm": "/images/ingredients/yeast-extract-sm.webp",
+  "w": 640,
+  "h": 640,
+  "file": "S cerevisiae under DIC microscopy.jpg",
+  "author": "Masur",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:S_cerevisiae_under_DIC_microscopy.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "Microscope view of several oval cells on a grey background, some with smaller buds attached.",
+   "bn": "ধূসর পটভূমিতে অণুবীক্ষণ যন্ত্রে দেখা কয়েকটি ডিম্বাকার কোষ, কয়েকটির গায়ে ছোট কুঁড়ি লেগে আছে।"
+  },
+  "caption": {
+   "en": "Baker's yeast cells (Saccharomyces cerevisiae) under a microscope, some budding. Yeast extract is made from the contents of cells like these.",
+   "bn": "অণুবীক্ষণ যন্ত্রে বেকারস ইস্টের কোষ (Saccharomyces cerevisiae), কয়েকটিতে কুঁড়ি গজাচ্ছে। এমন কোষের ভেতরের উপাদান থেকেই ইস্ট এক্সট্র্যাক্ট তৈরি হয়।"
+  }
+ },
+ "vanillin": {
+  "src": "/images/ingredients/vanillin.webp",
+  "sm": "/images/ingredients/vanillin-sm.webp",
+  "w": 640,
+  "h": 311,
+  "file": "Vanilla 6beans (rot. 90 deg.).JPG",
+  "author": "Vanilla_6beans.JPG : B.navez derivative work: Andrzej 22 ( talk )",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Vanilla_6beans_(rot._90_deg.).JPG",
+  "subject": "source",
+  "alt": {
+   "en": "Six long, thin, wrinkled dark brown vanilla pods lying across one another on a white background.",
+   "bn": "সাদা পটভূমিতে একটির ওপর আরেকটি রাখা ছয়টি লম্বা, সরু, কুঁচকানো গাঢ় বাদামি ভ্যানিলা শুঁটি।"
+  },
+  "caption": {
+   "en": "Cured vanilla pods, the natural source of vanillin. Most vanillin used in food is manufactured rather than extracted from pods.",
+   "bn": "প্রক্রিয়াজাত ভ্যানিলা শুঁটি, ভ্যানিলিনের প্রাকৃতিক উৎস। খাবারে ব্যবহৃত বেশিরভাগ ভ্যানিলিন শুঁটি থেকে নিষ্কাশিত নয়, কারখানায় তৈরি।"
+  }
+ },
+ "steviol-glycosides": {
+  "src": "/images/ingredients/steviol-glycosides.webp",
+  "sm": "/images/ingredients/steviol-glycosides-sm.webp",
+  "w": 593,
+  "h": 640,
+  "file": "Stevia rebaudiana foliage.jpg",
+  "author": "Ethel Aardvark",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Stevia_rebaudiana_foliage.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "Upright green stems of a leafy plant with soft, serrated leaves growing in pairs.",
+   "bn": "জোড়ায় জোড়ায় গজানো নরম, খাঁজকাটা পাতাসহ পাতাবহুল গাছের খাড়া সবুজ ডাঁটা।"
+  },
+  "caption": {
+   "en": "Foliage of the stevia plant (Stevia rebaudiana). Steviol glycosides are extracted from its leaves.",
+   "bn": "স্টেভিয়া গাছের (Stevia rebaudiana) পাতা। এই পাতা থেকেই স্টিভিয়ল গ্লাইকোসাইড নিষ্কাশন করা হয়।"
+  }
+ },
+ "thaumatin": {
+  "src": "/images/ingredients/thaumatin.webp",
+  "sm": "/images/ingredients/thaumatin-sm.webp",
+  "w": 640,
+  "h": 426,
+  "file": "Fruit du katemfe ou Thaumatococcus daniellii.JPG",
+  "author": "Cyriac Gbogou",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Fruit_du_katemfe_ou_Thaumatococcus_daniellii.JPG",
+  "subject": "source",
+  "alt": {
+   "en": "Two bright red, three-sided fruits lying on the forest floor among dry stems and leaves.",
+   "bn": "শুকনো ডাঁটা ও পাতার মাঝে বনের মাটিতে পড়ে থাকা দুটি উজ্জ্বল লাল, তিন-পাশওয়ালা ফল।"
+  },
+  "caption": {
+   "en": "Fruit of the katemfe plant (Thaumatococcus daniellii). Thaumatin is a sweet protein extracted from the fruit's arils.",
+   "bn": "কাটেমফে গাছের (Thaumatococcus daniellii) ফল। থমাটিন হলো এই ফলের বীজাবরণ থেকে নিষ্কাশিত একটি মিষ্টি প্রোটিন।"
+  }
+ },
+ "sodium-citrate": {
+  "src": "/images/ingredients/sodium-citrate.webp",
+  "sm": "/images/ingredients/sodium-citrate-sm.webp",
+  "w": 640,
+  "h": 544,
+  "file": "Sodium citrate crystals.png",
+  "author": "SnailsAttack",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sodium_citrate_crystals.png",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A dense mass of clear, blocky crystals with a bluish tint.",
+   "bn": "নীলচে আভাযুক্ত স্বচ্ছ, চৌকো স্ফটিকের ঘন স্তূপ।"
+  },
+  "caption": {
+   "en": "Crystals of trisodium citrate, grown by evaporating a solution at room temperature.",
+   "bn": "ট্রাইসোডিয়াম সাইট্রেটের স্ফটিক, ঘরের তাপমাত্রায় দ্রবণ বাষ্পীভূত করে তৈরি।"
+  }
+ },
+ "carboxymethylcellulose": {
+  "src": "/images/ingredients/carboxymethylcellulose.webp",
+  "sm": "/images/ingredients/carboxymethylcellulose-sm.webp",
+  "w": 472,
+  "h": 640,
+  "file": "Sample of Carboxymethylcellulose.jpg",
+  "author": "LHcheM",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sample_of_Carboxymethylcellulose.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A small glass vial with a metal cap, partly filled with fine off-white powder.",
+   "bn": "ধাতব ঢাকনাসহ ছোট কাচের শিশি, অংশত মিহি ঘিয়ে-সাদা গুঁড়ায় ভরা।"
+  },
+  "caption": {
+   "en": "A sample of carboxymethylcellulose, a fine off-white powder.",
+   "bn": "কার্বক্সিমিথাইল সেলুলোজের নমুনা, একটি মিহি ঘিয়ে-সাদা গুঁড়া।"
+  }
+ },
+ "sodium-alginate": {
+  "src": "/images/ingredients/sodium-alginate.webp",
+  "sm": "/images/ingredients/sodium-alginate-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Bosque de macroalgas gigantes (Macrocystis pyrifera).jpg",
+  "author": "BravoGonzalo",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bosque_de_macroalgas_gigantes_(Macrocystis_pyrifera).jpg",
+  "subject": "source",
+  "alt": {
+   "en": "Underwater view looking up through tall golden-brown fronds of kelp with green water and filtered light.",
+   "bn": "পানির নিচ থেকে তোলা দৃশ্য: সবুজ পানি ও ছেঁকে আসা আলোর মধ্যে সোনালি-বাদামি কেল্পের লম্বা পাতা।"
+  },
+  "caption": {
+   "en": "A forest of giant kelp (Macrocystis pyrifera), one of the brown seaweeds from which alginates are extracted.",
+   "bn": "দৈত্যাকার কেল্পের (Macrocystis pyrifera) বন। এটি সেইসব বাদামি সামুদ্রিক শৈবালের একটি, যা থেকে অ্যালজিনেট নিষ্কাশন করা হয়।"
+  }
+ },
+ "pectin": {
+  "src": "/images/ingredients/pectin.webp",
+  "sm": "/images/ingredients/pectin-sm.webp",
+  "w": 640,
+  "h": 550,
+  "file": "Albedo or pith of orange peel.jpg",
+  "author": "Susan Slater",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Albedo_or_pith_of_orange_peel.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "A piece of orange peel lying pith side up on a wooden board, white and spongy with an orange rim.",
+   "bn": "কাঠের তক্তায় ভেতরের সাদা স্পঞ্জি দিক ওপরে রেখে রাখা কমলার খোসার টুকরা, কিনারা কমলা রঙের।"
+  },
+  "caption": {
+   "en": "The white pith of an orange peel. Commercial pectin is usually extracted from citrus peel or apple residue.",
+   "bn": "কমলার খোসার ভেতরের সাদা অংশ। বাণিজ্যিক পেকটিন সাধারণত লেবুজাতীয় ফলের খোসা বা আপেলের অবশিষ্টাংশ থেকে নিষ্কাশন করা হয়।"
+  }
+ },
+ "silicon-dioxide": {
+  "src": "/images/ingredients/silicon-dioxide.webp",
+  "sm": "/images/ingredients/silicon-dioxide-sm.webp",
+  "w": 640,
+  "h": 545,
+  "file": "Quartz Brésil.jpg",
+  "author": "Didier Descouens",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Quartz_Br%C3%A9sil.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "A cluster of clear, pointed six-sided crystals on a black background.",
+   "bn": "কালো পটভূমিতে স্বচ্ছ, সুচালো ছয়-পাশওয়ালা স্ফটিকের গুচ্ছ।"
+  },
+  "caption": {
+   "en": "Quartz crystals from Brazil. Quartz is a natural crystalline form of silicon dioxide; the food additive is a manufactured, non-crystalline powder, not ground quartz.",
+   "bn": "ব্রাজিলের কোয়ার্টজ স্ফটিক। কোয়ার্টজ সিলিকন ডাই-অক্সাইডের একটি প্রাকৃতিক স্ফটিক রূপ; খাদ্য সংযোজনটি কারখানায় তৈরি অস্ফটিকীয় গুঁড়া, গুঁড়া করা কোয়ার্টজ নয়।"
+  }
+ },
+ "tocopherols": {
+  "src": "/images/ingredients/tocopherols.webp",
+  "sm": "/images/ingredients/tocopherols-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Sunflower seeds. img 004.jpg",
+  "author": "Dmitry Makeev",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sunflower_seeds._img_004.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "A close-up of glossy black sunflower seeds in their striped shells.",
+   "bn": "ডোরাকাটা খোসায় চকচকে কালো সূর্যমুখী বীজের কাছ থেকে তোলা ছবি।"
+  },
+  "caption": {
+   "en": "Sunflower seeds, an oilseed naturally rich in tocopherols. The additive is an extract usually made from vegetable oils.",
+   "bn": "সূর্যমুখী বীজ, প্রাকৃতিকভাবে টোকোফেরলসমৃদ্ধ একটি তেলবীজ। সংযোজনটি সাধারণত উদ্ভিজ্জ তেল থেকে তৈরি নির্যাস।"
+  }
+ },
+ "hydroxypropyl-distarch-phosphate": {
+  "src": "/images/ingredients/hydroxypropyl-distarch-phosphate.webp",
+  "sm": "/images/ingredients/hydroxypropyl-distarch-phosphate-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Corn grains.JPG",
+  "author": "Miansari66",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Corn_grains.JPG",
+  "subject": "source",
+  "alt": {
+   "en": "Dried orange-yellow maize kernels on a white fluted plate, on a black background.",
+   "bn": "কালো পটভূমিতে সাদা ঢেউখেলানো প্লেটে শুকনো কমলা-হলুদ ভুট্টার দানা।"
+  },
+  "caption": {
+   "en": "Maize kernels, a common source of starch. The photo shows unmodified grain; this additive is starch that has been chemically modified after extraction.",
+   "bn": "ভুট্টার দানা, স্টার্চের একটি সাধারণ উৎস। ছবিতে অপরিবর্তিত দানা দেখা যাচ্ছে; এই সংযোজনটি নিষ্কাশনের পর রাসায়নিকভাবে পরিবর্তিত স্টার্চ।"
+  }
+ },
+ "acetylated-distarch-adipate": {
+  "src": "/images/ingredients/acetylated-distarch-adipate.webp",
+  "sm": "/images/ingredients/acetylated-distarch-adipate-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Corn kernels.jpg",
+  "author": "Danielgrad",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Corn_kernels.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "A dense layer of dried orange maize kernels with a few bits of husk and stalk.",
+   "bn": "শুকনো কমলা রঙের ভুট্টার দানার ঘন স্তর, মাঝে সামান্য খোসা ও ডাঁটার টুকরা।"
+  },
+  "caption": {
+   "en": "Harvested maize kernels, a common source of starch. The photo shows unmodified grain; this additive is starch that has been chemically modified after extraction.",
+   "bn": "সংগ্রহ করা ভুট্টার দানা, স্টার্চের একটি সাধারণ উৎস। ছবিতে অপরিবর্তিত দানা দেখা যাচ্ছে; এই সংযোজনটি নিষ্কাশনের পর রাসায়নিকভাবে পরিবর্তিত স্টার্চ।"
+  }
+ },
+ "sodium-benzoate": {
+  "src": "/images/ingredients/sodium-benzoate.webp",
+  "sm": "/images/ingredients/sodium-benzoate-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Sodium benzoate-substance.jpg",
+  "author": "Chemik10 at Polish Wikipedia",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sodium_benzoate-substance.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "A close-up of fine, slightly clumped white powder in a white dish.",
+   "bn": "সাদা পাত্রে সামান্য দলা বাঁধা মিহি সাদা গুঁড়ার কাছ থেকে তোলা ছবি।"
+  },
+  "caption": {
+   "en": "A sample of sodium benzoate in an evaporating dish.",
+   "bn": "বাষ্পীভবন পাত্রে সোডিয়াম বেনজোয়েটের নমুনা।"
+  }
+ },
+ "oxidised-starch": {
+  "src": "/images/ingredients/oxidised-starch.webp",
+  "sm": "/images/ingredients/oxidised-starch-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Potato Starch Polarized light 100x.jpg",
+  "author": "Photon 400 750",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Potato_Starch_Polarized_light_100x.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "Microscope view of many small oval granules striped in blue, red and orange on a pink background, with a scale bar in one corner.",
+   "bn": "অণুবীক্ষণ যন্ত্রে দেখা গোলাপি পটভূমিতে নীল, লাল ও কমলা ডোরাকাটা অসংখ্য ছোট ডিম্বাকার দানা, এক কোণে মাপের দাগ।"
+  },
+  "caption": {
+   "en": "Native potato starch granules in polarised light, before any modification. Oxidised starch is made by treating starch like this, and the photo does not show the finished additive.",
+   "bn": "পোলারাইজড আলোয় প্রাকৃতিক আলুর স্টার্চের দানা, কোনো পরিবর্তনের আগে। এ ধরনের স্টার্চকে প্রক্রিয়াজাত করেই অক্সিডাইজড স্টার্চ তৈরি হয়; ছবিতে তৈরি সংযোজনটি দেখা যাচ্ছে না।"
+  }
+ },
+ "nisin": {
+  "src": "/images/ingredients/nisin.webp",
+  "sm": "/images/ingredients/nisin-sm.webp",
+  "w": 640,
+  "h": 635,
+  "file": "Lactococcus lactis.jpg",
+  "author": "Minyoung Choi from Cupertino, CA, USA",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lactococcus_lactis.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "Circular microscope view of small purple-stained bacteria in short chains on a yellow background, crossed by a numbered measuring scale.",
+   "bn": "হলুদ পটভূমিতে ছোট ছোট শিকলে থাকা বেগুনি রঞ্জিত ব্যাকটেরিয়ার গোলাকার অণুবীক্ষণ দৃশ্য, মাঝ দিয়ে সংখ্যা দেওয়া মাপের রেখা।"
+  },
+  "caption": {
+   "en": "Lactococcus lactis, a lactic acid bacterium, stained and viewed under a microscope. Nisin is made by fermentation with this kind of bacterium.",
+   "bn": "ল্যাকটিক অ্যাসিড ব্যাকটেরিয়া Lactococcus lactis, রঞ্জিত করে অণুবীক্ষণ যন্ত্রে দেখা। এ ধরনের ব্যাকটেরিয়া দিয়ে গাঁজন করেই নিসিন তৈরি হয়।"
+  }
+ },
+ "rosemary-extract": {
+  "src": "/images/ingredients/rosemary-extract.webp",
+  "sm": "/images/ingredients/rosemary-extract-sm.webp",
+  "w": 480,
+  "h": 640,
+  "file": "Rosmarinus officinalis133095382.jpg",
+  "author": "THOR",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Rosmarinus_officinalis133095382.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "A sprig of rosemary with narrow green leaves and pale purple flowers, against a blurred background of more flowers.",
+   "bn": "অস্পষ্ট ফুলের পটভূমিতে সরু সবুজ পাতা ও ফ্যাকাশে বেগুনি ফুলসহ রোজমেরির ডাল।"
+  },
+  "caption": {
+   "en": "Rosemary (Rosmarinus officinalis) in flower, the plant from which rosemary extract is made.",
+   "bn": "ফুল ফোটা রোজমেরি (Rosmarinus officinalis), যে গাছ থেকে রোজমেরি নির্যাস তৈরি হয়।"
+  }
+ },
+ "lecithins": {
+  "src": "/images/ingredients/lecithins.webp",
+  "sm": "/images/ingredients/lecithins-sm.webp",
+  "w": 424,
+  "h": 640,
+  "file": "Multi colored soybeans.jpg",
+  "author": "Scott Bauer, U.S. Department of Agriculture",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Multi_colored_soybeans.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "Soybeans in cream, green, brown and black spilling out of a paper packet onto a grey surface.",
+   "bn": "কাগজের প্যাকেট থেকে ধূসর জমিনে ছড়িয়ে পড়া ঘিয়ে, সবুজ, বাদামি ও কালো রঙের সয়াবিন।"
+  },
+  "caption": {
+   "en": "Soybeans in several varieties. Soybeans are a major source of food lecithin, which is obtained during oil processing.",
+   "bn": "কয়েক জাতের সয়াবিন। খাদ্য লেসিথিনের একটি প্রধান উৎস সয়াবিন, তেল প্রক্রিয়াজাতের সময় এটি পাওয়া যায়।"
+  }
+ },
+ "xylitol": {
+  "src": "/images/ingredients/xylitol.webp",
+  "sm": "/images/ingredients/xylitol-sm.webp",
+  "w": 612,
+  "h": 438,
+  "file": "Xylitol crystals.jpg",
+  "author": "Anders Østergaard Madsen , Denmark",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Xylitol_crystals.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "Two clear, many-sided crystals seen under a microscope on a pale yellow background.",
+   "bn": "ফ্যাকাশে হলুদ পটভূমিতে অণুবীক্ষণ যন্ত্রে দেখা দুটি স্বচ্ছ, বহুতলীয় স্ফটিক।"
+  },
+  "caption": {
+   "en": "Crystals of xylitol under a microscope.",
+   "bn": "অণুবীক্ষণ যন্ত্রে জাইলিটলের স্ফটিক।"
+  }
+ }
+}

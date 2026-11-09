@@ -1,0 +1,857 @@
+{
+ "app:instant-noodles": {
+  "src": "/images/ingredients/app-instant-noodles.webp",
+  "sm": "/images/ingredients/app-instant-noodles-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Typical instant noodles (1).jpg",
+  "author": "Ninosan",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Typical_instant_noodles_(1).jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "A square block of dried, wavy instant noodles on a plain pale background.",
+   "bn": "হালকা রঙের সাদামাটা পটভূমিতে শুকনো, ঢেউখেলানো ইনস্ট্যান্ট নুডলসের একটি চৌকো খণ্ড।"
+  },
+  "caption": {
+   "en": "A dried block of instant noodles. An example of this food type; no particular ingredient is shown.",
+   "bn": "ইনস্ট্যান্ট নুডলসের একটি শুকনো খণ্ড। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:chips-snacks": {
+  "src": "/images/ingredients/app-chips-snacks.webp",
+  "sm": "/images/ingredients/app-chips-snacks-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Tayto cheese and onion crisps.jpg",
+  "author": "Samuel Wiki",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Tayto_cheese_and_onion_crisps.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "Golden potato crisps in a white bowl on a white surface.",
+   "bn": "সাদা জমিনের ওপর সাদা বাটিতে সোনালি আলুর চিপস।"
+  },
+  "caption": {
+   "en": "Potato crisps in a bowl. An example of this food type; no particular ingredient is shown.",
+   "bn": "বাটিতে আলুর চিপস। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:chocolate-confectionery": {
+  "src": "/images/ingredients/app-chocolate-confectionery.webp",
+  "sm": "/images/ingredients/app-chocolate-confectionery-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Chocolat Ruby.jpg",
+  "author": "Zacharie Grossen",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Chocolat_Ruby.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "Two broken pieces of pink chocolate with whole nuts visible in the cut faces, on a white surface.",
+   "bn": "সাদা জমিনের ওপর গোলাপি চকলেটের দুটি ভাঙা টুকরো, কাটা অংশে আস্ত বাদাম দেখা যাচ্ছে।"
+  },
+  "caption": {
+   "en": "A broken bar of pink chocolate with nuts. An example of this food type; no particular additive is shown.",
+   "bn": "বাদাম দেওয়া গোলাপি চকলেটের একটি ভাঙা বার। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো সংযোজন দেখানো হয়নি।"
+  }
+ },
+ "app:bread-bakery": {
+  "src": "/images/ingredients/app-bread-bakery.webp",
+  "sm": "/images/ingredients/app-bread-bakery-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Breads of Russia.jpg",
+  "author": "Dmitry Makeev",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Breads_of_Russia.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "A sliced dark loaf beside a shaped golden loaf, a round brown loaf and a tall tin loaf, on a white background.",
+   "bn": "সাদা পটভূমিতে একটি কাটা গাঢ় রঙের পাউরুটির পাশে সোনালি, গোল বাদামি ও উঁচু ছাঁচের পাউরুটি।"
+  },
+  "caption": {
+   "en": "Sliced and whole loaves of bread. An example of this food type; no particular ingredient is shown.",
+   "bn": "কাটা ও আস্ত পাউরুটি। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:juices": {
+  "src": "/images/ingredients/app-juices.webp",
+  "sm": "/images/ingredients/app-juices-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Orange Juice (13638538444).jpg",
+  "author": "Yuri Samoilov",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Orange_Juice_(13638538444).jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "A short glass of orange juice with a whole orange behind it, on a warm orange background.",
+   "bn": "উষ্ণ কমলা পটভূমিতে ছোট গ্লাসে কমলার রস, পেছনে একটি আস্ত কমলা।"
+  },
+  "caption": {
+   "en": "A glass of orange juice. An example of this food type; no particular ingredient is shown.",
+   "bn": "এক গ্লাস কমলার রস। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:biscuits": {
+  "src": "/images/ingredients/app-biscuits.webp",
+  "sm": "/images/ingredients/app-biscuits-sm.webp",
+  "w": 640,
+  "h": 562,
+  "file": "Bowl of digestive biscuits.jpg",
+  "author": "LearningLark from United States",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bowl_of_digestive_biscuits.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "Round, pale brown biscuits with pinprick holes stacked in a small white dish on a tea tray.",
+   "bn": "চায়ের ট্রেতে ছোট সাদা পাত্রে সাজানো ছোট ছোট ছিদ্রওয়ালা গোল, হালকা বাদামি বিস্কুট।"
+  },
+  "caption": {
+   "en": "Round digestive biscuits in a dish. An example of this food type; no particular ingredient is shown.",
+   "bn": "পাত্রে গোল ডাইজেস্টিভ বিস্কুট। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:infant-foods": {
+  "src": "/images/ingredients/app-infant-foods.webp",
+  "sm": "/images/ingredients/app-infant-foods-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Puréed veggies.jpg",
+  "author": "Frédérique Voisin-Demery from Grenoble, France",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Pur%C3%A9ed_veggies.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "Six glass jars in a row holding green, yellow, orange and deep red purées.",
+   "bn": "সারি করে রাখা ছয়টি কাচের বয়ামে সবুজ, হলুদ, কমলা ও গাঢ় লাল পিউরি।"
+  },
+  "caption": {
+   "en": "Home-made purées in jars, prepared for a baby. An example of this food type; no particular ingredient is shown.",
+   "bn": "শিশুর জন্য বাড়িতে তৈরি, বয়ামে রাখা পিউরি। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:breakfast-cereals": {
+  "src": "/images/ingredients/app-breakfast-cereals.webp",
+  "sm": "/images/ingredients/app-breakfast-cereals-sm.webp",
+  "w": 640,
+  "h": 640,
+  "file": "Bowl of mixed cereals.jpg",
+  "author": "Toby Scratch Fanatic",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bowl_of_mixed_cereals.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "A blue bowl of mixed coloured cereal rings and flakes in milk, with a spoon, seen from above.",
+   "bn": "ওপর থেকে দেখা নীল বাটিতে দুধে ভেজানো রঙিন সিরিয়ালের রিং ও ফ্লেক্স, সঙ্গে একটি চামচ।"
+  },
+  "caption": {
+   "en": "Mixed breakfast cereals in milk. An example of this food type; no particular ingredient is shown.",
+   "bn": "দুধে মেশানো নানা রকম ব্রেকফাস্ট সিরিয়াল। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:beer-wine": {
+  "src": "/images/ingredients/app-beer-wine.webp",
+  "sm": "/images/ingredients/app-beer-wine-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Beer in glass close up.jpg",
+  "author": "Public Domain Images",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Beer_in_glass_close_up.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "Close-up of a glass of amber beer with a layer of fine foam at the top.",
+   "bn": "ওপরে মিহি ফেনার স্তরসহ অ্যাম্বার রঙের বিয়ারের গ্লাসের কাছ থেকে তোলা ছবি।"
+  },
+  "caption": {
+   "en": "Beer and its foam in a glass. An example of this food type; no particular ingredient is shown.",
+   "bn": "গ্লাসে বিয়ার ও তার ফেনা। এটি এই ধরনের পানীয়ের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "cat:natural-sweeteners": {
+  "src": "/images/ingredients/cat-natural-sweeteners.webp",
+  "sm": "/images/ingredients/cat-natural-sweeteners-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Stevia rebaudiana leaves dry.JPG",
+  "author": "NmiPortal",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Stevia_rebaudiana_leaves_dry.JPG",
+  "subject": "source",
+  "alt": {
+   "en": "A small pile of dried green stevia leaves on a pale background.",
+   "bn": "হালকা পটভূমিতে শুকনো সবুজ স্টেভিয়া পাতার ছোট একটি স্তূপ।"
+  },
+  "caption": {
+   "en": "Dried leaves of Stevia rebaudiana, the plant from which steviol glycoside sweeteners are extracted.",
+   "bn": "স্টেভিয়া রেবাউডিয়ানার শুকনো পাতা; এই গাছ থেকেই স্টেভিওল গ্লাইকোসাইড মিষ্টিকারক আহরণ করা হয়।"
+  }
+ },
+ "cat:artificial-flavors": {
+  "src": "/images/ingredients/cat-artificial-flavors.webp",
+  "sm": "/images/ingredients/cat-artificial-flavors-sm.webp",
+  "w": 640,
+  "h": 499,
+  "file": "Gas chromatographs with functional detectors in CAFIA laboratory, Czech Republic.jpg",
+  "author": "Sarka Na kopci",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gas_chromatographs_with_functional_detectors_in_CAFIA_laboratory,_Czech_Republic.jpg",
+  "subject": "laboratory",
+  "alt": {
+   "en": "A row of white gas chromatography instruments on a laboratory bench.",
+   "bn": "পরীক্ষাগারের টেবিলে সারি করে রাখা সাদা গ্যাস ক্রোমাটোগ্রাফি যন্ত্র।"
+  },
+  "caption": {
+   "en": "Gas chromatographs in a Czech food-inspection laboratory. This technique separates volatile compounds, which is how aroma substances are commonly analysed.",
+   "bn": "চেক প্রজাতন্ত্রের একটি খাদ্য পরিদর্শন পরীক্ষাগারে গ্যাস ক্রোমাটোগ্রাফ। এই পদ্ধতি উদ্বায়ী যৌগ আলাদা করে, সুগন্ধি পদার্থ সাধারণত এভাবেই বিশ্লেষণ করা হয়।"
+  }
+ },
+ "cat:flavor-enhancers": {
+  "src": "/images/ingredients/cat-flavor-enhancers.webp",
+  "sm": "/images/ingredients/cat-flavor-enhancers-sm.webp",
+  "w": 640,
+  "h": 584,
+  "file": "Kombu.jpg",
+  "author": "Alice Wiegand, ( Lyzzy )",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Kombu.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "Overlapping sheets of dried kombu kelp, dark brown and olive, on white.",
+   "bn": "সাদা পটভূমিতে একটির ওপর আরেকটি রাখা গাঢ় বাদামি ও জলপাই রঙের শুকনো কম্বু কেল্পের পাত।"
+  },
+  "caption": {
+   "en": "Dried kombu, a kelp naturally rich in glutamate, the savoury umami compound behind flavour enhancers such as MSG.",
+   "bn": "শুকনো কম্বু, প্রাকৃতিকভাবে গ্লুটামেটসমৃদ্ধ একটি কেল্প; এমএসজির মতো স্বাদবর্ধকের উমামি স্বাদের মূলে আছে এই যৌগ।"
+  }
+ },
+ "cat:acidity-regulators": {
+  "src": "/images/ingredients/cat-acidity-regulators.webp",
+  "sm": "/images/ingredients/cat-acidity-regulators-sm.webp",
+  "w": 478,
+  "h": 640,
+  "file": "PH meter test on wine.JPG",
+  "author": "Agne27",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:PH_meter_test_on_wine.JPG",
+  "subject": "laboratory",
+  "alt": {
+   "en": "A pH electrode on a red stand dipping into a beaker of dark liquid, with the meter behind it on a bench.",
+   "bn": "লাল স্ট্যান্ডে লাগানো পিএইচ ইলেকট্রোড বিকারের গাঢ় তরলে ডোবানো, পেছনে টেবিলে মিটার।"
+  },
+  "caption": {
+   "en": "A pH meter testing a sample of wine. pH is the value that acidity regulators are used to control in food.",
+   "bn": "পিএইচ মিটারে ওয়াইনের নমুনা পরীক্ষা। খাবারে অম্লতা নিয়ন্ত্রক দিয়ে এই পিএইচ মানই নিয়ন্ত্রণ করা হয়।"
+  }
+ },
+ "cat:leavening-agents": {
+  "src": "/images/ingredients/cat-leavening-agents.webp",
+  "sm": "/images/ingredients/cat-leavening-agents-sm.webp",
+  "w": 640,
+  "h": 498,
+  "file": "Sourdoughbreadcrumb.jpg",
+  "author": "Nleamy at en.wikipedia",
+  "license": "CC BY 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Sourdoughbreadcrumb.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "Cross-section of a piece of crusty bread on black, its pale crumb full of round holes of many sizes.",
+   "bn": "কালো পটভূমিতে শক্ত খোসার পাউরুটির একটি টুকরোর প্রস্থচ্ছেদ, হালকা রঙের ভেতরটা নানা আকারের গোল ছিদ্রে ভরা।"
+  },
+  "caption": {
+   "en": "Cross-section of sourdough bread. The holes are gas bubbles trapped as the dough baked, the effect leavening produces.",
+   "bn": "সাওয়ারডো পাউরুটির প্রস্থচ্ছেদ। ছিদ্রগুলো সেঁকার সময় খামিরে আটকে পড়া গ্যাসের বুদবুদ; খামিরকরণের ফলেই এমন হয়।"
+  }
+ },
+ "cat:modified-starches": {
+  "src": "/images/ingredients/cat-modified-starches.webp",
+  "sm": "/images/ingredients/cat-modified-starches-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Potato Starch Polarized light 100x.jpg",
+  "author": "Photon 400 750",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Potato_Starch_Polarized_light_100x.jpg",
+  "subject": "microscopy",
+  "alt": {
+   "en": "Oval starch granules glowing in blue and orange against a pink field, seen in polarised light, with a 200 micrometre scale bar.",
+   "bn": "গোলাপি পটভূমিতে নীল ও কমলা আভার ডিম্বাকার স্টার্চ কণিকা, পোলারাইজড আলোয় দেখা, সঙ্গে ২০০ মাইক্রোমিটার স্কেল বার।"
+  },
+  "caption": {
+   "en": "Potato starch granules in polarised light at 100× magnification. Modified starches are made by treating starch like this.",
+   "bn": "পোলারাইজড আলোয় ১০০ গুণ বিবর্ধনে আলুর স্টার্চ কণিকা। এ ধরনের স্টার্চকে প্রক্রিয়াজাত করেই পরিবর্তিত স্টার্চ তৈরি হয়।"
+  }
+ },
+ "polymer:xanthan-gum": {
+  "src": "/images/ingredients/polymer-xanthan-gum.webp",
+  "sm": "/images/ingredients/polymer-xanthan-gum-sm.webp",
+  "w": 640,
+  "h": 521,
+  "file": "Xanthan.svg",
+  "author": "NEUROtiker",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Xanthan.svg",
+  "subject": "structure-diagram",
+  "alt": {
+   "en": "Chemical diagram of xanthan gum: a two-glucose backbone in brackets with a three-sugar side chain carrying acetyl and pyruvate groups.",
+   "bn": "জ্যান্থান গামের রাসায়নিক চিত্র: বন্ধনীতে দুই গ্লুকোজের মূল শৃঙ্খল এবং অ্যাসিটাইল ও পাইরুভেট গ্রুপযুক্ত তিন-শর্করার পার্শ্বশৃঙ্খল।"
+  },
+  "caption": {
+   "en": "Repeating unit of xanthan gum: a glucose backbone with a three-sugar side chain. Real chains vary in length and substitution.",
+   "bn": "জ্যান্থান গামের পুনরাবৃত্ত একক: গ্লুকোজের মূল শৃঙ্খলে তিন-শর্করার পার্শ্বশৃঙ্খল। বাস্তব শৃঙ্খলের দৈর্ঘ্য ও প্রতিস্থাপনে ভিন্নতা থাকে।"
+  }
+ },
+ "polymer:carrageenan": {
+  "src": "/images/ingredients/polymer-carrageenan.webp",
+  "sm": "/images/ingredients/polymer-carrageenan-sm.webp",
+  "w": 421,
+  "h": 640,
+  "file": "Moleculare structure of different carrageenan types.svg",
+  "author": "Roland Mattern",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Moleculare_structure_of_different_carrageenan_types.svg",
+  "subject": "structure-diagram",
+  "alt": {
+   "en": "Chemical diagrams of the two-sugar units of ten carrageenan types in pairs, with arrows marked OH showing conversion of each precursor form.",
+   "bn": "দশ ধরনের ক্যারাজিনানের দুই-শর্করা এককের জোড়ায় জোড়ায় রাসায়নিক চিত্র; OH চিহ্নিত তীর প্রতিটি পূর্বরূপের রূপান্তর দেখাচ্ছে।"
+  },
+  "caption": {
+   "en": "Repeating two-sugar units of carrageenan types, including kappa, iota and lambda, with their sulfate groups. Real chains vary in length and substitution.",
+   "bn": "কাপা, আয়োটা ও ল্যামডাসহ বিভিন্ন ক্যারাজিনানের সালফেট গ্রুপসহ পুনরাবৃত্ত দুই-শর্করা একক। বাস্তব শৃঙ্খলের দৈর্ঘ্য ও প্রতিস্থাপনে ভিন্নতা থাকে।"
+  }
+ },
+ "polymer:sodium-alginate": {
+  "src": "/images/ingredients/polymer-sodium-alginate.webp",
+  "sm": "/images/ingredients/polymer-sodium-alginate-sm.webp",
+  "w": 640,
+  "h": 221,
+  "file": "Alginat.svg",
+  "author": "NEUROtiker",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Alginat.svg",
+  "subject": "structure-diagram",
+  "alt": {
+   "en": "Chemical diagram of alginate: two bracketed sugar-acid rings, repeated m and n times, each with a carboxylate group.",
+   "bn": "অ্যালজিনেটের রাসায়নিক চিত্র: বন্ধনীতে m ও n বার পুনরাবৃত্ত দুটি শর্করা-অম্ল বলয়, প্রতিটিতে একটি কার্বক্সিলেট গ্রুপ।"
+  },
+  "caption": {
+   "en": "Repeating units of alginate, built from mannuronate and guluronate. Real chains vary in length and in the mix of these units.",
+   "bn": "ম্যানুরোনেট ও গুলুরোনেট দিয়ে গঠিত অ্যালজিনেটের পুনরাবৃত্ত একক। বাস্তব শৃঙ্খলের দৈর্ঘ্য ও এই এককগুলোর মিশ্রণে ভিন্নতা থাকে।"
+  }
+ },
+ "polymer:pectin": {
+  "src": "/images/ingredients/polymer-pectin.webp",
+  "sm": "/images/ingredients/polymer-pectin-sm.webp",
+  "w": 640,
+  "h": 561,
+  "file": "Pectic acid.svg",
+  "author": "Ed ( Edgar181 )",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Pectic_acid.svg",
+  "subject": "structure-diagram",
+  "alt": {
+   "en": "Chemical diagram of one bracketed galacturonic acid ring with a carboxylic acid group, repeated n times.",
+   "bn": "কার্বক্সিলিক অম্ল গ্রুপসহ একটি গ্যালাকটুরোনিক অম্ল বলয়ের রাসায়নিক চিত্র, বন্ধনীতে n বার পুনরাবৃত্ত।"
+  },
+  "caption": {
+   "en": "Repeating unit of polygalacturonic acid, the backbone of pectin. In pectin many acid groups are methyl-esterified; real chains vary in length and substitution.",
+   "bn": "পলিগ্যালাকটুরোনিক অম্লের পুনরাবৃত্ত একক, যা পেকটিনের মূল কাঠামো। পেকটিনে অনেক অম্ল গ্রুপ মিথাইল-এস্টার রূপে থাকে; বাস্তব শৃঙ্খলের দৈর্ঘ্য ও প্রতিস্থাপনে ভিন্নতা থাকে।"
+  }
+ },
+ "polymer:guar-gum": {
+  "src": "/images/ingredients/polymer-guar-gum.webp",
+  "sm": "/images/ingredients/polymer-guar-gum-sm.webp",
+  "w": 640,
+  "h": 435,
+  "file": "Galactomannan.png",
+  "author": "Edgar181",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Galactomannan.png",
+  "subject": "structure-diagram",
+  "alt": {
+   "en": "Chemical diagram of a galactomannan: a chain of mannose rings in brackets n and m, with one galactose ring attached as a side unit.",
+   "bn": "গ্যালাক্টোম্যানানের রাসায়নিক চিত্র: n ও m বন্ধনীতে ম্যানোজ বলয়ের শৃঙ্খল, পাশে যুক্ত একটি গ্যালাকটোজ বলয়।"
+  },
+  "caption": {
+   "en": "Repeating unit of a galactomannan, the polymer type guar gum belongs to: a mannose backbone with galactose side units. Real chains vary in length and substitution.",
+   "bn": "গ্যালাক্টোম্যানানের পুনরাবৃত্ত একক; গুয়ার গাম এই ধরনের পলিমার: ম্যানোজের মূল শৃঙ্খলে গ্যালাকটোজের পার্শ্ব-একক। বাস্তব শৃঙ্খলের দৈর্ঘ্য ও প্রতিস্থাপনে ভিন্নতা থাকে।"
+  }
+ },
+ "polymer:agar": {
+  "src": "/images/ingredients/polymer-agar.webp",
+  "sm": "/images/ingredients/polymer-agar-sm.webp",
+  "w": 500,
+  "h": 249,
+  "file": "Agar structure.png",
+  "author": "Tpa2067",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Agar_structure.png",
+  "subject": "structure-diagram",
+  "alt": {
+   "en": "Chemical diagram of two linked sugar rings in square brackets repeated n times, the right-hand ring carrying an oxygen bridge.",
+   "bn": "বর্গ বন্ধনীতে n বার পুনরাবৃত্ত দুটি যুক্ত শর্করা বলয়ের রাসায়নিক চিত্র, ডান দিকের বলয়ে একটি অক্সিজেন সেতু।"
+  },
+  "caption": {
+   "en": "Repeating unit of agarose, the main gelling component of agar: galactose joined to 3,6-anhydrogalactose. Real chains vary in length and substitution.",
+   "bn": "আগারের প্রধান জেল-গঠনকারী অংশ অ্যাগারোজের পুনরাবৃত্ত একক: গ্যালাকটোজের সঙ্গে যুক্ত ৩,৬-অ্যানহাইড্রোগ্যালাকটোজ। বাস্তব শৃঙ্খলের দৈর্ঘ্য ও প্রতিস্থাপনে ভিন্নতা থাকে।"
+  }
+ },
+ "polymer:carboxymethylcellulose": {
+  "src": "/images/ingredients/polymer-carboxymethylcellulose.webp",
+  "sm": "/images/ingredients/polymer-carboxymethylcellulose-sm.webp",
+  "w": 516,
+  "h": 490,
+  "file": "Carboxymethyl cellulose.png",
+  "author": "Edgar181",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Carboxymethyl_cellulose.png",
+  "subject": "structure-diagram",
+  "alt": {
+   "en": "Chemical diagram of one glucose ring in brackets repeated n times, with three OR groups, and a note that R is H or CH2CO2H.",
+   "bn": "বন্ধনীতে n বার পুনরাবৃত্ত একটি গ্লুকোজ বলয়ের রাসায়নিক চিত্র, তিনটি OR গ্রুপসহ; পাশে লেখা R হলো H অথবা CH২CO২H।"
+  },
+  "caption": {
+   "en": "Repeating unit of carboxymethyl cellulose: a glucose ring where R is hydrogen or a carboxymethyl group. Real chains vary in length and substitution.",
+   "bn": "কার্বক্সিমিথাইল সেলুলোজের পুনরাবৃত্ত একক: গ্লুকোজ বলয়, যেখানে R হলো হাইড্রোজেন অথবা কার্বক্সিমিথাইল গ্রুপ। বাস্তব শৃঙ্খলের দৈর্ঘ্য ও প্রতিস্থাপনে ভিন্নতা থাকে।"
+  }
+ },
+ "polymer:gellan-gum": {
+  "src": "/images/ingredients/polymer-gellan-gum.webp",
+  "sm": "/images/ingredients/polymer-gellan-gum-sm.webp",
+  "w": 640,
+  "h": 246,
+  "file": "Gellan gum.svg",
+  "author": "Edgar181",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Gellan_gum.svg",
+  "subject": "structure-diagram",
+  "alt": {
+   "en": "Chemical diagram of four linked sugar rings in square brackets repeated n times, the second ring carrying a carboxylic acid group.",
+   "bn": "বর্গ বন্ধনীতে n বার পুনরাবৃত্ত চারটি যুক্ত শর্করা বলয়ের রাসায়নিক চিত্র, দ্বিতীয় বলয়ে একটি কার্বক্সিলিক অম্ল গ্রুপ।"
+  },
+  "caption": {
+   "en": "Four-sugar repeating unit of gellan gum: glucose, glucuronic acid, glucose and rhamnose. Real chains vary in length and substitution.",
+   "bn": "জেলান গামের চার-শর্করার পুনরাবৃত্ত একক: গ্লুকোজ, গ্লুকুরোনিক অম্ল, গ্লুকোজ ও র‍্যামনোজ। বাস্তব শৃঙ্খলের দৈর্ঘ্য ও প্রতিস্থাপনে ভিন্নতা থাকে।"
+  }
+ },
+ "polymer:oxidised-starch": {
+  "src": "/images/ingredients/polymer-oxidised-starch.webp",
+  "sm": "/images/ingredients/polymer-oxidised-starch-sm.webp",
+  "w": 640,
+  "h": 367,
+  "file": "Amylopektin Haworth.svg",
+  "author": "NEUROtiker",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Amylopektin_Haworth.svg",
+  "subject": "structure-diagram",
+  "alt": {
+   "en": "Chemical diagram of three glucose rings linked in a chain, with a fourth glucose ring attached as a branch.",
+   "bn": "শৃঙ্খলে যুক্ত তিনটি গ্লুকোজ বলয়ের রাসায়নিক চিত্র, শাখা হিসেবে যুক্ত চতুর্থ একটি গ্লুকোজ বলয়।"
+  },
+  "caption": {
+   "en": "Repeating glucose units of amylopectin, a main component of the starch used to make oxidised starch; the oxidised groups are not drawn. Real chains vary in length and substitution.",
+   "bn": "অ্যামাইলোপেকটিনের পুনরাবৃত্ত গ্লুকোজ একক; জারিত স্টার্চ যে স্টার্চ থেকে তৈরি, এটি তার প্রধান উপাদান। জারিত গ্রুপগুলো এখানে আঁকা হয়নি। বাস্তব শৃঙ্খলের দৈর্ঘ্য ও প্রতিস্থাপনে ভিন্নতা থাকে।"
+  }
+ },
+ "app:processed-meat": {
+  "src": "/images/ingredients/app-processed-meat.webp",
+  "sm": "/images/ingredients/app-processed-meat-sm.webp",
+  "w": 640,
+  "h": 510,
+  "file": "Cold cuts.jpg",
+  "author": "مانفی",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Cold_cuts.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "Slices of cured ham on a yellow plate with tomato slices and small gherkins.",
+   "bn": "হলুদ প্লেটে কিউর করা হ্যামের স্লাইস, সঙ্গে টমেটোর টুকরো ও ছোট শসার আচার।"
+  },
+  "caption": {
+   "en": "A plate of sliced cold cuts. An example of this food type; no particular ingredient is shown.",
+   "bn": "প্লেটে সাজানো কাটা কোল্ড কাট। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:salt-seasonings": {
+  "src": "/images/ingredients/app-salt-seasonings.webp",
+  "sm": "/images/ingredients/app-salt-seasonings-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Spices of Mercado Municipal de São Paulo.jpg",
+  "author": "Wilfredor",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Spices_of_Mercado_Municipal_de_S%C3%A3o_Paulo.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "A market stall crowded with bottled sauces, bags of spices and dried herbs hanging in rows.",
+   "bn": "সারি সারি ঝোলানো বোতলজাত সস, মসলার প্যাকেট ও শুকনো ভেষজে ভরা বাজারের একটি দোকান।"
+  },
+  "caption": {
+   "en": "Spices, seeds and dried herbs at a market stall in São Paulo. An example of this food type; no particular ingredient is shown.",
+   "bn": "সাও পাওলোর বাজারের দোকানে মসলা, বীজ ও শুকনো ভেষজ। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:supplements": {
+  "src": "/images/ingredients/app-supplements.webp",
+  "sm": "/images/ingredients/app-supplements-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "DHA pills.jpg",
+  "author": "Mx. Granger",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:DHA_pills.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "A small pile of translucent amber softgel capsules on a glossy white surface.",
+   "bn": "চকচকে সাদা জমিনের ওপর স্বচ্ছাভ অ্যাম্বার রঙের সফটজেল ক্যাপসুলের ছোট স্তূপ।"
+  },
+  "caption": {
+   "en": "Softgel dietary supplement capsules. An example of this product type; no particular additive is shown.",
+   "bn": "সফটজেল খাদ্য সম্পূরক ক্যাপসুল। এটি এই ধরনের পণ্যের উদাহরণ; ছবিতে নির্দিষ্ট কোনো সংযোজন দেখানো হয়নি।"
+  }
+ },
+ "app:jams-spreads": {
+  "src": "/images/ingredients/app-jams-spreads.webp",
+  "sm": "/images/ingredients/app-jams-spreads-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "-2020-11-14 Homemade Apricot Jam, Trimingham.JPG",
+  "author": "Kolforn ( Kolforn ) I'd appreciate if you could mail me (Kolforn@gmail.com) if you want to use this picture out of the W",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:-2020-11-14_Homemade_Apricot_Jam,_Trimingham.JPG",
+  "subject": "food-type",
+  "alt": {
+   "en": "Three glass jars of orange apricot jam with handwritten labels on a kitchen counter.",
+   "bn": "রান্নাঘরের তাকে হাতে লেখা লেবেলসহ তিনটি কাচের বয়ামে কমলা রঙের এপ্রিকট জ্যাম।"
+  },
+  "caption": {
+   "en": "Jars of home-made apricot jam. An example of this food type; no particular ingredient is shown.",
+   "bn": "বাড়িতে তৈরি এপ্রিকট জ্যামের বয়াম। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:frozen-desserts": {
+  "src": "/images/ingredients/app-frozen-desserts.webp",
+  "sm": "/images/ingredients/app-frozen-desserts-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Forte's Ice Cream in three tubs.jpg",
+  "author": "Vouliagmeni",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Forte%27s_Ice_Cream_in_three_tubs.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "Three paper tubs of scooped ice cream, two with a pink swirl, on a counter, each with a plastic spoon.",
+   "bn": "কাউন্টারে স্কুপ করা আইসক্রিমের তিনটি কাগজের কাপ, দুটিতে গোলাপি প্যাঁচ, প্রতিটিতে প্লাস্টিকের চামচ।"
+  },
+  "caption": {
+   "en": "Scoops of ice cream in paper tubs. An example of this food type; no particular ingredient is shown.",
+   "bn": "কাগজের কাপে আইসক্রিমের স্কুপ। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:flour-grains": {
+  "src": "/images/ingredients/app-flour-grains.webp",
+  "sm": "/images/ingredients/app-flour-grains-sm.webp",
+  "w": 427,
+  "h": 640,
+  "file": "Uskladněná mouka.JPG",
+  "author": "Chmee2",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Uskladn%C4%9Bn%C3%A1_mouka.JPG",
+  "subject": "food-type",
+  "alt": {
+   "en": "Plain cream-coloured sacks of flour stacked on pallets in a storeroom.",
+   "bn": "গুদামে প্যালেটের ওপর সাজানো সাদামাটা ঘিয়ে রঙের ময়দার বস্তা।"
+  },
+  "caption": {
+   "en": "Sacks of flour in storage. An example of this food type; no particular ingredient is shown.",
+   "bn": "গুদামে রাখা ময়দার বস্তা। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:sauces-condiments": {
+  "src": "/images/ingredients/app-sauces-condiments.webp",
+  "sm": "/images/ingredients/app-sauces-condiments-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "DFC 2429 A rustic wooden table holds a metal tray with assorted condiments - squeeze bottles shakers and a soy sauce bottle - ready for a meal in a cozy bamboo-walled eatery.jpg",
+  "author": "PattayaPatrol",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:DFC_2429_A_rustic_wooden_table_holds_a_metal_tray_with_assorted_condiments_-_squeeze_bottles_shakers_and_a_soy_sauce_bottle_-_ready_for_a_meal_in_a_cozy_bamboo-walled_eatery.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "A round metal tray of squeeze bottles, shakers and a dark sauce bottle on a wooden stand in an eatery.",
+   "bn": "খাবারের দোকানে কাঠের স্ট্যান্ডে গোল ধাতব ট্রেতে স্কুইজ বোতল, শেকার ও একটি গাঢ় সসের বোতল।"
+  },
+  "caption": {
+   "en": "Condiment bottles and shakers on a tray at an eatery. An example of this food type; no particular ingredient is shown.",
+   "bn": "খাবারের দোকানে ট্রেতে রাখা মসলা ও সসের বোতল। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:canned-foods": {
+  "src": "/images/ingredients/app-canned-foods.webp",
+  "sm": "/images/ingredients/app-canned-foods-sm.webp",
+  "w": 480,
+  "h": 640,
+  "file": "Conserva de alimentos.jpg",
+  "author": "Gheral22",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Conserva_de_alimentos.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "Sealed glass jars of preserved vegetables and fruit, with a red pepper, apples and a banana in front.",
+   "bn": "মুখবন্ধ কাচের বয়ামে সংরক্ষিত সবজি ও ফল, সামনে লাল ক্যাপসিকাম, আপেল ও একটি কলা।"
+  },
+  "caption": {
+   "en": "Vegetables and fruit preserved in sealed jars. An example of this food type; no particular ingredient is shown.",
+   "bn": "মুখবন্ধ বয়ামে সংরক্ষিত সবজি ও ফল। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "cat:preservatives": {
+  "src": "/images/ingredients/cat-preservatives.webp",
+  "sm": "/images/ingredients/cat-preservatives-sm.webp",
+  "w": 640,
+  "h": 640,
+  "file": "Mold on bread FoV 322um.jpg",
+  "author": "Pavel.Somov",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mold_on_bread_FoV_322um.jpg",
+  "subject": "microscopy",
+  "alt": {
+   "en": "Scanning electron micrograph of a dense tangle of branching mould threads, in grey.",
+   "bn": "ঘন জটলা পাকানো শাখাযুক্ত ছত্রাকের সুতার ধূসর স্ক্যানিং ইলেকট্রন অণুবীক্ষণ চিত্র।"
+  },
+  "caption": {
+   "en": "Mould on bread under a scanning electron microscope, in a field 322 µm across. Preservatives are used to slow spoilage of this kind.",
+   "bn": "স্ক্যানিং ইলেকট্রন অণুবীক্ষণ যন্ত্রে পাউরুটির ছত্রাক, দৃশ্যক্ষেত্র ৩২২ মাইক্রোমিটার। এ ধরনের পচন ধীর করতে সংরক্ষক ব্যবহার করা হয়।"
+  }
+ },
+ "cat:food-colors": {
+  "src": "/images/ingredients/cat-food-colors.webp",
+  "sm": "/images/ingredients/cat-food-colors-sm.webp",
+  "w": 640,
+  "h": 427,
+  "file": "Spices on Spice Bazaar in Istanbul 02.jpg",
+  "author": "Miomir Magdevski",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Spices_on_Spice_Bazaar_in_Istanbul_02.jpg",
+  "subject": "source",
+  "alt": {
+   "en": "Pointed mounds of red paprika, orange and pale spices in woven containers at a market.",
+   "bn": "বাজারে বোনা পাত্রে লাল পাপরিকা, কমলা ও হালকা রঙের মসলার চূড়াকার স্তূপ।"
+  },
+  "caption": {
+   "en": "Paprika and other spices at the Spice Bazaar in Istanbul. Pigments from plants such as paprika are one source of food colours.",
+   "bn": "ইস্তাম্বুলের মসলা বাজারে পাপরিকা ও অন্যান্য মসলা। পাপরিকার মতো উদ্ভিদের রঞ্জক খাদ্য রঙের একটি উৎস।"
+  }
+ },
+ "cat:artificial-sweeteners": {
+  "src": "/images/ingredients/cat-artificial-sweeteners.webp",
+  "sm": "/images/ingredients/cat-artificial-sweeteners-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Artificial sweetener in tablets.jpg",
+  "author": "Centhum",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Artificial_sweetener_in_tablets.jpg",
+  "subject": "ingredient",
+  "alt": {
+   "en": "Four small white round tablets lined up beside a metal ruler, each about 6 millimetres wide.",
+   "bn": "ধাতব স্কেলের পাশে সারি করে রাখা চারটি ছোট সাদা গোল ট্যাবলেট, প্রতিটি প্রায় ৬ মিলিমিটার চওড়া।"
+  },
+  "caption": {
+   "en": "Tabletop sweetener tablets based on sodium cyclamate and saccharin, shown against a ruler for size.",
+   "bn": "সোডিয়াম সাইক্লামেট ও স্যাকারিনভিত্তিক টেবিলটপ মিষ্টিকারক ট্যাবলেট, আকার বোঝাতে স্কেলের পাশে রাখা।"
+  }
+ },
+ "app:soft-drinks": {
+  "src": "/images/ingredients/app-soft-drinks.webp",
+  "sm": "/images/ingredients/app-soft-drinks-sm.webp",
+  "w": 640,
+  "h": 495,
+  "file": "Glass cola.jpg",
+  "author": "pic_p_ter",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Glass_cola.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "A tall glass of dark cola with ice cubes and lemon slices, on a grey surface.",
+   "bn": "ধূসর জমিনের ওপর বরফের টুকরো ও লেবুর ফালিসহ গাঢ় কোলার একটি লম্বা গ্লাস।"
+  },
+  "caption": {
+   "en": "A glass of cola with ice and lemon. An example of this food type; no particular ingredient is shown.",
+   "bn": "বরফ ও লেবুসহ এক গ্লাস কোলা। এটি এই ধরনের পানীয়ের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "cat:humectants": {
+  "src": "/images/ingredients/cat-humectants.webp",
+  "sm": "/images/ingredients/cat-humectants-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Apricot (dried).jpg",
+  "author": "Miansari66",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Apricot_(dried).jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "A dozen wrinkled, golden dried apricots arranged on a pale surface.",
+   "bn": "হালকা রঙের জমিনে সাজানো প্রায় এক ডজন কুঁচকানো সোনালি শুকনো এপ্রিকট।"
+  },
+  "caption": {
+   "en": "Dried apricots. Humectants are additives that hold water so foods like dried fruit stay soft; the additive itself is not shown.",
+   "bn": "শুকনো এপ্রিকট। হিউমেকট্যান্ট এমন সংযোজন যা পানি ধরে রাখে, ফলে শুকনো ফলের মতো খাবার নরম থাকে; সংযোজনটি নিজে ছবিতে নেই।"
+  }
+ },
+ "cat:glazing-agents": {
+  "src": "/images/ingredients/cat-glazing-agents.webp",
+  "sm": "/images/ingredients/cat-glazing-agents-sm.webp",
+  "w": 640,
+  "h": 346,
+  "file": "La-Pone-Jordan-Almonds.jpg",
+  "author": "Evan-Amos",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:La-Pone-Jordan-Almonds.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "A pile of smooth, sugar-coated almonds in pastel pink, yellow, green, lilac and white on a white background.",
+   "bn": "সাদা পটভূমিতে গোলাপি, হলুদ, সবুজ, বেগুনি ও সাদা রঙের মসৃণ চিনির প্রলেপ দেওয়া বাদামের স্তূপ।"
+  },
+  "caption": {
+   "en": "Sugar-coated almonds. Glazing agents give coated sweets like these a smooth, shiny surface; the agent itself is not shown.",
+   "bn": "চিনির প্রলেপ দেওয়া বাদাম। গ্লেজিং এজেন্ট এ ধরনের প্রলেপ দেওয়া মিষ্টিকে মসৃণ ও চকচকে করে; এজেন্টটি নিজে ছবিতে নেই।"
+  }
+ },
+ "cat:processing-aids": {
+  "src": "/images/ingredients/cat-processing-aids.webp",
+  "sm": "/images/ingredients/cat-processing-aids-sm.webp",
+  "w": 640,
+  "h": 425,
+  "file": "Separating the curd and whey.jpg",
+  "author": "Jesse Gillies",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Separating_the_curd_and_whey.jpg",
+  "subject": "process",
+  "alt": {
+   "en": "A large steel vat of pale curds and whey being stirred with a paddle while workers in white stand around it.",
+   "bn": "বড় ইস্পাতের পাত্রে ফ্যাকাশে ছানা ও ঘোল প্যাডেলে নাড়া হচ্ছে, চারপাশে সাদা পোশাকে কর্মীরা।"
+  },
+  "caption": {
+   "en": "A vat of curds and whey during cheese-making. Enzymes such as rennet, a classic processing aid, are what set milk into curds.",
+   "bn": "পনির তৈরির সময় ছানা ও ঘোলের পাত্র। রেনেটের মতো এনজাইম, একটি প্রচলিত প্রক্রিয়াকরণ সহায়ক, দুধকে ছানায় পরিণত করে।"
+  }
+ },
+ "cat:stabilizers": {
+  "src": "/images/ingredients/cat-stabilizers.webp",
+  "sm": "/images/ingredients/cat-stabilizers-sm.webp",
+  "w": 640,
+  "h": 478,
+  "file": "Double emulsion droplets.tif",
+  "author": "Catrin Sohrabi",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Double_emulsion_droplets.tif",
+  "subject": "microscopy",
+  "alt": {
+   "en": "Grey micrograph of a dense honeycomb of tiny round droplets between large dark-edged oil drops.",
+   "bn": "বড় গাঢ় কিনারার তেলের ফোঁটার মাঝে ক্ষুদ্র গোল ফোঁটার ঘন মৌচাকের মতো ধূসর অণুবীক্ষণ চিত্র।"
+  },
+  "caption": {
+   "en": "Laboratory double-emulsion droplets under the microscope. Stabilisers help keep droplets like these from merging and separating.",
+   "bn": "অণুবীক্ষণ যন্ত্রে পরীক্ষাগারে তৈরি ডাবল-ইমালসন ফোঁটা। স্টেবিলাইজার এ ধরনের ফোঁটাকে মিশে গিয়ে আলাদা হয়ে যাওয়া থেকে রক্ষা করে।"
+  }
+ },
+ "cat:thickeners": {
+  "src": "/images/ingredients/cat-thickeners.webp",
+  "sm": "/images/ingredients/cat-thickeners-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Wheat starch granules.JPG",
+  "author": "Kiselov Yuri",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Wheat_starch_granules.JPG",
+  "subject": "microscopy",
+  "alt": {
+   "en": "Micrograph of round wheat starch granules of many sizes, some stained deep blue-purple with iodine.",
+   "bn": "নানা আকারের গোল গমের স্টার্চ কণিকার অণুবীক্ষণ চিত্র, কিছু আয়োডিনে গাঢ় নীলচে-বেগুনি রঙে রঞ্জিত।"
+  },
+  "caption": {
+   "en": "Wheat starch granules stained with iodine under a light microscope. Granules like these swell in hot water, which is how starch thickens food.",
+   "bn": "আলোক অণুবীক্ষণে আয়োডিনে রঞ্জিত গমের স্টার্চ কণিকা। এ ধরনের কণিকা গরম পানিতে ফুলে ওঠে, এভাবেই স্টার্চ খাবার ঘন করে।"
+  }
+ },
+ "app:oils-fats": {
+  "src": "/images/ingredients/app-oils-fats.webp",
+  "sm": "/images/ingredients/app-oils-fats-sm.webp",
+  "w": 640,
+  "h": 640,
+  "file": "Bottle of olive oil.jpg",
+  "author": "margenauer from Pixabay",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Bottle_of_olive_oil.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "A square glass bottle of golden-green olive oil with a cork stopper, beside a small glass dish of oil.",
+   "bn": "কর্কের ছিপি দেওয়া চৌকো কাচের বোতলে সোনালি-সবুজ জলপাই তেল, পাশে কাচের ছোট পাত্রে তেল।"
+  },
+  "caption": {
+   "en": "A glass bottle of olive oil. An example of this food type; no particular ingredient is shown.",
+   "bn": "কাচের বোতলে জলপাই তেল। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:dairy": {
+  "src": "/images/ingredients/app-dairy.webp",
+  "sm": "/images/ingredients/app-dairy-sm.webp",
+  "w": 640,
+  "h": 425,
+  "file": "Queso añejo.JPG",
+  "author": "Glane23",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Queso_a%C3%B1ejo.JPG",
+  "subject": "food-type",
+  "alt": {
+   "en": "A round white cheese with an orange-red rind, with one wedge pulled out, on a wooden board.",
+   "bn": "কাঠের বোর্ডে কমলা-লাল খোসার গোল সাদা পনির, একটি ফালি কেটে আলাদা করা।"
+  },
+  "caption": {
+   "en": "A round of aged cheese with a wedge cut out. An example of this food type; no particular ingredient is shown.",
+   "bn": "পুরোনো করা গোল পনির, একটি ফালি কাটা। এটি এই ধরনের খাবারের উদাহরণ; ছবিতে নির্দিষ্ট কোনো উপাদান দেখানো হয়নি।"
+  }
+ },
+ "app:tabletop-sweeteners": {
+  "src": "/images/ingredients/app-tabletop-sweeteners.webp",
+  "sm": "/images/ingredients/app-tabletop-sweeteners-sm.webp",
+  "w": 640,
+  "h": 480,
+  "file": "Artificial sweetener in tablets.jpg",
+  "author": "Centhum",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Artificial_sweetener_in_tablets.jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "Four small white round tablets lined up beside a metal ruler.",
+   "bn": "ধাতব স্কেলের পাশে সারি করে রাখা চারটি ছোট সাদা গোল ট্যাবলেট।"
+  },
+  "caption": {
+   "en": "Small tabletop sweetener tablets, shown beside a ruler for size. An example of this product type.",
+   "bn": "ছোট টেবিলটপ মিষ্টিকারক ট্যাবলেট, আকার বোঝাতে স্কেলের পাশে রাখা। এটি এই ধরনের পণ্যের উদাহরণ।"
+  }
+ },
+ "cat:emulsifiers": {
+  "src": "/images/ingredients/cat-emulsifiers.webp",
+  "sm": "/images/ingredients/cat-emulsifiers-sm.webp",
+  "w": 640,
+  "h": 426,
+  "file": "Mayonnaise (1).jpg",
+  "author": "jules",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mayonnaise_(1).jpg",
+  "subject": "food-type",
+  "alt": {
+   "en": "A glass clip-top jar filled with thick, pale yellow mayonnaise, on a white-painted table.",
+   "bn": "সাদা রং করা টেবিলে ক্লিপ-ঢাকনার কাচের বয়ামে ভরা ঘন, হালকা হলুদ মেয়োনেজ।"
+  },
+  "caption": {
+   "en": "Mayonnaise, a classic emulsion in which an emulsifier keeps oil droplets spread through water. The emulsifier itself is not visible.",
+   "bn": "মেয়োনেজ, একটি প্রচলিত ইমালসন, যেখানে ইমালসিফায়ার পানির মধ্যে তেলের ফোঁটাকে ছড়িয়ে রাখে। ইমালসিফায়ারটি নিজে দেখা যায় না।"
+  }
+ }
+}

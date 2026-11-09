@@ -1,0 +1,59 @@
+{
+  "slug": "natural-vs-artificial-ingredients",
+  "title": { "en": "Natural vs Artificial Ingredients", "bn": "প্রাকৃতিক বনাম কৃত্রিম উপাদান" },
+  "dek": { "en": "The label word tells you about origin and legal definitions. It does not tell you what a substance does in your body.", "bn": "লেবেলের শব্দটি উৎস ও আইনি সংজ্ঞার কথা বলে। পদার্থটি আপনার শরীরে কী করে, তা বলে না।" },
+  "minutes": 4,
+  "takeaways": [
+    { "en": "Natural and artificial are about where a substance comes from and how the law defines it, not about whether it is safe.", "bn": "প্রাকৃতিক ও কৃত্রিম কথাটি পদার্থের উৎস ও আইনি সংজ্ঞা নিয়ে, নিরাপদ কিনা তা নিয়ে নয়।" },
+    { "en": "A molecule is the same molecule whichever route made it; natural and synthetic isoamyl acetate share one toxicology.", "bn": "যে পথেই তৈরি হোক অণু একই অণু; প্রাকৃতিক ও কৃত্রিম আইসোঅ্যামাইল অ্যাসিটেটের বিষতত্ত্ব একটাই।" },
+    { "en": "WHO requires additives to pass safety assessment before international use whether they are natural or synthetic.", "bn": "প্রাকৃতিক বা কৃত্রিম যা-ই হোক, আন্তর্জাতিক ব্যবহারের আগে ডব্লিউএইচও নিরাপত্তা মূল্যায়ন পেরোনো আবশ্যক বলে।" },
+    { "en": "Natural plant substances can carry real hazards, so natural is not a safety promise.", "bn": "প্রাকৃতিক উদ্ভিজ্জ পদার্থেও বাস্তব বিপত্তি থাকতে পারে, তাই প্রাকৃতিক মানেই নিরাপত্তার প্রতিশ্রুতি নয়।" }
+  ],
+  "sections": [
+    {
+      "heading": { "en": "Why the words feel so different", "bn": "শব্দ দুটি কেন এত আলাদা মনে হয়" },
+      "paragraphs": [
+        { "en": "Natural sounds gentle and artificial sounds suspect. That feeling is common, and it is the reason both words are so prominent on packaging. But when scientists assess a food ingredient, they do not begin with the word on the front of a pack. They begin with what the substance is, how it behaves in the body, and how much of it people consume. A 2026 review of food risk assessment states it plainly: a substance's origin does not change its risk assessment.", "bn": "প্রাকৃতিক শুনতে কোমল, আর কৃত্রিম শুনতে সন্দেহজনক। এই অনুভূতি সাধারণ, আর এ কারণেই প্যাকেটে শব্দ দুটি এত চোখে পড়ে। কিন্তু বিজ্ঞানীরা যখন কোনো খাদ্য উপাদান মূল্যায়ন করেন, তখন প্যাকেটের সামনের শব্দ দিয়ে শুরু করেন না। তাঁরা শুরু করেন পদার্থটি কী, শরীরে কীভাবে আচরণ করে, আর মানুষ কতটা খায় তা দিয়ে। খাদ্য ঝুঁকি মূল্যায়ন নিয়ে ২০২৬ সালের এক পর্যালোচনা এটি সরাসরি বলেছে: পদার্থের উৎস তার ঝুঁকি মূল্যায়ন বদলায় না।" },
+        { "en": "That review uses a clear example. Isoamyl acetate is the compound behind the smell of banana. It can be extracted from a natural source or synthesised in a factory, and the two have the same structure and properties, so they have the same toxicology. Your body has no way of knowing which one you ate.", "bn": "পর্যালোচনাটি একটি স্পষ্ট উদাহরণ দেয়। আইসোঅ্যামাইল অ্যাসিটেট হলো কলার গন্ধের পেছনের যৌগ। এটি প্রাকৃতিক উৎস থেকে বের করা বা কারখানায় তৈরি করা যায়, আর দুটির গঠন ও ধর্ম একই, তাই বিষতত্ত্বও একই। আপনি কোনটি খেলেন তা আপনার শরীরের জানার কোনো উপায় নেই।" }
+      ]
+    },
+    {
+      "heading": { "en": "What the words mean in law", "bn": "আইনে শব্দ দুটির অর্থ কী" },
+      "paragraphs": [
+        { "en": "On a label, natural and artificial can have precise legal meanings, and those meanings are about source. In the United States, federal rules define an artificial flavor as any substance whose function is to impart flavor and that is not derived from a listed source such as a spice, fruit, vegetable or similar plant, animal or fermentation material. A natural flavor is an essential oil, extract, distillate or similar product whose flavoring constituents come from such sources, and whose main function is flavoring rather than nutrition.", "bn": "লেবেলে প্রাকৃতিক ও কৃত্রিম শব্দের সুনির্দিষ্ট আইনি অর্থ থাকতে পারে, আর সেই অর্থ উৎস নিয়ে। যুক্তরাষ্ট্রের ফেডারেল বিধিতে কৃত্রিম ফ্লেভার হলো এমন যেকোনো পদার্থ, যার কাজ স্বাদ-গন্ধ দেওয়া এবং যা মশলা, ফল, সবজি বা অনুরূপ তালিকাভুক্ত উদ্ভিজ্জ, প্রাণিজ বা ফারমেন্টেশন উৎস থেকে আসে না। প্রাকৃতিক ফ্লেভার হলো এমন এসেনশিয়াল অয়েল, নির্যাস, পাতিত দ্রব্য বা অনুরূপ পণ্য, যার স্বাদ-গন্ধের উপাদান ওই উৎস থেকে আসে এবং যার প্রধান কাজ পুষ্টি নয়, স্বাদ।" },
+        { "en": "Notice what the definitions do not mention: safety. A flavor can count as natural because of where it came from even if it went through extraction and processing. Rules differ between countries too, so a word on an imported packet may reflect the law where it was made. WHO's own grouping shows the range: flavouring agents, the most common type of additive, may be natural, nature-identical or artificial, and each kind still goes through assessment.", "bn": "খেয়াল করুন, সংজ্ঞায় কী নেই: নিরাপত্তা। নিষ্কাশন ও প্রক্রিয়াজাতকরণের মধ্য দিয়ে গেলেও উৎসের কারণে কোনো ফ্লেভার প্রাকৃতিক গণ্য হতে পারে। দেশভেদে নিয়মও আলাদা, তাই আমদানি করা প্যাকেটের শব্দ যেখানে তৈরি সেখানকার আইনকে বোঝাতে পারে। ডব্লিউএইচও-র ভাগ থেকেও পরিসরটি বোঝা যায়: সবচেয়ে প্রচলিত সংযোজন ফ্লেভারিং প্রাকৃতিক, প্রকৃতি-সদৃশ বা কৃত্রিম হতে পারে, আর প্রতিটি ধরনই মূল্যায়নের মধ্য দিয়ে যায়।" }
+      ]
+    },
+    {
+      "heading": { "en": "Additives come from many places", "bn": "সংযোজন আসে নানা উৎস থেকে" },
+      "paragraphs": [
+        { "en": "The European Food Safety Authority's examples show how poorly a simple natural or artificial split fits real additives. Some are naturally occurring, such as vitamin C (E300) and pectin (E440). Some come from animals or minerals, such as carminic acid (E120) and calcium carbonate (E170). Others are chemically synthesised, such as synthetic lycopene (E160d(i)). Lycopene itself is a pigment that exists in nature, which shows how a synthetic ingredient and a natural one can be the same kind of substance.", "bn": "ইউরোপীয় খাদ্য নিরাপত্তা কর্তৃপক্ষের উদাহরণ দেখায়, প্রাকৃতিক বা কৃত্রিম এই সরল ভাগ বাস্তব সংযোজনের সঙ্গে কতটা কম মেলে। কিছু প্রকৃতিতে পাওয়া যায়, যেমন ভিটামিন সি (E300) ও পেকটিন (E440)। কিছু আসে প্রাণী বা খনিজ থেকে, যেমন কারমিনিক অ্যাসিড (E120) ও ক্যালসিয়াম কার্বনেট (E170)। অন্যগুলো রাসায়নিকভাবে তৈরি, যেমন সিনথেটিক লাইকোপিন (E160d)। লাইকোপিন নিজে প্রকৃতিতে থাকা একটি রঞ্জক, যা দেখায় কৃত্রিম আর প্রাকৃতিক উপাদান একই ধরনের পদার্থ হতে পারে।" },
+        { "en": "Practical food choices do not always follow the same line either. Carminic acid is a colour that comes from an animal source, which matters for people who avoid animal products. That is a good reason to check a label, and it has nothing to do with whether the colour is natural or artificial.", "bn": "বাস্তব খাদ্য পছন্দও সব সময় এই রেখা ধরে চলে না। কারমিনিক অ্যাসিড প্রাণিজ উৎসের রঙ, যা প্রাণিজ পণ্য এড়িয়ে চলা মানুষের জন্য গুরুত্বপূর্ণ। লেবেল দেখার এটি একটি ভালো কারণ, এবং রঙটি প্রাকৃতিক না কৃত্রিম তার সঙ্গে এর সম্পর্ক নেই।" }
+      ]
+    },
+    {
+      "heading": { "en": "Regulators do not grade by origin", "bn": "নিয়ন্ত্রকরা উৎস দেখে নম্বর দেন না" },
+      "paragraphs": [
+        { "en": "WHO says additives can be derived from plants, animals or minerals, or be chemically synthesised, and that they must pass a safety assessment by the expert committee JECFA before they can be used internationally, whether natural or synthetic. Origin does not earn a shortcut.", "bn": "ডব্লিউএইচও বলছে, সংযোজন উদ্ভিদ, প্রাণী বা খনিজ থেকে আসতে পারে বা রাসায়নিকভাবে তৈরি হতে পারে, এবং প্রাকৃতিক বা কৃত্রিম যা-ই হোক, আন্তর্জাতিকভাবে ব্যবহারের আগে বিশেষজ্ঞ কমিটি জেইসিএফএ-র নিরাপত্তা মূল্যায়ন পেরোতে হবে। উৎসের কারণে কোনো সংক্ষিপ্ত পথ নেই।" },
+        { "en": "The reverse also holds: synthetic substances are not automatically worse. Hazards and exposure are judged for each one, and the outcome varies. Some synthetic additives have detailed intake limits and some natural ones do too. For example, a sweetener extracted from stevia leaves still has an intake value set by JECFA. Whether an ingredient is natural or not does not decide whether it gets a limit.", "bn": "উল্টোটাও সত্য: কৃত্রিম পদার্থ নিজে থেকেই খারাপ নয়। প্রতিটির বিপত্তি ও এক্সপোজার আলাদাভাবে বিচার করা হয়, ফলও ভিন্ন হয়। কিছু কৃত্রিম সংযোজনের বিস্তারিত গ্রহণসীমা আছে, কিছু প্রাকৃতিক সংযোজনেরও আছে। যেমন, স্টেভিয়া পাতা থেকে নিষ্কাশিত মিষ্টিকারকের জন্যও জেইসিএফএ গ্রহণমান নির্ধারণ করেছে। উপাদানটি প্রাকৃতিক কিনা তা ঠিক করে না তার সীমা থাকবে কিনা।" }
+      ]
+    },
+    {
+      "heading": { "en": "When natural is not safer", "bn": "যখন প্রাকৃতিক বেশি নিরাপদ নয়" },
+      "paragraphs": [
+        { "en": "Some of the most potent substances in food are entirely natural. WHO's fact sheet on natural toxins describes cyanogenic glycosides in at least 2,000 plant species, including cassava, sorghum, stone fruits, bamboo roots and almonds. It describes glycoalkaloids in potatoes, tomatoes and eggplants, which are higher in sprouts, green parts and bitter peel, and mycotoxins from moulds on cereals, nuts, dried fruits and spices. In a usual balanced diet, WHO says levels are well below toxicity thresholds, and it advises people not to assume natural means safe.", "bn": "খাবারের সবচেয়ে শক্তিশালী কিছু পদার্থ সম্পূর্ণ প্রাকৃতিক। প্রাকৃতিক বিষ নিয়ে ডব্লিউএইচও-র তথ্যপত্রে অন্তত ২,০০০ উদ্ভিদ প্রজাতির সায়ানোজেনিক গ্লাইকোসাইডের কথা আছে, যার মধ্যে কাসাভা, সরগাম, আঁটিযুক্ত ফল, বাঁশের কোঁড় ও কাঠবাদাম আছে। আলু, টমেটো ও বেগুনের গ্লাইকোঅ্যালকালয়েডের কথা আছে, যা অঙ্কুর, সবুজ অংশ ও তিতা খোসায় বেশি থাকে, এবং শস্য, বাদাম, শুকনো ফল ও মশলায় ছত্রাকের মাইকোটক্সিনের কথাও আছে। ডব্লিউএইচও বলে, সাধারণ সুষম খাদ্যে মাত্রা বিষক্রিয়ার সীমার অনেক নিচে থাকে, তবে প্রাকৃতিক মানেই নিরাপদ ধরে নিতে নিষেধ করে।" },
+        { "en": "The practical point is not to fear natural food. It is to judge both natural and artificial ingredients the same way: by what the substance is, how much you are likely to eat, and what the current evidence says about that level of intake.", "bn": "ব্যবহারিক কথাটি প্রাকৃতিক খাবারকে ভয় পাওয়া নয়। বরং প্রাকৃতিক ও কৃত্রিম উভয়কে একইভাবে বিচার করা: পদার্থটি কী, আপনি কতটা খেতে পারেন, আর ওই পরিমাণ সম্পর্কে বর্তমান প্রমাণ কী বলে।" }
+      ]
+    }
+  ],
+  "references": [
+    { "id": "review-2026", "org": "Comprehensive Reviews in Food Science and Food Safety", "title": "Principles of Food Safety and Toxicological Risk Assessment: Refining Hazards, Risk Management Communication, and Common Misconceptions", "year": 2026, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13347273/", "kind": "peer-reviewed" },
+    { "id": "cfr-101-22", "org": "US Code of Federal Regulations", "title": "21 CFR 101.22 Foods; labeling of spices, flavorings, colorings and chemical preservatives", "year": 2024, "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title21-vol2/xml/CFR-2024-title21-vol2-sec101-22.xml", "kind": "regulatory" },
+    { "id": "efsa-topic", "org": "EFSA", "title": "Food additives (topic page)", "year": 2026, "url": "https://www.efsa.europa.eu/en/topics/topic/food-additives", "kind": "agency-guidance" },
+    { "id": "who-additives", "org": "World Health Organization", "title": "Food additives (fact sheet)", "year": 2023, "url": "https://www.who.int/news-room/fact-sheets/detail/food-additives", "kind": "agency-guidance" },
+    { "id": "who-toxins", "org": "World Health Organization", "title": "Natural toxins in food (fact sheet)", "year": 2023, "url": "https://www.who.int/news-room/fact-sheets/detail/natural-toxins-in-food", "kind": "agency-guidance" },
+    { "id": "fda-sweeteners", "org": "US FDA", "title": "High-Intensity Sweeteners", "year": 2017, "url": "https://www.fda.gov/food/food-additives-petitions/high-intensity-sweeteners", "kind": "agency-guidance" }
+  ],
+  "relatedIngredients": ["ascorbic-acid", "carmine-cochineal", "steviol-glycosides", "citric-acid", "tartrazine"],
+  "checkedOn": "2026-11-09"
+}
