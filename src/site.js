@@ -6,10 +6,13 @@
  *   VITE_CONTACT_EMAIL=hello@your-domain.com   ← optional; shown on /contact when set
  *   VITE_GOOGLE_SITE_VERIFICATION=abc123       ← optional; proves site ownership to Google Search Console
  */
-export const SITE_URL = (import.meta.env?.VITE_SITE_URL || "https://food-and-nutrition.example").replace(/\/$/, "");
-export const SITE_URL_CONFIGURED = Boolean(import.meta.env?.VITE_SITE_URL);
-export const CONTACT_EMAIL = import.meta.env?.VITE_CONTACT_EMAIL || "";
-export const GOOGLE_SITE_VERIFICATION = import.meta.env?.VITE_GOOGLE_SITE_VERIFICATION || "";
+// next.config.mjs reads the VITE_* settings above and passes them on as NEXT_PUBLIC_*
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://food-and-nutrition.example").replace(/\/$/, "");
+export const SITE_URL_CONFIGURED = Boolean(process.env.NEXT_PUBLIC_SITE_URL);
+export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "";
+export const GOOGLE_SITE_VERIFICATION = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "";
+/** Google Tag Manager container; the Google Analytics setup itself lives in that container. */
+export const GTM_ID = "GTM-NHXRSKMF";
 
 export const SITE = {
   name: { en: "Food & Nutrition", bn: "খাবার ও পুষ্টি" },

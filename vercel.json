@@ -3,7 +3,7 @@
   "framework": null,
   "installCommand": "npm ci",
   "buildCommand": "npm run build",
-  "outputDirectory": "build/client",
+  "outputDirectory": "out",
   "trailingSlash": false,
   "redirects": [
     {
@@ -351,7 +351,7 @@
   ],
   "headers": [
     {
-      "source": "/assets/(.*)",
+      "source": "/_next/static/(.*)",
       "headers": [
         {
           "key": "Cache-Control",

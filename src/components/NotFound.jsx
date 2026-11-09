@@ -1,3 +1,5 @@
+"use client";
+
 import { CircleAlert, Compass, House, Search } from "lucide-react";
 import { useLang } from "../context/LangContext.jsx";
 import { Link } from "../router.jsx";

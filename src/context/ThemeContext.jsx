@@ -1,3 +1,5 @@
+"use client";
+
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import { storage } from "../utils.js";
 
@@ -24,7 +26,7 @@ function animateSwitch() {
 
 export function ThemeProvider({ children }) {
   // Prerender-safe: start from defaults, read the saved choice after mount.
-  // The inline script in root.jsx has already applied the right classes before paint,
+  // The inline script in app/[lang]/layout.jsx has already applied the right classes before paint,
   // so nothing touches the DOM until the saved values are loaded (no flash).
   // light unless the visitor picks dark (or "system") in the theme menu
   const [mode, setModeState] = useState("light");

@@ -7,7 +7,7 @@
  *  - Bangla strings use Bangla digits (no 0-9), except whitelisted technical tokens
  *  - every public path is unique; legacy redirects point to real paths
  */
-import { existsSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { pathToFileURL } from "node:url";
 import { resolve } from "node:path";
 
@@ -88,6 +88,14 @@ for (const f of files) {
   for (const [name, value] of Object.entries(mod)) if (typeof value !== "function") walk(value, `${f}:${name}`);
 }
 
+// 2b. content folders are merged by explicit imports, so a new file must be listed in index.js
+for (const dir of ["details", "points"]) {
+  const index = readFileSync(resolve(root, dir, "index.js"), "utf8");
+  for (const f of readdirSync(resolve(root, dir))) {
+    if (f !== "index.js" && !index.includes(`"./${f}"`)) fail(`data/${dir}/${f} is not imported in data/${dir}/index.js`);
+  }
+}
+
 // 3. paths
 const { allPublicPaths, LEGACY_REDIRECTS, STATIC_PATHS } = await import(pathToFileURL(resolve("src/paths.js")).href);
 const paths = allPublicPaths();
@@ -100,7 +108,6 @@ for (const [, to] of LEGACY_REDIRECTS) {
 
 // 4. committed vercel.json must match the redirects generated from src/paths.js
 const { vercelJson } = await import(pathToFileURL(resolve("scripts/vercel-config.mjs")).href);
-const { readFileSync } = await import("node:fs");
 if (!existsSync("vercel.json") || readFileSync("vercel.json", "utf8").replace(/\r\n/g, "\n") !== vercelJson()) {
   fail("vercel.json is out of date — run: node scripts/vercel-config.mjs");
 }

@@ -77,9 +77,9 @@ const T = {
 
 const COUNTS = {
     foods: FOODS.length,
-    plants: __PLANT_COUNT__, // injected by vite.config.js (keeps plant/blog data out of the home page)
+    plants: Number(process.env.NEXT_PUBLIC_PLANT_COUNT), // set in next.config.mjs (keeps plant/blog data out of the home page)
     guides: LEARN_GROUPS.reduce((n, g) => n + g.items.length, 0),
-    posts: __POST_COUNT__,
+    posts: Number(process.env.NEXT_PUBLIC_POST_COUNT),
 };
 
 /** Floating glass card with real numbers for the featured food. */

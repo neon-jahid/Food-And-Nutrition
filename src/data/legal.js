@@ -108,22 +108,23 @@ export const LEGAL = {
   "privacy-policy": {
     title: { en: "Privacy Policy", bn: "গোপনীয়তা নীতি" },
     summary: {
-      en: "No accounts, no tracking cookies, no analytics, no ads. Your settings and tool data stay in your own browser.",
-      bn: "কোনো অ্যাকাউন্ট নেই, ট্র্যাকিং কুকি নেই, অ্যানালিটিক্স নেই, বিজ্ঞাপন নেই। আপনার সেটিং ও টুলের তথ্য আপনার নিজের ব্রাউজারেই থাকে।",
+      en: "No accounts and no ads. We use Google Analytics to count visits; your settings and tool data stay in your own browser.",
+      bn: "কোনো অ্যাকাউন্ট নেই, বিজ্ঞাপন নেই। ভিজিট গোনার জন্য আমরা গুগল অ্যানালিটিক্স ব্যবহার করি; আপনার সেটিং ও টুলের তথ্য আপনার নিজের ব্রাউজারেই থাকে।",
     },
-    updated: "2026-11-02",
+    updated: "2026-11-09",
     body: {
       en: [
         { h: "The short version" },
-        { tip: "Food & Nutrition does not collect your personal data. We do not send anything you do on the site to a server." },
+        { tip: "We don't ask for your name or any account details. We use Google Analytics to understand how many people visit and which pages are useful. Your settings and tool data stay in your browser." },
         { h: "What we do not do" },
         { ul: [
           "No user accounts and no sign-up.",
-          "No cookies for tracking.",
-          "No analytics or visitor tracking.",
           "No advertising.",
           "No third-party requests for fonts or images — they are hosted on this site.",
         ] },
+        { h: "Analytics" },
+        { p: "This site uses Google Tag Manager and Google Analytics, which set cookies in your browser. They tell us which pages are visited, roughly which country or city visitors come from, what type of device and browser they use, and which site brought them here. This information is processed by Google under its privacy policy: https://policies.google.com/privacy" },
+        { p: "To opt out, you can block cookies for this site, use a content blocker, or install Google's opt-out add-on: https://tools.google.com/dlpage/gaoptout" },
         { h: "What is saved on your device" },
         { p: "To make the site easier to use, a few things are saved in your browser's localStorage. This stays only on your own device and is never sent to us:" },
         { ul: [
@@ -137,15 +138,16 @@ export const LEGAL = {
       ],
       bn: [
         { h: "সংক্ষেপে" },
-        { tip: "খাবার ও পুষ্টি আপনার কোনো ব্যক্তিগত তথ্য সংগ্রহ করে না। সাইটে আপনি যা করেন, তার কিছুই কোনো সার্ভারে পাঠানো হয় না।" },
+        { tip: "আমরা আপনার নাম বা অ্যাকাউন্টের কোনো তথ্য চাই না। কতজন সাইটে আসছেন ও কোন পাতাগুলো কাজে লাগছে, তা বুঝতে আমরা গুগল অ্যানালিটিক্স ব্যবহার করি। আপনার সেটিং ও টুলের তথ্য আপনার ব্রাউজারেই থাকে।" },
         { h: "আমরা যা করি না" },
         { ul: [
           "কোনো অ্যাকাউন্ট নেই, সাইন-আপও নেই।",
-          "ট্র্যাকিংয়ের জন্য কোনো কুকি নেই।",
-          "কোনো অ্যানালিটিক্স বা ভিজিটর ট্র্যাকিং নেই।",
           "কোনো বিজ্ঞাপন নেই।",
           "ফন্ট বা ছবির জন্য বাইরের কোনো সাইটে অনুরোধ যায় না — এগুলো এই সাইটেই রাখা।",
         ] },
+        { h: "অ্যানালিটিক্স" },
+        { p: "এই সাইটে গুগল ট্যাগ ম্যানেজার ও গুগল অ্যানালিটিক্স ব্যবহার করা হয়, যা আপনার ব্রাউজারে কুকি রাখে। এগুলো থেকে আমরা জানতে পারি কোন পাতাগুলো দেখা হচ্ছে, ভিজিটররা মোটামুটি কোন দেশ বা শহর থেকে আসছেন, কী ধরনের ডিভাইস ও ব্রাউজার ব্যবহার করছেন এবং কোন সাইট থেকে এসেছেন। এই তথ্য গুগল তার গোপনীয়তা নীতি অনুযায়ী প্রক্রিয়া করে: https://policies.google.com/privacy" },
+        { p: "এটি বন্ধ রাখতে চাইলে এই সাইটের কুকি ব্লক করতে পারেন, কনটেন্ট ব্লকার ব্যবহার করতে পারেন, অথবা গুগলের অপ্ট-আউট অ্যাড-অন ইনস্টল করতে পারেন: https://tools.google.com/dlpage/gaoptout" },
         { h: "আপনার ডিভাইসে যা সেভ থাকে" },
         { p: "সাইটটি ব্যবহার সহজ করতে কয়েকটি জিনিস আপনার ব্রাউজারের localStorage-এ সেভ থাকে। এগুলো শুধু আপনার নিজের ডিভাইসেই থাকে, আমাদের কাছে কখনো আসে না:" },
         { ul: [

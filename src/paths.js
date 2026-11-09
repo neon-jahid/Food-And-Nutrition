@@ -1,6 +1,6 @@
 /*
  * Single source of truth for public URLs.
- * Pure ESM (no JSX, no browser APIs) — imported by the app, react-router.config.js and build scripts.
+ * Pure ESM (no JSX, no browser APIs) — imported by the app, the route files and build scripts.
  *
  * All public pages live under a language prefix: /en/... and /bn/...
  * Paths below are written WITHOUT the prefix.

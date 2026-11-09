@@ -1,12 +1,13 @@
 /*
- * One .env reader for the whole build (vite.config.js and scripts/generate-seo.mjs),
+ * One .env reader for the whole build (next.config.mjs and scripts/generate-seo.mjs),
  * so the sitemap and the pages always agree on the site URL.
  *
- * Fixes two problems with plain parsing:
- *  - Windows editors (Notepad, PowerShell 5 Out-File) save a UTF-8 BOM, which hid the first key
- *    from both Vite and the old script → the site silently used the placeholder domain.
- *  - "KEY=value # comment" kept the comment in the sitemap script but not in Vite.
- * Files are read in Vite's order (later wins); real environment variables win over files.
+ * Handles what plain parsing gets wrong:
+ *  - Windows editors (Notepad, PowerShell 5 Out-File) save a UTF-8 BOM, which can hide the first
+ *    key → the site silently used the placeholder domain.
+ *  - "KEY=value # comment" must not keep the comment.
+ * The settings keep their VITE_ names so existing host configuration carries on working.
+ * Later files win; real environment variables win over files.
  */
 import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";

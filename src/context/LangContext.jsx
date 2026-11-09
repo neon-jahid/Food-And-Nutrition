@@ -1,10 +1,11 @@
+"use client";
+
 import { createContext, useCallback, useContext, useEffect, useMemo } from "react";
-import { useLocation, useNavigate } from "react-router";
 import { I18N, toLocaleDigits } from "../i18n.js";
 import { NUTRIENT_UNITS } from "../data/foods.js";
 import { stripLang, withLang } from "../paths.js";
 import { roundValue, storage } from "../utils.js";
-import { useUrlLang } from "../router.jsx";
+import { useLocation, useNavigate, useUrlLang } from "../router.jsx";
 
 const LangContext = createContext(null);
 

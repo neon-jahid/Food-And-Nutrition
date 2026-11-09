@@ -1,5 +1,5 @@
 /*
- * Runs before `react-router build`. Writes into public/:
+ * Runs before `next build`. Writes into public/:
  *   sitemap.xml  — every page in both languages, with hreflang alternates and page photos.
  *                  <lastmod> is only written where the real date is known (blog posts): a build
  *                  date on every URL is inaccurate, and search engines then ignore the field.

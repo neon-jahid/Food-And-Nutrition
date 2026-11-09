@@ -4,14 +4,26 @@
 
 | Command | What it does |
 |---|---|
-| `npm run dev` | Dev server with hot reload (`react-router dev`) |
-| `npm run build` | Writes sitemap/robots/redirects → prerenders every page to `build/client` → writes `404.html` |
-| `npm run preview` | Serves `build/client` like a static host (redirects + real 404) on http://localhost:4173 |
+| `npm run dev` | Dev server with hot reload (`next dev`) |
+| `npm run build` | Writes sitemap/robots/redirects → prerenders every page to `out` → writes `404.html` |
+| `npm run preview` | Serves `out` like a static host (redirects + real 404) on http://localhost:4173 |
 | `npm run test:data` | Data-integrity checks (food references, en/bn parity, Bangla digits, paths) |
 | `npm run test:e2e` | Playwright against the production build (uses installed Google Chrome) |
 | `npm test` | Both test suites |
 
-**Deploy:** upload `build/client` to any static host. Before building for production, copy `.env.example` to `.env` and set `VITE_SITE_URL`. `public/_redirects` (generated) holds the 301 rules in Netlify / Cloudflare Pages format; other hosts need the same rules in their own format.
+**Deploy:** upload `out` to any static host. Before building for production, copy `.env.example` to `.env` and set `VITE_SITE_URL`. `public/_redirects` (generated) holds the 301 rules in Netlify / Cloudflare Pages format; other hosts need the same rules in their own format.
+
+---
+
+## Migration to Next.js (2026-11-09)
+
+The site moved from React Router 7 + Vite to **Next.js 16 (App Router) with static export** (`output: "export"`). The sections below describe the earlier React Router setup and are kept as history.
+
+- **Routes** live in `src/app` (`[lang]` is the root layout; `(entry)` is the bare `/` page). Page components moved from `src/pages` to `src/views`, because Next treats a `pages` folder as its own router.
+- **`src/router.jsx`** keeps the same API for components (`Link`, `NavLink`, `useNavigate`, `useLocation`, `useSearchParams`, …), now built on Next. Query strings are read from the browser, not Next's `useSearchParams`, which would remove page content from the prerendered HTML.
+- **Foods** render from `app/[lang]/foods/layout.jsx` so that switching category doesn't remount the list.
+- **Server → client props** arrive as copies, so pass ids rather than data objects (see `PlantPage`).
+- **Output** is restructured by `scripts/postbuild.mjs` to `page/index.html`, and Vercel still serves plain static files. Settings keep their `VITE_` names so host configuration carries over.
 
 ---
 

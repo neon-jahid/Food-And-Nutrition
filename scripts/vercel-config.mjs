@@ -4,7 +4,7 @@
  *   node scripts/vercel-config.mjs          → rewrite vercel.json
  *   (scripts/check-data.mjs fails if the committed file is out of date)
  *
- * The site is fully prerendered (react-router.config.js: ssr:false), so Vercel serves build/client
+ * The site is fully prerendered (next.config.mjs: output "export"), so Vercel serves out/
  * as plain static files — framework detection is switched off on purpose.
  */
 import { writeFileSync } from "node:fs";
@@ -18,7 +18,7 @@ export function vercelConfig() {
     framework: null,
     installCommand: "npm ci",
     buildCommand: "npm run build",
-    outputDirectory: "build/client",
+    outputDirectory: "out",
     trailingSlash: false,
     redirects: [
       // ?lang=bn links go to the Bangla version; query-conditioned rules must come first
@@ -27,7 +27,7 @@ export function vercelConfig() {
       ...LANGS.flatMap(l => Object.entries(MOVED_PATHS).map(([a, b]) => ({ source: withLang(l, a), destination: withLang(l, b), permanent: true }))),
     ],
     headers: [
-      { source: "/assets/(.*)", headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }] },
+      { source: "/_next/static/(.*)", headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }] },
       { source: "/images/(.*)", headers: [{ key: "Cache-Control", value: "public, max-age=2592000" }] },
     ],
   };

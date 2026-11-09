@@ -6,7 +6,7 @@ import { createServer } from "node:http";
 import { existsSync, readFileSync, statSync } from "node:fs";
 import { extname, join, normalize } from "node:path";
 
-const ROOT = "build/client";
+const ROOT = "out";
 const PORT = Number(process.env.PORT || 4173);
 const TYPES = {
   ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".css": "text/css", ".json": "application/json",

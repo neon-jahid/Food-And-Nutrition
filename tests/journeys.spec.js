@@ -109,6 +109,16 @@ test("sitemap and robots are published", async ({ request }) => {
   expect(robots).toContain("Sitemap:");
 });
 
+test("analytics tag ships in the HTML but stays off on localhost", async ({ page, request }) => {
+  const html = await (await request.get("/en")).text();
+  expect(html).toContain("GTM-NHXRSKMF");
+  const gtm = [];
+  page.on("request", r => r.url().includes("googletagmanager.com") && gtm.push(r.url()));
+  await page.goto("/en");
+  await hydrated(page);
+  expect(gtm).toEqual([]);
+});
+
 test("pages carry structured data for their type", async ({ page }) => {
   const types = async path => {
     await page.goto(path);

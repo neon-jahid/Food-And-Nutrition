@@ -1,22 +1,31 @@
+"use client";
+
 /*
- * Language-aware routing helpers.
+ * Language-aware routing helpers, built on Next.js.
  *
  * Components link to unprefixed paths ("/foods/mango"); these wrappers add the current
- * language prefix ("/bn/foods/mango"). Import routing hooks from here, not from "react-router".
+ * language prefix ("/bn/foods/mango"). Import routing hooks from here, not from "next/navigation".
  */
-import { forwardRef, useCallback } from "react";
-import {
-  Link as RRLink,
-  NavLink as RRNavLink,
-  useLocation,
-  useNavigate as useRRNavigate,
-  useParams,
-} from "react-router";
+import { createContext, forwardRef, useCallback, useContext, useMemo, useSyncExternalStore } from "react";
+import NextLink from "next/link";
+import { useParams as useNextParams, usePathname as useNextPathname, useRouter } from "next/navigation";
 import { DEFAULT_LANG, LANGS, stripLang, withLang } from "./paths.js";
 
-export { Outlet, useLocation, useOutletContext, useParams, useSearchParams } from "react-router";
+/** State owned by the app shell (the compare list) and read by pages. */
+const OutletContext = createContext({});
+export const OutletProvider = OutletContext.Provider;
+export const useOutletContext = () => useContext(OutletContext);
 
-/** Current language from the URL (falls back to English outside the /:lang tree). */
+/** Route params; catch-all segments are reduced to their single value (/foods/[[...slug]]). */
+export function useParams() {
+  const params = useNextParams();
+  return useMemo(
+    () => Object.fromEntries(Object.entries(params || {}).map(([k, v]) => [k, Array.isArray(v) ? v[0] : v])),
+    [params],
+  );
+}
+
+/** Current language from the URL (falls back to the default outside the /[lang] tree). */
 export function useUrlLang() {
   const { lang } = useParams();
   return LANGS.includes(lang) ? lang : DEFAULT_LANG;
@@ -37,24 +46,111 @@ export function useLocalize() {
   return useCallback(to => localize(to, lang), [lang]);
 }
 
+/* ------------------------------------------------------------------ */
+/* Query string and hash                                                */
+/* ------------------------------------------------------------------ */
+
+// Read from the browser rather than Next's useSearchParams, which would turn every page that
+// uses it into client-only rendering and remove its content from the prerendered HTML.
+const urlListeners = new Set();
+let historyPatched = false;
+// deferred: Next calls pushState inside an insertion effect, where React forbids state updates
+const notifyUrl = () => queueMicrotask(() => urlListeners.forEach(fn => fn()));
+
+function subscribeUrl(fn) {
+  if (!historyPatched) {
+    historyPatched = true;
+    for (const method of ["pushState", "replaceState"]) {
+      const original = window.history[method];
+      window.history[method] = function patched(...args) {
+        const result = original.apply(this, args);
+        notifyUrl();
+        return result;
+      };
+    }
+    window.addEventListener("popstate", notifyUrl);
+    window.addEventListener("hashchange", notifyUrl);
+  }
+  urlListeners.add(fn);
+  return () => urlListeners.delete(fn);
+}
+
+function useUrlTail() {
+  // the prerendered HTML has no query or hash, so hydration starts from an empty value
+  const tail = useSyncExternalStore(subscribeUrl, () => window.location.search + window.location.hash, () => "");
+  const i = tail.indexOf("#");
+  return i === -1 ? { search: tail, hash: "" } : { search: tail.slice(0, i), hash: tail.slice(i) };
+}
+
+export function useLocation() {
+  const pathname = useNextPathname();
+  const { search, hash } = useUrlTail();
+  return useMemo(() => ({ pathname, search, hash }), [pathname, search, hash]);
+}
+
+export function useSearchParams() {
+  const { search } = useUrlTail();
+  const params = useMemo(() => new URLSearchParams(search), [search]);
+  // history API, not the router: filters change the URL without refetching or scrolling
+  const setParams = useCallback((next, { replace = false } = {}) => {
+    const qs = new URLSearchParams(next).toString();
+    const url = window.location.pathname + (qs ? `?${qs}` : "") + window.location.hash;
+    window.history[replace ? "replaceState" : "pushState"](null, "", url);
+  }, []);
+  return [params, setParams];
+}
+
+/* ------------------------------------------------------------------ */
+/* Links and navigation                                                 */
+/* ------------------------------------------------------------------ */
+
+// Next would not move the page when only content inside a shared layout changes (see FoodsRoute).
+let keepScrollOnce = false;
+if (typeof window !== "undefined") window.addEventListener("popstate", () => { keepScrollOnce = true; });
+
+/** True when the navigation that just happened should leave the scroll position alone. */
+export function consumeKeepScroll() {
+  const keep = keepScrollOnce;
+  keepScrollOnce = false;
+  return keep;
+}
+
 export const Link = forwardRef(function Link({ to, ...props }, ref) {
   const lang = useUrlLang();
-  return <RRLink ref={ref} to={localize(to, lang)} {...props} />;
+  // no background prefetching: a page can hold hundreds of food links
+  return <NextLink ref={ref} href={localize(to, lang)} prefetch={false} {...props} />;
 });
 
-export const NavLink = forwardRef(function NavLink({ to, end, ...props }, ref) {
+export const NavLink = forwardRef(function NavLink({ to, end, className, ...props }, ref) {
   const lang = useUrlLang();
+  const pathname = useNextPathname();
+  const href = localize(to, lang);
   // "/" maps to "/en" — must match exactly, not as a prefix of every page
-  return <RRNavLink ref={ref} to={localize(to, lang)} end={end ?? to === "/"} {...props} />;
+  const exact = end ?? to === "/";
+  const isActive = pathname === href || (!exact && pathname.startsWith(`${href}/`));
+  return (
+    <NextLink
+      ref={ref}
+      href={href}
+      prefetch={false}
+      aria-current={isActive ? "page" : undefined}
+      className={typeof className === "function" ? className({ isActive }) : className}
+      {...props}
+    />
+  );
 });
 
 export function useNavigate() {
-  const navigate = useRRNavigate();
+  const router = useRouter();
   const lang = useUrlLang();
-  return useCallback((to, opts) => (typeof to === "number" ? navigate(to) : navigate(localize(to, lang), opts)), [navigate, lang]);
+  return useCallback((to, opts = {}) => {
+    if (typeof to === "number") { router.back(); return; }
+    if (opts.preventScrollReset) keepScrollOnce = true;
+    router[opts.replace ? "replace" : "push"](localize(to, lang), { scroll: !opts.preventScrollReset });
+  }, [router, lang]);
 }
 
 /** Current pathname without the language prefix (for "is this nav item active?" checks). */
 export function usePathname() {
-  return stripLang(useLocation().pathname);
+  return stripLang(useNextPathname());
 }

@@ -1,5 +1,5 @@
 /*
- * Builds the <head> tags for a route (React Router `meta` export format).
+ * Builds the SEO data for a route: `metadata` (Next.js Metadata object) and `jsonLd`.
  * Every page gets: title, description, canonical, hreflang alternates (en, bn, x-default),
  * Open Graph, Twitter card and optional JSON-LD structured data.
  */
@@ -28,33 +28,33 @@ export function seo({ lang, path, title, description, image, type = "website", j
   const url = abs(withLang(l, path));
   const img = abs(image || SITE.ogImage);
 
-  const tags = [
-    { title: fullTitle },
-    { name: "description", content: desc },
-    { tagName: "link", rel: "canonical", href: url },
-    ...LANGS.map(x => ({ tagName: "link", rel: "alternate", hrefLang: x, href: abs(withLang(x, path)) })),
-    { tagName: "link", rel: "alternate", hrefLang: "x-default", href: abs(withLang(DEFAULT_LANG, path)) },
-    { property: "og:site_name", content: site },
-    { property: "og:type", content: type },
-    { property: "og:title", content: title || site },
-    { property: "og:description", content: desc },
-    { property: "og:url", content: url },
-    { property: "og:image", content: img },
-    { property: "og:image:alt", content: title || site },
-    // only the default share card has a known size; food and article photos vary
-    ...(image ? [] : [{ property: "og:image:width", content: "1200" }, { property: "og:image:height", content: "630" }]),
-    ...(published ? [{ property: "article:published_time", content: published }] : []),
-    { property: "og:locale", content: l === "bn" ? "bn_BD" : "en_US" },
-    { property: "og:locale:alternate", content: l === "bn" ? "en_US" : "bn_BD" },
-    { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:title", content: title || site },
-    { name: "twitter:description", content: desc },
-    { name: "twitter:image", content: img },
-  ];
-  // large previews matter on a photo-led site: without this, search can show thumbnails only
-  tags.push({ name: "robots", content: noindex ? "noindex" : "max-image-preview:large" });
-  for (const data of jsonLd) tags.push({ "script:ld+json": data });
-  return tags;
+  const metadata = {
+    title: { absolute: fullTitle },
+    description: desc,
+    alternates: {
+      canonical: url,
+      languages: {
+        ...Object.fromEntries(LANGS.map(x => [x, abs(withLang(x, path))])),
+        "x-default": abs(withLang(DEFAULT_LANG, path)),
+      },
+    },
+    openGraph: {
+      siteName: site,
+      type,
+      title: title || site,
+      description: desc,
+      url,
+      // only the default share card has a known size; food and article photos vary
+      images: [{ url: img, alt: title || site, ...(image ? {} : { width: 1200, height: 630 }) }],
+      locale: l === "bn" ? "bn_BD" : "en_US",
+      alternateLocale: l === "bn" ? "en_US" : "bn_BD",
+      ...(published ? { publishedTime: published } : {}),
+    },
+    twitter: { card: "summary_large_image", title: title || site, description: desc, images: [img] },
+    // large previews matter on a photo-led site: without this, search can show thumbnails only
+    robots: noindex ? "noindex" : "max-image-preview:large",
+  };
+  return { metadata, jsonLd };
 }
 
 /** BreadcrumbList JSON-LD from [[label, unprefixedPath], ...] (Home is added automatically). */
